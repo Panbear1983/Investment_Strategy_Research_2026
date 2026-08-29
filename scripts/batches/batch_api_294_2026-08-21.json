@@ -1,0 +1,23 @@
+{
+  "label": "API Batch 294 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "Koenig & Bauer AG (SKB.DE)",
+      "Country": "Germany",
+      "Industry": "先進機器人與包裝自動化",
+      "Tier": ""
+    }
+  ],
+  "records": [],
+  "failed": [],
+  "requeued": [
+    "Koenig & Bauer AG (SKB.DE)"
+  ],
+  "excluded": [],
+  "summary": {}
+}

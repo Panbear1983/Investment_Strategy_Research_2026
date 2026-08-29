@@ -1,0 +1,83 @@
+{
+  "label": "API Batch 367 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "Pullup Entertainment (ALPUL.PA)",
+      "Country": "France",
+      "Industry": "Platform Economy",
+      "Tier": ""
+    },
+    {
+      "Company": "ABB Ltd (ABB.ST)",
+      "Country": "Sweden",
+      "Industry": "先進機器人",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "France",
+      "Timeframe": "中長期",
+      "Sub-Sector": "AA級互動娛樂與遊戲發行",
+      "Industry": "數位娛樂與軟體服務",
+      "Tier": "潛力股",
+      "Company": "Pullup Entertainment (ALPUL.PA)",
+      "Capital/Market Cap": "約 7300萬歐元",
+      "Core Business": "以中大型（AA級）與獨立遊戲之發行與研發為核心，旗下劃分為 Focus Entertainment Publishing、Dotemu 及 Pullup Studios 三大支柱。其中 Pullup Studios 包含 Dovetail Games 等 7 家開發工作室。",
+      "Clients & Orders": "主要客戶為全球數位遊戲平台（包括 Steam、Epic Games Store、PlayStation Network、Xbox Live、Nintendo eShop），並與 Games Workshop 等版權所有者維持長期合作以取得遊戲開發授權。",
+      "Technical Moat": "具備深厚的中大型（AA級）遊戲全球發行與線上長線營運（Live-ops）能力，並在特定細分市場（如鐵路模擬、復古像素風動作遊戲等）擁有成熟的專有開發引擎與研發技術累積。",
+      "Revenue Breakdown": "2025/2026財年總營收為 2.814億歐元；其中經典舊作（Back Catalogue）營收達 1.89億歐元（佔 67.2%），新發行遊戲（New Releases）營收達 8230萬歐元（佔 29.2%），其他業務營收為 1010萬歐元（佔 3.6%）。",
+      "Gross Margin Profile": "歷史毛利率通常維持在 30% 至 40% 區間，但 2025/2026財年因部分新發行遊戲銷量不如預期並進行資產減損，導致毛利率下滑至約 20%，經營利潤高度倚賴高毛利的經典舊作長尾銷售。",
+      "Key Competitors": "主要競爭對手為歐洲中等規模之遊戲發行商與工作室控股集團，包含同屬法國的 Nacon、瑞典 Embracer Group 旗下的 Plaion 實體、英國的 Team17 與 Devolver Digital。",
+      "12M Catalysts": "未來 12 個月的催化劑包括旗艦遊戲《戰鎚40K：星際戰士2》與《模擬火車世界》系列的長線更新與付費資料片推出，以及全新作品《Roadcraft》和《Bradley the Badger》的發行表現。",
+      "Key Investment Risks": "新遊戲銷售不確定性高，2025/2026 財年淨虧損達 1290 萬歐元，且公司面臨約 8570 萬歐元的淨債務壓力，債務償還能力高度受限於營運現金流的穩定性。",
+      "CEO & Management": "由前 Ubisoft 高層 Geoffroy Sardin 自 2025 年 4 月起擔任執行長（CEO），主導集團重組與策略轉型，前執行長 Fabrice Larue 則轉任執行董事長（Executive Chairman）。",
+      "Core Patents & IP": "擁有《瘟疫傳說》、《雪地奔馳》、《模擬火車世界》等原創與收購系列 IP 的完整所有權，並持有《戰鎚40K：星際戰士2》與《原子之心》等知名第三方合作 IP 的全球發行與營運權利。",
+      "3-Year M&A": "2023年收購 Dovetail Games、Blackmill Games 及 Carpool Studio，並於 2024 年正式由 Focus Entertainment 更名為 Pullup Entertainment，2025年底將 Carpool Studio 的持股比重提高至 58.9%。",
+      "CapEx & Expansion": "資本支出主要用於內部工作室的遊戲研發專案與發行權利金預付，當前擴張策略偏向於優化現有三大業務支柱的協同效應，並加強經典舊作的 Live-ops 長線變現，而非進行大規模外部收購。",
+      "Geopolitical Exposure": "主要市場集中於美歐等西方成熟經濟體，地緣政治直接風險較低，但極易受到全球消費性支出放緩、匯率波動（歐元對美元）以及主流發行平台（如 Steam、Sony）分潤政策調整的影響。",
+      "M&A Potential": "中等至偏高，因具備完善的 AA 級遊戲發行管線與特定利基市場的優質 IP（如模擬類與復古街機），對尋求補充內容儲備的大型遊戲巨頭具有潛在的被收購價值。"
+    },
+    {
+      "Country": "Switzerland",
+      "Timeframe": "中長期",
+      "Sub-Sector": "先進機器人",
+      "Industry": "重電與工業自動化",
+      "Tier": "龍頭股",
+      "Company": "ABB Ltd (ABB.ST)",
+      "Capital/Market Cap": "約 1,800 億美元",
+      "Core Business": "主營電氣化、運動控制、過程自動化三大業務，提供中低壓配電、電機變頻器及工業控制系統。2026 年預計完成將機器人業務售予軟銀的交易，全面聚焦於高毛利的重電與工業自動化數位解決方案。",
+      "Clients & Orders": "主要客戶涵蓋全球大型數據中心（如微軟與 VoltaGrid）、公用事業與電網運營商、造船廠及製程重工業。2025 至 2026 年間，受益於 AI 數據中心高功耗電力基礎設施與智慧電網現代化，電力產品訂單量呈現爆發性成長。",
+      "Technical Moat": "擁有超過 2.8 萬項有效專利，以 ABB Ability™ 數位化平台為核心，並與微軟、NVIDIA 深度合作導入生成式 AI 及數位雙生技術。憑藉龐大裝機量與其『自動化延伸（Automation Extended）』服務，構建極高的客戶替換壁壘。",
+      "Revenue Breakdown": "2025 年總營收為 332.2 億美元。其中電氣化板塊約佔 45%，運動控制約佔 25%，過程自動化約佔 23%，而預計於 2026 年完成出售的機器人業務（已列為停業部門）則佔約 7%（營收 23 億美元）。",
+      "Gross Margin Profile": "毛利率穩定維持在 40.1% 至 41.1% 區間，展現強大的產品定價權與軟體整合效益。2025 年營運 EBITA 利潤率達 19.0%，2026 年管理層將營運 EBITA 利潤率目標區間進一步調升至 18% 至 22%。",
+      "Key Competitors": "電氣與自動化領域的主要對手包括西門子（Siemens）、施耐德電機（Schneider Electric）與伊頓（Eaton）。在即將出售的機器人業務中，主要對手為發那科（Fanuc）、安川電機（Yaskawa）與庫卡（Kuka）。",
+      "12M Catalysts": "預計於 2026 年下半年完成以 53.75 億美元向軟銀出售機器人業務，將帶來約 48 億美元淨現金流入。同時，宣佈以約 55 億美元收購流量控制龍頭 Rotork，若在未來 12 個月內順利完成，將大幅擴大過程自動化板塊規模。",
+      "Key Investment Risks": "全球製造業與建築市場復甦遲緩恐壓抑電機需求，且銅、鋼等原材料價格與半導體供應鏈波動將帶來成本壓力。此外，收購 Rotork 與剝離機器人業務的龐大資產重組面臨整合與執行風險。",
+      "CEO & Management": "執行長 Morten Wierod 自 2024 年 8 月上任以來，致力深化『ABB Way』去中心化營運模式以提升靈活性。管理層在 2025-2026 年期間大膽執行資產剝離與併購，重塑集團聚焦電氣化與工業自動化的核心策略。",
+      "Core Patents & IP": "在全球擁有超過 2.8 萬項專利，2025 年研發投入達 13.18 億美元（約佔營收 4%）。近半數研發人員專注於軟體與數位化，持續在工業軟體與生成式 AI 助手（如 Genix Copilot）領域擴展智財權壁壘。",
+      "3-Year M&A": "2024-2026 年間積極進行技術補強型併購，如收購 Advantics（碳化矽功率轉換）、Specialtrasfo（特種變壓器）等。最大戰略舉措為 2025 年宣佈出售機器人業務予軟銀，以及 2026 年 7 月宣佈以 55 億美元收購 Rotork。",
+      "CapEx & Expansion": "2025 年資本支出約 10.01 億美元。落實『在地化生產』，2025-2026 年間在美國投資逾 2.3 億美元擴建田納西州與密西西比州等地的電氣化設備工廠，2026 年亦投資 7,500 萬美元擴張印度的研發與生產基地。",
+      "Geopolitical Exposure": "業務遍及全球，美中地緣政治緊張與技術出口管制可能增加供應鏈與合規成本。儘管美歐智慧電網與碳中和政策利好其業務，但全球供應鏈去中心化與脫鉤風險仍對其全球化採購模式構成挑戰。",
+      "M&A Potential": "隨著出售機器人業務回籠約 48 億美元，加上集團高達 140 億美元的併購資金儲備，除進行中的 Rotork 收購案外，未來將持續在智慧電網、碳化矽功率轉換與工業數位化軟體等高成長板塊尋求戰略併購目標。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 367 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "Pullup Entertainment (ALPUL.PA)",
+      "ABB Ltd (ABB.ST)"
+    ],
+    "unmatched": [],
+    "rows_exported": 2376
+  }
+}

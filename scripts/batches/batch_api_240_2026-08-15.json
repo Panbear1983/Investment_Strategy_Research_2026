@@ -1,0 +1,24 @@
+{
+  "label": "API Batch 240 (new, claude)",
+  "source": "new",
+  "provider": "claude",
+  "providers_used": [
+    "claude",
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "Lilium N.V. (LILM)",
+      "Country": "Netherlands",
+      "Industry": "航太",
+      "Tier": ""
+    }
+  ],
+  "records": [],
+  "failed": [],
+  "requeued": [],
+  "excluded": [
+    "Lilium N.V. (LILM)"
+  ],
+  "summary": {}
+}

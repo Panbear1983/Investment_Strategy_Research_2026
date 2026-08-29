@@ -1,0 +1,53 @@
+{
+  "label": "API Batch 298 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "Koenig & Bauer AG (SKB.DE)",
+      "Country": "Germany",
+      "Industry": "先進機器人與包裝自動化",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "Germany",
+      "Timeframe": "中長期",
+      "Sub-Sector": "先進機器人與包裝自動化",
+      "Industry": "包裝與印刷機械製造",
+      "Tier": "隱形冠軍",
+      "Company": "Koenig & Bauer AG (SKB.DE)",
+      "Capital/Market Cap": "約 1.5億歐元",
+      "Core Business": "專注於包裝印刷與特殊印刷機械製造，主要產品包括用於包裝的特殊平版印刷機、數位與輪轉印刷系統。此外，公司在鈔票與安全防偽印刷領域具有全球領先地位，亦提供玻璃、金屬罐與編碼標記等包裝自動化解決方案。",
+      "Clients & Orders": "客戶涵蓋全球大型包裝製造商、商業印刷商以及各國政府與中央銀行（安全防偽印刷）。2026年上半年訂單需求強勁，訂單流入量增長16.9%至7.093億歐元，使未出貨訂單積壓創下歷史新高，超過11億歐元。",
+      "Technical Moat": "擁有業界領先的高精度機械工程與基材輸送控制技術（如帶吸氣孔的滾筒設計）。在防偽領域掌握磁性油墨定向與光學可變防偽特徵的專利技術，並整合AI預測性維護與數位工作流程以提升包裝生產線自動化水準。",
+      "Revenue Breakdown": "2025年起重組為兩大部門：紙張與包裝張頁紙系統（P&P）營收達7.415億歐元，約佔57%；特殊與新技術（S&T）營收達5.960億歐元，約佔43%。",
+      "Gross Margin Profile": "2025年毛利達3.406億歐元，毛利率約為26.2%。公司在「IMPACT」戰略計畫推動下，將利潤率指標轉向營運EBITDA，並將中期營運EBITDA利潤率目標設定為至少8%。",
+      "Key Competitors": "主要競爭對手包括瑞士的博斯特集團（Bobst Group）、德國的海德堡印刷機械（Heidelberger Druckmaschinen）、日本的小森公司（Komori）以及蘭達數位印刷（Landa Digital Printing）。",
+      "12M Catalysts": "未來12個月的催化劑包括「IMPACT」戰略計畫在精簡組織與降本增效方面的初步成果，以及針對編碼子公司（Koenig & Bauer Coding）等非核心業務戰略評估的最終決策。",
+      "Key Investment Risks": "面臨全球宏觀經濟波動導致包裝與印刷廠資本支出放緩的風險，同時傳統印刷市場的結構性萎縮以及重組計畫（如2026年初關閉Albert-Frankenthal工廠）的執行成本亦可能壓抑短期獲利。",
+      "CEO & Management": "現任執行長為 Stephen Kimmich 博士，他於2025年中接替 Andreas Pleßke 博士，負責帶領公司推動「IMPACT」轉型戰略以提升運營韌性與獲利能力。",
+      "Core Patents & IP": "持有大量防偽印刷的核心專利，包括用於生產光學可變防偽圖像的磁性粒子定向系統，以及張頁紙印刷中的新型乾燥固化單元與基材吸附處理專利技術。",
+      "3-Year M&A": "近三年併購活動較為溫和，主要側重於投資組合的精簡與結構優化，包括2025年啟動對編碼部門的戰略審查、精簡柔版印刷業務，以及在2026年初關閉不具效益的Albert-Frankenthal生產線。",
+      "CapEx & Expansion": "資本支出重點已從產能擴張轉向數位化轉型與現有生產據點的效率優化。公司嚴格控制資本支出，旨在降低負債並配合「IMPACT」戰略提高工廠的資產回報率。",
+      "Geopolitical Exposure": "對全球貿易關係與歐洲能源成本敏感度高，且其高利潤的安全防偽印刷業務高度依賴各國政府的合約，容易受到地緣政治局勢變化或地區動盪的衝擊。",
+      "M&A Potential": "由於目前的戰略重點是降槓桿與業務重組，因此主動發起大規模併購的可能性較低。相反地，精簡非核心業務（如出售編碼業務）的潛在剝離與重組機會較高。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 298 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "Koenig & Bauer AG (SKB.DE)"
+    ],
+    "unmatched": [],
+    "rows_exported": 2058
+  }
+}

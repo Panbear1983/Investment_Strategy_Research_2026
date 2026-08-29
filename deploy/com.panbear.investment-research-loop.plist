@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.panbear.investment-research-loop</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>/Users/peter/GitHub/Investment_Strategy_Research_2026/scripts/run_research_loop.sh</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>/Users/peter/GitHub/Investment_Strategy_Research_2026</string>
+  <key>RunAtLoad</key>
+  <true/>
+
+  <!-- The loop is meant to run forever, so any exit is abnormal and should respawn.
+       The singleton flock is released by the kernel on death, so restarts are clean. -->
+  <key>KeepAlive</key>
+  <true/>
+
+  <!-- claim_due_slot allows a 5-minute grace window, so a crash at a slot boundary
+       must be recovered inside it or the slot is forfeited. 60s lands well inside. -->
+  <key>ThrottleInterval</key>
+  <integer>60</integer>
+
+  <!-- Must stay scripts/loop.log: dashboard.py scans it for "Next slot ..." and
+       "Slot skipped: ..." lines. launchd appends, matching the old nohup >> form. -->
+  <key>StandardOutPath</key>
+  <string>/Users/peter/GitHub/Investment_Strategy_Research_2026/scripts/loop.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/peter/GitHub/Investment_Strategy_Research_2026/scripts/loop.log</string>
+
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>/Users/peter/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+  </dict>
+</dict>
+</plist>

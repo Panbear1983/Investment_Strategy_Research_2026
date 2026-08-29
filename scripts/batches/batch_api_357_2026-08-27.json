@@ -1,0 +1,151 @@
+{
+  "label": "API Batch 357 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "Seatrium (S51.SI)",
+      "Country": "Singapore",
+      "Industry": "航運",
+      "Tier": ""
+    },
+    {
+      "Company": "Sinch AB (SINCH.ST)",
+      "Country": "Sweden",
+      "Industry": "平台經濟",
+      "Tier": ""
+    },
+    {
+      "Company": "Yangzijiang Shipbuilding (BS6.SI)",
+      "Country": "Singapore",
+      "Industry": "航運",
+      "Tier": ""
+    },
+    {
+      "Company": "Keppel Ltd (BN4.SI)",
+      "Country": "Singapore",
+      "Industry": "平台經濟",
+      "Tier": ""
+    },
+    {
+      "Company": "iX Biopharma (42C.SI)",
+      "Country": "Singapore",
+      "Industry": "生技新藥",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "Singapore",
+      "Timeframe": "中長期",
+      "Sub-Sector": "離岸風電與海工裝備",
+      "Industry": "海洋工程與船體建造",
+      "Tier": "龍頭股",
+      "Company": "Seatrium Limited (S51.SI)",
+      "Capital/Market Cap": "約 72億新元",
+      "Core Business": "提供離岸鑽井平台設計與建造、離岸風電浮式基礎與升壓站建設、FPSO/FPU等浮式生產系統轉換，以及各類特種船舶與主流商船的維修與改裝服務。",
+      "Clients & Orders": "截至2026年上半年手握約133億新元淨訂單，核心客戶包括Petrobras、Shell、Equinor等全球能源巨頭，並積極爭取逾32億新元的潛在專案管道。",
+      "Technical Moat": "獨創「One Seatrium」全球交付模式實現跨區域船廠協同，並透過導入5G、AI及AR技術建構智慧船廠使現場工時減少高達30%；此外，公司擁有Sevan Marine圓筒形FPSO等獨家設計與豐富專利。",
+      "Revenue Breakdown": "2026年上半年營收達56.2億新元，其中以油氣板塊為主要增長引擎，佔比約75%（營收42億新元），離岸風電佔比約16%（營收9億新元），其餘為船舶維修與日常運營。",
+      "Gross Margin Profile": "2026年上半年毛利率提升至8.6%（去年同期為7.4%），得益於利潤率較低的歷史遺留專案比重大幅降至約1%，以及高毛利的系列化建造（Series Build）專案佔比提升與成本控制。",
+      "Key Competitors": "全球主要對手包括韓國的三星重工、HD現代重工、韓華海洋（原大宇造船），以及中國的中遠海運重工與新加坡上市的揚子江船業。",
+      "12M Catalysts": "預期取得32億新元管道中的大型離岸風電升壓站或巴西FPSO新訂單，歷史遺留低毛利專案在2026下半年徹底結案使利潤率進一步釋放，以及強勁自由現金流支持下可能重啟派息或被納入重要全球指數。",
+      "Key Investment Risks": "全球能源轉型速度放緩導致離岸風電建設專案延期，大型客製化海工專案的設計變更或施工延誤導致超支風險，以及固定價格合約下面臨原材料價格與勞動力成本上漲的通膨壓力。",
+      "CEO & Management": "執行董事兼執行長（CEO）為黃倫優（Chris Ong Leng Yeow，前Keppel O&M執行長），董事會主席為Mark Gainsborough。",
+      "Core Patents & IP": "擁有Sevan Marine的圓筒形浮式生產儲卸油裝置（FPSO）獨家設計產權，以及FELS、LeTourneau、Baker Marine等歷史品牌的自升式鑽井平台專利，並開發了SeaDC浮式數據中心與SWACH風電基礎等前瞻綠能設計。",
+      "3-Year M&A": "2023年初完成勝科海事（Sembcorp Marine）與吉寶岸外與海事（Keppel O&M）的里程碑式合併以重組為Seatrium，隨後收購Wave Hub以強化離岸風電佈局，並於2025-2026年出售非核心拖船船隊等資產以優化資本結構。",
+      "CapEx & Expansion": "採取紀律化的資本開支策略（2026年上半年開支為5200萬新元），重點投資於現有船廠的智慧化升級（5G、機器人與數位孿生）與綠色低碳技術研發，而非擴張物理廠房面積。",
+      "Geopolitical Exposure": "受惠於歐洲能源安全去風險化及中東、南美海上探勘的強勁需求，但容易受到地緣政治局勢（如紅海危機等航道受阻）影響供應鏈，且在巴西等主要市場面臨嚴格的本土化比例（Local Content）合規要求。",
+      "M&A Potential": "未來偏向進行綠色能源與碳捕集、氫能/氨能運輸儲存等技術領域的小型技術性併購或成立合資公司，同時持續剝離非核心邊際資產以保持輕資產和高流動性。"
+    },
+    {
+      "Country": "Sweden",
+      "Timeframe": "中長期",
+      "Sub-Sector": "CPaaS雲端通訊",
+      "Industry": "平台經濟",
+      "Tier": "龍頭股",
+      "Company": "Sinch AB (SINCH.ST)",
+      "Capital/Market Cap": "約 317 億瑞典克朗 (約 34 億美元)",
+      "Core Business": "提供全球雲端通訊平台服務 (CPaaS)，整合簡訊 (SMS)、電子郵件、語音與 WhatsApp 等全通路 API，協助企業實現自動化客服與用戶互動。公司近年積極發展 Agentic AI 技術，推出語音中繼 (Voice Relay) 與智慧對話工具，加速企業向生成式 AI 通訊轉型。",
+      "Clients & Orders": "全球客戶數超過 15 萬家，涵蓋 Google、Uber 等頂級科技巨頭與跨國企業，每年處理超過 9,000 億次用戶互動。隨著 iOS 系統全面支持 RCS 訊息，來自跨國科技平台與大型零售商的對話式商務訂單持續成長。",
+      "Technical Moat": "核心護城河為其「超級網路」(Super Network)，與全球超過 600 家行動電信運營商建立直接連接，提供極低延遲與高可靠性的訊息路由。結合收購 Pathwire 獲得的頂尖電子郵件傳遞架構，以及自主研發的 AI 驅動反欺詐與身份驗證技術，構築高轉換率與高安全性的技術壁壘。",
+      "Revenue Breakdown": "2025年全年淨銷售額達 270.8 億瑞典克朗，其中美洲市場 (Americas) 為最大收入來源，貢獻約 66% 的毛利；其次為歐洲、中東及非洲地區 (EMEA) 與亞太地區 (APAC)。以產品線劃分，API 通訊平台 (API Platform) 的簡訊與電子郵件為核心成長引擎，而網路語音通訊收入則相對平穩。",
+      "Gross Margin Profile": "2025 年全年毛利率約為 36.5%，毛利達 94.26 億瑞典克朗。2026 年第二季因亞太地區業務調整、歐洲舊產品流失以及無毛利代收通道費佔比增加，單季毛利率略微下滑至 34%，公司正透過營運優化與推廣 AI 加值服務以期穩定利潤率。",
+      "Key Competitors": "主要全球競爭對手包括行業龍頭 Twilio、被愛立信收購的 Vonage，以及未上市的巨頭 Infobip；其他中小型競爭對手包括 MessageBird、Bandwidth 與 Route Mobile 等。",
+      "12M Catalysts": "未來 12 個月的催化劑包括預計於 2026 年底前完成的正式 CEO 遴選與交接，以及蘋果 iOS 18 之後全面普及 RCS 簡訊帶來的企業級富媒體升級浪潮。此外，新推出的 Agentic Conversations AI 語音與對話平台在大客戶間的擴大採用，也將成為推動高毛利加值服務成長的關鍵。",
+      "Key Investment Risks": "主要投資風險在於電信運營商通道費用上漲導致毛利率進一步承壓，以及 CPaaS 行業價格競爭激烈侵蝕利潤。此外，過去大規模併購產生的債務利息負擔，以及亞太與歐洲等部分地區業務成長放緩，亦對公司營運資金構成壓力。",
+      "CEO & Management": "自 2026 年 6 月起由原財務長 Jonas Dahlberg 擔任代理執行長 (Acting CEO)，接替於同年 5 月宣布辭職的前執行長 Laurinda Pang。技術研發與產品方向則由技術長 (CTO) Brett Scorza 及產品長 (CPO) Daniel Morris 共同主導。",
+      "Core Patents & IP": "擁有涵蓋電話號碼驗證、多通道訊息路由及 IP 語音傳輸的豐富專利組合，並在美國與歐洲多國獲准專利。同時持有 Pathwire 旗下核心電子郵件遞送引擎 IP 與多項基於 AI 的對話式通訊與詐騙過濾商標產權。",
+      "3-Year M&A": "在 2023 至 2026 年間，公司並無重大外部企業收購案，併購策略由先前的激進擴張轉為內部整合與債務去槓桿。資金用途轉向買回自家股票，於 2026 年 7 月宣布實施最高達已發行股份 10% 的股票回購計畫以優化資本結構。",
+      "CapEx & Expansion": "採用輕資產 (Asset-light) 營運模式，資本支出 (CapEx) 佔營收比例極低，主要投資於雲端軟體平台開發、AI 語音通訊技術與電信商連接網路的優化。地理擴張重點放在提升美洲高毛利客戶的滲透率，並逐步汰除亞太與歐洲的低效能舊款服務線。",
+      "Geopolitical Exposure": "業務遍及全球，極易受各國不同電信監管法規的影響，如歐盟 GDPR 隱私法規、美國 FCC 的通信監管以及各國對跨境簡訊與反垃圾郵件的審查。美洲市場的高利潤佔比使其對美國總體經濟波動與利率政策具有高度敏感性。",
+      "M&A Potential": "作為收購方的潛力較低，因其目前專注於去槓桿及股票回購；但作為被收購目標的潛力為中等偏高。鑑於其強大的全球「超級網路」基礎設施與穩定現金流，不排除未來成為大型私募股權基金或尋求整合通訊版圖的電信/科技巨頭的潛在併購對象。"
+    },
+    {
+      "Country": "Singapore",
+      "Timeframe": "中長期",
+      "Sub-Sector": "實質資產與基礎設施資產管理平台",
+      "Industry": "平台經濟",
+      "Tier": "龍頭股",
+      "Company": "Keppel Ltd (BN4.SI)",
+      "Capital/Market Cap": "約 205 億新加坡元",
+      "Core Business": "吉寶有限公司（Keppel Ltd）已成功從傳統的造船與房地產企業，轉型為全球實質資產管理與營運商。公司聚焦於三大核心平台：基礎設施（綠色能源與環境工程）、房地產（永續城市更新）及數位互聯（數據中心與光纖網路）。",
+      "Clients & Orders": "主要客戶包括大型雲端服務商（數據中心託管）、政府機構（廢棄物發電與區域冷卻系統）以及企業與個人電信用戶（M1行動網路）。在基礎設施領域，公司透過長期電力採購協議（PPA）與運維合約鎖定穩定收益，並透過管理高達 1,060 億新加坡元的資產規模（FUM）賺取經常性管理費。",
+      "Technical Moat": "吉寶結合了「資產管理」與「工程營運」的雙重能力（即 Operational Alpha），能自行開發並營運複雜的實質資產。公司在區域冷卻系統、廢棄物發電（Keppel Seghers）及高效率綠色數據中心擁有自主技術，並與殼牌（Shell）合作進行浸沒式液冷技術的先導測試。",
+      "Revenue Breakdown": "根據 2025 財年報告，吉寶總營收約為 59.83 億新加坡元。其中，基礎設施（Infrastructure）為最大營收來源，貢獻約 69%（41.32 億新加坡元）；數位互聯（Connectivity）佔 15.6%（9.34 億新加坡元）；企業與其他業務佔 11.7%（7.0 億新加坡元）；房地產（Real Estate）佔 3.6%（2.16 億新加坡元）。",
+      "Gross Margin Profile": "2025 財年公司的毛利率約為 28.7%，營業利益率達 22.02%，反映了向輕資產管理模式轉型後的獲利能力改善。隨著經常性服務費與管理費營收佔比提高，核心業務的利潤率預期將持續優化，但非核心資產（如遺留鑽油平台）的減損仍對集團淨利率造成波動。",
+      "Key Competitors": "在綠色能源與基礎設施領域的主要競爭對手為勝科工業（Sembcorp Industries, BN1.SI）；在房地產與基金管理領域為凱德投資（CapitaLand Investment, 9CI.SI）。在全球實質資產與基礎設施基金管理市場，則與 Brookfield、Macquarie 及 Blackstone 等國際巨頭競爭。",
+      "12M Catalysts": "每年 20 億至 30 億新加坡元的資產套現計畫持續推進，特別是遺留鑽油平台的處置與回款。前星展集團（DBS）執行長高博德（Piyush Gupta）於 2026 年 4 月正式接任非執行主席，預期帶來深厚的金融網絡。於 2026 年 5 月投產的 600MW 吉寶薩克拉科根（Sakra Cogen）氫氣共燃發電廠以及 Bifrost 海底光纜系統開始貢獻全面營收。",
+      "Key Investment Risks": "中國房地產市場持續低迷，可能延緩公司在中國的房地產資產套現與更新進度。利率長期維持高位將增加基金籌資難度，並推升實質資產的融資成本與資本化率。非核心資產組合（如遺留鑽油平台）的潛在進一步資產減損，可能如同 2026 年上半年般持續壓低集團的帳面淨利。",
+      "CEO & Management": "執行長盧振華（Loh Chin Hua）自 2014 年起掌舵，是吉寶向輕資產與資產管理模式轉型的核心推手。此外，前星展集團（DBS）執行長高博德（Piyush Gupta）於 2025 年 7 月加入董事會擔任副主席，並於 2026 年 4 月升任主席，為集團全球擴張注入新動力。",
+      "Core Patents & IP": "吉寶在其子公司吉寶西格斯（Keppel Seghers）下擁有多項領先的垃圾焚化發電（WTE）專利與系統設計技術。同時，公司在區域冷卻系統（DCS）的節能控制演算法、浮動式數據中心（FDC）的模組化冷卻設計上擁有獨家智慧財產權。",
+      "3-Year M&A": "2023 年完成吉寶岸外與海事（Keppel O&M）與勝科海事的合併（現為海庭 Seatrium），剝離傳統重工業。2024 年 4 月完成收購歐洲頂級房地產投資管理公司 Aermont Capital 的 50% 股權，預計 2028 年完成剩餘 50% 收購。2023 年收購 Aether Investment Partners 以強化其在私募信貸與另類資產的投資能力。",
+      "CapEx & Expansion": "主要資本支出集中於 600MW 氫氣共燃發電廠（Sakra Cogen Plant，已於 2026 年完工投產）以及跨太平洋 Bifrost 海底光纜。擴張目標為在 2030 年前將資產管理規模（FUM）提升至 2,000 億新加坡元，重點拓展歐洲與澳洲的綠色基礎設施與高密度數據中心。",
+      "Geopolitical Exposure": "地緣政治風險主要來自中美摩擦對跨國海底光纜（Bifrost）營運許可的潛在影響，以及對全球機構資金籌集的干擾。吉寶正積極降低中國住宅地產暴險，並透過收購 Aermont 來分散投資組合至歐洲等已開發市場。",
+      "M&A Potential": "極具潛力收購中小型、具備特定技術或區域優勢的綠色能源、數位基礎設施或私募信貸資產管理團隊，以加速實現 2030 年 2,000 億新加坡元的 FUM 目標。此外，2028 年收購 Aermont Capital 剩餘 50% 股權的計畫已明確，將是未來關鍵併購項目。"
+    },
+    {
+      "Country": "Singapore",
+      "Timeframe": "中長期",
+      "Sub-Sector": "生技新藥",
+      "Industry": "特色生技製藥",
+      "Tier": "潛力股",
+      "Company": "iX Biopharma (42C.SI)",
+      "Capital/Market Cap": "約 4.69 億新加坡元",
+      "Core Business": "主要開發與商業化基於其專利 WaferiX 舌下快速溶解晶片技術的創新藥物與保健品。核心產品線涵蓋用於疼痛管理的 Wafermine、BnoX 以及 Entity Health 品牌的保健品。",
+      "Clients & Orders": "2026 年 2 月獲得美國國防部（DoD）4,095 萬美元的獨家開發合約，支持其核心新藥 Wafermine 的第三期臨床試驗。旗下保健品與藥品亦銷往澳洲、中國與美國的經銷商及終端消費者。",
+      "Technical Moat": "擁有專利的 WaferiX 舌下凍乾晶片技術，能使活性成分在舌下快速溶解並由口腔黏膜直接吸收，避開肝臟首渡效應以提高生物利用度。該技術已在全球五大洲取得廣泛的專利保護。",
+      "Revenue Breakdown": "2026 財年總營收為 685 萬新元，其中醫療大麻業務營收為 347 萬新元（約佔 50.7%），美國市場營收因國防部合約大幅增長至 198 萬新元（約佔 28.9%），其餘為保健品等收入。",
+      "Gross Margin Profile": "2026 財年整體毛利率顯著提升至 36%（2025 財年為 26%），主要得益於向高毛利的美國市場與產品組合轉型，其中 2026 財年第四季毛利率更達到 48%。",
+      "Key Competitors": "在口腔黏膜與舌下給藥技術領域的競爭對手包括 ARx Pharma、Vivera (TABMELT) 及 BioNxt Solutions 等；在美國舌下氯胺酮（Ketamine）市場上，則面臨 Mindbloom、Joyous 等遠距醫療平台的競爭。",
+      "12M Catalysts": "未來 12 個月的主要催化劑包括美國國防部資助之 Wafermine 第三期臨床試驗的關鍵進展，以及與 Orion Specialty Labs 在美國內華達州合資設立的 503B 調配藥局製造與商業化項目的正式啟動。",
+      "Key Investment Risks": "面臨新藥研發臨床試驗失敗或未能取得美國 FDA 批准的法規風險，以及將生產設備從澳洲 Croydon 搬遷至美國內華達州的營運執行風險；此外，公司目前仍處於虧損狀態（2026 財年淨虧損 799 萬新元）面臨現金流壓力。",
+      "CEO & Management": "由創辦人、董事長兼執行長李奕賢（Eddy Lee）領導，他擁有超過 30 年的企業與財務管理經驗，是推動該公司 WaferiX 技術開發、商業化轉型及美國市場擴張的核心人物。",
+      "Core Patents & IP": "擁有核心技術 WaferiX（一種快速溶解的固體劑型）的全球專利，保護範圍涵蓋美國（USPTO 專利號 10,744,086）、歐盟、中國、日本和澳洲等主要市場，確保其舌下給藥技術的排他性。",
+      "3-Year M&A": "2026 年 5 月將旗下消費者健康資產與 WaferiX 配方整合至新子公司 Ligo Pharma，以利於進行策略性融資與合資；同時與美國內華達州的 Orion Specialty Labs 及 GLD Partners 推進合資公司（JV）談判。",
+      "CapEx & Expansion": "為滿足美國國防部合約之在地生產要求（Buy American Act），公司正將澳洲工廠的冷凍乾燥等核心生產設備搬遷至美國內華達州的 503B 設施。此資本支出與擴張計畫由 2025 年底及 2026 年初的股權私募資金（籌得超過 500 萬新元）支應。",
+      "Geopolitical Exposure": "主要地緣政治風險源於美國國防部合約對本土製造的嚴格法規要求，促使公司將生產重心轉移至美國以規避潛在的進口關稅及限制。整體業務受亞太與美國之間貿易與法規政策變化的影響較高。",
+      "M&A Potential": "具有較高的授權（Licensing）與被收購潛力，其專利 WaferiX 平台對尋求劑型改良的跨國大藥廠極具吸引力。此外，新成立的 Ligo Pharma 實體也為未來分拆上市（如納斯達克）或引進外部策略投資人提供了高度彈性。"
+    }
+  ],
+  "failed": [],
+  "requeued": [
+    "Yangzijiang Shipbuilding (BS6.SI)"
+  ],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 357 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "Seatrium Limited (S51.SI)",
+      "Sinch AB (SINCH.ST)",
+      "Keppel Ltd (BN4.SI)",
+      "iX Biopharma (42C.SI)"
+    ],
+    "unmatched": [],
+    "rows_exported": 2295
+  }
+}

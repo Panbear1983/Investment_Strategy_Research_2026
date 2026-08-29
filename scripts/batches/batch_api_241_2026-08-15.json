@@ -1,0 +1,62 @@
+{
+  "label": "Maintenance Batch 241 (maintenance, gemini)",
+  "source": "maintenance",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "M3, Inc. (2413.T)",
+      "ticker": "2413.T",
+      "Country": "Japan",
+      "Tier": "龍頭股",
+      "values": {
+        "Country": "Japan",
+        "Timeframe": "中長期",
+        "Sub-Sector": "醫療數位平台與生技IT",
+        "Industry": "Platform Economy",
+        "Tier": "龍頭股",
+        "Company": "M3, Inc. (2413.T)",
+        "Capital/Market Cap": "約 1.09兆日圓 (約 67.6億美元)",
+        "Core Business": "營運日本最大醫生專業入口網站 m3.com，提供製藥業數位行銷（MR-kun 虛擬醫藥代表）、臨床試驗招募（Evidence Solution）、醫療人力媒合（Career Solution）及國際醫療平台服務。",
+        "Clients & Orders": "主要客戶為國內外大型製藥企業（如武田製藥、第一三共、輝瑞等）、醫療檢驗與合約研究組織（CRO）、醫療機構及尋求轉職的醫師與藥師，訂單多為長期行銷推廣服務與臨床試驗委託案。",
+        "Technical Moat": "擁有日本超過90%（32萬名以上）及全球超過700萬名註冊醫師的龐大高度信任資料庫，形成強大的雙邊網路效應與高黏著度，是藥廠進行數位行銷與學術推廣不可或缺的龍頭平台。",
+        "Revenue Breakdown": "以 2025-2026 年度來看，醫療平台（Medical Platform）為最大營收與利潤來源，其次為臨床試驗支持的臨床證據解決方案（Evidence Solution）、醫療人力資源（Career Solution）及海外（Overseas）與現場解決方案（Site Solution）。",
+        "Gross Margin Profile": "毛利率長期維持在約 50% 的高水準；營業利益率則保持在 20% 至 22% 之間，顯示其數位平台高經營槓桿特性，但近期受疫後實體推廣復甦與研發投資增加而使利潤率略微承壓。",
+        "Key Competitors": "日本國內主要競爭對手包括 Medpeer (6094.T) 及 CareNet (2150.T)；全球市場主要競爭者則為美國的 Doximity (DOCS.US)。",
+        "12M Catalysts": "生成式 AI（Generative AI）深度導入臨床工作流程以提升醫生效率、海外業務（特別是美國與印度市場）的復甦與高成長、以及數位病歷與養老介護 DX 整合服務的變現加速。",
+        "Key Investment Risks": "疫後藥廠行銷預算回流線下實體推廣，導致數位行銷成長放緩；日本醫療勞動市場法規變更與人力成本上升衝擊 CRO 業務毛利；以及海外市場競爭加劇與日圓匯率波動風險。",
+        "CEO & Management": "由創辦人兼執行長谷村格（Itaru Tanimura）領導，其擁有麥肯錫諮詢背景，帶領管理團隊持續透過併購（M&A）擴大醫療生態系與推動 AI 醫療轉型。",
+        "Core Patents & IP": "擁有 m3.com 獨家醫生認證與行為數據專利演算法、AI 輔助診斷與影像辨識技術專利（透過旗下 M3 AI 研發），以及數位醫療行銷與線上媒合系統的平台技術智慧財產權。",
+        "3-Year M&A": "近三年持續進行積極併購，包括 2026 年 6 月收購護理社福軟體商 Wiseman、2025 年收購 EMR 服務商 eWeLL 及澳洲醫學教育平台 Limbic，2024 年收購住院病患服務商 ELAN，以完善醫療與照護生態系。",
+        "CapEx & Expansion": "資本支出以輕資產的 IT 基礎設施與 AI 平台升級為主，重點擴張著眼於非日語系國家（如美、英、法、印）的平台網絡覆蓋，以及診所與養老機構的數位化工具開發。",
+        "Geopolitical Exposure": "地緣政治風險極低，但高度受限於日本厚生勞動省對醫療廣告、藥品營銷及遠距醫療的法規監管，以及美歐等海外市場的隱私與資料安全（如 GDPR）法規限制。",
+        "M&A Potential": "極高，M3 長期以併購作為核心成長引擎，未來將持續尋求收購各國的醫療資訊平台、AI 生物科技新創、診所管理軟體（EMR）及養老照護服務商，以深化其平台經濟生態圈。",
+        "Recent Insider Trading": "無資料 (美股限定)"
+      }
+    }
+  ],
+  "records": [
+    {
+      "12M Catalysts": "生成式 AI（如 Limbic 於 2026 年 6 月升級的 AI 臨床紀錄工具）深度導入臨床與護理 DX 變現加速仍是核心；2026 年 8 月維權投資基金 Oasis Management 披露購入 5% 股權，成為推動公司治理改革與資本效率提升的新催化劑；然而，海外業務復甦進度在 2027 財年首季落後預期，其結構性整頓將是關鍵指標。",
+      "Key Investment Risks": "受到海外業務復甦滯後以及匯回海外股利所產生的單次性稅務撥備影響，公司 2027 財年首季淨利同比衰退 23% 且營業利潤率降至 20.1%，凸顯獲利能力承壓。此外，疫後藥廠數位行銷預算增長放緩，以及日本醫療勞動市場法規導致 CRO 業務成本上升，仍是長期核心利潤風險。",
+      "3-Year M&A": "近三年持續進行積極併購以完善醫療照護生態系，包括於 2026 年 7 月正式完成收購並併表護理社福軟體商 Wiseman。此前亦於 2025 年收購 EMR 服務商 eWeLL 與臨床醫學媒體 Limbic，以及 2024 年收購住院病患服務商 ELAN，以深化醫療與介護 DX 整合服務。",
+      "Geopolitical Exposure": "地緣政治風險極低，但高度受限於日本厚生勞動省（MHLW）對醫藥數位行銷、遠距醫療及電子病歷標準的嚴格監管，以及美歐市場的 GDPR 等隱私法規。此外，跨國營運亦面臨海外股利匯回稅制變動等法規與稅務摩擦風險。",
+      "M&A Potential": "併購潛力仍高，公司持續採取每年約 10 起的常態化併購策略，鎖定全球醫療資訊平台、電子病歷及養老照護服務。唯隨著維權股東 Oasis 於 2026 年 8 月入股，預期未來併購將面臨更高的資本回報要求，資金預計更聚焦於具備高協同效應的國內醫療介護 DX 及臨床 AI 新創。",
+      "Company": "M3, Inc. (2413.T)"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "Maintenance Batch 241 (maintenance, gemini)",
+    "updated": [
+      "M3, Inc. (2413.T)"
+    ],
+    "claimed": [],
+    "unmatched": [],
+    "rows_exported": 1769
+  }
+}

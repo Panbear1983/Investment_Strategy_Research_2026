@@ -1,0 +1,134 @@
+{
+  "label": "Maintenance Batch 236 (maintenance, claude)",
+  "source": "maintenance",
+  "provider": "claude",
+  "providers_used": [
+    "claude",
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "Exor N.V. (EXO.AS)",
+      "ticker": "EXO.AS",
+      "Country": "Netherlands",
+      "Tier": "龍頭股",
+      "values": {
+        "Country": "Netherlands",
+        "Timeframe": "長期",
+        "Sub-Sector": "全球多元化產業投資控股",
+        "Industry": "金融服務與投資控股",
+        "Tier": "龍頭股",
+        "Company": "Exor N.V. (EXO.AS)",
+        "Capital/Market Cap": "約 145億歐元 (截至2026年8月，資產淨值 NAV 約為 332億歐元)",
+        "Core Business": "Exor N.V. 是一家由義大利 Agnelli 家族控制的歐洲頂尖多元化投資控股公司。其核心業務為對全球優質企業進行中長期的策略性股權投資，主要範疇涵蓋汽車製造、奢侈品、醫療健康、科技與媒體等領域。",
+        "Clients & Orders": "作為投資控股公司，其直接客戶為旗下被投資企業與基金共同投資人，營運不適用傳統產品訂單模式。其底層價值由核心控股公司的市場訂單驅動，例如 Ferrari 的超跑多年度排單 backlog 以及 Stellantis 的全球車輛銷量。",
+        "Technical Moat": "Exor 的護城河在於其「永久資本（Permanent Capital）」的組織結構，使其免受短期贖回壓力並能進行跨世代的逆週期價值投資。此外，公司藉由 Agnelli 家族在歐洲政商界的深厚影響力與主動參與董事會治理，能為旗下被投企業帶來強大的策略資源與網絡優勢。",
+        "Revenue Breakdown": "Exor 被歸類為國際財務報告準則（IFRS）下的投資實體，故不合併申報傳統營業收入，其表現由資產淨值（NAV）與投資收益驅動。截至2025年底，其 332億歐元的 NAV 中，最大部位為 Ferrari（價值約 120億歐元），其次為 Stellantis、CNH Industrial 與 Royal Philips，並輔以 Lingotto 資產管理之收益。",
+        "Gross Margin Profile": "Exor 作為投資控股母公司，無傳統銷貨成本，故不適用一般毛利率分析。其營運成本結構極低，融資槓桿比率（LTV）常年維持在 6.9% 的安全水平，整體獲利能力主要取決於核心持股如 Ferrari（毛利率常年維持在 50% 以上）等企業的股利分配與資本增值。",
+        "Key Competitors": "主要競爭對手為歐洲的大型家族投資控股公司與上市私募股權集團，例如瑞典瓦倫堡家族的 Investor AB、比利時的 Groupe Bruxelles Lambert (GBL)、法國的 Eurazeo 與 Wendel，以及美國的 Berkshire Hathaway。",
+        "12M Catalysts": "未來12個月的催化劑包括預計於2026年底完成的 Iveco Group、GEDI、NUO 與 Lifenet 等非核心資產售出，將變現約 20億歐元。此外，2026年8月與 Royal Philips 更新的協議允許 Exor 將持股上限提高至 22%，其後續增持行動及 Stellantis 的營運重組狀況也是市場關注焦點。",
+        "Key Investment Risks": "主要投資風險包括高度集中於汽車與工業板塊（Ferrari、Stellantis、CNH），易受全球汽車市場景氣循環與電動化轉型競爭衝擊。另外，上市持股的股價波動會直接影響每股資產淨值（NAV），且歐洲控股公司普遍存在著相較於底層資產價值的折價（Discount to NAV）風險。",
+        "CEO & Management": "現任執行長由 Agnelli 家族第五代繼承人 John Elkann 擔任，他同時兼任 Ferrari 與 Stellantis 的董事會主席，確保控股母公司與核心子公司的策略一致性。日常財務與投資決策則由財務長 Guido de Boer 及專業投資委員會共同制定與管理。",
+        "Core Patents & IP": "Exor 母公司自身並不直接持有專利，但其核心持股企業擁有極為龐大的專利庫與智慧財產權。Stellantis 與 Ferrari 擁有數千項汽車製造、新能源與設計專利，而 Royal Philips 則在醫療影像、健康照護資訊與醫療器械領域擁有全球頂尖的專利組合。",
+        "3-Year M&A": "過去三年（2023-2026年）的主要併購與投資活動包括 2023年斥資約 26億歐元取得醫療科技巨頭 Royal Philips 15% 股權（並於2026年8月提高持股上限至 22%）。同時，公司於2026年3月宣布出售 Iveco 等四家公司股權以回收 20億歐元現金，並透過 Exor Ventures 投資 RobCo 等 AI 機器人初創企業。",
+        "CapEx & Expansion": "控股公司層級無傳統資本支出，其擴張體體現在資金的策略性重新分配。目前公司將出售非核心資產所獲得的 20億歐元現金併入現有頭寸，使可用於新投資的現金儲備超過 35億歐元，重點擴張醫療科技與奢侈品領域，並持續擴大旗下 Lingotto 資產管理規模（AUM 已超 100億美元）。",
+        "Geopolitical Exposure": "其核心資產（Stellantis、Philips、Ferrari）在歐美及亞洲市場均有深度佈局，高度面臨美歐貿易保護政策與對華關稅等地緣政治風險。此外，歐洲對汽車產業的碳排放法規以及來自中國新能源車的競爭，也對其主要被投企業的全球供應鏈構成直接挑戰。",
+        "M&A Potential": "併購潛力極高。在2026年完成非核心資產剝離後，Exor 擁有超過 35億歐元的可用現金，且 LTV 比率僅為 6.9%（遠低於15%的內部上限），使其有充足的資產負債表實力對醫療健康、科技與奢侈品領域的龍頭企業進行新一輪的大型股權收購。",
+        "Recent Insider Trading": "無資料 (美股限定)"
+      }
+    },
+    {
+      "Company": "Nippon Shinyaku Co., Ltd. (4516.T)",
+      "ticker": "4516.T",
+      "Country": "Japan",
+      "Tier": "隱形冠軍",
+      "values": {
+        "Country": "Japan",
+        "Timeframe": "中長期",
+        "Sub-Sector": "生技新藥",
+        "Industry": "醫藥品",
+        "Tier": "隱形冠軍",
+        "Company": "Nippon Shinyaku Co., Ltd. (4516.T)",
+        "Capital/Market Cap": "約 2,428億日圓 (約 15.2億美元)",
+        "Core Business": "專注於罕見疾病與血液腫瘤等利基領域的新藥研發，核心產品包括治療杜顯氏肌肉萎縮症(DMD)的核酸藥物 Viltepso，以及治療肺動脈高壓(PAH)的 Uptravi。此外，公司也設有機能食品事業，研發食品保存劑與營養補充品以維持穩定的基礎營收。",
+        "Clients & Orders": "主要客戶為全球大型醫療機構與醫藥通路商，並將主力肺動脈高壓藥物 Uptravi 的海外銷售權授權予強生集團(J&J)旗下楊森製藥以獲取穩定權利金。同時與美國 Capricor 合作在美日推廣心肌細胞療法藥物 deramiocel，但目前雙方因銷售合約發生訴訟爭議。",
+        "Technical Moat": "在核酸藥物(如反義寡核苷酸 ASO 與 PMO 平台)領域具備全球領先的研發實力，是亞洲少數成功商品化 DMD 外顯子跳躍療法的藥廠。公司與日本國立精神神經醫療研究中心(NCNP)建立長期獨占的產學合作壁壘，並擁有成熟的核酸 API 純化量產技術。",
+        "Revenue Breakdown": "醫藥品事業約佔總營收的 87% (核心增長引擎為 Uptravi 的海外授權權利金與 Viltepso 在美日的銷售)，而機能食品事業則約佔 13% (以防腐劑及機能性素材為主)。",
+        "Gross Margin Profile": "整體毛利率表現優異，2025財年毛利率約為 68.1%，但 2026 財年受日本國家健保藥價定期下調(NHI)及產品銷售組合變動影響略降至 66.4%。",
+        "Key Competitors": "在 DMD 核酸藥物領域主要面臨 Sarepta Therapeutics (Golodirsen 等外顯子跳躍藥物與基因療法) 的直接競爭；在 PAH 領域則面對默沙東(Merck, 其新藥 Winrevair 具顛覆性市場影響力)及聯合治療(United Therapeutics)等全球大廠。",
+        "12M Catalysts": "近期關鍵催化劑包括 DMD 核酸新藥 NS-089 (brogidirsen) 的臨床試驗數據發表與監管審查進展，以及與 Capricor 關於 deramiocel 經銷合約法律糾紛的訴訟判決或和解結果。此外，市場也密切關注公司針對 2027 年 Uptravi 專利到期所提出的替代管線進展。",
+        "Key Investment Risks": "最大風險在於核心獲利支柱 Uptravi (selexipag) 將於 2027 年 4 月專利過期，屆時海外高毛利權利金收入將面臨斷崖式衰退。其次，與 Capricor 的合約爭議可能導致美國新藥經銷權受損，且新藥研發臨床試驗若失敗將嚴重衝擊中長期估值。",
+        "CEO & Management": "總裁兼代表董事為中井亨(Toru Nakai)，自 2021 年上任並於 2026 年獲得續任。其管理風格務實，任內積極推動研發管線的國際化與美國自營行銷團隊的建立，力求降低對單一授權金收入(Uptravi)的依賴。",
+        "Core Patents & IP": "擁有 Uptravi 化合物及製法專利，以及 Viltepso (viltolarsen) 所採用的 PMO 核酸外顯子 53 跳躍技術及特定核苷酸序列的全球專利壁壘。公司近年在美積極進行專利維權訴訟，以防堵競爭對手侵犯其核酸技術智慧財產權。",
+        "3-Year M&A": "過去三年主要以研發授權合作為主，如 2022 年起與 Capricor 達成 deramiocel (CAP-1002) 的美日歐獨家經銷授權合約，並引進 Elixirgen 的 mRNA 新藥技術，鮮少進行大型整併或股權收購。",
+        "CapEx & Expansion": "資本支出主要投入於小田原工廠的核酸 API 生產與純化設施升級(累計約 164.3 億日圓)，以及投資約 20.59 億日圓升級筑波東日本創藥研究中心，該中心已於 2026 年 7 月正式完工啟用。",
+        "Geopolitical Exposure": "海外營收高度依賴美國市場(透過子公司 NS Pharma 銷售)及歐洲權利金，易受美金/歐元對日圓匯率劇烈波動的影響。此外，新藥臨床試驗採取美日雙邊並行，需同時面對美國 FDA 及日本 PMDA 的監管政策變動風險。",
+        "M&A Potential": "作為擁有成熟罕見病研發與核酸製造平台的中型日系藥廠，其具備被跨國大型藥企(MNC)收購的潜在價值。同時為應對 2027 年專利崖，公司有高度動機主動併購或引進中小型生技公司的早期管線。",
+        "Recent Insider Trading": "無資料 (美股限定)"
+      }
+    },
+    {
+      "Company": "M3, Inc. (2413.T)",
+      "ticker": "2413.T",
+      "Country": "Japan",
+      "Tier": "龍頭股",
+      "values": {
+        "Country": "Japan",
+        "Timeframe": "中長期",
+        "Sub-Sector": "醫療數位平台與生技IT",
+        "Industry": "Platform Economy",
+        "Tier": "龍頭股",
+        "Company": "M3, Inc. (2413.T)",
+        "Capital/Market Cap": "約 1.09兆日圓 (約 67.6億美元)",
+        "Core Business": "營運日本最大醫生專業入口網站 m3.com，提供製藥業數位行銷（MR-kun 虛擬醫藥代表）、臨床試驗招募（Evidence Solution）、醫療人力媒合（Career Solution）及國際醫療平台服務。",
+        "Clients & Orders": "主要客戶為國內外大型製藥企業（如武田製藥、第一三共、輝瑞等）、醫療檢驗與合約研究組織（CRO）、醫療機構及尋求轉職的醫師與藥師，訂單多為長期行銷推廣服務與臨床試驗委託案。",
+        "Technical Moat": "擁有日本超過90%（32萬名以上）及全球超過700萬名註冊醫師的龐大高度信任資料庫，形成強大的雙邊網路效應與高黏著度，是藥廠進行數位行銷與學術推廣不可或缺的龍頭平台。",
+        "Revenue Breakdown": "以 2025-2026 年度來看，醫療平台（Medical Platform）為最大營收與利潤來源，其次為臨床試驗支持的臨床證據解決方案（Evidence Solution）、醫療人力資源（Career Solution）及海外（Overseas）與現場解決方案（Site Solution）。",
+        "Gross Margin Profile": "毛利率長期維持在約 50% 的高水準；營業利益率則保持在 20% 至 22% 之間，顯示其數位平台高經營槓桿特性，但近期受疫後實體推廣復甦與研發投資增加而使利潤率略微承壓。",
+        "Key Competitors": "日本國內主要競爭對手包括 Medpeer (6094.T) 及 CareNet (2150.T)；全球市場主要競爭者則為美國的 Doximity (DOCS.US)。",
+        "12M Catalysts": "生成式 AI（Generative AI）深度導入臨床工作流程以提升醫生效率、海外業務（特別是美國與印度市場）的復甦與高成長、以及數位病歷與養老介護 DX 整合服務的變現加速。",
+        "Key Investment Risks": "疫後藥廠行銷預算回流線下實體推廣，導致數位行銷成長放緩；日本醫療勞動市場法規變更與人力成本上升衝擊 CRO 業務毛利；以及海外市場競爭加劇與日圓匯率波動風險。",
+        "CEO & Management": "由創辦人兼執行長谷村格（Itaru Tanimura）領導，其擁有麥肯錫諮詢背景，帶領管理團隊持續透過併購（M&A）擴大醫療生態系與推動 AI 醫療轉型。",
+        "Core Patents & IP": "擁有 m3.com 獨家醫生認證與行為數據專利演算法、AI 輔助診斷與影像辨識技術專利（透過旗下 M3 AI 研發），以及數位醫療行銷與線上媒合系統的平台技術智慧財產權。",
+        "3-Year M&A": "近三年持續進行積極併購，包括 2026 年 6 月收購護理社福軟體商 Wiseman、2025 年收購 EMR 服務商 eWeLL 及澳洲醫學教育平台 Limbic，2024 年收購住院病患服務商 ELAN，以完善醫療與照護生態系。",
+        "CapEx & Expansion": "資本支出以輕資產的 IT 基礎設施與 AI 平台升級為主，重點擴張著眼於非日語系國家（如美、英、法、印）的平台網絡覆蓋，以及診所與養老機構的數位化工具開發。",
+        "Geopolitical Exposure": "地緣政治風險極低，但高度受限於日本厚生勞動省對醫療廣告、藥品營銷及遠距醫療的法規監管，以及美歐等海外市場的隱私與資料安全（如 GDPR）法規限制。",
+        "M&A Potential": "極高，M3 長期以併購作為核心成長引擎，未來將持續尋求收購各國的醫療資訊平台、AI 生物科技新創、診所管理軟體（EMR）及養老照護服務商，以深化其平台經濟生態圈。",
+        "Recent Insider Trading": "無資料 (美股限定)"
+      }
+    }
+  ],
+  "records": [
+    {
+      "12M Catalysts": "未來12個月的催化劑包括非核心資產簡化進程的最終完成，其中 Lifenet 股權已於2026年7月完成出售，而 Iveco Group 商用車業務亦預計於2026年9月啟動由印度塔塔汽車（Tata Motors）進行的自願公開收購。此外，Exor 於2026年8月更新與皇家飛利浦的協議後，其後續增持至22%上限的實際行動，以及 Stellantis 的營運重組進展，均為市場關注焦點。",
+      "Key Investment Risks": "主要投資風險仍集中於汽車與工業板塊，儘管法拉利（Ferrari）上調2026年全年展望，但 CNH Industrial 因南美利潤壓縮及關稅衝擊導致第二季淨利與工程機械利潤大幅下滑，且 Stellantis 雖恢復獲利但利潤率（1.8% AOI）依舊偏低且面臨庫存壓力。此外，上市持股的股價波動直接左右每股資產淨值（NAV），且歐洲控股公司的折價（Discount to NAV）風險持續存在。",
+      "3-Year M&A": "過去三年（2023-2026年）的主要併購與投資活動以簡化投資組合及深耕醫療科技為主。除了2023年投資皇家飛利浦（Royal Philips）並於2026年8月將持股上限提升至22%外，公司完成了非核心資產 Lifenet 的出售（2026年7月完成），並分步剝離 Iveco Group（國防業務於2026年3月售予 Leonardo，商用車業務亦預計於2026年下半年由塔塔汽車完成收購）。同時，透過 Exor Ventures 積極布局 RobCo 等 AI 機器人初創企業。",
+      "Geopolitical Exposure": "其核心資產在歐美與亞洲市場面臨關稅與貿易壁壘的直接衝擊，如 CNH Industrial 工程機械利潤受關稅拖累而大幅萎縮。Stellantis 為應對歐美對華電動車加徵關稅，透過與零跑汽車（Leapmotor）合資進行本地化生產以繞過壁壘，但正面臨美國監管機構對「繞道」進口的疑慮與政治角力。此外，皇家飛利浦雖受惠於2026年第二季達1.86億歐元的美國關稅退稅，但全球電子元件通膨與供應鏈安全監管風險仍舊嚴峻。",
+      "M&A Potential": "併購與投資潛力極高。隨著 Lifenet 完成出售、Iveco Group 股權分步變現（國防業務已售予 Leonardo，商用車業務亦進入塔塔汽車收購的尾聲），公司擁有的可用現金已超越 35 億歐元。搭配僅 6.9% 的 Loan-to-Value (LTV) 比率（遠低於15%上限），公司具有極為強韌的資產負債表實力，可持續增持皇家飛利浦（上限提高至22%），並對醫療健康、科技與奢侈品領域的龍頭企業進行大型收購。",
+      "Company": "Exor N.V. (EXO.AS)"
+    },
+    {
+      "12M Catalysts": "近期關鍵催化劑首重與 Capricor 關於 DMD 療法 deramiocel 的經銷合約糾紛，美國法院已於 2026 年 8 月駁回對方的禁制令聲請並裁定進入仲裁程序。此外，該藥在 7 月底遭 FDA 諮詢委員會以 9 比 3 投票否決其心肌病療效，Capricor 擬修改 BLA 申報方向而將延後原定 8 月 22 日的審查期限。同時，市場持續關注 DMD 核酸新藥 NS-089 的全球二期臨床進展，以及公司為因應 2027 年 Uptravi 專利到期所推動的替代管線研發。",
+      "Key Investment Risks": "最大風險仍是核心獲利支柱 Uptravi 將於 2027 年專利到期，屆時海外高毛利權利金收入恐面臨斷崖式衰退。其次，儘管與 Capricor 的經銷糾紛已裁定進入仲裁，但該藥 (deramiocel) 於 2026 年 7 月底遭 FDA 專家委員會投票否決心肌病療效，監管審查與商業化前景面臨極大不確定性。此外，若 NS-089 等核酸新藥之後續臨床試驗未能取得預期成效，將難以填補專利崖後的營收缺口，嚴重衝擊中長期估值。",
+      "3-Year M&A": "過去三年主要採取「開放式創新」的授權合作模式，鮮少進行大型股權收購。例如 2026 年 6 月與 Elixirgen 簽訂 DMD 候選 mRNA 藥物 EXG-7001 的選擇權合約，並於 7 月行使選擇權取得 AB2 BIO 罕見自體免疫藥物 Tadekinig alfa 的美國獨家經銷權。同月，公司亦將旗下治療乾燥症之 NS-025 全球開發權利授權予 Aquelys，展現雙向授權以優化管線價值的策略。",
+      "Geopolitical Exposure": "海外營收高度依賴美國市場的子公司銷售與歐洲權利金，極易受美圓、歐元兌日圓之匯率劇烈波動影響。此外，新藥研發採取美日雙邊並行，近期美國 FDA 對於罕見病療法如 DMD 藥物（如 deramiocel）之療效審查趨於嚴格，使海外監管合規風險顯著增加。同時，國際貿易與地緣政治波動也可能間接衝擊其全球供應鏈及多國多中心臨床試驗的推進。",
+      "M&A Potential": "身為擁有成熟罕見病研發與核酸製造平台的中型日系藥廠，其在核酸藥物領域的技術累積使其對尋求管線擴張的跨國大藥廠（MNC）具備潛在被收購價值。同時，為化解 2027 年 Uptravi 專利崖危機，公司有極高動機主動透過併購或授權引進（如 2026 年中陸續引進之 Tadekinig alfa 及 EXG-7001）來補充中後期管線。此外，將非核心管線（如 NS-025）授權予外部藥廠，也有助於回籠資金以投入更具潛力的研發或併購案。",
+      "Company": "Nippon Shinyaku Co., Ltd. (4516.T)"
+    }
+  ],
+  "failed": [],
+  "requeued": [
+    "M3, Inc. (2413.T)"
+  ],
+  "excluded": [],
+  "summary": {
+    "batch_label": "Maintenance Batch 236 (maintenance, claude)",
+    "updated": [
+      "Exor N.V. (EXO.AS)",
+      "Nippon Shinyaku Co., Ltd. (4516.T)"
+    ],
+    "claimed": [],
+    "unmatched": [],
+    "rows_exported": 1737
+  }
+}

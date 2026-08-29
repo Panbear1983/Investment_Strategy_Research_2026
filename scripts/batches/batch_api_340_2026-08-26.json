@@ -1,0 +1,83 @@
+{
+  "label": "API Batch 340 (new, claude)",
+  "source": "new",
+  "provider": "claude",
+  "providers_used": [
+    "claude"
+  ],
+  "items": [
+    {
+      "Company": "Cabaletta Bio (CABA)",
+      "Country": "USA",
+      "Industry": "生技新藥",
+      "Tier": ""
+    },
+    {
+      "Company": "ORIC Pharmaceuticals (ORIC)",
+      "Country": "USA",
+      "Industry": "生技新藥",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "USA",
+      "Timeframe": "中長期",
+      "Sub-Sector": "生技新藥",
+      "Industry": "自體免疫疾病CAR-T細胞治療",
+      "Tier": "潛力股",
+      "Company": "Cabaletta Bio (CABA)",
+      "Capital/Market Cap": "約5.5億美元（2026年8月股價約3.10美元，流通股數約1.63-1.70億股）",
+      "Core Business": "臨床階段生技公司，開發CD19 CAR-T細胞療法治療自體免疫疾病，主力產品為rese-cel（resecabtagene autoleucel，原代號CABA-201），透過RESET™臨床開發計畫同步在紅斑性狼瘡（SLE）、肌炎、全身性硬化症（SSc）、重症肌無力（gMG）及天皰瘡（PV）五大適應症進行Phase 1/2試驗。",
+      "Clients & Orders": "尚無商業化產品，無傳統客戶或訂單概念；營收來源目前為零，主要透過臨床試驗合作醫學中心（如風濕免疫、神經、皮膚科學術機構）推進病患招募與治療。",
+      "Technical Moat": "採用全人源CD19結合域搭配4-1BB共刺激域的CAR-T構造設計，旨在提升療效持久性並降低免疫原性；同時投入自動化製造平台開發，企圖解決CAR-T生產瓶頸與規模化成本問題，並率先在多個自體免疫適應症同步推進臨床，建立先行者地位。",
+      "Revenue Breakdown": "尚無商業化營收（估）；2026年第二季研發費用約4,440萬美元，單季淨虧損約5,100萬美元，財務結構仍完全依賴股權融資支應。",
+      "Gross Margin Profile": "不適用，因無商業化產品銷售，目前處於純研發燒錢階段（估）。",
+      "Key Competitors": "Kyverna Therapeutics（KYV-101，聚焦僵人症候群、gMG、狼瘡腎炎，2026年初有Phase II readout）、Bristol Myers Squibb（zola-cel，BREAKFREE試驗，NEX-T平台）、Autolus Therapeutics（已上市Aucatzyl技術外溢）、Cartesian Therapeutics、Arcellx等，自體免疫CAR-T賽道競爭日趨白熱化。",
+      "12M Catalysts": "RESET-SLE、RESET-SSc、RESET-MG完整Phase 1/2數據預計於2026上半年公布；2026年EULAR及ASGCT年會發表包括無預處理（無化療）rese-cel及自動化製造相關新數據；RESET-Myositis註冊性數據預計2027年中公布，BLA申請規劃於2027下半年提交。",
+      "Key Investment Risks": "現金燃燒速度快，雖2026Q2帳上現金2.251億美元、跑道延伸至2027年中，但商業化前仍需持續增資稀釋股權（2026年已完成約1億美元募資）；CAR-T製造規模化與商業化執行風險高；監管審批時程不確定（BLA最快2027下半年）；同業（Kyverna、BMS）競爭激烈可能壓縮市場份額；細胞治療特有的CRS/ICANS等安全性疑慮仍需長期追蹤數據驗證。",
+      "CEO & Management": "創辦人暨總裁兼執行長Steven Nichtberger醫師自2017年創立公司以來擔任CEO，同時為賓州大學華頓商學院客座教授，先前曾創辦並領導Tengion（獲Ernst & Young年度企業家獎），並曾任默克藥廠全球行銷主管；財務長為Anup Marda；2025-2026年延攬前業界資深商業化高層Shawn Tomasello加入董事會，強化未來上市銷售布局。",
+      "Core Patents & IP": "專利組合圍繞全人源CD19結合域搭配4-1BB共刺激域之CAR-T構造設計及其於多重自體免疫適應症之應用方法，另涵蓋DSG3-CAART等嵌合自體抗體受體（CAAR-T）技術平台專利，用於天皰瘡等自體抗體媒介疾病（估，詳細專利號需查SEC/USPTO資料庫）。",
+      "3-Year M&A": "近三年（2024-2026）無重大併購交易紀錄，主要透過公開市場股權融資（含2026年約1億美元增資）強化資本結構以支撐多項Phase 1/2試驗同步推進。",
+      "CapEx & Expansion": "資本支出集中於自動化CAR-T製造平台開發，目標降低單位生產成本、縮短病患等待治療時間，並為未來商業化生產規模化預作準備；尚無實體廠房大型擴建計畫（估）。",
+      "Geopolitical Exposure": "營運與臨床試驗據點集中於美國本土，供應鏈及地緣政治直接風險相對有限，但仍受美國FDA監管政策走向、生技類股資本市場情緒及利率環境影響融資能力（估）。",
+      "M&A Potential": "作為自體免疫CAR-T臨床階段先行者，若RESET系列多適應症數據持續正面且BLA申請進度符合預期，具備成為大型藥廠授權合作或收購標的之潛力（類似BMS佈局同賽道之產業邏輯），但實際交易時點與價格仍取決於2026-2027關鍵數據讀出結果（估）。"
+    },
+    {
+      "Country": "USA",
+      "Timeframe": "中期",
+      "Sub-Sector": "生技新藥",
+      "Industry": "腫瘤標靶藥物研發（抗藥性機制標靶療法）",
+      "Tier": "潛力股",
+      "Company": "ORIC Pharmaceuticals (ORIC)",
+      "Capital/Market Cap": "美元，約13.9億美元（2026年8月中旬，約1.04億股流通在外）",
+      "Core Business": "專注於腫瘤抗藥性機制的臨床階段生技公司，主力管線為rinzimetostat（ORIC-944，PRC2/EED變構抑制劑，用於轉移性去勢抵抗性攝護腺癌mCRPC）及enozertinib（ORIC-114，EGFR exon20/PACC突變抑制劑，用於非小細胞肺癌NSCLC）；2025年8月宣布策略性管線聚焦，裁撤臨床前研究部門並縮減約20%人力，以集中資源推進兩大臨床項目。",
+      "Clients & Orders": "無傳統客戶訂單模式，尚無核准上市產品或商業銷售收入；主要透過與Bayer就darolutamide達成臨床供應合作（支援ORIC-944的Himalayas-1三期試驗聯合治療），並持續尋求潛在授權或合作夥伴以加速商業化。",
+      "Technical Moat": "ORIC-944以變構方式抑制PRC2複合體的EED次單元，區別於市場常見的EZH2抑制劑路徑，臨床數據顯示其安全性與療效具潛在同類最佳（best-in-class）優勢；enozertinib則專為高腦滲透性及對EGFR exon20/PACC突變的高選擇性設計，用以克服現有療法對中樞神經系統轉移病灶控制不足的限制。",
+      "Revenue Breakdown": "公司尚無核准藥物上市，無商業化營收；歷史上曾有授權合作里程碑收入，但目前財報揭露營收極小或接近零，主要依靠現金儲備與股權融資支應研發（2026年第二季末現金、約當現金及投資合計約3.876億美元）。",
+      "Gross Margin Profile": "不適用傳統毛利率概念（無產品銷售）；以研發及管理費用衡量，2026年第二季研發費用約3,630萬美元、G&A費用約900萬美元，單季淨虧損約4,150萬美元，屬臨床階段生技公司典型的高現金燒錢結構。",
+      "Key Competitors": "攝護腺癌PRC2領域面臨EZH2抑制劑資產（如mevrometostat）的直接競爭；EGFR exon20/PACC突變NSCLC領域競爭者包括Johnson & Johnson（Rybrevant/amivantamab）及其他開發次世代選擇性EGFR抑制劑的生技公司。",
+      "12M Catalysts": "（1）2026年上半年已啟動ORIC-944（rinzimetostat）全球首個mCRPC三期註冊性試驗Himalayas-1；（2）公司預計於2026年下半年公布rinzimetostat與enozertinib共四項臨床數據更新；（3）enozertinib持續朝肺癌三期試驗啟動推進，相關監管溝通與試驗設計進展將是股價關鍵催化劑。",
+      "Key Investment Risks": "（1）兩大主力藥物均處於三期或三期前階段，尚未獲FDA核准，存在試驗失敗或延遲風險；（2）PRC2/EZH2及EGFR exon20標靶領域競爭激烈，同類藥物進度可能超前導致市場先機喪失；（3）公司無商業化營收，雖現金跑道估至2028年下半年，仍需仰賴未來增資或授權交易，存在股權稀釋風險；（4）2025年管線聚焦及約20%裁員顯示資源集中化策略仍有執行風險。",
+      "CEO & Management": "現任總裁暨執行長為Jacob M. Chacko, M.D.，主導2025年管線聚焦策略及2026年Himalayas-1三期試驗啟動；管理團隊具備腫瘤學臨床開發與FDA法規經驗，近期積極對外溝通三期進度以爭取市場信心。",
+      "Core Patents & IP": "公司針對ORIC-944（EED變構抑制劑化合物及治療方法）與enozertinib（選擇性EGFR exon20/PACC抑制劑分子結構）分別建立專屬化合物與適應症專利組合，以維持在PRC2/EED及次世代EGFR抑制劑領域的智財排他性；詳細專利到期年份未於公開資料完整揭露（估，需以年報為準）。",
+      "3-Year M&A": "過去三年公司未進行對外併購或被併購交易；主要動作為2025年8月的內部管線重組（刪減臨床前研究部門、聚焦兩大臨床項目並裁員約20%），以及與Bayer就darolutamide達成臨床供應合作協議，屬合作而非併購性質。",
+      "CapEx & Expansion": "屬輕資產臨床階段生技公司，無重大實體資本支出或廠房擴建計畫；資金主要投入臨床試驗執行（如Himalayas-1全球三期試驗的多國臨床據點佈建）及委外CDMO生產供應鏈，而非自建產能。",
+      "Geopolitical Exposure": "公司於那斯達克上市，臨床試驗採全球多中心模式（Himalayas-1為跨國註冊性三期試驗），需留意跨國臨床法規協調風險及原料藥/CDMO供應鏈的地緣政治政策變動，惟目前公開資料未揭露重大直接地緣政治衝擊。",
+      "M&A Potential": "ORIC-944與enozertinib皆具備潛在同類最佳（best-in-class）特性且已進入三期試驗階段，若後續數據持續正向，公司具備被大型藥廠（如已有臨床供應合作的Bayer，或其他在攝護腺癌/肺癌領域佈局的跨國藥廠）收購或達成大型授權交易的潛力，屬生技產業常見的三期資產戰略性收購標的（估）。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 340 (new, claude)",
+    "updated": [],
+    "claimed": [
+      "Cabaletta Bio (CABA)",
+      "ORIC Pharmaceuticals (ORIC)"
+    ],
+    "unmatched": [],
+    "rows_exported": 2163
+  }
+}

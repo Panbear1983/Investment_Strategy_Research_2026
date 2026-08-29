@@ -1,0 +1,62 @@
+{
+  "label": "Maintenance Batch 227 (maintenance, claude)",
+  "source": "maintenance",
+  "provider": "claude",
+  "providers_used": [
+    "claude"
+  ],
+  "items": [
+    {
+      "Company": "Krafton (259960.KS)",
+      "ticker": "259960.KS",
+      "Country": "South Korea",
+      "Tier": "龍頭股",
+      "values": {
+        "Country": "South Korea",
+        "Timeframe": "中期",
+        "Sub-Sector": "遊戲平台經濟",
+        "Industry": "遊戲研發與IP營運（互動娛樂平台）",
+        "Tier": "龍頭股",
+        "Company": "Krafton (259960.KS)",
+        "Capital/Market Cap": "約韓元11-13兆（約合美金80-90億），2026年8月股價約落在25萬-27萬韓元區間，流通在外股數約4,420萬股，屬南韓科斯達克/科斯피大型遊戲股之一，估",
+        "Core Business": "Krafton為南韓大型遊戲研發暨發行商，旗艦IP為《PUBG: BATTLEGROUNDS》（PC/主機）與《PUBG MOBILE》／印度版《BGMI》，另擁有《TERA》、《Callisto Protocol》，並於2023年併購Unknown Worlds Entertainment取得《Subnautica》系列，2025年推出生活模擬新作《inZOI》。公司近年轉型為「多元IP＋AI First」平台型公司，將遊戲、動畫、廣告與AI技術整合為跨媒體（transmedia）事業體。",
+        "Clients & Orders": "遊戲屬toC訂閱／內購（F2P）商業模式，無傳統B2B訂單概念；主要營收來源為全球玩家的道具內購、通行證（Battle Pass）與新遊戲銷售，PUBG系列（含手遊與BGMI）2026年第一季單季營收首度突破韓元1兆元，《Subnautica 2》2026上半年為公司貢獻約韓元2,325億元營收且早期版本22天內銷售突破500萬套。",
+        "Technical Moat": "公司在大規模多人在線戰術對戰（Battle Royale）伺服器架構、反外掛系統與跨平台連線（PC/主機/行動裝置）技術上累積十年經驗，具備支撐數千萬同時在線玩家的雲端基礎設施；2026年推出自研AI模型品牌「Raon」（含語音大模型、即時語音對話、TTS與視覺編碼器），並以CPC（Creators Production Center）技術強化遊戲內互動內容生成能力，形成內容生產效率上的差異化優勢。",
+        "Revenue Breakdown": "2026上半年合併營收韓元2兆6,616億元（YoY+73.3%），營業利益韓元9,725億元（YoY+38.3%），創歷史同期新高；第一季營收韓元1兆3,714億元、營業利益韓元5,616億元均創單季新高，第二季營收韓元1兆2,900億元（YoY+94.9%）、營業利益韓元4,109億元（YoY+67%）。以平台別觀察，2025全年行動端（PUBG MOBILE/BGMI）占營收約52.3%（韓元1兆7,407億元），PC端占約35.6%（韓元1兆1,846億元），其餘為主機及其他IP（含Subnautica 2）貢獻。",
+        "Gross Margin Profile": "遊戲數位發行業務具高毛利特性，公司整體毛利率長期維持在80%以上水準（估），惟因近年併購ADK、Unknown Worlds及加碼AI研發支出，2026年營業利益率約在35-40%區間（H1營業利益率約36.5%），較純遊戲發行業務略被稀釋但仍優於多數同業，估。",
+        "Key Competitors": "南韓同業包括Nexon、NCSoft、Netmarble、Smilegate；全球競爭對手涵蓋Tencent Games（《PUBG Mobile》中國代理商暨大股東）、NetEase、Garena／Sea Limited（《Free Fire》）、Activision Blizzard（《使命召喚：戰區》）與Epic Games（《Fortnite》），在生存/戰術射擊與開放世界生存（Subnautica對位《Valheim》、《7 Days to Die》等）品類中直接競爭。",
+        "12M Catalysts": "未來12個月關鍵驅動包括：《Subnautica 2》完整版（1.0）上市時程與後續內容更新、Gamescom 2026展出的5款新作（含PUBG工作室未公開新作、NO LAW、Project Zeta、Age Twister、Tarrare: Unbound）陸續進入測試或上市階段、AI品牌Raon應用於遊戲內互動內容的商業化進度，以及公司股東回饋（Value-Up）計畫是否加碼庫藏股或股利以改善長期股價偏弱的市場評價。",
+        "Key Investment Risks": "營收高度集中於PUBG單一IP系列（雖占比已隨Subnautica 2等新IP稀釋但仍為獲利主力），新作能否複製PUBG成功存在不確定性；中國大股東騰訊（透過Image Frame Investment持股約13.6%）之股權結構，使公司在印度、歐美市場持續面臨資料安全與地緣政治審查風險，BGMI在印度過去曾因中印關係緊張遭禁；此外近年大舉投入AI與跨媒體併購（ADK、Socar等）短期恐壓抑獲利成長速度。",
+        "CEO & Management": "執行長金昌漢（Kim Chang-han）於2026年3月股東會獲第三度連任，主導PUBG系列全球營運；董事長張炳圭（Chang Byung-gyu）為公司創辦人暨最大個人股東；財務長裵東根（Bae Dong-geun）2026年公開表示認為公司股價相對基本面被低估，並推動加碼股東回饋計畫；公司並於2026年新設「Chief AI Officer」一職由Kangwook Lee出任，統籌AI First轉型策略。",
+        "Core Patents & IP": "核心IP資產為《PUBG: BATTLEGROUNDS》所奠定的戰術大逃殺（Battle Royale）遊戲機制與品牌，公司過去曾就相關遊戲玩法向南韓與美國申請多項專利與著作權保護；《TERA》、《Callisto Protocol》、《Subnautica》、《inZoi》等構成多元IP組合；2026年起將自研語音／視覺AI模型「Raon」以開源方式公開於Hugging Face平台，屬技術品牌開放策略而非傳統專利授權模式。",
+        "3-Year M&A": "2023年以現金加對賭條款方式完成收購《Subnautica》開發商Unknown Worlds Entertainment；2024-2025年間以約韓元7,100億元收購日本綜合廣告暨動畫公司ADK（Asatsu-DK），作為跨媒體IP戰略首個具體落地案例；2025-2026年參與南韓共享汽車平台Socar及自駕車合資事業投資，切入「物理AI」（Physical AI）領域以取得真實駕駛與環境數據。",
+        "CapEx & Expansion": "公司宣布「AI First」企業轉型策略，計畫自2026年起每年投入約韓元300億元支援全員AI工具應用與流程自動化，目標於2026下半年前建置完成公司級AI營運平台（含Agentic AI管理系統與數據標準化基礎設施）；同時透過Gamescom 2026展出5款新遊戲擴大多元IP產品線，並持續加碼日本（ADK）與南韓本地行動出行（Socar）等跨產業布局。",
+        "Geopolitical Exposure": "南韓公司但最大機構股東為中國騰訊（透過Image Frame Investment持股約13.6%），使公司長期暴露於中美/中印科技地緣政治審查風險；旗下《BGMI》（印度版PUBG Mobile）曾因中印邊境衝突於2022年遭印度政府以資安疑慮下架，2023年重新上架後仍需持續證明與中國資料鏈無關，未來若中印或美中關係再度緊張，不排除面臨新一輪市場准入限制。",
+        "M&A Potential": "公司具備穩健現金部位與明確跨媒體/多元IP擴張戰略，未來12-24個月傾向持續執行中小型收購（如日本內容/動畫公司、AI新創、移動出行相關新創）以強化Physical AI與IP衍生內容能力，而非被大型同業併購；由於騰訊持股比例已具一定影響力但未達控股門檻，長期不排除騰訊或其他策略性股東進一步增持，但公司管理層目前聚焦自主成長與股東價值提升（Value-Up）計畫，估。",
+        "Recent Insider Trading": "無資料 (美股限定)"
+      }
+    }
+  ],
+  "records": [
+    {
+      "12M Catalysts": "《Subnautica 2》已於2026年5月14日進入搶先體驗，22天內銷量突破500萬套，帶動2026年第二季PC營收首度突破韓元5,000億元，公司上半年營收（2兆6,616億元）與營業利益（9,725億元）雙創歷史新高；8月26-30日Gamescom 2026將展出5款新作，包括PUBG工作室首度曝光、以美國西北太平洋森林小鎮為背景的全新FPS，以及NO LAW、Project Zeta、Age Twister、TARAE: Unbound，AI品牌Raon已於4月推出並在Hugging Face開源4款語音與視覺模型，商業化落地仍待觀察。股東回饋方面，公司上半年已執行3,000億元庫藏股加996億元減資配息（達2025全年回饋122.6%），第三季再核准1,000億元庫藏股全數註銷，累計2026年前三季回饋達4,996億元，管理層明言認為現股價遭低估。",
+      "Key Investment Risks": "營收仍高度仰賴PUBG系列與新晉主力《Subnautica 2》（後者22天銷量破500萬套、帶動單季PC營收首破5,000億元），新作能否複製此成功仍有不確定性；中國大股東騰訊（透過Image Frame Investment持股約13.5%）之股權結構，使公司持續面臨印度、歐美市場資料安全與地緣政治審查風險。近年密集併購（ADK、Socar、2025年以約9,600萬美元收購Last Epoch開發商Eleventh Hour Games）雖擴大IP版圖，但相關收購對價與整合成本仍可能對短期獲利成長造成壓力。",
+      "3-Year M&A": "2023年以現金加對賭條款收購《Subnautica》開發商Unknown Worlds Entertainment；2024-2025年以約韓元7,100億元收購日本廣告暨動畫公司ADK，作為跨媒體IP戰略首個落地案例；2025年再以約9,600萬美元全額收購動作RPG《Last Epoch》開發商Eleventh Hour Games（無對賭條款），並持續投資南韓共享汽車平台Socar及自駕車合資事業，切入Physical AI領域。",
+      "Geopolitical Exposure": "南韓公司但最大機構股東仍為中國騰訊（透過Image Frame Investment持股約13.5%），使公司長期暴露於中美/中印科技地緣政治審查風險；旗下《BGMI》（印度版PUBG Mobile）自2023年重新上架後於2026年持續正常營運（包含BGIS 2026電競賽事），惟仍需持續證明與中國資料鏈無關，未來若中印或美中關係再度緊張，不排除面臨新一輪市場准入限制。",
+      "M&A Potential": "公司憑藉2026上半年營收、營業利益雙創新高的穩健現金部位，持續執行中小型收購以強化跨媒體IP版圖，2025年收購Last Epoch開發商Eleventh Hour Games（約9,600萬美元）即為最新案例，顯示公司傾向持續補強遊戲IP與Physical AI相關新創，而非被同業併購；同時公司正加碼股東回饋（2026年前三季度累計庫藏股加減資配息達4,996億元），顯示管理層在併購擴張與股東價值提升之間尋求平衡，騰訊持股比例雖具影響力但目前未見進一步增持動作。",
+      "Company": "Krafton (259960.KS)"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "Maintenance Batch 227 (maintenance, claude)",
+    "updated": [
+      "Krafton (259960.KS)"
+    ],
+    "claimed": [],
+    "unmatched": [],
+    "rows_exported": 1684
+  }
+}

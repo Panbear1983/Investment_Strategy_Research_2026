@@ -1,0 +1,67 @@
+{
+    "date": "2026-08-29",
+    "calls": {
+        "gemini": 112,
+        "claude": 26,
+        "codex": 3
+    },
+    "discovery": {
+        "attempts": 5,
+        "empty_results": 0
+    },
+    "discovery_cursor": 21,
+    "discovery_slices": {
+        "France|": {
+            "empty_streak": 0,
+            "cooldown_until": "",
+            "last_productive": "2026-08-27"
+        },
+        "Israel|": {
+            "empty_streak": 0,
+            "cooldown_until": "",
+            "last_productive": "2026-08-27"
+        },
+        "Taiwan|\u822a\u592a\u8207\u570b\u9632": {
+            "empty_streak": 0,
+            "cooldown_until": "",
+            "last_productive": "2026-08-28"
+        },
+        "UK|": {
+            "empty_streak": 0,
+            "cooldown_until": "",
+            "last_productive": "2026-08-28"
+        },
+        "Sweden|": {
+            "empty_streak": 0,
+            "cooldown_until": "",
+            "last_productive": "2026-08-28"
+        },
+        "Canada|": {
+            "empty_streak": 0,
+            "cooldown_until": "",
+            "last_productive": "2026-08-28"
+        },
+        "Singapore|": {
+            "empty_streak": 0,
+            "cooldown_until": "",
+            "last_productive": "2026-08-28"
+        },
+        "Japan|": {
+            "empty_streak": 0,
+            "cooldown_until": "",
+            "last_productive": "2026-08-28"
+        },
+        "South Korea|": {
+            "empty_streak": 0,
+            "cooldown_until": "",
+            "last_productive": "2026-08-28"
+        },
+        "Germany|": {
+            "empty_streak": 0,
+            "cooldown_until": "",
+            "last_productive": "2026-08-29"
+        }
+    },
+    "batch_seq": 391,
+    "discovery_last_slice": "Germany|"
+}

@@ -1,0 +1,11 @@
+{
+  "item": {
+    "Company": "安斯泰來 Astellas Pharma (4503.T)",
+    "Country": "Japan",
+    "Industry": "生技新藥"
+  },
+  "problems": [
+    "claude -p failed: You've hit your session limit · resets 7am (Asia/Taipei)"
+  ],
+  "raw": ""
+}

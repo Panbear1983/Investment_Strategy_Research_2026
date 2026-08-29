@@ -1,0 +1,53 @@
+{
+  "label": "API Batch 352 (new, claude)",
+  "source": "new",
+  "provider": "claude",
+  "providers_used": [
+    "claude"
+  ],
+  "items": [
+    {
+      "Company": "BlackBerry (BB.TO)",
+      "Country": "Canada",
+      "Industry": "智慧車聯網與物聯網軟體",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "Canada",
+      "Timeframe": "中期",
+      "Sub-Sector": "智慧車聯網/嵌入式作業系統",
+      "Industry": "車用軟體與物聯網資安",
+      "Tier": "隱形冠軍",
+      "Company": "BlackBerry Limited (BB)",
+      "Capital/Market Cap": "約47億美元（2026年8月，NYSE與TSX雙重掛牌代碼皆為BB，折合約65億加元）；年初至今股價漲幅逾50%。",
+      "Core Business": "BlackBerry旗下QNX為全球車用即時嵌入式作業系統(RTOS)領導廠商，另設Secure Communications事業群（UEM、SecuSuite、AtHoc）提供政府與企業安全通訊及端點管理；2025年2月出售Cylance端點資安資產予Arctic Wolf後，公司徹底聚焦QNX與安全通訊雙引擎。",
+      "Clients & Orders": "QNX技術已嵌入超過275百萬輛汽車，合作OEM達45家，涵蓋福特、通用、賓士、豐田、福斯（vw.os平台）、寶馬等；QNX權利金訂單積壓(backlog)約9.5億美元，提供多年營收能見度，倉儲機器人、機械手臂、醫療機器人為近期成長最快新客群。",
+      "Technical Moat": "QNX微核心(microkernel)架構通過ISO 26262功能安全最高等級ASIL-D認證，是少數同時取得車用與醫療設備安全驗證之商用RTOS；與Nvidia、Qualcomm、Intel、Arm深度技術整合，客戶轉換成本高，形成長期權利金黏著度與定價權。",
+      "Revenue Breakdown": "FY2026（截至2026年2月28日）總營收5.491億美元：QNX 2.680億美元（占48.8%，年增14%）、Secure Communications 2.589億美元（占47.2%）、授權業務(Licensing) 2,220萬美元（占4.0%）。",
+      "Gross Margin Profile": "QNX調整後毛利率約84%，Secure Communications約70%；FY2026調整後EBITDA達1.071億美元（年增27%），EBITDA利潤率約20%，GAAP淨利5,320萬美元，為連續第8季獲利。",
+      "Key Competitors": "車用嵌入式作業系統主要對手為Wind River(VxWorks)、Green Hills Software、Lynx Software；資安通訊領域面對Ivanti、Samsung Knox等UEM廠商。全球嵌入式Hypervisor市場預估由2025年約252.5億美元成長至2035年895.6億美元（CAGR約12%），為QNX中長期成長腹地。",
+      "12M Catalysts": "1) QNX加速滲透機器人與工業自動化，倉儲及醫療機器人為最快成長垂直領域；2) 2026年4月與Nvidia擴大合作，將軟體部署於機器人、醫療科技與工業平台；3) 2026年5月啟動新一輪庫藏股計畫，最多回購2,678萬股（約占公開流通股4.58%），反映管理層對評價信心；4) 地緣政治風險支撐政府/國防通訊需求（AtHoc、SecuSuite）。",
+      "Key Investment Risks": "全球新車銷售或生產放緩恐壓抑QNX權利金與開發席位營收；Secure Communications成長明顯落後QNX，缺乏第二成長引擎恐限制整體評價擴張；出售Cylance仍留有約4,000萬美元遞延對價之收現風險；股價年初至今大漲後評價已反映多數樂觀假設，QNX成長若不如預期恐引發劇烈修正。",
+      "CEO & Management": "執行長John Giamatteo自2023年11月接任，主導「回歸核心」策略，聚焦QNX與Secure Communications並出售非核心Cylance資產；管理團隊近兩年持續向市場強調QNX機器人/物理AI題材與獲利轉型成果以爭取評價重估。",
+      "Core Patents & IP": "核心智慧財產為QNX微核心即時作業系統、Hypervisor及中介軟體技術，並持有Certicom橢圓曲線密碼學專利與Paratek RF天線調諧技術；QNX OS for Automotive Safety取得ISO 26262 ASIL-D認證，屬業界最高等級功能安全認證之一。",
+      "3-Year M&A": "2025年2月完成出售Cylance端點資安業務予Arctic Wolf Networks，總對價約1.6億美元（現金加約550萬股Arctic Wolf股票），較2018年1.4億美元收購價大幅折價出售，象徵公司退出端點防護市場、專注QNX與通訊資安核心業務；期間未見大型併購案。",
+      "CapEx & Expansion": "維持輕資產營運模式，資本支出主要投入QNX研發（車用高效能運算、軟體定義車輛SDV平台）及與Nvidia、Qualcomm聯合開發實驗室；2026年5月宣布新一輪庫藏股回購計畫，資本配置優先回饋股東而非大型併購或擴廠（估）。",
+      "Geopolitical Exposure": "Secure Communications服務美、加、英等政府與國防客戶（AtHoc緊急通報、SecuSuite加密通訊），受惠北約與盟國國防預算上升；QNX全球OEM分布北美、歐洲、中國（已進入中國前十大電動車廠中七家），中美科技出口管制若擴及車用軟體，恐影響其中國市場布局（估）。",
+      "M&A Potential": "鑑於QNX在車用RTOS的稀缺性與高毛利權利金模式，市場持續揣測其可能成為Nvidia、高通或大型工業科技集團的潛在收購標的；惟管理層近期以庫藏股回購取代大型交易，短期主動出售QNX機率偏低，較可能情境為持續深化技術授權與合作而非整體公司易主（估）。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 352 (new, claude)",
+    "updated": [],
+    "claimed": [
+      "BlackBerry Limited (BB)"
+    ],
+    "unmatched": [],
+    "rows_exported": 2276
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "label": "API Batch 310 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "A&D Holon Holdings Company, Limited (7745.T)",
+      "Country": "Japan",
+      "Industry": "半導體",
+      "Tier": ""
+    }
+  ],
+  "records": [],
+  "failed": [
+    "A&D Holon Holdings Company, Limited (7745.T)"
+  ],
+  "requeued": [],
+  "excluded": [],
+  "summary": {}
+}

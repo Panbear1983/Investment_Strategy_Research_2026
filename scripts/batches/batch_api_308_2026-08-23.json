@@ -1,0 +1,264 @@
+{
+  "label": "API Batch 308 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "Mainz Biomed N.V. (MYNZ)",
+      "Country": "Netherlands",
+      "Industry": "生技新藥",
+      "Tier": ""
+    },
+    {
+      "Company": "Banijay Group N.V. (BNJ.AS)",
+      "Country": "Netherlands",
+      "Industry": "平台經濟",
+      "Tier": ""
+    },
+    {
+      "Company": "MFE-MediaForEurope N.V. (MFEA.MI)",
+      "Country": "Netherlands",
+      "Industry": "平台經濟",
+      "Tier": ""
+    },
+    {
+      "Company": "Holland Colours N.V. (HOLCO.AS)",
+      "Country": "Netherlands",
+      "Industry": "全球供應鏈",
+      "Tier": ""
+    },
+    {
+      "Company": "Acomo N.V. (ACOMO.AS)",
+      "Country": "Netherlands",
+      "Industry": "全球供應鏈",
+      "Tier": ""
+    },
+    {
+      "Company": "Sligro Food Group N.V. (SLIGR.AS)",
+      "Country": "Netherlands",
+      "Industry": "全球供應鏈",
+      "Tier": ""
+    },
+    {
+      "Company": "ForFarmers N.V. (FFARM.AS)",
+      "Country": "Netherlands",
+      "Industry": "全球供應鏈",
+      "Tier": ""
+    },
+    {
+      "Company": "Koninklijke BAM Groep N.V. (BAMNB.AS)",
+      "Country": "Netherlands",
+      "Industry": "全球供應鏈",
+      "Tier": ""
+    },
+    {
+      "Company": "Van Lanschot Kempen N.V. (VLK.AS)",
+      "Country": "Netherlands",
+      "Industry": "平台經濟",
+      "Tier": ""
+    },
+    {
+      "Company": "JDE Peet's N.V. (JDEP.AS)",
+      "Country": "Netherlands",
+      "Industry": "全球供應鏈",
+      "Tier": ""
+    },
+    {
+      "Company": "Heineken N.V. (HEIA.AS)",
+      "Country": "Netherlands",
+      "Industry": "全球供應鏈",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "Netherlands",
+      "Timeframe": "中長期",
+      "Sub-Sector": "娛樂內容與數位博弈平台",
+      "Industry": "傳播與娛樂業",
+      "Tier": "龍頭股",
+      "Company": "Banijay Group N.V. (BNJ.AS)",
+      "Capital/Market Cap": "約 37.6 億歐元",
+      "Core Business": "核心業務為全球獨立電視節目內容製作與分發（如《老大哥》、《倖存者》），以及以 Betclic、Tipico 及 JOA Groupe 為主體的線上與線下體育博弈和賭場業務。",
+      "Clients & Orders": "主要客戶為全球主流電視台與串流影音平台（如 Netflix、Disney+、Amazon Prime Video），以及歐洲地區的廣大線上博弈與娛樂玩家。",
+      "Technical Moat": "擁有全球最大且超過 18 萬小時的獨立內容版權庫與多國在地化製作網絡，且在博弈業務擁有自主研發的賠率引擎與數位平台。",
+      "Revenue Breakdown": "2025 年營收約 48.81 億歐元，其中內容製作與分銷及現場體驗佔 67.3%（約 32.87 億歐元），線上博弈與遊戲佔 32.7%（約 15.94 億歐元）。",
+      "Gross Margin Profile": "整體毛利率約 38% (估)，調整後 EBITDA 率於 2025 年達 19.7%，其中博弈業務的利潤率（約 25%）顯著高於內容製作部門。",
+      "Key Competitors": "影視製作競爭對手包括 Fremantle (RTL Group)、ITV Studios、Sony Pictures Television 等；博弈業務對手包括 Flutter Entertainment、Entain 等。",
+      "12M Catalysts": "2026 年 7 月完成與 All3Media 的合併案以顯著擴大製作規模，以及 2026 年下半年博弈部門新任執行長上任與收購 JOA Groupe 的整合效益釋放。",
+      "Key Investment Risks": "全球串流平台預算縮減導致內容製作委託減少，歐洲各國博弈監管與稅收政策持續收緊，以及高槓桿併購帶來的債務與利息壓力。",
+      "CEO & Management": "集團執行長為 François Riahi；娛樂部門執行長為 Marco Bassetti；博弈部門新任執行長為 Antoine Jouteau（2026 年 9 月上任）。",
+      "Core Patents & IP": "持有《Big Brother》、《Survivor》、《MasterChef》、《Peaky Blinders》等全球知名綜藝與影劇節目的格式版權與商標。",
+      "3-Year M&A": "2026 年與 RedBird IMI 合併 All3Media 並收購 JOA Groupe；2025 年收購 Tipico 64.9% 股權；2023 年收購 Balich Wonder Studio 股權。",
+      "CapEx & Expansion": "資本支出重點在於高階劇集（Scripted）的內容前期開發、Live 現場體驗分支機構的全球擴張，以及博弈部門的跨國數位平台升級與實體賭場數位化整合。",
+      "Geopolitical Exposure": "主要業務位於西歐與北美，地緣政治直接風險較低，但需面對歐洲各國博弈法規去中心化、地方稅率差異及在地化合規挑戰。",
+      "M&A Potential": "作為產業整合平台，未來將繼續在中小型獨立影視工作室及歐洲各國具備牌照的線上博弈/運動彩券平台中尋找具互補性的標的，並透過跨國分銷網路變現。"
+    },
+    {
+      "Country": "Netherlands",
+      "Timeframe": "中長期",
+      "Sub-Sector": "數位廣告與影音串流",
+      "Industry": "傳媒與娛樂業",
+      "Tier": "龍頭股",
+      "Company": "MFE-MediaForEurope N.V. (MFEA.MI)",
+      "Capital/Market Cap": "截至2026年8月，公司總市值約介於 18.8億至21.7億歐元之間，隨兩類股票 (MFEA與MFEB) 的市場交易價格波動。",
+      "Core Business": "核心業務為跨國商業電視廣播與數位媒體營運，旗下控股義大利 Mediaset、西班牙 Mediaset España 及德國 ProSiebenSat.1。公司透過整合的廣告銷售平台 MFE Advertising 提供跨國與本地廣告解決方案，並積極經營 Joyn 等串流影音服務。",
+      "Clients & Orders": "主要客戶為全球及歐洲本土的快消品 (FMCG)、汽車、零售及金融等大型品牌廣告主與媒介代理商。訂單主要以年度廣告聯播合約及單次行銷專案形式呈現，並隨數位轉型增加串流訂閱用戶與中小企業自助廣告訂單。",
+      "Technical Moat": "擁有先進的 HbbTV 互動式定向廣告 (Addressable TV) 技術與自研的 Mediaset AdManager 自助投放平台，實現線性電視與數位廣告的跨螢精準投放。此外，集團掌握龐大的在地化原創內容製作能力與西歐核心頻譜資源，築起高競爭壁壘。",
+      "Revenue Breakdown": "廣告收入為最主要營收來源，佔總營收估約 80% 以上，涵蓋電視、數位與廣播廣告。其餘營收來自內容版權銷售、串流平台 (Joyn/Infinity) 訂閱費及其他商業服務。",
+      "Gross Margin Profile": "由於媒體業主要列支內容製作與版權授權成本，其毛利率估介於 20% 至 30% 之間。隨著 2025 年底併購整合與 2026 年推行橫向成本削減，集團 EBITDA 利潤率已於 2026 年第一季回升至 16.5% (估)，獲利結構逐步轉佳。",
+      "Key Competitors": "主要競爭對手包括歐洲廣播龍頭 RTL Group、西班牙 Atresmedia，以及 Netflix、YouTube 等全球串流與數位廣告巨頭。",
+      "12M Catalysts": "預計於 2027 年 1 月正式推出統一的歐洲影音串流平台，全面融合 Joyn 技術平台與義大利界面的綜效。此外，2025 年底完成 ProSiebenSat.1 控股 75.61% 後的協同效應釋放與歐洲廣告市場的回溫，將成為未來一年的股價催化劑。",
+      "Key Investment Risks": "面臨歐洲總體經濟波動及企業廣告預算收縮的直接風險。同時，與全球大型串流平台在內容投資與觀眾注意力上的競爭加劇，且 ProSiebenSat.1 跨國整合後的協同效應若不及預期，將影響獲利復甦步伐。",
+      "CEO & Management": "由創辦人家族成員 Pier Silvio Berlusconi 擔任董事長兼集團執行長，主導集團策略轉型。管理團隊於 2026 年 3 月改組為橫向管理架構，由 Marco Giordani 負責財務與國際業務，Stefano Sala 掌管全球廣告銷售。",
+      "Core Patents & IP": "持有大量 HbbTV 定向廣告投放與跨螢互動技術專利，並擁有龐大的歐洲本土影音節目版權庫。此外，集團掌握義大利與西班牙多個商業無線電視廣播特許執照與黃金頻段。",
+      "3-Year M&A": "於 2023 年完成對西班牙子公司 Mediaset España 的全面私有化與合併。隨後於 2025 年 9 月完成對德國媒體集團 ProSiebenSat.1 Media SE 的自願要約收購，持股比例提高至 75.61%，成功奠定泛歐媒體龍頭地位。",
+      "CapEx & Expansion": "資本支出重點投入於數位基礎設施升級，尤其是將各國串流服務向 Joyn 技術平台遷移，以支援 2027 年統一串流平台上線。同時持續優化義大利、西班牙與德國等地的自製節目攝影棚與廣播發射設備。",
+      "Geopolitical Exposure": "營運與資產高度集中於歐盟成員國，受單一國家地緣政治衝突波及風險較低，但易受歐盟《數位服務法》(DSA) 等媒體與隱私監管法規變更的影響。",
+      "M&A Potential": "由於大股東 Fininvest 家族持股控制過半表決權，被敵意收購的可能性極低。相反地，隨著泛歐整合戰略推進，MFE 未來具有進一步收購 ProSiebenSat.1 剩餘少數股權或尋求收購其他西歐二線廣播商的擴張潛力。"
+    },
+    {
+      "Country": "Netherlands",
+      "Timeframe": "中長期",
+      "Sub-Sector": "環保塑料著色與功能性添加劑",
+      "Industry": "特種化學品",
+      "Tier": "隱形冠軍",
+      "Company": "Holland Colours N.V. (HOLCO.AS)",
+      "Capital/Market Cap": "約 6,500萬歐元",
+      "Core Business": "專注於開發、生產與銷售用於塑料、包裝（如 PET 瓶）、建材（如 PVC 型材和管道）及塗料與密封膠的高性能著色母粒、液體著色劑和功能性添加劑。公司以獨特的環保生物基載體技術為核心，為全球客戶提供高客製化的色彩與防老化、防乙醛等解決方案。",
+      "Clients & Orders": "主要客戶包括全球大型塑料包裝製造商（特別是 PET 瓶坯生產商）、PVC 建材擠出企業以及塗料配方廠。訂單結構相對穩定但具週期性，主要隨全球建築及消費包裝市場的需求波動，且近年回收聚酯（rPET）著色增強技術的訂單比重顯著增加。",
+      "Technical Moat": "擁有獨家的無粉塵微粒封裝技術（如 Holcobatch®、Holcoprill® 與 Holcopearl®），使用天然可再生或生物基載體而非傳統塑料載體，能以極低劑量實現高均勻度著色且不影響塑料回收率。此外，針對 PET 包裝開發的 TasteGuard® 乙醛清除劑等功能性添加劑，能有效保護食品級包裝的內容物風味。",
+      "Revenue Breakdown": "2025-2026財年總營收為 1.09 億歐元，其中 EMEIA（歐洲、中東、印度與非洲）為最大營收貢獻區域，但受歐洲塗料與建材市場疲軟及對俄制裁影響而微幅下滑。美洲地區展現增長勢頭，亞洲地區則在建材需求放緩下表現平淡。",
+      "Gross Margin Profile": "受惠於高客製化的特種添加劑定位，毛利貢獻率（Contribution Margin）維持在較高水平，但受不利的產品銷售組合及原材料成本波動影響，2025/2026財年上半年毛利貢獻率由去年同期的 49% 下滑至約 47%。",
+      "Key Competitors": "主要競爭對手包括全球特種聚合物龍頭 Avient Corporation（特別是其收購 Clariant 母粒業務後之部門）、Ampacet Corporation、Tosaf Group、Cabot Corporation 以及 LyondellBasell 等跨國化工巨頭。",
+      "12M Catalysts": "1) 2026年10月1日新任執行長 Chris Roggeband 正式上任，預期將推動營運效率提升與策略更新。2) 歐盟對塑料回收與永續包裝的嚴格法規陸續實施，將加速客戶對公司生物基著色劑的需求。3) 歐美建築與包裝行業的庫存去化結束，可望帶動 PVC 和 PET 相關訂單反彈。",
+      "Key Investment Risks": "1) 歐洲與亞洲宏觀經濟放緩，將壓抑建築與塗料等高週期性下游行業的整體需求。2) 地緣政治衝突、對俄貿易制裁及潛在的關稅壁壘，可能增加供應鏈摩擦並壓縮利潤空間。3) 身為市值較小的利基型企業，股票日均成交量偏低，面臨較大的市場流動性風險。",
+      "CEO & Management": "前任執行長 Coen Vinke 於 2026年7月9日股東大會後卸任，新任執行長 Chris Roggeband 預計於 2026年10月1日接掌帥印。Eelco van Hamersveld 於 2026年初獲提名續任首席技術長（CTO），繼續領導研發工作。",
+      "Core Patents & IP": "持有涵蓋低熔點生物基載體技術、粉塵控制封裝製程以及多種專用於 PET 與 PVC 塑料的專利配方，並擁有 Holcobatch®、Holcopet®、TasteGuard® 等關鍵註冊商標保護。",
+      "3-Year M&A": "近三年（2023-2026年）並無重大外部併購或合資案，公司策略性地將資源集中於內部有機增長、生產自動化升級以及區域服務網絡的優化。",
+      "CapEx & Expansion": "2025/2026財年的投資現金支出增至約 480 萬歐元，主要用於升級歐美生產基地的自動化設備、推進內部 IT 數位化轉型以及擴建美洲市場的在地研發與行銷團隊。",
+      "Geopolitical Exposure": "高度暴露於歐盟及中東地緣政治局勢中，包括嚴格的對俄出口制裁直接影響了 EMEIA 地區的部分業務，而國際貿易關稅糾紛則增加了跨國原料採購與產品交付的成本壓力。",
+      "M&A Potential": "中等偏低。由於公司具備高黏著度的環保載體專利技術且市值規模小，易成為 Avient 或 Tosaf 等跨國巨頭尋求技術互補的潛在收購目標；然而，公司獨特的員工持股文化與獨立運作傳統，降低了主動尋求出售的意願。"
+    },
+    {
+      "Country": "Netherlands",
+      "Timeframe": "中長期",
+      "Sub-Sector": "農業科技與畜牧飼料",
+      "Industry": "全球供應鏈",
+      "Tier": "龍頭股",
+      "Company": "ForFarmers N.V. (FFARM.AS)",
+      "Capital/Market Cap": "約 5.2億歐元",
+      "Core Business": "主要從事為反芻動物、豬、家禽及馬等牲畜研發、製造並供應配合飼料、濃縮飼料與有機副產品（循環飼料）。公司同時為農場主提供精準餵養技術支援與農場管理諮詢服務。",
+      "Clients & Orders": "客戶主要為荷蘭、德國、波蘭、比利時與英國等地的畜牧業農戶與大型農業合作社。訂單多基於牲畜飼養週期形成長期重複採購，或根據市場飼料原料價格波動進行現貨交易。",
+      "Technical Moat": "擁有「Feed2Profit」與「Apollo」等專利精準營養配方系統，能優化飼料轉化率並顯著降低牲畜的氮、磷與甲烷排放以符合歐盟環保法規。此外，透過整合 Van Triest CirQlar，具備將食品工業副產品轉化為高品質循環飼料的獨特工藝與配方技術。",
+      "Revenue Breakdown": "以地理區域劃分，2025年荷蘭與比利時貢獻約45%的毛利，德國與波蘭約佔30%，英國則佔約25%。產品線則以配合飼料（Compound Feed）為主要營收來源，其餘為濃縮飼料與循環副產品。",
+      "Gross Margin Profile": "毛利率由2025財年的約16.5%提升至2026年上半年的20.8%，主要受益於大宗原料成本回落及產品結構向高毛利特種飼料轉移。公司藉由靈動定價機制，在原料波動中維持了穩定的單位毛利表現。",
+      "Key Competitors": "主要競爭對手包括荷蘭的泰高集團（Nutreco）、德赫斯集團（Royal De Heus）、皇家阿格利菲姆集團（Royal Agrifirm Group），以及全球性農業巨頭嘉吉（Cargill）。",
+      "12M Catalysts": "預計於2026年秋季完成與波蘭 KPS Food Group 成立的家禽飼料合資企業，將立即拉動產量增長。此外，公司計劃於2026年底召開資本市場日（CMD），屆時將公佈全新的中期財務目標與「Going 2030」戰略的最新進展。",
+      "Key Investment Risks": "歐盟與荷蘭實施極為嚴格的減氮環保政策，可能迫使當地農戶削減牲畜飼養規模。此外，全球穀物與大豆等飼料原料價格的劇烈波動，以及歐洲偶發的禽流感或非洲豬瘟疫情，均會直接衝擊飼料需求與利潤率。",
+      "CEO & Management": "由首席執行官 Pieter Wolleswinkel 領軍，其於2026年4月獲續任四年任期，並與2024年加入的首席財務官 Marloes Roetgerink 共同組成核心管理團隊。管理團隊近年專注於推動運營卓越、重組英國業務並透過合資案加速海外擴張。",
+      "Core Patents & IP": "擁有專有的飼料配方數據庫與動態營養分析軟體，能即時調整飼料成分以適應氣候與牲畜健康狀況。同時，公司在低碳排放飼料配方及食品副產品精煉加工領域擁有多項商業機密與製程專利。",
+      "3-Year M&A": "於2025年3月與 DLG 集團旗下的 team agrar 成立合資公司以整合德國飼料業務，並於2026年與波蘭 KPS 達成合資協議以深耕家禽市場。2024年則完全整合了 Van Triest Veevoeders 以擴大循環飼料佈局。",
+      "CapEx & Expansion": "資本支出重點在於升級現有飼料廠的自動化設備、降低碳排放（如安裝太陽能與優化物流），以及在波蘭和德國合資工廠進行產能改造以應對增長需求。",
+      "Geopolitical Exposure": "業務高度集中於西歐與中歐（歐盟及英國），面臨歐盟共同農業政策（CAP）改革與各國綠色轉型政策的法規限制。此外，飼料關鍵原料（如南美大豆）依賴全球貿易供應鏈，易受地緣政治導致的物流中斷及關稅影響。",
+      "M&A Potential": "行業整合潛力高，由於中小型飼料廠難以負擔日益嚴苛的環保升級成本，ForFarmers 作為行業龍頭具備充足空間進行收購。未來併購重點將聚焦於中東歐新興市場的市佔率擴張，以及新型替代蛋白與循環原料供應商的股權投資。"
+    },
+    {
+      "Country": "Netherlands",
+      "Timeframe": "中長期",
+      "Sub-Sector": "綠色工程與基礎建設",
+      "Industry": "營建與工程",
+      "Tier": "潛力股",
+      "Company": "Koninklijke BAM Groep N.V. (BAMNB.AS)",
+      "Capital/Market Cap": "約 29.2億歐元",
+      "Core Business": "公司是歐洲領先的建築與土木工程集團，專注於可持續營建、不動產開發以及基礎設施建設。業務圍繞「構建可持續未來」戰略，積極推動低碳建築、能源轉型基礎設施與國防設施工程。",
+      "Clients & Orders": "主要客戶包括荷蘭及英國政府部門、國家電網營運商（如TenneT）、鐵路與公路管理機構，以及大型機構投資者與住宅買家。截至2026年中期，公司在手訂單維持在126億歐元的強勁水準，為未來營收提供高能見度。",
+      "Technical Moat": "核心技術護城河體現在工業化與模組化木造建築平台（如Flow概念住宅），以及離岸重力基礎結構等專利工藝。此外，公司在BIM數字化建模（ISO 19650）與零排放電氣化工地施工領域具備行業領先的整合能力。",
+      "Revenue Breakdown": "營收主要來自荷蘭本土市場（約佔50%）以及英國與愛爾蘭市場（約佔49%）。從業務板塊看，建築與基礎設施土木工程貢獻逾90%的營收，不動產開發與其他業務則合計佔約10%。",
+      "Gross Margin Profile": "隨著高利潤率項目增加與嚴格的風險管控，2026年上半年調整後EBITDA利潤率顯著提升至6.9%。公司已將2026年全年調整後EBITDA利潤率指引上調至至少6.5%，展現出盈利能力的持續改善。",
+      "Key Competitors": "主要競爭對手包括歐洲大型營建龍頭如法國的 Vinci 與 Bouygues、瑞典的 Skanska，以及英國本土的 Kier Group 和 Balfour Beatty。",
+      "12M Catalysts": "未來12個月的催化劑包括歐洲電網擴建與能源轉型基礎設施項目的持續落地、荷蘭住宅市場的復甦，以及公司持續執行的股份回購計劃。此外，與國防相關的基礎設施訂單持續增長也將成為重要增長引擎。",
+      "Key Investment Risks": "主要投資風險包括荷蘭氮排放許可法規收緊導致的項目延期、歐洲電力網絡過載導致新工地的電力接入延遲，以及建材通膨與勞動力短缺帶來的利潤率擠壓。",
+      "CEO & Management": "現任執行長為 Ruud Joosten（自2020年9月起上任），其管理風格強調利潤導向而非規模擴張。管理團隊專注於去槓桿、處置非核心資產，並推動數字化與綠色轉型戰略。",
+      "Core Patents & IP": "持有包括用於離岸風電重力式基礎製造方法等土木工程專利，並擁有 Flow 裝配式木造住宅的商標與專有設計智慧財產權。公司亦積極投入循環經濟工法與低碳水泥替代材料的技術開發。",
+      "3-Year M&A": "2025年3月完成將 Invesis（前 BAM PPP）剩餘50%股權處置給 PGGM，回籠約1.05億歐元資金。2026年3月收購荷蘭住宅開發商 Gebroeders Blokland，為集團引入了約2,400套住宅的土地儲備與開發權益。",
+      "CapEx & Expansion": "資本支出偏向輕資產運營，2026年中期資本支出同比下降約25%，資源主要投向工業化預製廠房的升級與施工車隊的電氣化。公司專注於深耕荷蘭與英愛核心市場，無意進行大規模的跨國地域擴張。",
+      "Geopolitical Exposure": "主要業務幾乎完全集中於荷蘭、英國及愛爾蘭，因此對歐洲以外的地緣政治衝突直接曝險極低。然而，地緣政治引起的歐洲能源價格波動以及供應鏈原材料價格震盪，仍會間接影響其工程造價與利潤率。",
+      "M&A Potential": "併購潛力評級為中等。公司賬面現金充裕且已退出非核心的德、法、比等市場，預期未來將繼續圍繞本土市場進行小型、高利潤率的綠色技術或住宅開發商併購，而非開展大規模的同業合併。"
+    },
+    {
+      "Country": "Netherlands",
+      "Timeframe": "中長期",
+      "Sub-Sector": "數位與混合型財富管理平台",
+      "Industry": "財富管理與資產管理",
+      "Tier": "隱形冠軍",
+      "Company": "Van Lanschot Kempen N.V. (VLK.AS)",
+      "Capital/Market Cap": "約 28 億歐元 (約合 32.4 億美元)",
+      "Core Business": "專注於私人銀行、資產管理及投資銀行（Merchant Banking）服務，結合 Evi van Lanschot 數位線上平台與線下專屬顧問，提供高淨值客戶與機構法人混合型財富管理方案。公司採輕資本（Capital-light）營運模式，以卓越的共同投資與受託資產管理能力為核心驅動力。",
+      "Clients & Orders": "主要客戶群包括西歐高淨值個人與家庭、企業家、大型機構法人（如養老基金和保險公司）以及透過數位平台的零售大眾。截至 2025 年底，總管理資產（AuM）達到 1,800 億歐元，年成長達 7%，並持續錄得穩健的淨資金流入。",
+      "Technical Moat": "核心護城河在於將雲端運算（導入 Azure 與 Databricks 數據平台）與 AI 應用深度融合，建構高效率的混合型財富管理系統。2025 年末引進 Amundi Technology 的 ALTO 投資平台，無縫整合前中後台以支撐複雜投資架構，並透過 Evi 數位平台的自動化管理降低營運摩擦。",
+      "Revenue Breakdown": "2025 年總營業收入為 7.544 億歐元，其中佣金與手續費收入為 5.673 億歐元（佔比約 75.2%）為最主要支柱，淨利息收入為 1.641 億歐元（佔比約 21.8%），其餘為金融交易及證券收益等其他收入（佔比約 3.0%）。",
+      "Gross Margin Profile": "由於財富管理業務屬於資本輕型及服務導向，營業成本主要為人事與資訊科技投入，其 2025 年成本/收入比率（Cost/Income Ratio）控制在 69.2%，反映出約 30.8% 的營運利潤率。2025 年淨利潤率達 20.9%（淨利潤 1.574 億歐元），整體獲利能力隨資產規模效應遞增。",
+      "Key Competitors": "主要競爭對手包括比利時與荷蘭當地的獨立精品私人銀行如 Degroof Petercam、Quintet Private Bank，以及荷蘭三大綜合性銀行（ABN AMRO、ING、Rabobank）的私人銀行部門，亦與 Lombard Odier 等瑞士老牌財富管理機構在歐洲市場開展直接競爭。",
+      "12M Catalysts": "未來 12 個月催化劑包括荷蘭新養老金改革法案實施所釋放的個別養老金投資帳戶需求，帶動 Evi Pensioen 業務擴張；此外，2025 年新購併的 Wilton 聯合家族辦公室完成整合，預期將為 2026 年帶來明顯的營收協同效應與 AuM 增長。",
+      "Key Investment Risks": "主要投資風險為全球金融市場波動導致管理資產（AuM）估值與手續費收入縮水。其次，在歐元區降息環境下，儲蓄與存款利差收窄，使得淨利息收入持續面臨下行壓力。此外，在混合型數位轉型過程中，網路安全與數據隱私的合規風險亦不容忽視。",
+      "CEO & Management": "由執行董事會主席兼執行長 Maarten Edixhoven 領軍，帶領財務長 Jeroen Kroes 及風險長 Damla Hendriks。2026 年 5 月股東大會後由 Guido van Aubel 接任營運長（COO），Michelle Darracott 則於 2026 年 4 月接任英國投資管理業務執行長，展現新一代管理層在技術與區域擴展的布局。",
+      "Core Patents & IP": "該公司未持有傳統的硬體或軟體技術專利，其知識產權主要體現為註冊商標（如 Evi van Lanschot、Mercier Van Lanschot 等品牌資產）。同時，公司保護其 Evi 線上財富管理平台的專有軟體著作權，以及長年積累的受託資產配置演算法與客戶關係數據保護。",
+      "3-Year M&A": "近三年積極進行補強型（Bolt-on）收購，包括 2023 年 7 月收購 Robeco 線上零售投資平台、同年 12 月收購比利時財富管理商 Accuro，並於 2024 年初完成 Mercier Vanderlinden 的全資合併。2025 年 7 月則收購荷蘭 Wilton 聯合家族辦公室以充實其家族辦公室業務。",
+      "CapEx & Expansion": "擴張與資本支出聚焦於數位化加速（Digital Acceleration），包括將比利時業務遷至統一的母行 IT 平台、升級 ALTO 雲端投資管理系統。同時，針對內部員工進行負責任人工智慧（AI）應用的培訓，旨在推動不依賴重資本的跨國業務擴展。",
+      "Geopolitical Exposure": "業務高度集中於荷蘭、比利時、英國及瑞士等政經穩定的西歐國家，直接地緣政治風險暴露較低。然而，中東衝突升溫及美歐關稅政策導致的全球金融市場動盪，仍會間接影響其資產管理平台的資金配置偏好與整體 AuM 估值。",
+      "M&A Potential": "併購潛力極高，公司維持輕資本模式並以 17.5% 的普通股充足率（CET1 ratio）為目標，擁有充裕的超額資本。預計將持續在 Benelux（比荷盧）地區尋求中小型獨立財富管理機構（IWM）進行補強型收購，以加速資產規模與平台的規模經濟效益。"
+    },
+    {
+      "Country": "Netherlands",
+      "Timeframe": "中長期",
+      "Sub-Sector": "高端啤酒與包裝飲料",
+      "Industry": "日常消費品 (飲料釀造)",
+      "Tier": "龍頭股",
+      "Company": "Heineken N.V. (HEIA.AS)",
+      "Capital/Market Cap": "約 397億至408億歐元",
+      "Core Business": "全球第二大釀酒商，主營高端啤酒、蘋果酒及無酒精/低酒精飲料的研發與釀造。旗下擁有 Heineken® 等超過 300 個國際、區域與本地品牌，行銷全球 190 多個國家。",
+      "Clients & Orders": "主要客戶為全球的餐飲通路（Horeca，包含飯店、餐廳、酒吧）、大型連鎖零售商、食品飲料批發商與經銷商。其 B2B 數位平台已成為核心訂單管道，連結數十萬家終端商戶並優化庫存管理。",
+      "Technical Moat": "擁有自 19 世紀傳承的獨家海尼根 A-酵母（A-Yeast®）配方，作為商業機密嚴格管控以維持全球一致風味。其數位護城河包括強大的 B2B 電商生態系統、AIDDA 數據驅動銷售分析工具，以及全球生成式 AI 實驗室以優化供應鏈與行銷分配。",
+      "Revenue Breakdown": "2025 年淨營收達 287.5 億歐元，其中歐洲為最大區域市場（營收約 114.6 億歐元）。2026 年上半年淨營收達 148.3 億歐元，其中高端啤酒銷量增長 6%，無酒精啤酒 Heineken 0.0 成長達 12%。",
+      "Gross Margin Profile": "2025 年毛利率約為 37.0%，營業利潤率為 15.2%，受惠於超過 5 億歐元的生產力節省。2026 年上半年營業利潤率進一步擴張 55 個基點至 14.6%，主要由高端化策略與 EverGreen 2030 節流計畫推動。",
+      "Key Competitors": "主要競爭對手為全球第一大釀酒商百威英博（Anheuser-Busch InBev，ABI.BR）以及第三大釀酒商嘉士伯（Carlsberg A/S，CARL-B.CO）。",
+      "12M Catalysts": "首要催化劑為新任執行長 Rafael Oliveira 於 2026 年 10 月 1 日正式上任後的戰略推動。其次為 2026 年完成整合價值 32 億美元的中美洲 FIFCO 飲料與零售業務。此外，EverGreen 2030 生產力計畫預期將持續帶來每年 4 億至 5 億歐元的成本節省並支撐獲利。",
+      "Key Investment Risks": "主要風險包括新興市場（如墨西哥、越南和巴西）面臨的匯率波動與輸入性通膨。其次是歐洲等成熟市場的啤酒消費量呈現結構性衰退，且消費者可能因高通膨轉而購買平價啤酒。此外，收購 FIFCO 後的整合進度與供應鏈協同效應若不如預期亦是潛在風險。",
+      "CEO & Management": "現任執行長 Dolf van den Brink 自 2020 年掌舵至今，成功推動 EverGreen 戰略轉型。他將於 2026 年 9 月底卸任，並由前 JDE Peet's 執行長 Rafael Oliveira 於 2026 年 10 月 1 日接任 CEO，預期將延續高端化與營運數位化的方針。",
+      "Core Patents & IP": "核心智慧財產權為獨家且列為最高商業機密的 A-酵母（A-Yeast®）菌株。此外擁有多項專利生啤系統（如 Blade、David 與 BrewLock）以及無酒精啤酒的專利脫醇蒸餾技術，確保其產品在全球的絕佳風味與分銷效率。",
+      "3-Year M&A": "2026 年 1 月正式完成以約 32 億美元收購中美洲 FIFCO 的飲料與零售業務，取得哥斯大黎加與巴拿馬等國業務的完全主導權。2023 年收購阿姆斯特丹精釀酒廠 Oedipus Brewing 並出售荷蘭軟性飲料子公司 Vrumona，展現向核心啤酒業務聚焦的決心。",
+      "CapEx & Expansion": "於 2025 年啟動在墨西哥猶加敦半島 Kanasín 興建全新釀酒廠的 27.5 億美元擴建計畫，預計初期產能達 400 萬百升並將於 2028 年前陸續投入。同時，公司嚴格控制資本支出於淨營收的 8% 以下，並持續投資於 Digital Backbone (DBB) 數位平台以推廣至全球市場。",
+      "Geopolitical Exposure": "全球地緣政治風險主要來自中東地區衝突導致的局部供應鏈中斷及市場波動，以及全球潛在關稅壁壘對跨境貿易的影響。此外，集團在全球 190 多國銷售，面臨嚴峻的跨國匯率折算風險，唯 2026 年上半年匯率折算對淨營收及利潤帶來了溫和的正面影響。",
+      "M&A Potential": "由於已完成 32 億美元的中美洲 FIFCO 重大收購，預期其資產負債表將優先進行降槓桿與資源整合，短期內大規模收購機率較低。未來 M&A 潛力將主要集中在非洲與拉丁美洲等高成長市場的局部經銷商股權收購，或是對 Beyond Beer（超越啤酒）及高端精釀品牌的戰略性投資。"
+    }
+  ],
+  "failed": [
+    "Mainz Biomed N.V. (MYNZ)"
+  ],
+  "requeued": [
+    "Acomo N.V. (ACOMO.AS)",
+    "Sligro Food Group N.V. (SLIGR.AS)"
+  ],
+  "excluded": [
+    "JDE Peet's N.V. (JDEP.AS)"
+  ],
+  "summary": {
+    "batch_label": "API Batch 308 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "Banijay Group N.V. (BNJ.AS)",
+      "MFE-MediaForEurope N.V. (MFEA.MI)",
+      "Holland Colours N.V. (HOLCO.AS)",
+      "ForFarmers N.V. (FFARM.AS)",
+      "Koninklijke BAM Groep N.V. (BAMNB.AS)",
+      "Van Lanschot Kempen N.V. (VLK.AS)",
+      "Heineken N.V. (HEIA.AS)"
+    ],
+    "unmatched": [],
+    "rows_exported": 2111
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "label": "Maintenance Batch 333 (maintenance, gemini)",
+  "source": "maintenance",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "大量 (3167.TW)",
+      "ticker": "3167.TW",
+      "Country": "Taiwan",
+      "Tier": "次要供應商",
+      "values": {
+        "Country": "Taiwan",
+        "Timeframe": "中期",
+        "Sub-Sector": "邊緣 AI 擴展",
+        "Industry": "其他電子業",
+        "Tier": "次要供應商",
+        "Company": "大量 (3167.TW)",
+        "Capital/Market Cap": "約 11 億台幣",
+        "Core Business": "生產並銷售高精密 PCB 鑽孔機、成型機及半導體晶圓級外觀自動檢測機 (AOI)。",
+        "Clients & Orders": "全球 PCB 與載板大廠、晶圓封測大廠。",
+        "Technical Moat": "在 PCB 機械式鑽孔機市佔率高，自研多軸超高速空氣軸承主軸 (Spindle) 控制與 CCD 自動對準。",
+        "Revenue Breakdown": "PCB 精密鑽孔機與成型機 78%、半導體檢測與自動化設備 22%。",
+        "Gross Margin Profile": "約 26-28% 區間。",
+        "Key Competitors": "鈦昇, 德律, 恩德, 日商 Makino",
+        "12M Catalysts": "被動元件與高多層 HDI 板帶動高速鑽孔機消耗復甦，與自研半導體晶背檢查機 (Backside AOI) 放量。",
+        "Key Investment Risks": "PCB代工廠開工率低迷暫緩購置設備，與高轉速 Spindle 關鍵陶瓷軸承依賴進口。",
+        "CEO & Management": "王王(董事長兼總經理)，積極推動「PCB設備轉向半導體前段/封裝檢測」雙軌，經營作風穩健。",
+        "Core Patents & IP": "擁有超高速空氣軸承主軸控制專利、三維自動光學微小缺陷對焦專利，及專利超硬刀具冷卻。",
+        "3-Year M&A": "無重大併購。",
+        "CapEx & Expansion": "擴充桃園與中國華南廠區精密加工產能，拉升半導體設備自組比率。",
+        "Geopolitical Exposure": "製造與研發在台、陸兩地，地緣風險程度中等。",
+        "M&A Potential": "為高精度精密加工廠，易成為大型自動化集團策略併購互補的標的。",
+        "Recent Insider Trading": "無資料 (美股限定)"
+      }
+    }
+  ],
+  "records": [
+    {
+      "12M Catalysts": "受惠於 AI 伺服器規格升級，帶動高多層板、高階 CCD 背鑽機與 TM 系列鑽孔機需求爆發，訂單能見度已延伸至 2027 年。同時自研半導體晶背檢查機（Backside AOI）成功切入 CoWoS 與先進封裝供應鏈，且半導體事業已分割至子公司大量先進智能，加速檢測設備之驗證與放量。",
+      "Key Investment Risks": "AI 伺服器與先進封裝設備的高成長高度依賴客戶資本支出與景氣循環，需注意客戶超額下單（Overbooking）及後續去化風險。此外，部分高轉速 Spindle 關鍵零件如陶瓷軸承仍有進口依賴，且高階機台擴產對現金流管理與付款條件要求較高。",
+      "3-Year M&A": "2026 年 5 月董事會決議斥資約 2.06 億元新台幣，收購控制器模組供應商「智研科技」100% 股權，以垂直整合核心技術。另外，於 2026 年 3 月將半導體事業分割轉讓予 100% 持股之子公司「大量先進智能」，並規劃在台申請 IPO。",
+      "Geopolitical Exposure": "研發與主要生產基地仍位於台灣與中國大陸兩地，地緣政治與貿易壁壘風險程度中等。為配合台系 PCB 客戶向泰國、越南等東南亞地區移轉的「China+1」策略，已在泰國設立子公司強化在地技術支援與售後服務。",
+      "M&A Potential": "作為具備自研 CNC 控制器與高精度精密加工技術的設備廠，在 AI 高階 PCB 製程與半導體先進封裝檢測領域具備獨特地位。未來易成為大型自動化集團或半導體設備龍頭尋求技術互補、強化自主控制軟硬體實力的策略併購或結盟對象。",
+      "Company": "大量 (3167.TW)"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "Maintenance Batch 333 (maintenance, gemini)",
+    "updated": [
+      "大量 (3167.TW)"
+    ],
+    "claimed": [],
+    "unmatched": [],
+    "rows_exported": 2113
+  }
+}

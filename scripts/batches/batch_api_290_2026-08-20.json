@@ -1,0 +1,101 @@
+{
+  "label": "Maintenance Batch 290 (maintenance, codex)",
+  "source": "maintenance",
+  "provider": "codex",
+  "providers_used": [
+    "codex"
+  ],
+  "items": [
+    {
+      "Company": "Czechoslovak Group N.V. (CSG.AS)",
+      "ticker": "CSG.AS",
+      "Country": "Netherlands",
+      "Tier": "龍頭股",
+      "values": {
+        "Country": "Netherlands",
+        "Timeframe": "中長期",
+        "Sub-Sector": "彈藥與地面防衛系統",
+        "Industry": "航太/國防",
+        "Tier": "龍頭股",
+        "Company": "Czechoslovak Group N.V. (CSG.AS)",
+        "Capital/Market Cap": "約190-200億歐元（2026/8/19股價約19.21歐元，較IPO掛牌首日高點33億歐元市值已回落逾40%；估）",
+        "Core Business": "CSG為旗下逾百家子公司組成的軍工/工業集團，核心為大中小口徑彈藥（MSM Group、ZVS holding、VOP Nováky）、輪式裝甲車與軍用卡車（Tatra Trucks、Excalibur Army），並透過2024年底以約22.3億美元收購美國The Kinetic Group（Federal、Remington、CCI、Speer品牌）及2022年入股義大利Fiocchi，跨足美規民用/軍用小口徑彈藥市場。集團亦涉足空中交通管理系統與工程服務等多元業務。",
+        "Clients & Orders": "2025年與斯洛伐克國防部簽署七年期框架協議，最高可達580億歐元的中大口徑彈藥供應，另有東南亞客戶逾10億美元戰術車輛訂單；截至2025年9月底訂單backlog達140億歐元（年增69%），客戶以歐洲/北約成員國國防部及烏克蘭軍援供應鏈為主。",
+        "Technical Moat": "集團為歐洲少數具備從硝化纖維（發射藥原料）、火藥、彈頭到整車垂直整合生產能力的軍工集團，旗下Dubnica廠為歐洲少數具備155mm大口徑彈藥最終總裝能量的工廠之一；透過收購美國Kinetic Group取得成熟民用彈藥品牌通路與產能，形成跨大西洋供應鏈綜效（估）。",
+        "Revenue Breakdown": "2025年全年營收約67.41億歐元，年增72%；彈藥業務約占總營收60%，其餘為輪式裝甲車/軍用卡車、Kinetic Group民用彈藥、工程與其他服務（估，依集團揭露結構推算）。",
+        "Gross Margin Profile": "2025年前九月調整後營業利益率約24%，優於歐洲同業平均水準；全年淨利年增35%至逾8.7億歐元，惟財務槓桿因多筆大型併購（Kinetic Group、Fiocchi）與IPO前資產重組而偏高（估）。",
+        "Key Competitors": "萊茵金屬（Rheinmetall）、KNDS（法德合資）、挪威Nammo、法國Eurenco、美國General Dynamics OTS與BAE Systems；CSG常被市場定位為「Rheinmetall替代標的」，以更高成長性與較低估值吸引投資人。",
+        "12M Catalysts": "歐盟/北約「ReArm Europe」持續加碼國防支出、斯洛伐克580億歐元框架協議分批撥款執行、Kinetic Group美國產能整合綜效顯現、可能利用IPO募得的38億歐元資金進行新一輪併購，以及2026年上半年財報是否能平息做空機構對產能真實性的質疑。",
+        "Key Investment Risks": "2026年上半年遭做空研究機構Hunterbrook Media發布報告，質疑CSG宣稱的年產63萬發大口徑彈藥產能與實際產能（估10-28萬發）落差巨大，並揭露IPO前將20-30家子公司轉移至創辦人Michal Strnad個人控股實體、留下2.75億歐元未收回應收款等關聯交易疑慮，股價曾單日重挫逾18%；此外創辦人之父Jaroslav Strnad過去與俄羅斯關係網絡的歷史淵源亦持續引發地緣政治敏感度與ESG疑慮，加上高槓桿併購負債與政府訂單集中度風險。",
+        "CEO & Management": "集團由33歲的Michal Strnad擔任董事長及控股股東（自其父Jaroslav Strnad手中接班），IPO中套現約25.5億歐元並成為捷克首富；日常營運由集團管理層與旗下各子公司（MSM Group、Tatra Trucks、Excalibur Army、Kinetic Group）專業經理人團隊負責，家族仍握有多數控制權。",
+        "Core Patents & IP": "集團未以傳統專利組合為核心競爭優勢，其護城河主要來自硝化纖維/發射藥製程know-how、Tatra獨特底盤懸吊設計專利，以及Kinetic Group旗下Federal、Remington、CCI、Speer、Alliant Powder等成熟品牌與彈藥配方工藝（估）。",
+        "3-Year M&A": "2022年收購義大利Fiocchi多數股權；2024年12月以約22.3億美元完成收購美國最大彈藥製造商The Kinetic Group（含CFIUS審查通過）；2025年10月收購工業硝化纖維商Hagedorn-NC（呼應萊茵金屬同期布局），強化發射藥原料自主供應；2026年1月於Euronext Amsterdam完成史上最大規模國防IPO，募資38億歐元作為後續併購戰爭基金。",
+        "CapEx & Expansion": "宣布Tatra軍用卡車產能擴張至斯洛伐克新廠、持續投資155mm等大口徑彈藥總裝與火藥產能提升（目標年產能63萬發，但遭做空機構質疑），並將IPO募集資金與銀行貸款/發行公司債用於歐洲及北美產能擴建（估）。",
+        "Geopolitical Exposure": "集團是俄烏戰爭後歐洲再武裝浪潮（ReArm Europe）的直接受益者，長期供應烏克蘭及北約東翼國家彈藥與裝甲車輛；惟創辦人家族過去與親俄勢力網絡的歷史關係持續遭外界檢視，美國子公司Kinetic Group則需持續接受CFIUS等美國外資審查監理，中東歐地緣風險與跨大西洋供應鏈政治敏感度並存。",
+        "M&A Potential": "作為併購方，CSG可望持續運用IPO募集的38億歐元資金整合歐洲及美國高度分散的彈藥與地面裝備供應鏈；由於Strnad家族仍握有控制性股權，短期內遭萊茵金屬、KNDS等更大型國防集團惡意收購的機率偏低，但不排除策略性少數股權投資或進一步跨大西洋整併（估）。",
+        "Recent Insider Trading": "無資料 (美股限定)"
+      }
+    },
+    {
+      "Company": "Parrot (PARRO.PA)",
+      "ticker": "PARRO.PA",
+      "Country": "France",
+      "Tier": "隱形冠軍",
+      "values": {
+        "Country": "France",
+        "Timeframe": "中期",
+        "Sub-Sector": "軍民用無人機",
+        "Industry": "航太國防／AI地理空間軟體",
+        "Tier": "隱形冠軍",
+        "Company": "Parrot (PARRO.PA)",
+        "Capital/Market Cap": "截至2026年8月19日市值約3.07億歐元，股價約9.80歐元，屬流動性與估值波動均較高的歐洲小型股。[市場資料](https://stockanalysis.com/quote/epa/PARRO/market-cap/)",
+        "Core Business": "集團由Parrot Drones與持股95.15%的Pix4D構成：前者供應ANAFI UKR、ANAFI USA及ANAFI Ai等軍警、公共安全與工業微型無人機，後者提供測繪、實景建模、關鍵基礎設施檢測及數位孿生軟體。商業模式橫跨硬體、任務軟體、維護支援，以及桌面、雲端與訂閱式地理空間軟體。[2025年報](https://www.parrot.com/assets/s3fs-public/media-public/2026/PARROT_URD_2025.pdf)",
+        "Clients & Orders": "2026年首批NATO採購與支援局訂單涵蓋芬蘭國防軍及另一名國防客戶，分批出貨量為每批100至500套，計畫成熟後總量可望達數千套；2025年另取得某歐洲國防軍三年期大規模部署案。[NSPA公告](https://www.parrot.com/assets/s3fs-public/document/PARROT_CP_NATO_NSPA-contracts_20260317_EN_DEF.pdf) [三年期合約](https://www.parrot.com/en/newsroom/parrot-awarded-major-multi-year-contract-european-defence-force-tactical-micro-uas) 另一歐洲裝甲車十年框架專案截至2026年5月已交付250套ANAFI UKR，並宣布第二季再交付175套；既有客戶還包括法國DGA、北美與多個歐洲政府及公共安全機構。[裝甲車專案](https://www.parrot.com/assets/s3fs-public/document/Parrot_PR_European-armored-vehicle-tender-win_20260513_EN_DEF.pdf)",
+        "Technical Moat": "ANAFI UKR整合機載AI辨識追蹤、光學導航、GNSS拒止自主飛行、MARS抗干擾跳頻軍用無線電及5G、Wi-Fi、LoRa備援鏈路，XLR電池規格可達70分鐘與40公里；Blue UAS資格、歐洲自有核心技術及資料主權形成政府採購門檻。[2026上半年財報](https://www.parrot.com/assets/s3fs-public/document/PARROT_CP_S1-2026_20260731_EN_DEF.pdf) Pix4D的測量級影像重建演算法，以及可在機載端加入程式的Air SDK、Ground SDK、Sphinx與OpenFlight，讓硬體能嵌入第三方任務系統；官方稱其生態系已超過60個專業方案夥伴。[2025年報](https://www.parrot.com/assets/s3fs-public/media-public/2026/PARROT_URD_2025.pdf)",
+        "Revenue Breakdown": "2025年營收7,980萬歐元，其中專業微型無人機4,790萬歐元、占62%，攝影測量3,180萬歐元、占38%。2026年上半年營收增71%至5,730萬歐元，微型無人機增134%至4,210萬歐元、占74%，關鍵基礎設施解決方案為1,510萬歐元、占26%，顯示成長重心已明顯轉向國防無人機。[2026上半年財報](https://www.parrot.com/assets/s3fs-public/document/PARROT_CP_S1-2026_20260731_EN_DEF.pdf)",
+        "Gross Margin Profile": "2025年綜合毛利率為75.4%，2026年上半年降至71.2%，仍屬軟硬體混合企業中的高水準。降幅主要來自尚未達成熟毛利的ANAFI UKR快速放量，以及高毛利Pix4D業務占比下降；未來生產良率、採購規模與軟體訂閱占比將決定毛利能否回升。[2026上半年財報](https://www.parrot.com/assets/s3fs-public/document/PARROT_CP_S1-2026_20260731_EN_DEF.pdf)",
+        "Key Competitors": "可信任軍用微型無人機競爭者包括Skydio、Teledyne FLIR、Quantum Systems、Red Cat旗下Teal、AeroVironment、Anduril、Ondas及法國Harmattan AI；民商用市場仍受DJI規模與成本優勢壓迫。Pix4D則面對DroneDeploy、Propeller Aero、Esri、Autodesk、Bentley及DJI Terra等雲端測繪、BIM／GIS與三維重建平台。[2025年報](https://www.parrot.com/assets/s3fs-public/media-public/2026/PARROT_URD_2025.pdf)",
+        "12M Catalysts": "未來12個月主要催化劑為既得歐洲國防與NSPA框架訂單持續出貨、裝甲車平台後續採購、新一輪國防標案，以及ANAFI UKR XLR與CHUCK 3.0自動駕駛儀完成客戶驗證或認證。公司預期2026年第三季營收續增，若放量後毛利回升、營運現金流轉正及Pix4D訂閱收入提高，市場可能上修成長與獲利評價。[2026上半年財報](https://www.parrot.com/assets/s3fs-public/document/PARROT_CP_S1-2026_20260731_EN_DEF.pdf)",
+        "Key Investment Risks": "國防標案金額大但時程不規則，受政府預算、驗證及行政流程影響，2025年第四季形成的高基期亦可能使成長率劇烈波動。公司採無自有工廠模式，組裝集中於少數美國與韓國EMS，並面臨記憶體、熱像儀、相機、電池與被動元件短缺及漲價風險；2026年上半年現金僅1,880萬歐元，擴產備料將增加營運資金消耗。其他風險包括美國與歐洲出口管制、Blue UAS資格變動、Pix4D訂閱轉型波動、技術人才競爭及創辦人高度控制。[2025年報](https://www.parrot.com/assets/s3fs-public/media-public/2026/PARROT_URD_2025.pdf)",
+        "CEO & Management": "創辦人Henri Seydoux自1994年起擔任董事長兼執行長，並透過Horizon SAS控制約61.91%股本，具有長期研發導向，但少數股東對資本配置的影響力有限。財務長Anne-Sophie Herelle於2024年加入，曾任JPMorgan工業M&A顧問、Bpifrance投資主管及Eurobio副執行長；Pix4D自2024年起由Andrey Kleymenov領導。[管理層資料](https://www.parrot.com/en/corporate/corporate-governance-key-managers) [2025年報](https://www.parrot.com/assets/s3fs-public/media-public/2026/PARROT_URD_2025.pdf)",
+        "Core Patents & IP": "官方未揭露有效專利件數；2025年底專利與商標帳面原值約698萬歐元但已全數攤銷，因此估其核心智慧財產價值主要存在於未資本化的研發成果、工程機密與軟體著作權，而非資產負債表。重點IP包括ANAFI的飛控、光學導航、機載AI、抗干擾通訊與資安架構，以及Pix4D累積逾十年的攝影測量與三維重建演算法；2025年研發費達4,480萬歐元、占營收56.2%。[2025年報](https://www.parrot.com/assets/s3fs-public/media-public/2026/PARROT_URD_2025.pdf)",
+        "3-Year M&A": "近三年最重要交易為2024年投入400萬歐元，將能源基礎設施無人機公司Outflier持股由35.04%增至稀釋後50.1%並取得控制權；同年退出Fluktor並認列約30萬歐元處分損失。2025年7月出售Iconem持股並認列15.6萬歐元收益，2025年未進行新企業投資；2026年上半年後另支付130萬歐元結清Pix4D少數股權賣權債務。[2025年報](https://www.parrot.com/assets/s3fs-public/media-public/2026/PARROT_URD_2025.pdf) [2026上半年財報](https://www.parrot.com/assets/s3fs-public/document/PARROT_CP_S1-2026_20260731_EN_DEF.pdf)",
+        "CapEx & Expansion": "公司維持fabless輕資產模式，2025年有形與無形資產購置約210萬歐元，2026年上半年為150萬歐元，扣除保險理賠後投資現金流出80萬歐元；當期支出主要包括辦公場所整修。擴張重點不是興建工廠，而是透過韓國與美國EMS提高產能、提前採購關鍵零件與增加庫存，公司已警告2026年下半年營運資金需求及現金使用將暫時上升。[2026上半年財報](https://www.parrot.com/assets/s3fs-public/document/PARROT_CP_S1-2026_20260731_EN_DEF.pdf)",
+        "Geopolitical Exposure": "2025年87%營收來自海外，美國為最大市場、營收約2,224萬歐元，占集團約27.9%；供應與組裝則涉及韓國、台灣、美國及法國，美元相關貨幣占營收41%與銷貨成本77%，且未進行匯率避險。歐美國防自主化與排除高風險中國無人機是需求利多，但美國FCC對外國製無人機的Covered List規則、Blue UAS豁免在2027年1月後的延續性，以及軍民兩用技術出口許可均構成政策風險。[2025年報](https://www.parrot.com/assets/s3fs-public/media-public/2026/PARROT_URD_2025.pdf)",
+        "M&A Potential": "估為中等：市值僅約3.07億歐元，且同時擁有可信任軍用無人機與Pix4D地理空間軟體，對歐洲國防主承包商或測繪平台具有策略價值。然而創辦人透過Horizon控制約61.9%股權，加上國防技術主權與外資審查，敵意收購或純財務型併購機率低；較可能發生的是策略合作、少數股權交易，或Parrot以小型交易補強AI、感測器、酬載及任務軟體能力。[市場資料](https://stockanalysis.com/quote/epa/PARRO/market-cap/) [2025年報](https://www.parrot.com/assets/s3fs-public/media-public/2026/PARROT_URD_2025.pdf)",
+        "Recent Insider Trading": "無資料 (美股限定)"
+      }
+    }
+  ],
+  "records": [
+    {
+      "12M Catalysts": "2026年8月7日公布的上半年營收達32.51億歐元、年增17.2%，營運EBIT增12.7%至7.84億歐元，訂單積壓與洽談管線合計升至460億歐元，全年營收74億至76億歐元及24%至25%營運EBIT率指引維持不變。公司披露自製大口徑彈藥年化產能截至6月底已達85萬發；克羅埃西亞6月加入上限580億歐元的斯洛伐克框架協議，8月又取得波蘭Dezamet逾1億歐元彈藥零組件合約及HSW逾1.5億歐元車輛底盤訂單。未來12個月主要催化將是85萬發產能轉化為實際交付、更多國家把框架協議轉為確定訂單，以及下半年尤其第四季釋放營運資金並將淨槓桿降至1.3倍以下。",
+      "Key Investment Risks": "2026年5月Hunterbrook Media質疑CSG自製彈藥規模、IPO前資產移轉、2.75億歐元應收款、少數股東義務及東南亞客戶集中度，消息日股價盤中最多下跌約26%；CSG否認指控並稱該應收款已於第一季以現金收回且不存在隱藏負債，但8月披露的85萬發年化產能仍屬公司自行申報、半年數據亦未經審計，治理及產能可信度折價尚未完全消除。財務面上，上半年預稅營運現金流為負4.11億歐元、淨營運資金升至28.95億歐元或過去12個月營收的40.1%，淨負債29.14億歐元、槓桿1.6倍，能否於第四季如期回收現金是重要風險。另有大中口徑彈藥占上半年營收約65%、Ammo+營收及EBIT分別下降11.5%與26.7%、170億歐元積壓訂單中僅約80億歐元屬固定訂單，以及Strnad家族過往俄羅斯關係指控與美國外資監管等集中度及ESG風險。",
+      "3-Year M&A": "近三年主要交易包括2023年12月收購義大利高階獵槍商Armi Perazzi多數股權，以及2024年11月27日以約22.94億美元總對價完成收購The Kinetic Group百分之百股權。2025年CSG取得Fiocchi剩餘少數股權並完成收購IFF旗下德國Walsrode硝化纖維業務，2026年又完成波蘭DOMAR MS、德國Gnaschwitz工業基地收購及加拿大飛彈新創North Vector Dynamics策略性少數股權投資。原資料所列Hagedorn-NC實為Rheinmetall於2025年收購而非CSG；2026年IPO亦非併購，38億歐元總募資中CSG直接取得的新股募資僅7.5億歐元。",
+      "Geopolitical Exposure": "2026年上半年約69%營收來自北約國家，其中歐洲不含烏克蘭占51%、烏克蘭終端需求占17%、美國占18%，顯示烏克蘭依賴度下降但北約再武裝仍是核心需求來源。歐盟SAFE計畫、對烏克蘭900億歐元貸款工具、克羅埃西亞加入斯洛伐克彈藥框架，以及8月兩筆波蘭合約，均擴大CSG在歐洲東翼的政策性訂單機會；美國方面則透過Kinetic Group與愛荷華州最高6.35億美元Future Artillery Complex計畫深化在地化。反面風險包括俄烏停火或援助政策轉向、斯洛伐克政府政治立場、美國對外資控制關鍵彈藥產能及出口管制審查，以及東南亞與中東政府客戶的政治及中介商集中度。",
+      "M&A Potential": "CSG近期收購Gnaschwitz、DOMAR MS並投資North Vector Dynamics，顯示後續併購重點將落在火藥與爆炸物垂直整合、美國陸戰系統在地化，以及防空、無人機推進與自主科技。其可動用資源低於原資料所稱的38億歐元戰爭基金，因IPO公司端僅取得7.5億歐元毛額、約7.24億歐元淨額，其餘主要為控股股東出售舊股所得，加上上半年淨負債29.14億歐元及負營運現金流，大型交易仍須仰賴新增融資或股票支付。管理層8月表示仍關注KNDS但目前沒有具體行動，而法德政府規劃各持KNDS約40%將提高政治門檻；Strnad家族仍控制CSG絕大多數股權，因此CSG較可能持續擔任併購方或策略性少數股東，而非成為惡意收購標的。",
+      "Company": "Czechoslovak Group N.V. (CSG.AS)"
+    },
+    {
+      "12M Catalysts": "2026年上半年營收5,730萬歐元、年增71%，其中專業微型無人機營收4,210萬歐元、年增134%；既有國防合約持續交付及多項進行中標案，支持公司預期第三季營收再錄雙位數成長。未來12個月催化劑包括NSPA與歐洲裝甲車計畫追加採購、ANAFI UKR XLR憑藉最長70分鐘續航與40公里航程放量，以及具MARS跳頻、5G與LoRa備援的多重安全通訊架構擴大高干擾環境應用；CHUCK 3.0亦已完成主要研發，正進行終端客戶展示及認證。PIX4D第二季營收年增10%、訂閱與直接B2B業務改善，若 recurring revenue 提升並帶動集團毛利率自上半年71.2%回升，可能觸發獲利與估值上修。[2026上半年財報](https://www.parrot.com/assets/s3fs-public/document/PARROT_CP_S1-2026_20260731_EN_DEF.pdf) [2026年8月安全通訊更新](https://www.parrot.com/en/newsroom/multiple-secure-radio-architecture)",
+      "Key Investment Risks": "國防標案仍受客戶預算、驗證與行政時程影響且交付不規則，2025年第四季高基期可能造成成長率急降；2026年上半年毛利率亦由74.8%降至71.2%，反映ANAFI UKR尚未達成熟產品利潤率，而2.6百萬歐元營業利益包含2.5百萬歐元一次性保險收益。期末現金僅1,880萬歐元，ANAFI UKR備貨使存貨升至954萬歐元，未履行的主要零組件採購承諾更由2025年底745萬歐元增至2,847萬歐元，公司已預警下半年營運資金及現金消耗將顯著增加。另有供應短缺與漲價、美元波動、出口管制、Blue UAS資格及Pix4D訂閱轉型風險；2026年7月一家保險商另索償約140萬歐元，Parrot雖認為資源流出機率不高而未提列準備，仍構成新增訴訟尾端風險。[2026上半年財務報告](https://www.parrot.com/assets/s3fs-public/media-public/2026/PARROT_RF_S1-2026_20260731.pdf)",
+      "3-Year M&A": "近三年核心交易仍為2024年投入400萬歐元，將能源基礎設施無人機公司Outflier持股由35.04%提高至稀釋後50.1%並取得控制權，同年退出Fluktor並認列約30萬歐元損失。2025年7月退出Iconem並認列15.6萬歐元收益，2025年未進行新的企業投資，2026年上半年亦無子公司收購或出售。2026年7月Parrot支付130萬歐元結清Pix4D剩餘股權選擇權款後，持股提高至97.2%，創辦人Christoph Strecha保留2.8%且不再享有剩餘持股流動性選擇權。[2025年報](https://www.parrot.com/assets/s3fs-public/media-public/2026/PARROT_URD_2025.pdf) [2026上半年財務報告](https://www.parrot.com/assets/s3fs-public/media-public/2026/PARROT_RF_S1-2026_20260731.pdf)",
+      "Geopolitical Exposure": "2025年87%營收來自海外且美國占約27.9%；2026年上半年重要交付已擴及美國、加拿大、澳洲、瑞士、荷蘭、芬蘭及法國，顯示客戶地域更分散，但營收仍高度依賴歐美盟國的國防預算與採購政策。供應及製造橫跨韓國、台灣、美國與法國，美元相關貨幣占2025年營收41%及銷貨成本77%且未避險，2026年上半年已產生主要與美元波動有關的約20萬歐元淨匯損。歐美推動可信任、非中國供應鏈及ANAFI UKR的抗干擾多重通訊架構構成需求利多，但FCC對外國製無人機的Covered List規則、Blue UAS豁免僅明確延續至2027年1月，以及軍民兩用技術出口許可仍是主要政策風險。[2026上半年財務報告](https://www.parrot.com/assets/s3fs-public/media-public/2026/PARROT_RF_S1-2026_20260731.pdf) [2025年報](https://www.parrot.com/assets/s3fs-public/media-public/2026/PARROT_URD_2025.pdf)",
+      "M&A Potential": "併購潛力維持中等：截至2026年8月中市值約3.07億歐元，而ANAFI UKR可信任軍用無人機、CHUCK自主飛控及已持有97.2%的Pix4D地理空間軟體具策略稀缺性，可吸引歐洲國防主承包商、任務系統商或測繪平台關注。[市場資料](https://www.fidelity.co.uk/factsheet-data/factsheet/FR0004038263-parrot/key-statistics) 然而Henri Seydoux透過Horizon控制61.9%股權，且Horizon仍提供最高2,000萬歐元股東融資支持，加上法國國防技術主權及外資審查，全面或敵意收購機率偏低；更可能出現策略合作、少數股權投資，或Parrot以小型補強交易取得AI、感測器、酬載及任務軟體能力。[股權結構](https://www.parrot.com/en/corporate/ownership-structure-threshold) [2026上半年財報](https://www.parrot.com/assets/s3fs-public/document/PARROT_CP_S1-2026_20260731_EN_DEF.pdf)",
+      "Company": "Parrot (PARRO.PA)"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "Maintenance Batch 290 (maintenance, codex)",
+    "updated": [
+      "Czechoslovak Group N.V. (CSG.AS)",
+      "Parrot (PARRO.PA)"
+    ],
+    "claimed": [],
+    "unmatched": [],
+    "rows_exported": 2000
+  }
+}

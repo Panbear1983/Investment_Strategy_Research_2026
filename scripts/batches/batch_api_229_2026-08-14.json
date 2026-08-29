@@ -1,0 +1,23 @@
+{
+  "label": "API Batch 229 (new, claude)",
+  "source": "new",
+  "provider": "claude",
+  "providers_used": [
+    "claude"
+  ],
+  "items": [
+    {
+      "Company": "Canon Electronics Inc. (7739.T)",
+      "Country": "Japan",
+      "Industry": "LEO Satellites",
+      "Tier": ""
+    }
+  ],
+  "records": [],
+  "failed": [],
+  "requeued": [],
+  "excluded": [
+    "Canon Electronics Inc. (7739.T)"
+  ],
+  "summary": {}
+}

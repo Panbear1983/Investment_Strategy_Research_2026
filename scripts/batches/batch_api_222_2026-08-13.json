@@ -1,0 +1,47 @@
+{
+  "label": "Maintenance Batch 222 (maintenance, gemini)",
+  "source": "maintenance",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "Xencor, Inc. (XNCR)",
+      "ticker": "XNCR",
+      "Country": "USA",
+      "Tier": "潛力股",
+      "values": {
+        "Country": "USA",
+        "Timeframe": "中期",
+        "Sub-Sector": "生技新藥",
+        "Industry": "雙特異性抗體與免疫腫瘤/自體免疫新藥平台",
+        "Tier": "潛力股",
+        "Company": "Xencor, Inc. (XNCR)",
+        "Capital/Market Cap": "約15億美元（估，2026年8月股價約20.8美元、流通股數約7,200萬股，屬臨床階段小型生技股）",
+        "Core Business": "Xencor為那斯達克掛牌之臨床階段生技公司，核心為專利化的XmAb®抗體工程平台，透過Fc結構域改造技術開發雙特異性T細胞engager、細胞激素抑制劑與長效抗體，聚焦腫瘤免疫治療與自體免疫疾病；公司同時自行推進多項全資候選藥物（如XmAb819、XmAb942、plamotamab、XmAb657、XmAb412），並將平台技術授權予多家大型藥廠換取里程碑金與權利金。",
+        "Clients & Orders": "主要合作夥伴涵蓋Alexion（AstraZeneca旗下，Ultomiris授權）、Janssen/強生（plamotamab及CD28雙特異性抗體，含1億美元首付款、最高約11.88億美元里程碑）、Amgen、Novo Nordisk（最高約1.75億美元合作案）、Boehringer Ingelheim及Zenas Biopharma（obexelimab，2026年第2季因BLA遞交收取1,000萬美元里程碑金）；2026年第2季總收入達5,120萬美元，年增約17%。",
+        "Technical Moat": "XmAb平台核心專利涵蓋Fc異二聚化（asymmetric Fc heterodimerization）、Xtend半衰期延長技術、細胞激素減毒（cytokine-attenuated）及新一代XenLock雙特異性鎖定技術，已授權予多家頂級藥廠並在Ultomiris等已上市藥物中獲得商業驗證，建立同業難以複製的抗體工程智財護城河，但2026年3月Alexion片面主張美國區權利金到期一度動搖此護城河的長期價值。",
+        "Revenue Breakdown": "收入主要來自：(1) 與Alexion之Ultomiris美國/海外權利金（2026年7月已就美國權利金爭議達成1.05億美元和解，分兩期各5,250萬美元支付，海外權利金持續保留）；(2) Zenas obexelimab里程碑金（2026年Q2認列1,000萬美元）；(3) Janssen、Amgen、Novo Nordisk、Boehringer Ingelheim等平台授權合作之研發服務費與里程碑金，自有藥品尚無商業化銷售收入。",
+        "Gross Margin Profile": "權利金與授權收入性質接近純利潤（估毛利率90%以上），惟因大量投入自研管線之臨床試驗費用，公司整體仍處淨虧損狀態（2026年Q2淨損2,170萬美元，較2025年同期3,080萬美元收窄約30%）。",
+        "Key Competitors": "雙特異性抗體與T細胞engager領域主要競爭者包括Amgen、Roche/Genentech、Regeneron、Genmab及MacroGenics等擁有自有雙特異性平台之大型與中型藥廠，部分同時也是Xencor的授權合作夥伴，形成既競爭又合作的產業結構。",
+        "12M Catalysts": "2026年秋季ESMO大會公布XmAb819（腎細胞癌雙特異性T細胞engager）第三期建議劑量數據；2026下半年plamotamab（CD20xCD3）第一b期類風濕性關節炎更新；XmAb942潰瘍性結腸炎XENITH-UC研究進度更新；XmAb657 B細胞消耗型雙特異性第一期數據；首個XenLock候選藥物XmAb412健康受試者初步安全性數據；以及Alexion和解案第二筆5,250萬美元款項預期於和解協議簽署一週年入帳。",
+        "Key Investment Risks": "美國Ultomiris權利金爭議雖已和解取得一次性1.05億美元，但確認未來不再有美國區權利金收入，將顯著削弱公司長期經常性現金流；核心價值高度依賴多項早期臨床試驗（多為第一期）之成敗，執行與監理風險大；持續淨虧損且需仰賴外部合作夥伴（Janssen、Amgen、Novo Nordisk等）里程碑達成節奏，若合作方調整優先順序恐影響現金流入；雙特異性抗體賽道競爭者眾，商業化前景仍具高度不確定性。",
+        "CEO & Management": "創辦人暨總裁兼執行長Bassil I. Dahiyat博士自2005年2月起執掌公司，為抗體工程領域資深科學家；研發長暨執行副總裁John R. Desjarlais負責XmAb平台技術延伸；資深副總裁暨首席醫學官Allen S. Yang主導臨床開發策略；財務長自2024年起到任，負責財務報告、預算與現金流管理，管理團隊在抗體工程與授權交易執行上經驗豐富。",
+        "Core Patents & IP": "公司持有XmAb Fc異二聚化平台、Xtend半衰期延長、細胞激素減毒融合蛋白及新一代XenLock雙特異性鎖定機制等核心專利家族，並針對plamotamab、XmAb819、XmAb942、XmAb657、XmAb412等在研分子建立獨立化合物專利；2026年與Alexion之美國Ultomiris權利金爭議即凸顯其平台專利授權條款在商業化後期的解讀風險。",
+        "3-Year M&A": "公司近三年策略以「技術授權」而非併購為主軸：2021年將obexelimab全球權利授予Zenas Biopharma（潛在總價約4.8億美元，Zenas於2025年9月再引入Royalty Pharma最高3億美元融資）；2023年與Janssen簽訂plamotamab及CD28雙特異性抗體全球合作授權案（首付1億美元、里程碑最高約11.88億美元）；截至2026年公司本身並未進行任何公司併購交易，維持輕資產授權營運模式。",
+        "CapEx & Expansion": "作為臨床階段生技公司，資本支出以研發設施與臨床試驗投入為主而非重大固定資產擴張；截至2026年6月30日現金及約當現金與有價債券部位達4.864億美元，公司預期2026年底現金水位維持在4.2–4.4億美元區間，並可支應營運資金至2028年，暫無大型產能或廠房擴建計畫。",
+        "Geopolitical Exposure": "公司總部及主要研發設施位於美國加州，臨床試驗多在美國與部分國際site進行，直接地緣政治風險相對有限；惟收入高度依賴美國FDA監理環境與美國藥價政策（含Medicare藥價協商、IRA相關法規）走向，以及與跨國藥廠（Alexion/AstraZeneca、Janssen/強生、Novo Nordisk等）之授權條款於不同司法管轄區之執行力，皆屬潛在間接曝險因子。",
+        "M&A Potential": "鑑於XmAb平台已獲多家頂級藥廠驗證、且自有管線（尤其XmAb819腎細胞癌方案）若在2026–2027年展現正向數據，公司具備成為腫瘤或自體免疫領域大型藥廠收購標的之潛力（估，屬中度機率情境）；惟目前市值僅約15億美元、現金儲備尚可支撐至2028年，管理層短期內更可能持續採取授權合作模式而非主動尋求出售。",
+        "Recent Insider Trading": "2025Q3: $0, 2025Q4: -$188K, 2026Q1: -$47K, 2026Q2: -$10K, 2026Q3: $0"
+      }
+    }
+  ],
+  "records": [],
+  "failed": [],
+  "requeued": [
+    "Xencor, Inc. (XNCR)"
+  ],
+  "excluded": [],
+  "summary": {}
+}

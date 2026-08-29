@@ -1,0 +1,53 @@
+{
+  "label": "API Batch 354 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "Purple Biotech Ltd. (PPBT)",
+      "Country": "Israel",
+      "Industry": "生技新藥",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "Israel",
+      "Timeframe": "中長期",
+      "Sub-Sector": "生技新藥",
+      "Industry": "生技新藥",
+      "Tier": "潛力股",
+      "Company": "Purple Biotech Ltd. (PPBT)",
+      "Capital/Market Cap": "約 250萬至1080萬美元",
+      "Core Business": "該公司為臨床階段的生物技術公司，專注於開發次世代癌症免疫療法與克服癌症耐藥性的創新藥物。其核心資產為 CAPTN-3 三特異性抗體平台（以 IM1240 為主導候選藥物），以及目前等待策略合作夥伴關係以推進臨床開發的 CM24 和 NT219。",
+      "Clients & Orders": "作為臨床前與臨床階段的研發型生技公司，目前尚無正式商業化產品、客戶或營收訂單。公司目前與 Bristol Myers Squibb (BMS) 進行 CM24 與 Nivolumab 聯合用藥的臨床二期試驗合作；未來預期主要透過對外授權研發管線來取得授權金與里程碑款項（估）。",
+      "Technical Moat": "其技術護城河在於專有的 CAPTN-3 三特異性抗體平台，具備獨特的腫瘤微環境（TME）特異性蛋白酶激活「加帽」技術，能有效降低系統性免疫毒性。此外，其 NT219 是首創的雙重抑制小分子，能同時降解 IRS1/2 並阻斷 STAT3 通路，多維度克服癌細胞耐藥性。",
+      "Revenue Breakdown": "目前公司仍處於藥物研發階段，2025至2026年度並無任何藥物銷售之商業化營收。目前的資金來源與潛在收入主要依賴政府研發補助、利息收入，以及未來潛在的管線授權首付款（估）。",
+      "Gross Margin Profile": "由於目前尚未有任何商業化產品銷售，公司尚無常規毛利率數據。現階段所有支出均為研發（R&D）費用及臨床試驗成本，毛利率表現需待未來新藥成功授權或上市銷售後方能確立（估）。",
+      "Key Competitors": "在三特異性抗體平台領域，主要對手為 Sanofi（ANKET 平台）、Roche、Amgen 及 Affimed 等大型藥廠或抗體開發商。而在 STAT3 抑制劑領域，主要對手為 Tvardi Therapeutics（開發中的 TTI-101）及 Recludix Pharma 等生技公司。",
+      "12M Catalysts": "核心催化劑包括推進三特異性抗體 IM1240 的臨床前毒理試驗及籌備 IND 申請，以期在2027年順利進入首次人體臨床試驗。另外，尋求 CM24 與 NT219 的全球策略授權合作夥伴關係，以及通過 2026年9月的股東常會以穩定管理層結構也是關鍵。",
+      "Key Investment Risks": "最主要風險是資金鏈斷裂，截至2026年中其現金僅約 610萬美元，預計僅能維持營運至2027年中。此外，由於市值較小且股價長期低於合規標準，面臨被納斯達克下市的風險，且早期臨床試驗具有高度失敗不確定性。",
+      "CEO & Management": "執行長 Gil Efron 因健康因素於2026年8月31日卸任，並預計轉任執行董事兼企業發展主管，董事會目前正積極遴選繼任人選。其餘核心管理層與科學顧問在臨床腫瘤學與藥物開發領域均有豐富經驗。",
+      "Core Patents & IP": "公司建立了圍繞其核心管線的全球專利網，特別是 NT219 與 EGFR 抑制劑聯合用藥的專利，已在美國、歐洲、中國和日本等主要市場獲得授權。此外，CAPTN-3 三特異性抗體平台也佈局了多項關於腫瘤微環境條件激活（條件掩蔽CD3結合位）的結構專利保護。",
+      "3-Year M&A": "最顯著的併購活動是該公司於 2023年2月收購了私人公司 Immunorizon Ltd.，此交易為 Purple Biotech 引入了現今研發主力的 CAPTN-3 三特異性抗體技術與 IM1240 管線；2024至2026年8月期間則無其他重大併購交易。",
+      "CapEx & Expansion": "公司採取輕資產研發模式，大部分資本支出集中於委託製造（CMO）及臨床試驗機構（CRO）的外包費用。目前的擴張重心在於優化 IM1240 的臨床前試驗生產製程與推進試驗，並無實體廠房的大型資本擴建計畫。",
+      "Geopolitical Exposure": "總部位於以色列雷霍沃特，中東地緣政治局勢緊張可能對其當地研發總部運作及海外資金募集造成不確定性。然而，其多數臨床試驗皆在美國與歐洲多國的多中心進行，可在一定程度上分散地緣政治對研發進度的實質衝擊。",
+      "M&A Potential": "具備一定的被併購潛力，因為其 CAPTN-3 三特異性抗體平台的「 masked CD3」技術在腫瘤免疫領域具有高吸引力。若 IM1240 早期臨床數據亮眼，或者 CM24、NT219 成功取得策略授權，將顯著提升其被大型製藥企業整體併購的機率（估）。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 354 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "Purple Biotech Ltd. (PPBT)"
+    ],
+    "unmatched": [],
+    "rows_exported": 2277
+  }
+}

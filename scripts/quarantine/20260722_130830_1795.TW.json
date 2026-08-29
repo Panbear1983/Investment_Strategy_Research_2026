@@ -1,0 +1,36 @@
+{
+  "item": {
+    "Company": "美時 (1795.TW)",
+    "ticker": "1795.TW",
+    "Country": "Taiwan",
+    "Tier": "龍頭股",
+    "values": {
+      "Country": "Taiwan",
+      "Timeframe": "短期",
+      "Sub-Sector": "生技新藥",
+      "Industry": "生技醫療業",
+      "Tier": "龍頭股",
+      "Company": "美時 (1795.TW)",
+      "Capital/Market Cap": "約 700 億台幣",
+      "Core Business": "研發與生產高屏障困難學名藥、特殊製劑，並經營亞太地區醫藥銷售。",
+      "Clients & Orders": "全球主要醫藥分銷商，核心產品為血癌學名藥 Lenalidomide (美國核心銷售)。",
+      "Technical Moat": "具備製造高毒性抗癌口服製劑的國際認證產線，且血癌藥 Lenalidomide 在美國取得首波專利和解與銷售權。",
+      "Revenue Breakdown": "血癌藥 Lenalidomide 與其他癌症藥 55%、亞太區域自營/品牌代理銷售 45%。",
+      "Gross Margin Profile": "約 58-62% (抗癌困難學名藥利潤豐厚)。",
+      "Key Competitors": "Teva、Sandoz",
+      "12M Catalysts": "血癌藥在美國市佔率持續攀升(配合專利和解銷售階梯)，與非癌困難學名藥在歐盟獲核准。",
+      "Key Investment Risks": "血癌藥未來面臨其他學名藥大廠進入導致的削價競爭，與專利和解協議到期之獲利縮水。",
+      "CEO & Management": "Petar Vazharov (CEO) 具備豐富的歐洲跨國學名藥廠營運經驗，推動「困難學名藥 + 品牌授權」雙軌跨國變現。",
+      "Core Patents & IP": "擁有抗癌製劑口服緩釋專利、高屏障毒性原料藥處理製程，以及 Lenalidomide 美國專利和解特許。",
+      "3-Year M&A": "收購知名跨國藥廠之泰國、越南子公司與藥證，大舉進軍東南亞本地品牌藥市場。",
+      "CapEx & Expansion": "投資數億台幣升級南投南崗藥廠的無菌充填與抗癌口服製劑產線，爭取歐美 FDA 持續認證。",
+      "Geopolitical Exposure": "荷蘭艾威群(Alvogen)集團為最大股東，營運高度國際化，受台灣地緣干擾相對較低。",
+      "M&A Potential": "作為亞太區最強抗癌藥平台，極易成為全球學名藥巨頭或大型 CDMO 整併的標的。",
+      "Recent Insider Trading": "無資料 (美股限定)"
+    }
+  },
+  "problems": [
+    "claude -p failed: You've hit your weekly limit · resets Jul 24 at 5pm (Asia/Taipei)"
+  ],
+  "raw": ""
+}

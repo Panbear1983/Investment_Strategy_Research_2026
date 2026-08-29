@@ -1,0 +1,7 @@
+{
+    "marquee_cells_per_tick": 1,
+    "marquee_seconds": 8,
+    "poll_seconds": 5,
+    "history_rows": 10,
+    "language": "en"
+}

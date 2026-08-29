@@ -1,0 +1,36 @@
+{
+  "item": {
+    "Company": "台光電 (2383.TW)",
+    "ticker": "2383.TW",
+    "Country": "Taiwan",
+    "Tier": "龍頭股",
+    "values": {
+      "Country": "Taiwan",
+      "Timeframe": "短期",
+      "Sub-Sector": "高階PCB/CCL",
+      "Industry": "電子零組件",
+      "Tier": "龍頭股",
+      "Company": "台光電 (2383.TW)",
+      "Capital/Market Cap": "約 33 億台幣",
+      "Core Business": "生產高階銅箔基板(CCL)及粘合片(PP)，廣泛應用於智慧型手機與高階伺服器。",
+      "Clients & Orders": "NVIDIA (為 OAM 主板與 UB 基板高頻高速材料主供)、蘋果、美系 CSP (微軟、Meta、AWS)。",
+      "Technical Moat": "在無鹵素(Halogen-free)高頻高速材料配方上居全球霸主，具備極高的高頻損耗阻抗與高良率防火牆。",
+      "Revenue Breakdown": "基礎建設及網通伺服器板 55%、手持終端(智慧手機) 30%、汽車及其他 15%。",
+      "Gross Margin Profile": "維持在 27-29% 的頂尖水準。",
+      "Key Competitors": "台燿、聯茂、建滔、松下電工",
+      "12M Catalysts": "NVIDIA Blackwell 平台 AI 伺服器主板出貨起飛，且主要美系 CSP 持續追加高速材料長約。",
+      "Key Investment Risks": "核心美系 AI 晶片客戶為降低成本引入第二供應商 (如韓系或日系材料商) 搶單。",
+      "CEO & Management": "董定宇(董事長)作風強悍，重視毛利率與新材料開發，堅持「技術領先、高利潤」路線。",
+      "Core Patents & IP": "擁有全球領先的環保型無鹵素樹脂配方專利、極低熱膨脹係數 CCL 專利，以及超薄粘合片加工技術。",
+      "3-Year M&A": "無重大外部併購。",
+      "CapEx & Expansion": "斥資數十億台幣擴建馬來西亞檳城新廠、黃石廠及台灣廠，檳城新廠能有效避開地緣政治關稅。",
+      "Geopolitical Exposure": "大舉投資馬來西亞，成功建立非中非台生產線，完美規避地緣政治產能斷鏈風險。",
+      "M&A Potential": "為高階 CCL 龍頭，財務極為充裕，目前無分拆或被收購之疑慮。",
+      "Recent Insider Trading": "無資料 (美股限定)"
+    }
+  },
+  "problems": [
+    "claude -p failed: You've hit your weekly limit · resets Jul 24 at 5pm (Asia/Taipei)"
+  ],
+  "raw": ""
+}

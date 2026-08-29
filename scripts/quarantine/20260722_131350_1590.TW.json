@@ -1,0 +1,36 @@
+{
+  "item": {
+    "Company": "亞德客-KY (1590.TW)",
+    "ticker": "1590.TW",
+    "Country": "Taiwan",
+    "Tier": "龍頭股",
+    "values": {
+      "Country": "Taiwan",
+      "Timeframe": "中長期",
+      "Sub-Sector": "先進機器人",
+      "Industry": "機械工業",
+      "Tier": "龍頭股",
+      "Company": "亞德客-KY (1590.TW)",
+      "Capital/Market Cap": "約 2000 億台幣",
+      "Core Business": "設計並製造氣動控制元件(氣缸、電磁閥、空氣處理組合)及線性導軌。",
+      "Clients & Orders": "中國與全球智慧製造設備廠、汽車組裝線、電子代工廠(富士康等)。",
+      "Technical Moat": "在中國大陸氣動元件市場市佔率達 26% 穩居第二，擁有自主的鋼材熱處理製程與全自動化生產成本優勢。",
+      "Revenue Breakdown": "氣動元件 90%、線性導軌與其他 10%。",
+      "Gross Margin Profile": "高達 45-47% 區間 (在精密傳動機械中具備罕見的高毛利，源於自製率 >90%)。",
+      "Key Competitors": "SMC (日本SMC為全球老大)、上銀、THK",
+      "12M Catalysts": "自製線性導軌產能放量並成功打入工具機大廠，與全球電子組裝廠自動化需求復甦。",
+      "Key Investment Risks": "中國大陸房地產與製造業資本支出長期低迷，以及與龍頭 SMC 的價格競爭。",
+      "CEO & Management": "王世忠(董事長)貫徹「極致成本控制與直銷模式」，繞過代理商直接服務客戶，建立極強的市場反應速度。",
+      "Core Patents & IP": "擁有氣缸精密防漏密封專利、高速電磁閥反應機構，及高耐磨線性滑軌表面硬化製程專利。",
+      "3-Year M&A": "鮮少外部併購，完全以大陸寧波與台灣台南自有工廠擴產與自主研發為主。",
+      "CapEx & Expansion": "每年資本支出約 30-40 億台幣，主要投入寧波新廠產線的自動化機台更新與台南線性導軌擴產。",
+      "Geopolitical Exposure": "營收高達 90% 來自中國大陸市場，容易受到美中貿易衝突與中國經濟景氣波動的直接打擊。",
+      "M&A Potential": "為全球氣動元件二哥，市值龐大且自主營運能力極強，無被併購想像。",
+      "Recent Insider Trading": "無資料 (美股限定)"
+    }
+  },
+  "problems": [
+    "claude -p failed: You've hit your weekly limit · resets Jul 24 at 5pm (Asia/Taipei)"
+  ],
+  "raw": ""
+}

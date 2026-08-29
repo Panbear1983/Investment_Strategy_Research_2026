@@ -1,0 +1,61 @@
+{
+  "label": "API Batch 305 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "A&D Holon Holdings Company, Limited (7745.T)",
+      "Country": "Japan",
+      "Industry": "半導體",
+      "Tier": ""
+    },
+    {
+      "Company": "PILLAR Corporation (6490.T)",
+      "Country": "Japan",
+      "Industry": "半導體",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "Japan",
+      "Timeframe": "中長期",
+      "Sub-Sector": "先進製程流體控制及密封件",
+      "Industry": "半導體設備及關鍵零組件",
+      "Tier": "隱形冠軍",
+      "Company": "PILLAR Corporation (6490.T)",
+      "Capital/Market Cap": "約 2400億日圓",
+      "Core Business": "設計與製造應用於半導體、工業及能源領域的流體控制與密封產品。主要產品包含高純度氟樹脂（PFA/PTFE）接頭、閥門、泵以及各類機械密封件。",
+      "Clients & Orders": "主要客戶為東京威力科創（Tokyo Electron）與SCREEN Holdings等全球半導體製造設備（SPE）巨頭。公司為其清洗設備與化學品輸送系統提供關鍵的高純度氟樹脂接頭與密封元件。",
+      "Technical Moat": "擁有專利「Super 300 Type Pillar Fitting」高純度PFA接頭設計，具備卓越的抗腐蝕、耐高溫與極致防洩漏性能。在半導體清洗設備接頭市場全球市佔率高達約 90%，且客戶轉移成本極高、安全認證期長達數年。",
+      "Revenue Breakdown": "電子設備部門（半導體及液晶製造設備用氟樹脂產品）營收佔比約 60-70%。密封產品部門（主要為工業機械與能源設備用機械密封件、墊片）營收佔比約 30-40%。",
+      "Gross Margin Profile": "毛利率表現優異且穩定，2025至2026財年毛利率維持在 41% 至 42.5% 的高檔區間。這主要得益於高毛利的半導體流體控制組件隨設備需求復甦而增加出貨。",
+      "Key Competitors": "主要競爭對手包括日本的 Valqua (7995.T)、Eagle Industry (6486.T)、Flowell，以及全球流體系統巨頭 Swagelok（世偉洛克）、Entegris（英特格）和 Parker Hannifin（派克漢尼汾）。",
+      "12M Catalysts": "隨著台積電熊本廠（JASM）等日本本土半導體工廠陸續投產，帶動在地化零部件供應鏈需求。此外，2nm與3nm先進製程清洗設備出貨回溫，促使公司調高 2026 年度的全年獲利與股息預期。",
+      "Key Investment Risks": "半導體設備產業資本支出的週期性波動風險。主要原材料如氟樹脂（PFA）價格上漲或供應鏈中斷的風險。以及日圓匯率波動對海外出口利潤所帶來的匯損風險。",
+      "CEO & Management": "社長兼執行長為岩波宜信（Yoshinobu Iwanami），自 2020 年上任以來專注於推動品牌重組（於 2024 年更名為 PILLAR Corporation）。他積極領導全球產能擴張並深化半導體供應鏈佈局。",
+      "Core Patents & IP": "擁有高純度 PFA 接頭（如 Super 300 Type 系列）的防洩漏與抗腐蝕結構設計專利。同時具備業界領先的氟樹脂精密加工技術以及流體動力學模擬分析智財權。",
+      "3-Year M&A": "於 2023 年 4 月完成對日本單研密封精工（Tanken Seal Seiko）的 100% 股權收購。此舉成功為集團導入碳與碳化矽（SiC）等機械密封滑動材料的自主內製化能力。",
+      "CapEx & Expansion": "積極擴建日本福知山工廠，並於 2023 年底啟用三田工廠的研發創新中心。海外則擴建中國滁州新廠以在地化供應半導體零部件，並擴展泰國與墨西哥生產基地。",
+      "Geopolitical Exposure": "地緣政治緊張促使美日歐半導體供應鏈在地化，提升了公司在日本與美國本土的關鍵零組件供應商地位。其中國滁州廠則主要支應中國本土非敏感設備市場需求，降低地緣政治摩擦影響。",
+      "M&A Potential": "作為細分市場的絕對壟斷者，自身被大型半導體材料或設備集團併購的機率屬中等。未來預計主要透過少數股權投資或小型併購來獲取精密加工與先進密封技術（估）。"
+    }
+  ],
+  "failed": [],
+  "requeued": [
+    "A&D Holon Holdings Company, Limited (7745.T)"
+  ],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 305 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "PILLAR Corporation (6490.T)"
+    ],
+    "unmatched": [],
+    "rows_exported": 2095
+  }
+}

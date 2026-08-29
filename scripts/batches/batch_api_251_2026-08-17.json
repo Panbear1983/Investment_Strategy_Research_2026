@@ -1,0 +1,53 @@
+{
+  "label": "API Batch 251 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "Forsee Power (ALFOR.PA)",
+      "Country": "France",
+      "Industry": "電動車",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "France",
+      "Timeframe": "中長期",
+      "Sub-Sector": "電動車",
+      "Industry": "先進儲能與新能源動力系統。專注於為重型載具與特種車輛提供智慧鋰電池組的設計與製造。",
+      "Tier": "潛力股",
+      "Company": "Forsee Power (ALFOR.PA)",
+      "Capital/Market Cap": "約 2,640 萬歐元。此市值反映了公司轉向 Euronext Growth 成長板後的最新估值。",
+      "Core Business": "設計、製造並銷售適用於重型車輛與輕型兩輪車的智慧鋰電池系統。公司亦提供專有的電池管理系統（BMS）軟硬體整合以及液冷熱管理解決方案。",
+      "Clients & Orders": "主要客戶涵蓋 Wrightbus、IVECO Bus 以及 Alstom，為其供應電動巴士與混合動力火車的電池系統。公司亦與 Wabtec 及 KONČAR 簽署合作，持續拓展重型工業與軌道交通的訂單儲備。",
+      "Technical Moat": "擁有自主研發的專有 BMS 診斷軟體與高集成度液冷技術，可使電池壽命在極端環境下延長至 5,000 次循環。其美國俄亥俄州工廠的在地組裝能力，使其具備符合美國《Buy America》法案的合規壁壘。",
+      "Revenue Breakdown": "2025 年營收主要來自重型車輛（Heavy Vehicles）部門，貢獻達 1.065 億歐元，佔整體營收比例約 88.1%。輕型車輛（Light Vehicles）與工業技術部門則貢獻 1,450 萬歐元，約佔整體營收的 11.9%。",
+      "Gross Margin Profile": "2025 年因亞洲廠商低價競爭與全球電芯價格下滑，獲利表現承壓。然而，公司正透過 RePower27 轉型計畫優化產品組合，並以降低近 2,000 萬歐元損益兩平點為目標來改善長期毛利。",
+      "Key Competitors": "在歐洲商用車電池系統市場的主要競爭對手為 Akasol（現併入 BorgWarner 旗下）。此外，也面臨寧德時代（CATL）、LG Energy Solution 等全球電池巨頭在同類型載具市場的直接競爭。",
+      "12M Catalysts": "未來 12 個月的催化劑包括與亞洲私募股權基金 FCAP Investors 達成約 2,000 萬歐元的增資協議。此外，美國俄亥俄州 Hilliard 新廠產能的持續釋放以及與 Rolls-Royce 和日立工業（Hitachi）合作項目的推進也是關鍵。",
+      "Key Investment Risks": "主要風險在於商用車電動化轉型速度慢於預期，以及亞洲大廠價格戰導致利潤空間持續受限。公司 2025 年淨虧損達 2,800 萬歐元，短期內仍存在較大的營運資金短缺風險。",
+      "CEO & Management": "創始人 Christophe Gurtner 擔任董事長兼執行長（CEO），長期主導公司的全球化布局與技術發展。管理團隊目前的重心為執行 RePower27 轉型計畫，以期帶領公司在 2027 年實現轉虧為盈。",
+      "Core Patents & IP": "持有大量關於電池模組結構設計、液冷散熱通道及 BMS 管理演算法的專利。公司多數 BMS 軟體代碼與診斷邏輯以商業機密形式保護，以維持技術的專有性。",
+      "3-Year M&A": "近三年無主導的企業收購，主要採技術聯盟與業務合作模式。最新動態為 2026 年中與新加坡 FCAP Investors 進行股權調整與增資談判，預計將重組三井物產（Mitsui）等既有股東的持股。",
+      "CapEx & Expansion": "主要資本支出集中於擴建美國俄亥俄州 Hilliard 的工廠，以爭取北美電動巴士與校車的本土化市場份額。同時，公司亦針對歐洲及波蘭組裝線進行自動化升級，以降低人工製造成本。",
+      "Geopolitical Exposure": "高度依賴亞洲（特別是中國的中創新航與寧德時代）的電芯供應，極易受到中歐貿易爭端或關稅波動的影響。公司藉由在歐洲和美國進行在地化模組組裝，以分散部分地緣政治政策風險。",
+      "M&A Potential": "鑑於市值目前處於歷史低位（約 2,640 萬歐元）且具備成熟的重車電池封裝技術，容易吸引尋求歐洲市場門票的亞洲巨頭。對於尋求垂直整合的商用車一級供應商（Tier 1）而言，該公司具有高戰略注資或被收購的潛力。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 251 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "Forsee Power (ALFOR.PA)"
+    ],
+    "unmatched": [],
+    "rows_exported": 1835
+  }
+}

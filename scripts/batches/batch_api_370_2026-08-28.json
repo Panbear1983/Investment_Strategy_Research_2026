@@ -1,0 +1,413 @@
+{
+  "label": "API Batch 370 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "Celestica Inc. (CLS.TO)",
+      "Country": "Canada",
+      "Industry": "AI伺服器",
+      "Tier": ""
+    },
+    {
+      "Company": "POET Technologies Inc. (PTK.V)",
+      "Country": "Canada",
+      "Industry": "矽光子",
+      "Tier": ""
+    },
+    {
+      "Company": "Docebo Inc. (DCBO.TO)",
+      "Country": "Canada",
+      "Industry": "平台經濟",
+      "Tier": ""
+    },
+    {
+      "Company": "Coveo Solutions Inc. (CVO.TO)",
+      "Country": "Canada",
+      "Industry": "平台經濟",
+      "Tier": ""
+    },
+    {
+      "Company": "Lightspeed Commerce Inc. (LSPD.TO)",
+      "Country": "Canada",
+      "Industry": "平台經濟",
+      "Tier": ""
+    },
+    {
+      "Company": "Calian Group Ltd. (CGY.TO)",
+      "Country": "Canada",
+      "Industry": "航太",
+      "Tier": ""
+    },
+    {
+      "Company": "Chorus Aviation Inc. (CHR.TO)",
+      "Country": "Canada",
+      "Industry": "航太",
+      "Tier": ""
+    },
+    {
+      "Company": "The Lion Electric Company (LEV.TO)",
+      "Country": "Canada",
+      "Industry": "電動車",
+      "Tier": ""
+    },
+    {
+      "Company": "NFI Group Inc. (NFI.TO)",
+      "Country": "Canada",
+      "Industry": "電動車",
+      "Tier": ""
+    },
+    {
+      "Company": "Repare Therapeutics Inc. (RPTX)",
+      "Country": "Canada",
+      "Industry": "生技新藥",
+      "Tier": ""
+    },
+    {
+      "Company": "ESSA Pharma Inc. (EPIX)",
+      "Country": "Canada",
+      "Industry": "生技新藥",
+      "Tier": ""
+    },
+    {
+      "Company": "Cardiol Therapeutics Inc. (CRDL.TO)",
+      "Country": "Canada",
+      "Industry": "生技新藥",
+      "Tier": ""
+    },
+    {
+      "Company": "Eupraxia Pharmaceuticals Inc. (EPRX.TO)",
+      "Country": "Canada",
+      "Industry": "生技新藥",
+      "Tier": ""
+    },
+    {
+      "Company": "Algoma Central Corporation (ALC.TO)",
+      "Country": "Canada",
+      "Industry": "航運",
+      "Tier": ""
+    },
+    {
+      "Company": "Canadian Pacific Kansas City Limited (CP.TO)",
+      "Country": "Canada",
+      "Industry": "航運",
+      "Tier": ""
+    },
+    {
+      "Company": "Sigma Lithium Corporation (SGML)",
+      "Country": "Canada",
+      "Industry": "電動車",
+      "Tier": ""
+    },
+    {
+      "Company": "Kraken Robotics Inc. (PNG.V)",
+      "Country": "Canada",
+      "Industry": "先進機器人",
+      "Tier": ""
+    },
+    {
+      "Company": "Westport Fuel Systems Inc. (WPRT.TO)",
+      "Country": "Canada",
+      "Industry": "電動車",
+      "Tier": ""
+    },
+    {
+      "Company": "Blackline Safety Corp. (BLN.TO)",
+      "Country": "Canada",
+      "Industry": "先進機器人",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "Canada",
+      "Timeframe": "中長期",
+      "Sub-Sector": "AI伺服器與高速網路交換器之設計製造 (ODM)。",
+      "Industry": "電子製造服務 (EMS) 與聯合設計製造 (JDM) 產業。",
+      "Tier": "潛力股，在 AI 基礎設施爆發期成功由低毛利代工轉型為高值化設計製造商。",
+      "Company": "Celestica Inc. (CLS.TO)",
+      "Capital/Market Cap": "約 370億至400億美元 (截至2026年8月)。",
+      "Core Business": "為全球超大規模雲端服務商 (Hyperscalers) 提供 AI 伺服器、高階交換器及儲存設備的設計、製造與系統整合服務。同時，在工業、航太與國防等先進技術領域提供高精密電子製造 (EMS) 解決方案。",
+      "Clients & Orders": "主要大客戶為 Google，為其 TPU 晶片與硬體架構的核心組裝與設計製造合作夥伴，並為 Meta 等其他巨頭提供 AI 基礎設施。得益於 AI 算力需求強勁，其訂單能見度已延伸至 2026 年底。",
+      "Technical Moat": "具備領先的硬體平台解決方案 (HPS) 與共同設計製造 (JDM) 模式，在 800G/1.6T 高速交換器、光電共封裝 (CPO) 與液冷系統整合上擁有技術壁壘。成功自傳統低毛利 EMS 代工轉型為高利潤的 ODM 系統設計商。",
+      "Revenue Breakdown": "營收主要分為兩大版塊：連接與雲端解決方案 (CCS) 佔比約 65-70%，受 AI 伺服器與交換器強勁增長驅動；先進技術解決方案 (ATS，包含工業、航太與醫療) 則佔約 30-35%。",
+      "Gross Margin Profile": "隨高毛利 ODM 產品佔比提高，2025 至 2026 年非 GAAP 營運利潤率連續創歷史新高，穩定保持在 8.0% 至 8.2% 區間，毛利率與淨利率結構較傳統 EMS 廠顯著改善。",
+      "Key Competitors": "主要競爭對手包括台灣的 AI 伺服器與交換器 ODM 巨頭如廣達 (2382.TW)、緯穎 (6669.TW)、鴻海 (2317.TW)，以及傳統 EMS 同業如捷普 (Jabil, JBL) 與新美亞 (Sanmina, SANM)。",
+      "12M Catalysts": "未來 12 個月催化劑包括 1.6T 交換器於 2026 年底進入量產出貨階段、Google 下一代 TPU 專案的全面啟動，以及泰國與墨西哥等新擴建的高階組裝產線正式開出。",
+      "Key Investment Risks": "客戶集中度風險極高，營收高度依賴 Google 等單一超大型客戶，若其資本支出放緩或調整代工策略將對業績產生巨大衝擊。同時，面臨台系 ODM 廠在整機櫃與交換器市場的激烈削價競爭。",
+      "CEO & Management": "由 Rob Mionis 擔任總裁兼執行長 (CEO) 暨董事長，其自 2015 年上任以來成功帶領 Celestica 進行結構性轉型，切入高利潤的 AI 白牌基礎設施市場。",
+      "Core Patents & IP": "持有超過 280 項關鍵硬體專利，涵蓋高密度伺服器散熱、信號路由與高效電源供應設計，並提供客戶多樣化的 Joint Design (JDM) 共享知識產權與公版參考設計。",
+      "3-Year M&A": "近三年 (2023-2026) 無重大併購交易，主要採取有機成長戰略並專注於擴建既有產能；其最近一次重大併購為 2021 年收購新加坡電子製造服務商 PCI。",
+      "CapEx & Expansion": "2026 財年資本支出預算大幅調升至約 10 億美元，重點投入泰國、馬來西亞及北美的產線擴建，以提升 800G/1.6T 高速交換器與 AI 伺服器整機櫃整合產能。",
+      "Geopolitical Exposure": "透過將 AI 生產重心策略性地轉移至泰國與墨西哥，有效降低了中美貿易關稅風險，但其上游核心半導體晶片 (如先進製程晶圓代工與先進封裝) 仍受制於地緣政治的供應鏈不確定性。",
+      "M&A Potential": "因在 AI 供應鏈及超大型雲端客戶中具備獨特且關鍵的系統組裝與交換器設計地位，中長期具備被更大型系統整合商或同業併購的潛在價值，但短期內公司更傾向於維持獨立並透過增資擴產。"
+    },
+    {
+      "Country": "Canada",
+      "Timeframe": "中長期",
+      "Sub-Sector": "矽光子",
+      "Industry": "半導體與光學元件",
+      "Tier": "潛力股",
+      "Company": "POET Technologies Inc. (POET)",
+      "Capital/Market Cap": "約 13.9億美元",
+      "Core Business": "設計與開發基於獨家「POET 光學中介層 (POET Optical Interposer™)」平台的晶片級光電整合解決方案，透過半導體晶圓級製造技術，將雷射、調變器等光學元件與電子晶片無縫整合，主要應用於 AI 高速運算叢集與資料中心互連。",
+      "Clients & Orders": "已獲 Lumilens 簽署 5000萬美元首筆採購訂單（5年潛在規模逾 5億美元），2026年8月積壓訂單約 6000萬美元（含 1.6T 光模組引擎之 240萬美元訂單），並與光寶科技 (LITEON)、Lessengers 等展開技術合作；但 2026年4月遭 Marvell 取消 Celestial AI 相關訂單。",
+      "Technical Moat": "擁有獨創的晶圓級被動對準技術，透過在基板蝕刻導軌，利用自動化覆晶封裝達到次微米對準精度，無需傳統光電封裝昂貴且低效的手動主動對準，顯著降低量產難度與成本，並以無晶圓廠 (Fabless) 模式維持高彈性。",
+      "Revenue Breakdown": "2025年全年營收約 107萬至 110萬美元；2026年第二季營收 569,925 美元（年增 112%），主要由非經常性工程服務 (NRE) 與初期光學引擎樣品出貨構成，尚未步入大規模產品營收階段。",
+      "Gross Margin Profile": "目前仍處於前期商業化與產能擴張階段，持續錄得淨虧損（2026年第二季淨虧損達 1130萬美元），毛利率尚未穩定且非現階段財報揭露重點，主要依賴 2026年5月完成的 4億美元融資所累積的 7.96億美元現金儲備支撐。",
+      "Key Competitors": "包括 Skorpios Technologies、Ayar Labs、Ranovus、Celestial AI、Dream Photonics 等矽光子技術同業，以及 Broadcom、Marvell、Cisco、Coherent 等傳統光通訊與 AI 晶片巨頭。",
+      "12M Catalysts": "2026年下半年起於馬來西亞啟動光學引擎產能的 10倍擴產與批量出貨，目標 2027年底前達每月 100萬顆產能；與 Lumilens、光寶科合作專案的營收兌現，以及將 6000萬美元在手訂單逐步轉化為實質營收。",
+      "Key Investment Risks": "產能爬坡與良率控制等量產執行風險；客戶集中度高且訂單能見度具波動性（如 Marvell 砍單事件）；大額股權融資（2026年5月 4億美元融資）帶來的股權稀釋效應；以及 2026年4月因被動外國投資公司 (PFIC) 申報問題面臨的證券集體訴訟與治理審查。",
+      "CEO & Management": "由董事長兼執行長 Suresh Venkatesan 博士領軍，其擁有逾22年半導體產業經驗並持有超過25項美國專利，管理團隊目前高度聚焦於將公司由研發導向轉化為商業化量產平台，並積極主導製程專利佈局。",
+      "Core Patents & IP": "持有 POET 光學中介層 (Optical Interposer) 核心製程專利，2025-2026年最新佈局聚焦於光介質平面波導製程、用於晶圓級測試的翻轉反射鏡結構、以及多相開關轉換器之信號產生校正技術，建立製程成本與良率護城河。",
+      "3-Year M&A": "2024年底完成收購與三安光電合資之廈門超光電 (SPX) 的全部少數股權，將其轉為全資子公司以強化中國市場佈局；2026年融資後管理層表示將利用充足資金尋求技術或產能相關的靶向併購 (Targeted Acquisitions)。",
+      "CapEx & Expansion": "採取「中國 + 1」供應鏈策略，除保留廈門 SPX 廠房外，將量產重心轉向馬來西亞檳城，與 Globetronics (三年主合約及萬呎無塵室) 及 NationGate 合作進行光引擎的晶圓級封裝與測試，以降低地緣政治與 IP 洩露風險。",
+      "Geopolitical Exposure": "受美中科技戰影響，原中國合資公司 SPX 已收回為全資子公司，並將 800G 及 1.6T 高階 AI 光模組生產轉移至馬來西亞；身為加拿大公司且僅在美國 Nasdaq 上市，仍需面對美中對先進 AI 晶片及光電技術出口管制的潛在限制。",
+      "M&A Potential": "中等偏高；其獨特的光學中介層被動封裝技術與高達 7.96億美元的現金儲備，使公司不論是作為 AI 與光晶片巨頭（如 Nvidia、Broadcom）的潛在收購目標（以獲取核心矽光子整合技術），或是作為主動買方去併購上下游關鍵元件廠商，均具備極高的戰略交易空間。"
+    },
+    {
+      "Country": "Canada",
+      "Timeframe": "中長期",
+      "Sub-Sector": "AI學習管理平台",
+      "Industry": "應用軟體",
+      "Tier": "潛力股",
+      "Company": "Docebo Inc. (DCBO.TO)",
+      "Capital/Market Cap": "約 6.2億美元",
+      "Core Business": "提供基於雲端與AI驅動的企業學習管理系統（LMS），支援企業內部的員工培訓，以及針對客戶、合作夥伴與經銷商的外部培訓。",
+      "Clients & Orders": "主要服務全球大型企業客戶與OEM通路夥伴，擁有包括 Amazon AWS、Zoom 及 Deloitte 在內的指標性客戶，並持續擴展高客單價的企業長期合約。",
+      "Technical Moat": "具備高延展性的多租戶雲端架構，並透過併購整合 365Talents 的技能智慧技術與 Zive 的企業AI知識檢索平台，打造出能主動為員工規劃個人化學習路徑的 AgentHub 技術壁壘。",
+      "Revenue Breakdown": "高達約 94% 的營收來自於高穩定性的軟體訂閱服務（Subscription Revenue），剩餘約 6% 則由專業導入諮詢與客製化服務（Professional Services）構成。",
+      "Gross Margin Profile": "合併毛利率持續穩定在 79% 至 81% 的極高水準，反映了 SaaS 訂閱模式強大的規模經濟效應，以及雲端基礎設施運營成本的有效控制。",
+      "Key Competitors": "主要面臨 Cornerstone OnDemand、LTG（學習科技集團）、SAP Litmos、Absorb LMS，以及加拿大同業 D2L 等企業級學習平台的競爭。",
+      "12M Catalysts": "整合 Zive 技術後新推出的 Docebo AgentHub 的商業化與客戶採用進度、AI 進階功能對每用戶平均收入（ARPU）的提升，以及 7,000 萬美元大額股份回購計畫對股價的資金面支持。",
+      "Key Investment Risks": "面臨企業學習管理系統（LMS）市場的激烈競爭壓力、全球總體經濟波動導致企業縮減IT與員工培訓預算，以及近期併購公司技術整合未達預期的風險。",
+      "CEO & Management": "由自 2012 年加入公司並於 2024 年底升任 CEO 的 Alessio Artuffo 領軍，並於 2025 年初任命 Brandon Farber 為 CFO 以優化財務營運與資本配置。",
+      "Core Patents & IP": "核心智慧財產權主要依賴軟體著作權、平台專有演算法商業機密以及商標保護，而非傳統硬體型專利，並基於 AWS 與 Azure OpenAI 等底層架構進行客製化模型訓練。",
+      "3-Year M&A": "2023年收購社群服務平台 PeerBoard 與生成式AI軟體 Edugo.AI；2026年1月收購技能智慧公司 365Talents，4月進一步收購 AI 企業檢索平台 Zive 以強化 Agentic AI 技術能力。",
+      "CapEx & Expansion": "採用輕資產 SaaS 模式運作，實體資本支出（CapEx）極低，資金擴張策略主要集中於 AI 產品研發投入與特定垂直領域（如醫療保健）的全球銷售團隊擴張。",
+      "Geopolitical Exposure": "物理地緣政治風險極低，但由於服務遍及北美、歐洲與亞太地區，需嚴格遵守歐盟 GDPR、美國 CCPA 與加拿大 PIPEDA 等多國數據隱私保護與跨境數據傳輸法規。",
+      "M&A Potential": "因自由現金流強勁且帳上現金充裕，具備被大型私募股權基金（PE）或人力資源科技（HR Tech）巨頭溢價收購的潛力，但短期內自身再進行大型併購的機率偏低。"
+    },
+    {
+      "Country": "Canada",
+      "Timeframe": "中長期",
+      "Sub-Sector": "企業級AI搜尋與推薦平台",
+      "Industry": "平台經濟",
+      "Tier": "潛力股",
+      "Company": "Coveo Solutions Inc. (CVO.TO)",
+      "Capital/Market Cap": "約 4.2億加幣 (約 3.1億美元)。",
+      "Core Business": "主要提供基於人工智慧的企業級搜尋、推薦與生成式答覆 (GenAI) 平台，協助企業優化數位商務、客戶服務與內部知識管理。平台能即時連結多源異質數據，提供具上下文關聯且安全無虞的搜尋體驗。",
+      "Clients & Orders": "主要服務全球大型企業客戶，涵蓋金融、科技、製造、零售等產業，如 SAP、Milestone Systems 等均為其客戶。2026年度新簽訂多筆大型企業合約，GenAI 相關訂單增長強勁並成為新動能。",
+      "Technical Moat": "技術護城河在於其與 Salesforce、SAP 等企業系統的深度雙向整合，以及支援複雜的權限感知 (Permission-Aware) 安全數據檢索。其 AI 引擎具備強大的行為學習與反饋迴路，替換系統的沉沒成本與技術難度極高。",
+      "Revenue Breakdown": "訂閱服務 (SaaS Subscription) 佔總營收約 96%，且 Core Platform 訂閱為主要增長引擎。專業服務與其他收入 (Professional Services & Other) 則佔約 4%。",
+      "Gross Margin Profile": "整體毛利率穩定維持在約 78% 的高水準。其中，產品 (SaaS 訂閱) 毛利率高達 81%，而專業服務毛利率則因人力成本較高而具有波動性 (約 10%-25% 估)。",
+      "Key Competitors": "主要競爭對手包括專注於電子商務搜尋的 Bloomreach、開源搜尋引擎巨頭 Elastic、以及專注於 API-first 的 Algolia。此外，新興的企業工作空間搜尋對手 Glean 也在特定場景與其展開競爭。",
+      "12M Catalysts": "未來12個月的催化劑包括企業對 Coveo Relevance Generative Answering (RGA) 生成式答覆功能的加速採用，以及與 Bell AI Fabric 等主權 AI 雲端平台合作的進一步落地。公司力求在 2027 會計年度達到 1.6億至 1.64億美元的營收指引並實現穩定獲利。",
+      "Key Investment Risks": "面臨大型雲端巨頭 (如微軟、Google) 及企業軟體龍頭自研 AI 搜尋工具的競爭與功能蠶食風險。此外，企業 IT 預算審查收緊可能拉長銷售週期，且公司目前 GAAP 淨利仍處於虧損狀態，何時穩定獲利仍具不確定性。",
+      "CEO & Management": "由共同創辦人 Laurent Simoneau 擔任執行長 (CEO)，他自 2025 年接任並主導產品與技術策略。Louis Têtu 擔任董事會執行主席 (Executive Chairman)。Karine Hamel 於 2026 年 2 月升任為財務長 (CFO)。",
+      "Core Patents & IP": "擁有數十項專利，核心涵蓋異質數據去重索引 (Index Deduplication)、搜尋與發現閉環、以及產品目錄的用戶意圖識別演算法。其 IP 策略著重於保護多源數據整合與安全權限控管的獨家底層架構。",
+      "3-Year M&A": "過去三年內無重大收購案，主要專注於整合 2021 年底收購的電商個性化推薦公司 Qubit。期間公司主要透過常規發行發行人競價 (Normal Course Issuer Bid) 進行股票回購以優化資本結構。",
+      "CapEx & Expansion": "資本支出相對輕資產，研發投入 (R&D) 仍為核心支出，重點優化 Relevance-Augmented Passage Retrieval API 等 AI 基礎建設。全球擴張以北美為基地，並透過與歐洲團隊合作及雲端合作夥伴拓展海外企業市場。",
+      "Geopolitical Exposure": "總部位於加拿大，主要營收來源為美國市場 (約佔 80%-85% 估)，地緣政治直接風險較低。但因為處理全球企業隱私數據，須嚴格遵守歐盟 GDPR、美國各州隱私法及各國數據駐留 (Data Residency) 法規。",
+      "M&A Potential": "具備一定程度的被收購潛力，因為其與 Salesforce 和 SAP 等生態系整合度極深，且擁有專利安全檢索技術。若其估值持續承壓，可能吸引系統整合巨頭或私募股權基金 (PE) 溢價私有化。"
+    },
+    {
+      "Country": "Canada",
+      "Timeframe": "中長期",
+      "Sub-Sector": "雲端POS與SaaS支付",
+      "Industry": "平台經濟 (商務軟體與金融科技)",
+      "Tier": "潛力股",
+      "Company": "Lightspeed Commerce Inc. (LSPD.TO)",
+      "Capital/Market Cap": "約 13.7億美元",
+      "Core Business": "提供中小型與中端市場商家一站式的雲端點餐與收銀系統（POS）、全通路零售軟體以及整合式支付處理解決方案。近年聚焦於優化軟體與支付的搭售率（Attach Rate），協助餐飲與零售業實現線上線下通路融合與營運自動化。",
+      "Clients & Orders": "主要客群為全球中端市場（Mid-Market）的零售商與餐飲服務業者，2025至2026年期間策略性聚焦於北美零售商與歐洲餐飲業。隨著公司清理低客單價客戶並專注於高總交易額（GTV）商戶，客戶結構朝向營運規模更大、流失率更低的中大型商戶靠攏。",
+      "Technical Moat": "核心護城河在於強大的多店面庫存管理系統、整合NuORDER的B2B供應鏈採購平台，以及適用於高難度精緻餐飲（Fine Dining）的客製化工作流。此外，其一體化支付平台「Lightspeed Payments」與「Lightspeed Insights」數據分析工具，大幅提升了客戶對平台的黏性與轉換成本。",
+      "Revenue Breakdown": "2026財年總營收約為 12.27億美元，其中交易手續費收入（Transaction-based）為 8.15億美元（佔比約 66.4%），是核心成長引擎。訂閱服務年收入（Subscription）為 3.71億美元（佔比約 30.2%），其餘約 3.4% 為硬體銷售及其他收入。",
+      "Gross Margin Profile": "2025財年整體毛利率維持在 44%，且隨著 2026財年推進，毛利率微幅改善至約 44.4%。毛利率主要受高毛利的訂閱收入（約 70-80%）與較低毛利的交易手續費收入（約 20-30%）兩大結構消長影響，公司正透過提高支付利潤率與軟體定價來穩定毛利率。",
+      "Key Competitors": "在零售全通路領域的主要競爭對手為 Shopify，其擁有極高市佔率但更偏向線上電商；在餐飲收銀領域的主要對手為專攻美式餐飲的 Toast，以及 Clover 和 Block (Square)。Lightspeed 則透過深耕歐洲餐飲市場與中端多店面零售市場，與上述對手進行差異化競爭。",
+      "12M Catalysts": "未來 12 個月的催化劑包括持續推進的股份回購計劃以提升每股盈餘，以及歐洲餐飲市場對一體化 POS 與支付搭售率的加速滲透。另外，2026 年 4 月出售非核心 Upserve 美國餐飲業務所回籠的現金，有望投入到更高回報率的北美零售研發或小規模技術收購中。",
+      "Key Investment Risks": "面臨 Shopify 和 Toast 等產業巨頭的激烈價格戰與市佔率爭奪，可能壓縮其客戶獲取成本與利潤空間。此外，宏觀經濟放緩或高通膨可能導致中小企業倒閉率上升，進而壓低平台整體的總交易額（GTV）與手續費收入。",
+      "CEO & Management": "由創辦人 Dax Dasilva 擔任首席執行官，他於 2024 年重掌帥印並在 2025-2026 年主導公司的策略轉型，強調獲利與效率而非盲目擴張。首席財務官由 Asha Bakshani 擔任，持續執行財務紀律並改善公司的自由現金流與調整後 EBITDA 表現。",
+      "Core Patents & IP": "擁有圍繞其雲端收銀系統與多管道庫存同步技術的專利與專有軟體著作權，包括與 NuORDER 系統整合的 B2B 供應鏈網路智慧產權。此外，公司保留了原 Upserve 的進階餐飲數據分析核心技術，並將其轉化為現行的「Lightspeed Insights」專有分析引擎。",
+      "3-Year M&A": "在經歷前期的激進併購後，近三年轉向「去槓桿與整合」策略，於 2026 年 4 月以高達 8,100 萬美元將非核心的美國餐飲業務 Upserve 出售給 Skyview Equity。目前管理層明確表示暫不考慮大型收購，僅對能加速產品開發的小型技術拼圖（Tuck-in M&A）抱持開放態度。",
+      "CapEx & Expansion": "資本支出轉向輕資產模式，重心放在優化現有平台架構與 AI 功能整合，以降低硬體補貼與研發資本化支出。擴張策略由全球撒網收斂為區域深耕，重點部署資源於北美零售市場（Retail in NA）與歐洲餐飲市場（Hospitality in Europe）。",
+      "Geopolitical Exposure": "總部位於加拿大，主要市場分布於北美、歐洲、澳洲等已開發國家，對地緣政治高風險區域的直接曝險極低。然而，其歐洲業務面臨不同國家的支付法規與稅務合規要求，且跨國營運容易受到歐元、澳幣對美元匯率波動的間接財務影響。",
+      "M&A Potential": "雖然董事會於 2025 年 2 月宣布結束策略評估並決定不尋求整體出售，維持獨立上市營運，但其在中端市場的穩固地位與改善中的現金流仍使其具備中長期的被併購潛力。若公司估值持續低迷，未來仍可能再次成為私募股權基金（PE）或大型金融科技巨頭的潛在收購目標。"
+    },
+    {
+      "Country": "Canada",
+      "Timeframe": "中長期",
+      "Sub-Sector": "低軌衛星與航太國防",
+      "Industry": "航太與國防",
+      "Tier": "隱形冠軍",
+      "Company": "Calian Group Ltd. (CGY.TO)",
+      "Capital/Market Cap": "約 8.91億加元 (約 6.33億美元)",
+      "Core Business": "主要業務於2026財年重組為「國防與太空」和「關鍵產業」兩大板塊。公司提供太空地面系統工程、高精度全球衛星導航系統（GNSS）天線製造、軍事模擬訓練、國防醫療服務，以及核能與關鍵基礎設施的資安諮詢解決方案。",
+      "Clients & Orders": "主要客戶包括加拿大國防部（DND）、英國陸軍、北約組織（NATO）、歐洲太空總署（ESA）及商業衛星運營商。截至2026年第三季，公司在手訂單達14億加元，其中國防訂單達10億加元，並於2026年8月取得英國陸軍2.96億加元之15年期訓練合約。",
+      "Technical Moat": "技術護城河在於旗下 Calian GNSS 擁有的 Accutenna®、VeraPhase® 及 eXtended Filtering (XF™) 等多項專利天線技術，能在強干擾環境下提供高精度與抗飽和的定位能力。此外，其自主研發的 Maestro 軍事模擬軟體在北約聯合訓練中具有極高的技術替代壁壘。",
+      "Revenue Breakdown": "根據2026財年第三季最新財報，國防與太空（Defence & Space）部門營收佔比約 65%，為最主要的成長引擎。關鍵產業（Essential Industries）部門營收佔比則約 35%。",
+      "Gross Margin Profile": "公司整體毛利率表現穩健，2026財年第三季合併毛利率為 34.1%。受惠於高利潤的太空天線硬體銷售與國防模擬訓練合約，毛利率長期穩定維持在 33% 至 35% 區間。",
+      "Key Competitors": "在航太與衛星通訊領域的主要競爭對手為 MDA Space，在模擬訓練與國防服務方面主要與 CAE Inc. 競爭，而在商業IT諮詢領域則面臨 Accenture 等全球服務巨頭的競爭。",
+      "12M Catalysts": "未來12個月的催化劑包括加拿大與北約各國國防預算持續增長、英國陸軍15年期訓練合約正式啟動貢獻營收、Galaxy Broadband 衛星通訊收購案的協同效應釋放，以及出售美國商業 IT 業務後回收的 4,300 萬加元資金進行重新配置。",
+      "Key Investment Risks": "主要投資風險在於客戶高度集中於加拿大國防部（DND），政府預算撥款延遲可能顯著影響營收認列。此外，頻繁進行併購面臨整合不順及商譽減損風險，且專業技術與醫療人才的持續短缺可能壓抑利潤空間。",
+      "CEO & Management": "Patrick Houston 自 2026 年 1 月起由財務長升任執行長，接替長期領導公司的 Kevin Ford。新管理團隊致力於推動組織重組，簡化業務結構並聚焦於高毛利、具防禦性的國防與太空核心業務。",
+      "Core Patents & IP": "核心智慧財產權包括高精度 GNSS 天線的 VeraPhase® 與 Accutenna® 技術專利以抑制多路徑干擾，以及 XF™ 技術專利以防止 4G/5G 訊號對接收器的飽和干擾，並擁有 Maestro 等多項國防模擬訓練平台的專利與軟體著作權。",
+      "3-Year M&A": "近三年積極透過併購擴張，包括 2026 年 8 月以高達 5,150 萬加元收購衛星通訊商 Galaxy Broadband，2025 年 5 月收購北部緊急醫療服務商 AMS，以及 2024 年收購 Mabway 國防訓練公司與 MDA 的核能服務部門；同時於 2026 年 8 月出售美國非核心 IT 商業以回收資金。",
+      "CapEx & Expansion": "採取輕資產運營模式，單季資本支出維持在 300 萬至 400 萬加元的低水平，盈餘轉化為自由現金流效率極高。業務擴展主要依賴併購而非大規模廠房建設，近年重點拓展英國、歐洲等北約盟國的國防與太空市場。",
+      "Geopolitical Exposure": "地緣政治敏感度極高，主要業務深度參與北約防務現代化與全球低軌衛星部署，直接受惠於地緣衝突帶來的全球國防開支增長。然而，其軍工與航太技術出口亦受到嚴格的國際武器貿易條例（ITAR）與出口管制法規限制。",
+      "M&A Potential": "併購潛力巨大，公司在 2026 年 3 月將授信額度擴大至 2.75 億加元，展現強烈的併購彈性。預計未來將持續尋求歐洲與北美地區在衛星通訊、國防資安及專業健康服務等領域的互補型標的，以推動無機成長。"
+    },
+    {
+      "Country": "Canada",
+      "Timeframe": "中長期",
+      "Sub-Sector": "航太維修與特種航空服務",
+      "Industry": "航太與國防",
+      "Tier": "潛力股",
+      "Company": "Chorus Aviation Inc. (CHR.TO)",
+      "Capital/Market Cap": "約 6.6億至6.75億加元",
+      "Core Business": "主要提供支線航空合約飛行（以 Jazz 品牌為加拿大航空提供 CPA 服務）、航太特種技術與國防後勤支援（Voyageur）、以及航太零件分銷與維修服務（KADEX）。公司已於2024年底出售飛機租賃業務（Falko），全面轉型為輕資產的航空服務與 MRO 整合平台。",
+      "Clients & Orders": "最大客戶為加拿大航空（Air Canada），雙方簽有長期產能購買協議（CPA）至2035年。其他客戶包括加拿大國防部、跨國政府機構、特殊任務航空運營商以及全球支線飛機運營商。",
+      "Technical Moat": "擁有加拿大交通部授權的設計核准組織（DAO）與核准維修組織（AMO）資質，具備開發補充型號合格證（STC）的工程能力。此外，旗下擁有 Cygnet 航空學院，具備飛行員培訓與直通航空公司的產學協同壁壘。",
+      "Revenue Breakdown": "以 2025-2026 年數據為基準，主要收入來源為 Jazz 與加拿大航空簽署的 CPA 合約飛行收入（包含固定利潤與可控成本補償），約佔總營收 80% 以上。其餘收入來自 Voyageur 的特種包機與 MRO 服務，以及新併購的 KADEX 所貢獻的航太零件分銷收入（2026年單季貢獻約1640萬加元）。",
+      "Gross Margin Profile": "2025會計年度毛利率約為 20.12%，2026年上半年毛利率則維持在 19.31% 的穩定水準。利潤率主要受 CPA 固定收益機制保護，但部分折舊與融資成本波動會對淨利率造成短期影響。",
+      "Key Competitors": "在支線航空與特種飛行服務領域，主要競爭對手為 Exchange Income Corporation (EIF.TO) 旗下的航空子公司、PAL Airlines，以及 Porter Airlines 等加拿大本土中小型航空公司。",
+      "12M Catalysts": "主要催化劑包括持續執行 2026-2029 年高達 5.0億至5.5億加元的資本配置計劃，包括進行股份回購（NCIB）與提高股利發放。此外，新收購的 KADEX 與 Elisen 在國防和售後市場的綜效顯現，以及非核心飛機資產的持續變現也是關鍵利多。",
+      "Key Investment Risks": "面臨 legacy 飛機租賃合同到期帶來的營收計劃性下滑風險，需仰賴新服務業務的增長來彌補。此外，高度依賴單一最大客戶加拿大航空的合約穩定性，且易受飛行員短缺、燃油價格波動及國防採購周期滯後的負面影響。",
+      "CEO & Management": "由 Colin Copp 擔任總裁兼執行長（CEO），他自 2023 年上任以來主導了公司剝離租賃業務並轉向輕資產服務平台的重大戰規轉型。",
+      "Core Patents & IP": "核心智慧財產權非傳統發明專利，而是由旗下 Voyageur 與 Elisen 擁有的多項航空器改裝「補充型號合格證（STC）」，涵蓋醫療轉運、貨機改裝及輔助油箱系統，並獲得加拿大交通部（TCCA）、美國 FAA 及歐洲 EASA 的多方認證。",
+      "3-Year M&A": "於 2026 年 4 月完成收購航空零件分銷商 KADEX Aero Supply，並於 2025 年收購航太工程與認證服務商 Elisen & Associates。此前於 2024 年底以約 19 億加元（含債務承受）向 HPS 關聯基金出售了其 Falko 區域飛機租賃部門，完成輕資產轉型。",
+      "CapEx & Expansion": "在出售租賃業務後，CapEx 需求顯著降至輕資產水平。目前擴張重點聚焦於航空售後零件分銷網絡的擴大、國防特種改裝產線的升級，以及 Cygnet 飛行學院培訓設施的擴建。",
+      "Geopolitical Exposure": "業務高度集中於加拿大及北美本土，地緣政治直接風險較低。但旗下 Voyageur 承接部分國防與國際人道救援包機任務，易受全球局部衝突和各國軍事預算波動的間接影響。",
+      "M&A Potential": "由於槓桿率在 2026 年已降至 1.5x 的健康水平且流動性充裕，具備高度的互補性收購潛力。未來可能持續在北美市場尋求中小型航太零件分銷商、特種工程或 MRO 服務商進行併購，以進一步降低對 CPA 合約的依賴。"
+    },
+    {
+      "Country": "Canada",
+      "Timeframe": "中長期",
+      "Sub-Sector": "電動車",
+      "Industry": "巴士與客車製造",
+      "Tier": "龍頭股",
+      "Company": "NFI Group Inc. (NFI.TO)",
+      "Capital/Market Cap": "約 27億加元",
+      "Core Business": "提供大眾運輸巴士與客車的製造及售後配件服務，旗下擁有 New Flyer、MCI、Alexander Dennis 及 ARBOC 等知名品牌，並積極推動零排放巴士（ZEB）轉型。",
+      "Clients & Orders": "主要客戶為北美及英國的大型城市公共交通管理局（如紐澤西交通局 NJ TRANSIT、華盛頓地鐵 WMATA 等），截至 2026 年中期擁有約 125億加元的龐大在手訂單。",
+      "Technical Moat": "具備領先的電池與氫燃料電池客車整合技術，並開發出專利的 Connect 360® 雲端車隊電能監控系統與輕量化車體結構，於 2025 年底收購前供應商 XALT 的電池管理系統（BMS）軟體 IP。",
+      "Revenue Breakdown": "整車製造業務（Manufacturing）約占總營收的 80% 至 85%，高毛利的售後零部件與服務業務（Aftermarket）則占約 15% 至 20%。",
+      "Gross Margin Profile": "整體毛利率約 14.9%（以 2026年Q2為例），其中整車製造業務毛利率較低（約 11.5%），而售後配件業務毛利率則高達約 31.4%。",
+      "Key Competitors": "在北美市場主要競爭對手為 GILLIG LLC，以及退守加拿大市場的 Nova Bus（富豪集團旗下）；在全球市場則面臨比亞迪（BYD）及宇通客車等中資巨頭的競爭。",
+      "12M Catalysts": "未來 12 個月催化劑包括持續消化並交付 125 億加元的創紀錄訂單、溫尼伯（Winnipeg）新廠產能開出預計年增 240 等值單位（EUs），以及美國《基礎建設法案》（IIJA）持續撥款補助。",
+      "Key Investment Risks": "面臨關鍵電池原材料與電子零部件的供應鏈瓶頸風險、高槓桿負債導致的財務利息支出壓力，以及高度依賴易受政治和預算週期影響的政府財政補貼。",
+      "CEO & Management": "由 2026 年 1 月 1 日起接任總裁兼執行長的 John Sapp 領導，並由 2024 年 3 月起上任的執行副總裁兼財務長 Brian Dewsnup 負責財務管理。",
+      "Core Patents & IP": "擁有 Connect 360® IoT 遙測技術專利與商標，並於 2025 年 12 月通過和解協議取得原電池供應商 XALT 的電池管理系統（BMS）軟體及相關智慧財產權。",
+      "3-Year M&A": "2025 年與競爭對手 GILLIG 合資成立 GR Seating, LLC 並收購 American Seating 的資產以穩定座椅供應鏈；其餘期間主要執行「NFI Forward」計畫進行內部重組，無大型外部收購。",
+      "CapEx & Expansion": "2026 年預期資本支出為 5500萬至 6500萬加元，主要用於溫尼伯新廠的產能擴建（預計 2027 年達滿產）與英國 Alexander Dennis 蘇格蘭廠區轉型為零排放底盤製造基地。",
+      "Geopolitical Exposure": "高度受美國《購買美國法案》（Buy America Act）本地化生產比例限制（由阿拉巴馬州 Anniston 廠滿足），電池電芯採購依賴歐亞進口，且在英國與歐洲市場面臨政策補貼變動風險。",
+      "M&A Potential": "短期內因處於去槓桿與降負債階段，主動併購他社的潛力較低；但作為北美市占領先的電動巴士龍頭，長期而言對尋求切入北美綠能交通市場的全球工業巨頭具備被收購吸引力。"
+    },
+    {
+      "Country": "Canada",
+      "Timeframe": "中長期",
+      "Sub-Sector": "生技新藥",
+      "Industry": "生物技術與製藥",
+      "Tier": "潛力股",
+      "Company": "Eupraxia Pharmaceuticals Inc. (EPRX.TO)",
+      "Capital/Market Cap": "約 6.4億至 6.7億加幣",
+      "Core Business": "公司專注於開發局部給藥的長效型改良新藥，利用專有的 Diffusphere™ 微球遞送技術平台來優化療效。核心產品線包括治療嗜酸性粒細胞性食道炎（EoE）的 EP-104GI，以及治療膝關節骨關節炎（OA）疼痛的 EP-104IAR。",
+      "Clients & Orders": "由於公司仍處於臨床開發階段，目前尚無任何商業化銷售，因此沒有現有的客戶與採購訂單。未來的商業客戶預計將是全球跨國大藥廠，主要透過新藥授權合作及共同開發協議來獲取相關營收。",
+      "Technical Moat": "其核心壁壘為專利 Diffusphere™ 聚合物微球藥物遞送技術，能精確控制藥物在病灶局部緩慢釋放長達數月甚至一年。該平台已被證實能在顯著提高局部療效的同時大幅降低全身性毒副作用，提供較傳統注射劑更長效且安全的治療方案。",
+      "Revenue Breakdown": "公司目前處於臨床前及臨床研究階段，營收結構為 100% 尚無商業銷售收入。現階段所有資金運作主要依賴大眾股權融資、私募或未來潛在的製藥合作夥伴授權里程碑金。",
+      "Gross Margin Profile": "由於公司尚未將任何候選藥物推向市場，因此目前毛利率表現不適用（N/A）。現階段財務主要呈現研發費用（R&D）與行政開銷所致的淨虧損狀態。",
+      "Key Competitors": "在嗜酸性粒細胞性食道炎（EoE）領域的主要對手為賽諾菲與再生元合作的 Dupixent 免疫療法；在骨關節炎（OA）疼痛領域，主要競爭產品為 Pacira BioSciences 的長效皮質類固醇注射液 Zilretta。",
+      "12M Catalysts": "未來 12 個月內最核心的催化劑為 2026 年下半年預計公佈的 EP-104GI 治療 EoE 之 RESOLVE Phase 2b 臨床試驗關鍵頂線數據。同時，公司正積極為已完成 Phase 2b 的 EP-104IAR 尋求全球授權或合作夥伴，以期籌措資金進入 Phase 3 臨床試驗。",
+      "Key Investment Risks": "核心風險在於臨床試驗數據未達預期或研發失敗，尤其是即將揭曉的 EP-104GI 臨床數據。此外，公司持續研發需大量資金，面臨再融資引發的股權稀釋風險，且技術高度集中於單一 Diffusphere 平台。",
+      "CEO & Management": "由執行長兼共同創辦人 James Helliwell 博士領導，他擁有專業的心臟麻醉醫學背景。公司於 2025 至 2026 年間陸續引進新任財務長 Alex Rothwell 及研發負責人 Alex Therien 博士，以強化後期臨床開發與商業化轉型的執行實力。",
+      "Core Patents & IP": "核心專利涵蓋其 EP-104 製劑配方與 Diffusphere™ 技術，其中多項關鍵的配方國際專利保護期預計可延伸至 2044 年。此外，在歐洲等主要市場已取得相關組合物專利，專利保護至少維持至 2034 年。",
+      "3-Year M&A": "過去三年（2023至2026年 8月）公司並未發生任何企業合併或收購事件。公司策略上專注於推進自身臨床管線與平台開發，並透過資本市場公開發行募集資金以維持獨立運作。",
+      "CapEx & Expansion": "公司於 2026 年完成營運樞紐向溫哥華及西雅圖的遷移，以擴充研發、製造和潛在的商業化實體規模。其主要資本支出用於臨床委託研究機構（CRO）以及配合後期試驗的微球生產線產能擴增。",
+      "Geopolitical Exposure": "地緣政治風險偏低，主要營運總部與核心團隊位於美國西雅圖與加拿大溫哥華，且主要臨床試驗地區均在北美和澳大利亞等政策透明度高且政經穩定的國家。",
+      "M&A Potential": "具備較高的併購吸引力，因其專有的 Diffusphere™ 平台能對現有小分子藥物進行長效化劑型改良。對於尋求消化道疾病或疼痛管理管線的大型跨國藥企而言，該公司是極佳的管線收購或技術平台併購標的。"
+    },
+    {
+      "Country": "Canada",
+      "Timeframe": "中長期",
+      "Sub-Sector": "電動車",
+      "Industry": "鋰礦開採與加工",
+      "Tier": "潛力股",
+      "Company": "Sigma Lithium Corporation (SGML)",
+      "Capital/Market Cap": "約 14億美元",
+      "Core Business": "主要致力於在巴西開採高品位鋰輝石，並將其加工成高品質、環保的「三零（零碳、零化學藥劑、零尾礦）」綠色電池級鋰精礦。",
+      "Clients & Orders": "與 Glencore 簽有分銷與行銷協議；與雅化集團（Yahua）簽有綠色鋰精礦及尾礦長期承購協議；曾與 LG Energy Solution 簽署承購意向書，但目前雙方正進行合約糾紛仲裁。",
+      "Technical Moat": "採用先進的重介質分離（DMS）物理選礦技術，完全不使用有害化學藥劑，並實現 100% 污水回收與尾礦乾堆（無尾礦壩風險），生產出高品位且具備 ESG 溢價的環保鋰精礦。",
+      "Revenue Breakdown": "主要營收來自 5.5% 至 6.0% 級別的電池級超高純度鋰輝石精礦銷售，其次為綠色尾礦（高純度鋰細粉）的商業化銷售。",
+      "Gross Margin Profile": "2026 年第二季毛利率維持在約 60%，隨著採礦業務「自主化」降低對外部承包商的依賴，工廠端現金成本降至約每噸 401 美元，AISC 降至每噸 668 美元。",
+      "Key Competitors": "包括 Albemarle (ALB)、SQM (SQM)、Pilbara Minerals (PLS)、Mineral Resources (MIN) 及 Arcadium Lithium (ALTM) 等全球主要鋰礦與化學品生產商。",
+      "12M Catalysts": "包括 Grota do Cirilo 項目第二期擴產設備組裝預計於 2027 年年中完成並投產、與新客戶簽署具備 ESG 溢價的承購協議，以及下半年產量目標的順利達成。",
+      "Key Investment Risks": "主要面臨全球鋰價持續低迷或波動的市場風險、巴西當地環保與採礦許可審批延遲的監管風險，以及第二期擴產進度若落後預期的執行風險。",
+      "CEO & Management": "由聯合創辦人 Ana Cabral-Gardner 擔任執行長（CEO）兼聯席董事長，她擁有超過 30 年全球投資銀行與併購經驗，主導公司的綠色低碳發展策略。",
+      "Core Patents & IP": "並未持有大量傳統專利，核心智財權主要體現於 Greentech 綠色選礦廠的專有工藝流程設計、重介質分離（DMS）操作參數，以及水資源循環與乾堆過濾系統的工程 know-how。",
+      "3-Year M&A": "2023至2024年初曾進行戰略審查，吸引比亞迪（BYD）、福斯汽車（Volkswagen）等巨頭的收購興趣，最終公司決定保持獨立並專注於自主擴產，近三年未發生重大併購。",
+      "CapEx & Expansion": "第二期擴產總資本支出預估約 1.01 億美元，已透過 1 億美元債務融資及客戶預付款實現完全資金保障，目標將產能提升至每年 52 萬至 58 萬噸。",
+      "Geopolitical Exposure": "總部位於加拿大，主要生產基地在巴西，其產品符合美國《通膨削減法案》（IRA）的關鍵礦物來源要求，較少受到美中貿易衝突的直接地緣政治制約。",
+      "M&A Potential": "潛在被收購可能性高。因其具備極低成本優勢及符合最高 ESG 標準的綠色鋰資產，對急需穩定、合規且具碳中和屬性原料供應的全球主流車企或大型礦業集團極具吸引力。"
+    },
+    {
+      "Country": "Canada",
+      "Timeframe": "中長期",
+      "Sub-Sector": "先進機器人",
+      "Industry": "海洋防務與先進機器人",
+      "Tier": "隱形冠軍",
+      "Company": "Kraken Robotics Inc. (PNG.V)",
+      "Capital/Market Cap": "約 18億至23億加元",
+      "Core Business": "主要開發與銷售高解析度水下感測器、水下機器人系統（如 KATFISH 拖曳式系統）以及耐壓海底電池電源解決方案。公司於 2026 年完成收購 Covelya Group 後，產品線進一步延伸至水下定位、導航與通信系統，提供全方位海洋情報方案。",
+      "Clients & Orders": "主要客戶涵蓋全球 700 多家機構，包括北約成員國海軍（如丹麥海軍）、頂級軍工承包商以及海上風電與石油氣等能源巨頭。截至 2026 年中，加計收購 Covelya Group 後的合併訂單積壓量（Order Book）高達約 3.55 億加元，前十大客戶約佔 2025 年總營收的 50%。",
+      "Technical Moat": "技術護城河基於其行業領先的合成孔徑聲納（SAS）技術，其成像解析度比傳統聲納高 3-5 倍，且測繪速度快 2-3 倍。此外，其 SeaPower 電池採用獨特的灌封技術，免除傳統昂貴的壓力補償外殼，大幅提升水下載具的能量密度與安全性。",
+      "Revenue Breakdown": "營收主要分為產品銷售（如聲納系統、水下電池設備）與服務收入（如 LiDAR 探測與租賃服務）。在 2026 年併入 Covelya Group 後，預計產品銷售營收佔比將提升至 75% 以上，公司 2026 全年營收指引大幅調升至 2.9 億至 3.2 億加元。",
+      "Gross Margin Profile": "毛利率隨著高附加價值的專有產品與軟體服務佔比提升而持續優化， 2025 年毛利率達到約 62% 的歷史新高。預期在併購 Covelya Group 產生的業務整合與產品綑綁銷售效應下，中長期毛利率能穩定維持在 60% 以上的水平。",
+      "Key Competitors": "直接競爭對手包括挪威的 Kongsberg Gruppen、法國的 Exail、美國的 Teledyne Marine、EdgeTech 和 Klein Marine Systems。在國防與水下載具（UUV）領域，亦面臨 Anduril、L3Harris、Kratos 等軍工與新興科技巨頭的潛在競爭或集成合作。",
+      "12M Catalysts": "未來 12 個月催化劑包括 Covelya Group 併購後的業務深度整合與協同效應釋放，以及新建 Nova Scotia 電池廠產能的全面釋放。此外，地緣衝突推動北約各國海軍加速簽署水下關鍵基礎設施防護與水雷反制（MCM）的新採購合約，也是重要成長動能。",
+      "Key Investment Risks": "主要風險在於國防合約的銷售與採購週期長且不可預測，以及大金額併購 Covelya Group 後的整合與債務融資壓力。另外，全球科技供應鏈潛在的零組件短缺或交付延遲，可能影響短期專案的營收認列時程。",
+      "CEO & Management": "由集團執行長 Greg Reid 領導，其於 2026 年中啟動「Kraken Group」組織重組以支持業務擴張。重組後，原 Kraken Robotics 的營運業務由新任總裁 Bernard Mills 負責，管理層在海洋科技與軍工防務領域擁有數十年的深厚產業經驗。",
+      "Core Patents & IP": "目前擁有超過 110 項已授權與申請中的專利，核心包含 AquaPix 合成孔徑聲納成像專利、3D at Depth 的水下 LiDAR 感測技術。另外，其 SeaPower 電池的免壓外殼物理灌封設計也是其獨家擁有的關鍵工業產權與技術機密。",
+      "3-Year M&A": "近三年內完成了兩項重大收購：2025 年 4 月以 1700 萬美元現金收購美國 subsea LiDAR 領導者 3D at Depth；2026 年 7 月以約 6.15 億加元（現金與股票）完成對英國 Covelya Group 的里程碑式併購，大幅拓寬了水下聲學與導航的產品組合。",
+      "CapEx & Expansion": "2025 年資本支出因新建 Nova Scotia 的 6 萬平方英尺電池製造廠而增至 3030 萬加元；2026 年預估資本支出維持在 2700 萬至 3300 萬加元以持續優化產能。在收購 Covelya Group 後，全球營運據點擴張至約 25 個，生產總面積增至 45 萬平方英尺以上。",
+      "Geopolitical Exposure": "高度受益於北約成員國對海底光纖、管道等關鍵基礎設施防護的迫切需求，以及地緣局勢緊張帶來的國防開支擴張。公司在歐美等民主盟國擁有穩固的客戶群，受關稅影響較小，但需嚴格遵守防務出口管制法規。",
+      "M&A Potential": "作為收購方，公司目前重心在於消化與整合 Covelya Group 的龐大資產，短期內再次進行大規模收購的可能性較低。但作為被收購對象，其在水下無人載具和合成孔徑聲納的獨特地位，使其極易成為 Kongsberg、L3Harris 或 Anduril 等大型防務集團的潛在併購目標。"
+    }
+  ],
+  "failed": [
+    "Westport Fuel Systems Inc. (WPRT.TO)"
+  ],
+  "requeued": [
+    "Cardiol Therapeutics Inc. (CRDL.TO)",
+    "Algoma Central Corporation (ALC.TO)",
+    "Canadian Pacific Kansas City Limited (CP.TO)",
+    "Blackline Safety Corp. (BLN.TO)"
+  ],
+  "excluded": [
+    "The Lion Electric Company (LEV.TO)",
+    "Repare Therapeutics Inc. (RPTX)",
+    "ESSA Pharma Inc. (EPIX)"
+  ],
+  "summary": {
+    "batch_label": "API Batch 370 (new, gemini)",
+    "updated": [
+      "POET Technologies (POET)"
+    ],
+    "claimed": [
+      "Celestica Inc. (CLS.TO)",
+      "Docebo Inc. (DCBO.TO)",
+      "Coveo Solutions Inc. (CVO.TO)",
+      "Lightspeed Commerce Inc. (LSPD.TO)",
+      "Calian Group Ltd. (CGY.TO)",
+      "Chorus Aviation Inc. (CHR.TO)",
+      "NFI Group Inc. (NFI.TO)",
+      "Eupraxia Pharmaceuticals Inc. (EPRX.TO)",
+      "Sigma Lithium Corporation (SGML)",
+      "Kraken Robotics Inc. (PNG.V)"
+    ],
+    "unmatched": [],
+    "rows_exported": 2388
+  }
+}

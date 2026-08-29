@@ -1,0 +1,53 @@
+{
+  "label": "API Batch 279 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "Intershop Communications AG (ISHA.DE)",
+      "Country": "Germany",
+      "Industry": "平台經濟",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "Germany",
+      "Timeframe": "中長期",
+      "Sub-Sector": "B2B雲端與AI電商平台",
+      "Industry": "平台經濟",
+      "Tier": "輔助公司",
+      "Company": "Intershop Communications AG (ISHA.DE)",
+      "Capital/Market Cap": "約 3,000萬歐元",
+      "Core Business": "核心業務為提供專為製造商及批發商設計的 B2B 電商軟體平台，支援複雜的通路定價、合約權益與訂單管理。近年全力推動由傳統軟體授權轉向 Cloud SaaS（雲端訂閱）模式，並融入「主動式商務（Agentic Commerce）」與 AI 助理功能。公司透過「夥伴優先」策略逐步縮減低毛利的專業顧問服務，專注於高利潤的雲端服務授權。",
+      "Clients & Orders": "客戶群主要為歐洲、北美及亞太地區的中大型製造商、工業分銷商與批發商。2025 年雲端新訂單金額達 2,170 萬歐元，且 H1 2026 雲端新訂單同比增長 26% 至 840 萬歐元，顯示雲端需求持續穩健。主要訂單逐步轉為訂閱制，帶動長期經常性收入（ARR）的穩定累積。",
+      "Technical Moat": "核心技術護城河在於對 B2B 複雜商業邏輯（如多組織架構、客製化合約價格、大型技術型錄）的深厚支援能力。平台採用可組合商務（Composable Commerce）架構，並整合自主收購的 SPARQUE.AI 技術以提供精準的 AI 搜尋與推薦。近期推出「AI 智能代理（Agentic AI）」與買賣雙方專屬的 Copilot 助理，能自動化處理產品內容在地化與採購決策，大幅提升效率。",
+      "Revenue Breakdown": "2025 年總營收為 3,330 萬歐元，其中雲端與訂閱營收達 2,050 萬歐元，營收佔比已達 62%。至 2026 年上半年（H1 2026），雲端營收達 1,050 萬歐元，佔總營收比例進一步攀升至 67%。其餘營收來自傳統軟體授權與維護（約佔 10-15%）以及正逐步縮減的專業顧問與實施服務（約佔 15-20%）。",
+      "Gross Margin Profile": "隨著高毛利的雲端業務佔比提升，H1 2026 整體毛利率攀升至約 49%。其中，雲端業務毛利率從 2025 年同期的 64% 進一步改善至 H1 2026 的 66%。傳統服務部門先前受單一大型專案超支拖累，毛利率低迷，但受惠於「夥伴優先」轉型與人力成本優化，服務毛利率正逐步回穩。",
+      "Key Competitors": "主要競爭對手包括 SAP Commerce Cloud、Salesforce Commerce Cloud 及 Adobe Commerce (Magento) 等全球巨頭。在特定 B2B 及可組合商務領域，亦面臨現代化輕量級對手如 Spryker、commercetools 及 Shopware 的激烈競爭。公司主要依靠高性價比的 B2B 開箱即用深度功能與 AI 整合與其區隔。",
+      "12M Catalysts": "未來 12 個月的催化劑包括：新版 AI「智能代理」功能在客戶端的成功落地與變現、服務部門轉型「夥伴優先」完成後的成本釋放、以及高成長的雲端訂單轉化為實際營收。若能在 2026 下半年維持 EBIT 損益兩平並恢復淨 ARR 的正向增長，將顯著提振估值。",
+      "Key Investment Risks": "面臨歐洲（尤其是德國）宏觀經濟疲軟導致企業 IT 支出審慎、決策週期拉長的風險。短期內因主動縮減服務營收，可能導致總營收規模持續微幅萎縮。此外，2026 年初淨新 ARR 曾出現短暫流失（H1 2026 為負 40 萬歐元），後續雲端客戶留存率與續約表現仍需密切觀察。",
+      "CEO & Management": "管理團隊由執行長 Markus Dränert（2025 年 9 月上任，並於 2026 年 2 月將合約延長至 2029 年 3 月）領導，其專注於推動 AI 與雲端平台化轉型。財務長 Petra Stappenbeck 自 2023 年 1 月起任職，主導公司的財務整頓與成本結構優化。監事會主席則由 Frank Fischer 擔任，協助指導長期資本規劃。",
+      "Core Patents & IP": "擁有自主研發的 Intershop Commerce Platform 核心代碼庫，以及專利授權的 B2B 電商工作流引擎與 AI 智能助理架構。於 2022 年收購的 SPARQUE.AI 帶來了核心的 AI 搜尋、個性化推薦演算法與數據織網（Data Fabric）技術智慧財產權。其 IP 主要以閉源商業軟體著作權及技術專門知識（Know-how）的形式保護。",
+      "3-Year M&A": "近三年（2024-2026年）無重大併購交易，策略上專注於消化 2022 年收購的 SPARQUE 搜尋技術並進行內部整合。目前主要投資均投向自主研發與合作夥伴生態系建設，而非進行資本密集的外部收購。未來可能維持以技術補強為目的的小型資產收購。",
+      "CapEx & Expansion": "作為輕資產軟體公司，資本支出（CapEx）主要集中於研發（R&D）資本化與雲端基礎設施優化。市場拓展方面，以歐洲為核心腹地，並透過與微軟 Azure 及全球系統整合商的合作，以低資本支出的合夥模式間接開拓北美與亞太（APAC）市場。近年嚴格控制實體資產與非必要營運支出以維持現金流。",
+      "Geopolitical Exposure": "高度曝險於歐洲（尤其是德語區）的經濟衰退風險，因為該地區佔其營收大宗。營運與數據處理須嚴格遵守歐盟《通用數據保護條例》（GDPR）及歐盟《人工智慧法案》（EU AI Act），法規遵循成本相較美國對手較高。全球供應鏈緊張間接影響其製造業客戶的 IT 投資預算，對營收成長帶來外部壓力。",
+      "M&A Potential": "併購潛力為中高。目前市值僅約 3,000 萬歐元，且擁有成熟的 B2B 企業級客戶基礎與極具競爭力的 AI 模組，對尋求擴張歐洲版圖的私募股權基金（PE）或大型軟體集團（如 SAP 或其他 ERP 巨頭）而言，具備極高的戰略收購性價比。然而，其分散的股權結構與地區性政治考量可能是潛在障礙。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 279 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "Intershop Communications AG (ISHA.DE)"
+    ],
+    "unmatched": [],
+    "rows_exported": 1935
+  }
+}

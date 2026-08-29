@@ -1,0 +1,36 @@
+{
+  "item": {
+    "Company": "啟碁 (6285.TW)",
+    "ticker": "6285.TW",
+    "Country": "Taiwan",
+    "Tier": "龍頭股",
+    "values": {
+      "Country": "Taiwan",
+      "Timeframe": "中長期",
+      "Sub-Sector": "低軌衛星",
+      "Industry": "通訊網路業",
+      "Tier": "龍頭股",
+      "Company": "啟碁 (6285.TW)",
+      "Capital/Market Cap": "約 600 億台幣",
+      "Core Business": "提供寬頻通訊設備、車用電子元件、衛星廣播接收器及低軌衛星地面終端設備。",
+      "Clients & Orders": "特斯拉(車規網通組件)、SpaceX (Starlink地面接收器核心代工)、AT&T。",
+      "Technical Moat": "具備高頻微波射頻天線、車規高規防震防溫網通組件，與大規模軟硬體整合製造實力。",
+      "Revenue Breakdown": "企業網通產品 45%、車用與智慧家居 32%、消費性及衛星寬頻 23%。",
+      "Gross Margin Profile": "約 12-14% (代工製造利潤較低，但量體巨大)。",
+      "Key Competitors": "智易、中磊、神準",
+      "12M Catalysts": "5G FWA (固定無線接入) 設備在歐美基建大鋪設，與次世代 Starlink 行動地面站出貨。",
+      "Key Investment Risks": "網通客戶庫存調整去化緩慢，以及關鍵射頻晶片交期受半導體產能波動影響。",
+      "CEO & Management": "謝宏波(董事長)推行「大艦隊、多觸角」戰略，帶領啟碁成為台灣營收最大的網通系統製造大廠。",
+      "Core Patents & IP": "擁有車載毫米波雷達天線專利、低軌衛星多波束相控陣天線 IP，以及高階 Wi-Fi 7 天線設計。",
+      "3-Year M&A": "鮮少外部併購，主要以合資或戰略參股射頻元件材料新創為主。",
+      "CapEx & Expansion": "斥資數十億台幣擴建南科新廠、越南與墨西哥廠房，將中/美兩端產能去風險化。",
+      "Geopolitical Exposure": "設有越南與墨西哥大型生產基地，可有效避開中美科技戰與關稅威脅，為歐美大廠的首選代工。",
+      "M&A Potential": "為緯創集團(持股約30%)的網通旗艦，大樹底下好乘涼，無被敵意收購風險。",
+      "Recent Insider Trading": "無資料 (美股限定)"
+    }
+  },
+  "problems": [
+    "claude -p failed: You've hit your weekly limit · resets Jul 24 at 5pm (Asia/Taipei)"
+  ],
+  "raw": ""
+}

@@ -1,0 +1,61 @@
+{
+  "label": "API Batch 361 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "Pullup Entertainment (ALPUL.PA)",
+      "Country": "France",
+      "Industry": "Platform Economy",
+      "Tier": ""
+    },
+    {
+      "Company": "Amdocs (DOX)",
+      "Country": "Israel",
+      "Industry": "Telecom Software Platform",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "Israel",
+      "Timeframe": "中長期",
+      "Sub-Sector": "5G與AI電信軟體平台",
+      "Industry": "Telecom Software Platform",
+      "Tier": "龍頭股",
+      "Company": "Amdocs (DOX)",
+      "Capital/Market Cap": "約 65.0億美元",
+      "Core Business": "專注於電信與媒體業的客戶體驗軟體（CES），提供帳單計費（Billing）、客戶關係管理（CRM）、營運與商業支撐系統（OSS/BSS）以及雲端原生遷移與管理服務。",
+      "Clients & Orders": "主要客戶為全球 Tier-1 大型電信運營商，包括 AT&T、T-Mobile、Verizon、Vodafone 及 Comcast，截至2026年第三季其12個月訂單能見度（Backlog）達 42.6億美元。",
+      "Technical Moat": "具備極高的客戶轉換成本，其計費與營運支撐系統屬於電信商的核心交易系統，且公司擁有龐大的電信專屬數據模型與深厚的產業垂直知識，並與 NVIDIA 及各大雲端巨頭深度合作 AI 優化技術。",
+      "Revenue Breakdown": "以地區劃分（2026財年前三季），北美市場佔比高達 64.7%，歐洲市場佔 16.2%，世界其他地區佔 19.1%；以服務類型劃分，託管服務（Managed Services）為核心營收支柱，佔比約 67%。",
+      "Gross Margin Profile": "2025財年 GAAP 毛利率約為 38.0%；2026財年預期 Non-GAAP 營業利益率落在 21.3% 至 21.9% 區間，而 GAAP 營業利益率因 2026 年進行 AI 組織轉型引發約 1.28億美元的重組費用而暫時稀釋至約 14.1%。",
+      "Key Competitors": "主要競爭對手包括 NEC 旗下的 Netcracker Technology、愛立信（Ericsson）的 BSS/OSS 部門、華為、甲骨文電信（Oracle Communications）以及埃森哲（Accenture）等全球系統整合商。",
+      "12M Catalysts": "未來12個月催化劑包括電信商加速將傳統帳單系統遷移至公有雲端（AWS/Azure/GCP）、全新收購的 MATRIXX 實時計費軟體在 5G SA 與 eSIM 貨幣化中的變現，以及 amdocs.ai 與 Agentic OS（aOS）生成式 AI 套件的商用推廣。",
+      "Key Investment Risks": "客戶集中度極高，營收重度依賴 AT&T 等北美電信巨頭；此外，宏觀經濟壓力導致電信運營商縮減 IT 資本支出並延長銷售週期，且 AI 組織轉型期間的高額重組費用與員工裁減恐帶來短期營運波動。",
+      "CEO & Management": "Shimie Hortig 於 2026年3月31日接任總裁兼執行長（CEO），CFO 兼 COO 則由 Tamar Rapaport-Dagim 續任，維持管理團隊的穩定性與轉型執行力。",
+      "Core Patents & IP": "採取質量並重的專利佈局策略，核心 IP 涵蓋電信帳單、即時費率計算、雲端原生編排與 eSIM 管理，並與微軟等巨頭簽有專利交叉授權協議以確保技術領先與研發防禦力。",
+      "3-Year M&A": "近三年進行多項戰略收購，包括 2026年收購 AI 銷售啟用平台 Yess.ai 與即時收費系統 MATRIXX Software（約 2億美元），2025年收購數據科學公司 Profinit，以及 2024年收購主機遷移服務商 Astadia。",
+      "CapEx & Expansion": "資本支出聚焦於研發與全球交付中心的升級，2025年9月於印度古爾岡啟用 33.3萬平方英尺的智慧校園以優化全球交付成本，並在 2026年持續加大對 Agentic OS（aOS）等生成式 AI 技術的研發投資。",
+      "Geopolitical Exposure": "總部與主要研發中心位於以色列，面臨中東地緣政治衝突與安全局勢的潛在干擾，但公司已透過在印度、北美及歐洲建立的大型全球交付網絡實現產能分散與風險稀釋。",
+      "M&A Potential": "作為買方的併購意願中等偏高，將持續物色雲端原生、AI 與電信軟體領域 do 中小型標的進行整合；但作為被併購對象的機率極低，主因是其市值達約 65億美元且與全球主要電信商有極深的業務綁定。"
+    }
+  ],
+  "failed": [],
+  "requeued": [
+    "Pullup Entertainment (ALPUL.PA)"
+  ],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 361 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "Amdocs (DOX)"
+    ],
+    "unmatched": [],
+    "rows_exported": 2322
+  }
+}

@@ -1,0 +1,186 @@
+[
+  {
+    "Company": "SBI Holdings, Inc. (8473.T)",
+    "needs_update": true,
+    "reason": "8月24日追加投資Fasset；8月28日宣布對BASE發動公開收購並簽署資本業務聯盟，同日投資印尼多資產投資平台Ajaib。應更新3-Year M&A、M&A Potential、Geopolitical Exposure及12M Catalysts。",
+    "evidence_date": "2026-08-28",
+    "source_urls": [
+      "https://www.sbigroup.co.jp/english/",
+      "https://www.sbigroup.co.jp/english/news/"
+    ]
+  },
+  {
+    "Company": "Finatext Holdings Inc. (4419.T)",
+    "needs_update": true,
+    "reason": "8月26日在保險平台Inspire正式推出AI工作流程基礎設施與MCP伺服器；8月28日與TERASS合作，把住宅貸款服務由資格診斷延伸至實際貸款提供，形成新的12M產品與商業化催化劑。",
+    "evidence_date": "2026-08-28",
+    "source_urls": [
+      "https://finatext.com/fn/news/20260826",
+      "https://finatext.com/fn/news/20260828"
+    ]
+  },
+  {
+    "Company": "NICE Information & Telecommunication Inc. (036800.KQ)",
+    "needs_update": false,
+    "reason": "8月20日的第二季IR與其後研究主要重述6月已公告的KIS Information & Communication收購及整合效益；屬既有M&A的重複資訊，未見新交易、新風險或新地緣曝險。",
+    "evidence_date": "2026-08-20",
+    "source_urls": [
+      "https://m.irgo.co.kr/LC/1791"
+    ]
+  },
+  {
+    "Company": "NICE Information Service Co., Ltd. (030190.KS)",
+    "needs_update": false,
+    "reason": "期內主要新增消息是8月27日推出寵物行動血統證明服務，與指定投資欄位關聯有限；第二季財報已於8月13日、即檢查起始日前披露，未見新M&A或重大風險。",
+    "evidence_date": "2026-08-27",
+    "source_urls": [
+      "https://www.niceinfo.co.kr/ir/press.nice",
+      "https://www.niceinfo.co.kr/ir/irbook.nice"
+    ]
+  },
+  {
+    "Company": "恒生電子 (600570.SH)",
+    "needs_update": true,
+    "reason": "新半年報顯示上半年營收同比下降約12%、第二季歸母淨利同比下降約47%，加深金融機構IT需求及轉型執行風險；同時公司規劃於年底試點經紀、資管營運及財富管理的AI原生作業場景，構成明確12M Catalyst。",
+    "evidence_date": "2026-08-26",
+    "source_urls": [
+      "https://static.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-08-26/600570_20260826_KJKN.pdf"
+    ]
+  },
+  {
+    "Company": "金證股份 (600446.SH)",
+    "needs_update": true,
+    "reason": "半年報顯示雖然歸母淨利扭虧，但扣非仍虧損約2,384萬元、經營現金流降至負10.39億元，短期借款和應收帳款明顯增加，應更新流動性及獲利品質風險；FS2.5、A8信創產品中標落地及收費模式轉向訂閱制則構成12M Catalysts。",
+    "evidence_date": "2026-08-25",
+    "source_urls": [
+      "https://static.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-08-25/600446_20260825_O36M.pdf"
+    ]
+  },
+  {
+    "Company": "富途控股 (FUTU)",
+    "needs_update": true,
+    "reason": "第二季公告新增多項實質催化劑：取得泰國Type A牌照並準備推出Moomoo Thailand、在美國推出Prediction Markets、取得香港虛擬資產融資服務批准；同季交易量創6.42兆港元紀錄，國際市場成為新增入金帳戶的主要來源，應更新12M Catalysts及Geopolitical/Regulatory Exposure。",
+    "evidence_date": "2026-08-20",
+    "source_urls": [
+      "https://ir.futuholdings.com/news-releases/news-release-details/futu-announces-second-quarter-2026-unaudited-financial-results/"
+    ]
+  },
+  {
+    "Company": "PagSeguro Digital Ltd. (PAGS)",
+    "needs_update": false,
+    "reason": "期內推出全數位私人退休金產品及聯名道路通行Tag，但未提供足以改變財務展望、競爭地位或投資論點的規模目標；屬生態系的增量產品更新，未見新M&A、重大風險或地緣曝險。",
+    "evidence_date": "2026-08-25",
+    "source_urls": [
+      "https://investors.pagbank.com/news-events/press-room-en/"
+    ]
+  },
+  {
+    "Company": "Inter & Co, Inc. (INTR)",
+    "needs_update": false,
+    "reason": "未查到自2026-08-17起足以改變12M Catalysts、Key Investment Risks、3-Year M&A、Geopolitical Exposure或M&A Potential的新公告；第二季業績發布早於檢查期間。",
+    "evidence_date": "",
+    "source_urls": [
+      "https://investors.inter.co/"
+    ]
+  },
+  {
+    "Company": "Safaricom Plc (SCOM.KE)",
+    "needs_update": false,
+    "reason": "未查到檢查期間內的新重大公司公告；Vodacom取得控制權及肯亞政府出售持股均已於6月底完成，屬起始日前既有M&A消息，期內未出現新的M-PESA擴張、監管或地緣變化。",
+    "evidence_date": "",
+    "source_urls": [
+      "https://www.safaricom.co.ke/media-center-landing/press-releases"
+    ]
+  },
+  {
+    "Company": "E-Finance for Digital and Financial Investments (EFIH.CA)",
+    "needs_update": false,
+    "reason": "公司投資人公告頁未顯示2026-08-17之後的新交易、重大策略催化劑、風險或地緣曝險變化。",
+    "evidence_date": "",
+    "source_urls": [
+      "https://investors.efinanceinvestment.com/en/news-and-disclosures"
+    ]
+  },
+  {
+    "Company": "AvenuesAI Limited (CCAVENUE.NS)",
+    "needs_update": false,
+    "reason": "起始日後主要為IEPF及股東會報紙公告；第一季業績、Rediff與AI成長計畫均在8月11日至12日已披露，期內沒有新的實質催化劑、M&A或重大風險。",
+    "evidence_date": "2026-08-26",
+    "source_urls": [
+      "https://www.avenuesai.com/media"
+    ]
+  },
+  {
+    "Company": "Paysafe Limited (PSFE)",
+    "needs_update": true,
+    "reason": "8月24日推出面向約1,900萬全球遊戲客戶的Gaming Arena，整合遊戲發現、獎勵、支付、Merchant of Record及Storefront服務，並為開發商建立新獲客通路；這代表由支付向遊戲分發與商業化平台擴張，應新增為12M Catalyst。",
+    "evidence_date": "2026-08-24",
+    "source_urls": [
+      "https://www.paysafe.com/us-en/paysafegroup/news/detail/paysafe-launches-video-gaming-arena-to-connect-publishers-with-millions-of-gamers/"
+    ]
+  },
+  {
+    "Company": "Diebold Nixdorf, Incorporated (DBD)",
+    "needs_update": false,
+    "reason": "未查到2026-08-17後的新重大公告；最新客戶ATM部署及第二季業績均在起始日前，沒有新M&A、重大風險、地緣曝險或實質12M催化劑。",
+    "evidence_date": "",
+    "source_urls": [
+      "https://investors.dieboldnixdorf.com/news-and-events/press-releases/default.aspx"
+    ]
+  },
+  {
+    "Company": "CPI Card Group Inc. (PMTS)",
+    "needs_update": false,
+    "reason": "8月26日僅宣布任命新的Chief Accounting Officer，屬例行管理職異動，不足以改變指定投資欄位；未見新交易、重大風險或成長催化劑。",
+    "evidence_date": "2026-08-26",
+    "source_urls": [
+      "https://investor.cpicardgroup.com/overview/default.aspx/1000/"
+    ]
+  },
+  {
+    "Company": "freee株式会社 (4478.T)",
+    "needs_update": false,
+    "reason": "期內消息主要為AI BPO伙伴新增成員及法規指南功能更新，均屬增量產品或通路活動，未提供重大合約、財務目標、M&A或足以改變12M投資論點的資訊。",
+    "evidence_date": "2026-08-24",
+    "source_urls": [
+      "https://corp.freee.co.jp/news/",
+      "https://corp.freee.co.jp/news/info/"
+    ]
+  },
+  {
+    "Company": "LexinFintech Holdings Ltd. (LX)",
+    "needs_update": false,
+    "reason": "8月17日僅公告將於8月31日發布第二季業績；截至檢查日尚無實際結果或新策略內容，因此不構成資料庫更新。",
+    "evidence_date": "2026-08-17",
+    "source_urls": [
+      "https://ir.lexinfintech.com/news-and-events/press-releases"
+    ]
+  },
+  {
+    "Company": "Lufax Holding Ltd (LU)",
+    "needs_update": true,
+    "reason": "第二季資料顯示公司承擔風險的貸款占比升至93.2%，90天以上逾期率由3.4%升至3.7%，上半年淨虧損擴大且取消中期股息，應更新信用及資本回報風險；另一方面消費金融新貸款同比增長27.6%，是轉型催化劑。",
+    "evidence_date": "2026-08-18",
+    "source_urls": [
+      "https://ir.lufaxholding.com/2026-08-18-Lufax-Reports-Second-Quarter-2026-Financial-Results"
+    ]
+  },
+  {
+    "Company": "Yiren Digital Ltd. (YRD)",
+    "needs_update": true,
+    "reason": "8月18日宣布已建立共用企業AI架構，並在客服、行銷、資金營運、風控及資產回收等流程投入生產使用；公司計畫將標準化能力擴展至更多AI應用垂直領域，屬新的12M商業化與營運槓桿催化劑。",
+    "evidence_date": "2026-08-18",
+    "source_urls": [
+      "https://ir.yiren.com/2026-08-18-Yiren-Digital-Upgrades-Enterprise-AI-Across-Core-Business-Functions"
+    ]
+  },
+  {
+    "Company": "Waterdrop Inc. (WDH)",
+    "needs_update": false,
+    "reason": "8月25日僅公告將於9月8日發布第二季業績，尚無財務結果、策略、M&A或重大風險資訊，因此不需更新。",
+    "evidence_date": "2026-08-25",
+    "source_urls": [
+      "https://ir.waterdrop-inc.com/News-Releases?l=100"
+    ]
+  }
+]

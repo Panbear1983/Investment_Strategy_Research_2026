@@ -1,0 +1,11 @@
+{
+  "item": {
+    "Company": "Spectris (SXS.L)",
+    "Country": "UK",
+    "Industry": "半導體檢測與精密儀器"
+  },
+  "problems": [
+    "UNLISTED: Spectris plc (SXS.L) 已於 2025 年 12 月被私募基金 KKR（Project Aurora Bidco）完成收購並私有化，隨後於倫敦證券交易所下市，目前已非公開上市公司。"
+  ],
+  "raw": "{\"unlisted\": \"Spectris plc (SXS.L) 已於 2025 年 12 月被私募基金 KKR（Project Aurora Bidco）完成收購並私有化，隨後於倫敦證券交易所下市，目前已非公開上市公司。\"}\n"
+}

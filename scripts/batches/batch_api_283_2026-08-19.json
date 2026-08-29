@@ -1,0 +1,101 @@
+{
+  "label": "Maintenance Batch 283 (maintenance, gemini)",
+  "source": "maintenance",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "Com2uS Corporation (078340.KQ)",
+      "ticker": "078340.KQ",
+      "Country": "South Korea",
+      "Tier": "潛力股",
+      "values": {
+        "Country": "South Korea",
+        "Timeframe": "中期",
+        "Sub-Sector": "行動遊戲平台",
+        "Industry": "遊戲／數位娛樂平台經濟",
+        "Tier": "潛力股",
+        "Company": "Com2uS Corporation (078340.KQ)",
+        "Capital/Market Cap": "約2,700-2,900億韓元（約合2億美元），2026年6月股價約23,500韓元，較一年前下跌約37.6%，反映主力IP老化與新作延宕的市場疑慮（估）。",
+        "Core Business": "南韓行動遊戲開發與發行商，核心資產為自研RPG系列《서머너즈워》（Summoners War）及棒球授權遊戲《MLB 9이닝스》、KBO職棒系列；另營運遊戲發行服務平台Hive，並透過集團子公司拓展XPLA區塊鏈遊戲生態圈。",
+        "Clients & Orders": "遊戲業務以C2C全球玩家為終端客戶，2025年海外市場貢獻逾70%營收，涵蓋北美、日本、歐洲、東南亞；Hive平台則對外承接第三方遊戲廠商的發行代理業務，2025年對外營收年增200%，雲端服務收入年增780.2%，第三方收入年增481.2%。",
+        "Technical Moat": "長青IP《서머너즈워》系列（Sky Arena、Chronicles、Lost Centuria、Universe）自研引擎與長期營運經驗形成護城河，累計生命週期營收已突破13億美元（Sensor Tower統計）；XPLA主網結合Tendermint與EVM模組，並取得CertiK Gold Badge與ISAE 3000認證，屬其區塊鏈基建的技術信任背書。",
+        "Revenue Breakdown": "2025年全年合併營收6,938億韓元，年增僅約0.01%（近乎持平）；RPG主力《서머너즈워》2024年營收2,858億韓元（因2023年10週年高基期，年減15.6%），仍為最大營收來源；스포츠게임（棒球系列）2025年第三季營收537億韓元、年增5.7%，為第二大現金流；Hive平台對外營收僅51億韓元但成長最快。",
+        "Gross Margin Profile": "行動遊戲業務理論毛利率高（估70-80%區間），但因Apple/Google平台抽成及IP保底分潤（MG）侵蝕，2025年全年營業利益僅24億韓元，營業利益率不到0.5%，且較2024年的61億韓元衰退60.7%，第三季更出現營業虧損145億韓元，顯示新作行銷與人力投入正壓縮實際獲利（估）。",
+        "Key Competitors": "南韓同業Netmarble、Krafton、NCSoft、Kakao Games、NHN在RPG與收集型遊戲上直接競爭；全球市場面對miHoYo（原神）、Supercell、Scopely等強勢RPG/收藏類對手；棒球題材則與Sony旗下MLB The Show系列間接競爭；XPLA區塊鏈遊戲基建則對上Sky Mavis（Ronin）、Immutable X等Web3遊戲平台。",
+        "12M Catalysts": "2026年計畫推出至少8款新作，包括改編動畫IP的回合制RPG《桃源暗鬼：緋紅地獄》，以及採用Unreal Engine 5開發、以希臘神話為背景的MMORPG《Project ES》；《서머너즈워》與棒球系列持續作為現金流支柱；XPLA生態系（EVM相容、zkXPLA擴容）搭配新Web3遊戲上線可望帶動題材性重估。",
+        "Key Investment Risks": "核心IP《서머너즈워》已進入生命週期後段，高基期效應導致年營收兩位數衰退，接棒新作能否成功仍待驗證；2025年第三季出現營業虧損，顯示新作研發與行銷投入持續侵蝕獲利，2026年扭虧壓力仍大；XPLA區塊鏈業務面臨代幣價格波動與韓美加密貨幣監管趨嚴的雙重風險（估）。",
+        "CEO & Management": "現任代表理事南在寬（남재관）具財務管理背景，2024年上任後推動成本效率化，帶動公司在多個季度維持獲利並使2025年淨利轉正；創辦人宋在俊（송재준）與李柱煥（이주환）歷任共同代表，現仍透過控股公司Com2uS Holdings掌握集團經營權（估）。",
+        "Core Patents & IP": "公司最具價值的無形資產為自研遊戲IP群，包括《서머너즈워》系列與MLB、KBO官方授權的棒球遊戲品牌；技術面則以XPLA主網的CertiK Gold Badge、ISAE 3000資安認證作為區塊鏈基建信任背書，而非傳統專利組合為主（估）。",
+        "3-Year M&A": "2023-2025年間未見大型併購案，公司策略轉向XPLA生態圈夥伴合作，如與Nefta（Web3遊戲開發服務）、Kado（Web3支付）、LayerZero（跨鏈橋接）建立技術合作；集團層面最近一次重大資本重組為2021年Gamevil與Com2uS Platform合併成立控股公司Com2uS Holdings（屬較早期事件，估）。",
+        "CapEx & Expansion": "遊戲業屬輕資產模式，資本支出主要投入新作研發人力與XPLA區塊鏈基礎設施升級（EVM相容性、zkXPLA擴容方案）；2026年研發資源明顯從既有IP延伸轉向多元類型佈局，涵蓋回合制RPG、MMORPG、收集型RPG與策略防禦等新品類（估）。",
+        "Geopolitical Exposure": "逾70%營收來自海外，需持續應對Apple／Google平台抽成政策與各國遊戲分級監管變化；中國大陸市場受遊戲版號審批限制，新作進軍時程存在不確定性；XPLA代幣業務另須留意韓國及美國加密貨幣監管趨嚴的政策風險（估）。",
+        "M&A Potential": "股價自高點回落近四成、市值僅約2,700-2,900億韓元，理論上具備價值低估的收購題材，但創辦團隊透過Com2uS控股掌握經營權，短期遭敵意併購機率低；較可能情境是公司作為收購方，透過集團對外部工作室或AI遊戲開發工具進行小型策略性投資以強化新作管線（估）。",
+        "Recent Insider Trading": "無資料 (美股限定)"
+      }
+    },
+    {
+      "Company": "Kontron AG (KTN.DE)",
+      "ticker": "KTN.DE",
+      "Country": "Germany",
+      "Tier": "隱形冠軍",
+      "values": {
+        "Country": "Germany",
+        "Timeframe": "中長期",
+        "Sub-Sector": "先進機器人",
+        "Industry": "工業物聯網與邊緣運算",
+        "Tier": "隱形冠軍",
+        "Company": "Kontron AG (KTN.DE)",
+        "Capital/Market Cap": "約 14.4 億歐元",
+        "Core Business": "提供工業物聯網（IIoT）、邊緣運算及數位化基礎設施解決方案，廣泛應用於智慧工廠、軌道交通、智慧醫療與航太國防。公司近年積極實施「軟體引導」轉型，以 susietec® 數位化工具箱及 KontronOS 系統為核心，提供高毛利軟硬整合方案。",
+        "Clients & Orders": "客戶涵蓋歐洲主要軌道交通基礎設施運營商、航太製造商與跨國工業集團，至 2026 年在手訂單達 27.5 億歐元，營收能見度極高。公司與主要大股東兼合作夥伴樺漢科技（Ennoconn）深化合作，預計釋放高達 4,000 萬歐元的業務協同效應。",
+        "Technical Moat": "核心護城河在於具備高安全合規特性的 KontronOS 工業操作系統，以及適用於航空等高監管領域的 KOSA 安全虛擬化技術。此外，結合 susietec® 及雲端設備管理平台 KontronGrid，構建起難以被單純硬體廠商替代的專有 IIoT 軟體生態體系。",
+        "Revenue Breakdown": "2025 年營收達 16.07 億歐元，以軟體與邊緣解決方案（Software & Edge Solutions）為主要獲利來源。ODM/EMS 及綠能科技（GreenTec）業務在收購 Katek 後正進行深度重組優化，以期提高利潤率。",
+        "Gross Margin Profile": "毛利率持續維持在 42% 以上的高檔水準，主要受惠於毛利較高的軟體與解決方案營收佔比不斷提升。隨着低毛利硬體製造比重逐步降低，以及對 Katek 業務重組效益的顯現，中長期營業利益率有望顯著擴張。",
+        "Key Competitors": "全球主要競爭對手包括台灣的研華科技（Advantech）、凌華科技（ADLINK）、立端科技（Lanner Electronics），以及在軍工航太嵌入式系統領域競爭的 Curtiss-Wright 與 Mercury Systems。",
+        "12M Catalysts": "未來 12 個月的催化劑包括大股東樺漢科技（Ennoconn）於 2026 年 8 月底完成 48.36% 股權收購後的軟硬體協同效應釋放。此外，綠能科技部門（GreenTec）重組的完成，以及 KontronGrid 平台訂閱制收入的加速增長，都將成為獲利成長動能。",
+        "Key Investment Risks": "面臨歐洲及德國宏觀經濟疲軟導致智慧製造及工業自動化客戶資本支出放緩的風險。同時，Katek 併購案後續的重組與文化整合進度若不如預期，短期內可能會產生高於預期的重組費用並壓低利潤率。",
+        "CEO & Management": "執行長 Hannes Niederhauser 擁有豐富的嵌入式運算背景與卓越的管理聲譽，是推動公司轉型為 IoT 軟體供應商的核心人物。財務長 Clemens Billek 則成功主導了包括 KATEK 併購案在內的多項關鍵資本運作與資產重組。",
+        "Core Patents & IP": "擁有 proprietary susietec® 邊緣運算工具箱、專為工業邊緣設備設計的強化 Linux 系統 KontronOS，以及支援虛擬化運行的航太專用 KOSA 系統專利與核心智慧財產權。",
+        "3-Year M&A": "過去三年採取「買入並構建（buy-and-build）」的擴張策略，2024 年收購電子製造與智慧能源巨頭 KATEK SE 並於 2025 年底啟動剩餘股份 squeeze-out 程序，2023 年則收購了 Telit Cinterion 的車用模組業務。",
+        "CapEx & Expansion": "研發與資本支出主要集中於邊緣 AI 運算晶片整合技術、5G/6G 工業無線通訊模組，並透過擴大在中東歐地區（CEE）極具成本效益的工程研發中心，來維持相較同業的研發成本優勢。",
+        "Geopolitical Exposure": "主要生產與客戶群位於歐美民主國家陣營，地緣政治直接風險較低；惟因產品應用於國防、鐵路與航空等關鍵性基礎設施，需隨時應對歐美政府日益嚴苛的供應鏈安全監管與資安合規審查。",
+        "M&A Potential": "公司作為工業 IoT 與高安全邊緣運算領域的優質標的，極具戰略收購價值，2026 年已被樺漢科技收購至 48.36% 股權並維持獨立營運。同時，公司在手現金充沛，未來亦不排除持續併購中小型軟體或利基技術廠商以健全生態圈。",
+        "Recent Insider Trading": "無資料 (美股限定)"
+      }
+    }
+  ],
+  "records": [
+    {
+      "12M Catalysts": "2026年下半年將迎來新作發行高峰，以定檔8月26日在韓國上線、基於UE5開發且引入AI離線成長機制的希臘神話MMORPG《Zeus: The God of Arrogance》（前稱Project ES）及改編動漫IP新作《桃源暗鬼》為核心催化劑。核心IP《魔靈召喚》（受惠於與《葬送的芙莉蓮》聯名及12週年更新）與創下季度營收與DAU新高的棒球系列（如《Com2uS Pro Baseball V26》）於2026年Q2帶動營業利潤顯著回升，持續作為穩健的現金流支柱。區塊鏈業務（原XPLA生態系）已於2025年底投票通過正式更名重塑為CONX生態系，轉向結合RWA與文化金融的基礎設施定位，並透過與Oasys合作推出Layer 2鏈持續尋求Web3題材重估。",
+      "Key Investment Risks": "儘管2026年Q2營業利潤因成本控制年增達420.7%（達72億韓元），但當季仍錄得35億韓元之淨虧損，且營收年減15%，顯示高基期與核心IP《魔靈召喚》的長尾衰退壓力依然存在。新開發與行銷投入對獲利的侵蝕雖有所緩解，但下半年新作如《Zeus: The God of Arrogance》的市場反應將直接決定其能否實現全年穩定扭虧與長期成長。區塊鏈業務在更名為CONX後，仍面臨韓國2026年8月新上路的無交易金額門檻限制之旅行法（Travel Rule）以及美國SEC最新提案「Regulation Crypto Assets」等趨嚴的合規與監管政策風險。",
+      "3-Year M&A": "2023-2026年間公司未進行大型股權併購，策略上聚焦於全球IP授權與發行合作，如2026年4月宣布取得3款日本動漫IP，以及與UTPlus簽訂MMORPG《Project V》之全球發行合約。策略性投資活動多透過旗下CRIT Ventures等創投進行小額佈局，如2025年底投資AI藝術平台「Artue」與科技新創「Offbeat」，旨在強化AI工具開發與內容生態。集團層面近年並無重大資本重組，併購及融資重心主要圍繞在CONX（原XPLA）生態圈之基礎設施與應用端技術夥伴的生態系擴展。",
+      "Geopolitical Exposure": "公司海外營收佔比逾70%，仍高度依賴全球App商店平台，需持續應對Apple與Google的抽成政策變革及各國遊戲分級與數據隱私監管。旗下Web3業務在更名為CONX後，正面臨美韓兩國8月最新發布的嚴格合規框架，如韓國對虛擬資產交易實施無交易金額門檻限制的旅行法（Travel Rule）及美國SEC對投資合約的最新提案監管。針對中國大陸等特定市場，版號審批限制與遊戲監管政策的變化仍是限制其MMORPG與IP新作進軍時程的主要地緣不確定因素。",
+      "M&A Potential": "股價於歷史低位震盪，市值回升至約3,600-3,800億韓元，雖在理論上具備低估的收購價值，但母公司Com2uS Holdings掌握絕對控制權，被惡意併購的機率極低。作為收購方的可能性較高，主要將透過策略性小額投資外部工作室或AI遊戲工具開發商，以在控制資本支出的前提下強化新作管線。此外，集團近期亦藉由出讓部分非核心轉投資股權（如Coinone等）變現，維持手頭現金流充沛，為潛在的IP收購或新Web3/AI項目投資保留財務彈性。",
+      "Company": "Com2uS Corporation (078340.KQ)"
+    },
+    {
+      "12M Catalysts": "大股東樺漢科技於 2026 年 8 月底完成收購，持股增至 48.36%，後續雙方的軟硬體協同效應釋放將是關鍵。此外，綠能科技（GreenTec）部門重組計劃預計於 2026 年第三季完成，自 2027 年起每年可望節省逾 3,000 萬歐元成本。同時，高達 27.5 億歐元的創紀錄在手訂單逐步轉化為營收，將成為未來一年的核心獲利動能。",
+      "Key Investment Risks": "面臨歐洲與德國宏觀經濟低迷導致工業客戶資本支出放緩的風險。此外，雖已於 2026 年初完成 KATEK 之少數股權擠出（squeeze-out），但其分拆出的綠能科技（GreenTec）部門因市場疲軟導致 2026 年上半年營收衰退 42.8%，其重組與裁員產生的短期一次性費用將對利潤率構成壓力。同時，為應對晶片供應挑戰而採取的庫存增建策略，亦對營運現金流造成暫時性負面影響。",
+      "3-Year M&A": "過去三年持續採取「買入並構建（buy-and-build）」的擴張策略。2023 年收購 Telit Cinterion 的車用模組業務；2024 年收購電子製造與智慧能源巨頭 KATEK SE，並於 2026 年 3 月底正式完成其剩餘少數股份的擠出程序（squeeze-out）。這有助於簡化公司治理結構並降低整合營運阻力。",
+      "Geopolitical Exposure": "主要生產與客戶群位於歐美民主國家，地緣政治直接風險低。然而，隨著 2026 年上半年航太與國防業務強勁成長 31.8%，公司需面對歐盟《網路韌性法案》（CRA）及美國國防部對於印刷電路板（PCB）產地等更趨嚴格的供應鏈安全監管與資安合規審查。為此，公司積極推廣無 ITAR 與 BAFA 限制的產品，並加強區域化製造以降低法規合規風險。",
+      "M&A Potential": "樺漢科技於 2026 年 8 月底完成強制收購並取得 48.36% 股權，但並未取得過半表決權，公司仍將維持獨立營運。儘管因應晶片供應在 2026 年上半年策略性積壓庫存，截至 6 月底公司仍保有 1.715 億歐元的充沛手頭現金。在維持高財務韌性的前提下，公司正推動 5,000 萬歐元的股份回購計劃，未來也將持續評估能與 IoT 核心生態圈產生綜效的中小型軟體與技術收購標的。",
+      "Company": "Kontron AG (KTN.DE)"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "Maintenance Batch 283 (maintenance, gemini)",
+    "updated": [
+      "Com2uS Corporation (078340.KQ)",
+      "Kontron AG (KTN.DE)"
+    ],
+    "claimed": [],
+    "unmatched": [],
+    "rows_exported": 1961
+  }
+}

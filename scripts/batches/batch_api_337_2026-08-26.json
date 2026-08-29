@@ -1,0 +1,91 @@
+{
+  "label": "API Batch 337 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "Mister Spex SE (MRX.DE)",
+      "Country": "Germany",
+      "Industry": "平台經濟",
+      "Tier": ""
+    },
+    {
+      "Company": "Henkel AG & Co. KGaA (HEN3.DE)",
+      "Country": "Germany",
+      "Industry": "先進封裝與電動車",
+      "Tier": ""
+    },
+    {
+      "Company": "Thyssenkrupp Nucera AG & Co. KGaA (NST.DE)",
+      "Country": "Germany",
+      "Industry": "綠色氫能與新能源",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "Germany",
+      "Timeframe": "中長期",
+      "Sub-Sector": "全通路眼鏡零售",
+      "Industry": "眼鏡零售與電子商務",
+      "Tier": "潛力股",
+      "Company": "Mister Spex SE (MRX.DE)",
+      "Capital/Market Cap": "約 4000萬歐元",
+      "Core Business": "以德語區為核心市場，提供結合線上虛擬試戴、合作眼鏡驗光師網絡與線下直營實體門市的全通路眼鏡零售服務，銷售品項涵蓋光學眼鏡、太陽眼鏡與隱形眼鏡。",
+      "Clients & Orders": "主要客群為注重便利性、高性價比與數位體驗的歐洲個人消費者，訂單來自線上平台與線下門市，2026年上半年淨營收為 8790萬歐元。",
+      "Technical Moat": "技術護城河主要體現在將數位 3D 虛擬試戴工具與實體店面及合作驗光師網絡無縫串聯的全通路服務生態，以及多年累積的消費者眼視光與臉型數據結構，而非排他性的專利技術。",
+      "Revenue Breakdown": "2026年上半年光學眼鏡營收約 4300萬歐元（佔49%）、太陽眼鏡營收約 2253萬歐元（佔26%）、隱形眼鏡營收約 2093萬歐元（佔24%），以德國本土市場貢獻絕大部分營收。",
+      "Gross Margin Profile": "毛利率在轉型策略下持續擴張，2025年毛利率年增580個基點至55.6%，2026年上半年進一步年增197個基點達56.9%，主因是定價紀律提升、減少促銷折扣並專注於高毛利的光學眼鏡銷售。",
+      "Key Competitors": "主要競爭對手包括德國傳統連鎖眼鏡巨頭 Fielmann Group AG、歐洲光學零售龍頭 GrandVision（隸屬 EssilorLuxottica 集團），以及 Brille24 等線上眼鏡零售平台。",
+      "12M Catalysts": "未來12個月的催化劑包括：公司於2026年中將上市板塊從 Prime Standard 轉入 General Standard 以降低合規成本，以及 2026 年全面推進的生產與物流外包（與 Rodenstock 及 Arvato 合作）帶來的營運動態效率提升與成本下降。",
+      "Key Investment Risks": "主要投資風險包括高通膨與歐洲消費疲軟導致營收持續面臨衰退壓力（2026年上半年營收衰退10%）、轉型輕資產模式期間的初期重組與外包銜接成本，以及德國本土眼鏡零售市場極度激烈的價格競爭。",
+      "CEO & Management": "執行長（CEO）為自2025年4月1起接任的 Tobias Krauss，財務長（CFO）為自2025年11月1日起接任的 Benjamin v. Schenck，兩人共同負責推進公司朝向輕資產與盈利導向轉型。",
+      "Core Patents & IP": "並未持有顯著具排他性的虛擬試戴或 3D 建模專利，核心技術多整合自第三方服務商，IP 優勢主要體現在 Mister Spex 的自有品牌商標及累積的數位用戶行為與配鏡數據庫。",
+      "3-Year M&A": "過去三年（2023-2026）無大型併購案，策略由擴張轉向重組，僅在 2025 年第三季進行選擇性資產收購，買下德國本土 4 家具盈利能力的實體眼鏡門市，以強化特定區域的零售布局。",
+      "CapEx & Expansion": "資本支出策略轉為保守與輕資產化，2025-2026年大幅縮減國際擴張，關閉奧地利、瑞典、瑞士等所有海外實體直營店，並關閉柏林 Spandau 的自有物流中心，轉而將資本集中於優化德國本土實體店與數位平台的營運。",
+      "Geopolitical Exposure": "地緣政治風險較低，其業務與供應鏈幾乎完全集中於德國與歐洲（DACH地區），但歐盟對亞洲（如中國）鏡框製造鏈的潛在關稅調整或供應鏈干擾仍可能間接影響其採購成本。",
+      "M&A Potential": "中長期具備被大型眼鏡集團（如 Fielmann 或 EssilorLuxottica）或電商平台收購的潛力，特別是其目前市值偏低（約4000萬歐元），其成熟的全通路數位資產與德國百萬級活躍會員對尋求數位轉型的傳統巨頭具有吸引力。"
+    },
+    {
+      "Country": "Germany",
+      "Timeframe": "中長期",
+      "Sub-Sector": "先進封裝與電動車",
+      "Industry": "化學黏合劑與消費品",
+      "Tier": "龍頭股",
+      "Company": "Henkel AG & Co. KGaA (HEN3.DE)",
+      "Capital/Market Cap": "約 350 億美元",
+      "Core Business": "核心業務分為黏合劑技術與消費品牌兩大板塊。黏合劑技術專注於半導體先進封裝、電動車電池及車用電子熱管理材料；消費品牌則涵蓋美髮與洗滌家事產品。",
+      "Clients & Orders": "半導體封裝客戶涵蓋日月光（ASE）、艾克爾（Amkor）等封測大廠，並深入台積電與三星電子半導體生態系。電動車與車用電子客戶包括博世（Bosch）、大陸集團（Continental）、寧德時代（CATL）、福斯汽車與特斯拉。",
+      "Technical Moat": "擁有多項專利的毛細底部填料（CUF）為大晶片及細間距先進封裝提供優異的高流動與低翹曲保護。其創新的無矽酮熱界面材料與聚氨酯結構導熱膠具備高導熱及按需解黏（debonding-on-demand）特性，支撐 cell-to-pack 電池的可拆卸與回收。",
+      "Revenue Breakdown": "黏合劑技術業務為核心支柱，佔 2025 年銷售額約 52%（約 106.67 億歐元）。消費品牌業務佔銷售額約 47%，其餘約 1% 為未分配之企業活動。",
+      "Gross Margin Profile": "2025 年集團整體毛利率約達 50.8%，調整後 EBIT 利潤率為 14.8%。其中黏合劑技術業務利潤率表現強勁達 16.7%，2026 年集團整體 EBIT 利潤率指引上調至 14.5% 到 16.0%。",
+      "Key Competitors": "半導體與車用黏合劑領域的主要競爭對手包括 3M、陶氏化學（Dow）、西卡（Sika）與富樂（H.B. Fuller）。在先進封裝材料領域，則與日商 Resonac（原昭和電工）直接競爭。",
+      "12M Catalysts": "2026 年收購的 Stahl Group 與 ATP Adhesives 開始併表貢獻營收與獲利。公司於 2026 年 8 月調升全年有機銷售成長指引至 1.5% 至 3.5%。新建的美國南達科他州 Brandon 電池材料廠區與擴建的矽谷研發應用中心產能與研發動能持續釋放。",
+      "Key Investment Risks": "原油價格波動與石化原材料（如環氧樹脂、聚氨酯）價格上漲將直接壓縮毛利率。全球消費市場疲軟可能導致消費品牌業務增長放緩。此外，歐美電動車市場需求增速放緩亦將影響車用導熱膠的出貨表現。",
+      "CEO & Management": "執行長（CEO）暨管理委員會主席為 Carsten Knobel。黏合劑技術部門執行副總裁為 Mark Dorn，而監事會主席則由 Simone Bagel-Trah 博士擔任。",
+      "Core Patents & IP": "核心專利主要覆蓋應用於 2.5D/3D 先進封裝的低黏度高填充毛細底部填充樹脂配方。此外，也包含具備按需解黏（debonding-on-demand）功能的車用電池結構導熱膠專利。",
+      "3-Year M&A": "2026 年以 21 億歐元收購荷蘭特種塗層龍頭 Stahl Group，並收購 ATP Adhesives（特種膠帶）與 Olaplex（高端美髮）。2024 年則收購了防腐保護解決方案商 Seal for Life 及沙宣（Vidal Sassoon）的大中華區業務。",
+      "CapEx & Expansion": "2026 年預計資本支出為 6.5 億至 7.5 億歐元。主要投資項目包括 2026 年啟用的杜塞道夫 4500 萬歐元物流中心，以及 2025 年底投產的美國 Brandon 電池材料廠與 2026 年 7 月擴建的矽谷研發中心。",
+      "Geopolitical Exposure": "全球供應鏈面臨關鍵航道物流受阻與空運限制的運費上漲風險。歐盟對中國去風險政策（De-risking）及中美半導體貿易制裁，亦對其在亞洲及全球晶圓封測供應鏈的材料布局帶來不確定性。",
+      "M&A Potential": "得益於強勁的自由現金流與穩健的資產負債表，公司具備充足的資金實力。未來將持續尋求高利潤的半導體材料、特種功能性塗層以及高端消費品牌的併購機會。"
+    }
+  ],
+  "failed": [],
+  "requeued": [
+    "Thyssenkrupp Nucera AG & Co. KGaA (NST.DE)"
+  ],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 337 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "Mister Spex SE (MRX.DE)",
+      "Henkel AG & Co. KGaA (HEN3.DE)"
+    ],
+    "unmatched": [],
+    "rows_exported": 2130
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "item": {
+    "Company": "家登 (3680.TW)",
+    "ticker": "3680.TW",
+    "Country": "Taiwan",
+    "Tier": "龍頭股",
+    "values": {
+      "Country": "Taiwan",
+      "Timeframe": "短期",
+      "Sub-Sector": "次奈米製程",
+      "Industry": "半導體業",
+      "Tier": "龍頭股",
+      "Company": "家登 (3680.TW)",
+      "Capital/Market Cap": "約 450 億台幣",
+      "Core Business": "研發與生產半導體前段製程極紫外光光罩傳送盒(EUV Pod)、晶圓傳送盒(FOUP)。",
+      "Clients & Orders": "台積電 (EUV Pod 絕對主力供應商)、Intel、三星、ASML，為先進製程關鍵材料商。",
+      "Technical Moat": "在 EUV Pod 領域全球市佔率高達 80-90% ，是次奈米製程(N7至N2)中防止光罩微塵污染的全球唯一標準。",
+      "Revenue Breakdown": "光罩/晶圓傳送盒(EUV Pod/FOUP) 72%、半導體機台與設備 18%、航太零組件及其他 10%。",
+      "Gross Margin Profile": "約 48-50% 區間 (受惠於 EUV Pod 專利溢價)。",
+      "Key Competitors": "Entegris (美商英特格)、信越化學",
+      "12M Catalysts": "台積電美國/日本廠先進製程投產對 EUV Pod 的大宗裝機拉貨，與自研航太零組件通過美大廠驗證。",
+      "Key Investment Risks": "ASML 新世代 EUV 光刻機出貨延遲，或美商 Entegris 提起專利侵權訴訟糾紛。",
+      "CEO & Management": "邱銘乾(董事長)作風豪爽且研發意志堅定，被譽為「光罩盒狂人」，帶領公司從模具廠成功打入台積電先進製程鏈。",
+      "Core Patents & IP": "擁有 EUV 光罩盒防靜電釋放、內部極致微顆粒控制氣流專利，以及航太級超硬精密五金加工技術。",
+      "3-Year M&A": "轉投資家登航太，大舉收購國內精密航太五金加工新創，跨足波音/空巴發動機懸掛零組件供應。",
+      "CapEx & Expansion": "斥資數十億台幣擴建新北市三峽廠與台南新化新廠，並投資建置航太專用精密生產線。",
+      "Geopolitical Exposure": "製造基地位於台灣，但已規避風險地赴美(德州)設立在地維修服務與組裝中心，貼近美系晶片巨頭。",
+      "M&A Potential": "作為先進製程最關鍵的利基材料霸主，無被收購想像，持續作為台積電大聯盟本土核心。",
+      "Recent Insider Trading": "無資料 (美股限定)"
+    }
+  },
+  "problems": [
+    "claude -p failed: You've hit your weekly limit · resets Jul 24 at 5pm (Asia/Taipei)"
+  ],
+  "raw": ""
+}

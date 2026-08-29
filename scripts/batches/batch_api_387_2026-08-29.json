@@ -1,0 +1,53 @@
+{
+  "label": "API Batch 387 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "Safaricom Plc (SCOM.KE)",
+      "Country": "Kenya",
+      "Industry": "金融科技/新興市場支付",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "Kenya",
+      "Timeframe": "中長期",
+      "Sub-Sector": "金融科技/新興市場支付",
+      "Industry": "電信及金融科技服務",
+      "Tier": "龍頭股",
+      "Company": "Safaricom Plc (SCOM.KE)",
+      "Capital/Market Cap": "約 1.47兆肯尼亞先令（約合 114億美元）",
+      "Core Business": "提供行動語音、行動數據傳輸，以及透過其指標性平台 M-PESA 提供行動支付、儲蓄、微型信貸等全方位金融科技服務，並向東非其他市場擴展。",
+      "Clients & Orders": "服務肯尼亞超過 4,400萬名個人用戶與百萬家商戶，同時在衣索比亞拓展數百萬新用戶。主要客戶群為新興市場大眾及中小企業。",
+      "Technical Moat": "擁有非洲市佔率第一的行動貨幣生態系 M-PESA，在肯尼亞具備 90% 以上的絕對市佔與極高的商戶網絡效應。結合底層電信基建，形成極高的轉移成本與競爭壁壘。",
+      "Revenue Breakdown": "以 2026 財年為例，肯尼亞服務收入中 M-PESA 佔 45.6%（達 1,827億肯尼亞先令），行動數據佔 23.2%（達 929億肯尼亞先令），語音及簡訊等通訊服務合計佔比近 31.2%。",
+      "Gross Margin Profile": "EBITDA 利潤率在 2026 財年達到 51.5%（肯尼亞本土為 56.8%）。受惠於高毛利的 M-PESA 支付與金融服務佔比增加，估計整體毛利率維持在 60% 至 65% 的高檔區間（估）。",
+      "Key Competitors": "在肯尼亞本土主要面對 Airtel Kenya 的價格競爭，在衣索比亞則面臨國有龍頭 Ethio Telecom 的強烈競爭。在跨境金融支付領域，則有 Flutterwave 與 OPay 等金融科技新星。",
+      "12M Catalysts": "衣索比亞業務的虧損預期在 2026/2027 財年顯著收斂並邁向損益兩平。此外，大股東 Vodafone 增持股權至 55% 並主導治理，有望深化全球協同效應與加速產品創新。",
+      "Key Investment Risks": "衣索比亞的地緣政治不穩定與安全風險可能影響基礎設施建設。同時，東非貨幣（肯尼亞先令與衣索比亞比爾）的貶值及外匯短缺，以及肯尼亞政府加稅，均構成營運壓力。",
+      "CEO & Management": "由 Dr. Peter Ndegwa（彼得·恩德格瓦）擔任執行長，推動公司由傳統電信商轉型為科技平台。2026年治理變更後，多數股東 Vodafone Kenya 獲得 CEO 提名權。",
+      "Core Patents & IP": "持有 M-PESA 平台的核心商標權與代理商網絡管理系統技術專利。同時擁有與各大銀行合作開發的行動微型信貸與儲蓄系統架構的軟體著作權。",
+      "3-Year M&A": "過去三年主要圍繞在衣索比亞市場的擴張，以合資財團形式取得當地電信與行動支付執照。此外，選擇性收購東非本土的中小型軟體開發與加值服務商以強化數位生態系。",
+      "CapEx & Expansion": "持續投入大額資本支出建置衣索比亞的 4G/5G 網絡以加速新用戶獲取。同時在肯尼亞進行 5G 網絡升級與光纖寬頻鋪設，以鞏固寬頻市場領先優勢。",
+      "Geopolitical Exposure": "高度暴露於東非區域地緣政治，特別是衣索比亞內部的局勢變動。這直接影響當地電信基地台等資產的安全，以及 M-PESA 在衣國的推廣速度。",
+      "M&A Potential": "未來可能透過收購東非鄰國（如坦尚尼亞、烏干達）的本土金融科技、數位媒體或物聯網（IoT）新創公司，來豐富其 M-PESA 超級 App 的生態應用。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 387 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "Safaricom Plc (SCOM.KE)"
+    ],
+    "unmatched": [],
+    "rows_exported": 2539
+  }
+}

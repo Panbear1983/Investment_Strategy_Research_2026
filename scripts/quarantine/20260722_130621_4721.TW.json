@@ -1,0 +1,36 @@
+{
+  "item": {
+    "Company": "美琪瑪 (4721.TW)",
+    "ticker": "4721.TW",
+    "Country": "Taiwan",
+    "Tier": "龍頭股",
+    "values": {
+      "Country": "Taiwan",
+      "Timeframe": "長期",
+      "Sub-Sector": "電動車",
+      "Industry": "化學工業",
+      "Tier": "龍頭股",
+      "Company": "美琪瑪 (4721.TW)",
+      "Capital/Market Cap": "約 60 億台幣",
+      "Core Business": "研發與生產電池材料前驅物(硫酸鎳、硫酸鈷)以及氧化觸媒與貴金屬回收。",
+      "Clients & Orders": "日本住友金屬 (提供特斯拉三元電池供應鏈)、歐洲動力電池製造商。",
+      "Technical Moat": "具備獨家的貴金屬化學合成與氧化觸媒回收技術，在三元電池前驅物原料純度上與康普並駕齊驅。",
+      "Revenue Breakdown": "電池材料前驅物 65%、氧化觸媒與回收 35%。",
+      "Gross Margin Profile": "約 13-16% 之間。",
+      "Key Competitors": "康普、華友鈷業",
+      "12M Catalysts": "全球車廠為符合 IRA 法案加速去中化，轉而向美琪瑪等台灣材料廠尋求長約綁定。",
+      "Key Investment Risks": "電動車正極材料走向磷酸鐵鋰(LFP)或無鈷電池，對高價硫酸鈷需求下降。",
+      "CEO & Management": "嚴勝雄(董事長)作風穩健，與日本住友建立長達二十年的緊密合資關係，營運重視風險控制與長約銷售。",
+      "Core Patents & IP": "擁有鈷/鎳觸媒循環回收再製技術專利、高能量密度三元材料前驅物配方專利。",
+      "3-Year M&A": "主要透過合資子公司「美琪瑪住商(與日本住友商事合資)」進行全球原料採購與銷售。",
+      "CapEx & Expansion": "持續小幅投資台灣觀音廠區以擴大貴金屬回收與再利用線，降低原物料採購成本。",
+      "Geopolitical Exposure": "生產部位於台灣，原料進口自歐美大礦，不受中國禁令影響，是西方電池供應鏈的安全牌。",
+      "M&A Potential": "股權集中於日本住友與創辦人家族，為利基型化學材料廠，無被敵意收購危險。",
+      "Recent Insider Trading": "無資料 (美股限定)"
+    }
+  },
+  "problems": [
+    "claude -p failed: You've hit your weekly limit · resets Jul 24 at 5pm (Asia/Taipei)"
+  ],
+  "raw": ""
+}

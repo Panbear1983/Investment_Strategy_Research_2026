@@ -1,0 +1,94 @@
+{
+  "label": "Maintenance Batch 286 (maintenance, gemini)",
+  "source": "maintenance",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "Tera Probe, Inc. (6627.T)",
+      "ticker": "6627.T",
+      "Country": "Japan",
+      "Tier": "隱形冠軍",
+      "values": {
+        "Country": "Japan",
+        "Timeframe": "中長期",
+        "Sub-Sector": "先進封裝與半導體測試",
+        "Industry": "半導體測試服務",
+        "Tier": "隱形冠軍",
+        "Company": "Tera Probe, Inc. (6627.T)",
+        "Capital/Market Cap": "約 1,120億日圓",
+        "Core Business": "提供記憶體與邏輯晶片的晶圓測試（Wafer Test）與成品測試（Final Test）服務，並提供測試技術研發的Turnkey解決方案。公司專注於高階伺服器、車載晶片及SoC等多樣化半導體的測試開發與代工。",
+        "Clients & Orders": "主要客戶包含瑞薩電子（Renesas）、索尼（Sony）、索西亞內斯特（Socionext）以及亞馬遜 AWS 旗下晶片設計商 Annapurna Labs。隨車用及 AI 伺服器需求熱絡，高階邏輯晶片測試訂單在 2025-2026 年維持強勁增長。",
+        "Technical Moat": "具備自主開發測試程式、探針卡（Probe Card）及測試板治具設計的研發能力，能在新產品研發初期協同開發。擁有 WLP（晶圓級封裝）測試及超薄晶片補強等專利技術，並具備日本九州與台灣新竹雙營運中心的彈性產能調度能力。",
+        "Revenue Breakdown": "邏輯晶片測試業務（包含 AI 伺服器晶片、車載邏輯晶片及 SoC 等）為核心營收，佔比達 92.5%；記憶體（DRAM 等）測試及其他技術開發服務則佔比約 7.5%。",
+        "Gross Margin Profile": "2025-2026 年毛利率穩定維持在約 27% 至 28% 區間，營業利益率約為 20% 至 22%。高階 AI 伺服器與車載晶片測試比重提升，優化了整體的獲利結構與高 EBITDA 利潤率。",
+        "Key Competitors": "全球主要競爭對手為日月光投控（ASE）、京元電子（KYEC）、艾克爾（Amkor）等大型 OSAT 業者；在日本本土市場則面臨アオイ電子（Aoi Electronics）等封測廠的潛在競爭。",
+        "12M Catalysts": "台灣子公司 TeraPower 投資 17.8 億新台幣購入的新竹湖口新廠預計於 2027 年初啟用，2026 年的設備進駐與客戶驗證將為營收帶來預期增長；台積電（TSMC）熊本廠產能爬坡亦將顯著拉動其九州事業所的車載測試需求。",
+        "Key Investment Risks": "全球消費性電子疲弱可能導致非 AI 的常規晶片稼動率下滑；且為應對 AI 與車載高階需求而擴大資本支出，折舊費用的增加在短期內可能壓抑毛利率擴張的斜率。",
+        "CEO & Management": "代表執行役社長為橫山毅（Tsuyoshi Yokoyama），董事會關鍵成員包含母公司台灣力成科技（PTI）董事長蔡篤恭（D.K. Tsai）及執行長謝永達（Boris Hsieh），體現日台半導體同盟的深厚背景。",
+        "Core Patents & IP": "擁有與晶圓級封裝（WLP）測試、高頻訊號測試優化、探針卡精密接點補強結構等多項核心專利，構築新進競爭對手難以跨越的技術壁壘。",
+        "3-Year M&A": "近三年無重大對外收購案，但持續獲得母公司力成科技（PTI）的集團資源整合，並透過台灣子公司 TeraPower 進行新廠及資產購入以快速擴大產能。",
+        "CapEx & Expansion": "2025 年宣布對日本九州事業所投資約 50 億日圓以擴增半導體測試產能；台灣子公司 TeraPower 於 2025-2026 年投資 17.8 億新台幣（約 87 億日圓）擴充新竹湖口廠，以因應 AI 晶片測試需求。",
+        "Geopolitical Exposure": "生產基地位於日本熊本及台灣新竹兩大全球半導體製造核心，面臨台海地緣政治風險；然而日台雙軌生產體系提供客戶高度彈性的異地備援，反成為其獨特優勢。",
+        "M&A Potential": "作為力成科技持股超過 50% 的上市子公司，未來被母公司進一步收購私有化（百分之百控股下市）或與力成集團旗下測試事業進行整併的機率較高；被第三方敵意收購的機率極低。",
+        "Recent Insider Trading": "無資料 (美股限定)"
+      }
+    },
+    {
+      "Company": "Kakaku.com, Inc. (2371.T)",
+      "ticker": "2371.T",
+      "Country": "Japan",
+      "Tier": "龍頭股",
+      "values": {
+        "Country": "Japan",
+        "Timeframe": "中長期",
+        "Sub-Sector": "生活消費與求職平台",
+        "Industry": "網路與資訊服務業",
+        "Tier": "龍頭股",
+        "Company": "Kakaku.com, Inc. (2371.T)",
+        "Capital/Market Cap": "約 7,340 億至 7,360 億日圓（約 46.5 億美元）。",
+        "Core Business": "營運日本最大的價格比較網站 Kakaku.com、知名美食評論與預訂平台 Tabelog（食べログ），以及綜合求職搜尋引擎 Kyujin Box（求人ボックス）。",
+        "Clients & Orders": "客戶包括日本本土的零售商、電商平台、餐飲店家、金融保險業者以及有招聘需求的企業與人力仲介。主要收入來源為點擊廣告費、餐廳付費訂閱及在線預約手續費、求職廣告點擊費等。",
+        "Technical Moat": "擁有龐大的使用者生成內容（UGC）數據庫，累積數百萬條真實餐廳與商品評論，形成極高競爭壁壘。具備強大的網路效應與日本市場頂尖的搜尋引擎最佳化（SEO）能力，使流量保持領先。",
+        "Revenue Breakdown": "2025會計年度總營收約 784 億日圓。其中 Tabelog 佔 42.7%（約 335 億日圓），價格比較網站 Kakaku.com 佔 30.6%（約 240 億日圓），求職服務 Kyujin Box 佔 17.0%（約 134 億日圓），其餘孵化業務佔 9.7%（約 76 億日圓）。",
+        "Gross Margin Profile": "毛利率極高（估計約 90% 以上），主因平台經濟模式的直接銷售成本極低。2025會計年度之合併營業利益率為 37.3%，反映其在行銷推廣及研發人員上的持續投入。",
+        "Key Competitors": "在美食預訂領域的主要對手為 Recruit 旗下的 Hot Pepper Gourmet 及 Retty；在求職領域則面臨 Indeed Japan 等強勁競爭；價格比較則與 Amazon Japan 及 Yahoo! Shopping 競爭。",
+        "12M Catalysts": "主要催化劑為 EQT 與 Bain Capital/LY Corp 針對該公司的私有化收購戰結果，以及維權股東 Oasis Management 對收購定價的表態。此外，Tabelog 的收費方案調整及 Kyujin Box 的變現效率提升亦為關鍵。",
+        "Key Investment Risks": "面臨私有化收購價格波動及未來可能自東京證券交易所下市的風險。此外，日本國內勞動力市場飽和可能減緩求職板塊的增長，且來自 Indeed 等國際巨頭的競爭依然激烈。",
+        "CEO & Management": "村上敦浩（Atsuhiro Murakami）於 2024 年接任社長兼執行長，主導了公司的組織重組，並積極推動 Kyujin Box 等高成長引擎的資本投入與商業化。",
+        "Core Patents & IP": "擁有 Tabelog 特有的餐廳評分防作弊算法與推薦系統專利，並持有「Tabelog」、「Kakaku.com」等在日本家喻戶曉的品牌商標權與專有資料庫技術。",
+        "3-Year M&A": "2026年成為私募股權基金爭奪私有化的標的。過去三年中，於 2025 年底收購 en Inc. 旗下 engage 求職平台多數股權以發揮求職業務協同效應，並收購 Pathee 與 LiPLUS，同時剝離 webCG 與 eiga.com 等非核心資產。",
+        "CapEx & Expansion": "資本支出主要集中於平台 IT 基礎設施升級、資料庫安全及軟體系統開發。公司同時實施積極的行銷費用支出，以擴大 Kyujin Box 的用戶基數並提升市場滲透率。",
+        "Geopolitical Exposure": "地緣政治風險極低，因業務幾乎完全集中於日本國內市場。然而，公司營運高度受日本本土宏觀經濟影響，如通膨對餐飲消費意願的衝擊，以及日本少子化與勞動力短缺對招聘市場的影響。",
+        "M&A Potential": "短期內併購潛力極高，目前正處於 EQT 與 Bain/LY Corp 聯盟的公開收購競爭中，不論收購最終由哪方勝出，該公司皆有極高的概率被私有化下市，或與買方的數位生態系進行深度整合。",
+        "Recent Insider Trading": "無資料 (美股限定)"
+      }
+    }
+  ],
+  "records": [
+    {
+      "12M Catalysts": "台灣子公司 TeraPower 新竹湖口新廠將於 2026 年進行設備進駐與客戶驗證以準備 2027 年投產，配合台積電熊本廠產能爬坡持續拉動九州事業所之車載測試需求。此外，公司於 2026 年 8 月公布上半年營業利益年增 93.8% 並調升全年業績展望，且將於 10 月實施 1 比 5 股票分割，皆為短期營運與股價流動性帶來正面催化。",
+      "Key Investment Risks": "除了消費性電子復甦緩慢導致常規晶片稼動率波動，以及為 AI 與車載高階測試擴產所產生的折舊費用在短期內壓抑毛利率外，天然災害風險仍是一大挑戰。2026 年 7 月底熊本發生規模 7.1 強震，九州事業所雖快速於三天內重啟部分生產且影響有限，但仍凸顯日本半導體聚落面臨的地震中斷風險。",
+      "3-Year M&A": "近三年內並無進行重大對外併購，主要成長重心仍為母公司力成科技（PTI）的內部資源整合。公司持續透過台灣子公司 TeraPower 購置新竹湖口廠房與生產設備，以有機成長（Organic Growth）模式快速擴大高階測試產能。",
+      "Geopolitical Exposure": "公司生產基地集中於日本熊本與台灣新竹兩大全球半導體核心聚落，面臨兩岸地緣政治緊張風險。然而，隨著日台半導體產業鏈深化安全合作，其日台雙軌生產體系提供客戶高彈性的異地備援，在供應鏈安全至上的趨勢下反成為獨特競爭優勢。",
+      "M&A Potential": "作為力成科技（PTI）持股逾 60% 的核心上市子公司，未來若進行架構重組，被母公司私有化收購下市或與力成旗下測試業務整併的機率較高。由於大股東股權集中，公司遭第三方敵意收購的機率極低。",
+      "Company": "Tera Probe, Inc. (6627.T)"
+    }
+  ],
+  "failed": [],
+  "requeued": [
+    "Kakaku.com, Inc. (2371.T)"
+  ],
+  "excluded": [],
+  "summary": {
+    "batch_label": "Maintenance Batch 286 (maintenance, gemini)",
+    "updated": [
+      "Tera Probe, Inc. (6627.T)"
+    ],
+    "claimed": [],
+    "unmatched": [],
+    "rows_exported": 1979
+  }
+}

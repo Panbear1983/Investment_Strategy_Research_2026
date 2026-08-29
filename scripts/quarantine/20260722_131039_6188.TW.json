@@ -1,0 +1,36 @@
+{
+  "item": {
+    "Company": "廣明 (6188.TW)",
+    "ticker": "6188.TW",
+    "Country": "Taiwan",
+    "Tier": "龍頭股",
+    "values": {
+      "Country": "Taiwan",
+      "Timeframe": "短期",
+      "Sub-Sector": "先進機器人",
+      "Industry": "電腦及週邊",
+      "Tier": "龍頭股",
+      "Company": "廣明 (6188.TW)",
+      "Capital/Market Cap": "約 250 億台幣",
+      "Core Business": "製造外接式硬碟、固態硬碟(SSD)及旗下達明機器人之「協作機器人(Cobot)」。",
+      "Clients & Orders": "供應全球伺服器與半導體自動化廠，其 TM Robot 為歐美日系車廠與包裝廠主要協作手臂。",
+      "Technical Moat": "其協作機器人內建「AI 智慧視覺定位」系統，無需額外加裝相機即可進行精準物料搬送與避障。",
+      "Revenue Breakdown": "儲存裝置(SSD/HDD代工) 75%、協作機器人(達明)與自動化 25%。",
+      "Gross Margin Profile": "整體毛利率約 20-22% (協作機器人高毛利 40%+ 稀釋自代工)。",
+      "Key Competitors": "Universal Robots、Fanuc、ABB",
+      "12M Catalysts": "旗下達明機器人興櫃掛牌，與結合 NVIDIA Isaac 平台的次世代 AI 協作手臂上市。",
+      "Key Investment Risks": "傳統儲存裝置代工毛利率持續受壓縮，與協作機器人面臨中國同業殺價競爭。",
+      "CEO & Management": "何美育(董事長)與管理團隊行事低調，在經歷先前惠普反壟斷天價賠償訴訟後整頓財務，重押達明機器人成功突圍。",
+      "Core Patents & IP": "擁有機器人視覺定位補償專利、手眼協調自動校正 IP，以及協作手臂防夾力道感測安全技術專利。",
+      "3-Year M&A": "與日本工業巨頭歐姆龍(Omron)結盟，由歐姆龍以策略投資入股達明機器人(持股10%)以擴大通路。",
+      "CapEx & Expansion": "擴建台灣桃園總部自動化組裝線，專注於提升機器人手臂關鍵關節組件的自製率。",
+      "Geopolitical Exposure": "為廣達集團成員，主要生產位於台灣與東南亞，受美中關稅影響小。",
+      "M&A Potential": "達明機器人獨立上市中，為廣達集團極具價值的先進機器人小金雞，無被外部併購可能。",
+      "Recent Insider Trading": "無資料 (美股限定)"
+    }
+  },
+  "problems": [
+    "claude -p failed: You've hit your weekly limit · resets Jul 24 at 5pm (Asia/Taipei)"
+  ],
+  "raw": ""
+}

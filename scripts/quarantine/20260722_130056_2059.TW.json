@@ -1,0 +1,36 @@
+{
+  "item": {
+    "Company": "川湖 (2059.TW)",
+    "ticker": "2059.TW",
+    "Country": "Taiwan",
+    "Tier": "龍頭股",
+    "values": {
+      "Country": "Taiwan",
+      "Timeframe": "短期",
+      "Sub-Sector": "AI伺服器",
+      "Industry": "其他電子業",
+      "Tier": "龍頭股",
+      "Company": "川湖 (2059.TW)",
+      "Capital/Market Cap": "約 1200 億台幣",
+      "Core Business": "設計與聲產高階伺服器導軌、工業與廚具精密鋼珠滑軌。",
+      "Clients & Orders": "NVIDIA (GB200/H100推薦導軌供應商)、微軟、Meta、Amazon。",
+      "Technical Moat": "擁有高承載、超薄型滑軌與免工具快速安裝(Tool-less)專利，良率高達 99% 以上，壟斷 AI 伺服器滑軌市場。",
+      "Revenue Breakdown": "伺服器導軌 75%、高級廚具導軌 22%、其他 3%。",
+      "Gross Margin Profile": "高達 58-62% 的極高水準 (甚至超越台積電，反映其專利溢價)。",
+      "Key Competitors": "雅博、Accuride、南俊國際",
+      "12M Catalysts": "GB200/次世代 AI 機櫃超高載重導軌出貨爆發，拉升平均售價(ASP)。",
+      "Key Investment Risks": "競爭對手削價搶單，與鋼材等原物料價格大幅上漲風險。",
+      "CEO & Management": "董事長林源川極度注重智慧財產權與研發，作風嚴謹務實，堅持「非利基不入」的高毛利戰略。",
+      "Core Patents & IP": "擁有全球超過 1,000 項伺服器導軌安全鎖定及回彈機構專利，建立無法逾越的專利防火牆。",
+      "3-Year M&A": "鮮少外部併購，完全採取高雄自有工廠有機成長與自動化擴產戰略。",
+      "CapEx & Expansion": "斥資數十億台幣擴建高雄二期智慧自動化廠房，持續提高滑軌元件自製率。",
+      "Geopolitical Exposure": "生產基地 100% 位於台灣，雖面臨兩岸政治敏感性，但其獨家專利地位使其具備強大的不可替代性。",
+      "M&A Potential": "為台灣滑軌隱形冠軍，家族股權結構穩固，無被併購想像。",
+      "Recent Insider Trading": "無資料 (美股限定)"
+    }
+  },
+  "problems": [
+    "claude -p failed: You've hit your weekly limit · resets Jul 24 at 5pm (Asia/Taipei)"
+  ],
+  "raw": ""
+}

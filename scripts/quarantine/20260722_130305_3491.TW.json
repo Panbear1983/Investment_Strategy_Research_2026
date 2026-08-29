@@ -1,0 +1,36 @@
+{
+  "item": {
+    "Company": "昇達科 (3491.TW)",
+    "ticker": "3491.TW",
+    "Country": "Taiwan",
+    "Tier": "龍頭股",
+    "values": {
+      "Country": "Taiwan",
+      "Timeframe": "短期",
+      "Sub-Sector": "低軌衛星",
+      "Industry": "通訊網路業",
+      "Tier": "龍頭股",
+      "Company": "昇達科 (3491.TW)",
+      "Capital/Market Cap": "約 150 億台幣",
+      "Core Business": "研發與生產微波、毫米波主被動元件，包括雙工器、濾波器與衛星天線組件。",
+      "Clients & Orders": "SpaceX (Starlink天線元件)、OneWeb、亞馬遜 Project Kuiper，為低軌衛星產業關鍵供應商。",
+      "Technical Moat": "在微波/毫米波濾波器設計良率上遙遙領先，且具備極佳的精密鑄造與表面處理工藝防火牆。",
+      "Revenue Breakdown": "衛星通訊元件 45%、行動通訊回傳網設備 35%、射頻天線 20%。",
+      "Gross Margin Profile": "受惠於高毛利衛星元件出貨，整體毛利率攀升至 48-52% 區間。",
+      "Key Competitors": "啟碁、芮特-KY",
+      "12M Catalysts": "Starlink 新世代衛星發射加速，與亞馬遜 Project Kuiper 地面接收站大單出貨。",
+      "Key Investment Risks": "客戶更換天線設計降低被動元件用量，與衛星寬頻普及速度慢於預期。",
+      "CEO & Management": "總經理吳東義技術背景深厚，作風「精準高階」，將資源集中於航太級微波濾波技術，成功切入全球一線航太大廠。",
+      "Core Patents & IP": "擁有雙工濾波器高頻調諧技術專利、毫米波多層微帶天線專利，以及太空級防輻射表面鍍膜製程技術。",
+      "3-Year M&A": "收購旗下芮特-KY (6514) 100% 股權完成私有化，以整合射頻天線與微波元件資源。",
+      "CapEx & Expansion": "斥資數億台幣在越南與台灣擴建衛星元件專用潔淨室與精密量測產線。",
+      "Geopolitical Exposure": "越南新廠產能開出，順利承接美系客戶去風險化訂單，降低地緣政治出貨曝險。",
+      "M&A Potential": "為利基型通訊元件精品廠，被大型航太或網通系統巨頭入股策略投資機會高。",
+      "Recent Insider Trading": "無資料 (美股限定)"
+    }
+  },
+  "problems": [
+    "claude -p failed: You've hit your weekly limit · resets Jul 24 at 5pm (Asia/Taipei)"
+  ],
+  "raw": ""
+}

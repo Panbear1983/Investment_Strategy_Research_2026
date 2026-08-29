@@ -1,0 +1,37 @@
+{
+  "label": "API Batch 269 (new, claude)",
+  "source": "new",
+  "provider": "claude",
+  "providers_used": [
+    "claude"
+  ],
+  "items": [
+    {
+      "Company": "Neways Electronics International (NEWAY.AS)",
+      "Country": "Netherlands",
+      "Industry": "電子製造服務（半導體/航太/醫療電子代工）",
+      "Tier": ""
+    },
+    {
+      "Company": "ICT Group (ICT.AS)",
+      "Country": "Netherlands",
+      "Industry": "工業自動化與嵌入式系統（先進機器人）",
+      "Tier": ""
+    },
+    {
+      "Company": "Batenburg Techniek (BATEN.AS)",
+      "Country": "Netherlands",
+      "Industry": "工業自動化與智慧元件（先進機器人）",
+      "Tier": ""
+    }
+  ],
+  "records": [],
+  "failed": [],
+  "requeued": [],
+  "excluded": [
+    "Neways Electronics International (NEWAY.AS)",
+    "ICT Group (ICT.AS)",
+    "Batenburg Techniek (BATEN.AS)"
+  ],
+  "summary": {}
+}

@@ -1,0 +1,36 @@
+{
+  "item": {
+    "Company": "藥華藥 (6446.TW)",
+    "ticker": "6446.TW",
+    "Country": "Taiwan",
+    "Tier": "龍頭股",
+    "values": {
+      "Country": "Taiwan",
+      "Timeframe": "中長期",
+      "Sub-Sector": "生技新藥",
+      "Industry": "生技醫療業",
+      "Tier": "龍頭股",
+      "Company": "藥華藥 (6446.TW)",
+      "Capital/Market Cap": "約 1500 億台幣",
+      "Core Business": "研發、生產與銷售次世代長效型干擾素新藥，用於治療真性紅血球增多症(PV)等血液疾病。",
+      "Clients & Orders": "美國與歐洲血液科醫生與醫院，新藥 Besremi (P1101) 已獲美、歐、日、台多國藥證。",
+      "Technical Moat": "掌握獨家高產率 PEG 蛋白質修飾技術(PEGylation)， Besremi 療效顯著且副作用極低，為罕藥市場咽喉。",
+      "Revenue Breakdown": "Besremi 新藥銷售 (含美國自營行銷與其他地區授權金) 100%。",
+      "Gross Margin Profile": "高達 88-90% 的醫藥級極高水準 (受惠於新藥毛利率極高)。",
+      "Key Competitors": "Incyte (Jakafi)、Roche (Pegasys)",
+      "12M Catalysts": "美國市場銷售額持續突破新高，以及 Besremi 用於骨髓纖維化新適應症進入三期臨床解盲。",
+      "Key Investment Risks": "美國保險給付覆蓋率不如預期，以及先前與歐洲代理商 AOP 的國際仲裁違約損害。",
+      "CEO & Management": "林國鐘(執行長)作風「堅韌、研發導向」，帶領公司熬過二十年研發與官司訴訟，堅持在美建立自營行銷通路。",
+      "Core Patents & IP": "擁有 Besremi (P1101) 全球分子專利、專利 PEG 修飾胜肽化學結構，及無菌針劑充填 GMP 工廠認證。",
+      "3-Year M&A": "無大型外部併購，主要以投資與台大、中研院的早期癌症/免疫大分子研發計畫為主。",
+      "CapEx & Expansion": "斥資數十億台幣擴建台中神岡生技藥廠與竹北生醫園區研發大樓，因應全球用藥需求。",
+      "Geopolitical Exposure": "藥物出口受美、歐 FDA 嚴格合規監管，生產主要在台灣，地緣局勢牽動出貨穩定性。",
+      "M&A Potential": "擁有一款全球核准的孤兒藥，為美國大型跨國藥廠(Big Pharma)極具吸引力的收購目標。",
+      "Recent Insider Trading": "無資料 (美股限定)"
+    }
+  },
+  "problems": [
+    "claude -p failed: You've hit your weekly limit · resets Jul 24 at 5pm (Asia/Taipei)"
+  ],
+  "raw": ""
+}

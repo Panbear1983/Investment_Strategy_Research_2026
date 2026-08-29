@@ -1,0 +1,11 @@
+{
+  "item": {
+    "Company": "Telesat Corporation (TSAT)",
+    "Country": "Canada",
+    "Industry": "低軌衛星"
+  },
+  "problems": [
+    "claude -p failed: You've hit your session limit · resets 7am (Asia/Taipei)"
+  ],
+  "raw": ""
+}

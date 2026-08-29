@@ -1,0 +1,61 @@
+{
+  "label": "API Batch 288 (new, claude)",
+  "source": "new",
+  "provider": "claude",
+  "providers_used": [
+    "claude"
+  ],
+  "items": [
+    {
+      "Company": "Czechoslovak Group (CSG.AS)",
+      "Country": "Netherlands",
+      "Industry": "航太/國防",
+      "Tier": ""
+    },
+    {
+      "Company": "DPA Group (DPA.AS)",
+      "Country": "Netherlands",
+      "Industry": "平台經濟",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "Netherlands",
+      "Timeframe": "中長期",
+      "Sub-Sector": "彈藥與地面防衛系統",
+      "Industry": "航太/國防",
+      "Tier": "龍頭股",
+      "Company": "Czechoslovak Group N.V. (CSG.AS)",
+      "Capital/Market Cap": "約190-200億歐元（2026/8/19股價約19.21歐元，較IPO掛牌首日高點33億歐元市值已回落逾40%；估）",
+      "Core Business": "CSG為旗下逾百家子公司組成的軍工/工業集團，核心為大中小口徑彈藥（MSM Group、ZVS holding、VOP Nováky）、輪式裝甲車與軍用卡車（Tatra Trucks、Excalibur Army），並透過2024年底以約22.3億美元收購美國The Kinetic Group（Federal、Remington、CCI、Speer品牌）及2022年入股義大利Fiocchi，跨足美規民用/軍用小口徑彈藥市場。集團亦涉足空中交通管理系統與工程服務等多元業務。",
+      "Clients & Orders": "2025年與斯洛伐克國防部簽署七年期框架協議，最高可達580億歐元的中大口徑彈藥供應，另有東南亞客戶逾10億美元戰術車輛訂單；截至2025年9月底訂單backlog達140億歐元（年增69%），客戶以歐洲/北約成員國國防部及烏克蘭軍援供應鏈為主。",
+      "Technical Moat": "集團為歐洲少數具備從硝化纖維（發射藥原料）、火藥、彈頭到整車垂直整合生產能力的軍工集團，旗下Dubnica廠為歐洲少數具備155mm大口徑彈藥最終總裝能量的工廠之一；透過收購美國Kinetic Group取得成熟民用彈藥品牌通路與產能，形成跨大西洋供應鏈綜效（估）。",
+      "Revenue Breakdown": "2025年全年營收約67.41億歐元，年增72%；彈藥業務約占總營收60%，其餘為輪式裝甲車/軍用卡車、Kinetic Group民用彈藥、工程與其他服務（估，依集團揭露結構推算）。",
+      "Gross Margin Profile": "2025年前九月調整後營業利益率約24%，優於歐洲同業平均水準；全年淨利年增35%至逾8.7億歐元，惟財務槓桿因多筆大型併購（Kinetic Group、Fiocchi）與IPO前資產重組而偏高（估）。",
+      "Key Competitors": "萊茵金屬（Rheinmetall）、KNDS（法德合資）、挪威Nammo、法國Eurenco、美國General Dynamics OTS與BAE Systems；CSG常被市場定位為「Rheinmetall替代標的」，以更高成長性與較低估值吸引投資人。",
+      "12M Catalysts": "歐盟/北約「ReArm Europe」持續加碼國防支出、斯洛伐克580億歐元框架協議分批撥款執行、Kinetic Group美國產能整合綜效顯現、可能利用IPO募得的38億歐元資金進行新一輪併購，以及2026年上半年財報是否能平息做空機構對產能真實性的質疑。",
+      "Key Investment Risks": "2026年上半年遭做空研究機構Hunterbrook Media發布報告，質疑CSG宣稱的年產63萬發大口徑彈藥產能與實際產能（估10-28萬發）落差巨大，並揭露IPO前將20-30家子公司轉移至創辦人Michal Strnad個人控股實體、留下2.75億歐元未收回應收款等關聯交易疑慮，股價曾單日重挫逾18%；此外創辦人之父Jaroslav Strnad過去與俄羅斯關係網絡的歷史淵源亦持續引發地緣政治敏感度與ESG疑慮，加上高槓桿併購負債與政府訂單集中度風險。",
+      "CEO & Management": "集團由33歲的Michal Strnad擔任董事長及控股股東（自其父Jaroslav Strnad手中接班），IPO中套現約25.5億歐元並成為捷克首富；日常營運由集團管理層與旗下各子公司（MSM Group、Tatra Trucks、Excalibur Army、Kinetic Group）專業經理人團隊負責，家族仍握有多數控制權。",
+      "Core Patents & IP": "集團未以傳統專利組合為核心競爭優勢，其護城河主要來自硝化纖維/發射藥製程know-how、Tatra獨特底盤懸吊設計專利，以及Kinetic Group旗下Federal、Remington、CCI、Speer、Alliant Powder等成熟品牌與彈藥配方工藝（估）。",
+      "3-Year M&A": "2022年收購義大利Fiocchi多數股權；2024年12月以約22.3億美元完成收購美國最大彈藥製造商The Kinetic Group（含CFIUS審查通過）；2025年10月收購工業硝化纖維商Hagedorn-NC（呼應萊茵金屬同期布局），強化發射藥原料自主供應；2026年1月於Euronext Amsterdam完成史上最大規模國防IPO，募資38億歐元作為後續併購戰爭基金。",
+      "CapEx & Expansion": "宣布Tatra軍用卡車產能擴張至斯洛伐克新廠、持續投資155mm等大口徑彈藥總裝與火藥產能提升（目標年產能63萬發，但遭做空機構質疑），並將IPO募集資金與銀行貸款/發行公司債用於歐洲及北美產能擴建（估）。",
+      "Geopolitical Exposure": "集團是俄烏戰爭後歐洲再武裝浪潮（ReArm Europe）的直接受益者，長期供應烏克蘭及北約東翼國家彈藥與裝甲車輛；惟創辦人家族過去與親俄勢力網絡的歷史關係持續遭外界檢視，美國子公司Kinetic Group則需持續接受CFIUS等美國外資審查監理，中東歐地緣風險與跨大西洋供應鏈政治敏感度並存。",
+      "M&A Potential": "作為併購方，CSG可望持續運用IPO募集的38億歐元資金整合歐洲及美國高度分散的彈藥與地面裝備供應鏈；由於Strnad家族仍握有控制性股權，短期內遭萊茵金屬、KNDS等更大型國防集團惡意收購的機率偏低，但不排除策略性少數股權投資或進一步跨大西洋整併（估）。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [
+    "DPA Group (DPA.AS)"
+  ],
+  "summary": {
+    "batch_label": "API Batch 288 (new, claude)",
+    "updated": [],
+    "claimed": [
+      "Czechoslovak Group N.V. (CSG.AS)"
+    ],
+    "unmatched": [],
+    "rows_exported": 1980
+  }
+}

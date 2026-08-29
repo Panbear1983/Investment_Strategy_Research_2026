@@ -1,0 +1,11 @@
+{
+  "item": {
+    "Company": "LG Innotek (011070.KS)",
+    "Country": "South Korea",
+    "Industry": "先進封裝"
+  },
+  "problems": [
+    "claude -p failed: You've hit your session limit · resets 7am (Asia/Taipei)"
+  ],
+  "raw": ""
+}

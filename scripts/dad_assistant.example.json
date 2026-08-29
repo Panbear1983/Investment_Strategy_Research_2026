@@ -1,0 +1,13 @@
+{
+  "bot_username": "@Panbear_Hermes_bot",
+  "fast_mode": true,
+  "language": "bilingual",
+  "model": "gpt-5.6-sol",
+  "openai_runtime": "auto",
+  "owner_telegram_id": "YOUR_TELEGRAM_ID",
+  "profile_name": "dad-investment",
+  "reasoning_effort": "low",
+  "reports_enabled": true,
+  "repo_dir": "/absolute/path/to/Investment_Strategy_Research_2026",
+  "telegram_chat_id": "DADS_NUMERIC_TELEGRAM_ID"
+}

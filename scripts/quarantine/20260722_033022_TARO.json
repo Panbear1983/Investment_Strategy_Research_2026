@@ -1,0 +1,11 @@
+{
+  "item": {
+    "Company": "Taro Pharmaceutical Industries (TARO)",
+    "Country": "Israel",
+    "Industry": "生技新藥"
+  },
+  "problems": [
+    "UNLISTED: Taro Pharmaceutical Industries，已於2024年6月24日被Sun Pharmaceutical Industries（印度）以每股43美元、總額約3.47億美元完成私有化收購，正式從紐約證交所（原代號TARO）下市，現為Sun Pharma全資子公司，無公開交易股票代號可查證"
+  ],
+  "raw": "查證確認：Taro Pharmaceutical Industries 已於2024年6月24日被印度Sun Pharma以每股43美元（總額約3.47億美元）完成私有化收購，正式從紐約證交所（NYSE: TARO）下市，並持續至2025-2026年為Sun Pharma全資子公司，無公開交易股票代號。依規則8，僅輸出以下JSON：\n\n```json\n{\"unlisted\": \"Taro Pharmaceutical Industries，已於2024年6月24日被Sun Pharmaceutical Industries（印度）以每股43美元、總額約3.47億美元完成私有化收購，正式從紐約證交所（原代號TARO）下市，現為Sun Pharma全資子公司，無公開交易股票代號可查證\"}\n```\n"
+}

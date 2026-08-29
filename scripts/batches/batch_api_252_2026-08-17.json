@@ -1,0 +1,53 @@
+{
+  "label": "API Batch 252 (new, claude)",
+  "source": "new",
+  "provider": "claude",
+  "providers_used": [
+    "claude"
+  ],
+  "items": [
+    {
+      "Company": "Sopra Steria (SOP.PA)",
+      "Country": "France",
+      "Industry": "平台經濟",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "France",
+      "Timeframe": "中期",
+      "Sub-Sector": "歐洲主權IT服務／數位轉型平台",
+      "Industry": "IT服務、系統整合與顧問諮詢（Software & IT Services）",
+      "Tier": "龍頭股",
+      "Company": "Sopra Steria Group (SOP.PA)",
+      "Capital/Market Cap": "約36億歐元（2026年8月股價約185–189歐元，流通股數約1,900萬股，估）",
+      "Core Business": "法國最大IT服務集團之一，業務涵蓋顧問諮詢、系統整合、應用開發維運（ADM）、雲端與資安服務，並透過子公司Sopra Banking Software提供銀行業套裝軟體，另有Sopra HR Software人資系統及CS Group（衛星、太空、國防電子）子公司。2025年營收56.48億歐元，法國市場占約44%為最大單一區域。",
+      "Clients & Orders": "主要客戶為歐洲政府機關、金融服務業與國防航太產業，包括法國國防部（SME准入國防市場合作）、英國政府（SSCL子公司延續逾3億英鎊的公共服務委外合約，涵蓋DWP、Defra、內政部、司法部等）、英國國防部（3億英鎊Future Service Delivery Contract）、歐洲太空總署（ESA）與EUMETSAT等。2026上半年訂單維持強勁，國防業務成長帶動全年成長目標上修。",
+      "Technical Moat": "深耕歐洲「主權雲」（sovereign cloud）與資料在地化需求，受惠於歐洲客戶對美系雲端與AI供應商的政治風險疑慮而轉向本土替代方案；旗下Sopra Banking Software為歐洲核心銀行系統的重要供應商，具高轉換成本之嵌入式客戶關係；CS Group在太空系統工程與國防電子具技術壁壘。整體而言為執行力與產業know-how型護城河，非硬體或專利型護城河。",
+      "Revenue Breakdown": "依區域：法國約44%（2025年約24.1億歐元）為最大貢獻，英國約16%，其餘為北歐、比荷盧、中歐（含波蘭、東歐近岸外包）及其他歐洲地區。依產業別：金融服務、公共部門、航太國防太空安全（Aeronautics, Defence, Space & Security）為2025年第四季至2026上半年成長最快的三大垂直領域（估）。",
+      "Gross Margin Profile": "IT服務業以「營業利潤率（operating margin on business activity）」為主要獲利指標，2025全年為9.5%（2024年為9.8%），2026上半年回升至9.6%（去年同期9.2%），全年目標維持至少9.5%；2025年自由現金流3.409億歐元，占營收6.0%，屬人力密集型輕資產商業模式，非傳統製造業毛利率結構。",
+      "Key Competitors": "Capgemini、Atos、Accenture、CGI、Tata Consultancy Services（TCS）、Cognizant、HCLTech，以及區域性主權雲/AI夥伴如OVHcloud；2026年EMEA IT服務市場中Accenture居首，TCS攀升至第三，Infosys與Sopra Steria成長率居前段班。",
+      "12M Catalysts": "（1）2026年有機營收成長目標上修至2.0–2.5%（原1.0–2.0%），H1已達4.1%成長、Q2單季有機成長5.3%；（2）Starion與Nexova收購案（太空系統工程與資安專家，年營收近1億歐元）已於2026年4月完成，強化CS Group太空/國防業務；（3）透過CIMPA完成收購Digital Product Simulation強化PLM解決方案；（4）英國國防項目（SSCL、FSDC）延遲的合約已重啟，預期2026年起挹注英國區成長；（5）歐洲「去美國化」（de-risking from US tech）需求持續推升主權雲與在地AI整合業務。",
+      "Key Investment Risks": "（1）2025年全年營收仍年減2.2%，顯示歐洲IT支出景氣循環尚未完全復甦，需觀察2026下半年能否延續回升動能；（2）2026年2月CEO Cyril Malargé閃電請辭轉任Alten執行長，新任執行長Rajesh Krishnamurthy（原Expleo總裁）於2026年2月2日上任，存在管理層交接與策略延續性風險；（3）人力密集型商業模式面臨生成式AI對傳統ADM／外包服務需求替代之壓力；（4）英國及法國公共部門預算緊縮與政府採購延宕（如先前FSDC項目延遲）可能拖累訂單認列。",
+      "CEO & Management": "執行長Rajesh Krishnamurthy自2026年2月2日起接任，擁有逾30年科技產業經驗，先前為顧問集團Expleo總裁；前任執行長Cyril Malargé任職集團逾23年後於2026年初離職轉任同業ALTEN執行長，人事異動一度引發股價短線波動。董事長仍由創辦家族相關代表出任（Sopra家族透過控股實體持有經濟利益與表決權，為法國典型家族控股上市集團治理結構，估）。",
+      "Core Patents & IP": "以軟體平台與領域know-how為主，非傳統專利密集型公司；核心智財資產為Sopra Banking Software核心銀行系統套裝軟體、Sopra HR Software人資雲平台，以及CS Group在太空地面系統與國防電子領域累積的專屬技術與軟體資產（估，無公開重大專利組合揭露）。",
+      "3-Year M&A": "2023–2026年執行多起併購擴張顧問與垂直領域能力：2025年5月收購金融服務管理顧問公司Aurexia；2025年12月宣布並於2026年4月完成收購太空系統工程與資安專家Starion及Nexova（透過CS Group子公司，年營收近1億歐元、逾700名員工、營運9國）；透過CIMPA收購Digital Product Simulation以強化PLM數位模擬解決方案；整體併購策略聚焦太空國防、金融顧問與工程模擬等高附加價值利基領域。",
+      "CapEx & Expansion": "資本支出相對輕資產，主要投入雲端基礎設施、AI/生成式AI能力建置與東歐（波蘭等）近岸交付中心擴充；持續投資主權AI夥伴關係（如與Curiosity合作發展主權工業AI），並藉由CS Group擴大太空地面系統與衛星工程產能以承接ESA/EUMETSAT等長期計畫（估）。",
+      "Geopolitical Exposure": "高度受惠於歐洲「數位主權」政策趨勢——企業與政府客戶因地緣政治風險（美中科技管制、資料主權疑慮）轉向歐洲本土IT與雲端服務供應商，Sopra Steria管理層明確指出「客戶希望有美國科技的替代方案」；同時因深度涉入法國與英國國防、太空及情報相關政府合約，屬歐洲防務自主與再武裝浪潮的直接受益者，但也使其營收對歐洲（尤其法、英）政府預算週期高度敏感。",
+      "M&A Potential": "潛力股中的整併活躍者：Sopra Steria本身為積極併購方（過去12個月完成Aurexia、Starion/Nexova、Digital Product Simulation等交易），未來可能持續透過中小型收購強化太空國防、金融科技顧問及AI整合能力；同時考量法國家族控股結構穩定、市值中型（約36億歐元），被Capgemini、Atos重組後實體或私募基金整體收購的機率偏低，較可能是產業整併中的主動買方而非被併標的（估）。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 252 (new, claude)",
+    "updated": [],
+    "claimed": [
+      "Sopra Steria Group (SOP.PA)"
+    ],
+    "unmatched": [],
+    "rows_exported": 1836
+  }
+}

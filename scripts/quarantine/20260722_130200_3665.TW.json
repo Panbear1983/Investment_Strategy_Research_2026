@@ -1,0 +1,36 @@
+{
+  "item": {
+    "Company": "貿聯-KY (3665.TW)",
+    "ticker": "3665.TW",
+    "Country": "Taiwan",
+    "Tier": "龍頭股",
+    "values": {
+      "Country": "Taiwan",
+      "Timeframe": "中長期",
+      "Sub-Sector": "電動車",
+      "Industry": "電子零組件",
+      "Tier": "龍頭股",
+      "Company": "貿聯-KY (3665.TW)",
+      "Capital/Market Cap": "約 700 億台幣",
+      "Core Business": "提供連接線束、光纖連接方案及智慧周邊配件的客製化研發與製造。",
+      "Clients & Orders": "特斯拉 (EV線束主供)、NVIDIA (AI伺服器高階線束)、Dyson、ASML。",
+      "Technical Moat": "掌握高頻高速傳輸線纜與車用極端環境線束設計，並具備全球多點即時協同開發能力。",
+      "Revenue Breakdown": "工業用連接方案 38%、車用(電動車) 22%、資訊傳輸 25%、電器 15%。",
+      "Gross Margin Profile": "維持在 25-28% 之間。",
+      "Key Competitors": "鴻海、立訊精密",
+      "12M Catalysts": "AI 伺服器內部高速傳輸線(含GB200水冷管線與高速銅線)大量拉貨。",
+      "Key Investment Risks": "特斯拉等主要車廠客戶拉貨放緩，及跨國收購整合進度不如預期。",
+      "CEO & Management": "董事長梁華哲作風開明且具國際視野，推行「一站式全球化製造服務」以滿足跨國客戶去風險需求。",
+      "Core Patents & IP": "擁有車載高壓線束連接器專利、高折彎高速傳輸線纜技術，及多項醫療儀器線束專利。",
+      "3-Year M&A": "斥資 3.5 億歐元完成收購德商 LEONI 工業應用線束事業群，大幅擴張歐洲工業與醫療市場版圖。",
+      "CapEx & Expansion": "在泰國、墨西哥、斯洛伐克及台灣多點擴建產能，配合客戶「China+1」戰略轉移。",
+      "Geopolitical Exposure": "生產布局極為分散(橫跨美、歐、亞三洲)，地緣政治產能斷鏈曝險極低。",
+      "M&A Potential": "具備豐富的國際跨國整併經驗，將持續作為買方收購歐洲利基型線束大廠。",
+      "Recent Insider Trading": "無資料 (美股限定)"
+    }
+  },
+  "problems": [
+    "claude -p failed: You've hit your weekly limit · resets Jul 24 at 5pm (Asia/Taipei)"
+  ],
+  "raw": ""
+}

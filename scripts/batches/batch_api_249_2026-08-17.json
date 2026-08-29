@@ -1,0 +1,83 @@
+{
+  "label": "API Batch 249 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "atai Life Sciences N.V. (ATAI)",
+      "Country": "Netherlands",
+      "Industry": "生技新藥",
+      "Tier": ""
+    },
+    {
+      "Company": "New Sources Energy N.V. (NSE.AS)",
+      "Country": "Netherlands",
+      "Industry": "綠能與永續發展",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "USA",
+      "Timeframe": "中長期",
+      "Sub-Sector": "生技新藥",
+      "Industry": "精神科與中樞神經系統 (CNS) 迷幻藥物與快速起效神經可塑劑研發。",
+      "Tier": "潛力股",
+      "Company": "AtaiBeckley Inc. (ATAI)",
+      "Capital/Market Cap": "約 26.8 億美元 (以 2026 年 8 月中旬股價與禮來收購協議估算)。",
+      "Core Business": "專注於開發治療難治型憂鬱症 (TRD) 等精神疾病的快速起效「神經可塑劑」與迷幻藥物。主要核心資產為鼻噴 5-MeO-DMT 候選藥物 BPL-003，以及口腔黏膜薄膜 DMT 製劑 VLS-01。",
+      "Clients & Orders": "作為研發階段的臨床生技公司，目前無商業化產品銷售，亦無傳統客戶與訂單。其營收主要依賴與學術機構或大型藥廠的研發合作、授權金，以及被禮來收購案的潛在里程碑付款。",
+      "Technical Moat": "擁有專利保護的快速起效給藥平台 (如鼻噴及口腔薄膜技術)，可將迷幻治療程縮短至 2 小時內以提高實用性。主力候選藥物 BPL-003 已獲得 FDA 突破性療法認定，在臨床法規與特定劑型技術上建立高門檻。",
+      "Revenue Breakdown": "2025 財年營收約 409 萬美元，2026 年預估在 350 萬至 450 萬美元之間。營收 100% 來自非經常性的研發合作收入及授權授權費，尚無任何產品銷售營收。",
+      "Gross Margin Profile": "由於目前尚無任何商業化產品銷售，毛利率不適用 (估為 0%)。現階段財務核心主要為研發費用 (R&D) 與行政開支，淨利潤呈現臨床開發階段的持續虧損狀態。",
+      "Key Competitors": "主要競爭對手包括同樣專注於迷幻藥物開發的 Compass Pathways (CMPS)、Cybin (CYBN) 以及 MindMed (MNMD)。",
+      "12M Catalysts": "主要催化劑包括禮來 (Eli Lilly) 以約 28 億美元收購案的交割完成 (預計 2026 年第三季完成)；核心資產 BPL-003 難治型憂鬱症 (TRD) 臨床三期試驗的啟動與進展；以及 VLS-01 預計於 2026 年下半年公佈的臨床二期數據。",
+      "Key Investment Risks": "最大風險為禮來收購案是否面臨反壟斷審查延遲或交易終止；若收購失敗，公司將獨自承擔核心資產臨床三期的高昂研發成本，且迷幻藥物面臨各國對受管制物質的嚴格監管風險。",
+      "CEO & Management": "共同創辦人暨執行長為 Srinivas Rao 博士，主導公司的研發管線戰略與被收購談判。財務長 (CFO) 為 Michael Faerm (於 2026 年 3 月上任)，負責管理財務營運與禮來收購案的財務交割。",
+      "Core Patents & IP": "在全球擁有多項已獲授權的專利，涵蓋 BPL-003 與 VLS-01 的化合物結構、特定配方和鼻噴/口腔給藥方法。核心專利保護期多數延伸至 2040 年以後，為產品上市後提供了強大的市場排他期。",
+      "3-Year M&A": "2025 年 11 月完成與 Beckley Psytech 的戰略合併以取得 BPL-003 控制權；隨後於 2026 年 7 月宣布與禮來 (Eli Lilly) 達成確定性收購協議，禮來將以約 28 億美元現金收購該公司，預計於 2026 年下半年完成交割。",
+      "CapEx & Expansion": "作為輕資產的新藥研發公司，其資本支出 (CapEx) 極小，主要資金分配於臨床委託研究 (CRO) 及製造 (CDMO) 支出。在併入禮來後，後續的 Phase 3 臨床擴展及產能建設預計將由禮來的全球資源全面支持。",
+      "Geopolitical Exposure": "主要研發及試驗地點位於美國與英國，地緣政治風險極低。主要法規風險來自美國 FDA 及英國 MHRA 等機構對受管制迷幻物質在跨國臨床試驗與進出口上的嚴格法規管控。",
+      "M&A Potential": "極高，已進入實質被收購階段。目前已與大藥廠禮來 (Eli Lilly) 達成併購協議，未來將併入禮來神經科學部門，能獲得強大的研發資金與未來商業化通路的全球資源支持。"
+    },
+    {
+      "Country": "Netherlands",
+      "Timeframe": "中長期",
+      "Sub-Sector": "地熱與再生能源投資",
+      "Industry": "綠能與永續發展",
+      "Tier": "潛力股",
+      "Company": "New Sources Energy N.V. (NSE.AS)",
+      "Capital/Market Cap": "約 500 萬歐元",
+      "Core Business": "專注於能源轉型領域的影響力投資，採用「買入並建構」（Buy and Build）策略收購、開發與管理再生能源及低碳技術資產。",
+      "Clients & Orders": "目前作為投資控股平台無直接商業客戶與訂單，但其於 2026 年擬入股的義大利地熱鑽探公司 Hydro Drilling 擁有 Eni、Edison 及 Enel 等歐洲能源巨頭客戶。",
+      "Technical Moat": "公司本身並無核心專利技術壁壘，其競爭優勢在於其精簡的上市投資平台架構、綠色融資框架，以及收購技術成熟度 TRL 8 以上之能源轉型技術的能力。",
+      "Revenue Breakdown": "2025年與2026年上半年營業收入皆為 0 歐元，目前處於重組後的投資佈局階段，未來營收將完全取決於新併購資產的併入進度。",
+      "Gross Margin Profile": "由於目前無營業收入，2025至2026年度毛利率不適用；公司現階段以管理及投資評估費用支出為主，處於淨虧損狀態。",
+      "Key Competitors": "主要競爭對手為歐洲中小型再生能源開發商、綠能私募基金與投資控股公司，例如 Fastned、Alfen 等，但 NSE 的資產與市值規模目前顯著偏小。",
+      "12M Catalysts": "預計未來 12 個月內完成對義大利地熱鑽探服務公司 Hydro Drilling S.r.l. 的股權收購，並可能啟動後續股權或債券融資以支持地熱項目開發。",
+      "Key Investment Risks": "主要風險包括目前無營收且處於淨負債狀態的流動性與融資風險、併購交易未能順利完成或整合失敗的風險，以及微型股市場流動性極低導致的股價波動風險。",
+      "CEO & Management": "執行長為 Leonard A. Vereecken，帶領公司在 2024 年完成重組後，轉向「乾淨起步」的能源轉型與地熱資產併購擴張路線。",
+      "Core Patents & IP": "公司本身目前無直接持有的核心專利（估），主要透過收購技術型企業來獲取相關智慧財產權與技術能力。",
+      "3-Year M&A": "2024年進行了徹底的內部重組以實現乾淨起步；2026年3月與義大利 Hydro Drilling 簽署地熱項目合作備忘錄，並於同年6月簽署非約束性投資意向書以認購新股方式入股該公司。",
+      "CapEx & Expansion": "近年資本支出主要用於維持上市與重組費用，未來擴張計畫將聚焦於義大利地熱項目的股權投資及潛在的歐洲、非洲綠能項目佈局。",
+      "Geopolitical Exposure": "主要資產與投資目標均位於歐洲（荷蘭及義大利），地緣政治風險較低，但其營運高度依賴歐盟及各國政府對再生能源與地熱的政策補貼與支持。",
+      "M&A Potential": "具備極高的併購潛力，其核心戰略為透過「買入並建構」模式，持續尋求收購與整合中小型能源轉型及地熱開發相關企業以實現規模效應。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 249 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "AtaiBeckley Inc. (ATAI)",
+      "New Sources Energy N.V. (NSE.AS)"
+    ],
+    "unmatched": [],
+    "rows_exported": 1818
+  }
+}

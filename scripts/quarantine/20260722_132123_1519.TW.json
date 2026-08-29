@@ -1,0 +1,36 @@
+{
+  "item": {
+    "Company": "華城 (1519.TW)",
+    "ticker": "1519.TW",
+    "Country": "Taiwan",
+    "Tier": "龍頭股",
+    "values": {
+      "Country": "Taiwan",
+      "Timeframe": "中期",
+      "Sub-Sector": "儲能方案",
+      "Industry": "電機機械業",
+      "Tier": "龍頭股",
+      "Company": "華城 (1519.TW)",
+      "Capital/Market Cap": "約 31 億台幣",
+      "Core Business": "生產電力變壓器、配電盤、特高壓變電所工程及電動車充電樁(華城電能)。",
+      "Clients & Orders": "美國地方電力公司(外銷超大型電力變壓器)、台電(強韌電網計畫)、特斯拉(充電樁工程)。",
+      "Technical Moat": "掌握超高壓變壓器製造工藝，是台灣唯一能生產 500kV 級超大型變壓器之廠商，技術良率與認證極難複製。",
+      "Revenue Breakdown": "電力變壓器外銷 62%、台電特高壓工程 28%、充電樁及其他 10%。",
+      "Gross Margin Profile": "高達 34-36% 的重電業極高水準 (受惠於美國重電缺貨溢價)。",
+      "Key Competitors": "中興電、士電、東元、西門子、ABB",
+      "12M Catalysts": "美國電網更新計畫使超大型電力變壓器訂單供不應求，訂單能見度已排至 2028 年。",
+      "Key Investment Risks": "銅價與矽鋼片等原材料大宗期貨價格暴漲，與美國重電法規在地製造保護限制。",
+      "CEO & Management": "許邦福(董事長)經營風格精準大膽，率先布局美國外銷市場，將華城由本土重電轉型為國際電網核心。",
+      "Core Patents & IP": "擁有 500kV 級防爆型電力變壓器結構專利、高密度充電樁控制軟體 IP 及多項防震電力配線技術。",
+      "3-Year M&A": "無重大外部收購，以投資旗下華城電能(充電樁營運)策略入股為主。",
+      "CapEx & Expansion": "斥資數億台幣擴建台中港廠區及中壢廠產線，添購超大型真空乾燥設備，全力提升外銷產能。",
+      "Geopolitical Exposure": "製造 100% 位於台灣，產品受地緣局勢及貨運航線影響大，但美電網去中化政策使台灣重電受惠。",
+      "M&A Potential": "台灣重電旗艦，家族控股集中，目前獲利極佳，無被併購想像。",
+      "Recent Insider Trading": "無資料 (美股限定)"
+    }
+  },
+  "problems": [
+    "claude -p failed: You've hit your weekly limit · resets Jul 24 at 5pm (Asia/Taipei)"
+  ],
+  "raw": ""
+}

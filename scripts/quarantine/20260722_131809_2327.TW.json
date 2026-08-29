@@ -1,0 +1,36 @@
+{
+  "item": {
+    "Company": "國巨 (2327.TW)",
+    "ticker": "2327.TW",
+    "Country": "Taiwan",
+    "Tier": "龍頭股",
+    "values": {
+      "Country": "Taiwan",
+      "Timeframe": "短期",
+      "Sub-Sector": "AI伺服器",
+      "Industry": "電子零組件",
+      "Tier": "龍頭股",
+      "Company": "國巨 (2327.TW)",
+      "Capital/Market Cap": "約 41 億台幣",
+      "Core Business": "生產電阻、電容、電感及各式被動元件與射頻元件。",
+      "Clients & Orders": "蘋果、NVIDIA、特斯拉、戴爾、聯想，為全球資通訊及車用產品核心零組件商。",
+      "Technical Moat": "全球第一大晶片電阻與鉭質電容製造商，擁有極佳的全球通路與定價權壁壘。",
+      "Revenue Breakdown": "磁性元件/電感 28%、MLCC 22%、電阻 15%、鉭質電容 12%、其他 23%。",
+      "Gross Margin Profile": "維持在 33-35% 的高水準。",
+      "Key Competitors": "村田製作所、太陽誘電、TDK、華新科",
+      "12M Catalysts": "高階 AI 伺服器與電動車車載高壓高容 MLCC/電阻出貨比重拉升，推升 ASP。",
+      "Key Investment Risks": "全球消費性電子景氣復甦遲緩，與成熟產品面臨陸系大廠削價搶單。",
+      "CEO & Management": "董事長陳泰銘以極為精明強悍的併購與全球整併手腕聞名，作風精準大膽。",
+      "Core Patents & IP": "擁有超小型被動元件封裝專利、高可靠度鉭電容配方專利，及多項車規/航太級特殊材料技術。",
+      "3-Year M&A": "完成收購德商賀利氏工業感測器事業部及法商施耐德高階工業感測器事業部 (Telemecanique Sensors)。",
+      "CapEx & Expansion": "投資百億台幣擴建高雄大發新廠，專攻高階車規與工控被動元件產能。",
+      "Geopolitical Exposure": "併購歐美日大廠後，全球銷售與製造管道分散，有效降低單一地緣政治風險。",
+      "M&A Potential": "為全球被動元件整併霸主，持續作為買方，無被敵意收購危險。",
+      "Recent Insider Trading": "無資料 (美股限定)"
+    }
+  },
+  "problems": [
+    "claude -p failed: You've hit your weekly limit · resets Jul 24 at 5pm (Asia/Taipei)"
+  ],
+  "raw": ""
+}

@@ -1,0 +1,36 @@
+{
+  "item": {
+    "Company": "弘塑 (3131.TW)",
+    "ticker": "3131.TW",
+    "Country": "Taiwan",
+    "Tier": "龍頭股",
+    "values": {
+      "Country": "Taiwan",
+      "Timeframe": "短期",
+      "Sub-Sector": "先進封裝",
+      "Industry": "半導體業",
+      "Tier": "龍頭股",
+      "Company": "弘塑 (3131.TW)",
+      "Capital/Market Cap": "約 380 億台幣",
+      "Core Business": "研發、設計與生產半導體濕製程建置設備(單晶圓旋轉清洗機、蝕刻機)及特用化學品。",
+      "Clients & Orders": "台積電 (CoWoS先進封裝濕製程設備核心供應商)、日月光、美光。",
+      "Technical Moat": "壟斷台積電先進封裝清洗與酸槽設備(濕製程)，良率與安全性獲長期驗證，新進對手極難取代。",
+      "Revenue Breakdown": "半導體製程設備 70%、半導體特殊化學品 22%、設備維修服務 8%。",
+      "Gross Margin Profile": "約 42-45% 區間 (高階客製化設備與化學品高利潤)。",
+      "Key Competitors": "辛耘、家登、東京威力科創",
+      "12M Catalysts": "台積電 CoWoS/SoIC 產能瘋狂擴建，其清洗設備訂單排單已排至2027年。",
+      "Key Investment Risks": "晶圓代工大廠資本支出驟減，或先進封裝製程發生重大技術變革減少清洗步驟。",
+      "CEO & Management": "詹印豐(董事長)具備深厚設備研發背景，重視「研發自主與特用化學雙軌並進」，作風精準強勢。",
+      "Core Patents & IP": "擁有單晶圓清洗流體力學專利、晶背殘留物微量蝕刻技術，以及高濃度酸鹼回收控制 IP。",
+      "3-Year M&A": "收購旗下添鴻科技(生產環保型去光阻液) 100% 股權，成功整合「設備 + 化學品」的 Turnkey 服務。",
+      "CapEx & Expansion": "斥資數億台幣在竹科與南科擴建設備組裝潔淨室，因應 CoWoS 裝裝機潮產能需求。",
+      "Geopolitical Exposure": "製造 100% 在台灣，但產品隨台積電海外建廠外銷至美、日，直接地緣政治衝擊可被海外裝機稀釋。",
+      "M&A Potential": "為台積電先進封裝大聯盟核心成員，市值適中，無被併購想像，持續作為本土設備龍頭。",
+      "Recent Insider Trading": "無資料 (美股限定)"
+    }
+  },
+  "problems": [
+    "claude -p failed: You've hit your weekly limit · resets Jul 24 at 5pm (Asia/Taipei)"
+  ],
+  "raw": ""
+}

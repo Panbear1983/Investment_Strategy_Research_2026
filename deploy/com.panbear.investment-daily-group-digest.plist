@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.panbear.investment-daily-group-digest</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>/Users/peter/GitHub/Investment_Strategy_Research_2026/scripts/run_daily_group_digest.sh</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>/Users/peter/GitHub/Investment_Strategy_Research_2026</string>
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key>
+    <integer>20</integer>
+    <key>Minute</key>
+    <integer>0</integer>
+  </dict>
+  <key>RunAtLoad</key>
+  <false/>
+  <key>StandardOutPath</key>
+  <string>/Users/peter/GitHub/Investment_Strategy_Research_2026/scripts/daily_group_digest.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/peter/GitHub/Investment_Strategy_Research_2026/scripts/daily_group_digest.error.log</string>
+</dict>
+</plist>

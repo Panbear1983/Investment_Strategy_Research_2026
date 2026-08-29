@@ -1,0 +1,36 @@
+{
+  "item": {
+    "Company": "聯亞 (3081.TW)",
+    "ticker": "3081.TW",
+    "Country": "Taiwan",
+    "Tier": "龍頭股",
+    "values": {
+      "Country": "Taiwan",
+      "Timeframe": "短期",
+      "Sub-Sector": "矽光子",
+      "Industry": "半導體業",
+      "Tier": "龍頭股",
+      "Company": "聯亞 (3081.TW)",
+      "Capital/Market Cap": "約 320 億台幣",
+      "Core Business": "提供磷化銦(InP)、砷化鎵(GaAs)與矽光子(Silicon Photonics)光電雷射晶片的磊晶代工服務。",
+      "Clients & Orders": "英特爾(Intel矽光子核心磊晶供應商)、美系資料中心巨頭、中系光通訊模組大廠。",
+      "Technical Moat": "擁有全球頂尖的有機金屬氣相磊晶(MOCVD)長晶良率與材料設計配方，為光通訊雷射源(DFB/VCSEL)源頭咽喉。",
+      "Revenue Breakdown": "矽光子光電晶圓磊晶 55%、電信網通光通訊磊晶 35%、消費性3D感測與其他 10%。",
+      "Gross Margin Profile": "約 33-38% (受高毛利矽光子佔比拉升影響)。",
+      "Key Competitors": "全新光電、英特磊IET-KY",
+      "12M Catalysts": "AI伺服器內部光纖連接(矽光子CPO技術)大爆發，美系客戶 800G/1.6T 光模組磊晶大拉貨。",
+      "Key Investment Risks": "傳統電信 5G 基站光通訊需求長期低迷，以及新代工對手切入矽光子磊晶市場。",
+      "CEO & Management": "陳建平(董事長)作風「技術導向、專注長晶」，深耕光電化合物半導體三十年，與英特爾等國際巨頭建立長達十年的戰略互信。",
+      "Core Patents & IP": "擁有磷化銦多量子井(MQW)長晶結構專利、矽基光電雷射源晶格匹配製程 IP，及專利 MOCVD 特有氣流噴嘴設計。",
+      "3-Year M&A": "無大型外部併購，完全專注於自建無塵室的長晶爐台採購與內部有機擴產。",
+      "CapEx & Expansion": "持續購置最新型 MOCVD 磊晶爐台，大舉擴增台灣南部科學園區廠房的矽光子專用磊晶產能。",
+      "Geopolitical Exposure": "廠區完全位於台灣，產品屬於高階光電戰略物資，受美中出口管制政策變動高度敏感。",
+      "M&A Potential": "為全球矽光子雷射磊晶唯一的純代工龍頭，易成為大型光通訊模組巨頭(如Coherent)或晶圓代工廠戰略併購的理想標的。",
+      "Recent Insider Trading": "無資料 (美股限定)"
+    }
+  },
+  "problems": [
+    "claude -p failed: You've hit your weekly limit · resets Jul 24 at 5pm (Asia/Taipei)"
+  ],
+  "raw": ""
+}

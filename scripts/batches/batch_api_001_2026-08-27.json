@@ -1,0 +1,83 @@
+{
+  "label": "API Batch 1 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "Yangzijiang Shipbuilding (BS6.SI)",
+      "Country": "Singapore",
+      "Industry": "航運",
+      "Tier": ""
+    },
+    {
+      "Company": "QEV Technologies N.V. (QEV.AS)",
+      "Country": "Netherlands",
+      "Industry": "電動車",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "Singapore",
+      "Timeframe": "中長期",
+      "Sub-Sector": "清潔能源船舶製造",
+      "Industry": "造船業",
+      "Tier": "龍頭股",
+      "Company": "Yangzijiang Shipbuilding (BS6.SI)",
+      "Capital/Market Cap": "約 190.5億新元",
+      "Core Business": "主要從事各式商用船舶的建造與銷售，核心產品涵蓋大型貨櫃船、散裝貨輪及多用途船，並積極拓展中大型清潔能源（如 LNG、甲醇等雙燃料）船舶，同時營運部分船舶租賃及資產管理業務。",
+      "Clients & Orders": "主要客戶為全球大型貨輪租賃商與航商，包含 Seaspan Corporation 與地中海航運（MSC）。截至 2026 年年中，在手訂單金額創下 224 億美元新高，生產排期能見度已延續至 2030 年。",
+      "Technical Moat": "具備法國 GTT 膜式圍護技術（Mark III/Mark III Flex）專利授權，是中國首家獲得大型 LNG 運輸船建造資格的民營船廠。同時以精益生產與卓越的供應鏈管控，維持高於行業平均約 5% 的成本競爭優勢。",
+      "Revenue Breakdown": "以 2026 年上半年為例，核心造船業務貢獻集團總營收的 94%（約 165 億人民幣），航運租賃業務佔比約 3.3%（約 5.85 億人民幣），其餘貿易、終端服務及其他附屬業務則佔比約 2.7%。",
+      "Gross Margin Profile": "核心造船毛利率從 2025 年的 35.1% 進一步上升至 2026 年上半年的 37.1%。這主要受益於高價訂單陸續開工結算，以及高毛利、高附加價值的綠色環保雙燃料船交付佔比持續提升。",
+      "Key Competitors": "主要競爭對手為中國船舶集團（CSSC）等國有造船旗艦、民營的新時代造船，以及韓國三大造船巨頭（HD現代重工、韓華海洋、三星重工）。",
+      "12M Catalysts": "未來 12 個月催化劑包括總投資約 30 億人民幣的「揚子紅源」綠色清潔能源船舶製造基地於 2026 年底前全面落成、2027 年首批船舶交付，以及旗下 17.5 萬立方米大型 LNG 船的關鍵建造與交付節點。",
+      "Key Investment Risks": "主要風險包括美中地緣政治升溫引發的關稅制裁或供應鏈限制、造船用鋼材等原材料價格劇烈波動，以及美元兌人民幣匯率變動對出口結算利潤與匯兌損益的衝擊。",
+      "CEO & Management": "執行主席兼執行長為任樂天（Ren Letian），擁有豐富的船舶工程研發與現代化企業管理經驗。他引領公司成功向高附加價值綠色環保船型升級，並推動數字化精益造船流程。",
+      "Core Patents & IP": "擁有雙燃料動力推進系統、LNG B型罐接地防靜電裝置、大型船體縱壁焊接等自主研發專利，並獲法國 GTT 公司在大型 LNG 運輸船圍護系統上的關鍵技術授權。",
+      "3-Year M&A": "2026 年 3 月宣布收購全球最大獨立貨櫃船租賃商 Seaspan 的母公司 Poseidon Corp 約 10% 的股權，旨在加強與核心下有用船客戶的垂直整合並深化市場情報共享。",
+      "CapEx & Expansion": "斥資約 30 億元人民幣建設佔地 1,300 畝的「揚子紅源」船廠，規劃配備 30 萬噸級乾船塢等先進生產設施，預計 2026 年底完工，每年可增加約 80 萬載重噸產能。",
+      "Geopolitical Exposure": "面臨美中地緣政治摩擦可能產生的關稅壁壘或制裁風險，公司已強化供應鏈合規審查機制，並透過客戶組合的全球化配置，以減緩單一市場政策變動的衝擊。",
+      "M&A Potential": "未來可能透過合資或少數股權投資，進一步收購綠色推進系統、智慧航行控制軟體或航運物流技術相關的上下游企業，以鞏固在低碳航運時代的生態競爭力。"
+    },
+    {
+      "Country": "Netherlands",
+      "Timeframe": "中長期",
+      "Sub-Sector": "電動車",
+      "Industry": "汽車製造與車輛工程服務",
+      "Tier": "潛力股",
+      "Company": "QEV Technologies N.V. (QEV.AS)",
+      "Capital/Market Cap": "約 1.17億歐元",
+      "Core Business": "主要從事電動商用車（旗下品牌 ZEROID，包含電動貨車與巴士）的設計研發與製造，並提供電動賽車（如 Formula E）的工程技術設計與諮詢服務。公司致力於公共交通與都市物流的去碳化轉型，提供從整車平台開發到動力系統整合的一站式解決方案。",
+      "Clients & Orders": "主要客戶包括歐洲的都市物流車隊與公共交通營運商，並與 EV Motors（Ebro 品牌母公司）合作在巴塞隆納 Decarbonisation Hub (D-Hub) 進行車輛生產。此外，與 Cenntro 合作引進 Logistar 450P 等商用電動車型以拓展歐洲市場訂單。",
+      "Technical Moat": "擁有源自 Formula E 等頂級電動賽車賽事的「賽道轉民用」關鍵技術，在電動動力總成（Powertrain）及底盤整合方面具備深厚實力。掌握自主研發的車輛控制單元（VCU）軟體算法與電池管理系統（BMS）整合技術，能提供高效率與高定製化的電動化解決方案。",
+      "Revenue Breakdown": "主要由 ZEROID 電動商用車與巴士的銷售及整車組裝收入（估約佔 65%），以及 QEV Engineering 所提供的賽車工程與技術諮詢服務服務收入（估約佔 35%）所組成。",
+      "Gross Margin Profile": "因處於產能爬坡及重組階段，硬體銷售毛利率波動較大（估約在 10% 至 15% 之間），而高附加價值的工程諮詢服務毛利率則可維持在 30% 以上的較高水準。",
+      "Key Competitors": "在電動商用車領域的主要對手包括 Cenntro、Pepper Motion、EKA Mobility 以及福特 Pro 與 Stellantis 等傳統車廠的商用車部門；在電動工程轉換與賽車工程領域則與 EV West 等專業工程諮詢公司競爭。",
+      "12M Catalysts": "主要催化劑包括巴塞隆納 D-Hub 廠區產能的進一步開出、旗下 ZEROID 品牌新車型的交付放量，以及公司在 2025 年 8 月成功完成債務重組並退出預防性破產程序後，財務結構與營運現金流的持續改善。",
+      "Key Investment Risks": "面臨高槓桿的財務壓力，雖於 2025 年完成債務重組，但若產能爬坡不如預期，仍面臨資金鏈緊張風險；此外，歐洲電動車補貼政策變化及中國供應鏈零組件進口關稅政策的不確定性，可能拉長其達損益平衡的時間。",
+      "CEO & Management": "由創辦人兼執行長 Joan Orús 領導，他擁有世界拉力錦標賽（WRC）、世界房車錦標賽（WTCC）及 Formula E 等豐富的賽車運動工程管理背景，是引領公司向商用電動車轉型的核心人物。",
+      "Core Patents & IP": "公司並未公開大量防禦性專利，核心 IP 保護主要依賴車輛控制單元（VCU）演算法、系統整合等商業機密，以及少數與電動動力總成、底盤模組化相關的專利及外觀設計（估小於 10 項）。",
+      "3-Year M&A": "最核心的交易為 2023 年 10 月與 SPAC 公司 SPEAR Investments I 完成合併並於 Euronext Amsterdam 掛牌上市；2024 年 4 月進行資產收購以取得前 Nissan 廠區（Silence 廠房相關資產）股權，近年無其他大型併購。",
+      "CapEx & Expansion": "資本支出主要集中於巴塞隆納 Zona Franca 自貿區前 Nissan 工廠的去碳化中心（D-Hub）設備升級與產能擴建，目標是與合作夥伴共同建立年產能達 18 萬輛的電動車生產基地。",
+      "Geopolitical Exposure": "高度受歐盟綠色新政及零排放區域政策影響，且西班牙當局的 PERTE（電動與聯網汽車產業重組計劃）補貼對其資本開支至關重要；此外，其底盤與電池等關鍵零組件對亞洲（尤其是中國）供應鏈有一定依賴，易受歐盟對中電動車關稅壁壘的間接衝擊。",
+      "M&A Potential": "由於其擁有稀缺的電動賽車工程研發能力與巴塞隆納 D-Hub 生產基地股權，在財務重組完成後，可能成為尋求進入歐洲市場的亞洲電動車新勢力或希望加速電動化轉型的傳統二線車廠之潛在收購或策略結盟對象（中等潛力）。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 1 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "Yangzijiang Shipbuilding (BS6.SI)",
+      "QEV Technologies N.V. (QEV.AS)"
+    ],
+    "unmatched": [],
+    "rows_exported": 2297
+  }
+}

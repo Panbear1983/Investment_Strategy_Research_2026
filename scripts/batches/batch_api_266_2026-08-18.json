@@ -1,0 +1,53 @@
+{
+  "label": "API Batch 266 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "RFHIC (218410.KQ)",
+      "Country": "South Korea",
+      "Industry": "Semiconductor (GaN RF Power)",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "South Korea",
+      "Timeframe": "中長期",
+      "Sub-Sector": "低軌衛星、防衛雷達與AI光通訊封裝",
+      "Industry": "半導體（化合物半導體與射頻元件）",
+      "Tier": "隱形冠軍",
+      "Company": "RFHIC (218410.KQ)",
+      "Capital/Market Cap": "約 1.40 兆韓元",
+      "Core Business": "專注於氮化鎵（GaN）射頻元件、電晶體、單晶微波積體電路（MMIC）及固態功率放大器（SSPA）的設計與製造。產品廣泛應用於 5G/6G 無線通訊基礎建設、國防雷達、低軌衛星通訊以及工業射頻（RF）能量系統。",
+      "Clients & Orders": "主要客戶包括三星電子（獲頒 2026 年合作夥伴日最高榮譽獎），以及韓國防衛龍頭 LIG Nex1、韓華系統（Hanwha Systems）。海外國防客戶包含雷神（Raytheon）、紳寶（Saab）和李奧納多（Leonardo），主要供應軍用雷達與通訊系統之高功率放大器。",
+      "Technical Moat": "具備先進的 GaN-on-SiC 製造工藝，並於 2017 年收購 Element Six 的 GaN-on-Diamond（鑽石基氮化鎵）核心專利與技術，導熱性能較 SiC 高出 4 倍。實現從晶片設計、封裝到多千瓦級（multi-kW）系統整合的垂直開發能力。",
+      "Revenue Breakdown": "過去以商業無線通訊基礎建設為主要收入，近年國防航太板塊已躍升為關鍵成長引擎。2025 年營收達 1,858 億韓元，且受惠於高毛利的國防外銷出貨，2026 年下半年預估銷售額可達 1,700 億韓元。",
+      "Gross Margin Profile": "2026 年第一季毛利率達到 41.2%，主要受惠於高毛利國防產品比重提升，以及子公司 RF Materials 封裝業務的獲利改善。隨著海外軍工訂單交付與高單價工業射頻發射器的推廣，整體毛利率預計維持在 40% 以上的健康水平。",
+      "Key Competitors": "全球主要競爭對手包括日本住友電工（Sumitomo Electric）、美國 Wolfspeed、Qorvo、恩智浦半導體（NXP）以及 MACOM 等化合物半導體與射頻元件大廠。",
+      "12M Catalysts": "主要催化劑包括隨 LIG Nex1 和韓華的國際防空系統合約擴大國防外銷出貨，2026 年 5 月與全球射頻通路巨頭 RFMW 簽署分銷協議以開拓新客戶，以及子公司 RF Materials 針對 AI 數據中心光通訊的泵浦雷射封裝（Pump Laser Package）及共封裝光學（CPO）組件陸續量產。",
+      "Key Investment Risks": "面臨全球 5G/6G 電信網路資本支出週期性放緩，高度依賴三星及韓國本土防衛產業之客戶集中風險，以及軍工合約開發驗證週期長、回款速度慢的挑戰。",
+      "CEO & Management": "由共同創辦人趙三烈（Samuel Cho，擔任會長兼 CTO，主導 GaN 技術研發）與趙德洙（David Cho，擔任代表理事兼 CEO，主導經營與財務）實行雙人決策經營。北美市場開拓由美國子公司執行長 Stella Bae 主導，並於 2025 年 8 月成立歐洲子公司以加速歐盟市場佈局。",
+      "Core Patents & IP": "擁有收購自 Element Six 及 Group4 Labs 的鑽石基氮化鎵（GaN-on-Diamond）全球核心專利，奠定其在超高散熱射頻晶片的專利壁壘。同時在多頻段高功率 GaN 封裝結構、射頻匹配電路及固態微波產生器領域累積了大量自主發明專利。",
+      "3-Year M&A": "2024 年完成對瑞典 GaN-on-SiC 磊晶片製造商 SweGaN AB 的策略性股權投資以鞏固上游原料供應。2026 年 4 月宣布 100% 參與子公司 RF Materials 價值 280 億韓元的增資案，以擴建 AI 數據中心光通訊組件產線。",
+      "CapEx & Expansion": "2024 年總部遷入果川知識資訊城全新大樓，以擴大國防和射頻能量業務的研發與營運規模。2026 年資本支出主力投向子公司 RF Materials 擴充泵浦雷射封裝和 CPO 的量產產能，積極分食 AI 數據中心商機。",
+      "Geopolitical Exposure": "受美中科技戰與地緣政治牽制，因華為禁令而被迫切斷以往的主力供應鏈，進而轉向以三星、美歐軍工客戶為主的業務結構。透過策略性投資歐洲磊晶片廠 SweGaN 以及配合韓國國防核心元件國產化政策，降低上游基板原料的斷鏈風險。",
+      "M&A Potential": "具備進一步收購或合資海外特定射頻設計公司、化合物半導體封測廠的潛力，以實現完整產業鏈閉環。鑑於其掌握稀缺的軍工級 GaN 功率放大器自主技術，未來亦有成為韓國大型國防集團或半導體巨頭戰略入股或併購的潛在目標。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 266 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "RFHIC (218410.KQ)"
+    ],
+    "unmatched": [],
+    "rows_exported": 1852
+  }
+}

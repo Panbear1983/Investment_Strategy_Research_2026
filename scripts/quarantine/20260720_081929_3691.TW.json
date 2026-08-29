@@ -1,0 +1,11 @@
+{
+  "item": {
+    "Company": "訊凱國際 Cooler Master (3691.TW)",
+    "Country": "Taiwan",
+    "Industry": "AI伺服器液冷散熱系統"
+  },
+  "problems": [
+    "output is not a JSON object"
+  ],
+  "raw": "查證後發現一個關鍵事實衝突，需要跟您確認後才能繼續：\n\n**訊凱國際（Cooler Master）目前並未上市/上櫃**，是私人企業，沒有台股股票代號。維基百科與台灣公司網資料顯示，訊凱國際於2013年將零售與ODM/OEM散熱事業拆分為「訊凱國際股份有限公司」與「酷碼科技股份有限公司」兩家公司，兩者皆未公開發行掛牌交易。\n\n**3691.TW（3691.TWO）實際上是「碩禾電子材料」(GigaSolar Materials)**，主業為太陽能導電漿料與鋰電池材料，另外有一項規模較小的「AI散熱管材」業務，但這家公司與訊凱國際／Cooler Master 並非同一實體。\n\n也就是說「訊凱國際 Cooler Master (3691.TW)」這個公司與代號的配對本身有誤，無法在不虛構資料的情況下產出可信的投資研究 JSON。可能的情況及選項：\n\n1. 您指的其實是**碩禾 (3691.TW/TWO)**——若如此，我可以針對碩禾的太陽能漿料主業＋AI散熱管材業務重新查證後輸出 JSON（但這與「AI伺服器液冷散熱系統」產業提示不完全吻合，因為那只是碩禾的小業務線）。\n2. 您指的其實是**訊凱國際／Cooler Master**本身——若如此，由於它未上市，我可以改用「Tier: 隱形冠軍」等方式處理，但「Capital/Market Cap」欄位無法給出真實市值，只能標註「未上市，無公開市值」或給出營收估值區間（依 CTWANT 報導約新台幣300億元營收）並註明依據。\n3. 您指的其實是另一家散熱股（例如奇鋐 3017、雙鴻 3324、健策 3653 等常見AI液冷散熱概念股），代號記錯了。\n\n請問要採用哪個選項？確認後我會重新查證並輸出完整 JSON。\n\nSources:\n- [訊凱國際 - 維基百科](https://zh.wikipedia.org/zh-tw/%E8%A8%8A%E5%87%B1%E5%9C%8B%E9%9A%9B)\n- [訊凱國際股份有限公司-台灣公司網](https://twincn.com/item.aspx?no=54272393)\n- [碩禾(3691.TWO) 基本資料 - Yahoo股市](https://tw.stock.yahoo.com/quote/3691.TWO/profile)\n- [碩禾 3691 - 簡介 - 台股 | Anue鉅亨](https://www.cnyes.com/twstock/3691/company/profile)\n- [神秘散熱王1／電競「酷媽」營收約300億隱身內湖一角 - CTWANT](https://www.ctwant.com/article/278998/)\n"
+}

@@ -1,0 +1,36 @@
+{
+  "item": {
+    "Company": "金像電 (2368.TW)",
+    "ticker": "2368.TW",
+    "Country": "Taiwan",
+    "Tier": "龍頭股",
+    "values": {
+      "Country": "Taiwan",
+      "Timeframe": "短期",
+      "Sub-Sector": "AI伺服器",
+      "Industry": "電子零組件",
+      "Tier": "龍頭股",
+      "Company": "金像電 (2368.TW)",
+      "Capital/Market Cap": "約 1100 億台幣",
+      "Core Business": "製造高多層印刷電路板(PCB)，專注於伺服器、網通交換器及高階通訊設備。",
+      "Clients & Orders": "NVIDIA (MI300/GB200 AI板核心PCB)、美系四大 CSP 巨頭，為全球伺服器 PCB 首選。",
+      "Technical Moat": "掌握 30層以上超高多層板(HDI)製程、極低訊號損耗(Ultra Low Loss)材料加工，良率顯著高於同業。",
+      "Revenue Breakdown": "伺服器 PCB 65%、網路交換器 PCB 22%、筆記型電腦與其他 13%。",
+      "Gross Margin Profile": "受惠於高層板佔比攀升，整體毛利率維持在 30-33% 的頂尖水準。",
+      "Key Competitors": "健鼎、欣興、滬士電子",
+      "12M Catalysts": "GB200 AI 伺服器主板與高速交換器專用 PCB 開始大量出貨與產能開出。",
+      "Key Investment Risks": "高頻高速覆銅板(CCL)原物料價格大幅上漲，與其他 PCB 廠大舉轉型伺服器板的競爭。",
+      "CEO & Management": "常修忠(董事長)作風「務實、專注利基」，將金像電從低毛利 PC 板徹底改造為全球高階伺服器板的絕對霸主。",
+      "Core Patents & IP": "超高多層板阻抗控制專利、內埋被動元件 PCB 製造工藝，以及高頻訊號串音抑制技術。",
+      "3-Year M&A": "無重大併購，主要以自有工廠擴產與自動化製程精進為主。",
+      "CapEx & Expansion": "大舉投資擴建台灣中壢廠高階產線，並在泰國投資建置全新高階伺服器專用 PCB 廠房。",
+      "Geopolitical Exposure": "泰國新廠於 2025/2026 投產，能有效承接美系 CSP 客戶對「非中非台」PCB 的去風險要求。",
+      "M&A Potential": "為全球伺服器 PCB 核心咽喉，無分拆計畫，大股東持股穩固，無被併購想像。",
+      "Recent Insider Trading": "無資料 (美股限定)"
+    }
+  },
+  "problems": [
+    "claude -p failed: You've hit your weekly limit · resets Jul 24 at 5pm (Asia/Taipei)"
+  ],
+  "raw": ""
+}

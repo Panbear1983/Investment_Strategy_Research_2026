@@ -1,0 +1,38 @@
+scripts/research_workflow.sqlite3
+scripts/research_workflow.sqlite3-shm
+scripts/research_workflow.sqlite3-wal
+
+# Secrets — these hold live Telegram bot tokens. The git root is the parent
+# GitHub/ directory with a public remote, so an unqualified `git add -A` from
+# there would otherwise stage working credentials into public history.
+.env
+scripts/.env
+scripts/tg_config.json
+scripts/dad_assistant.local.json
+
+# Legacy one-off scripts with hardcoded bot tokens (see update_batch_3.py:7).
+scripts/legacy/update_batch_*.py
+
+# Local run artefacts
+scripts/.research_loop.lock
+scripts/loop.log
+scripts/daily_group_digest*.log
+scripts/.botffet_usage.json
+scripts/botffet_bot.log
+
+# Private roster (family chat ids) and per-person state
+scripts/telegram_users.json
+
+# Backups, dumps and caches that accumulate beside the live files
+scripts/*.bak*
+scripts/*.leaked-*
+scripts/*.truncated-*
+scripts/loop_state.json.bak*
+scripts/research_workflow.sqlite3.bak*
+__pycache__/
+*.pyc
+.DS_Store
+.pytest_cache/
+
+# Dataset backups
+datasets/*.bak-*

@@ -1,0 +1,28 @@
+{
+  "label": "API Batch 112 (new, claude)",
+  "source": "new",
+  "provider": "claude",
+  "providers_used": [],
+  "items": [
+    {
+      "Company": "Hikma Pharmaceuticals (HIK.L)",
+      "Country": "UK",
+      "Industry": "生技新藥",
+      "Tier": ""
+    },
+    {
+      "Company": "CAE Inc (CAE)",
+      "Country": "Canada",
+      "Industry": "航太",
+      "Tier": ""
+    }
+  ],
+  "records": [],
+  "failed": [],
+  "requeued": [
+    "Hikma Pharmaceuticals (HIK.L)",
+    "CAE Inc (CAE)"
+  ],
+  "excluded": [],
+  "summary": {}
+}

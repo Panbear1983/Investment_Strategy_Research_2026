@@ -1,0 +1,36 @@
+{
+  "item": {
+    "Company": "康普 (4739.TW)",
+    "ticker": "4739.TW",
+    "Country": "Taiwan",
+    "Tier": "龍頭股",
+    "values": {
+      "Country": "Taiwan",
+      "Timeframe": "長期",
+      "Sub-Sector": "電動車",
+      "Industry": "化學工業",
+      "Tier": "龍頭股",
+      "Company": "康普 (4739.TW)",
+      "Capital/Market Cap": "約 80 億台幣",
+      "Core Business": "生產動力電池正極材料前驅物(硫酸鎳、硫酸鈷)及PTA氧化觸媒。",
+      "Clients & Orders": "日本住友金屬(Sumitomo，轉供特斯拉松下電池)、歐美日韓一線動力電池大廠。",
+      "Technical Moat": "掌握超高純度金屬結晶提純技術，能將工業金屬提煉至 99.99% 以上之車載動力電池級化學品標準。",
+      "Revenue Breakdown": "動力電池材料 62%、氧化觸媒 20%、特用化學品 18%。",
+      "Gross Margin Profile": "約 12-15% 區間 (高度受金屬原料期貨價格波動影響)。",
+      "Key Competitors": "美琪瑪、中國中偉股份",
+      "12M Catalysts": "美國 IRA 法案要求非中產電池材料，促使日系客戶擴大對台灣生產金屬化學品的拉貨。",
+      "Key Investment Risks": "鎳、鈷等國際大宗金屬價格劇烈波動，以及固態電池等新技術減少液態前驅物用量之威脅。",
+      "CEO & Management": "何基丞(董事長)作風「務實、專注材料」，積極與跨國礦商(如BHP)簽署長期原料長約，以穩固供應鏈。",
+      "Core Patents & IP": "擁有超高純度結晶硫酸鎳快速析出製程專利、廢乾電池金屬回收提純技術專利。",
+      "3-Year M&A": "無重大併購，主要以合資或參股上游金屬回收廠以取得穩定原料來源。",
+      "CapEx & Expansion": "斥資數億台幣在台灣頭份廠與頭份二廠擴建高階硫酸鎳與硫酸鈷結晶生產線。",
+      "Geopolitical Exposure": "為美系 EV 供應鏈中，極少數位於「非中國控制」的電池材料前驅物工廠，受美歐法規高度保護。",
+      "M&A Potential": "化合物特化廠，易被上游礦商或後段電池材料巨頭戰略參股以鎖定供應產能。",
+      "Recent Insider Trading": "無資料 (美股限定)"
+    }
+  },
+  "problems": [
+    "claude -p failed: You've hit your weekly limit · resets Jul 24 at 5pm (Asia/Taipei)"
+  ],
+  "raw": ""
+}

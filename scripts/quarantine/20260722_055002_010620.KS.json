@@ -1,0 +1,11 @@
+{
+  "item": {
+    "Company": "HD現代尾浦造船 HD Hyundai Mipo (010620.KS)",
+    "Country": "South Korea",
+    "Industry": "航運"
+  },
+  "problems": [
+    "claude -p failed: You've hit your session limit · resets 7am (Asia/Taipei)"
+  ],
+  "raw": ""
+}

@@ -1,0 +1,113 @@
+{
+  "label": "API Batch 365 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "AB Dynamics plc (ABDP.L)",
+      "Country": "UK",
+      "Industry": "先進機器人 / 自動駕駛與智慧車輛測試系統",
+      "Tier": ""
+    },
+    {
+      "Company": "James Fisher and Sons PLC (FSJ.L)",
+      "Country": "UK",
+      "Industry": "航運 / 特殊海事工程與船舶租賃服務",
+      "Tier": ""
+    },
+    {
+      "Company": "Trainline plc (TRN.L)",
+      "Country": "UK",
+      "Industry": "平台經濟 / 數位鐵路與巴士客運票務平台",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "UK",
+      "Timeframe": "中長期",
+      "Sub-Sector": "先進機器人",
+      "Industry": "自動駕駛與智慧車輛測試系統",
+      "Tier": "隱形冠軍",
+      "Company": "AB Dynamics plc (ABDP.L)",
+      "Capital/Market Cap": "約 1.83億英鎊",
+      "Core Business": "主要提供高精度汽車測試與模擬系統，涵蓋用於主動安全（ADAS）測試的自動化駕駛機器人、實驗室懸吊與動力學測試設備，以及 Driver-in-the-Loop 虛擬模擬軟體 rFpro。公司產品協助全球車廠與檢測機構進行自動駕駛和車輛動態性能的驗證。",
+      "Clients & Orders": "客戶群覆蓋全球前 25 大汽車製造商（OEM）、一階供應商（Tier 1）及主要的安全評估機構（如 Euro NCAP 實驗室與美國 IIHS）。近期訂單因歐洲車廠研發預算調整與新車型延遲而面臨短期逆風，但長期主動安全法規升級需求仍具支撐力。",
+      "Technical Moat": "擁有獨家的 Synchro™ 多車同步控制技術，能精確編排與控制測試軌道上的多個動態目標；其 rFpro 模擬軟體與硬體駕駛機器人的無縫整合，形成從虛擬到實體測試的黏性生態系。此外，作為 NCAP 評測的「黃金標準」設備，極高品牌信任度對新進者構成極高進入壁壘。",
+      "Revenue Breakdown": "營收主要分為三大板塊：測試產品（Testing Products，包括駕駛機器人與實驗室測試設備）貢獻約 60%-65% 的大宗營收；模擬系統（Simulation，如模擬軟體與虛擬座艙）貢獻約 20%；測試服務（Testing Services）則佔約 15%。",
+      "Gross Margin Profile": "毛利率表現優異且穩定，2024 至 2025 財年維持在約 60% 左右，2026 財年上半年（H1 26）更進一步提升至 63.7%。毛利提升得益於產品組合優化、軟體授權佔比提升，以及高毛利的測試產品出貨量增加。",
+      "Key Competitors": "在模擬與測試軟體領域的主要競爭對手為 Applied Intuition、Foretellix 與 Edge Case 等矽谷新創；在實體測試與實驗室設備領域，則與 HORIBA MIRA 等大型汽車測試工程公司在特定細分市場進行競爭。",
+      "12M Catalysts": "未來 12 個月的催化劑包括：新任集團 CFO Edward Haycock 於 2026 年底上任並推進財務策略；整合 eMpulse 與 Bolab 等新收購業務的協同效應；以及各國針對 ADAS 虛擬測試及 Euro NCAP 2030 願景新法規的逐步落地。",
+      "Key Investment Risks": "主要風險包括歐洲主要 OEM 客戶因應電動車銷量放緩而削減研發預算，導致採購週期拉長；以及 2026 財年因退出中國 VadoTech 測試服務業務而產生的 1680 萬英鎊一次性資產減值與重組費用對短期利潤的衝擊。",
+      "CEO & Management": "集團執行長（CEO）由 Sarah Matthews-DeMers 擔任（自 2025 年 12 月起由 CFO 升任）；新任財務長（CFO）Edward Haycock 預計於 2026 年 12 月正式接任；董事會主席為 Richard (Dick) Elsy。",
+      "Core Patents & IP": "核心智慧財產權包括 Synchro™ 多車同步軌道控制系統專利、rFpro 高保真虛擬場景渲染與模擬引擎、以及 Soft Car 360 與 Soft Pedestrian 360 等避障測試軟體與軟靶車的專利保護。",
+      "3-Year M&A": "近三年進行了多筆關鍵收購：2026 年 8 月以首期 1100 萬美元收購美國 eMpulse 強化動力測試產品線；2024 年 9 月收購德國 Bolab 擴展車用電子電源測試方案；2024 年 4 月收購美國 Venshure 拓展北美測試服務業務。",
+      "CapEx & Expansion": "資本支出重點用於持續開發自主駕駛機器人新產品及升級 rFpro 模擬平台；海外擴張方面，公司積極建立北美與歐洲的直銷與技術支援據點，並於 2026 財年決策關閉並退出獲利不佳的中國 VadoTech 業務以優化資本配置。",
+      "Geopolitical Exposure": "受地緣政治與中西汽車產業競爭加劇影響，公司於 2026 年決定全面退出中國的 VadoTech 測試服務業務；當前業務重心轉回歐洲與北美市場，但仍需面對全球車廠供應鏈在地化與貿易壁壘導致的物流及採購延遲挑戰。",
+      "M&A Potential": "憑藉超過 4000 萬英鎊的淨現金與強勁的自由現金流，公司將持續收購利基型模擬或檢測技術公司以豐富產品線；同時，作為自動駕駛測試領域的龍頭，公司亦是 Keysight、Emerson 等大型量測設備巨頭潛在的併購目標。"
+    },
+    {
+      "Country": "UK",
+      "Timeframe": "中長期",
+      "Sub-Sector": "特殊海事工程與特種船舶租賃",
+      "Industry": "航運與海事工程服務",
+      "Tier": "隱形冠軍",
+      "Company": "James Fisher and Sons PLC (FSJ.L)",
+      "Capital/Market Cap": "約 2.3億英鎊",
+      "Core Business": "主要營運分為能源（提供離岸風電與油氣開發之海底開挖與維護）、國防（JFD 品牌的全球潛艦救援與潛水系統）及海事運輸（沿海航運與船對船傳輸）三大部門。",
+      "Clients & Orders": "客戶包括英國國防部及多國海軍（如澳洲、波蘭海軍）的潛艦救援長期服務合約。公司於 2026 年 7 月與 Aquaterra Energy 建立全球除役合作關係，離岸風電維護合約穩健。",
+      "Technical Moat": "擁有全球領先的專利海底大流量開挖技術（MFE）與潛艦救援對接系統。研發出 'Stealth' 多功能再呼吸器與戰術潛水載具升級，在深海救援與離岸風電海底施工技術具高壁壘。",
+      "Revenue Breakdown": "2025 年營收為 3.944 億英鎊，核心營收主要均勻分布於能源服務（離岸工程）、國防海事（JFD 裝備）及海事運輸（油輪與船對船服務）三大領域。",
+      "Gross Margin Profile": "2025 年毛利率約為 32.55%（毛利達 1.284 億英鎊）。受惠於業務精簡與非核心資產剝離，基礎營運利潤率從 2024 年的 5.1% 顯著提升至 2025 年的 7.6%，朝中期的 10% 目標邁進。",
+      "Key Competitors": "主要競爭對手包括荷蘭海洋調查與工程巨頭 Fugro（輝固）、挪威海事服務商 DOF Group，以及航運與海事諮詢商 Braemar 和 Ocean Wilsons。",
+      "12M Catalysts": "包括持續出售非核心資產以實現進一步去槓桿、JFD 潛艦救援合約的順利續約與交付。同時，離岸風電運維船隊的需求回暖與 2026/2027 年新租賃船舶的交付啟用也是關鍵驅動力。",
+      "Key Investment Risks": "面臨地緣政治變動對國防預算的潛在刪減影響、離岸風電項目延期風險，以及轉型重組計劃的執行不確定性。此外，歷史債務負擔雖降低但仍需維持嚴格的資本紀律。",
+      "CEO & Management": "執行長 Jean Vernet 自 2022 年上任並主導重組，財務長為 Karen Hayzen-Smith。2026 年 3 月進行管理層調動，指派 Rob Hales 主管海事運輸，Richard Devlin 主管國防部門。",
+      "Core Patents & IP": "持有 GB2459700A 等海底大流量開挖（MFE）專利，並擁有 X-Subsea 專利開挖工具船隊。具備多用途救援潛水鐘（MRDB）等防務潛水系統之專利未決（Patent Pending）核心技術。",
+      "3-Year M&A": "2024 年 3 月以 9,000 萬英鎊出售非核心的 RMSpumptools 以減債。隨後陸續出售 Martek 業務、關閉中東與非洲的低效 IRM（檢測與維護）業務，將資金回流核心領域。",
+      "CapEx & Expansion": "2026 年預計資本支出為 3,000 萬至 3,500 萬英鎊，重點投資於 JFD 的 'Stealth' 呼吸器等新產品開發。同時透過 2,500 萬美元的使用權資產租賃在 2026-2027 年更新油輪船隊。",
+      "Geopolitical Exposure": "國防合約高度依賴英國國防部及北約盟國的潛艦安全預算。此外，在全球航道與地緣敏感海域進行船對船原油傳輸，受全球紅海危機與海事法規變更的潛在波及。",
+      "M&A Potential": "隨著業務精簡、淨負債降至約 5,440 萬英鎊且財務結構趨於穩定，使公司財務體質更為健全。加之當前市值約 2.3 億英鎊且具備國防海事獨占壁壘，使其極易被私募股權基金或大型海事集團列為收購目標。"
+    },
+    {
+      "Country": "UK",
+      "Timeframe": "中長期",
+      "Sub-Sector": "數位客運票務平台",
+      "Industry": "平台經濟與數位鐵路巴士客運票務",
+      "Tier": "龍頭股",
+      "Company": "Trainline plc (TRN.L)",
+      "Capital/Market Cap": "約 7.2億英鎊",
+      "Core Business": "主要提供鐵路與巴士客運的數位票務零售及分銷服務，旗下整合了歐洲45國、超過270家客運與鐵路業者。除了面向消費者的B2C票務App與網站，亦透過 Trainline Solutions 為企業客戶提供白牌票務系統與SaaS解決方案。",
+      "Clients & Orders": "主要客群為英國及歐洲的商務與休閒旅客，在2026財年創造了約2,700萬名活躍用戶與高App下載量。2026財年（截至2026年2月底）的淨票務銷售額達63億英鎊，年增7%，訂單量持續穩步成長。",
+      "Technical Moat": "核心護城河為自主研發的『Platform One』全球科技引擎，能高度整合極其複雜的各國鐵路底層數據與API。此外，憑藉歐洲下載量最大的鐵路App累積之龐大用戶基數，形成強大的雙邊網路效應，並透過即時車次預測、AI 乘車助理等功能提升用戶黏著度。",
+      "Revenue Breakdown": "2026財年總營收為4.53億英鎊（年增2%），主要由三大部分構成。其中英國消費者業務營收為2.04億英鎊，國際消費者業務為6,000萬英鎊，而 Trainline Solutions 解決方案業務則達1.89億英鎊。",
+      "Gross Margin Profile": "毛利率表現極佳，維持在約 82.6% 的高水平，反映出平台經濟輕資產與高經營槓桿的特點。2026財年調整後 EBITDA 成長11%至1.77億英鎊，有效抵消了英國佣金率下調（從5.0%降至4.5%）的衝擊。",
+      "Key Competitors": "主要競爭對手包括各國國營鐵路公司（如英國 GWR、法國 SNCF、西班牙 Renfe 等）的官方直營管道，其通常免收訂票服務費。此外，還面臨跨界科技巨頭（如 Uber 開始提供火車票預訂）及其他第三方聚合平台（如 Omio）的激烈競爭。",
+      "12M Catalysts": "未來12個月的催化劑包括歐洲（特別是西班牙、義大利與法國）高鐵市場自由化帶來的多營運商競爭，這使得消費者對第三方聚合平台的需求大增。新任執行長 Ian Brown 於2026年9月上任後的戰略調整與新一輪股份回購計劃，也將是市場關注焦點。",
+      "Key Investment Risks": "最大監管風險為英國競爭與市場管理局（CMA）針對該公司費用透明度（特別是『滴水定價』）的調查，可能被迫調整收費結構。此外，英國政府推動『大英鐵路』（GBR）統一官方售票平台計畫的長遠威脅，以及高鐵票價凍結政策，皆可能壓縮其市場份額。",
+      "CEO & Management": "現任執行長 Jody Ford 於2026年初宣布將卸任，新任執行長由 Flutter Entertainment 前英國與愛爾蘭區執行長 Ian Brown 於2026年9月正式接任。財務長自2022年底起由 Pete Wood 擔任，高層團隊整體維持穩定過渡。",
+      "Core Patents & IP": "該公司主要依賴商標、軟體著作權及專有數據介面來保護其數位資產，而非傳統硬體或方法專利。核心智慧財產權為其 Platform One 系統的專有程式碼與 API 介面，以及用於安全數位票證交付的 sTicket 刷新條碼技術（估，無大量公開之發明專利，主要以商業機密保護）。",
+      "3-Year M&A": "過去3年（2023-2026年）無大型收購案，主要採取有機成長模式並擴大與合作夥伴（如 Amex GBT 等）的通路整合。目前策略專注於運用充足的自由現金流進行股票回購，而非發起外購擴張。",
+      "CapEx & Expansion": "資本支出主要集中於無形資產研發，重點投資於 Platform One 平台升級、App 使用者介面優化及 AI 個人化功能。擴張策略以西歐自由化高鐵市場為核心，預計至2030年該區自由化鐵路市場規模將達230億歐元。",
+      "Geopolitical Exposure": "地緣政治風險主要來自中東及其他地區的局勢緊張，這抑制了海外遊客前往歐洲的入境旅遊需求，間接打擊國際票務銷售。此外，英國與歐盟法規的潛在分歧，亦對跨國客運訂票流程的稅務及隱私合規性帶來管理成本。",
+      "M&A Potential": "中等偏低，由於該公司在英國市佔率過高，任何大型同業併購案都極易面臨反壟斷審查。然而，因其擁有強勁的自由現金流與成熟的 Platform One 票務分銷技術，未來仍有可能被全球線上旅行社（OTA）龍頭或私募股權基金發起私有化收購（估）。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 365 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "AB Dynamics plc (ABDP.L)",
+      "James Fisher and Sons PLC (FSJ.L)",
+      "Trainline plc (TRN.L)"
+    ],
+    "unmatched": [],
+    "rows_exported": 2358
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "label": "API Batch 341 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "lastminute.com N.V. (LMN.SW)",
+      "Country": "Netherlands",
+      "Industry": "線上旅遊與平台經濟",
+      "Tier": ""
+    },
+    {
+      "Company": "Basic-Fit N.V. (BFIT.AS)",
+      "Country": "Netherlands",
+      "Industry": "訂閱制健身平台",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "Netherlands",
+      "Timeframe": "中長期",
+      "Sub-Sector": "線上旅遊OTA與動態打包平台",
+      "Industry": "線上旅遊與平台經濟",
+      "Tier": "潛力股",
+      "Company": "lastminute.com N.V. (LMN.SW)",
+      "Capital/Market Cap": "約 1.3億至1.4億歐元",
+      "Core Business": "以專有動態打包引擎 (Dynamic Packaging Engine) 為核心，即時整合航班、酒店與交通資源，為消費者提供高性價比的定制化度假套裝行程與旅遊單項預訂服務。",
+      "Clients & Orders": "主要面向英國、法國、德國、義大利及西班牙等歐洲地區的休閒旅遊消費者，並以白標 (White-label) 模式為航空公司與大型旅遊網站 (如 Booking.com) 提供動態套裝行程的技術與訂單處理支持。",
+      "Technical Moat": "核心壁壘為高度擴展的動態打包運算引擎與擁有的 pan-European 旅行社代理商 (Tour Operator) 監管牌照，結合旗下多品牌的消費者數據累積，形成高度的市場准入與合規門檻。",
+      "Revenue Breakdown": "動態打包套裝行程 (Dynamic Packages) 為核心營收來源，約佔集團總營收的 57%；其餘營收則來自單獨航班 (Flights)、單獨酒店 (Hotels) 的分銷預訂，以及媒體廣告與元搜尋服務。",
+      "Gross Margin Profile": "毛利率穩定在約 40.0% 水平 (2025年毛利約 1.446億歐元，管理營收約 3.611億歐元)；公司財務策略著重於絕對毛利額增長與行銷投入回報率 (ROMS) 的優化，而非單純的毛利率百分比。",
+      "Key Competitors": "主要競爭對手包括全球線上旅遊龍頭 Booking Holdings (Booking.com) 與 Expedia Group，以及歐洲本土的線上旅遊業者 eDreams ODIGEO 與 Trip.com。",
+      "12M Catalysts": "1. 2026年6月啟動裁減 25% 員工的重組計劃，預計將於 2027 年前大幅收縮營運成本。2. 業務流程加速向 AI 營作模式轉型，預期提高自動化率與利潤率。3. 深化與 HBX Group 的戰略分銷合作。",
+      "Key Investment Risks": "1. 地緣政治衝突 (如中東局勢) 衝擊歐洲航線並縮短消費者預訂窗口。2. 歐洲通膨及高利率環境壓抑消費者的休閒旅遊預算。3. Google SEO/SEM 算法變更使得流量獲獲成本 (CAC) 面臨上升壓力。",
+      "CEO & Management": "執行長 (CEO) 為 Alessandro Petazzi (於2025年1月1日接任)，財務長 (CFO) 為 Diego Fiorentini，董事會主席為 Yann Rousset。",
+      "Core Patents & IP": "並未持有大量公開技術專利，其核心智慧財產權主要為專有的動態打包演算法、IT 系統專有技術 (Know-how)，以及 lastminute.com、weg.de、Rumbo、Volagratis 等高知名度的品牌商標權組合。",
+      "3-Year M&A": "近三年 (2023-2026年) 無重大併購或被收購案，公司轉以內部重組與技術升級為主，並持續透過與 Amadeus、HBX Group 及 SeQura 等戰略夥伴的業務合作拓展市場生態系。",
+      "CapEx & Expansion": "資本支出呈優化與收斂趨勢 (2025年隱含 CapEx 約 2,250 萬歐元，低於 2024 年的 2,500 萬歐元)，主要集中在平台 AI 轉型與系統架構優化，並帶動 2025 年自由現金流轉正至 2,700 萬歐元。",
+      "Geopolitical Exposure": "業務高度集中於歐洲休閒旅遊市場，對地緣衝突所引起的航班中斷、航線調整、能源與票價通膨，以及消費者出遊信心波動等外部地緣環境變化極度敏感。",
+      "M&A Potential": "併購潛力極高，因其市值規模偏小 (約 1.3 億至 1.4 億歐元) 且在歐洲 dynamic packaging 領域擁有獨特技術與品牌資產，極易吸引尋求歐洲版圖擴張的全球大型 OTA 巨頭或私募股權基金 (PE) 的收購。"
+    },
+    {
+      "Country": "Netherlands",
+      "Timeframe": "中長期",
+      "Sub-Sector": "HVLP連鎖健身房",
+      "Industry": "健康與休閒服務業",
+      "Tier": "龍頭股",
+      "Company": "Basic-Fit N.V. (BFIT.AS)",
+      "Capital/Market Cap": "約 22.0億歐元",
+      "Core Business": "經營高性價比（HVLP）的平價訂閱制連鎖健身房，並藉由自主研發的 App 與 AI 虛擬教練提供數位健身體驗。近年積極推動 24 小時無人值守場館，以數位化管理實現高效的跨國營運。",
+      "Clients & Orders": "主要客戶為西歐與中歐地區的平價健身消費者與運動愛好者。截至 2026 年中，旗下會員總數已達數百萬人規模，全歐洲總營運店數超過 2,150 家，是歐洲最大的健身連鎖品牌。",
+      "Technical Moat": "核心護城河在於自主研發的 Basic-Fit App，該軟體深度整合 Yanga 運動水補給系統、QR-Code 自動化無人門禁與 AI 個人化虛擬教練「AI Fitbuddies」，藉此大幅降低分店運營的人力支出，實現強大的營運槓桿效益。",
+      "Revenue Breakdown": "以俱樂部會員訂閱及入會費收入（Club Revenue）為絕對核心，佔總營收比例高達約 98.5%。其餘約 1.5% 為非俱樂部收入，主要來自自動販賣機銷售、Yanga 運動水加購、個人教練合作及廣告收益。",
+      "Gross Margin Profile": "若僅扣除商品與水等直接銷貨成本，其毛利率高達 95% 以上。然而若考量租金、折舊、能源及人事等核心營運支出，2025 年的 Club EBITDA Margin (less rent) 約為 36.1%，顯示折舊與店面租金為其主要成本項。",
+      "Key Competitors": "主要競爭對手包括英國低成本健身巨頭 PureGym、法國 HVLP 市場領導品牌 Fitness Park，以及定位於健康與社交體驗的法國連鎖品牌 Keep Cool。在德國市場，原主要對手 Clever Fit 已被其併購。",
+      "12M Catalysts": "未來一年的催化劑包括德國 Clever Fit（2025年底）與 wellyou（2026年中）收購案帶來的加盟業務與市場份額整合效應。此外，法國市場 24/7 無人店擴張、AI Fitbuddies 的 ARPU 提升效果，以及 4,000 萬歐元的股份回購計畫，將持續優化獲利結構與股東回報。",
+      "Key Investment Risks": "主要風險包括截至 2026 年底仍處於較高水準的債務槓桿（淨負債/EBITDA 比率約 2.3x），以及歐洲能源價格與人工成本上漲對門市營運利潤率的侵蝕。此外，平價健身市場競爭激烈，會員流失率的波動可能影響營收穩定度。",
+      "CEO & Management": "共同創辦人兼執行長（CEO）為 René Moos，負責引導公司的整體擴張與轉型策略。財務長（CFO）為 Maurice de Kleer，專注於債務再融資與優化資本結構。商業長（CCO）則由 Erica van Vonderen-Hahn 擔任，主管品牌行銷與數位產品創新。",
+      "Core Patents & IP": "公司並無顯著的硬體設備發明專利。其核心智慧財產權主要為「Basic-Fit」與「Clever Fit」等品牌商標，以及自主研發之 Basic-Fit App 軟體著作權、無人門禁控制系統與會員健身行為數據庫。",
+      "3-Year M&A": "2024 年公司收購了西班牙 McFIT 的 47 家門市以擴大南歐版圖。2025 年底以 1.6 億歐元現金完成收購德國 Clever Fit（約 500 家門市），成功進軍加盟市場。2026 年 7 月則收購德國連鎖健身房 wellyou（41 家），持續深化 DACH 地區佈局。",
+      "CapEx & Expansion": "營運策略轉向「高品質與資本高效成長」，2026 年預計僅有機新增約 50 家自營店（單店建置成本約 147 萬歐元）。每店年維護資本支出控制在約 6 萬歐元，未來將重心轉向輕資產的加盟模式以減輕資本壓力。",
+      "Geopolitical Exposure": "營運及營收 100% 集中於歐元區（荷蘭、比利時、法國、西班牙、德國等），無直接亞太或美洲地緣政治衝突風險。但易受到歐洲通膨壓力、歐元區利率變動、能源政策以及各國勞動法規（如最低工資）調整的影響。",
+      "M&A Potential": "極高。作為歐洲健身行業的主要整合者，在成功收購 Clever Fit 後，公司已建立強大的加盟平台，未來將持續尋求收購歐洲其他區域性中小型健身連鎖品牌，以鞏固其歐洲市佔第一的地位。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 341 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "lastminute.com N.V. (LMN.SW)",
+      "Basic-Fit N.V. (BFIT.AS)"
+    ],
+    "unmatched": [],
+    "rows_exported": 2165
+  }
+}

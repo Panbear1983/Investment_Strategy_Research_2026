@@ -1,0 +1,36 @@
+{
+  "item": {
+    "Company": "保瑞 (6472.TW)",
+    "ticker": "6472.TW",
+    "Country": "Taiwan",
+    "Tier": "龍頭股",
+    "values": {
+      "Country": "Taiwan",
+      "Timeframe": "中長期",
+      "Sub-Sector": "生技新藥",
+      "Industry": "生技醫療業",
+      "Tier": "龍頭股",
+      "Company": "保瑞 (6472.TW)",
+      "Capital/Market Cap": "約 750 億台幣",
+      "Core Business": "提供小分子藥與生物大分子藥的委託開發暨製造服務(CDMO)，並經營品牌學名藥銷售。",
+      "Clients & Orders": "供應武田製藥 (Takeda)、GSK、安成藥業，為亞洲少數能代工國際大廠大批量藥物的 CDMO。",
+      "Technical Moat": "擁有全球 9 座符合 FDA/MHRA 規範之 GMP 藥廠，且具備處理控釋劑型與高活性藥物的先進製程壁壘。",
+      "Revenue Breakdown": "CDMO 委託製造 68%、全球品牌藥代理銷售 32%。",
+      "Gross Margin Profile": "約 45-48% (受惠於併購高毛利美國藥廠產線)。",
+      "Key Competitors": "Lonza、Catalent",
+      "12M Catalysts": "完成併購美國 CDMO 廠 Upsher-Smith 並開始併入營收，與取得美系大廠大分子生物藥代工長約。",
+      "Key Investment Risks": "跨國併購之藥廠整合進度緩慢，或主要品牌藥專利官司敗訴導致銷售下滑。",
+      "CEO & Management": "盛保熙(董事長)以強悍的「精準併購、高效整合」手腕聞名，被譽為「生技界併購天王」，國際談判能力極強。",
+      "Core Patents & IP": "擁有緩釋劑型微丸加工專利技術、無菌生物反應器控制製程 IP，及全球一線藥廠生產認證。",
+      "3-Year M&A": "斥資 2.1 億美元收購美國 Upsher-Smith 藥廠；以 60 億台幣收購國內大分子 CDMO 先驅晨暉生技。",
+      "CapEx & Expansion": "斥資數十億台幣持續改造台南廠與加拿大廠產線，升級為高活性與生物大分子代工基地。",
+      "Geopolitical Exposure": "製造據點橫跨台灣、加拿大、美國，布局全球，地緣政治單點斷鏈曝險低。",
+      "M&A Potential": "為亞洲最大的生技 CDMO 集團，股權結構集中，目前積極作為買方收購歐美藥廠，無被收購想像。",
+      "Recent Insider Trading": "無資料 (美股限定)"
+    }
+  },
+  "problems": [
+    "claude -p failed: You've hit your weekly limit · resets Jul 24 at 5pm (Asia/Taipei)"
+  ],
+  "raw": ""
+}

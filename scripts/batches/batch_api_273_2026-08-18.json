@@ -1,0 +1,62 @@
+{
+  "label": "Maintenance Batch 273 (maintenance, claude)",
+  "source": "maintenance",
+  "provider": "claude",
+  "providers_used": [
+    "claude"
+  ],
+  "items": [
+    {
+      "Company": "AB Science (AB.PA)",
+      "ticker": "AB.PA",
+      "Country": "France",
+      "Tier": "潛力股",
+      "values": {
+        "Country": "France",
+        "Timeframe": "中長期",
+        "Sub-Sector": "生技新藥",
+        "Industry": "生技醫療 / 罕見病與腫瘤新藥開發",
+        "Tier": "潛力股",
+        "Company": "AB Science (AB.PA)",
+        "Capital/Market Cap": "約 5,300萬至7,000萬歐元",
+        "Core Business": "專注於新型蛋白激酶抑制劑的研發。目前核心業務為開發人體神經退化性疾病（如漸凍症 ALS）及腫瘤學（如急性骨髓性白血病 AML）之新藥，並銷售已上市的寵物抗癌藥 Masivet®。",
+        "Clients & Orders": "寵物癌症藥物 Masivet® 的客戶主要為歐洲的獸醫診所與動物藥品分銷商。人體新藥部分尚處於臨床開發階段而無商業訂單，但於 2026 年 4 月取得高達 2,500 萬至 3,900 萬歐元的臨床試驗失敗保險資助。",
+        "Technical Moat": "核心藥物 Masitinib 為高選擇性酪氨酸激酶抑制劑，能有效抑制肥大細胞與小膠質細胞的活性以調節神經發炎。次世代微管破壞劑 AB8939 則具備克服 P-gp 多重抗藥性的機制，在難治性急性骨髓性白血病領域具備技術壁壘。",
+        "Revenue Breakdown": "營收 100% 來自寵物癌症藥 Masivet® 的銷售，2025 年銷售額約為 117.4 萬歐元（較 2024 年的 107.2 萬歐元成長 10%）。人體新藥管線目前處於臨床試驗階段，尚未產生實質商業營收。",
+        "Gross Margin Profile": "2025 年毛利率約為 83.3%，營收 117.4 萬歐元對應的銷售成本僅約 19.6 萬歐元。然而，高額的臨床研發費用與運營支出導致全年營業虧損約 380 萬歐元。",
+        "Key Competitors": "漸凍症（ALS）領域的主要競爭對手包括日本田邊三菱製藥（Radicava）與百健（Qalsody）。急性骨髓性白血病（AML）領域的對手則有艾伯維（Venclexta）與必治妥施貴寶（Onureg）等大廠。",
+        "12M Catalysts": "預計未來 12 個月內將完成漸凍症 Phase 3 試驗的方案更新並取得法規單位核准啟動招募。此外，急性骨髓性白血病候選藥 AB8939 的 Phase 1 第四階段臨床試驗進展數據預計將會發布。",
+        "Key Investment Risks": "臨床開發失敗率極高，且 Masitinib 過去曾多次遭歐盟 EMA 拒絕批准。資金鏈緊張且面臨持續股權稀釋風險，儘管 2026 年 8 月完成 1,420 萬歐元私募，但帳上資金對支應後期臨床試驗仍顯吃力。",
+        "CEO & Management": "2026 年 7 月由 Stéphane Ledermann 接任董事長兼執行長，取代共同創辦人 Alain Moussy（轉任董事）。此項人事案旨在主導公司進入新階段的資產戰略評估與管線重組。",
+        "Core Patents & IP": "針對核心藥物 Masitinib 採取「第二醫學用途」專利布局，使其漸凍症適應症的全球專利保護期延長至 2037 年。美國前列腺癌適應症專利則延長至 2042 年。",
+        "3-Year M&A": "過去三年內無重大併購活動，公司維持純研發型態運作。公司於 2026 年中終止了多項非核心的 Masitinib 臨床試驗以精簡資源並聚焦核心管線。",
+        "CapEx & Expansion": "採用輕資產模式，廠房與臨床試驗均委外，資本支出極低。擴張策略著重於取得美國 FDA 的 MUMS（次要用途）資格，以期將寵物癌症藥 Masivet® 推向美國獸醫市場。",
+        "Geopolitical Exposure": "地緣政治直接曝險極低，研發與核心業務均在歐盟境內。主要法規曝險來自歐盟 EMA 與美國 FDA 的審查標準差異，並面臨歐元與美元間的匯率波動風險。",
+        "M&A Potential": "整體被併購潛力中等偏低，大廠收購通常取決於漸凍症三期臨床或 AML 二期臨床的突破性數據。但隨著 2026 年新執行長上任進行戰略重組，人體新藥的海外授權與共同開發機會有所增加。",
+        "Recent Insider Trading": "無資料 (美股限定)"
+      }
+    }
+  ],
+  "records": [
+    {
+      "12M Catalysts": "AB23005 Phase 3漸凍症試驗設計已於2026年獲美國FDA與歐盟EMA雙方核准，預計未來12個月內啟動約408至412名病患的收案作業；AB8939併用venetoclax治療復發/難治型AML之Phase 1第三階段已於2026年6月底完成，呈現67%整體反應率與100%疾病控制率，聚焦三藥組合（併用azacitidine）之第四階段數據預計於未來12個月內公布。",
+      "Key Investment Risks": "臨床開發失敗率極高，Masitinib過去曾多次遭歐盟EMA拒絕批准；儘管2026年8月17日已完成結算交割共1,420萬歐元私募增資（新任董事長暨執行長Stéphane Ledermann亦出資15萬歐元參與），帳上資金對支應規模逾400名病患的AB23005大型三期試驗仍顯吃力，未來持續股權稀釋風險不減。",
+      "3-Year M&A": "過去三年內無重大併購活動，公司維持純研發型態運作；2026年7月10日公司宣布暫停多項非核心Masitinib臨床試驗，將資源集中於漸凍症Phase 3（AB23005）與AB8939 AML兩大核心管線。",
+      "Geopolitical Exposure": "地緣政治直接曝險極低，研發與核心業務均在歐盟境內；主要法規曝險來自歐盟EMA與美國FDA審查標準差異，惟AB23005試驗設計已同步取得雙方核准降低此風險，公司仍面臨歐元與美元間的匯率波動曝險。",
+      "M&A Potential": "2026年7月新任董事長暨執行長Stéphane Ledermann接替創辦人Alain Moussy上任後隨即啟動戰略評估，預計於2026年秋季向市場公布策略路線圖，為海外授權或共同開發合作創造新契機；整體被併購潛力仍中等偏低，實質突破仍取決於漸凍症三期或AB8939 AML臨床數據表現。",
+      "Company": "AB Science (AB.PA)"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "Maintenance Batch 273 (maintenance, claude)",
+    "updated": [
+      "AB Science (AB.PA)"
+    ],
+    "claimed": [],
+    "unmatched": [],
+    "rows_exported": 1885
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "label": "Maintenance Batch 302 (maintenance, gemini)",
+  "source": "maintenance",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "ToolGen (199800.KQ)",
+      "ticker": "199800.KQ",
+      "Country": "South Korea",
+      "Tier": "潛力股",
+      "values": {
+        "Country": "South Korea",
+        "Timeframe": "中長期",
+        "Sub-Sector": "基因編輯平台技術",
+        "Industry": "生技醫療",
+        "Tier": "潛力股",
+        "Company": "ToolGen (199800.KQ)",
+        "Capital/Market Cap": "約 3,390億至 3,600億韓元（約合 2.5億至 2.7億美元）",
+        "Core Business": "專注於 CRISPR-Cas9 基因編輯平台技術的全球專利授權與技術轉移。同時開發人類遺傳性疾病與腫瘤免疫療法之新藥管線，並將技術應用於基因編輯作物（如高油酸大豆、高產量油菜）之開發。",
+        "Clients & Orders": "全球科研試劑授權客戶為 Thermo Fisher Scientific，農業領域授權予 Bayer/Monsanto 等巨頭。2025 至 2026 年與 GenEditBio 達成基因編輯療法交叉授權，並與 DNA Harvest Partners 合作開發預測育種油菜種子。",
+        "Technical Moat": "在真核細胞 CRISPR-Cas9 技術上擁有早期專利優先權，於美國專利商標局（USPTO）專利干涉程序中獲得「資深當事人（Senior Party）」地位。自主研發 CRISPR-Sniper 平台以顯著降低基因編輯之脫靶效應，具備全方位的基因改良技術實力。",
+        "Revenue Breakdown": "技術授權金與專利權利金（Licensing & Royalty）為核心營收來源，占比約 85-90%。其餘為客製化細胞株、試劑銷售與科研技術服務（約 10-15%）；基因編輯作物等農業應用尚處商業化早期，營收貢獻極低（估低於 5%）。",
+        "Gross Margin Profile": "毛利率長期維持在 87% 至 90% 的極高水準，反映核心專利授權業務的輕資產與低銷售成本特性。然而受制於全球專利訴訟費用（如對 Vertex 的訴訟）及高額研發投入，營業利益與淨利呈持續虧損狀態。",
+        "Key Competitors": "主要競爭對手包括美國 Broad Institute（張鋒團隊）與 CVC 集團（由 UC Berkeley、CRISPR Therapeutics、Intellia Therapeutics 等組成）。此外也面臨 Editas Medicine 等其他基因編輯技術開發商的市場與專利競爭。",
+        "12M Catalysts": "美國 PTAB 專利干涉程序在 Broad 與 CVC 案重審裁決後的後續重啟與判決進展。在歐洲統一專利法院（UPC）針對 Vertex 及 Lonza 基因編輯療法 Casgevy 的專利侵權訴訟結果。南韓五松（Osong）基因編輯種子田間測試設施的商業化推廣與 SAF 作物合作進程。",
+        "Key Investment Risks": "若在美國或歐洲的 CRISPR-Cas9 核心專利干涉與侵權訴訟中面臨不利判決，將嚴重動搖其專利貨幣化商業模式。高昂的法律與研發支出導致現金消耗率（Cash Burn）高，存在資金稀釋風險。各國對基因編輯食品與新藥的法規監管壁壘可能延遲產品商業化時程。",
+        "CEO & Management": "執行長（CEO）柳宗相（Jong-sang Ryu）於 2025 年 3 月上任，負責推動技術商業化與企業管理。2026 年 2 月新任命首席法律官（CLO），全面主導全球智慧財產權（IP）的貨幣化及專利訴訟防禦策略。",
+        "Core Patents & IP": "持有真核細胞 CRISPR-Cas9 基因編輯的全球基礎專利，並持續延伸至分割專利與突變體改良專利。在美國干涉程序中維持 Senior Party 地位，並在歐洲、日本及南韓擁有多項核准專利，建構堅實的智慧財產權防護網。",
+        "3-Year M&A": "最大股東 Genexine（持股約 16.5%）持續與公司進行研發協同，但近三年（2023-2026）公司本身未進行重大股權收購或對外併購。業務擴張主要依賴如 2025 年底與 GenEditBio 達成的技術交叉授權等策略合作。",
+        "CapEx & Expansion": "2026 年 6 月在南韓五松啟用先進基因編輯種子田間測試基地，專門用於永續航空燃料（SAF）作物與油菜育種研究。作為研發型生技公司，廠房設備等資本支出（CapEx）規模偏小，主要投資於實驗室升級及農業田間測試設施。",
+        "Geopolitical Exposure": "研發與營運總部設於南韓，易受當地生物法規與地緣政策影響，但其專利價值高度取決於美、歐司法判決。此外，基因編輯作物與療法的出口及准入面臨各國監管（如基改食品規範及生物安全法案）的差異性壁壘。",
+        "M&A Potential": "具備高度被併購潛力，因為跨國大藥企或大型農業集團在布局 CRISPR 技術時，收購 ToolGen 可直接獲得其在真核細胞應用的早期基礎專利，從而掃除全球專利障礙並建立 IP 競爭壁壘。",
+        "Recent Insider Trading": "無資料 (美股限定)"
+      }
+    }
+  ],
+  "records": [
+    {
+      "12M Catalysts": "ToolGen 於 2026 年 6 月在歐洲統一專利法院（UPC）與荷蘭海牙法院對 Vertex 和 Lonza 提起針對 Casgevy 療法的專利侵權訴訟，後續判決或和解協商將是未來 12 個月的關鍵催化劑。此外，公司於 2026 年 6 月落成啟用南韓五松的基因編輯作物田間測試設施，並於 8 月與 DNA Harvest Partners 展開 AI 預測育種合作，加速針對永續航空燃料（SAF）等高價值油菜作物的商業化推廣。",
+      "Key Investment Risks": "若在歐洲統一專利法院、歐洲專利局（EPO）專利撤銷異議或美國麻州法院的專利侵權訴訟中面臨不利判決，將嚴重衝擊其以專利授權為主的貨幣化商業模式。此外，高昂的跨國訴訟法律支出與研發投資導致現金消耗率居高不下，可能帶來資金稀釋或融資壓力。各國對基因編輯食品與新藥的法規監管壁壘（如南韓 2026 年下半年推動的基改食品標示新制）仍可能延遲產品在各主要市場的商業化時程。",
+      "3-Year M&A": "儘管最大股東 Genexine（持股約 16.5%）持續與公司保持研發協同，但近三年（2023-2026 年）ToolGen 本身並無重大股權收購或對外併購活動。其業務與技術擴張主要依賴如 2026 年 8 月與 DNA Harvest Partners 的合作，以及先前與 GenEditBio 達成的技術交叉授權等戰略合作夥伴關係。",
+      "Geopolitical Exposure": "雖然研發與營運總部設於南韓，易受當地生物安全法規（如南韓擬於 2026 年底全面實施高度加工基改食品強制標示）與地緣政策波動的影響，但其核心專利價值仍高度取問於美、歐司法判決。此外，基因編輯作物與療法的出口及准入面臨各國監管（如美國《生物安全法案》推動的產業重塑以及各國對基因改造食品的不同規範）的差異性壁壘。",
+      "M&A Potential": "ToolGen 具備高度被併購潛力，因為跨國大藥企或大型農業集團在布局 CRISPR 技術時，收購 ToolGen 可直接獲得其在真核細胞應用的早期基礎專利與專利組合。這能有效幫助收購方掃除全球專利壁壘，並針對 Casgevy 等競品建立強大的 IP 競爭護城河與市場防禦優勢。",
+      "Company": "ToolGen (199800.KQ)"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "Maintenance Batch 302 (maintenance, gemini)",
+    "updated": [
+      "ToolGen (199800.KQ)"
+    ],
+    "claimed": [],
+    "unmatched": [],
+    "rows_exported": 2077
+  }
+}

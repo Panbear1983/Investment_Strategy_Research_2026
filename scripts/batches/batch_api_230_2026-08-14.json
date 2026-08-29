@@ -1,0 +1,53 @@
+{
+  "label": "API Batch 230 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "ZOZO, Inc. (3092.T)",
+      "Country": "Japan",
+      "Industry": "Platform Economy",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "Japan",
+      "Timeframe": "中長期",
+      "Sub-Sector": "時尚電商與量測科技",
+      "Industry": "平台經濟",
+      "Tier": "龍頭股",
+      "Company": "ZOZO, Inc. (3092.T)",
+      "Capital/Market Cap": "約 1.03兆日圓 (約合 67億美元)",
+      "Core Business": "營運日本最大時尚電商平台「ZOZOTOWN」，提供品牌服飾委託銷售、自營販售與B2B電商建置服務。公司於2025年併購英國全球時尚搜尋平台Lyst，以此加速國際化布局。",
+      "Clients & Orders": "主要客戶為日本國內年輕時尚消費者與超過1,600家品牌商家，並透過海外Lyst平台觸及全球數百萬時尚買家。平台年交易訂單數維持穩定成長，核心變現模式為收取高比例委託銷售佣金。",
+      "Technical Moat": "擁有海量日本消費者的身形尺碼數據，並研發ZOZOSUIT、ZOZOMAT及智慧推薦演算法等自主技術以降低服飾退貨率。旗下智慧物流中心「ZOZOBASE」導入高度自動化設備，顯著節省約30%的人力成本，建立極高的履約效率壁壘。",
+      "Revenue Breakdown": "以ZOZOTOWN委託銷售佣金收入（Consignment Sales）為核心，貢獻總營收約八成以上。其餘包含Yahoo! JAPAN Shopping的聯名銷售抽成、廣告業務收入、B2B電商支援服務，以及2025與2026年陸續併購的Lyst和High Link之營收貢獻。",
+      "Gross Margin Profile": "以淨營收（Net Sales）計算之毛利率高達約93.5%（以2026年Q1為例），主因委託銷售模式下不需負擔商品庫存成本。若以平台總交易額（GMV）計之毛利率則約為33.0%（FY2026），受併購低毛利海外平台Lyst及促銷推廣影響而略有波動。",
+      "Key Competitors": "主要競爭對手包括日本樂天時尚（Rakuten Fashion）、Yahoo!購物、亞馬遜日本（Amazon Japan），以及二手時尚交易平台Mercari與新興跨境快時尚平台SHEIN。",
+      "12M Catalysts": "未來12個月的催化劑包括：與大股東LINE Yahoo（LY Corporation）生態圈的深化整合以獲取新客流；英國時尚搜尋平台Lyst併購後的綜效顯現與海外營收高成長；以及High Link（Karalia香水訂閱平台）併入後的香氛美妝新品類擴展。",
+      "Key Investment Risks": "面臨日本少子化與年輕人口縮減的長期人口結構性風險。此外，日本物流業勞動力短缺導致的運費與人力成本持續上升，以及海外市場擴張（Lyst）面臨的跨國管理與競爭風險。",
+      "CEO & Management": "現任代表取締役社長兼CEO為澤田宏太郎（Kotaro Sawada），自2019年創辦人前澤友作離職後接掌。他帶領公司轉向注重精細化營運、數據驅動決策與國際化M&A策略。",
+      "Core Patents & IP": "擁有「ZOZOSUIT」（智慧量測緊身衣）、「ZOZOMAT」（3D足部量測紙墊）及「ZOZOGLASS」（膚色量測眼鏡）等一系列結合電腦視覺與圖像識別的自主專利與商標，有效降低服飾退貨率並提升消費者購物體驗。",
+      "3-Year M&A": "於2025年4月以1.54億美元收購英國全球時尚搜尋平台Lyst LTD以拓展海外版圖。另外於2026年4月完成收購日本香水訂閱平台High Link, Inc.，進一步豐富平台品類並開拓訂閱制美妝市場。",
+      "CapEx & Expansion": "資本支出主要用於物流基礎設施的自動化升級與軟體系統研發。包括持續擴建並導入自動化設備的「ZOZOBASE 習志野/筑波」物流中心，以應對日本物流勞動短缺並提升配送效率。",
+      "Geopolitical Exposure": "整體地緣政治風險偏低，主要營收仍來自日本內需市場。然而，平台上多數服飾品牌之供應鏈位於中國及東南亞，若發生區域地緣貿易衝突或供應鏈斷裂，將間接影響平台商品的供應量與交易額表現。",
+      "M&A Potential": "具中等併購潛力。身為LINE Yahoo（軟銀集團成員）的控股子公司，ZOZO自身不易被敵意收購，但極具潛力主動發起中小型收購，持續併購技術型或利基型電商平台以延伸其生態圈。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 230 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "ZOZO, Inc. (3092.T)"
+    ],
+    "unmatched": [],
+    "rows_exported": 1703
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "item": {
+    "Company": "理想汽車 Li Auto (LI)",
+    "Country": "China",
+    "Industry": "電動車"
+  },
+  "problems": [
+    "claude -p failed: You've hit your session limit · resets 7am (Asia/Taipei)"
+  ],
+  "raw": ""
+}

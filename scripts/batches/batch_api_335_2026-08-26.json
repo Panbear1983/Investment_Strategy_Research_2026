@@ -1,0 +1,53 @@
+{
+  "label": "API Batch 335 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "DATAGROUP SE (D6H.DE)",
+      "Country": "Germany",
+      "Industry": "平台經濟",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "Germany",
+      "Timeframe": "中長期",
+      "Sub-Sector": "IT服務與雲端託管平台",
+      "Industry": "資訊科技服務",
+      "Tier": "隱形冠軍",
+      "Company": "DATAGROUP SE (D6H.DE)",
+      "Capital/Market Cap": "約 6.3 億歐元 (約 7 億美元)",
+      "Core Business": "核心業務為模組化 IT 委外服務平台（CORBOX），提供中大型企業與公部門一站式的 IT 生命週期管理服務。服務範疇涵蓋雲端託管、SAP 系統維護、資訊安全（CORSecurity）、合規（CORCompliance）及 AI 自動化（CORIntelligence）等服務。",
+      "Clients & Orders": "主要客戶為德國中型企業（Mittelstand）及公部門，涵蓋醫療、金融、製造與營建業。近期重要訂單包括 Sprint Sanierung 的 IT 基礎架構委外合約，以及公部門 Delos Cloud 雲端主機委託案。",
+      "Technical Moat": "擁有模組化且高度標準化的 IT 委外服務平台（CORBOX），能將複雜的 IT 服務產品化以降低交付成本。結合子公司 Almato 的 Bardioc 語意數據平台與對話式 AI 技術，能提供兼具 ISO 27001 與 BSI C5 高安全合規認證的混合雲託管方案。",
+      "Revenue Breakdown": "2025/2026 財年預估營收約 5.65 億至 5.75 億歐元。營收主要由 CORBOX 託管與雲端服務（約佔 70-80%）以及 IT 諮詢與系統整合服務（約佔 20-30%）組成。",
+      "Gross Margin Profile": "毛利率常年穩定維持在 70% 左右。這主要得益於其 CORBOX 標準化模組服務的規模效應，使得服務交付成本得以優化並維持極佳的獲利能力。",
+      "Key Competitors": "主要競爭對手包括跨國系統整合商（如 T-Systems、IBM、Atos、DXC Technology）以及德國本土 IT 服務龍頭（如 Bechtle、CANCOM、adesso 和 CONET）。",
+      "12M Catalysts": "未來 12 個月的催化劑包括 KKR 與創辦人家族 HHS 聯合私有化後續的戰略重組與營運效益顯現。此外，收購荷蘭 Valid Managed Services 的跨國整合效應，以及針對公部門推出 Delos 主權雲服務，也將成為成長動能。",
+      "Key Investment Risks": "面臨私有化過程中從慕尼黑證交所下市導致股票流動性極低的風險。同時，2026 年因 AI 與雲端戰略投資產生約 1,000-1,100 萬歐元的一次性成本導致短期利潤承壓，且德國總體經濟疲軟亦可能影響企業 IT 支出。",
+      "CEO & Management": "由 Andreas Baresel 擔任執行長（CEO），Niels Ackermann 自 2026 年 6 月起擔任財務長（CFO）以強化財務職能。Mark Schäfer 於 2025 年起擔任首席生產長（CPO），創辦人 Max H.-H. Schaber 則續任監事會主席。",
+      "Core Patents & IP": "不以傳統專利申請為核心，其智財權主要體現在 CORBOX 模組化平台及子公司 Almato 的 Bardioc 語意推理與 RPA 自動化技術。此外，亦擁有基於 SAP 的 OPRA 維護解決方案與 M.SecureTrade 外貿數位化套件等專有軟體 IP。",
+      "3-Year M&A": "持續採取『買入並構建』策略。2026 年收購荷蘭 Valid Managed Services 以拓展歐洲版圖，並收購 Aristech 強化對話式 AI 技術；2024 年收購 TARADOR、ISC 及 iT TOTAL 以加強 SAP 諮詢與資安實力。",
+      "CapEx & Expansion": "採取輕資產（Asset-Light）擴張策略，不進行大規模實體數據中心建設。資本支出主要集中於 AI、網路安全與多雲（如 Delos Cloud）等未來成長領域的技術研發與服務平台升級。",
+      "Geopolitical Exposure": "地緣政治風險極低，業務主要集中於德國及德語區（DACH），近年透過收購 Valid 逐步拓展至荷蘭等西歐市場。營運高度符合歐盟 NIS2、DORA 等嚴格數據安全與合規監管要求。",
+      "M&A Potential": "具備極高的 M&A 潛力。在 KKR 私有化資金的支持下，公司將加速其『買入與整頓』（Buy-and-Turnaround）的行業整合腳步，持續在中歐尋求具備客戶黏性與雲端技術的託管服務商（MSP）作為收購標的。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 335 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "DATAGROUP SE (D6H.DE)"
+    ],
+    "unmatched": [],
+    "rows_exported": 2128
+  }
+}

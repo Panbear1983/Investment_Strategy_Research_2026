@@ -1,0 +1,179 @@
+{
+  "label": "Maintenance Batch 244 (maintenance, gemini)",
+  "source": "maintenance",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "Iveco Group N.V. (IVG.MI)",
+      "ticker": "IVG.MI",
+      "Country": "Netherlands",
+      "Tier": "潛力股",
+      "values": {
+        "Country": "Netherlands",
+        "Timeframe": "短期",
+        "Sub-Sector": "電動車",
+        "Industry": "商用車與重型機械製造",
+        "Tier": "潛力股",
+        "Company": "Iveco Group N.V. (IVG.MI)",
+        "Capital/Market Cap": "約 37.0億歐元 (約 42.7億美元)",
+        "Core Business": "主要設計、製造與銷售輕中重型商用卡車、客運公車（旗下擁有 IVECO BUS 與 HEULIEZ），以及透過 FPT Industrial 品牌提供工業與海洋用途之動力傳動系統。在 2026 年完成國防部門出售後，公司營運全面聚焦於零排放商用運輸領域。",
+        "Clients & Orders": "主要客戶為歐洲各大型公共交通機構，如法國 Île-de-France Mobilités（已簽署至 2032 年多達 4,000 輛新能源巴士的框架協議）及羅馬 ATAC 與比利時 De Lijn 等。此外，與 Stellantis Pro One 合作為其代工生產並於 2026 年中上市新型全電能輕型商用車（eLCVs）。",
+        "Technical Moat": "擁有 FPT Industrial 的重型電能動力系統與專利 HI-eSCR 尾氣處理技術，該技術免除部分車型安裝碳微粒過濾器（DPF）之需。同時，具備支持氫氣、甲烷及柴油的 XC13 多燃料引擎技術平台，並自行研發電池管理系統（BMS）及封裝技術。",
+        "Revenue Breakdown": "2025 年卡車業務收入約 88.7 億歐元（約佔 66%），客車業務約 29.5 億歐元（約佔 22%），動力系統 FPT 業務約 33.3 億歐元（抵銷前約佔 25%）。整體工業活動淨營收達 131.3 億歐元，金融服務等其他業務佔其餘份額。",
+        "Gross Margin Profile": "公司不單獨公布傳統毛利率，主要以調整後息稅前利潤率（EBIT margin）揭露。2025 年調整後 EBIT margin 為 4.8%，而 2026 年上半年因持續投入品質改良與公車整修成本，使該利潤率降至約 1.15%；估計其整體毛利率約落在 15% 至 18% 之間［估］。",
+        "Key Competitors": "主要競爭對手包括戴姆勒卡車（Daimler Truck）、富豪集團（Volvo Group）、Traton 集團（旗下 Scania 與 MAN）、帕卡（PACCAR/DAF），以及在電動客車市場面臨來自比亞迪（BYD）等中資車企的競爭。",
+        "12M Catalysts": "最大催化劑為印度塔塔汽車（Tata Motors）預計於 2026 年 9 月初啟動並於 11 月完成的每股 14.10 歐元全現金自願收購要約。此外，2026 年中與 Stellantis Pro One 合作的電動輕型商用車正式量產上市，亦是推動短期營收增長的重要關鍵。",
+        "Key Investment Risks": "面臨塔塔汽車收購案能否順利通過反壟斷等各國法規監管的不確定性風險。同時，歐洲商用車市場整體需求放緩、電池元件與改裝成本增加，將持續壓迫短期營業利潤率。",
+        "CEO & Management": "自 2024 年 7 月起由 Olof Persson 擔任首席執行官（CEO）。另外，首席財務暨資訊官 Anna Tanganelli 已宣布將於 2026 年 11 月 2 日收購案預計完成後離職。",
+        "Core Patents & IP": "核心專利涵蓋免 DPF 之 HI-eSCR 高效選擇性催化還原技術、XC13 多燃料內燃機架構，以及由 FPT Industrial 獨立開發之電驅橋（e-Axle）與高效電池管理系統軟體。",
+        "3-Year M&A": "於 2026 年 3 月以 16 億歐元完成將旗下國防陸地車輛部門（IDV 及 ASTRA 品牌）出售給 Leonardo S.p.A.。此外，在 2023 年 5 月收購了先前與 Nikola 合資之德國烏爾姆（Ulm）工廠的全部股權，以深化自主研發 BEV/FCEV 重卡之佈局。",
+        "CapEx & Expansion": "2025 年 10 月落成並啟用位於德國烏爾姆的全新升級測試賽道，專供電動與氫能重卡研發。在客車業務上啟動了 6 億歐元的投資計畫（2024-2028年），其中 3 億歐元專門用於打造模組化「原生電動」整車架構。",
+        "Geopolitical Exposure": "業務高度集中於歐洲與南美市場，受歐盟日益嚴格的減碳法規與區域地緣經濟波動影響甚鉅。出售國防部門有助於降低直接軍事地緣風險，而塔塔汽車的收購若完成，將使其地緣重心轉向歐亞戰略整合。",
+        "M&A Potential": "因塔塔汽車已提出全面私有化收購要約，短期內達成併購下市的機率極高。此外，與現代汽車（Hyundai Motor）等盟友在氫燃料電池重卡技術及平台共享上的深度合作，亦可能促成新的合資或資產交易。",
+        "Recent Insider Trading": "無資料 (美股限定)"
+      }
+    },
+    {
+      "Company": "Vivoryon Therapeutics N.V. (VVY.AS)",
+      "ticker": "VVY.AS",
+      "Country": "Netherlands",
+      "Tier": "潛力股",
+      "values": {
+        "Country": "Netherlands",
+        "Timeframe": "短期",
+        "Sub-Sector": "生技新藥",
+        "Industry": "生技製藥",
+        "Tier": "潛力股",
+        "Company": "Vivoryon Therapeutics N.V. (VVY.AS)",
+        "Capital/Market Cap": "約 3,640萬歐元 (截至2026年8月)",
+        "Core Business": "專注於開發針對麩醯胺酸環化酶 (QPCT) 和類麩醯胺酸環化酶 (QPCTL) 的首創小分子抑制劑，目前核心產品 varoglutamstat 已轉向針對糖尿病腎病變 (DKD) 等發炎與纖維化腎臟疾病的研發。",
+        "Clients & Orders": "作為臨床階段的研發型生技公司，目前無商業化產品與直接客戶訂單；核心業務完全依賴將研發成果授權予大型製藥公司（如正在進行授權條款談判的潛在合作夥伴）以獲取首付款及里程碑金。",
+        "Technical Moat": "擁有全球領先的 QPCT/QPCTL 抑制劑開發平台，其核心藥物 varoglutamstat 能透過抑制促炎趨化因子 CCL2 的成熟來改善內皮功能；先前在阿茲海默症試驗中表現出優良的安全性，並顯示出明確的改善腎功能 (eGFR) 的臨床信號。",
+        "Revenue Breakdown": "目前無藥物銷售收入，主營業務收入為 0%，財務來源主要依賴研發授權協議款、政府補助及利息收入；2026 年上半年藉由嚴格的成本控管，將淨虧損收窄至 340 萬歐元。",
+        "Gross Margin Profile": "由於尚無任何商業化產品銷售，現階段毛利率為不適用 (0%)，財務指標側重於 R&D 研發支出的效率與整體淨現金消耗率；2026 年上半年研發費用隨重組計畫推行而顯著減少。",
+        "Key Competitors": "在糖尿病腎病變 (DKD) 療法領域，主要競爭者包括已上市的標準療法如 SGLT-2 抑制劑、非選擇性醛固酮受體拮抗劑 Finerenone (拜耳)，以及其他開發腎臟纖維化療法的臨床階段生技公司。",
+        "12M Catalysts": "預計 2026 年底前完成 varoglutamstat 的戰略授權合約談判以獲取運營資金；若能成功籌資，預計將啟動糖尿病腎病變的 Phase 2b 臨床研究；並於 2026 年 9 月底召開年度股東大會討論增資方案。",
+        "Key Investment Risks": "面臨極高的資金斷鏈與生存風險，截至 2026 年 6 月底現金僅存 240 萬歐元，只能支撐營運至 2026 年第四季；若授權談判破裂或未能及時融資，將面臨清算風險；此外，新藥 Phase 2b 研發亦有臨床失敗風險。",
+        "CEO & Management": "由 Frank Weber 醫學博士擔任執行長 (CEO)，自 2023 年 8 月起領導管理團隊，在臨床研發與生技公司經營管理方面擁有數十年經驗，當前核心任務為帶領公司進行戰略轉型及主持資產對外授權談判。",
+        "Core Patents & IP": "在全球擁有強固的 QPCT/QPCTL 專利網，其 varoglutamstat 的特定鹽類活性多晶型物專利 (U.S. Patent No. 12,312,335) 於 2025 年 5 月獲准，其物質專利保護期可延續至 2044 年，若申請延長更可達 2049 年。",
+        "3-Year M&A": "過去三年內無重大併購交易，主要在 2024 年阿茲海默症臨床試驗失敗後進行了公司內部重組，精簡非核心研發活動並裁減人員以集中資源於腎病管線。",
+        "CapEx & Expansion": "屬於輕資產新藥研發公司，目前無自建廠房或大規模資本支出計劃，研發主要委託第三方臨床研究機構 (CRO) 執行；後續研發規模的擴張完全取決於 2026 年底前能否獲得外部授權資金或新融資。",
+        "Geopolitical Exposure": "總部位於荷蘭，主要研發基地在歐洲，直接的地緣政治政治衝突風險極低；但由於資金來源高度依賴歐美生技風險資本，全球金融緊縮或地緣政治動盪造成的資本市場降溫會間接增加其融資難度。",
+        "M&A Potential": "具備高度被併購潛力，若其 varoglutamstat 在糖尿病腎病變中的臨床潛力在目前的談判中獲得證實，極有可能被大型藥企以資產收購 (Asset Acquisition) 或整家公司併購的形式納入其慢性腎臟病研發管線。",
+        "Recent Insider Trading": "無資料 (美股限定)"
+      }
+    },
+    {
+      "Company": "Evonik Industries AG (EVK.DE)",
+      "ticker": "EVK.DE",
+      "Country": "Germany",
+      "Tier": "龍頭股",
+      "values": {
+        "Country": "Germany",
+        "Timeframe": "中長期",
+        "Sub-Sector": "先進材料與生技醫藥載體",
+        "Industry": "化學工業",
+        "Tier": "龍頭股",
+        "Company": "Evonik Industries AG (EVK.DE)",
+        "Capital/Market Cap": "約 84億歐元",
+        "Core Business": "重組為三大核心板塊：Custom Solutions（客製化解決方案，如塗料添加劑與化妝品醫藥原料）、Advanced Technologies（先進技術，如高機能聚合物與動物營養氨基酸）及 Infrastructure（基礎設施服務）。公司專注於高毛利的特種化學品與生技材料開發。",
+        "Clients & Orders": "主要客戶涵蓋全球製藥巨頭（如 mRNA 疫苗開發商所需的脂質載體）、汽車與電子製造商（高性能聚合物 VESTAMID® 需求商）以及個人護理與飼料農業大廠。訂單需求受全球生醫研發與先進製造業景氣波動影響顯著。",
+        "Technical Moat": "擁有全球領先的脂質奈米顆粒（LNP）製藥遞送技術、VESTAMID® PA12 高性能尼龍聚合物專利，以及獨家的發酵法工業級鼠李糖脂（Rhamnolipids）生物界面活性劑製造工藝。這些核心技術建構了極高的材料科學與生物技術壁壘。",
+        "Revenue Breakdown": "以 2025 年營收 141 億歐元為基準，Advanced Technologies 板塊營收約 59.7 億歐元（佔 42.3%），Custom Solutions 板塊營收約 5.49 億歐元（佔 38.9%），Infrastructure 板塊營收約 2.45 億歐元（佔 17.4%）。",
+        "Gross Margin Profile": "2025 年毛利約為 32.44 億歐元，毛利率約為 24.6%。毛利表現受惠於高附加價值的醫藥脂質與特種添加劑，但部分被價格競爭激烈的動物營養氨基酸及利潤較低的基礎設施服務所拉低。",
+        "Key Competitors": "主要競爭對手包括法國阿科瑪（Arkema，特別在高性能聚合物 PA11/PA12 領域）、瑞士科萊恩（Clariant）、德國巴斯夫（BASF）、瓦克化學（Wacker Chemie）及日本味之素（Ajinomoto，在動物營養領域）。",
+        "12M Catalysts": "「Evonik Tailor Made」全球裁員與重組計劃預計於 2026 年底前實現每年 4 億歐元的成本節省。美國印第安納州 Lafayette 的 Lipid Innovation Center 脂質新廠於 2025-2026 年逐步投產並釋放產能，可望為醫藥材料挹注新動能。此外，公司將持續推進非核心基礎設施單位的資產剝離進度。",
+        "Key Investment Risks": "德國本地高昂且不穩定的能源與原材料成本持續削弱全球競爭力。歐洲化學品法規（如 PFAS 禁令限制）的潛在修訂帶來合規與替代材料開發成本。同時，動物營養業務（甲硫氨酸）也面臨長期價格波動與產能過剩挑戰。",
+        "CEO & Management": "執行長（CEO）為 Christian Kullmann，其任期於 2026 年 4 月獲續約延長至 2030 年。新任財務長（CFO）為 Michael Rauch，於 2026 年 5 月 1 日正式上任，主導推動公司財務結構精簡與成本控制。",
+        "Core Patents & IP": "在全球擁有龐大的專利組合，核心專利技術聚焦於以歐洲玉米糖為原料的發酵法鼠李糖脂生產製程、mRNA 生醫遞送的脂質奈米顆粒（LNP）組份專利，以及 RESOMER® 可降解生醫聚合物和特種二氧化矽應用專利。",
+        "3-Year M&A": "2023 年收購阿根廷生技化妝品原料商 Novachem；2024 年 3 月將超吸水性聚合物（Superabsorbents）業務出售給 ICIG，完成 Performance Materials 板塊剝離。自 2024 年底起公司暫停大型收購案至 2027 年，專注於內部資源重組與去槓桿。",
+        "CapEx & Expansion": "重大資本支出包括投資 2.2 億歐元於美國印第安納州建設 Lipid Innovation Center 脂質新廠（預計 2025/2026 年投產）。另外也包括斯洛伐克 Slovenská Ľupča 全球首座工業級鼠李糖脂綠色生物界面活性劑工廠的產能擴張與運營。",
+        "Geopolitical Exposure": "高度暴露於歐盟 REACH 法規及潛在的化學品環保禁令風險。在美中地緣政治緊張局勢下，公司高度依賴美國（透過 Lafayette 廠擴建）和亞太市場的成長，以緩解歐洲本土高能源成本所帶來的製造業壓力。",
+        "M&A Potential": "公司已明確宣示在 2027 年前暫停大型收購（M&A Moratorium），短期內僅會持續尋求剝離非核心基礎設施與服務單位。在中長期內，若核心 Custom Solutions 表現優異，可能針對特定生醫載體或綠色生物化學技術進行利基型收購。",
+        "Recent Insider Trading": "無資料 (美股限定)"
+      }
+    },
+    {
+      "Company": "費森尤斯 (FRE.DE)",
+      "ticker": "FRE.DE",
+      "Country": "Germany",
+      "Tier": "龍頭股",
+      "values": {
+        "Country": "Germany",
+        "Timeframe": "中長期",
+        "Sub-Sector": "生技新藥與醫療服務",
+        "Industry": "醫療保健與生技服務",
+        "Tier": "龍頭股",
+        "Company": "費森尤斯 (FRE.DE)",
+        "Capital/Market Cap": "約 265億歐元",
+        "Core Business": "由專注臨床營養、輸液與生物相似藥的 Fresenius Kabi，以及歐洲最大私立連鎖醫院運營商 Fresenius Helios 組成。集團持有已去併表的全球洗腎龍頭 FMC 約 32% 股權，並已基本退出非核心的 Vamed 業務。",
+        "Clients & Orders": "主要客戶為全球的公立與私立醫院、門診護理中心、醫藥分銷商與藥局。終端支付主要來自歐洲各國公立法定醫療保險與商業保險機構。臨床營養及特殊注射劑訂單多以與採購聯盟簽訂的中長期供應合約為主。",
+        "Technical Moat": "於全球臨床營養與靜脈注射劑領域具領導地位，擁有 SMOFlipid 多腔袋等先進配方與專利包裝。結合 mAbxience 生物相似藥研發與 Ivenix 智慧輸液幫浦，具備卓越研產一體化能力。Helios 醫院擁有規模龐大的臨床數據，並以標準化臨床路徑管理構築高壁壘。",
+        "Revenue Breakdown": "2025 年核心集團營收約為 225.5 億歐元（不含 FMC 與 Vamed）。其中 Helios 醫院業務貢獻約 135.5 億歐元（佔比約 60%），Kabi 貢獻約 86.1 億歐元（佔比約 38%），其餘為聯屬與其他權益法認列收益。",
+        "Gross Margin Profile": "2025 年集團毛利率約為 24.9%，受醫療服務端人事通膨與供應鏈成本上升影響。獲利結構以 Kabi（EBIT 利率達 16.4%）為高毛利增長引擎，Helios 醫院服務（EBIT 利率約 9.8%）則提供穩定但毛利較低的現金流。",
+        "Key Competitors": "醫院端主要對手為 Asklepios、Sana Kliniken 等歐洲私立醫院集團。藥品與醫材端主要對手包括 Baxter International（百特）、B. Braun（貝朗）與 Sandoz（山德士）。洗腎領域則與 DaVita 競爭。",
+        "12M Catalysts": "核心產品 Tyenne、Otulfi 等生物相似藥在歐美批准放量；FutureFresenius 計劃進入新階段，帶動 2026 全年核心 EPS 預計增長達 10%-15%；去槓桿進展順利，預期淨負債比率降至 2.5x-2.7x，推升信評展望。",
+        "Key Investment Risks": "歐洲醫療人員短缺與薪資高企，將推升 Helios 營運成本並壓縮利潤空間；各國健保預算收緊可能導致藥價與服務給付面臨下調壓力；生物相似藥市場競爭激烈，面臨價格侵蝕與潛在專利訴訟風險。",
+        "CEO & Management": "執行長 Michael Sen 於 2022 年上任，其合約於 2026 年初被延長至 2031 年；財務長 Sara Hennicken 任期至 2027 年；核心子公司 Kabi 與 Helios 分別由 Pierluigi Antonelli 與 Christian Pawlu 主導。",
+        "Core Patents & IP": "擁有 SMOFlipid 臨床多油脂肪乳劑配方與多腔營養袋設計專利；持有 mAbxience 的單株抗體生物相似藥研發專利及 Ivenix 智慧輸液系統專利；並擁有高度標準化的 Helios 醫院病歷數位化管理系統及臨床路徑 IP。",
+        "3-Year M&A": "2023 年底將洗腎子公司 FMC 去併表改採權益法認列，優化資產結構；2024-2025 年分階段清算並出售 Vamed 醫療工程與服務業務；併購方面主要支付 mAbxience 與 Merck KGaA 業務之後續里程碑款項。",
+        "CapEx & Expansion": "集團年資本支出維持在營收 5.5% 左右，優先投向 Kabi 的生物相似藥研發管線與自動化產線升級。同時投資於 Helios 醫院的數位化及 AI 化，包括與 SAP 合作開發 AI 數位醫療生態系統。",
+        "Geopolitical Exposure": "業務以歐洲（德、西）為核心，政治與政策環境極為穩定。然而 Kabi 藥品生產的部分 API 原料依賴亞洲供應鏈，存在中斷風險；美國市場業務易受美國大選與醫療改革政策間接影響。",
+        "M&A Potential": "偏低。去槓桿與維護投資級信評為當前財務首要，淨負債比已降至目標下限。預期 12-24 個月內無大型併購，僅會針對 Kabi 的生物相似藥、臨床營養與醫材領域進行選擇性補強型收購。",
+        "Recent Insider Trading": "無資料 (美股限定)"
+      }
+    }
+  ],
+  "records": [
+    {
+      "12M Catalysts": "塔塔汽車對其每股 14.10 歐元的全現金收購要約因監管審查有所延宕，但隨歐盟審查步入尾聲，預計於 2026 年 9 月初正式啟動並於 11 月初完成交割。此外，與 Stellantis Pro One 合作開發的電動輕型商用車已於 2026 年年中如期進入商業發布與市場推廣階段，成為推動短期營收增長的重要動能。",
+      "Key Investment Risks": "面臨塔塔汽車收購案在歐洲等各國監管審查遞延的風險，雖預期 2026 年 8 月底能取得關鍵批准，但仍具不確定性。此外，儘管客車部門的品質改善與返工成本已於第二季末完成，但歐洲商用車市場整體需求疲軟及成本投入，仍使 2026 年第二季調整後 EBIT 降至 1.31 億歐元，對短期營業利潤率構成壓力。",
+      "3-Year M&A": "集團已於 2026 年 3 月 18 日以 16 億歐元完成將旗下國防陸地車輛部門（IDV 及 ASTRA）出售給 Leonardo，並於同年第二季向股東發放約 15.5 億歐元的特別中期股利。此外，回溯至 2023 年 5 月收購與 Nikola 合資的德國烏爾姆工廠全數股權，藉此深化自主研發 BEV/FCEV 重卡的技術佈局。",
+      "Geopolitical Exposure": "業務目前仍高度集中於歐洲及南美市場，深受歐盟碳排放法規與區域經濟波動影響。隨著 2026 年 3 月完成國防部門出售，已實質降低直接軍事與國防地緣風險；未來若在 11 月完成塔塔汽車的收購，其經營主體將併入跨國集團，推動地緣重心往歐亞戰略整合轉移。",
+      "M&A Potential": "由於塔塔汽車已提出每股 14.10 歐元的全現金收購要約，並預計於 2026 年 11 月完成交割，短期內達成併購下市的機率極高。在此之外，與現代汽車（Hyundai Motor）等戰略盟友在電動輕商車（如 eMoovy）及氫燃料電池重卡技術上的深度合作，未來亦可能促成新的合資企業或技術資產交易。",
+      "Company": "Iveco Group N.V. (IVG.MI)"
+    },
+    {
+      "12M Catalysts": "預計於 2026 年 9 月底召開年度股東大會討論增資方案。目前正就主導候選藥物 varoglutamstat 的糖尿病腎病變 Phase 2b 臨床資金，進行深入的授權合約條款清單談判。此外，某專注於腎臟病領域的專業投資機構正進行獨立評估以尋求潛在投資機會。",
+      "Key Investment Risks": "面臨極高的資金斷鏈與生存風險，截至 2026 年 6 月底現金僅存 240 萬歐元，僅能支撐營運至 2026 年第四季。若目前的授權合約談判或特定投資人評估未能及時轉化為實質資金挹注，公司將面臨清算危機；此外，後續 varoglutamstat 臨床 Phase 2b 研究仍面臨高度的研發失敗與資金消耗風險。",
+      "3-Year M&A": "公司在過去三年內未發生任何重大併購或資產買賣交易。自 2024 年阿茲海默症臨床試驗面臨挫敗後，公司即啟動內部重組與精簡，削減非核心研發項目並裁減團隊規模，以將所有資源集中於糖尿病腎病變治療藥物 varoglutamstat 的研發。",
+      "Geopolitical Exposure": "公司總部設於荷蘭且主要研發業務位於歐洲，面臨的直接地緣政治衝突風險極低。然而，其資金與營運高度依賴歐美生技風險資本，若全球地緣政治局勢動盪引發資本市場降溫或金融緊縮，將顯著增加其獲取關鍵營運資金的融資難度。",
+      "M&A Potential": "具備潛在的被併購或資產授權潛力，目前正與潛在合作方進行 varoglutamstat 的授權條款談判，並接受特定腎臟病投資機構的獨立評估。若其在糖尿病腎病變的臨床潛力與機制獲得合作方認可，未來極有可能透過資產收購或整家公司併購的形式，被大型藥企納入慢性腎臟病研發管線。",
+      "Company": "Vivoryon Therapeutics N.V. (VVY.AS)"
+    },
+    {
+      "12M Catalysts": "「Evonik Tailor Made」重組計劃於2026年6月宣布擴大，在2026年底實現年省4億歐元的首期目標外，將在2027至2029年間額外裁減3,200人；同年7月加碼投資1億美元升級美國Lafayette廠的CDMO產能，且8月因Q2財報表現亮眼而將2026全年EBITDA指引上調至20億至22億歐元。",
+      "Key Investment Risks": "德國本土高昂的能源與原料成本持續削弱歐洲產線的全球競爭力，加上歐盟化學品法規（如PFAS禁令）潛在修訂帶來的合規與替代材料開發成本。此外，動物營養業務（甲硫胺酸）雖於2026年7月完成美國Mobile廠的上下游整合以降低波動，但長期仍面臨市場價格波動及高額資本支出的財務壓力。",
+      "3-Year M&A": "2023年收購Novachem、2024年剝離超吸水性聚合物業務後，公司於2026年6月完成將德國Hanau的醫藥原料生產資產出售給ProChem Group。目前公司仍積極尋求剝離C4化學品、聚酯纖維及SYNEQT等非核心業務，並維持自2024年底至2027年暫停大型收購的去槓桿承諾。",
+      "Geopolitical Exposure": "公司高度暴露於歐盟化學品環保禁令（如REACH法規）風險，因此積極透過美國（Lafayette廠加碼與Mobile廠整合）和亞太產能來分散歐洲本土的製造壓力。此外，中東衝突導致的供應鏈瓶頸使部分亞洲競爭對手受阻，雖在2026年中短期內推升了公司的銷量與定價，但地緣政治緊張局勢仍增添了全球供應鏈的波動風險。",
+      "M&A Potential": "公司明確執行至2027年的大型收購禁令（M&A Moratorium），短期重心完全轉向「Evonik Tailor Made」的內部重組及非核心業務（如C4化學品、SYNEQT）的資產剝離。中長期在財務槓桿降低後，才可能針對綠色化學、生醫載體或先進給藥技術等核心領域進行利基型小型收購。",
+      "Company": "Evonik Industries AG (EVK.DE)"
+    },
+    {
+      "12M Catalysts": "2026年8月公司因第二季核心EPS年增14%之強勁表現，將全年核心EPS成長指引上調至10%-15%；旗下Tyenne與Otulfi等生物相似藥於歐美市場持續放量；去槓桿進展使淨負債比穩定於2.6倍，推動惠譽於2026年8月10日將信評展望調升至「正向」（BBB-）。",
+      "Key Investment Risks": "歐洲醫療人員短缺與薪資通膨持續推升 Helios 營運成本並壓縮利潤；各國健保預算收緊與生物相似藥的激烈競爭帶來價格下行壓力。此外，2026年8月旗下 Kabi 於美國因玻璃微粒問題召回一批 Tyenne 生物相似藥，凸顯品質控管與潛在的法規與訴訟風險。",
+      "3-Year M&A": "繼2023年底將洗腎子公司 FMC 去併表改採權益法認列後，公司已於2026年8月前基本完成對非核心業務 Vamed 的分拆與出售（包含向 Worldwide Hospital Group 出售其國際項目業務）。目前併購活動主要聚焦於支付 mAbxience 和 Merck KGaA 業務的後續里程碑款項。",
+      "Geopolitical Exposure": "業務核心集中於德國與西班牙等歐洲地區，政治與政策環境相對穩定。但旗下 Kabi 藥品生產之部分 API 原料仍依賴亞洲供應鏈，面臨地緣政治引發的斷鏈風險；同時，美國大選與美國醫療保健政策的潛在變動亦將間接影響其北美業務。",
+      "M&A Potential": "併購動能偏低，現階段財務首要仍為去槓桿與維護投資級信評，淨負債比已降至2.6倍的目標區間下限。隨著2026年8月信評展望調升至正向，財務彈性有所提升，但預期未來12-24個月內仍無大型併購，僅針對 Kabi 的生物相似藥、臨床營養與醫療器械進行選擇性補強收購。",
+      "Company": "費森尤斯 (FRE.DE)"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "Maintenance Batch 244 (maintenance, gemini)",
+    "updated": [
+      "Iveco Group N.V. (IVG.MI)",
+      "Vivoryon Therapeutics N.V. (VVY.AS)",
+      "Evonik Industries AG (EVK.DE)",
+      "費森尤斯 (FRE.DE)"
+    ],
+    "claimed": [],
+    "unmatched": [],
+    "rows_exported": 1769
+  }
+}

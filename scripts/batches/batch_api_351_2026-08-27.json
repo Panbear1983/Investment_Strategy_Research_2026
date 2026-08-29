@@ -1,0 +1,61 @@
+{
+  "label": "API Batch 351 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "Sinch AB (SINCH.ST)",
+      "Country": "Sweden",
+      "Industry": "平台經濟",
+      "Tier": ""
+    },
+    {
+      "Company": "Linamar (LNR.TO)",
+      "Country": "Canada",
+      "Industry": "電動車供應鏈與精密製造",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "Canada",
+      "Timeframe": "中長期",
+      "Sub-Sector": "電動車與精密製造",
+      "Industry": "汽車一級供應商與工業機械",
+      "Tier": "隱形冠軍",
+      "Company": "Linamar Corporation (LNR.TO)",
+      "Capital/Market Cap": "約 64.3億加元",
+      "Core Business": "核心業務分為動力與精密製造（Mobility）以及工業機械（Industrial）兩大板塊。前者專注於電動車、混合動力及傳統內燃機的精密加工零部件、變速箱與結構件鑄造；後者則以 Skyjack 高空作業平台和 MacDon/Salford 精密農業設備為主。",
+      "Clients & Orders": "主要客戶為通用汽車（GM）、福特（Ford）、斯泰蘭蒂斯（Stellantis）等全球乘用車龍頭，並為 Workhorse 等商用電動車廠供應電驅橋。2026年上半年在美國市場的新增訂單總額已達到2025年全年的水平，顯示出強勁的業務增長動能。",
+      "Technical Moat": "技術護城河在於強大的垂直整合能力，涵蓋設計、高壓壓鑄、精密加工到最終組裝。透過旗下 eLIN 產品解決方案組，掌握了高度整合的電驅橋（e-Axle）系統與多材質安全電池包外殼設計，並在生產線上部署高密度自動化機器人（每萬名員工達 1,200 台）。",
+      "Revenue Breakdown": "營收主要來自汽車動力與精密製造部門（Mobility），佔總營收約 75% 且在 2026 年第二季年增 20.5% 至 23.6 億加元；工業機械部門（Industrial）則佔比約 25%，受高空作業平台和農業機械需求帶動，單季營收達 7.84 億加元。",
+      "Gross Margin Profile": "2025年全年毛利率為 14.83%，而 2026 年上半年毛利率維持在 14.80% 左右。獲利空間主要受到美國鋼鋁關稅（Section 232）對工業部門的成本衝擊以及匯率波動的壓制，但被汽車精密製造部門的規模效應部分抵消。",
+      "Key Competitors": "在汽車零部件領域的主要競爭對手包括麥格納（Magna）、馬丁瑞亞（Martinrea）、德納（Dana）與博格華納（BorgWarner）。而在工業及高空作業設備領域，則與吉尼（Genie，特雷克斯旗下）及捷爾傑（JLG，豪士科旗下）等品牌直接競爭。",
+      "12M Catalysts": "未來 12 個月的催化劑包括全球主流車廠新一代電動與混動車型平台的零部件量產啟動。此外，2026年新收購的德國 Winning BLW 鍛造廠與 2025 年底收購的 Aludyne 鋁壓鑄資產之產能整合，將進一步貢獻增量利潤。",
+      "Key Investment Risks": "面臨的主要風險為美加雙邊貿易摩擦加劇及關稅政策（如 Section 232 鋼鋁稅）對供應鏈利潤的侵蝕。此外，全球電動車普及速度放緩可能導致已投資的專用產能利用率不足，且汽車與農業機械市場均具有較強的宏觀週期性。",
+      "CEO & Management": "現任總裁兼執行長為 Jim Jarrell，他在 2026 年完成接班，而前執行長 Linda Hasenfratz 則轉任執行主席專注於戰略規劃。財務長為 Dale Schneider，營運長則由 Sam Cocca 於 2026 年 4 月新任，管理層交接平穩且具備豐富的產業經驗。",
+      "Core Patents & IP": "核心專利技術主要由旗下 McLaren Engineering 研發，包括同軸電驅橋（Coaxial e-Axle）的機械結構、輕量化高壓氫氣儲存罐，以及提升電池效率的先進半導體封裝技術。公司擁有多項電驅與高壓壓鑄製程的相關發明專利。",
+      "3-Year M&A": "近三年併購活躍：2026 年 4 月完成德國 Winning BLW 廠的併購以擴充溫鍛與齒輪技術；2025 年底以 3 億美元收購 Aludyne 北美資產及德國 GF 萊比錫鑄造廠以增強鋁/鐵鑄造實力；2024 年則併購 Bourgault 拓展精密農業設備業務。",
+      "CapEx & Expansion": "截至 2026 年中，資本支出承諾額增加至 2.3 億加元，顯示出對新產品線擴建的持續投入。資金主要用於提升工廠自動化程度（推動機器人組裝），並配合車廠需求在中國、印度及巴西等新興市場擴張產能。",
+      "Geopolitical Exposure": "公司採用「在地生產」策略以降低跨洲物流風險，Mobility 部門 90% 以上的營收得益於 USMCA 免稅協議而免受大宗關稅影響。然而，工業部門的鋼鋁材料仍直接承受 Section 232 關稅衝擊，且股價極易受美加雙邊貿易談判的情緒波動影響。",
+      "M&A Potential": "由於帳上流動資金充足（達 20 億加元以上）且自由現金流穩定，具備極高的併購潛力。管理層將持續奉行「收購陷入困境但具技術價值的資產」之策略，藉此加速向機器人、國防及醫療科技等非汽車領域的多樣化轉型。"
+    }
+  ],
+  "failed": [],
+  "requeued": [
+    "Sinch AB (SINCH.ST)"
+  ],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 351 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "Linamar Corporation (LNR.TO)"
+    ],
+    "unmatched": [],
+    "rows_exported": 2275
+  }
+}

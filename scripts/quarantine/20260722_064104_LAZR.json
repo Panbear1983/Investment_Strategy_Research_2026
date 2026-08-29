@@ -1,0 +1,11 @@
+{
+  "item": {
+    "Company": "Luminar Technologies, Inc. (LAZR)",
+    "Country": "USA",
+    "Industry": "電動車"
+  },
+  "problems": [
+    "UNLISTED: Luminar Technologies, Inc.，該公司已於2025年12月申請Chapter 11破產保護，並於2026年4月正式完成清算程序，所有公開發行股份均已被註銷且無價值，目前已非上市狀態並停止營運（主要資產已分別售予Quantum Computing與MicroVision）。"
+  ],
+  "raw": "{\"unlisted\": \"Luminar Technologies, Inc.，該公司已於2025年12月申請Chapter 11破產保護，並於2026年4月正式完成清算程序，所有公開發行股份均已被註銷且無價值，目前已非上市狀態並停止營運（主要資產已分別售予Quantum Computing與MicroVision）。\"}\n"
+}

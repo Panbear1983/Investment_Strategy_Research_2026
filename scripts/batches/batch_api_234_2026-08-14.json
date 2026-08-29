@@ -1,0 +1,61 @@
+{
+  "label": "API Batch 234 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "Redcare Pharmacy N.V. (RDC.DE)",
+      "Country": "Netherlands",
+      "Industry": "平台經濟",
+      "Tier": ""
+    },
+    {
+      "Company": "Merus N.V. (MRUS)",
+      "Country": "Netherlands",
+      "Industry": "生技新藥",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "Netherlands",
+      "Timeframe": "中長期",
+      "Sub-Sector": "醫藥電商平台",
+      "Industry": "醫療保健通路與電商",
+      "Tier": "龍頭股",
+      "Company": "Redcare Pharmacy N.V. (RDC.DE)",
+      "Capital/Market Cap": "約 12.7億歐元 (約 14.3億美元)",
+      "Core Business": "提供處方藥(Rx)、非處方藥(OTC)、化妝品及個人護理產品的線上零售與配送。旗下以 shop-apotheke 等知名品牌在歐洲七國營運，並透過數位平台提供用藥諮詢與慢性病健康管理方案。",
+      "Clients & Orders": "截至 2026 年第二季擁有約 1,470 萬名活躍客戶，年訂單處理量預估超過 4,000 萬筆。主要客戶為西歐與 DACH 地區的終端消費者與有長期用藥需求的慢性病患。",
+      "Technical Moat": "核心技術在於整合德國 Gematik 的 CardLink 近場通訊(NFC)技術，使用戶能以手機掃描電子健康卡進行線上配藥。搭配高度自動化的荷蘭 Sevenum 物流分揀系統與客製化智慧用藥追蹤應用程式，建構高效率配送與用戶高黏著度的數位醫療生態系。",
+      "Revenue Breakdown": "以 2025 年營收(約 29億歐元)為基準，非處方藥(Non-Rx)及個人護理產品約占 65.5%，處方藥(Rx)約占 34.5%。隨著德國 CardLink 電子處方箋普及，處方藥特別是 DACH 地區的 Rx 營收在 2026 年呈現年增逾 50% 的爆發式成長。",
+      "Gross Margin Profile": "2025至2026年毛利率維持在 21.0% 至 24.0% 之間。由於毛利率較低的處方藥營收佔比上升，加上處方藥新客推廣補助與非處方藥市場競爭，整體毛利率呈現短期微幅稀釋，但營運槓桿提升使 EBITDA 獲利率持續改善。",
+      "Key Competitors": "主要競爭對手為瑞士的 DocMorris (DOCM.SW)，雙方針對德語區線上藥局份額展開激烈競爭。此外也面臨德國本土數萬家實體社區藥局，以及試圖切入藥品配送的地區型生鮮或一般電商平台之競爭。",
+      "12M Catalysts": "未來 12 個月的關鍵催化劑為德國強制實施 e-Rezept (電子處方箋)且 CardLink 線上贖回比例進入爆發期，帶動高客單價的慢性病處方藥滲透率大增。此外，荷蘭 Sevenum 自動化物流中心擴建工程的推進將進一步降低每單履約成本。",
+      "Key Investment Risks": "面臨德國與歐盟各國對處方藥補助、價格管制等法規的變動風險。另外，與 DocMorris 的市佔率行銷戰可能導致獲利拐點延後，且消費者對電子處方箋線上操作的信任與習慣培養速度亦可能低於預期。",
+      "CEO & Management": "由 Olaf Heinrich 擔任執行長(CEO)，其在醫藥通路與電商領域擁有超過 20 年的資深經驗；財務長(CFO)為 Jasper Eenhorst。管理團隊當前核心策略為加速德國 e-Rezept 滲透、優化物流自動化及提升自由現金流。",
+      "Core Patents & IP": "擁有 shop-apotheke、Redcare Pharmacy 及 nu3 等多個歐洲註冊品牌之商標權。擁有支援 CardLink 電子處方安全解密與串接的專有軟體架構，以及高度自動化倉儲系統(WCS)的自主開發軟體產權。",
+      "3-Year M&A": "於 2023 年 5 月與瑞士醫藥龍頭 Galenica 完成戰略結盟，將 shop-apotheke.ch 與 MediService AG 合併為合資公司，Redcare 持股 51% 並納入報表；Galenica 隨後於 2024 年將對 Redcare 的持股增至 10% 以深化合作。",
+      "CapEx & Expansion": "2025至2026年為資本支出高峰期(2025年支出約 1.186 億歐元)，主要資金投入於荷蘭 Sevenum 全自動化物流中心的升級與擴建(估 2027 年初完工)，完工後可大幅提高每日出貨量，長期目標使 CapEx 佔營收比例降至 2% 的結構性水準。",
+      "Geopolitical Exposure": "主要營運區域為西歐與德語區國家，政治局勢極度穩定，地緣政治風險極低。主要的政策暴露在於德國衛生部對數位醫療法案的修訂，以及歐盟 GDPR 對病患醫療隱私數據的極高合規要求。",
+      "M&A Potential": "中至高。作為歐洲線上藥局雙雄之一，公司是傳統醫藥巨頭(如 McKesson、Phoenix)在歐洲尋求數位轉型的極佳收購目標，或可能被亞馬遜等大型電商收購；同時公司亦保留未來併購東歐或南歐中小型線上藥商以開拓新市場的彈性。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [
+    "Merus N.V. (MRUS)"
+  ],
+  "summary": {
+    "batch_label": "API Batch 234 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "Redcare Pharmacy N.V. (RDC.DE)"
+    ],
+    "unmatched": [],
+    "rows_exported": 1737
+  }
+}

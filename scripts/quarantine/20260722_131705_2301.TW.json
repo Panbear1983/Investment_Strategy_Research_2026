@@ -1,0 +1,36 @@
+{
+  "item": {
+    "Company": "光寶科 (2301.TW)",
+    "ticker": "2301.TW",
+    "Country": "Taiwan",
+    "Tier": "龍頭股",
+    "values": {
+      "Country": "Taiwan",
+      "Timeframe": "短期",
+      "Sub-Sector": "AI伺服器",
+      "Industry": "電腦及週邊",
+      "Tier": "龍頭股",
+      "Company": "光寶科 (2301.TW)",
+      "Capital/Market Cap": "約 235 億台幣",
+      "Core Business": "生產光電半導體、雲端運算電源供應器、汽車電子及影像輸入/輸出設備。",
+      "Clients & Orders": "NVIDIA (供應 AI 伺服器電源管理系統 Power Shelf)、微軟、Google、戴爾、惠普。",
+      "Technical Moat": "具備 3KW 至 8KW 超高功率密度電源模組開發實力，與高效能散熱及備援電池系統 (BBU) 的整合能力。",
+      "Revenue Breakdown": "雲端及物聯網部門 35%、光電半導體及車用電子 20%、資訊及消費性電子 45%。",
+      "Gross Margin Profile": "穩定維持在 21-23% 左右。",
+      "Key Competitors": "台達電、康舒、群電",
+      "12M Catalysts": "高瓦數 AI 伺服器電源與備援電池模組 (BBU) 出貨放量，以及車用充電樁新單挹注。",
+      "Key Investment Risks": "傳統消費性電子需求疲弱，及受電子材料與期貨銅價波動影響。",
+      "CEO & Management": "宋恭源(創辦人)，現由董事長宋明峰及總經理邱森彬主導，轉型高附加價值產品線，作風務實。",
+      "Core Patents & IP": "擁有高頻開關電源專利、大功率散熱電源基板專利，以及車載電子控制模組軟硬體 IP。",
+      "3-Year M&A": "無重大併購，著重在自建海外廠區及微型軟硬整合研發。",
+      "CapEx & Expansion": "投資數十億台幣擴建越南與高雄二期智慧工廠，實現全球製造產能去風險化。",
+      "Geopolitical Exposure": "生產據點多元佈局台灣、泰國、越南及中國，有效規避中美關稅與地緣政治曝險。",
+      "M&A Potential": "市值巨大且家族色彩穩固，為主要買方，無被併購想像。",
+      "Recent Insider Trading": "無資料 (美股限定)"
+    }
+  },
+  "problems": [
+    "claude -p failed: You've hit your weekly limit · resets Jul 24 at 5pm (Asia/Taipei)"
+  ],
+  "raw": ""
+}

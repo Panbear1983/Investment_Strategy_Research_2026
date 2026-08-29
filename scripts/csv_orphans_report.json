@@ -1,0 +1,1427 @@
+{
+ "generated": "2026-07-27",
+ "count": 203,
+ "orphans": [
+  {
+   "ticker": "6922.TWO",
+   "company_name": "宸曜科技 (6922.TWO)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "8467.TW",
+   "company_name": "波力-KY (8467.TW)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "3025.TW",
+   "company_name": "星通資訊 (3025.TW)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "2328.TW",
+   "company_name": "廣宇 (2328.TW)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "6576.TWO",
+   "company_name": "逸達 (6576.TWO)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "8070.TW",
+   "company_name": "長華 (8070.TW)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "2347.TW",
+   "company_name": "聯強 (2347.TW)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "6605.TW",
+   "company_name": "帝寶 (6605.TW)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "4976.TW",
+   "company_name": "佳凌 (4976.TW)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "3218.TWO",
+   "company_name": "大學光 (3218.TWO)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "PTC",
+   "company_name": "PTC Inc. (PTC)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "S",
+   "company_name": "SentinelOne (S)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "AI",
+   "company_name": "C3.ai (AI)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "6841.T",
+   "company_name": "Yokogawa Electric (6841.T)",
+   "country": "Japan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "4543.T",
+   "company_name": "Terumo Corporation (4543.T)",
+   "country": "Japan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "328130.KQ",
+   "company_name": "Lunit (328130.KQ)",
+   "country": "South Korea",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "0175.HK",
+   "company_name": "吉利汽車 Geely Automobile (0175.HK)",
+   "country": "China",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "WISE.L",
+   "company_name": "Wise plc (WISE.L)",
+   "country": "UK",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "2474.TW",
+   "company_name": "可成科技 (2474.TW)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "4746.TW",
+   "company_name": "台耀化學 (4746.TW)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "3558.TW",
+   "company_name": "神準 (3558.TW)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "5203.TW",
+   "company_name": "訊連 (5203.TW)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "1720.TW",
+   "company_name": "生達 (1720.TW)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "2617.TW",
+   "company_name": "台灣航業 (2617.TW)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "CHPT",
+   "company_name": "ChargePoint Holdings, Inc. (CHPT)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "INCY",
+   "company_name": "Incyte Corporation (INCY)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "MATX",
+   "company_name": "Matson (MATX)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "6254.T",
+   "company_name": "Nomura Micro Science (6254.T)",
+   "country": "Japan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "6134.T",
+   "company_name": "富士機械 Fuji Corporation (6134.T)",
+   "country": "Japan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "3132.T",
+   "company_name": "麥克尼卡控股 (3132.T)",
+   "country": "Japan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "600745.SH",
+   "company_name": "聞泰科技 (600745.SH)",
+   "country": "China",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "002281.SZ",
+   "company_name": "光迅科技 Accelink Technologies (002281.SZ)",
+   "country": "China",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "IPH.PA",
+   "company_name": "Innate Pharma (IPH.PA)",
+   "country": "France",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "2412.TW",
+   "company_name": "中華電信 Chunghwa Telecom (2412.TW)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "3708.TW",
+   "company_name": "上緯投控 (3708.TW)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "9958.TW",
+   "company_name": "世紀鋼 (9958.TW)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "6205.TW",
+   "company_name": "詮欣 (6205.TW)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "3045.TW",
+   "company_name": "台灣大哥大 (3045.TW)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "3504.TW",
+   "company_name": "揚明光 (3504.TW)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "4726.TWO",
+   "company_name": "永昕 (4726.TWO)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "CORZ",
+   "company_name": "Core Scientific (CORZ)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "IREN",
+   "company_name": "Iris Energy (IREN)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "NNE",
+   "company_name": "納諾核能 Nano Nuclear Energy (NNE)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "RBRK",
+   "company_name": "Rubrik (RBRK)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "PACB",
+   "company_name": "Pacific Biosciences (PACB)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "TXG",
+   "company_name": "10x Genomics (TXG)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "6141.T",
+   "company_name": "DMG MORI (6141.T)",
+   "country": "Japan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "128940.KS",
+   "company_name": "Hanmi Pharm (128940.KS)",
+   "country": "South Korea",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "443060.KS",
+   "company_name": "HD Hyundai Marine Solution (443060.KS)",
+   "country": "South Korea",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "2397.TW",
+   "company_name": "友通資訊 (2397.TW)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "2233.TW",
+   "company_name": "宇隆科技 (2233.TW)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "1786.TW",
+   "company_name": "科妍 (1786.TW)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "3548.TW",
+   "company_name": "兆利科技 (3548.TW)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "LII",
+   "company_name": "雷諾士國際 (LII)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "LFUS",
+   "company_name": "利特 Littelfuse (LFUS)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "ST",
+   "company_name": "森薩塔科技 Sensata Technologies (ST)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "6368.T",
+   "company_name": "Organo Corporation (6368.T)",
+   "country": "Japan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "5214.T",
+   "company_name": "日本電氣硝子 Nippon Electric Glass (5214.T)",
+   "country": "Japan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "6516.T",
+   "company_name": "Sanyo Denki Co., Ltd. (6516.T)",
+   "country": "Japan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "074600.KQ",
+   "company_name": "Wonik QnC (074600.KQ)",
+   "country": "South Korea",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "002074.SZ",
+   "company_name": "國軒高科 Gotion High-Tech (002074.SZ)",
+   "country": "China",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "6788.TWO",
+   "company_name": "華景電 (6788.TWO)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "1785.TWO",
+   "company_name": "光洋科 (1785.TWO)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "5309.TWO",
+   "company_name": "系統電 (5309.TWO)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "4563.TWO",
+   "company_name": "百德機械 (4563.TWO)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "2206.TW",
+   "company_name": "三陽工業 (2206.TW)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "2640.TWO",
+   "company_name": "台灣大車隊 (2640.TWO)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "6763.TWO",
+   "company_name": "綠界科技 (6763.TWO)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "EXPE",
+   "company_name": "Expedia Group (EXPE)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "AFRM",
+   "company_name": "Affirm Holdings (AFRM)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "204320.KS",
+   "company_name": "HL Mando (204320.KS)",
+   "country": "South Korea",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "BAYN.DE",
+   "company_name": "Bayer (BAYN.DE)",
+   "country": "Germany",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "2207.TW",
+   "company_name": "和泰汽車 (2207.TW)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "1583.TW",
+   "company_name": "程泰機械 (1583.TW)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "9921.TW",
+   "company_name": "巨大 (9921.TW)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "9914.TW",
+   "company_name": "美利達 (9914.TW)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "6150.TW",
+   "company_name": "撼訊科技 (6150.TW)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "FLEX",
+   "company_name": "Flex Ltd (FLEX)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "TDY",
+   "company_name": "Teledyne Technologies (TDY)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "7269.T",
+   "company_name": "Suzuki Motor Corporation (7269.T)",
+   "country": "Japan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "5108.T",
+   "company_name": "Bridgestone (5108.T)",
+   "country": "Japan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "6622.T",
+   "company_name": "Daihen Corporation (6622.T)",
+   "country": "Japan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "8091.TWO",
+   "company_name": "翔名 (8091.TWO)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "6425.TW",
+   "company_name": "易發 (6425.TW)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "6426.TWO",
+   "company_name": "統新 (6426.TWO)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "6435.TWO",
+   "company_name": "大中 (6435.TWO)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "2425.TW",
+   "company_name": "承啟 (2425.TW)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "1784.TW",
+   "company_name": "訊聯 (1784.TW)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "PLXS",
+   "company_name": "Plexus Corp. (PLXS)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "UTHR",
+   "company_name": "United Therapeutics (UTHR)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "NBIX",
+   "company_name": "Neurocrine Biosciences (NBIX)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "NXT",
+   "company_name": "Nextpower Inc. (NXT)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "DOCN",
+   "company_name": "DigitalOcean Holdings, Inc. (DOCN)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "4105.TW",
+   "company_name": "台灣東洋藥品 (4105.TW)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "AAON",
+   "company_name": "AAON, Inc. (AAON)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "LASR",
+   "company_name": "nLIGHT, Inc. (LASR)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "3402.T",
+   "company_name": "東麗 Toray Industries (3402.T)",
+   "country": "Japan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "4021.T",
+   "company_name": "日產化學 (4021.T)",
+   "country": "Japan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "688521.SH",
+   "company_name": "芯原股份 (688521.SH)",
+   "country": "China",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "688037.SH",
+   "company_name": "芯源微 Kingsemi (688037.SH)",
+   "country": "China",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "PERI",
+   "company_name": "Perion Network Ltd. (PERI)",
+   "country": "Israel",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "ALO.PA",
+   "company_name": "Alstom (ALO.PA)",
+   "country": "France",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "R3NK.DE",
+   "company_name": "RENK Group (R3NK.DE)",
+   "country": "Germany",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "INPST.AS",
+   "company_name": "InPost SA (INPST.AS)",
+   "country": "Netherlands",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "AMG.AS",
+   "company_name": "AMG Critical Materials N.V. (AMG.AS)",
+   "country": "Netherlands",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "BOKU.L",
+   "company_name": "Boku, Inc. (BOKU.L)",
+   "country": "UK",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "7556.TWO",
+   "company_name": "意德士 (7556.TWO)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "6214.TW",
+   "company_name": "精誠資訊 (6214.TW)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "1563.TW",
+   "company_name": "巧新科技 (1563.TW)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "CCJ",
+   "company_name": "Cameco Corporation (CCJ)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "FLR",
+   "company_name": "Fluor Corporation (FLR)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "7014.T",
+   "company_name": "名村造船所 (7014.T)",
+   "country": "Japan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "7003.T",
+   "company_name": "三井E&S控股 (7003.T)",
+   "country": "Japan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "4188.T",
+   "company_name": "三菱化學集團 (4188.T)",
+   "country": "Japan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "358570.KQ",
+   "company_name": "GI Innovation, Inc. (358570.KQ)",
+   "country": "South Korea",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "300394.SZ",
+   "company_name": "天孚通信 (300394.SZ)",
+   "country": "China",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "002241.SZ",
+   "company_name": "歌爾股份 (002241.SZ)",
+   "country": "China",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "CGNT",
+   "company_name": "Cognyte Software (CGNT)",
+   "country": "Israel",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "DLR",
+   "company_name": "Digital Realty Trust (DLR)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "MRCY",
+   "company_name": "Mercury Systems (MRCY)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "4506.T",
+   "company_name": "住友製藥 Sumitomo Pharma (4506.T)",
+   "country": "Japan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "601698.SH",
+   "company_name": "中國衛通 (601698.SH)",
+   "country": "China",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "300024.SZ",
+   "company_name": "新松機器人 Siasun Robot & Automation (300024.SZ)",
+   "country": "China",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "1024.HK",
+   "company_name": "快手科技 Kuaishou Technology (1024.HK)",
+   "country": "China",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "600276.SH",
+   "company_name": "江蘇恆瑞醫藥 Jiangsu Hengrui Pharmaceuticals (600276.SH)",
+   "country": "China",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "2208.TW",
+   "company_name": "台灣國際造船 CSBC Corporation (2208.TW)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "LDOS",
+   "company_name": "Leidos Holdings (LDOS)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "SPOT",
+   "company_name": "Spotify Technology (SPOT)",
+   "country": "Sweden",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "HOOD",
+   "company_name": "Robinhood Markets (HOOD)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "RGTI",
+   "company_name": "Rigetti Computing, Inc. (RGTI)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "TWST",
+   "company_name": "Twist Bioscience (TWST)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "007660.KS",
+   "company_name": "ISU Petasys (007660.KS)",
+   "country": "South Korea",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "600150.SH",
+   "company_name": "中國船舶 (600150.SH)",
+   "country": "China",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "EVTL",
+   "company_name": "Vertical Aerospace (EVTL)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "3552",
+   "company_name": "同致電子 (3552)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "INDI",
+   "company_name": "indie Semiconductor (INDI)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "7974.T",
+   "company_name": "任天堂 (7974.T)",
+   "country": "Japan",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "464A.T",
+   "company_name": "QPS控股（原QPS研究所）QPS Holdings, Inc. (464A.T)",
+   "country": "Japan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "PAYO",
+   "company_name": "Payoneer Global (PAYO)",
+   "country": "Israel",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "BIM.PA",
+   "company_name": "bioMérieux (BIM.PA)",
+   "country": "France",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "OHB.DE",
+   "company_name": "OHB SE (OHB.DE)",
+   "country": "Germany",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "FTC.L",
+   "company_name": "Filtronic (FTC.L)",
+   "country": "UK",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "HIK.L",
+   "company_name": "Hikma Pharmaceuticals (HIK.L)",
+   "country": "UK",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "CAE",
+   "company_name": "CAE Inc (CAE)",
+   "country": "Canada",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "6541.TW",
+   "company_name": "泰福生技 Tanvex BioPharma (6541.TW)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "5233.TWO",
+   "company_name": "有量科技 Amita Technologies (5233.TWO)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "AEVA",
+   "company_name": "Aeva Technologies (AEVA)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "MTRN",
+   "company_name": "Materion Corporation (MTRN)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "186A.T",
+   "company_name": "Astroscale Holdings (186A.T)",
+   "country": "Japan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "7779.T",
+   "company_name": "CYBERDYNE Inc. (7779.T)",
+   "country": "Japan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "099320.KQ",
+   "company_name": "Satrec Initiative 쎄트렉아이 (099320.KQ)",
+   "country": "South Korea",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "NYAX",
+   "company_name": "Nayax Ltd (NYAX)",
+   "country": "Israel",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "LAT.PA",
+   "company_name": "Latécoère S.A. (LAT.PA)",
+   "country": "France",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "KENDR.AS",
+   "company_name": "Kendrion N.V. (KENDR.AS)",
+   "country": "Netherlands",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "CHRT.L",
+   "company_name": "Cohort plc (CHRT.L)",
+   "country": "UK",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "HII",
+   "company_name": "Huntington Ingalls Industries (HII)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "RARE",
+   "company_name": "Ultragenyx Pharmaceutical (RARE)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "3401.T",
+   "company_name": "帝人 (3401.T)",
+   "country": "Japan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "010130.KS",
+   "company_name": "高麗亞鉛 (010130.KS)",
+   "country": "South Korea",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "000725.SZ",
+   "company_name": "京東方科技集團 (000725.SZ)",
+   "country": "China",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "000768.SZ",
+   "company_name": "中航西飛 (000768.SZ)",
+   "country": "China",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "XFAB.PA",
+   "company_name": "X-FAB Silicon Foundries SE (XFAB.PA)",
+   "country": "France",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "SGL.DE",
+   "company_name": "SGL Carbon (SGL.DE)",
+   "country": "Germany",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "JMAT.L",
+   "company_name": "莊信萬豐 Johnson Matthey (JMAT.L)",
+   "country": "UK",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "BWA",
+   "company_name": "BorgWarner Inc. (BWA)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "PLUG",
+   "company_name": "Plug Power (PLUG)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "336370.KS",
+   "company_name": "Solus Advanced Materials 솔루스첨단소재 (336370.KS)",
+   "country": "South Korea",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "ONC",
+   "company_name": "BeOne Medicines 百濟神州 (ONC)",
+   "country": "China",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "ZLAB",
+   "company_name": "再鼎醫藥 (ZLAB)",
+   "country": "China",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "1199.HK",
+   "company_name": "中遠海運港口 (1199.HK)",
+   "country": "China",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "KOG.OL",
+   "company_name": "Kongsberg Gruppen ASA (KOG.OL)",
+   "country": "Norway",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "DELTA.BK",
+   "company_name": "Delta Electronics (Thailand) PCL (DELTA.BK)",
+   "country": "Thailand",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "BLDP",
+   "company_name": "Ballard Power Systems (BLDP)",
+   "country": "Canada",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "GMAB",
+   "company_name": "Genmab (GMAB)",
+   "country": "Denmark",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "VSH",
+   "company_name": "Vishay Intertechnology (VSH)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "4182.T",
+   "company_name": "三菱瓦斯化學 Mitsubishi Gas Chemical (4182.T)",
+   "country": "Japan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "2533.HK",
+   "company_name": "黑芝麻智能 (2533.HK)",
+   "country": "China",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "3362.TWO",
+   "company_name": "先進光 (3362.TWO)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "1609.TW",
+   "company_name": "大亞 (1609.TW)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "1723.TW",
+   "company_name": "中碳 (1723.TW)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "TOST",
+   "company_name": "Toast (TOST)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "ZM",
+   "company_name": "Zoom Video Communications, Inc. (ZM)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "5401.T",
+   "company_name": "Nippon Steel (5401.T)",
+   "country": "Japan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "018260.KS",
+   "company_name": "Samsung SDS (018260.KS)",
+   "country": "South Korea",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "000063.SZ",
+   "company_name": "中興通訊 (000063.SZ)",
+   "country": "China",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "PLTK",
+   "company_name": "Playtika Holding Corp. (PLTK)",
+   "country": "Israel",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "KPN.AS",
+   "company_name": "KPN (KPN.AS)",
+   "country": "Netherlands",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "3548.TWO",
+   "company_name": "兆利 (3548.TWO)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "4119.TW",
+   "company_name": "旭富 (4119.TW)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "4123.TWO",
+   "company_name": "晟德 (4123.TWO)",
+   "country": "Taiwan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "IOVA",
+   "company_name": "Iovance Biotherapeutics (IOVA)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "020150.KS",
+   "company_name": "Lotte Energy Materials Corporation (020150.KS)",
+   "country": "South Korea",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "145020.KQ",
+   "company_name": "Hugel, Inc. (145020.KQ)",
+   "country": "South Korea",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "000625.SZ",
+   "company_name": "長安汽車 (000625.SZ)",
+   "country": "China",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "P911.DE",
+   "company_name": "Porsche AG (P911.DE)",
+   "country": "Germany",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "ARWR",
+   "company_name": "Arrowhead Pharmaceuticals (ARWR)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "update_due"
+  },
+  {
+   "ticker": "EXEL",
+   "company_name": "Exelixis (EXEL)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "PSNY",
+   "company_name": "Polestar Automotive (PSNY)",
+   "country": "USA",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "4151.T",
+   "company_name": "協和麒麟 (4151.T)",
+   "country": "Japan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "5334.T",
+   "company_name": "Niterra Co., Ltd. (5334.T)",
+   "country": "Japan",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "GDS",
+   "company_name": "萬國數據控股 GDS Holdings (GDS)",
+   "country": "China",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "VNET",
+   "company_name": "世紀互聯 VNET Group (VNET)",
+   "country": "China",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  },
+  {
+   "ticker": "3888.HK",
+   "company_name": "金山軟件 (3888.HK)",
+   "country": "China",
+   "research_status": "deep_researched",
+   "maintenance_status": "not_due"
+  }
+ ]
+}

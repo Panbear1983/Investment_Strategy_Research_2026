@@ -1,0 +1,232 @@
+{
+    "backend": "cli",
+    "cli_command": "agy",
+    "cli_extra_args": [
+        "--mode",
+        "plan",
+        "--print-timeout",
+        "9m0s"
+    ],
+    "model": "Gemini 3.5 Flash (High)",
+    "claude_command": "claude",
+    "claude_args": [
+        "--tools",
+        "WebSearch",
+        "--permission-mode",
+        "bypassPermissions",
+        "--setting-sources",
+        "",
+        "--model",
+        "sonnet"
+    ],
+    "codex_command": "codex",
+    "codex_model": "",
+    "provider_fallback_order": [
+        "gemini",
+        "claude",
+        "codex"
+    ],
+    "provider_low_budget_threshold": 0.1,
+    "daily_discovery_attempt_budget": 24,
+    "daily_empty_discovery_limit": 6,
+    "discovery_focus_rotation": [
+        [
+            "Japan",
+            ""
+        ],
+        [
+            "South Korea",
+            ""
+        ],
+        [
+            "Germany",
+            ""
+        ],
+        [
+            "USA",
+            "生技新藥"
+        ],
+        [
+            "Netherlands",
+            ""
+        ],
+        [
+            "France",
+            ""
+        ],
+        [
+            "Israel",
+            ""
+        ],
+        [
+            "Taiwan",
+            "航太與國防"
+        ],
+        [
+            "UK",
+            ""
+        ],
+        [
+            "Sweden",
+            ""
+        ],
+        [
+            "Canada",
+            ""
+        ],
+        [
+            "Singapore",
+            ""
+        ]
+    ],
+    "batch_size": 20,
+    "retry_slots_per_batch": 10,
+    "maintenance_screen_group_size": 20,
+    "maintenance_screen_groups_per_slot": 4,
+    "maintenance_cadence_days": {
+        "leader": 7,
+        "second_leader": 7,
+        "potential": 14,
+        "hidden_champion": 14,
+        "supporting": 28,
+        "minor_supplier": 28,
+        "unknown": 28
+    },
+    "schedule": [
+        [
+            "00:30",
+            "gemini"
+        ],
+        [
+            "01:42",
+            "claude"
+        ],
+        [
+            "02:54",
+            "gemini"
+        ],
+        [
+            "04:06",
+            "claude"
+        ],
+        [
+            "05:18",
+            "gemini"
+        ],
+        [
+            "06:30",
+            "claude"
+        ],
+        [
+            "07:42",
+            "gemini"
+        ],
+        [
+            "08:54",
+            "claude"
+        ],
+        [
+            "10:06",
+            "gemini",
+            "maintenance"
+        ],
+        [
+            "11:18",
+            "claude"
+        ],
+        [
+            "12:30",
+            "gemini"
+        ],
+        [
+            "13:42",
+            "claude",
+            "maintenance"
+        ],
+        [
+            "14:54",
+            "gemini"
+        ],
+        [
+            "16:06",
+            "claude"
+        ],
+        [
+            "17:18",
+            "codex"
+        ],
+        [
+            "18:30",
+            "gemini"
+        ],
+        [
+            "19:42",
+            "codex"
+        ],
+        [
+            "20:54",
+            "claude"
+        ],
+        [
+            "22:06",
+            "codex"
+        ],
+        [
+            "23:18",
+            "codex"
+        ]
+    ],
+    "delay_seconds": 10,
+    "daily_call_budgets": {
+        "gemini": 160,
+        "claude": 150,
+        "codex": 80
+    },
+    "max_retries": 2,
+    "industry_themes": [
+        "AI伺服器",
+        "半導體",
+        "矽光子",
+        "先進封裝",
+        "低軌衛星",
+        "電動車",
+        "先進機器人",
+        "生技",
+        "航太",
+        "國防",
+        "航運",
+        "平台經濟",
+        "電子零組件",
+        "光學",
+        "光通訊",
+        "記憶體",
+        "設備",
+        "材料",
+        "散熱",
+        "液冷",
+        "網通",
+        "面板",
+        "資安",
+        "能源",
+        "金融",
+        "消費",
+        "醫療",
+        "化工",
+        "機械",
+        "汽車",
+        "軟體",
+        "雲端"
+    ],
+    "industry_thin_floor": 10,
+    "industry_window_days": 7,
+    "video_summary_daily_cap": 20,
+    "discovery_slice_strikes": 2,
+    "discovery_slice_cooldown_days": 7,
+    "discovery_slice_cooldown_cap_days": 56,
+    "video_daily_cap_per_user": 5,
+    "whisper_enabled": true,
+    "whisper_model_path": "~/.local/share/whisper-models/ggml-large-v3-turbo.bin",
+    "whisper_language": "auto",
+    "whisper_realtime_factor": 8.0,
+    "video_chunk_chars": 40000
+}

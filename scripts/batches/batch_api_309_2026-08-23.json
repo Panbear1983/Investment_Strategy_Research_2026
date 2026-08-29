@@ -1,0 +1,61 @@
+{
+  "label": "API Batch 309 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "Acomo N.V. (ACOMO.AS)",
+      "Country": "Netherlands",
+      "Industry": "全球供應鏈",
+      "Tier": ""
+    },
+    {
+      "Company": "Sligro Food Group N.V. (SLIGR.AS)",
+      "Country": "Netherlands",
+      "Industry": "全球供應鏈",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "Netherlands",
+      "Timeframe": "中長期",
+      "Sub-Sector": "特色食品與有機原料",
+      "Industry": "全球食品原料貿易與加工",
+      "Tier": "隱形冠軍",
+      "Company": "Acomo N.V. (ACOMO.AS)",
+      "Capital/Market Cap": "約 7.0億歐元",
+      "Core Business": "主要從事全球植物性食品原料的採購、加工、混配與分銷，業務涵蓋香料與堅果、食用種子、有機原料、茶葉及高附加價值的食品解決方案。公司採取去中心化的營運模式，由各專業子公司獨立運作以靈活應對市場變化。",
+      "Clients & Orders": "主要客戶為全球食品與飲料製造商、大型零售包裝商、餐飲服務商以及批發商。訂單以客製化混配原料及中長期供應合約為主，並提供供應鏈溯源與庫存管理服務。",
+      "Technical Moat": "核心優勢在於去中心化的全球採購與加工網絡，具備高度合規的有機與可持續認證體系。公司亦積極布建地理定位追蹤系統，以因應 2026 年底實施的歐盟毀林法案（EUDR）合規要求。",
+      "Revenue Breakdown": "2026年第一季營收達3.64億歐元。其中香料與堅果佔40%（1.45億歐元）、有機原料佔35%（1.29億歐元）、食用種子佔16%（5,890萬歐元）、茶葉佔7%（2,620萬歐元）、食品配方溶液佔2%（640萬歐元）。",
+      "Gross Margin Profile": "2025年集團總營收達14.6億歐元，調整後EBITDA利潤率提升至8.1%。中長期目標透過高毛利客製化調配業務與營運效率優化，將集團EBITDA利潤率推申至9.0%（估）。",
+      "Key Competitors": "主要競爭對手包括新加坡大型農產品與香料巨頭 Olam Group、美國原料解決方案供應商 Ingredion、歐洲糖業與食品集團 Südzucker，以及各原料細分領域的專業中小型貿易商。",
+      "12M Catalysts": "未來12個月催化劑包括近期收購的 Manuzzi、Citromil 及 Cublend 業務整合與協同效應釋放。此外，美國自建果汁加工設施預計於 2027 年初啟用，有助於 Organic 業務重拾利潤率，且紅海地緣政治風險若降溫將能舒緩茶葉部門的物流成本壓力。",
+      "Key Investment Risks": "淨負債/EBITDA槓桿率截至2026年中仍達2.9倍，高於2.5倍目標，面臨融資成本與去槓桿壓力。此外，可可等大宗商品價格劇烈波動易增加營運資金負擔，且紅海航運危機與2026年底即將落地的EUDR法規也增加合規與物流風險。",
+      "CEO & Management": "由 Allard Goldschmeding 擔任執行長（CEO，2025年由原CFO接任），Mirjam van Thiel 擔任財務長（CFO）。管理階層實行去中心化子公司自治與總部輕量化風險控管，著重於整合收購項目與優化資產負債表。",
+      "Core Patents & IP": "作為貿易與加工服務商，未持有大量核心技術發明專利。其核心智慧財產權主要為 Tradin Organic 及 Catz 等子品牌的市場聲譽商標，以及高毛利食品配方的獨家調配比例與全球供應鏈溯源資料系統（估）。",
+      "3-Year M&A": "近三年積極進行策略性資產收購。2025年底收購義大利堅果商 Manuzzi 擴大南歐市場；2026年中收購西班牙有機柑橘商 Citromil 以強化有機原料部門，並收購荷蘭 Cublend 和 Kubernete 擴展食品配方高毛利板塊。",
+      "CapEx & Expansion": "資本支出聚焦於策略性收購與產能升級，包括在美自建果汁加工廠以轉向在岸加工（預計2027年初啟用）。另外，在中國設立新辦公室以擴展亞太足跡，並推動茶葉部門重組為集中式商業中心以提升運作效率。",
+      "Geopolitical Exposure": "由於供應鏈遍布非洲、亞洲與拉美等新興市場，極易受極端氣候與產地法規變動影響。近期紅海地緣衝突顯著增加茶葉部門的運費成本與航行時間，成為短期主要地緣政治威脅。",
+      "M&A Potential": "作為產業整合者，長期具備持續收購中小型互補性原料商的潛力。然而，短期受限於2.9倍的偏高槓桿率，預計公司將優先透過庫存去化與盈餘去槓桿，在槓桿降至2.5倍以下後才重啟大規模收購（估）。"
+    }
+  ],
+  "failed": [],
+  "requeued": [
+    "Sligro Food Group N.V. (SLIGR.AS)"
+  ],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 309 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "Acomo N.V. (ACOMO.AS)"
+    ],
+    "unmatched": [],
+    "rows_exported": 2112
+  }
+}

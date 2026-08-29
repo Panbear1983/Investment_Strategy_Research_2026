@@ -1,0 +1,53 @@
+{
+  "label": "API Batch 391 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "騰雲科技 (6870.TWO)",
+      "Country": "Taiwan",
+      "Industry": "金融科技/新興市場支付",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "Taiwan",
+      "Timeframe": "中長期",
+      "Sub-Sector": "智慧場域 AI 基礎設施",
+      "Industry": "資訊服務業",
+      "Tier": "潛力股",
+      "Company": "騰雲科技 (6870.TWO)",
+      "Capital/Market Cap": "實收資本額約 2.8 億新台幣，市值約 71 億至 72 億新台幣。",
+      "Core Business": "提供整合客流、商流、金流的智慧場域一站式解決方案，以 TSpace 平台與 AI OS 為核心，協助零售商場、商辦及保險科技進行數位轉型。",
+      "Clients & Orders": "主要客群包括三井 Outlet、永旺集團等大型百貨商場與連鎖通路；截至 2026 年初在手訂單逾 5 億元新台幣，預計於 12 至 18 個月內陸續執行完成並認列營收。",
+      "Technical Moat": "以自研 AI OS 與 TSpace 平台為核心，整合 AI Agent 數位員工、AI 中台與資料治理技術，具備高度模組化、跨國多雲部署與高 API 整合壁壘。",
+      "Revenue Breakdown": "以一站式雲端數位轉型軟體授權與 SolaaS 服務為核心；2025 年海外營收佔比達 41%（以日本、東南亞為主，目標 1-2 年內達 50%），經常性收入目標於 2031 年達 90%。",
+      "Gross Margin Profile": "高軟體與雲端訂閱屬性帶動高毛利表現，整體毛利率長期維持在 70% 左右的高檔，2026 年第二季單季毛利率因高毛利軟體服務貢獻擴大進一步攀升至 74%。",
+      "Key Competitors": "在大型實體商場轉型領域具備獨特優勢，與精誠資訊（系統整合）、綠界科技（金流支付）、91APP（電商 OMO 平台）等在部分業務或客群上存在競合關係。",
+      "12M Catalysts": "海外（日本、東南亞）專案貢獻放大且營收占比預期過半；嵌入式保險科技（Insurtech）數位產險平台服務正式落地商用；TSpace 平台拓展至智慧商辦與住宅等新場域。",
+      "Key Investment Risks": "海外市場擴張進度若不如預期將影響成長增速；高階 AI 與軟體研發人才招募困難且研發支出上升；總體經濟波動可能影響零售客戶數位轉型資本支出。",
+      "CEO & Management": "由董事長兼總經理梁基文與執行副總經理張婷婷夫妻檔共同創辦與領導，兩人在零售科技與系統整合領域擁有豐富的產業與市場開發實戰經驗。",
+      "Core Patents & IP": "擁有「OLink 服務平台」專利與「桌上型自助結帳系統」新型專利，並針對 TSpace 系統與 AI Agent 等核心架構持續佈局專利與商標權保護。",
+      "3-Year M&A": "2026 年策略投資新加坡金融科技 Craft AI 並取得約 20.1% 股權；2025 年共同成立數位保險公司並投資創投基金；2023-2024 年策略投資日本數位體驗領導品牌 beBit 集團。",
+      "CapEx & Expansion": "資本支出主要投入研發與海外子公司（日本、泰國、馬來西亞）設立，積極與日商 VINX、Hitachi Solutions 等策略結盟以快速擴張海外智慧空間基礎設施。",
+      "Geopolitical Exposure": "主要業務位於台灣、日本與東南亞，受地緣政治直接衝突風險較低，但跨境擴展需符合各國對於金融法規、個人隱私與數據落地之合規限制。",
+      "M&A Potential": "具備雙向併購與合作潛力，一方面透過策略投資與併購（如 beBit、Craft AI）加速生態系擴張，另一方面也因其在亞太零售科技的獨特定位，具備被大型系統整合商或日商戰略參股的潛力。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 391 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "騰雲科技 (6870.TWO)"
+    ],
+    "unmatched": [],
+    "rows_exported": 2572
+  }
+}

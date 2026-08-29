@@ -1,0 +1,36 @@
+{
+  "item": {
+    "Company": "欣興 (3037.TW)",
+    "ticker": "3037.TW",
+    "Country": "Taiwan",
+    "Tier": "龍頭股",
+    "values": {
+      "Country": "Taiwan",
+      "Timeframe": "短期",
+      "Sub-Sector": "高階PCB/CCL",
+      "Industry": "電子零組件",
+      "Tier": "龍頭股",
+      "Company": "欣興 (3037.TW)",
+      "Capital/Market Cap": "約 152 億台幣",
+      "Core Business": "研發與生產高密度連接板(HDI)、多層印刷電路板(PCB)及高階 ABF/BT 載板(IC Substrate)。",
+      "Clients & Orders": "NVIDIA (AI晶片核心載板主供)、AMD、Intel、蘋果，為全球先進封裝載板第一梯隊。",
+      "Technical Moat": "掌握大面積、超多層 (18層以上) ABF 載板技術，其微盲孔與高對準度製程是 AI GPU 封裝的核心關卡。",
+      "Revenue Breakdown": "IC載板 60%、HDI板 25%、傳統多層板與其他 15%。",
+      "Gross Margin Profile": "約 22-25% 區間 (高階載板比重拉升可進一步推高毛利)。",
+      "Key Competitors": "南電、景碩、Ibiden、Shinko",
+      "12M Catalysts": "AI 晶片尺寸變大及 CoWoS 封裝需求爆發，帶動大面積 ABF 載板價格與出貨成長。",
+      "Key Investment Risks": "傳統 PC 與消費型晶片載板去庫存慢於預期，及新產能開出後折舊費用侵蝕利潤。",
+      "CEO & Management": "曾子章(董事長)具備豐富的半導體與載板實務經驗，風格沉穩長線，主導百億級資本支出佈局。",
+      "Core Patents & IP": "擁有大面積 ABF 載板翹曲調控專利、微型盲孔雷射加工製程專利，及高階 HDI 內埋元件專利。",
+      "3-Year M&A": "與集團旗下子公司策略整合，無跨國敵意收購。",
+      "CapEx & Expansion": "年資本支出高達數百億台幣，主要投入桃園楊梅高階載板專用智慧廠房及泰國新廠建置。",
+      "Geopolitical Exposure": "泰國廠建置完成並投產，有效迎合美系客戶去風險化，降低地緣政治單點斷鏈曝險。",
+      "M&A Potential": "聯電集團旗下的載板與 PCB 核心，集團持股穩固，無被收購疑慮。",
+      "Recent Insider Trading": "無資料 (美股限定)"
+    }
+  },
+  "problems": [
+    "claude -p failed: You've hit your weekly limit · resets Jul 24 at 5pm (Asia/Taipei)"
+  ],
+  "raw": ""
+}

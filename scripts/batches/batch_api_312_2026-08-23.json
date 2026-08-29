@@ -1,0 +1,53 @@
+{
+  "label": "API Batch 312 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "Sligro Food Group N.V. (SLIGR.AS)",
+      "Country": "Netherlands",
+      "Industry": "全球供應鏈",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "Netherlands",
+      "Timeframe": "中長期",
+      "Sub-Sector": "餐飲批發與食品物流供應鏈",
+      "Industry": "全球供應鏈與食品配送批發業",
+      "Tier": "龍頭股",
+      "Company": "Sligro Food Group N.V. (SLIGR.AS)",
+      "Capital/Market Cap": "約 5.5 億美元（約合 4.8 億歐元）",
+      "Core Business": "主要在荷比盧地區提供食品與非食品類產品的批發與冷鏈物流配送服務。公司透過自助商場與直接配送雙軌模式，為餐飲服務業及企業客戶提供全方位供應鏈方案。",
+      "Clients & Orders": "服務對象涵蓋荷蘭與比利時的餐廳、酒店、咖啡廳、企業團膳及機構廚房。訂單主要來自數位採購平台配送訂單，以及實體批發商場的現場採購。",
+      "Technical Moat": "在荷比盧地區建立極高密度的冷鏈物流配送網絡，展現規模經濟優勢。目前正推動 SAP ERP 系統升級與 AI 驅動的路線優化系統，提升數位供應鏈的營運效率。",
+      "Revenue Breakdown": "2025年總營收達 26.68 億歐元，其中荷蘭市場營收占絕對主導地位，比利時市場次之。隨公司於2025年起全面終止菸草銷售，業務組合已全面聚焦高毛利的餐飲食品配送。",
+      "Gross Margin Profile": "2025年受惠於終止菸草銷售及產品組合優化，毛利率回升至 26.5% 以上。全年淨利潤提升至 3,000 萬歐元，營運利潤達 5,400 萬歐元，成本控管與利潤修復成效顯著。",
+      "Key Competitors": "在荷比盧市場的主要競爭對手包括跨國餐飲批發龍頭 Bidfood、德商麥德龍（Metro Cash & Carry）、Hanos 以及 Lekkerland。",
+      "12M Catalysts": "主要催化劑包括比利時 Sligro-M 門店（前 METRO 門店）完成整合並實現轉虧為盈。此外，新 ERP 系統的全面推行及 AI 導入後的結構性成本削減，將推動利潤率持續修復。",
+      "Key Investment Risks": "面臨歐洲勞動力短缺引發的工資上漲壓力，以及能源與運輸物流成本波動。此外，消費者信心不振與餐飲業破產率上升可能限制配送量成長，比利時業務整合速度若慢於預期亦會壓抑獲利。",
+      "CEO & Management": "自 2008 年起由 Koen Slippens 擔任執行長兼董事會主席，經營作風穩健。目前帶領管理團隊推行 2026–2030 中長期戰略，專注於提升比利時業務利潤率與推動營運自動化。",
+      "Core Patents & IP": "主要依賴「Sligro」與「Sligro-M」等知名品牌商標，以及多個自有品牌（Private Labels）的智慧財產權與專有物流配送調度軟體。（估）",
+      "3-Year M&A": "2023年以 4,700 萬歐元收購比利時 METRO 多數店面以擴大比利時市占，並於 2025 年 6 月收購烏得勒支的家族餐飲批發商 GEPU，持續鞏固區域龍頭地位。",
+      "CapEx & Expansion": "年度資本支出預計維持在營收的 2.5% 左右（2025年約 7,600 萬歐元），主要用於比利時配送網絡整合、SAP 系統升級與倉儲自動化。同時搭配 2026 年完成的多期股票回購計畫，回饋股東。",
+      "Geopolitical Exposure": "業務幾乎全數集中於荷比盧地區，直接受全球地緣政治衝突的影響極低。然而，高度暴露於歐盟內部能源價格波動及綠色交通（低碳配送）法規限制，且供應鏈易受歐洲食品進口政策與關稅影響。",
+      "M&A Potential": "作為區域領導者，具備持續收購荷比盧中小型地方餐飲批發商的整合潛力。雖然創辦人 Slippens 家族持股比例高降低了被惡意併購的機率，但仍可能吸引尋求歐洲版圖的全球零售巨頭進行策略性結盟或收購。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 312 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "Sligro Food Group N.V. (SLIGR.AS)"
+    ],
+    "unmatched": [],
+    "rows_exported": 2113
+  }
+}

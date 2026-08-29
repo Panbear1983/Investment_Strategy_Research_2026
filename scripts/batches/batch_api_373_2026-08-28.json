@@ -1,0 +1,151 @@
+{
+  "label": "API Batch 373 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "Cardiol Therapeutics Inc. (CRDL.TO)",
+      "Country": "Canada",
+      "Industry": "生技新藥",
+      "Tier": ""
+    },
+    {
+      "Company": "Algoma Central Corporation (ALC.TO)",
+      "Country": "Canada",
+      "Industry": "航運",
+      "Tier": ""
+    },
+    {
+      "Company": "Canadian Pacific Kansas City Limited (CP.TO)",
+      "Country": "Canada",
+      "Industry": "航運",
+      "Tier": ""
+    },
+    {
+      "Company": "Blackline Safety Corp. (BLN.TO)",
+      "Country": "Canada",
+      "Industry": "先進機器人",
+      "Tier": ""
+    },
+    {
+      "Company": "CSE Global Limited (544.SI)",
+      "Country": "Singapore",
+      "Industry": "先進機器人",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "Canada",
+      "Timeframe": "中長期",
+      "Sub-Sector": "生技新藥",
+      "Industry": "生技製藥",
+      "Tier": "潛力股",
+      "Company": "Cardiol Therapeutics Inc. (CRDL.TO)",
+      "Capital/Market Cap": "約 3.6億加元",
+      "Core Business": "致力於開發治療炎症和纖維化心臟病（如復發性心包炎和急性心肌炎）的創新抗炎藥物，核心候選藥物 CardiolRx™ 為口服大麻二酚製劑。公司亦同步開發用於治療心力衰竭的次世代皮下注射新藥 CRD-38。",
+      "Clients & Orders": "目前為臨床開發階段公司，尚無商業銷售與客戶訂單。現階段主要合作夥伴為全球臨床試驗合作機構與學術中心，估計全球合作臨床中心約 25 家，臨床受試者規模約 110 人。",
+      "Technical Moat": "核心技術在於利用高純度藥用級大麻二酚（CardiolRx™）精準調控 NLRP3 炎性小體通路，具有獨特的非免疫抑制性抗炎與抗纖維化機制。此外，其研發的次世代皮下注射劑型 CRD-38 可顯著提升生物利用度，且產品已獲得美國 FDA 用於心包炎的孤兒藥資格認定。",
+      "Revenue Breakdown": "目前無商品化營收（營收為 0）；營運資金主要依靠資本市場的私募與公開發行新股來籌集。現階段主要支出為研發與臨床試驗費用（估 2025-2026 年研發費用約為 1,000萬至 1,500萬美元）。",
+      "Gross Margin Profile": "由於目前無商業化產品銷售，毛利率為不適用（0%）。預計在未來產品獲批上市並開展商業化或特許權授權後，方能建立穩定的毛利率指標（估未來商業化毛利率可達 70% 至 80%）。",
+      "Key Competitors": "主要競爭對手為 Kiniksa Pharmaceuticals，其研發的 Arcalyst 為目前唯一獲 FDA 批准用於復發性心包炎的 IL-1 抑制劑。此外，亦與研發同類 NLRP3 炎性小體抑制劑的其他全球生技製藥公司競爭。",
+      "12M Catalysts": "預計於 2026 年下半年完成 MAVERIC-Phase III 臨床試驗的患者招募並隨後公佈關鍵數據。基於已發表的 ARCHER-Phase II 正面結果，公司亦將持續推進急性心肌炎治療的後續研發，並規劃推動 CRD-38 申報首次人體臨床試驗（IND）。",
+      "Key Investment Risks": "面臨核心候選藥物 MAVERIC-Phase III 臨床試驗若未達主要療效終點的研發失敗風險。此外，雖現有資金可支撐至 2027 年第三季，但後續商業化仍需大量資金，存在增發新股的股權稀釋風險。最後，市場已有對手 Arcalyst 取得先發優勢，面臨商業化競爭風險。",
+      "CEO & Management": "總經理兼執行長 David Elsley 擁有超過30年心血管藥物研發與商業化經驗（曾創立 Vasogen）。研發長兼首席醫學官 Andrew Hamer 與董事會成員均來自跨國藥企，具備豐富的臨床開發與法規申報經驗。",
+      "Core Patents & IP": "持有多項全球專利保護大麻二酚治療心血管疾病的特定配方、製備工藝及在降低心肌炎症與纖維化中的應用，保護期已獲准延長至 2040 年代後期。核心專利與技術平台為公司建立起穩固的智慧財產權壁壘。",
+      "3-Year M&A": "過去三年無任何併購或重組交易，公司專注於核心候選藥物 CardiolRx™ 及皮下注射劑型 CRD-38 的臨床開發。公司融資主要通過資本市場發行新股或私募完成。",
+      "CapEx & Expansion": "目前無自行建置生產廠房的重大資本支出（CapEx為 0），採用輕資產委外模式，由 Dalton Pharma Services 等合約開發暨製造組織 (CDMO) 負責 CardiolRx™ 活性藥物成分與成品的生產。資金募集全數用於推進研發、臨床試驗運行與一般營運資金。",
+      "Geopolitical Exposure": "地緣政治風險極低。公司總部位於加拿大，臨床試驗與專利主要分佈於北美及歐洲，製藥原料與製造外包均在加拿大及美國進行，不易受全球地緣政治緊張或供應鏈脫鉤影響。",
+      "M&A Potential": "具有中高程度的潛在被併購機會（估）。一旦核心候選藥物 CardiolRx™ 在復發性心包炎的 Phase III 臨床試驗中取得正面結果，其口服便利性與非免疫抑制機制將使其成為布局心血管與罕見病領域之大型跨國藥企的理想收購或授權合作對象。"
+    },
+    {
+      "Country": "Canada",
+      "Timeframe": "中長期",
+      "Sub-Sector": "五大湖與海洋特種航運",
+      "Industry": "航運業",
+      "Tier": "隱形冠軍",
+      "Company": "Algoma Central Corporation (ALC.TO)",
+      "Capital/Market Cap": "約 10億加幣",
+      "Core Business": "在北美五大湖及聖羅蘭水道經營最大的加拿大籍乾散貨船隊，並提供全球液體散貨油輪與海洋自卸船運輸服務。",
+      "Clients & Orders": "主要客戶包括 Irving Oil 等大型能源與精煉公司、鋼鐵製造商、農業出口商及鹽業公司；2026年擁有 13 艘在建新船訂單以持續更新船隊。",
+      "Technical Moat": "擁有與 Deltamarin 共同研發之 Equinox 與 Equinox 2.0 級別高效節能船隻，極大化通過五大湖船閘的載運量，並配備領先的排煙脫硫洗滌器與雙舵高效推進系統。",
+      "Revenue Breakdown": "2026年第二季營收中，國內乾散貨運輸（Domestic Dry-Bulk）佔約 56%、海洋自卸船（Ocean Self-Unloaders）佔約 22%、精煉液體油輪（Product Tankers）佔約 22%。",
+      "Gross Margin Profile": "毛利率表現極高，維持在 88% 至 89% 之間（資料庫依據營收扣除直接變動成本估算）；2025年淨利率達 18.79%，2026年上半年則提升至 20.68% 左右。",
+      "Key Competitors": "加拿大輪船公司（CSL Group）、McKeil Marine、Desgagnés 與 Lower Lakes Towing 等北美五大湖航運業者。",
+      "12M Catalysts": "五大湖航行季節的冰封期解凍與航道開放進度、加拿大與美國秋季穀物豐收運輸需求，以及 2026 年新收購的 Mainstay Maritime 船隊併網營運效應。",
+      "Key Investment Risks": "五大湖冬季結冰導致每年 1 至 3 月停航的季節性風險、國際燃油價格波動、脫碳環保法規與壓艙水排放標準趨嚴帶來的合規成本。",
+      "CEO & Management": "總裁暨執行長為 Gregg A. Ruhl，自 2015 年加入公司並於 2019 年升任 CEO，具備深厚的航運技術與營運管理背景。",
+      "Core Patents & IP": "未持有大量硬體專利，主要保護品牌資產如 2024 年註冊之「MARINE CARRIER OF CHOICE」商標，並持續研究風力輔助與甲醇動力等前瞻航運技術。",
+      "3-Year M&A": "2026年2月簽約收購 Mainstay Maritime 旗下三家加拿大營運公司及六艘散貨船；2025年與 Irving Oil 合作引進兩艘新油輪；並與瑞典 Furetank 成立 FureBear 合資企業建造雙燃料液體散貨船。",
+      "CapEx & Expansion": "持續進行大規模的船隊更新與低碳化改裝，截至 2026 年初擁有 13 艘在建新船，並於 2026 年第二季增持海洋自卸船聯營池（Ocean Pool）股權至 50%。",
+      "Geopolitical Exposure": "主要營運範圍為北美五大湖與美加跨境貿易，受全球地緣政治衝突（如紅海或蘇伊士運河危機）的直接衝擊極低，但仍受美加貿易政策及北美自由貿易協定影響。",
+      "M&A Potential": "高，公司財務結構穩健且甫於 2026 年完成債務再融資，未來可能進一步透過合資企業（如 FureBear）或併購區域性中小型航運公司來擴大運力。"
+    },
+    {
+      "Country": "Canada",
+      "Timeframe": "中長期",
+      "Sub-Sector": "跨國鐵路物流",
+      "Industry": "工業（鐵路運輸）",
+      "Tier": "龍頭股",
+      "Company": "Canadian Pacific Kansas City Limited (CP.TO)",
+      "Capital/Market Cap": "約 835 億美元",
+      "Core Business": "經營連接加拿大、美國和墨西哥的單一線路鐵路網，提供橫跨三國的鐵路貨運、聯運（Intermodal）及大宗商品運輸服務。利用精密排程鐵路（PSR）營運模式，提高跨國供應鏈的運輸效率與可靠性。",
+      "Clients & Orders": "主要客戶包含大型汽車製造商如福特與通用汽車，以及大宗農業巨頭如嘉吉（Cargill）。聯運核心客戶包括物流巨擘 Schneider National 和 Knight-Swift 等，藉此提供跨越美墨邊境的快捷物流服務。",
+      "Technical Moat": "為北美唯一貫穿美、加、墨三國的單一線路鐵路網，省去跨邊境轉運與更換列車的繁瑣流程，大幅縮短運輸時間。掌握墨西哥核心鐵路特許經營權及拉雷多（Laredo）國際鐵路大橋等關鍵排他性基礎設施。",
+      "Revenue Breakdown": "以 2025-2026 年營運表現來看，穀物等農業產品佔營收大宗，其次為聯運業務（Intermodal）、汽車零組件與整車運輸、化學品及煤炭。其中以穀物與汽車聯運受惠於美墨加自由貿易協定（USMCA）及跨國近岸外包，增長動能最強。",
+      "Gross Margin Profile": "2025 年 Reported 營業費用率（Operating Ratio, OR）為 62.8%，核心調整後 OR 達到創紀錄的 59.9%，折算營業利潤率約 37%-40%，整體毛利率水準預估介於 45%-50% 之間。隨著合併後的跨國綜效持續顯現，長期營運效率與獲利能力仍有提升空間。",
+      "Key Competitors": "主要競爭對手為北美其他 Class I 一級鐵路巨頭，包括加拿大的加拿大國家鐵路（CNI），以及美國的聯合太平洋鐵路（UNP）、BNSF 鐵路、CSX 運輸與諾福克南方鐵路（NSC）。",
+      "12M Catalysts": "拉雷多（Laredo）國際鐵路大橋的第二軌道於 2025 年初啟用後，在 2025-2026 年逐步釋放翻倍的跨境運能，成為跨國物流增長的關鍵催化劑。此外，與 CSX 及 Meridian & Bigbee 鐵路合作的跨美墨東南部快捷服務（SMX）於 2025-2026 年持續擴張，進一步釋放三國聯運潛能。",
+      "Key Investment Risks": "主要風險包括美墨加三國在 USMCA 架構下的貿易政策變動與關稅限制，以及美墨邊境的安全與通關延誤風險。此外，極端天氣（如加拿大嚴寒、美墨颶風或洪水）以及工會罷工爭議，皆可能對鐵路網運作造成季節性干擾。",
+      "CEO & Management": "由總裁兼執行長 Keith Creel 領導，他自 2023 年兩鐵合併以來持續推動業務整合與綜效落地；財務長 Nadeem Velani 負責資本配置，董事會主席則於 2026 年 7 月由 Gordon Trafton 接任。",
+      "Core Patents & IP": "主導北美首個氫能貨運機車研發計劃（CPKC Hydrogen Locomotive Program），並於 2026 年 1 月獲得鐵路氫燃料電池改裝及系統管理的核心技術專利。與 CSX 合作推廣該技術的改裝套件，開拓鐵路運輸的綠色零碳排專利授權版圖。",
+      "3-Year M&A": "2023 年完成與堪薩斯南方鐵路（KCS）的世紀合併後，近年專注於內部資產整合，並無大型收購計畫。主要進行局部的路權收購，如 2024 年底獲 STB 核准並於 2025-2026 年全面整合的 Meridian & Bigbee 鐵路部分路段，以強化美墨聯運網絡。",
+      "CapEx & Expansion": "2026 年資本支出預算約為 26.5 億美元（較 2025 年的 31 億美元有所調整），主要投資於機車車隊更新（購入 Progress Rail 和 Wabtec 的 Tier 4 環保機車）以及芝加哥 Bensenville 等關鍵編組站的運能擴建。",
+      "Geopolitical Exposure": "地緣政治風險主要來自美墨跨境貿易摩擦與移民管制政策對通關效率的影響。然而，全球供應鏈「近岸外包」（Nearshoring）趨勢推動製造業向墨西哥轉移，反而成為 CPKC 跨國南北鐵路網的長期地緣紅利。",
+      "M&A Potential": "未來大型收購潛力極低，公司管理層公開反對北美鐵路業進一步的整併，認為現有六大 Class I 鐵路格局已足夠。未來的擴張將聚焦於類似與 CSX 合作的地區性支線鐵路（Short-line）路權交易或戰略聯運聯盟。"
+    },
+    {
+      "Country": "Singapore",
+      "Timeframe": "中長期",
+      "Sub-Sector": "先進機器人",
+      "Industry": "系統整合與工程服務",
+      "Tier": "隱形冠軍",
+      "Company": "CSE Global Limited (544.SI)",
+      "Capital/Market Cap": "約 8.75億新元",
+      "Core Business": "提供自動化（SCADA/PLC/DCS控制系統）、工業電力（數據中心配電、模組化電子房E-House）與關鍵通訊系統的全球系統整合與工程服務。",
+      "Clients & Orders": "客戶涵蓋全球能源與石油巨頭、公用事業電網及科技超大規模數據中心客戶。2025年新簽訂單達10億新元，截至2026年第二季未完成訂單維持在6.204億新元。",
+      "Technical Moat": "具備複雜關鍵任務系統的深厚工程設計與整合能力，提供高度客製化的模組化電子房設計。在油氣與電網領域擁有長期法規合規與產業領域知識防禦壁壘。",
+      "Revenue Breakdown": "以2026年上半年（1H26）營收計，工業電力（Electrification）約占50.4%為主要成長引擎。關鍵通訊（Communications）與自動化（Automation）各占約24.8%。",
+      "Gross Margin Profile": "2026年上半年毛利率因低利潤率數據中心大項目採購增加、以及美洲新廠產能擴建與未消化人工成本而降至23.8%。2025年同期毛利率則為27.9%。",
+      "Key Competitors": "包括 Siemens AG、Calian Group、Tech Mahindra、Altron 等全球及區域性大型工程與系統整合服務商。",
+      "12M Catalysts": "控股股東 Heliconia（淡馬錫旗下）於2026年3月啟動的戰略審查，涉及潛在私有化或資產重組。此外，美洲新廠產能利用率提升帶動毛利率回升，以及獲得新大型數據中心電力合約亦為關鍵催化劑。",
+      "Key Investment Risks": "面臨數據中心項目競爭加劇導致的毛利率持續承壓，以及美洲新設施產能爬坡與人力成本超支風險。近期管理層與控股股東間的董事會意見分歧亦增加營運不確定性。",
+      "CEO & Management": "集團董事總經理兼執行長為林文慶（Lim Boon Kheng，自2013年起任職執行長）。董事會主席為 Eugene Lai，同時擔任控股股東 Heliconia 董事長。",
+      "Core Patents & IP": "主要依賴系統整合工程技術與專有軟體平台（如 CSE-ICON），專利與IP量較少。核心防禦壁壘主要來自工程設計的實務訣竅（Know-how）（估）。",
+      "3-Year M&A": "2026年7月以1030萬新元收購美國電信服務商 SEI，2024年8月收購美國 RFC Wireless。2023年則收購 Radio One 及合併 GRID Communications。",
+      "CapEx & Expansion": "主要資本支出用於美洲建立與擴建全新生產設施，以支應電力與數據中心業務。此外，公司在澳洲成立了新的通訊分銷實體以擴大市場份額。",
+      "Geopolitical Exposure": "主要業務位於美洲與亞太，受美國基礎設施法案與能源轉型政策影響深。直接受美中地緣政治摩擦影響較小，但需遵循各國在地化供應鏈法規。",
+      "M&A Potential": "被收購潛力極高。因控股股東 Heliconia 應第三方非約束性要約於2026年啟動戰略審查，未來12個月內極可能發生私有化、股權轉讓或部分業務部門出售。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [
+    "Blackline Safety Corp. (BLN.TO)"
+  ],
+  "summary": {
+    "batch_label": "API Batch 373 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "Cardiol Therapeutics Inc. (CRDL.TO)",
+      "Algoma Central Corporation (ALC.TO)",
+      "Canadian Pacific Kansas City Limited (CP.TO)",
+      "CSE Global Limited (544.SI)"
+    ],
+    "unmatched": [],
+    "rows_exported": 2409
+  }
+}
