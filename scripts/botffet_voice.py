@@ -10,8 +10,9 @@ and transcoded with ffmpeg to Opus-in-Ogg, the only format Telegram renders as a
 bubble rather than a file attachment.
 
 * **Edge TTS** (`edge_tts`, free, no key, a network call) — the natural voices. The default is
-  zh-TW-YunJheNeural, the one Taiwanese-Mandarin male Edge publishes, slowed and pitched down
-  so it carries an older man's weight rather than a young announcer's.
+  zh-TW-YunJheNeural (雲哲), the one Taiwanese-Mandarin male Edge publishes, slowed and
+  pitched down a touch. Peter auditioned three candidates on 2026-08-29 and chose this
+  setting (-5% / -8Hz) over a heavier -12% / -20Hz and over macOS's "Grandpa" voice.
 * **macOS `say`** (offline) — for Apple's bundled voices such as "Grandpa (Chinese (Taiwan))",
   an elderly-man voice that is an alternative if the Edge one reads too young.
 
@@ -38,8 +39,8 @@ DEFAULTS = {
     'enabled': True,
     'engine': 'edge',                  # 'edge' | 'say'
     'voice': 'zh-TW-YunJheNeural',     # edge voice id, or a macOS `say` voice name
-    'rate': '-12%',                    # edge: percentage. say: applied to SAY_BASE_WPM
-    'pitch': '-20Hz',                  # edge only
+    'rate': '-5%',                     # edge: percentage. say: applied to SAY_BASE_WPM
+    'pitch': '-8Hz',                   # edge only
     'max_chars': 1500,                 # roughly five spoken minutes of Chinese
 }
 
