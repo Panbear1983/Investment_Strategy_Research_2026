@@ -1,0 +1,1 @@
+{"type":"object","properties":{"ok":{"type":"boolean"},"model_family":{"type":"string"}},"required":["ok","model_family"]}

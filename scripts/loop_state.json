@@ -1,15 +1,16 @@
 {
-    "date": "2026-08-29",
+    "date": "2026-08-30",
     "calls": {
-        "gemini": 112,
-        "claude": 26,
-        "codex": 3
+        "gemini": 100,
+        "agy_claude": 0,
+        "claude": 72,
+        "codex": 26
     },
     "discovery": {
-        "attempts": 5,
+        "attempts": 9,
         "empty_results": 0
     },
-    "discovery_cursor": 21,
+    "discovery_cursor": 33,
     "discovery_slices": {
         "France|": {
             "empty_streak": 0,
@@ -59,9 +60,9 @@
         "Germany|": {
             "empty_streak": 0,
             "cooldown_until": "",
-            "last_productive": "2026-08-29"
+            "last_productive": "2026-08-30"
         }
     },
-    "batch_seq": 391,
+    "batch_seq": 418,
     "discovery_last_slice": "Germany|"
 }

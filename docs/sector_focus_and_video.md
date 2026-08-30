@@ -307,6 +307,14 @@ ceiling is the Max plan's rolling window — shared with the chatbot, the resear
 slots, and Peter's own Claude Code sessions. Three separate tallies draw on that one
 subscription, so `loop_state.json`'s Claude count understates the true usage.
 
+Since 2026-08-30 there is a tier between them: `agy_claude`, Claude Sonnet served by the same
+Antigravity CLI (`agy --model claude-sonnet-4-6`). Antigravity meters Claude and Gemini as
+separate pools, so when the Gemini bank is dry this is a fresh bucket that costs Peter's own
+Claude subscription nothing. It is fallback-only (no slots, 60 calls/day) because Antigravity's
+Claude window is reported to drain far faster than Gemini Flash and is shared with Claude use in
+the Antigravity IDE. The research loop's ranking reaches it before `claude` while it has budget
+and is not cooling down; `summarise_video()` inherits the same order.
+
 ## Long-term memory
 
 The chat already had a working memory: the last six turns verbatim, and a rolling summary that

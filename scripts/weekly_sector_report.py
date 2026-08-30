@@ -27,11 +27,42 @@ def _load_config():
     return token, recipients
 
 def _send_telegram(token, chat_id, text):
+    """Send Telegram message, splitting if over 4096 chars."""
     url = f'https://api.telegram.org/bot{token}/sendMessage'
-    data = json.dumps({'chat_id': chat_id, 'text': text, 'disable_web_page_preview': True}).encode()
-    req = urllib.request.Request(url, data=data, headers={'Content-Type': 'application/json'})
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        return json.loads(resp.read().decode())
+    max_len = 4096
+    
+    if len(text) <= max_len:
+        data = json.dumps({'chat_id': chat_id, 'text': text, 'disable_web_page_preview': True}).encode()
+        req = urllib.request.Request(url, data=data, headers={'Content-Type': 'application/json'})
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            return json.loads(resp.read().decode())
+    
+    # Split into chunks at natural boundaries (double newlines preferred)
+    chunks = []
+    remaining = text
+    while remaining:
+        if len(remaining) <= max_len:
+            chunks.append(remaining)
+            break
+        # Find split point near max_len
+        split_idx = remaining.rfind('\n\n', 0, max_len)
+        if split_idx == -1:
+            split_idx = remaining.rfind('\n', 0, max_len)
+        if split_idx == -1:
+            split_idx = max_len
+        chunks.append(remaining[:split_idx])
+        remaining = remaining[split_idx:].lstrip()
+    
+    last_result = None
+    for i, chunk in enumerate(chunks):
+        data = json.dumps({'chat_id': chat_id, 'text': chunk, 'disable_web_page_preview': True}).encode()
+        req = urllib.request.Request(url, data=data, headers={'Content-Type': 'application/json'})
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            last_result = json.loads(resp.read().decode())
+        if i < len(chunks) - 1:
+            import time
+            time.sleep(0.5)  # Rate limit
+    return last_result
 
 
 def archive_weekly_report(report, sector, period_label, *, pushed_at=None, archive_dir=ARCHIVE_DIR):

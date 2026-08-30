@@ -125,8 +125,9 @@ try:
 except Exception:
     COUNTRY_PRIORITY = None
 
-PROVIDERS = ('gemini', 'claude', 'codex')
-PROVIDER_STYLE = {'gemini': 'cyan', 'claude': 'magenta', 'codex': 'bright_blue'}
+PROVIDERS = ('gemini', 'agy_claude', 'claude', 'codex')
+PROVIDER_STYLE = {'gemini': 'cyan', 'agy_claude': 'bright_magenta', 'claude': 'magenta',
+                  'codex': 'bright_blue'}
 DASH_DEFAULTS = {'marquee_cells_per_tick': 1, 'marquee_seconds': 8,
                  'poll_seconds': 5, 'history_rows': 10, 'language': 'en'}
 

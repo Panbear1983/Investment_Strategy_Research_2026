@@ -17,7 +17,7 @@ from contextlib import contextmanager
 from urllib.parse import urlparse
 
 
-PROVIDERS = ('gemini', 'claude', 'codex')
+PROVIDERS = ('gemini', 'agy_claude', 'claude', 'codex')
 RESEARCH_PENDING = 'pending_deep_research'
 RESEARCHING = 'researching'
 VALIDATED = 'validated'

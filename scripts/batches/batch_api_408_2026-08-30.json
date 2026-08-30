@@ -1,0 +1,53 @@
+{
+  "label": "API Batch 408 (new, claude)",
+  "source": "new",
+  "provider": "claude",
+  "providers_used": [
+    "claude"
+  ],
+  "items": [
+    {
+      "Company": "Cardlytics, Inc. (CDLX)",
+      "Country": "USA",
+      "Industry": "金融科技/新興市場支付",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "USA",
+      "Timeframe": "短期",
+      "Sub-Sector": "卡片關聯行銷/金融科技廣告平台",
+      "Industry": "金融科技（Fintech Advertising／Card-Linked Marketing）",
+      "Tier": "輔助公司",
+      "Company": "Cardlytics, Inc. (CDLX)",
+      "Capital/Market Cap": "約2,100萬美元（股價約3.8–4.4美元，流通股數約560萬股；公司已於2026年6月5日完成1股併10股的反向分割，2026年8月數據，估）",
+      "Core Business": "Cardlytics透過與銀行、信用卡發卡機構的Cardlytics Direct平台，在客戶的網路銀行/App內嵌入以交易資料為基礎的個人化現金回饋廣告（Card-Linked Offer），並向品牌廣告主收取媒體投放費用；2026年起同步推動「Cardlytics Rewards Platform」開放式合作網路，擴大非銀行通路的獎勵發放夥伴。",
+      "Clients & Orders": "核心銀行合作夥伴原包含美國銀行（Bank of America）、萬事達卡（Mastercard）等大型金融機構，惟美國銀行已於2026年退出合作，造成2026年第一季計費金額（billings）年減37%、營收年減39%的重大衝擊；2025年全年MAU仍達逾1.3億（估），但客戶集中度風險持續升高。",
+      "Technical Moat": "核心壁壘為與多家大型銀行深度整合的交易層資料存取（purchase-level data）及廣告投放引擎，可在不外流個資前提下做精準受眾比對；但此護城河正被摩根大通（Chase）自建的Chase Media Solutions（原Figg）及Ibotta等第三方獎勵網路侵蝕，資料獨佔性優勢已明顯弱化。",
+      "Revenue Breakdown": "2025年全年營收2.33億美元（年減16.2%），主要來自Cardlytics Direct銀行通路廣告收入；2026年3月完成出售Bridg（店內交易資料/CDP業務）予PAR Technology並取得181萬股PAR股票作為對價後隨即出清變現，公司營收結構轉為單一聚焦銀行通路+開放獎勵網路兩大來源（估）。",
+      "Gross Margin Profile": "調整後貢獻利潤率（Adjusted Contribution Margin）因Bridg剝離及美國銀行流失，預期較2025年下滑，2026年Q1調整後貢獻金額年減28%；公司2025年Q4調整後EBITDA為850萬美元（優於財測），但整體毛利結構仍高度依賴發卡機構的分潤條款，議價力持續受壓（估）。",
+      "Key Competitors": "摩根大通旗下Chase Media Solutions（原Figg，已內部化取代第三方CLO）、Ibotta（2024年IPO，市值一度達26.7億美元，涵蓋約5,000萬下載用戶）、Rokt、PayPal/Honey生態系（約4億活躍帳戶）、以及Kard、Button等中小型CLO新創。",
+      "12M Catalysts": "2026年Q3財測營收3,400–3,900萬美元、調整後EBITDA 0–300萬美元，能否止穩將是關鍵觀察點；Cardlytics Rewards Platform新夥伴銀行/通路簽約進度、David Evans（2026年1月上任CFO）帶動的成本削減及自由現金流轉正（2025年Q4已達正1,050萬美元）為後續12個月主要催化劑。",
+      "Key Investment Risks": "美國銀行退出造成的營收缺口尚未被新客戶完全填補，客戶集中度（前幾大銀行合作夥伴貢獻多數營收）風險極高；市值僅約2,000萬美元級別，流動性差、易受股價波動及潛在下市或再次反向分割壓力，公司治理與現金消耗速度需持續密切追蹤。",
+      "CEO & Management": "執行長Amit Gupta自2022年起任職（原任營運長COO），2025年度總薪酬約500萬美元，2026年5月股東會並當選為董事；財務長David Evans於2026年1月12日回任CFO（曾於2014–2020年任職，經歷公司2018年IPO）。",
+      "Core Patents & IP": "公司持有多項與交易資料比對、廣告競價分發相關之美國專利（涵蓋Card-Linked Offer媒合演算法），惟隨銀行客戶自建同類系統（如Chase Media Solutions），專利對客戶流失的防禦效力有限（估）。",
+      "3-Year M&A": "2026年3月完成出售Bridg店內交易資料/CDP資產予PAR Technology，交易對價為181萬股PAR普通股，公司隨後出清變現以改善資產負債表及流動性；此為近三年最主要之公司架構調整交易，未見其他重大併購活動。",
+      "CapEx & Expansion": "資本支出維持低檔並持續精簡營運成本，2026年策略重心轉向拓展Cardlytics Rewards Platform的開放式合作夥伴網路（非銀行通路），而非傳統資本密集擴張；Bridg剝離後資源更集中於核心廣告平台維運（估）。",
+      "Geopolitical Exposure": "業務集中於美國本土銀行體系，地緣政治直接曝險極低；主要風險來自美國金融監管（如消費者資料隱私規範）及銀行業合併/自建媒體平台趨勢，而非國際地緣衝突。",
+      "M&A Potential": "鑑於市值已萎縮至約2,000萬美元、營收持續萎縮且失去大型銀行客戶，公司具備被同業（如Ibotta、Rokt）或私募股權以低估值收購下市之潛在誘因；惟客戶集中度風險及持續虧損可能使潛在買家對整合綜效抱持保留態度（估）。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 408 (new, claude)",
+    "updated": [],
+    "claimed": [
+      "Cardlytics, Inc. (CDLX)"
+    ],
+    "unmatched": [],
+    "rows_exported": 2670
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "label": "API Batch 413 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "Norion Bank AB (NORION.ST)",
+      "Country": "Sweden",
+      "Industry": "金融科技/新興市場支付",
+      "Tier": ""
+    },
+    {
+      "Company": "TF Bank AB (TFBANK.ST)",
+      "Country": "Sweden",
+      "Industry": "金融科技/新興市場支付",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "Sweden",
+      "Timeframe": "中長期",
+      "Sub-Sector": "數位金融與商務融資",
+      "Industry": "金融科技 / 利基銀行",
+      "Tier": "潛力股",
+      "Company": "Norion Bank AB (NORION.ST)",
+      "Capital/Market Cap": "約 119億至130億瑞典克朗 (約 11.5億至12.6億美元)",
+      "Core Business": "主要提供北歐中型企業與商業房地產開發貸款，並透過旗下 Walley 品牌提供商戶 B2B/B2C 支付結帳與消費金融解決方案，以及透過 Collector 品牌為個人提供貸款與存款服務。",
+      "Clients & Orders": "企業金融客戶為北歐中大型房地產開發商與中型企業；Walley 支付結帳方案則服務芬蘭電商巨頭 Verkkokauppa.com、KappAhl 等知名零售與電商企業。",
+      "Technical Moat": "具備專有信用風險實時評估模型與 B2B/B2C 雙向結帳支付 API 系統，能深度整合主流電商平台，實現高效風控決策與客製化付費流程。",
+      "Revenue Breakdown": "以淨利息收入（Net Interest Income）為核心，約占總收入 80% 至 85%；其餘 15% 至 20% 為淨手續費與佣金收入（Net Fee and Commission Income），主要由支付業務與財富管理貢獻。",
+      "Gross Margin Profile": "淨利差（NIM）維持在 6.4% 至 6.9% 的利基高水位；成本收入比（Cost to Income Ratio）在 2026 年受戰略投資與不良資產處置影響約為 44.2%，整體獲利能力與資本回報率依然強勁。",
+      "Key Competitors": "支付與消費金融領域主要競爭者為 Klarna、Qliro、Svea Bank、Avarda 等；企業與房地產貸款則與傳統北歐大型銀行及 Resurs Bank、TF Bank 等利基銀行競爭。",
+      "12M Catalysts": "預計於 2026 年下慢年完成個人非持分不良貸款（NPL）組合的出售，可釋放大量資本並優化風險結構；瑞典央行等北歐各國央行的降息政策將進一步刺激房地產與企業融資需求。",
+      "Key Investment Risks": "房地產放貸占放貸組合比重高達 50%，面臨商業房地產市場復甦波動的風險；北歐消費金融與 BNPL 支付領域競爭激烈，可能擠壓 Walley 支付方案的淨利差。",
+      "CEO & Management": "由執行長 Martin Nossman 與財務長 Peter Olsson 共同領導；董事會主席為瑞典知名房地產與金融投資大亨 Erik Selin。",
+      "Core Patents & IP": "主要依賴其專有的自動化信用評分演算法、即時風控模型與 Walley 結帳平台 API 技術，多數以專有軟體和商業秘密形式進行保護。",
+      "3-Year M&A": "近三年收購芬蘭電商 Verkkokauppa.com 的消費金融業務以拓展芬蘭版圖，並收購 Strand 與 Consensus 等資產管理公司以分散營收；2026 年宣布出售大部分個人無擔保不良貸款（NPL）。",
+      "CapEx & Expansion": "資本支出著重於數位銀行核心系統現代化與 Walley 支付平台的 API 技術開發；市場擴張則聚焦於挪威和芬蘭等北歐市場的支付市佔率提升。",
+      "Geopolitical Exposure": "業務完全集中於北歐瑞典、芬蘭與挪威，幾乎無地緣政治衝突的直接風險，但高度受制於歐盟及北歐各國金融監管法規和總體經濟政策。",
+      "M&A Potential": "中等偏高，其優質的北歐中型企業貸款資產及 Walley 支付平台使其極具吸引力，可能成為北歐大型商業銀行或尋求北歐版圖擴張的金融科技集團之併購目標。"
+    }
+  ],
+  "failed": [
+    "TF Bank AB (TFBANK.ST)"
+  ],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 413 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "Norion Bank AB (NORION.ST)"
+    ],
+    "unmatched": [],
+    "rows_exported": 2690
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "label": "API Batch 417 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini",
+    "claude"
+  ],
+  "items": [
+    {
+      "Company": "Bemobi Mobile Tech (BMOB3.SA)",
+      "Country": "Brazil",
+      "Industry": "金融科技/新興市場支付",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "Brazil",
+      "Timeframe": "中期",
+      "Sub-Sector": "新興市場支付/嵌入式金融科技",
+      "Industry": "行動支付、SaaS數位互動與微型信貸解決方案",
+      "Tier": "潛力股",
+      "Company": "Bemobi Mobile Tech (BMOB3)",
+      "Capital/Market Cap": "巴西雷亞爾約20億(約合美元4億)，屬巴西B3交易所小型股，2026年中市值隨股價波動於18-22億雷亞爾區間（估）。",
+      "Core Business": "Bemobi origin為電信商行動加值/訂閱代收費(Carrier Billing)平台起家，近年轉型為「垂直支付」(Vertical Payments)集團，四大業務線為：數位支付(公用事業/電信/教育帳單代收)、SaaS數位互動軟體、微型信貸(Microfinance)，以及原有的數位訂閱/應用內購計費服務，目標客戶為具有高頻重複繳費需求的產業。2025年底成立全新Bemobi PaaS(Payment as a Service)事業群，切入白牌嵌入式支付基礎設施市場。",
+      "Clients & Orders": "核心客戶為巴西及拉美電信商(如Vivo、Claro、TIM旗下子公司)、公用事業公司(電力、自來水/衛生服務商)及教育機構，透過其平台代收帳單、行動加值服務與微型貸款；2026年第一季總支付量(TPV)達35億雷亞爾，年增49%，反映商戶端交易量快速放大(估依公開財報)。",
+      "Technical Moat": "深耕巴西電信與公用事業帳單代收生態逾20年，累積與電信商、公用事業直接系統整合(API/計費系統嵌入)之高轉換成本關係；透過收購Paytime取得無代碼白牌PaaS技術棧，強化嵌入式金融基礎設施的技術壁壘，但相較純网路支付巨頭(如Stone、PagSeguro)規模仍偏小，護城河主要建立在垂直產業客製整合而非技術獨佔性。",
+      "Revenue Breakdown": "2026年第二季淨營收約2.27億雷亞爾，年增30%；支付(Payments)與SaaS合計占營收約69.5%(其中垂直支付單季占比逾43%)，數位訂閱/應用內計費之傳統業務占比持續下滑；巴西本土營收占總營收約72.3%，國際(拉美其他市場)約27.7%。",
+      "Gross Margin Profile": "整體EBITDA利潤率因併入Paytime稀釋降至約12.6%(2026年第二季EBITDA約7,940萬雷亞爾)，惟若排除Paytime合併影響，核心業務EBITDA利潤率可達約35%，顯示原有SaaS與訂閱業務具高毛利特性，淨利率約19%(估，依最新財報估算)。",
+      "Key Competitors": "支付/收單領域面對Stone、PagSeguro(PagBank)、Cielo、Rede等巴西支付龍頭；嵌入式支付/PaaS領域與Dock、Celcoin等競爭；應用內計費/Apps&Games業務則面臨Apple App Store、Google Play及GameClub等全球平台之間接競爭，這些平台以較高定價(約4.99美元)且僅接受信用卡付款，與Bemobi鎖定的低收入新興市場消費者形成差異化競爭。",
+      "12M Catalysts": "Paytime與Celer併購綜效於2026年逐步顯現，帶動PaaS事業群放量；垂直支付持續向公用事業(電力、自來水)及教育產業滲透，TPV有望維持高雙位數成長；AI與自動化Pix(Automatic Pix)等新技術導入可望提升代收轉換率與客戶黏著度；公司維持高於100%盈餘配發率之股利政策，2025年股利殖利率約8.6-9%，續為市場關注焦點。",
+      "Key Investment Risks": "電信商將計費服務自建內部化(insourcing)之長期結構性風險；Paytime微型信貸業務帶來信用風險與資產品質波動，可能拖累合併層面獲利穩定性；巴西總體經濟(高利率環境)影響消費者還款能力與公用事業客戶付款週期；股本小、流動性有限，機構持股變動易造成股價劇烈波動(近期已出現重大股東減持警訊)；併購整合執行風險。",
+      "CEO & Management": "執行長暨共同創辦人為Pedro Ripper，公司自2007年成立、2021年初於B3掛牌上市以來由創辦團隊持續主導策略轉型，近年管理層積極推動由電信加值服務向多元化嵌入式金融科技集團轉型。",
+      "Core Patents & IP": "未見公開專利組合揭露，公司技術資產主要以自研計費/帳單代收軟體平台、微服務API整合架構及透過收購Paytime取得之無代碼白牌PaaS技術棧為核心，屬軟體與系統整合know-how而非硬體專利(估)。",
+      "3-Year M&A": "2025年12月以現金分階段收購Paytime(巴西首家無代碼白牌金融科技/PaaS平台)50.1%股權，首期支付2,810萬雷亞爾、總對價上限達5,510萬雷亞爾(視財務目標達成，尾款預計2027年初支付)，並保留至2031年收購剩餘股權選擇權；同期以880萬雷亞爾完成收購支付處理商Celer；此前公司亦透過小型併購陸續擴充拉美數位服務版圖(細節較少公開揭露)。",
+      "CapEx & Expansion": "資本支出以技術平台建置、系統整合與新收購業務之IT基礎設施投資為主，屬輕資產營運模式；2026年策略重點為新設Bemobi PaaS事業群之產品開發與商戶拓展，以及公用事業/教育垂直市場之地理與客戶覆蓋擴張，尚未見大規模實體資本支出計畫(估)。",
+      "Geopolitical Exposure": "業務高度集中於巴西本土(占營收逾七成)，主要暴露於巴西利率、匯率與監理政策(如巴西央行支付生態Pix相關法規)風險；國際營收來自其他拉美市場，整體地緣政治風險屬中低度，未涉及美中科技衝突或關鍵礦產供應鏈等敏感議題。",
+      "M&A Potential": "公司近三年展現積極併購策略(收購方角色)以擴大支付與PaaS版圖，未來可能持續進行中小型垂直支付或金融科技公司之併購整合；同時因市值偏小、流動性有限且具備電信/公用事業代收利基客戶關係，亦存在被巴西或跨國大型支付集團(如Stone、PagBank或國際PaaS業者)收購的潛在可能性(估)。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 417 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "Bemobi Mobile Tech (BMOB3)"
+    ],
+    "unmatched": [],
+    "rows_exported": 2738
+  }
+}

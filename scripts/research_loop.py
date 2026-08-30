@@ -285,7 +285,7 @@ def load_state():
     today = datetime.date.today().isoformat()
     state = {
         'date': today,
-        'calls': {'gemini': 0, 'claude': 0, 'codex': 0},
+        'calls': {'gemini': 0, 'agy_claude': 0, 'claude': 0, 'codex': 0},
         'discovery': {'attempts': 0, 'empty_results': 0},
         'discovery_cursor': 0,
         'discovery_slices': {},
@@ -527,7 +527,7 @@ def migrate_quarantine(workflow):
         existing = workflow.company_by_ticker(ticker) if ticker else None
         quota_like = any(h in low for h in QUOTA_HINTS) or 'limit' in low
         if quota_like:
-            provider_name = next((p for p in ('gemini', 'claude', 'codex')
+            provider_name = next((p for p in ('agy_claude', 'gemini', 'claude', 'codex')
                                   if p in low), None)
             if provider_name:
                 latest_provider_limit[provider_name] = problems
@@ -620,6 +620,8 @@ def recover_incomplete_batches(workflow):
 def refresh_provider_auth(workflow, cfg):
     checks = {
         'gemini': [cfg.get('cli_command', 'agy')],
+        # Same binary and OAuth token as gemini, different upstream quota pool.
+        'agy_claude': [cfg.get('cli_command', 'agy')],
         'claude': [cfg.get('claude_command', 'claude'), 'auth', 'status', '--json'],
         'codex': [cfg.get('codex_command', 'codex'), 'login', 'status'],
     }
@@ -627,7 +629,7 @@ def refresh_provider_auth(workflow, cfg):
         if not shutil.which(cmd[0]):
             workflow.set_provider_health(provider, 'auth_error', f'{cmd[0]} executable not found')
             continue
-        if provider == 'gemini':
+        if provider in ('gemini', 'agy_claude'):
             workflow.set_provider_health(provider, 'healthy')
             continue
         try:
@@ -802,6 +804,13 @@ def llm_call(cfg, key, state, prompt, provider='gemini', use_search=True, json_s
             text = claude_call(cfg, state, prompt)
         elif provider == 'codex':
             text = codex_call(cfg, state, prompt)
+        elif provider == 'agy_claude':
+            # Claude served by the Antigravity CLI: Antigravity meters Claude and Gemini as
+            # separate pools, so this is a fresh bucket when the Gemini bank is dry, and it
+            # never touches Peter's own Claude subscription.
+            text = gemini_call_cli(cfg, state, prompt, json_schema=json_schema,
+                                   provider='agy_claude',
+                                   model=cfg.get('agy_claude_model', DEFAULT_AGY_CLAUDE_MODEL))
         elif cfg.get('backend', 'cli') == 'cli':
             text = gemini_call_cli(cfg, state, prompt, json_schema=json_schema)
         else:
@@ -836,6 +845,14 @@ def _reset_from_message(message):
         if value < now and not m.group(3):
             value = value.replace(year=year + 1)
         return value.astimezone(datetime.timezone.utc).isoformat(timespec='seconds')
+    # Antigravity: "Resets in 75h59m52s" / "Resets in 4h12m" — a relative duration. Before
+    # this branch a 76-hour Gemini outage fell through to the 30-minute rate_limit default and
+    # every gemini slot re-discovered it (3 agy calls + 180 s of backoff each time).
+    m = re.search(r'resets?\s+in\s+(?:(\d+)h)?\s*(?:(\d+)m)?\s*(?:(\d+)s)?', text, re.I)
+    if m and any(m.groups()):
+        delta = datetime.timedelta(hours=int(m.group(1) or 0), minutes=int(m.group(2) or 0),
+                                   seconds=int(m.group(3) or 0))
+        return (datetime.datetime.now(datetime.timezone.utc) + delta).isoformat(timespec='seconds')
     # Claude: "resets 7am" (same day if future, otherwise next day).
     m = re.search(r'resets\s+(\d{1,2})(?::(\d{2}))?\s*(am|pm)', text, re.I)
     if m:
@@ -868,7 +885,7 @@ def _quota_error(provider, message):
         kind = 'weekly_limit'
     elif 'session limit' in low:
         kind = 'session_limit'
-    elif 'usage limit' in low or "you've hit your" in low:
+    elif 'usage limit' in low or "you've hit your" in low or 'individual quota reached' in low:
         kind = 'usage_limit'
     else:
         kind = 'rate_limit'
@@ -959,7 +976,12 @@ NOMINATION_SCHEMA = {
 }
 
 
-def gemini_call_cli(cfg, state, prompt, json_schema=None):
+DEFAULT_AGY_CLAUDE_MODEL = 'claude-sonnet-4-6'
+
+
+def gemini_call_cli(cfg, state, prompt, json_schema=None, *, provider='gemini', model=None):
+    """One headless Antigravity CLI run. `provider` names the counter/quota pool it bills to
+    ('gemini' or 'agy_claude'); `model` overrides cfg['model'] (used for agy_claude)."""
     cmd = [cfg.get('cli_command', 'agy'), '-p', prompt]
     schema_file = None
     if json_schema is None:
@@ -973,18 +995,19 @@ def gemini_call_cli(cfg, state, prompt, json_schema=None):
         schema_file.close()
         cmd += ['--json-schema', schema_file.name, '--output-format', 'json']
         cmd += cfg.get('cli_json_args', ['--print-timeout', '6m0s'])
-    if cfg.get('model') and cfg['model'] != 'auto':
-        cmd += ['--model', cfg['model']]
+    chosen_model = model or cfg.get('model')
+    if chosen_model and chosen_model != 'auto':
+        cmd += ['--model', chosen_model]
     env = {**os.environ, 'GEMINI_CLI_TRUST_WORKSPACE': 'true'}  # needed if cli_command is gemini-cli
     try:
-        return _gemini_cli_attempts(cmd, env, state, json_schema)
+        return _gemini_cli_attempts(cmd, env, state, json_schema, provider=provider)
     finally:
         if schema_file is not None:
             with contextlib.suppress(OSError):
                 os.unlink(schema_file.name)
 
 
-def _gemini_cli_attempts(cmd, env, state, json_schema):
+def _gemini_cli_attempts(cmd, env, state, json_schema, provider='gemini'):
     last_err = ''
     for attempt in range(3):
         try:
@@ -994,7 +1017,7 @@ def _gemini_cli_attempts(cmd, env, state, json_schema):
             last_err = 'gemini-cli timed out after 600s'
             continue
         if res.returncode == 0 and res.stdout.strip():
-            state['calls']['gemini'] += 1
+            state['calls'][provider] = state['calls'].get(provider, 0) + 1
             save_state(state)
             if json_schema is None:
                 return res.stdout
@@ -1010,10 +1033,10 @@ def _gemini_cli_attempts(cmd, env, state, json_schema):
         if any(h in last_err.lower() for h in QUOTA_HINTS):
             if attempt < 2:
                 wait = 60 * (attempt + 1)
-                print(f"  gemini-cli quota/rate hit, backing off {wait}s...")
+                print(f"  {provider}-cli quota/rate hit, backing off {wait}s...")
                 time.sleep(wait)
                 continue
-            raise _quota_error('gemini', last_err)
+            raise _quota_error(provider, last_err)
         time.sleep(15)
     raise RuntimeError(f"gemini-cli failed: {last_err}")
 
@@ -1133,7 +1156,7 @@ def select_provider(cfg, state, scheduled, excluded=(), consume_force=False):
     if (provider_eligible(cfg, state, scheduled, excluded)
             and scheduled_budget and scheduled_left / scheduled_budget > threshold):
         return scheduled
-    order = cfg.get('provider_fallback_order', ['gemini', 'claude', 'codex'])
+    order = cfg.get('provider_fallback_order', ['gemini', 'agy_claude', 'claude', 'codex'])
     candidates = []
     for provider in order:
         if not provider_eligible(cfg, state, provider, excluded):
@@ -1496,7 +1519,9 @@ def run_batch(cfg, key, state, items, source, provider='gemini', mode='research'
     state['batch_seq'] += 1
     seq = state['batch_seq']
     save_state(state)
-    model = {'gemini': cfg['model'], 'claude': 'Claude (headless)',
+    model = {'gemini': cfg['model'],
+             'agy_claude': f"{cfg.get('agy_claude_model', DEFAULT_AGY_CLAUDE_MODEL)} (via agy)",
+             'claude': 'Claude (headless)',
              'codex': 'Codex (headless)'}[provider]
     label = f"{'Maintenance' if mode == 'maintenance' else 'API'} Batch {seq} ({source}, {provider})"
     print(f"\n=== {label}: {len(items)} companies ===")
@@ -1877,7 +1902,7 @@ def main():
     mode.add_argument('--once', action='store_true', help='run one batch')
     mode.add_argument('--run', action='store_true', help='run until queue/budget exhausted')
     ap.add_argument('--batch-size', type=int, help='override config batch_size')
-    ap.add_argument('--provider', choices=['gemini', 'claude', 'codex'], default='gemini',
+    ap.add_argument('--provider', choices=['gemini', 'agy_claude', 'claude', 'codex'], default='gemini',
                     help='provider for --dry-run/--once (the schedule decides during --run)')
     ap.add_argument('--mode', choices=['research', 'maintenance'], default='research',
                     help='research = grow/repair; maintenance = news-refresh completed rows')

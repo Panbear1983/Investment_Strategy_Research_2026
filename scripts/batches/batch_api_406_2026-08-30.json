@@ -1,0 +1,61 @@
+{
+  "label": "API Batch 406 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "PayPay Corporation (PAYP)",
+      "Country": "Japan",
+      "Industry": "金融科技/新興市場支付",
+      "Tier": ""
+    },
+    {
+      "Company": "Daou Technology Inc. (023590.KS)",
+      "Country": "South Korea",
+      "Industry": "金融科技/新興市場支付",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "Japan",
+      "Timeframe": "中長期",
+      "Sub-Sector": "行動支付與數位金融生態系",
+      "Industry": "金融科技/數位支付",
+      "Tier": "龍頭股",
+      "Company": "PayPay Corporation (PAYP)",
+      "Capital/Market Cap": "約 103億至109億美元",
+      "Core Business": "提供QR碼與條碼行動支付服務，並整合信用卡、網路銀行、證券交易、保險等服務，打造日本市佔率第一的數位金融超級App生態系。",
+      "Clients & Orders": "日本國內註冊用戶數已突破 7,500 萬人（涵蓋逾半數日本人口），合作商戶網點超過 1,000 萬個，並深度對接 Seven & i Holdings 的 7iD 零售會員網路。",
+      "Technical Moat": "擁有高併發、低延遲的自研 QR 碼交易清算引擎與 AI 即時防欺詐與信用評估算法，並與軟銀行動通訊及 LINE Yahoo 的龐大網路流量生態系進行深度系統級整合。",
+      "Revenue Breakdown": "營收主要來自三大支柱：商戶交易手續費（受惠於 FY2026 達 1.65% 的 Take Rate）、商戶行銷加值服務費，以及佔比達 40% 的高毛利金融服務收入（含 PayPay Card 循環利息與 PayPay Bank 佣金利息）。",
+      "Gross Margin Profile": "獲利能力呈爆發性成長，FY2026 調整後 EBITDA 利潤率達 29%，營運利潤率大幅升至 24.63%。隨著行銷補貼費用下降與高利潤的信貸、證券等金融業務規模化，毛利結構展現極強的營運槓桿效應。",
+      "Key Competitors": "主要競爭對手為樂天集團旗下的 楽天 Pay（Rakuten Pay）、NTT Docomo 旗下的 d払い（d Barai）以及 KDDI 旗下的 au PAY；而原對手 LINE Pay 日本業務已於 2025 年 4 月終止並由 PayPay 完全吸納。",
+      "12M Catalysts": "預計於未來 12 個月內完成對 T&D Financial Life Insurance 70.2% 股權的收購以正式進軍人身保險市場；同時深化與 Seven & i Holdings 的資本合作，推出超商通路深度的支付與點數融合新功能。",
+      "Key Investment Risks": "面臨日本金融廳對其 QR 碼支付高達 60% 以上市佔率的潛在反壟斷監管審查；系統承載量過載導致的宕機或資安洩漏風險；以及大股東軟銀集團（SoftBank Group）控制權過半可能引發的少數股東利益衝突。",
+      "CEO & Management": "社長兼執行長（CEO）為中山一郎（Ichiro Nakayama），共同營運長（Co-COO）為馬場一（Hajime Baba）與安田誠道（Masamichi Yasuda），財務長（CFO）為影近涉（Wataru Kagechika）。",
+      "Core Patents & IP": "持有大量金融科技專利，專利申請量超越日本三大巨頭銀行。核心專利涵蓋 QR 碼/條碼支付技術、離線支付專利、交易安全防欺詐算法，以及提升使用者體驗的專用設計（如螢幕自動旋轉驗證與自動發放數位印章等專利）。",
+      "3-Year M&A": "2025 年 4 月收購 PayPay Bank 股份將其併為全資子公司；2026 年 6 月以 1,343 億日圓收購 T&D金融生命保險 70.2% 股權；2026 年 7 月斥資 1,000 億日圓入股 Seven & i Holdings 2.13% 股權。",
+      "CapEx & Expansion": "資本支出主要投向雲端基礎設施擴容、資訊安全升級與 AI 風控模型研發；擴張方向著重於開發商戶營銷工具，並將既有 7,500 萬用戶交叉銷售至高毛利的信用卡、證券與新併入的保險服務。",
+      "Geopolitical Exposure": "業務幾乎完全集中於日本國內，地緣政治風險暴露極低。需嚴格遵循日本《經濟安全保障推進法》，確保用戶隱私數據的本地化存儲與跨境流動的合規性，防範境外網絡安全威脅。",
+      "M&A Potential": "具備收購利基型金融科技公司（如 BNPL 先買後付、智慧信用評分）的潛力；或透過參股海外支付運營商，進一步擴大跨境 QR 碼支付網絡（如與 KakaoPay、Alipay 互通）。"
+    }
+  ],
+  "failed": [],
+  "requeued": [
+    "Daou Technology Inc. (023590.KS)"
+  ],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 406 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "PayPay Corporation (PAYP)"
+    ],
+    "unmatched": [],
+    "rows_exported": 2661
+  }
+}

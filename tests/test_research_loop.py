@@ -941,3 +941,172 @@ class ConfigTypeValidationTests(unittest.TestCase):
         for name in ('config.json', 'config.json.clean'):
             rl.CONFIG_PATH = os.path.join(scripts_dir, name)
             rl.load_config()          # must not raise
+
+
+class ResetDurationParsingTests(unittest.TestCase):
+    """Antigravity reports exhaustion as a relative duration ("Resets in 75h59m52s"). Until
+    2026-08-30 that fell through to the 30-minute rate_limit default, so a 76-hour Gemini outage
+    was re-probed every slot (3 agy calls + 180 s of backoff each time)."""
+
+    def _hours_from_now(self, iso):
+        import datetime as dt
+        value = dt.datetime.fromisoformat(iso)
+        return (value - dt.datetime.now(dt.timezone.utc)).total_seconds() / 3600
+
+    def test_full_duration_is_parsed(self):
+        iso = rl._reset_from_message(
+            'Error: Individual quota reached. Please upgrade your subscription to increase '
+            'your limits. Resets in 75h59m52s.')
+        self.assertIsNotNone(iso)
+        self.assertAlmostEqual(self._hours_from_now(iso), 76.0, delta=0.05)
+
+    def test_hours_and_minutes_only(self):
+        iso = rl._reset_from_message('Resets in 4h12m')
+        self.assertAlmostEqual(self._hours_from_now(iso), 4.2, delta=0.05)
+
+    def test_minutes_only_lowercase(self):
+        iso = rl._reset_from_message('quota hit, resets in 30m')
+        self.assertAlmostEqual(self._hours_from_now(iso), 0.5, delta=0.05)
+
+    def test_no_duration_returns_none(self):
+        self.assertIsNone(rl._reset_from_message('Resource has been exhausted'))
+
+    def test_existing_claude_and_codex_forms_still_work(self):
+        self.assertIsNotNone(rl._reset_from_message('resets 7am'))
+        self.assertIsNotNone(rl._reset_from_message('try again at Jul 25th, 2026 11:24 AM'))
+
+    def test_individual_quota_message_is_a_long_cooldown(self):
+        exc = rl._quota_error('gemini', 'Error: Individual quota reached. Resets in 75h59m52s.')
+        self.assertEqual(exc.error_class, 'usage_limit')
+        self.assertEqual(exc.provider, 'gemini')
+        self.assertAlmostEqual(self._hours_from_now(exc.cooldown_until), 76.0, delta=0.05)
+
+
+class AgyClaudeCallTests(unittest.TestCase):
+    """Claude through the Antigravity CLI reuses the agy call path, bills its own counter and
+    raises quota errors under its own provider name."""
+
+    def setUp(self):
+        self.cfg = {'cli_command': 'agy', 'cli_extra_args': ['--mode', 'plan'],
+                    'model': 'Gemini 3.5 Flash (High)'}
+        self.state = {'calls': {'gemini': 0, 'agy_claude': 0, 'claude': 0, 'codex': 0}}
+        self.saved_save = rl.save_state
+        rl.save_state = lambda _s: None
+
+    def tearDown(self):
+        rl.save_state = self.saved_save
+
+    def test_model_override_and_separate_counter(self):
+        seen = {}
+
+        def fake_run(cmd, **_kw):
+            seen['cmd'] = cmd
+            return mock.Mock(returncode=0, stdout='answer', stderr='')
+
+        with mock.patch.object(rl.subprocess, 'run', side_effect=fake_run):
+            out = rl.gemini_call_cli(self.cfg, self.state, 'p', provider='agy_claude',
+                                     model='claude-sonnet-4-6')
+        self.assertEqual(out, 'answer')
+        cmd = seen['cmd']
+        self.assertEqual(cmd[cmd.index('--model') + 1], 'claude-sonnet-4-6')
+        self.assertIn('--mode', cmd, 'plan-mode args must still be applied')
+        self.assertEqual(self.state['calls']['agy_claude'], 1)
+        self.assertEqual(self.state['calls']['gemini'], 0)
+
+    def test_default_path_is_unchanged_for_gemini(self):
+        seen = {}
+
+        def fake_run(cmd, **_kw):
+            seen['cmd'] = cmd
+            return mock.Mock(returncode=0, stdout='answer', stderr='')
+
+        with mock.patch.object(rl.subprocess, 'run', side_effect=fake_run):
+            rl.gemini_call_cli(self.cfg, self.state, 'p')
+        cmd = seen['cmd']
+        self.assertEqual(cmd[cmd.index('--model') + 1], 'Gemini 3.5 Flash (High)')
+        self.assertEqual(self.state['calls']['gemini'], 1)
+        self.assertEqual(self.state['calls']['agy_claude'], 0)
+
+    def test_quota_error_is_billed_to_agy_claude(self):
+        def fake_run(cmd, **_kw):
+            return mock.Mock(returncode=1, stdout='',
+                             stderr='Error: Individual quota reached. Resets in 4h0m0s.')
+
+        with mock.patch.object(rl.subprocess, 'run', side_effect=fake_run), \
+                mock.patch.object(rl.time, 'sleep'):
+            with self.assertRaises(rl.BudgetExhausted) as ctx:
+                rl.gemini_call_cli(self.cfg, self.state, 'p', provider='agy_claude',
+                                   model='claude-sonnet-4-6')
+        self.assertEqual(ctx.exception.provider, 'agy_claude')
+        self.assertEqual(ctx.exception.error_class, 'usage_limit')
+        self.assertEqual(self.state['calls']['agy_claude'], 0)
+
+    def test_llm_call_routes_agy_claude(self):
+        seen = {}
+
+        def fake_cli(cfg, state, prompt, json_schema=None, provider='gemini', model=None):
+            seen.update(provider=provider, model=model)
+            return 'ok'
+
+        cfg = dict(self.cfg, daily_call_budgets={'agy_claude': 60}, agy_claude_model='claude-sonnet-4-6')
+        workflow = mock.Mock()
+        with mock.patch.object(rl, 'gemini_call_cli', side_effect=fake_cli), \
+                mock.patch.object(rl, 'get_workflow', return_value=workflow):
+            rl.llm_call(cfg, None, self.state, 'p', provider='agy_claude')
+        self.assertEqual(seen, {'provider': 'agy_claude', 'model': 'claude-sonnet-4-6'})
+        workflow.mark_provider_success.assert_called_once_with('agy_claude')
+
+
+class AgyClaudeSelectionTests(unittest.TestCase):
+    """With the Gemini bank dry and Codex cooling down, the fallback ranking must reach Claude
+    through Antigravity before Peter's own Claude subscription, and then Claude once that is out."""
+
+    def setUp(self):
+        import datetime as dt
+        self.tmp = tempfile.TemporaryDirectory()
+        self.workflow = WorkflowState(os.path.join(self.tmp.name, 'workflow.sqlite3'))
+        future = (dt.datetime.now(dt.timezone.utc) + dt.timedelta(hours=70)).isoformat(timespec='seconds')
+        self.workflow.mark_provider_failure('gemini', 'usage_limit', 'Individual quota reached', future)
+        self.workflow.mark_provider_failure('codex', 'usage_limit', 'usage limit', future)
+        self.future = future
+        self.cfg = {'daily_call_budgets': {'gemini': 300, 'agy_claude': 60, 'claude': 150, 'codex': 80},
+                    'provider_fallback_order': ['gemini', 'agy_claude', 'claude', 'codex'],
+                    'provider_low_budget_threshold': 0.1}
+        self.state = {'calls': {'gemini': 100, 'agy_claude': 0, 'claude': 57, 'codex': 26}}
+
+    def tearDown(self):
+        self.tmp.cleanup()
+
+    def _select(self):
+        with mock.patch.object(rl, 'get_workflow', return_value=self.workflow):
+            return rl.select_provider(self.cfg, self.state, 'gemini')
+
+    def test_provider_row_exists_for_agy_claude(self):
+        self.assertIsNotNone(self.workflow.provider_state('agy_claude'))
+
+    def test_gemini_slot_falls_to_agy_claude_first(self):
+        self.assertEqual(self._select(), 'agy_claude')
+
+    def test_then_claude_when_agy_claude_cools_down(self):
+        self.workflow.mark_provider_failure('agy_claude', 'usage_limit', 'Resets in 4h', self.future)
+        self.assertEqual(self._select(), 'claude')
+
+    def test_then_claude_when_agy_claude_budget_is_spent(self):
+        self.state['calls']['agy_claude'] = 60
+        self.assertEqual(self._select(), 'claude')
+
+    def test_state_file_without_the_new_counter_migrates(self):
+        import datetime as dt
+        path = os.path.join(self.tmp.name, 'loop_state.json')
+        with open(path, 'w', encoding='utf-8') as f:
+            json.dump({'date': dt.date.today().isoformat(),
+                       'calls': {'gemini': 100, 'claude': 57, 'codex': 26}, 'batch_seq': 416}, f)
+        saved = rl.STATE_PATH
+        rl.STATE_PATH = path
+        try:
+            state = rl.load_state()
+        finally:
+            rl.STATE_PATH = saved
+        self.assertEqual(state['calls']['agy_claude'], 0)
+        self.assertEqual(state['calls']['gemini'], 100)
+        self.assertEqual(state['batch_seq'], 416)

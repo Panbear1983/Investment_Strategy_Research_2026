@@ -1,0 +1,83 @@
+{
+  "label": "API Batch 397 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "Credit Saison Co., Ltd. (8253.T)",
+      "Country": "Japan",
+      "Industry": "金融科技/新興市場支付",
+      "Tier": ""
+    },
+    {
+      "Company": "JDC Group AG (JDC.DE)",
+      "Country": "Germany",
+      "Industry": "金融科技/新興市場支付",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "Japan",
+      "Timeframe": "中長期",
+      "Sub-Sector": "金融科技與新興市場數位放貸",
+      "Industry": "非銀行金融與信用卡服務",
+      "Tier": "龍頭股",
+      "Company": "Credit Saison Co., Ltd. (8253.T)",
+      "Capital/Market Cap": "約 7,208億日圓 (截至 2026年 8月)",
+      "Core Business": "公司以日本國內的信用卡發行與支付結算為核心，並積極拓展房地產金融與信用保證業務。近年其策略重心轉向「全球新金融」，在印度、東南亞及拉丁美洲提供數位借貸、嵌入式金融與跨國信貸解決方案。",
+      "Clients & Orders": "在日本國內擁有約 2,180 萬張流通信用卡，合併總客戶數達 3,300 萬人。海外業務主要面向印度與東南亞的無銀行帳戶客群，並與 Grab 等跨國平台開展嵌入式金融的融資放貸合作。",
+      "Technical Moat": "其開發的 AI 信用卡自動化審查風控系統（專利申請中）結合 DataRobot 平台，實現最快 3 分鐘內發卡的數位體驗。其 CSDX 策略推動核心金融系統高達 80% 遷移至 AWS 雲端，並建立近 200 人的自主開發團隊以減少對外包的依賴。",
+      "Revenue Breakdown": "營收主要由國內支付業務（信用卡與租金擔保）及國內金融業務（房地產貸款與信用保證）貢獻，合計佔比逾七成。海外數位金融業務（如 Credit Saison India 的數位借貸）則作為成長引擎，營收佔比正快速提升。",
+      "Gross Margin Profile": "作為非銀行金融機構，其 FY2025（截至 2026 年 3 月）合併營業利潤率達 36.3%，淨利潤率受 Concerto 娛樂業務退出之一次性減損影響而降至約 11.5%。其高增長的印度子公司淨利差 (NIM) 則穩定維持在 8.4% 左右的優異水準。",
+      "Key Competitors": "日本國內主要競爭對手為永旺信貸服務 (Aeon Credit Service)、三菱日聯 NICOS 與 Orico 等傳統發卡機構。在海外市場則與印度的 Bajaj Finance 等大型非銀行金融公司 (NBFC) 以及當地的 Fintech 借貸平台直接競爭。",
+      "12M Catalysts": "未來 12 個月的催化劑包括旗下印度子公司在當地的 IPO 計畫推進與重新估值，以及與瑞穗銀行的資本合作效益顯現。此外，徹底剝離 Concerto 娛樂業務後的資產優化，以及 FY2026 創歷史新高的淨利潤展望與增派股利政策也將推升股價。",
+      "Key Investment Risks": "主要風險包括日本央行升息政策拉高國內籌資成本並壓縮利差，以及印度儲備銀行 (RBI) 對非銀行金融公司 (NBFC) 收緊無擔保貸款監管的政策風險。同時，新興市場貨幣匯率波動亦會對合併報表營收與獲利產生負面影響。",
+      "CEO & Management": "集團由代表取締役會長兼 CEO 林野宏 (Hiroshi Rinno) 與代表取締役社長兼 COO 水野克己 (Katsumi Mizuno) 共同領導。海外業務由 Presha Paragash 出任印度子公司 CEO 兼集團執行役員，並由森耕介 (Kosuke Mori) 掌管國際總部。",
+      "Core Patents & IP": "核心專利與智慧財產權為專利申請中的「AI 自動化信用卡審查與即時風控系統」，能根據申請人特徵動態調整必填資訊以提高核卡率。同時，公司在新興市場擁有專利的授信評分演算法與數位借貸平台技術。",
+      "3-Year M&A": "近三年以股權合作與策略投資為主，如 2024 年引進瑞穗銀行向印度子公司注資 120 億盧比（持股 15%），並與 Suruga Bank 締結資本業務聯盟。2025 至 2026 年則透過投資 Onigiri Capital 基金等方式，佈局 Web3 與真實世界資產 (RWA) Startup。",
+      "CapEx & Expansion": "資本支出聚焦於深化 CSDX/CSAX 計畫的雲端與生成式 AI 工具部署（如 ChatGPT Enterprise 的全員導入）。擴展方面，以 2026 年 5 月獲得 ADB 等機構 5 億美元聯貸為契機，全力擴大印度放貸規模，並加速在巴西與墨西哥複製該模式。",
+      "Geopolitical Exposure": "主要面臨新興市場的監管合規風險，特別是印度儲備銀行 (RBI) 對金融科技與 NBFC 的政策收緊。此外，跨國經營亦受全球利率環境波動、美日利差變動對日圓匯率的影響，以及新興市場（拉美、東南亞）的貨幣與通膨風險衝擊。",
+      "M&A Potential": "具備強烈的跨國併購意圖，預期將持續物色並收購東南亞與拉丁美洲當地的金融科技借貸平台或小額貸款機構以加速本土化。在日本國內，則傾向透過與 Suruga Bank 等地方銀行的股權合作來擴大聯名卡與共同信貸保證的市佔率。"
+    },
+    {
+      "Country": "Germany",
+      "Timeframe": "中長期",
+      "Sub-Sector": "保險科技SaaS平台",
+      "Industry": "金融科技與理財諮詢服務",
+      "Tier": "潛力股",
+      "Company": "JDC Group AG (JDC.DE)",
+      "Capital/Market Cap": "約 2.7億至3.2億歐元",
+      "Core Business": "JDC Group AG 是德國與奧地利領先的金融科技與經紀商平台服務商。旗下擁有「Advisortech」部門（提供 Jung, DMS & Cie. 數字平台、Morgen & Morgen 比較軟體以及 allesmeins 應用程式）與「Advisory」部門（透過 FiNUM 提供理財諮詢）。",
+      "Clients & Orders": "平台服務超過 1.6 萬名獨立經紀商與理財顧問，並與德國儲蓄銀行（Sparkassen）、Commerzbank 及 Provinzial 等大型金融機構簽訂白標平台合作協議。平台串接超過 200 家保險公司，管理數百萬份保險與投資合約。",
+      "Technical Moat": "核心技術壁壘在於其自主研發的 iCRM 系統與白標 SaaS 平台，能高效自動化處理繁雜的佣金結算與合約管理。此外，收購 Morgen & Morgen 獲得了德國最大的歷史保險數據庫，為其比較分析算法與人工智慧（AI）自動化處理提供了深厚的數據護城河。",
+      "Revenue Breakdown": "營收主要來自 Advisortech（佔 2026 年上半年總營收約 81.2%，達 1.242 億歐元）與 Advisory 部門（佔約 18.8%，達 2,880 萬歐元，扣除內部抵銷前）。2025 年收購的 FMK 集團已併入 Advisortech，成為當前重要的營收增長引擎。",
+      "Gross Margin Profile": "2026 年上半年毛利率約為 28.6%，利潤率提升主要受益於高毛利的軟體與平台服務佔比增加。2026 年全年 EBITDA 指引為 3,500 萬至 3,800 萬歐元，EBITDA 利潤率預估約為 11.2%–11.7%，長期目標在 2030 年前使 EBITDA 利潤率突破 12%。",
+      "Key Competitors": "在德國 B2B 金融與保險平台市場中，主要競爭對手包括 Hypoport SE（透過其 Smart Insur 與 Europace 平台）、Netfonds AG 以及 Blau direkt。此外，Neobroker（如 Clark、Wefox）以及傳統保險公司的自建數字渠道也構成間接競爭。",
+      "12M Catalysts": "核心催化劑為德國將於 2027 年 1 月 1 日正式實施的新型國家補貼養老金制度（Altersvorsorgedepot，簡稱 AVD），預期將引發大規模的資本市場個人養老產品遷徙。此外，FMK 收購的全面協同效應釋放以及與各地儲蓄銀行（Sparkassen）白標平台合作的深化也將在未來 12 個月持續貢獻增長。",
+      "Key Investment Risks": "主要風險為德國總體經濟持續疲軟，可能壓抑短期內新業務的增長與民眾的投保意願。此外，歐盟或德國本土針對保險佣金上限的潛在監管變更，以及平台併購後的整合成本與技術升級支出，皆可能對利潤率造成壓力。",
+      "CEO & Management": "聯合創始人兼執行長 Sebastian Grabmaier 博士透過 Grace Beteiligungs GmbH 持有約 11.2% 的股份，使管理層利益與股東高度一致。財務長 Ralph Konrad 負責主導集團的財務策略與併購事務，具備豐富的資本市場與整合經驗。",
+      "Core Patents & IP": "擁有 Jung, DMS & Cie. 核心平台系統、allesmeins 數字保險夾 App 的軟體著作權，以及 Morgen & Morgen 旗下多項保險比較工具的知識產權。其最關鍵的無形資產是 Morgen & Morgen 所擁有的德國最完整之歷史保險精算數據與分析演算法。",
+      "3-Year M&A": "於 2025 年 8 月宣佈收購 lead-generation 技術平台 FMK 集團 60% 股權，以提升平台的客戶獲取效率。此項收購與 2021 年併購 Morgen & Morgen 的數據戰略相輔相成，大為強化了 JDC 近年的平台生態系。",
+      "CapEx & Expansion": "資本支出主要集中於軟體平台研發、AI 流程自動化工具的開發，以及為大型銀行客戶進行客製化白標平台對接。區域擴張策略上，公司立足於 DACH（德語區）市場，透過深化德國與奧地利銀保渠道（Bancassurance）的滲透率來實現增長。",
+      "Geopolitical Exposure": "業務高度集中於德國與奧地利，幾乎沒有歐元區以外的直接地緣政治風險暴露。然而，公司營運仍易受到歐洲央行貨幣政策、利率波動以及歐盟保險法規變動的間接影響。",
+      "M&A Potential": "由於德語區經紀商與保險代理市場高度分散，JDC Group 具有持續收購中小型經紀池（Broker Pools）的整合潛力。同時，加拿大 Power Corporation 旗下的 Great-West Lifeco 持有其約 26.9% 股權，使 JDC 本身未來亦有被國際金融巨頭或私募股權基金全面私有化或收購的潛在可能。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 397 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "Credit Saison Co., Ltd. (8253.T)",
+      "JDC Group AG (JDC.DE)"
+    ],
+    "unmatched": [],
+    "rows_exported": 2603
+  }
+}

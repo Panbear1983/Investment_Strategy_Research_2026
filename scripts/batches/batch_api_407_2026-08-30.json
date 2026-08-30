@@ -1,0 +1,300 @@
+{
+  "label": "API Batch 407 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "Klarna Holding AB (KLAR)",
+      "Country": "USA",
+      "Industry": "金融科技/新興市場支付",
+      "Tier": ""
+    },
+    {
+      "Company": "Clearwater Analytics Holdings, Inc. (CWAN)",
+      "Country": "USA",
+      "Industry": "金融科技/新興市場支付",
+      "Tier": ""
+    },
+    {
+      "Company": "Interactive Brokers Group, Inc. (IBKR)",
+      "Country": "USA",
+      "Industry": "金融科技/新興市場支付",
+      "Tier": ""
+    },
+    {
+      "Company": "Triumph Financial, Inc. (TFIN)",
+      "Country": "USA",
+      "Industry": "金融科技/新興市場支付",
+      "Tier": ""
+    },
+    {
+      "Company": "Cardlytics, Inc. (CDLX)",
+      "Country": "USA",
+      "Industry": "金融科技/新興市場支付",
+      "Tier": ""
+    },
+    {
+      "Company": "SEI Investments Company (SEIC)",
+      "Country": "USA",
+      "Industry": "金融科技/新興市場支付",
+      "Tier": ""
+    },
+    {
+      "Company": "Donnelley Financial Solutions, Inc. (DFIN)",
+      "Country": "USA",
+      "Industry": "金融科技/新興市場支付",
+      "Tier": ""
+    },
+    {
+      "Company": "Tradeweb Markets Inc. (TW)",
+      "Country": "USA",
+      "Industry": "金融科技/新興市場支付",
+      "Tier": ""
+    },
+    {
+      "Company": "Virtu Financial, Inc. (VIRT)",
+      "Country": "USA",
+      "Industry": "金融科技/新興市場支付",
+      "Tier": ""
+    },
+    {
+      "Company": "ELEMENTS, Inc. (5246.T)",
+      "Country": "Japan",
+      "Industry": "金融科技/新興市場支付",
+      "Tier": ""
+    },
+    {
+      "Company": "OneConnect Financial Technology Co., Ltd. (OCFT)",
+      "Country": "China",
+      "Industry": "金融科技/新興市場支付",
+      "Tier": ""
+    },
+    {
+      "Company": "Huize Holding Limited (HUIZ)",
+      "Country": "China",
+      "Industry": "金融科技/新興市場支付",
+      "Tier": ""
+    },
+    {
+      "Company": "KeLan Software Co., Ltd. (300663.SZ)",
+      "Country": "China",
+      "Industry": "金融科技/新興市場支付",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "Sweden",
+      "Timeframe": "中長期",
+      "Sub-Sector": "AI金融科技與先買後付(BNPL)",
+      "Industry": "金融科技與數位銀行",
+      "Tier": "龍頭股",
+      "Company": "Klarna Group plc (KLAR)",
+      "Capital/Market Cap": "約 53.5億美元",
+      "Core Business": "提供「先買後付」（BNPL）消費金融服務，並轉型為提供儲蓄帳戶與Klarna Card的數位銀行，同時為商家提供結帳與行銷導流解決方案。",
+      "Clients & Orders": "截至 2026 年第二季，全球活躍消費者達 1.2 億人，合作商家超過 120 萬家（包含 Airbnb、Uber、H&M 等）。單季商品交易總額（GMV）達 288 億美元，展現穩健的訂單增長動能。",
+      "Technical Moat": "基於超過十年的獨家風控與交易歷史數據，結合 LangGraph 與 Neo4j 知識圖譜的 AI 多智能體系統，實現深度嵌入法規與退款流程的自動化服務，形成競爭對手難以複製的營運壁壘。",
+      "Revenue Breakdown": "主要來源為商家交易手續費與消費者服務費（含利息與訂閱制會員費）。美國為成長最快的市場（2026年第二季交易毛利年增 126%），德國為 GMV 最大市場，且訂閱制會員收入年增逾 6 倍。",
+      "Gross Margin Profile": "以「交易邊際利潤」（TMD）為核心指標。2026 年第二季 TMD 達 4.46 億美元，相當於營收的 42.8%。預期 2026 全年 TMD 將達到 16.2 億至 16.5 億美元，單位經濟效益持續改善。",
+      "Key Competitors": "主要競爭對手包括 Affirm (AFRM)、PayPal (PYPL)、Block (SQ) 旗下的 Afterpay，以及提供類似分期與數位錢包服務的 Apple Pay 和傳統信用卡發卡銀行。",
+      "12M Catalysts": "預計於 2027 年初引進新的紐約籍財務長（CFO），強化與美股投資人關係。同時，持續推廣高毛利的 Klarna Card（2026年中達 650 萬用戶）及數位銀行儲蓄產品，以及期待核心市場零售景氣復甦。",
+      "Key Investment Risks": "面臨歐美消費力疲軟導致營收預測下修的風險。此外，高階管理階層變動（CFO 與 CMO 將於 2027 年初離職）帶來短期不確定性，且須注意因 guidance 下調引發的潛在證券訴訟與監管風險。",
+      "CEO & Management": "共同創辦人兼執行長 Sebastian Siemiatkowski 持續掌舵，並於 2026 年 8 月增持價值約 990 萬美元之股份。財務長 Niclas Neglén 與行銷長 David Sandström 將於 2027 年初離任，目前正在尋找新任財務長。",
+      "Core Patents & IP": "擁有用戶介面元素提取、數據代幣化（Tokenization）、機器學習分類與整合代碼生成等專利。並於 2025 年底推出開源的「智能體商品協定」（Agentic Product Protocol），建立 AI 時代的商品數據標準。",
+      "3-Year M&A": "在 2023 至 2026 年間無進行任何企業併購交易，最後一次併購為 2022 年 4 月的 flexEngage。期間策略轉向有機增長、優化資本結構，以及推進 2025 年的紐約上市進程。",
+      "CapEx & Expansion": "採用輕資產擴張策略，透過大額風險轉移（SRT）交易與倉庫融資協議釋放資產負債表空間。例如 2026 年德國 9 億歐元與美國 20 億美元融資工具，以低資本支出的方式擴大全球放款規模。",
+      "Geopolitical Exposure": "主要暴露於歐美兩大市場。歐洲（特別是最大市場德國）面臨地緣經濟放緩及消費疲軟衝擊；美國市場則需應對美國消費者金融保護局（CFPB）對「先買後付」監管趨嚴的法規挑戰。",
+      "M&A Potential": "短期內被收購機率較低（市值逾 50 億美元且具備銀行牌照）。但其可能在財務長過渡期後，伺機併購小型 AI 技術公司或區域性支付新創，以深化數位銀行生態系並加速擴展市佔率。"
+    },
+    {
+      "Country": "USA",
+      "Timeframe": "中長期",
+      "Sub-Sector": "網路交易與電子經紀平台",
+      "Industry": "金融服務 / 證券經紀業",
+      "Tier": "龍頭股",
+      "Company": "Interactive Brokers Group, Inc. (IBKR)",
+      "Capital/Market Cap": "約 434 億美元。截至 2026 年 8 月底，其市值於 410 億至 440 億美元區間波動。",
+      "Core Business": "提供全球多資產電子交易、清算及託管服務，讓客戶能透過單一帳戶交易全球 150 多個市場的股票、期權、期貨、外匯及債券。以極低的交易成本、優異的執行價格（SmartRouting 技術）與高保證金融資效率聞名。",
+      "Clients & Orders": "截至 2026 年中，客戶帳戶數已突破 530 萬戶，年增長率維持在約 34%。主要客戶群包含個人專業投資人、避險基金、自營交易商、財務顧問及引介經紀商（Introducing Brokers）。",
+      "Technical Moat": "擁有高度自動化的自研交易與風險管理系統，以專有的 SmartRouting 智慧尋價技術自動尋找最佳執行路徑。具備低延遲 API 連接能力，且在 2026 年推出支援 AI 工具的 Model Context Protocol (MCP) 連接服務，技術自動化率極高，使稅前利潤率維持在 70% 以上。",
+      "Revenue Breakdown": "以淨利息收入（Net Interest Income）為最大宗，2026 年第二季達 10.6 億美元（佔比約 56%），主因客戶保證金貸款及閒置資金利息增長；其次為交易佣金收入（Commission Revenue），2026 年第二季達 6.73 億美元（佔比約 35%）；其餘為市場數據、平台使用費等其他服務收入（約 9%）。",
+      "Gross Margin Profile": "作為電子經紀商無傳統製造業之銷貨成本，其毛利率估計高達 90% 以上（估）。核心財務指標為其極高之稅前利潤率（Pre-tax Profit Margin），在高度自動化運作下，常年保持在 70% 至 75% 的行業頂尖水平。",
+      "Key Competitors": "在零售端主要競爭對手包括 Charles Schwab、Fidelity 及 Robinhood；在亞太及國際市場面臨富途控股（Futu）、老虎證券（Tiger Brokers）的競爭；在機構託管端則與 BNY Mellon 及 State Street 等傳統託管機構競爭。",
+      "12M Catalysts": "全球高利息環境延續支撐其淨利息收入；持續拓展如羅馬尼亞 Bucharest 與巴西 B3 等新興市場交易所的直接存取管道；與南韓 Daol 證券、Latin America 的 Paysafe 等機構展開跨國策略合作以開拓當地客源。",
+      "Key Investment Risks": "全球主要央行降息將顯著壓縮其利息收入與保證金利息利差；各國監管機構對跨境交易、外匯管制與洗錢防制的審查趨嚴；市場波動性若驟減，將導致交易佣金收入與 DARTs 指標大幅下滑。",
+      "CEO & Management": "由 Milan Galik 擔任執行長（CEO）兼總裁，負責日常營運與全球擴張；創辦人 Thomas Peterffy 擔任董事會主席，持續引導長期發展戰略與技術願景。",
+      "Core Patents & IP": "持有核心智慧尋價系統（SmartRouting）、高頻電子交易執行演算法、即時保證金計算與風險控制模型等多項專利。其自主研發的交易終端（Trader Workstation, TWS）及客戶端 API 架構為其核心軟體智慧財產權。",
+      "3-Year M&A": "2023 年至 2026 年中無重大整併或收購（M&A）案，採取純有機（Organic）成長策略。公司傾向透過 Daol 證券合作案、Paysafe 資金管道擴展等戰略合作，而非收購其他實體來拓展全球業務。",
+      "CapEx & Expansion": "資本支出主要用於擴增辦公空間與升級資料中心伺服器，以支持全球 150 多個市場的直接交易與清算。擴張策略著重於增設國際據點並取得當地執照，確保符合各國多變的合規要求。",
+      "Geopolitical Exposure": "全球化營運使其面臨多國司法管轄區的法規風險，包括中美地緣政治緊張對亞洲客戶入金的潛在影響。歐盟及各國對散戶投資保護、稅務申報（如 CRS）以及跨境資本流動的合規要求日益繁複。",
+      "M&A Potential": "收購他人之意願極低（估低於 10%），因管理層深信自主研發的單一技術平台優於收購後整合多套系統。被他人收購之機會亦微乎其微，主因創辦人 Thomas Peterffy 持有絕對控制權，且公司維持強勁的獨立獲利能力。"
+    },
+    {
+      "Country": "USA",
+      "Timeframe": "中長期",
+      "Sub-Sector": "貨運金融科技",
+      "Industry": "金融科技/物流支付",
+      "Tier": "隱形冠軍",
+      "Company": "Triumph Financial, Inc. (TFIN)",
+      "Capital/Market Cap": "約 17.5億美元",
+      "Core Business": "以旗下 TriumphPay 為核心，建構美國貨運卡車業的電子支付與審計網絡，提供貨運代理商（Broker）、承運商（Carrier）及託運商（Shipper）間的支付清算服務。同時，公司經營 TBK Bank 提供傳統商業銀行與存款服務，並透過 Triumph Business Capital 提供應收帳款承購（Factoring）業務。",
+      "Clients & Orders": "主要客戶為美國貨運代理商（Brokers）、第三方物流公司（3PLs）及卡車承運商（Carriers）。TriumphPay 網絡已累積處理超過 1,000 億美元的支付額，並擁有北美約 70% 的經紀貨運交易可視性，連結超過 17 萬家承運商，單季支付額（如 2026 年第二季）達到 135 億美元。",
+      "Technical Moat": "擁有強大的雙邊網絡效應（Network Effects），將其付款流程深度集成至各大貨運代理商的運輸管理系統（TMS），形成極高的客戶轉換成本。結合 Greenscreens.ai 與 Isometric Technologies 的數據實力，提供運價預測與承運商績效防詐欺監測，建構超越單純支付的貨運數據壁壘。",
+      "Revenue Breakdown": "年營收約在 4.2 億至 4.5 億美元區間。其中銀行業務（不含支付）為最大營收來源（約佔 50-55%），其次為應收帳款承購（Factoring）業務（約佔 30%），以及高成長的 TriumphPay 支付網絡與數據智能服務（約佔 15-20%）。",
+      "Gross Margin Profile": "傳統銀行業務維持約 6.15%–6.2% 的高淨利差（NIM），應收帳款承購業務營運利潤率維持在 34% 左右。TriumphPay 支付網絡營運槓桿持續擴大，目標於 2026 年底實現 50% 的 EBITDA 利潤率（排除新產品投資後已達 34%），智慧數據業務的毛利率則高達 86%。",
+      "Key Competitors": "主要競爭對手包括傳統貨運審計與支付服務商 Cass Information Systems (CASS)，以及提供車隊支付與費用管理服務的 WEX (WEX Capital) 與 Corpay。此外，也面臨如 RTS Financial、Apex Capital 等傳統卡車應收帳款承購（Factoring）同業的競爭。",
+      "12M Catalysts": "美國貨運市場從 2023-2025 年的「貨運蕭條期」逐步回暖，帶動貨運交易量與支付規模回升。TriumphPay 支付網絡之 EBITDA 利潤率向 50% 目標邁進，以及新一代 LoadPay 卡車司機數位錢包與 Greenscreens.ai 動態定價工具的變現率提升。",
+      "Key Investment Risks": "美國貨運景氣循環若復甦遲緩，將壓抑整體支付規模與應收帳款承購需求。卡車承運商面臨高倒閉率時，可能增加銀行的信用違約風險與壞帳損失。此外，LoadPay 等新科技產品的市場接受度若低於預期，將拖累整體的利潤率表現。",
+      "CEO & Management": "創辦人 Aaron P. Graft 擔任副董事長兼執行長，自 2010 年創立以來持續領導公司，具備豐富的產業洞察與穩定的經營團隊。管理層結構於 2025 年進行優化，委任 Kim Fisk 擔任 Factoring 總裁及 David Vielehr 負責 LoadPay 業務，積極推動技術變現。",
+      "Core Patents & IP": "主要依賴其專有的 TriumphPay 支付清算網絡架構、NextGen 自動審計演算法、Greenscreens.ai 動態定價模型以及 LoadPay 錢包系統。公司透過軟體著作權、商標與商業秘密（Trade Secrets）來保護其核心智慧財產權，而非依賴大量公開專利申請（估）。",
+      "3-Year M&A": "於 2024 年 12 月收購貨運 performance 評分平台 Isometric Technologies (ISO) 以提升數據質量。2025 年 5 月收購 AI 動態運價平台 Greenscreens.ai，藉此將服務延伸至貨運定價與智能預測，完善「數據智能」板塊。",
+      "CapEx & Expansion": "資本支出高度集中於軟體研發與數據平台升級，實行輕資產擴張策略。擴張計畫聚焦於深化 TriumphPay 在北美貨運市場的網絡密度，並推動 Greenscreens.ai 與 LoadPay 錢包在現有 17 萬家合作承運商與 700 多家代理商中的交叉銷售。",
+      "Geopolitical Exposure": "業務幾乎百分之百集中於美國本土貨運市場，無直接的海外地緣政治暴險。地緣政治的影響主要為間接性，例如國際油價波動影響美國卡車燃油成本、或全球供應鏈重組（如近岸外包）影響美國國內的總體貨物運輸需求。",
+      "M&A Potential": "作為美國唯一的貨運支付清算網絡，極具被大型 B2B 支付巨頭（如 WEX、Corpay 或 Fiserv）收購的潛在價值。在主動收購方面，經歷 2024-2025 年對 ISO 與 Greenscreens.ai 的收購後，目前處於消化與技術整合階段，短期內再次進行大型收購的機率偏低（估）。"
+    },
+    {
+      "Country": "USA",
+      "Timeframe": "中長期",
+      "Sub-Sector": "監管科技 (RegTech) / 金融合規軟體 SaaS",
+      "Industry": "金融軟體與監管法遵服務",
+      "Tier": "隱形冠軍",
+      "Company": "Donnelley Financial Solutions, Inc. (DFIN)",
+      "Capital/Market Cap": "約 11.6億至11.9億美元",
+      "Core Business": "提供監管合規、風險管理及治理軟體的解決方案。主要SaaS產品包括用於SEC申報的ActiveDisclosure、用於M&A虛擬數據庫的Venue，以及投資合規的Arc Suite。",
+      "Clients & Orders": "服務對象包括全球數千家上市公司、共同基金、投資銀行與律師事務所。經常性收入高，受惠於法規要求的年度合規申報，另有隨市場波動的交易型需求。",
+      "Technical Moat": "深度整合SEC EDGAR申報系統，具有極高的客戶黏性與轉換成本。平台內建先進的AI自動化標記與數據提取技術，能顯著提升Inline XBRL的申報效率與精準度。",
+      "Revenue Breakdown": "軟體解決方案營收佔總營收比例已提升至42%至45%以上，並呈現穩步增長。其餘部分由合規服務、交易服務以及傳統印刷配送業務組成，其中印刷業務比例逐年下降。",
+      "Gross Margin Profile": "隨SaaS業務佔比上升，非GAAP毛利率已擴張至64%至66%區間（2026年第二季達66%）。調整後EBITDA利潤率維持在31%至36%之間，2026年第二季創下單季36.7%的歷史新高。",
+      "Key Competitors": "主要競爭對手包括法遵合規雲端龍頭 Workiva、提供Bridge法遵申報軟體的 Toppan Merrill，以及提供投資人關係分銷服務的 Broadridge Financial Solutions。",
+      "12M Catalysts": "催化劑包括美國SEC「簡化股東報告書」（TSR）新規對iXBRL申報軟體需求的持續拉動；2026年SEC Names Rule等新規落地的實施期限；若降息週期啟動將促使IPO與M&A市場回溫，帶動交易型數據庫需求。",
+      "Key Investment Risks": "面臨傳統低毛利印刷業務結構性萎縮的拖累；若全球M&A和美股IPO市場因宏觀因素持續疲軟，將壓抑交易型營收；此外，在合規SaaS市場也面臨來自領先者 Workiva 的激烈競爭壓力。",
+      "CEO & Management": "自2016年公司獨立上市以來，執行長 Daniel N. Leib 持續掌舵。他主導了公司從傳統印刷排版商轉型為SaaS及技術驅動型合規科技龍頭的策略。",
+      "Core Patents & IP": "擁有ActiveDisclosure、Venue與Arc Suite的系列軟體著作權、專利與商標。2023年底將AI合約分析公司 eBrevia 出售回其共同創辦人，但仍保留其AI數據提取與iXBRL自動標記等底層關鍵技術授權。",
+      "3-Year M&A": "於2023年12月將非核心的 AI 合約分析公司 eBrevia 出售，以聚焦於核心監管合規SaaS的發展。2023至2026年間無大型收購案，主要專注於現有合規軟體的有機開發與技術升級。",
+      "CapEx & Expansion": "資本支出管理極具紀律，單季資本支出維持在約1,350萬美元，主要用於軟體研發資本化與雲端基礎設施擴充，以支持SaaS轉型並持續優化自由現金流。",
+      "Geopolitical Exposure": "業務高度集中於美國市場，直接受制於美國SEC監管規定，直接地緣政治風險較低。間接風險主要來自全球宏觀不確定性對跨國上市及跨境併購活動的干擾。",
+      "M&A Potential": "併購潛力極高。由於具備高黏性客戶群、穩定的經常性軟體收入與優異的自由現金流產生能力，使其成為私募股權基金（PE）進行槓桿收購或大型金融科技企業的優質目標。"
+    },
+    {
+      "Country": "USA",
+      "Timeframe": "中長期",
+      "Sub-Sector": "金融科技",
+      "Industry": "電子交易平台與軟體服務",
+      "Tier": "龍頭股",
+      "Company": "Tradeweb Markets Inc. (TW)",
+      "Capital/Market Cap": "約 240億美元",
+      "Core Business": "提供機構、批發與零售客戶在全球固定收益、衍生性商品、股票和貨幣市場的電子交易平台、工作流工具及數據分析服務。",
+      "Clients & Orders": "服務全球超過 2,500 家機構客戶（涵蓋資產管理公司、對沖基金、保險公司及央行），2026年日均交易量（ADV）已突破數兆美元規模。",
+      "Technical Moat": "以 AiEX（自動智能執行）與 TARA 等 AI 交易與研究工具深度整合至客戶日常工作流程，結合強大的多邊網絡效應和極高的客戶轉移成本。",
+      "Revenue Breakdown": "2026年第二季總營收為 5.589 億美元，其中利率產品（Rates）占比約 54.1%（3.025億美元），信用產品（Credit）占比約 23%（1.284億美元），其餘為貨幣市場、股票及數據服務。",
+      "Gross Margin Profile": "具備極高的高營運槓桿特性而不揭露傳統毛利率，其 2026 年上半年調整後 EBITDA 利潤率維持在 54.4% 至 55.0% 的極高水準。",
+      "Key Competitors": "主要競爭對手包括在信用債交易領域具優勢的 MarketAxess、具終端生態系優勢的 Bloomberg，以及 CME Group 和 TP ICAP 等交易服務商。",
+      "12M Catalysts": "主要催化劑包括對 ICD (Institutional Cash Distributors) 平台整合帶來的企業財資市場拓展，以及聯準會降息路徑不明確促使的避險與利率衍生品交易量攀升。",
+      "Key Investment Risks": "營收高度依賴金融市場交易量與波動度，面臨大股東（如 LSEG）的持股釋出壓力，以及日趨嚴格的金融法規合規成本與資安風險。",
+      "CEO & Management": "執行長由 Billy Hult 擔任，帶領團隊推動多資產平台與 AI 技術整合；Sara Furber 擔任財務長，Tom Pluta 則擔任總裁。",
+      "Core Patents & IP": "擁有包括組合交易（Portfolio Trading）撮合系統、即時信用限額校驗與交易自動執行（AiEX）等多項電子交易與風控核心專利。",
+      "3-Year M&A": "2024 年以 7.85 億美元收購 ICD 切入企業財資市場，2023 年收購 Yieldbroker 與 r8fin 分別拓展澳洲市場與演算法交易技術，2026 年投資 Crossover Markets。",
+      "CapEx & Expansion": "資本支出核心在於軟體研發與平台優化（約占支出 60%），2026年第二季 CapEx 與資本化軟體開發費用達 2,720 萬美元（年增 23.4%），正積極擴張亞太與歐洲市場。",
+      "Geopolitical Exposure": "全球地緣政治局勢緊張與中東局勢動盪，推動企業財資流向貨幣市場基金與美債等避險資產，間接刺激 Tradeweb 交易量與 ICD 平台需求成長。",
+      "M&A Potential": "擁有強健的資產負債表與現金流，未來可能繼續收購衍生性商品交易、數位資產基礎設施或特定區域固收平台的技術提供商，以深化其金融管線基礎設施地位。"
+    },
+    {
+      "Country": "Japan",
+      "Timeframe": "中長期",
+      "Sub-Sector": "生體識別與線上身分驗證 (eKYC)",
+      "Industry": "資訊軟體業",
+      "Tier": "隱形冠軍",
+      "Company": "ELEMENTS, Inc. (5246.T)",
+      "Capital/Market Cap": "約 251.6 億日圓",
+      "Core Business": "以個人身分驗證為核心（IoP Cloud 事業），提供線上身分驗證（LIQUID eKYC、Polarise eKYC）及多重要素身分驗證（LIQUID Auth）解決方案。同時開發個人化推薦與體型分析等個人最佳化（Personal Optimization）與個人資訊管理服務。",
+      "Clients & Orders": "服務超過 550 家企業機構，累計身分驗證交易量突破 1.2 億次。主要客戶涵蓋三井住友銀行（SMBC）、三菱UFJ銀行等日本巨頭金融機構、加密貨幣交易所、電信運營商及電商平台。",
+      "Technical Moat": "擁有自主研發的 AI 影像識別與生體特徵防偽引擎，能顯著降低用戶操作時的流失率。具備「LIQUID Shield」跨商戶防詐欺資料庫專利，可跨行業比對臉部圖像與設備資訊，有效阻斷集團式偽造證件申請。",
+      "Revenue Breakdown": "財務報告以單一「IoP Cloud 事業」板塊呈現，未單獨披露各項解決方案的具體營收比例。以「LIQUID eKYC」為核心的個人身分驗證解決方案是公司最主要的營收來源與成長引擎。",
+      "Gross Margin Profile": "2025 財年毛利率約為 77.5%，反映其 SaaS 訂閱與按次計費商業模式的高盈利能力。隨著併購業務的整合與交易量增加，整體毛利規模正持續擴大。",
+      "Key Competitors": "主要競爭對手包括未上市的 API 身分驗證服務商 TRUSTDOCK、提供 ProTech ID Checker 的 Showcase (3909.T)，以及專注於數據清洗與高定製化 eKYC 的 Double Standard (3925.T)。",
+      "12M Catalysts": "日本《犯罪收益轉移防止法》修法將於 2027 年 4 月全面強制執行非對面交易必須讀取 IC 晶片，帶動 2025-2026 年企業系統升級潮。此外，2025 年 3 月併購 Polarify 的 PMI 綜效顯現，使 2026 年營收創歷史新高並實現營運扭虧為盈。",
+      "Key Investment Risks": "面臨政府個人編號卡政策或公共數位身分架構變更的政策風險。此外，日本國內 eKYC 市場競爭日趨激烈，可能導致價格戰及毛利率受到壓縮。",
+      "CEO & Management": "代表董事社長由長谷川敬起（Hiroki Hasegawa）擔任，自 2024 年 4 月上任並領導公司至 2026 年，他同時兼任子公司 Liquid 的社長。創辦人久田康弘（Yasuhiro Kuda）則是核心統計數學與生體驗證技術的研發推手。",
+      "Core Patents & IP": "持有第 7542076 號專利「LIQUID Shield」，用於跨商戶的詐欺臉部特徵比對防禦。與三菱UFJ銀行及 TOPPAN Edge 共同持有第 7461241 號「顧客資訊管理伺服器」專利，並擁有多項提升 IC 晶片 NFC 讀取成功率的專利與技術。",
+      "3-Year M&A": "於 2025 年 3 月 27 日完成對 Polarify, Inc. 95.01% 股權的收購，該公司原為三井住友金融集團、Daon 與 NTT Data 的合資企業。同時與全球身分驗證技術巨頭 Daon 簽署長期技術與戰略合作協議。",
+      "CapEx & Expansion": "研發資金主要投入於升級 GPU 運算基礎設施以支持 AI 自動化審核引擎，並擴展數位身分錢包的開發。同時，公司正積極拓展日本地方自治體的公共個人身分驗證應用場景。",
+      "Geopolitical Exposure": "業務高度集中於日本本土市場，因此直接受地緣政治衝突或全球供應鏈中斷的影響較低。然而，其技術合作夥伴 Daon 位於海外，且公司正計畫將技術推廣至東南亞市場，需面臨跨境數據隱私法規之合規挑戰。",
+      "M&A Potential": "對於尋求建構數位金融與身分認證基礎設施的日本系統集成商（如 NTT Data）、大型金融集團或網際網路巨頭，該公司是極具吸引力的併購目標。同時，公司亦有潛力持續收購日本國內小型網路安全或數據分析初創企業。"
+    },
+    {
+      "Country": "China",
+      "Timeframe": "中長期",
+      "Sub-Sector": "保險科技與線上保險經紀",
+      "Industry": "金融科技",
+      "Tier": "潛力股",
+      "Company": "Huize Holding Limited (HUIZ)",
+      "Capital/Market Cap": "約 1,688萬美元",
+      "Core Business": "公司是一家領先的亞洲線上保險科技平台，專注於為新一代消費者提供一站式、數位化的長期壽險與健康險分銷服務。透過串聯消費者、保險公司及分銷合作夥伴，提供從保險諮詢、方案定制、風險管理到理賠協助的完整生命週期服務。",
+      "Clients & Orders": "主要服務中國與東南亞的「富裕大眾」年輕一代消費者，累計服務客戶突破千萬。公司已與 159 家保險公司開展合作，在 2026 年上半年實現總承保保費 41.96 億元人民幣，第一年保費達到 27.63 億元人民幣，實現穩健的訂單與保費規模增長。",
+      "Technical Moat": "技術護城河基於其自主研發的 AI 驅動平台，在 2025 年初成為首批將 DeepSeek-R1 AI 模型整合至保險諮詢 App 的企業，並於 2026 年升級為 2.0 多智能體架構。透過大數據分析和智慧核保演算法優化用戶畫像與產品定制，顯著降低獲客成本並提高旗下顧問分銷效率。",
+      "Revenue Breakdown": "營業收入主要來自與合作保險公司交易所產生的保險經紀費佣金。依險種分為核心的長期壽險與健康險 (如重大疾病險、年金險、終身壽險)，以及財產及意外險 (如旅行險、意外險、企業責任險)，其中長期人身險貢獻絕大部分營收。",
+      "Gross Margin Profile": "整體毛利率表現穩定，2025 至 2026 年間維持在約 27.32% 的水準。隨 AI 原生策略落地優化營運槓桿，2026 年上半年公司費用率降至 24.2%，推動 GAAP 淨利潤較去年同期的 230 萬元人民幣大幅成長至 2,530 萬元人民幣。",
+      "Key Competitors": "主要競爭對手包括美股上市的中國線上保險經紀平台水滴公司 (Waterdrop Inc., WDH) 與泛華控股 (Fanhua Inc., FANH)，以及港股上市的眾安在線 (06060.HK)。此外，在分銷流量端亦面臨騰訊微保、螞蟻保險等互聯網巨頭旗下的保險分銷平台競爭。",
+      "12M Catalysts": "未來 12 個月的成長催化劑包括：國際品牌 Poni Insurtech 在新加坡與香港「雙樞紐」的業務規模化發酵，推動海外營收佔比提升；DeepSeek 等 AI 技術深化應用，進一步優化分銷效率並降低銷售費用率；以及中國低利率環境下，儲蓄分紅型長期險需求的持續釋放。",
+      "Key Investment Risks": "主要投資風險包括：中國金融與保險行業監管新規 (如佣金費率管制) 對分銷佣金利潤空間的壓縮；作為低市值 (Nano-cap) 美股面臨流動性極低及股價高波動的市場風險；以及香港及東南亞市場跨境稅務或數據隱私監管政策變動的潛在衝擊。",
+      "CEO & Management": "創辦人兼執行長馬存軍擁有超過 25 年的保險業經驗，自 2006 年創立以來一直領導公司。聯席財務長 (Co-CFO) 譚漢東 (Ronald Tam) 於 2020 年加入，主要負責海外戰略規劃與國際資本市場對接，另一聯席財務長為肖明瀚 (Minghan Xiao)。",
+      "Core Patents & IP": "截至 2025 年底，公司在中國境內持有 20 項專利、27 項在審專利，以及 184 項電腦軟體著作權、80 個註冊域名。同時，在中國境內外共持有 700 多項註冊商標，主要用於保護其智慧核保、精準推薦演算法等自主研發系統。",
+      "3-Year M&A": "過去三年內最具代表性的併購案為 2024 年 9 月完成收購越南本土領先保險科技平台 Global Care 71.7% 的控股權。此收購顯著加速了旗下國際品牌 Poni Insurtech 的東南亞佈局，並於同年 10 月成功在越南推出 GlobalCare.vn 平台。",
+      "CapEx & Expansion": "資本支出主要用於維持每年約 1,000 萬美元的 R&D 及 AI 原生技術研發，以優化演算法架構。海外擴張方面，公司聚焦新加坡與香港「雙樞紐」戰略，利用新加坡財務顧問牌照與越南 Global Care 據點，將數位保險業務輻射至泛亞洲地區。",
+      "Geopolitical Exposure": "地緣政治風險主要體現在作為中概股面臨中美關係及《外國公司問責法》下的審計與退市合規壓力。此外，跨境業務拓展需應對多國不同監管體系，如新加坡金管局 (MAS) 與越南本地對外資保險牌照及跨國數據隱私的嚴格審查。",
+      "M&A Potential": "由於目前市值較低 (低於 2,000 萬美元) 且擁有完善的線上分銷平台與稀缺的跨國經營牌照，公司對於尋求數位化轉型或布局海外的傳統大型保險集團具備一定的戰略收購或股權投資價值。然而其 Variable Interest Entity (VIE) 架構可能增加跨國交易的法規複雜度。"
+    },
+    {
+      "Country": "China",
+      "Timeframe": "中長期",
+      "Sub-Sector": "金融科技信創",
+      "Industry": "金融軟體與資訊技術服務",
+      "Tier": "潛力股",
+      "Company": "科藍軟件 (300663.SZ)",
+      "Capital/Market Cap": "約 42億元人民幣",
+      "Core Business": "科藍軟件專注於為銀行及金融機構提供金融數位化諮詢及解決方案，核心業務圍繞「AI數據庫、AI應用與AI機器人、AI算力」的3A戰略展開。公司主力產品涵蓋網上銀行與行動銀行等數位渠道與中台系統，並積極推廣自主研發的交易型數據庫SUNDB以實現信創替代。",
+      "Clients & Orders": "主要客戶覆蓋中國國有大型銀行、股份制銀行、城市商業銀行及農村商業銀行等金融機構，客戶基礎廣泛。近期主要訂單集中於銀行的數位化渠道升級與信創數據庫國產替代，並與清華大學及圖靈量子等機構展開產學研戰略合作項目。",
+      "Technical Moat": "技術護城河為自主研發的分布式交易型數據庫SUNDB，具備完全自主知識產權，能實現金融核心系統的信創替代。此外，公司在數位銀行渠道解決方案市場連續多年蟬聯市佔率第一，擁有深厚的行業領域知識與多項專利技術。",
+      "Revenue Breakdown": "主營收入主要由軟體開發與技術服務構成，佔比預計超過80%，傳統的IT人員外包業務近年因公司主動轉型而大幅壓縮。自研數據庫SUNDB的授權與服務收入，以及AI智能體與智能高櫃數幣機器人等軟硬體一體化產品的營收佔比正逐步提升。",
+      "Gross Margin Profile": "因主動削減低毛利的人員外包業務並向軟硬體一體化升級，公司整體毛利率處於戰略調整期。2025至2026年受業務轉型陣痛、人員優化成本以及研發開支增加影響，短期盈利能力承壓並出現持續虧損，但預期隨高毛利的數據庫授權增加而逐步回升。",
+      "Key Competitors": "主要競爭對手包括宇信科技（300074.SZ）、神州信息（000555.SZ）、長亮科技（300348.SZ）及天陽科技（300872.SZ）等國內領先的金融IT服務商。",
+      "12M Catalysts": "未來12個月的催化劑包括中國金融信創國產替代進程加速推動SUNDB數據庫的銀行商用訂單落地，與圖靈量子合作的金融量子安全與算力一體化底座取得階段性成果，以及企業級AI智慧體平台AimiClaw的商業化推廣。",
+      "Key Investment Risks": "關鍵投資風險包括公司涉嫌信息披露違法違規而被中國證監會立案調查的合規風險，金融IT信創市場競爭加劇導致的利潤率下滑風險，以及公司近年持續虧損與銀行客戶IT預算收緊的經營壓力。",
+      "CEO & Management": "董事長兼總經理為創始人王安京，擁有美國紐約州立大學雙碩士學位及豐富的國際銀行從業背景，負責公司的整體戰略規劃。管理團隊近期致力於實施3A戰略，引導公司從人力密集型外包服務商向AI驅動的軟硬體一體化產品型企業轉型。",
+      "Core Patents & IP": "擁有自研SUNDB數據庫的完整著作權與多項分布式事務處理發明專利，並於2025-2026年間新註冊《AimiClaw企業級智能體平台V1.0》等AI相關軟著。公司專利技術廣泛覆蓋數據庫高可用監測、AI高櫃數幣機器人安全校驗及金融信用風險評估等領域。",
+      "3-Year M&A": "近三年無重大股權收購或資產併購，公司主要通過戰略投資與合作來擴展生態圈。例如與圖靈量子深度合作共建金融量子安全與算力底座，以及與清華大學成立聯合研究院共同研發先進數據庫技術。",
+      "CapEx & Expansion": "資本支出主要集中於自研數據庫SUNDB的研發投入資本化、AI軟硬體一體化產品的研發以及研發中心的升級。由於近年經營性淨利潤虧損，公司在資本開支上採取审慎精細的財務紀律以確保流動性。",
+      "Geopolitical Exposure": "業務幾乎全部深耕於中國本土市場，直接的地緣政治風險敞口極小。在美中科技脫鉤背景下，國內金融信創與數據庫國產化替代政策反而加速了銀行客戶對其自研產品的需求。",
+      "M&A Potential": "由於市值較小且擁有寶貴的金融級國產自研數據庫（SUNDB）技術，對尋求金融信創與數據庫拼圖的大型國資IT集團或金融科技巨頭而言具有一定的被併購價值。然而，目前公司大股東持股架構及立案調查事件可能會對併購交易的達成構成一定阻礙。"
+    }
+  ],
+  "failed": [],
+  "requeued": [
+    "Cardlytics, Inc. (CDLX)",
+    "SEI Investments Company (SEIC)",
+    "Virtu Financial, Inc. (VIRT)"
+  ],
+  "excluded": [
+    "Clearwater Analytics Holdings, Inc. (CWAN)",
+    "OneConnect Financial Technology Co., Ltd. (OCFT)"
+  ],
+  "summary": {
+    "batch_label": "API Batch 407 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "Klarna Group plc (KLAR)",
+      "Interactive Brokers Group, Inc. (IBKR)",
+      "Triumph Financial, Inc. (TFIN)",
+      "Donnelley Financial Solutions, Inc. (DFIN)",
+      "Tradeweb Markets Inc. (TW)",
+      "ELEMENTS, Inc. (5246.T)",
+      "Huize Holding Limited (HUIZ)",
+      "科藍軟件 (300663.SZ)"
+    ],
+    "unmatched": [],
+    "rows_exported": 2669
+  }
+}

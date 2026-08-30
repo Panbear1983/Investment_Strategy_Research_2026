@@ -21,8 +21,10 @@
     ],
     "codex_command": "codex",
     "codex_model": "",
+    "agy_claude_model": "claude-sonnet-4-6",
     "provider_fallback_order": [
         "gemini",
+        "agy_claude",
         "claude",
         "codex"
     ],
@@ -179,6 +181,7 @@
     "delay_seconds": 10,
     "daily_call_budgets": {
         "gemini": 160,
+        "agy_claude": 60,
         "claude": 150,
         "codex": 80
     },

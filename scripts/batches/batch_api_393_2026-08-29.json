@@ -1,0 +1,23 @@
+{
+  "label": "API Batch 393 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "悠遊卡 (6035.TWO)",
+      "Country": "Taiwan",
+      "Industry": "金融科技/新興市場支付",
+      "Tier": ""
+    }
+  ],
+  "records": [],
+  "failed": [
+    "悠遊卡 (6035.TWO)"
+  ],
+  "requeued": [],
+  "excluded": [],
+  "summary": {}
+}

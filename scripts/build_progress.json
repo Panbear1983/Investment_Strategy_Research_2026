@@ -1,6 +1,6 @@
 {
     "total_capacity": 100000,
-    "real_tickers_harvested": 2572,
-    "deep_research_completed": 2572,
-    "current_status": "API Batch 391 (new, gemini) Complete (Fully researched: 2572/100,000, tickers: 2572). System idle."
+    "real_tickers_harvested": 2750,
+    "deep_research_completed": 2750,
+    "current_status": "API Batch 418 (new, claude) Complete (Fully researched: 2750/100,000, tickers: 2750). System idle."
 }

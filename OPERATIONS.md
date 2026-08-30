@@ -5,7 +5,16 @@
 - The loop reads `ISR_CONFIG_PATH`, falling back to `scripts/config.json`. Both that file and
   `~/.config/investment_research/config.json` are kept identical and valid; the env-var copy
   exists because the repo copy sits under `~/Desktop` and hit a macOS `PermissionError`.
-- **`scripts/config.json.clean` is the known-good 22-key reference.** Restore from it.
+- **`scripts/config.json.clean` is the known-good reference (36 keys since 2026-08-30).** Restore from it.
+- Four providers since 2026-08-30: `gemini` (agy, Gemini Flash), `agy_claude` (the same `agy`
+  binary with `--model` = `agy_claude_model`, default `claude-sonnet-4-6` — Antigravity meters
+  Claude and Gemini as separate pools, so this is a fresh bucket when the Gemini bank is dry),
+  `claude` (Peter's own subscription), `codex`. `agy_claude` has NO schedule slots: it is reached
+  only through `provider_fallback_order`, budget 60 calls/day, and its 5-hour Antigravity window
+  is shared with any Claude use inside the Antigravity IDE. Do not give it slots without Peter's ask.
+- `_reset_from_message` understands Antigravity's relative form (`Resets in 75h59m52s`) since
+  2026-08-30. Before that a multi-day Gemini outage was cooled down for 30 minutes and re-probed
+  every slot (3 agy calls + 180 s of backoff each time).
 - `load_config` now REFUSES to start on a config missing any of `REQUIRED_CONFIG_KEYS`
   (`batch_size, daily_call_budgets, delay_seconds, max_retries, model, schedule, claude_args`)
   or with an empty `schedule`. In-loop reloads never crash the daemon: on a bad or unreadable
