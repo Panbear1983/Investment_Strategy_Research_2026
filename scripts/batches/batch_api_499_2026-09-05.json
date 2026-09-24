@@ -1,0 +1,53 @@
+{
+  "label": "API Batch 499 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "WisdomTree, Inc. (WT)",
+      "Country": "USA",
+      "Industry": "金融科技",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "USA",
+      "Timeframe": "中長期",
+      "Sub-Sector": "RWA資產代幣化",
+      "Industry": "金融科技",
+      "Tier": "潛力股",
+      "Company": "WisdomTree, Inc. (WT)",
+      "Capital/Market Cap": "約 37億美元",
+      "Core Business": "專注於提供智慧型 Beta（Smart Beta）與基本面加權交易所交易基金（ETF）、大宗商品 ETP，並全面布局真實世界資產（RWA）代幣化金融架構。公司透過 WisdomTree Prime 鎖定零售端數位資產錢包，並藉由 WisdomTree Connect 提供機構客戶串接合規鏈上代幣化基金。",
+      "Clients & Orders": "客戶涵蓋全球獨立投資顧問（RIA）、財富管理機構、家族辦公室、機構法人及一般零售投資人。2025至2026年受惠於市場對合規代幣化現金管理產品需求增加，推動全球總管理資產規模（AUM）突破 1,445億美元創下歷史新高。",
+      "Technical Moat": "具備深厚之基本面加權與量化指數建構專有技術，並打造業界少數符合美國 1940年投資公司法（1940-Act）合規標準之鏈上代幣化基金體系。擁有經 SEC 註冊之專屬區塊鏈過戶代理機構（WisdomTree Transfers, Inc.），能跨 Ethereum、Avalanche、Arbitrum、Base 等多條公鏈實現免第三方中介之即時清算與官方股權紀錄維護。",
+      "Revenue Breakdown": "營收以 AUM 規模計收的顧問管理手續費為核心（佔總營收 90% 以上），其餘為歐洲發行之 ETP 服務費用、數位資產服務與另類資產管理費。按營收與資產區域劃分，美國市場約佔 65% 至 70%，歐洲及其他國際市場約佔 30% 至 35%。",
+      "Gross Margin Profile": "毛利率長期維持在 80% 至 82% 的極高水準（公司定義為調整後營業收入扣除基金管理與行政費用），具備顯著輕資產規模經濟。隨營收成長與營運槓桿展現，調整後營業利益率（Operating Margin）穩定介於 30% 至 38% 區間。",
+      "Key Competitors": "在傳統 ETF 領域面臨 BlackRock（iShares）、Vanguard、State Street（SPDR）與 Invesco 等規模巨頭的費率競爭；在數位資產與 RWA 代幣化賽道則與 Franklin Templeton、BlackRock（BUIDL 基金）以及鏈上原生協議 Ondo Finance 展開競爭。",
+      "12M Catalysts": "美國對數位資產與證券型代幣監管框架明朗化，加速機構資金透過 WisdomTree Connect 導入代幣化國債與貨幣市場基金；2025年10月完成收購之美國農地另類資產管理商 Ceres Partners 持續貢獻手續費成長與資產多元化綜效；激進股東長達數年的代理權爭端若獲和解或轉向潛在策略併購，將進一步釋放股東價值。",
+      "Key Investment Risks": "全球股債市場劇烈回檔可能導致 AUM 縮水並直接削弱手續費收入；低成本被動指數產品的費率割喉戰對整體平均費率（約 0.35%）形成長期下行壓力；此外，零售數位資產平台（WisdomTree Prime）初期推廣與合規成本高昂，若機構客戶鏈上轉移速度不及預期可能拖累獲利。",
+      "CEO & Management": "執行長 Jonathan Steinberg 為公司創辦人兼 ETF 產業先驅，主導公司由傳統 Smart Beta 轉型為數位資產與 RWA 代幣化領航者；核心高層包括總裁兼營運長 R. Jarrett Lilien、數位資產負責人 Will Peck 以及全球投資長 Jeremy Schwartz，具備豐富傳統資產管理與 Web3 雙軌營運經驗。",
+      "Core Patents & IP": "擁有基本面指數加權演算法與多項 Smart Beta 指數架構之專利與商標智財權；自主開發並持有經合規認證之區塊鏈過戶代理系統（WisdomTree Transfers），並登記有「WisdomTree Prime」、「WisdomTree Connect」等核心數位金融技術與品牌專利資產。",
+      "3-Year M&A": "2025年10月以 2.75億美元現金及最高 2.25億美元盈利對價（Earn-out）完成收購美國農地資產管理公司 Ceres Partners，正式擴張至私有另類資產領域；2024年向激進股東 ETFS Capital 購回 Series A 優先股以改善股權治理與資本結構；近年聚焦核心平台之策略整併與數位架構構建。",
+      "CapEx & Expansion": "採輕資產營運架構，資本支出主要集中於區塊鏈智能合約升級、多鏈互通架構及金融科技平台之軟體開發；持續拓展至 Avalanche、Arbitrum、Optimism 與 Base 等主流公鏈與 L2 生態系，並大力佈局美國與歐洲的機構法人數位資產分銷網絡。",
+      "Geopolitical Exposure": "營運主體位於美國、英國及歐盟等成熟法規市場，直接地緣政治衝擊有限；然而歐洲 ETP 業務面臨歐元與英鎊對美元之匯率波動風險，且旗下全球型與大宗商品 ETP 會間接受國際貿易關稅與區域軍事衝突等宏觀震盪影響。",
+      "M&A Potential": "身為少數兼具百億級 AUM 規模、穩健自由現金流與完備 SEC 合規鏈上 RWA 代幣化基礎設施的獨立資產管理公司，被視為大型傳統金融機構（如 Morgan Stanley、Charles Schwab 或 Invesco）尋求數位轉型的極具吸引力併購標的；在激進股東持續推動策略評估下，潛在被收購或合併機率偏高。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 499 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "WisdomTree, Inc. (WT)"
+    ],
+    "unmatched": [],
+    "rows_exported": 3218
+  }
+}

@@ -1,68 +1,123 @@
 {
-    "date": "2026-08-30",
+    "date": "2026-09-24",
     "calls": {
-        "gemini": 100,
+        "gemini": 115,
         "agy_claude": 0,
-        "claude": 72,
-        "codex": 26
+        "claude": 19,
+        "codex": 0
     },
     "discovery": {
-        "attempts": 9,
+        "attempts": 5,
         "empty_results": 0
     },
-    "discovery_cursor": 33,
+    "discovery_cursor": 341,
     "discovery_slices": {
         "France|": {
             "empty_streak": 0,
             "cooldown_until": "",
-            "last_productive": "2026-08-27"
+            "last_productive": "2026-09-22"
         },
         "Israel|": {
             "empty_streak": 0,
             "cooldown_until": "",
-            "last_productive": "2026-08-27"
+            "last_productive": "2026-09-22"
         },
         "Taiwan|\u822a\u592a\u8207\u570b\u9632": {
             "empty_streak": 0,
             "cooldown_until": "",
-            "last_productive": "2026-08-28"
+            "last_productive": "2026-09-22",
+            "last_empty": "2026-09-21"
         },
         "UK|": {
             "empty_streak": 0,
             "cooldown_until": "",
-            "last_productive": "2026-08-28"
+            "last_productive": "2026-09-22"
         },
         "Sweden|": {
             "empty_streak": 0,
             "cooldown_until": "",
-            "last_productive": "2026-08-28"
+            "last_productive": "2026-09-22"
         },
         "Canada|": {
             "empty_streak": 0,
             "cooldown_until": "",
-            "last_productive": "2026-08-28"
+            "last_productive": "2026-09-22"
         },
         "Singapore|": {
             "empty_streak": 0,
             "cooldown_until": "",
-            "last_productive": "2026-08-28"
+            "last_productive": "2026-09-22"
         },
         "Japan|": {
             "empty_streak": 0,
             "cooldown_until": "",
-            "last_productive": "2026-08-28"
+            "last_productive": "2026-09-21"
         },
         "South Korea|": {
             "empty_streak": 0,
             "cooldown_until": "",
-            "last_productive": "2026-08-28"
+            "last_productive": "2026-09-21"
         },
         "Germany|": {
             "empty_streak": 0,
             "cooldown_until": "",
-            "last_productive": "2026-08-30"
+            "last_productive": "2026-09-21",
+            "last_empty": "2026-09-08"
+        },
+        "|\u7a00\u571f": {
+            "empty_streak": 0,
+            "cooldown_until": "",
+            "last_productive": "2026-09-09"
+        },
+        "|\u7121\u4eba\u6a5f": {
+            "empty_streak": 3,
+            "cooldown_until": "2026-10-03",
+            "last_productive": "2026-09-12",
+            "last_empty": "2026-09-19"
+        },
+        "|\u4f4e\u8ecc\u885b\u661f": {
+            "empty_streak": 2,
+            "cooldown_until": "2026-09-30",
+            "last_productive": "2026-09-23",
+            "last_empty": "2026-09-23"
+        },
+        "|\u77fd\u5149\u5b50": {
+            "empty_streak": 3,
+            "cooldown_until": "2026-10-02",
+            "last_productive": "2026-09-11",
+            "last_empty": "2026-09-18"
+        },
+        "|\u95dc\u9375\u91d1\u5c6c": {
+            "empty_streak": 2,
+            "cooldown_until": "2026-09-29",
+            "last_productive": "2026-09-22",
+            "last_empty": "2026-09-22"
+        },
+        "|\u5316\u5de5": {
+            "empty_streak": 2,
+            "cooldown_until": "2026-10-01",
+            "last_productive": "2026-09-24",
+            "last_empty": "2026-09-24"
+        },
+        "|\u904b\u8f38": {
+            "empty_streak": 2,
+            "cooldown_until": "2026-10-01",
+            "last_productive": "2026-09-23",
+            "last_empty": "2026-09-24"
+        },
+        "Netherlands|": {
+            "empty_streak": 0,
+            "cooldown_until": "",
+            "last_productive": "2026-09-24"
+        },
+        "USA|\u751f\u6280\u65b0\u85e5": {
+            "empty_streak": 2,
+            "last_empty": "2026-09-19",
+            "cooldown_until": "2026-09-26"
         }
     },
-    "batch_seq": 418,
-    "discovery_last_slice": "Germany|"
+    "batch_seq": 814,
+    "discovery_last_slice": "Netherlands|",
+    "daily_digest_sent": "2026-09-23",
+    "direction_mined_out_notified": "2026-09-24"
 }

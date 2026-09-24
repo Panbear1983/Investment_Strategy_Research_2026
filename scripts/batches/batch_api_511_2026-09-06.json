@@ -1,0 +1,113 @@
+{
+  "label": "API Batch 511 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "Baldwin Insurance Group, Inc. (BWIN)",
+      "Country": "USA",
+      "Industry": "金融科技",
+      "Tier": ""
+    },
+    {
+      "Company": "Velocity Financial, Inc. (VEL)",
+      "Country": "USA",
+      "Industry": "金融科技",
+      "Tier": ""
+    },
+    {
+      "Company": "Primis Financial Corp. (FRST)",
+      "Country": "USA",
+      "Industry": "金融科技",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "USA",
+      "Timeframe": "中長期",
+      "Sub-Sector": "保險科技與經紀",
+      "Industry": "金融科技與保險服務",
+      "Tier": "潛力股",
+      "Company": "Baldwin Insurance Group, Inc. (BWIN)",
+      "Capital/Market Cap": "約 30.2億美元",
+      "Core Business": "提供獨立保險分銷、專業承保與諮詢服務，業務涵蓋商業風險管理、員工福利、個人保險，以及透過科技賦能的批發承保（MGA）與專屬再保險經紀（Juniper Re）。公司透過統一品牌整合傳統代理網絡與數位保險科技平台，為客戶提供全流程客製化風險解決方案。",
+      "Clients & Orders": "服務全美超過百萬名個人消費者、中小企業以及中大型商用機構，並與全美主流產壽險承保商建立深度分銷夥伴關係。主要營收來自常態性續約保單佣金（續保率長期維持在 90% 以上）與基於專屬承保產能的技術管理費收入。",
+      "Technical Moat": "擁有專有數位保險平台與 API 整合中台（如 Westwood 與 Guided Solutions），能無縫嵌入房地產、多戶住宅（Multifamily）租賃系統與金融機構發行體系。其承保產能與技術方案（UCTS）利用演算法評級與數據模型大幅縮短核保流程，建立高轉換率與高客戶黏著度的通路技術壁壘。",
+      "Revenue Breakdown": "2025-2026年營收主要來自三大板塊：保險諮詢解決方案（IAS，核心商業與高淨值零售經紀）約佔 50%-55%、承保產能與技術解決方案（UCTS，MGA及再保險業務）約佔 30%-33%、主街社群保險方案（MIS，個人與微型企業產險）約佔 15%-17%。",
+      "Gross Margin Profile": "經紀服務業毛利率約 30%-35%（估，扣除業務員佣金分成與直接分銷成本），營運核心在於經銷規模化效益；2026年經調整後 EBITDA 利潤率（Adjusted EBITDA Margin）維持在 24%-25% 水平，展現品牌整合與後台統一後穩健的營運槓桿。",
+      "Key Competitors": "主要競爭對手包括跨國綜合性保險經紀商 Marsh McLennan (MMC)、Aon (AON)、Arthur J. Gallagher (AJG)，以及專注於中型市場與批發經紀的 Brown & Brown (BRO) 與 Ryan Specialty Holdings (RYAN)。",
+      "12M Catalysts": "未來12個月催化劑包括自2024-2025年完成統一更名（由 BRP Group 更名為 The Baldwin Group）後的後台系統整合與營運綜效顯現、UCTS 科技嵌入式保險於多戶住宅租賃市場的加速滲透、自由現金流改善帶動債務去槓桿（目標將淨槓桿降至 4.0x 以下），以及再保險費率回穩帶動利潤率回升。",
+      "Key Investment Risks": "主要風險在於過去積極併購所累積的高額債務負擔（淨槓桿率約 4.5x，總債務逾 20 億美元），在高利率環境下利息支出大幅壓抑 GAAP 淨利潤；此外，美國東南沿海颶風與極端氣候災損可能引發承保產能緊縮與核保費率波動，且零售諮詢部門（IAS）面臨有機成長趨緩的挑戰。",
+      "CEO & Management": "執行長 Trevor Baldwin 擁有深厚保險經紀背景，為主導公司從區域性合夥經紀商跨越至全國性上市保險科技集團的核心領袖；管理團隊具備資深承保、資本市場及數位轉型經驗，目前策略重心高度聚焦於單一品牌營運綜效與提升自由現金流回報。",
+      "Core Patents & IP": "核心智慧財產權為專有的雲端保險承保演算法、動態報價引擎、數位客戶入口網站與 API 串接架構（含 Westwood 等嵌合式分銷資產），並持有「The Baldwin Group」、「BWIN」等全美註冊商標與商業機密保護體系，無傳統硬體製造專利。",
+      "3-Year M&A": "過去三年策略由過去激進的「合夥收購（Partnership Strategy）」轉向精實整頓：2023年以前透過收購數十家區域機構擴張規模，2024至2026年則放緩大規模 M&A 步伐，聚焦於現有收購資產的後台整合、品牌統一與去槓桿化，僅針對特定 MGA 產能或利基型再保險團隊進行小型策略性補強收購。",
+      "CapEx & Expansion": "採輕資產經營模式，年度資本支出佔營收比重約 1.5%-2.5%（估），主要投入於統一企業 ERP 核心升級、AI 自動化核保輔助工具開發與雲端基礎設施擴建；擴張策略著重以數位嵌合技術深化全美多戶住宅與高利潤專屬再保險市場的滲透率。",
+      "Geopolitical Exposure": "地緣政治風險極低，營收超過 98% 來自美國本土市場，無顯著跨境或國際供應鏈直接曝險；公司業務主要受美國本土總體經濟週期、利率水準、商業不動產景氣與各州保險監管法規變動的影響。",
+      "M&A Potential": "併購潛力中等偏高，作為兼具全國分銷通路與自研保險科技平台的中型稀缺標的，對大型私募股權基金（PE）或巨型跨國保險經紀集團具備高度吸引力；同時若公司順利完成負債比率優化，亦具備重新扮演中型市場整合者（Platform Acquirer）的實力。"
+    },
+    {
+      "Country": "USA",
+      "Timeframe": "中長期",
+      "Sub-Sector": "商業房地產融資",
+      "Industry": "金融科技",
+      "Tier": "隱形冠軍",
+      "Company": "Velocity Financial, Inc. (VEL)",
+      "Capital/Market Cap": "約 7.16億美元",
+      "Core Business": "專注於全美小額商業不動產（SBC）及 1-4 戶獨立住宅投資物業的第一抵押權商業目的貸款（BPL），單筆貸款額度多落在 7.5 萬至 500 萬美元區間。營運採垂直整合模式，透過全國獨立抵押貸款經紀人網絡獲客，並結合專有風控平台進行快速審批與證券化融資持有。",
+      "Clients & Orders": "客群涵蓋中小型房地產投資人、翻修轉售商（Fix-and-Flip）及長期收租物業營運商，依賴全美數千家獨立房貸經紀人進行業務分銷。受惠於區域銀行持續緊縮信貸，2025 年全年放款量創歷史新高推升淨營收達 3.44 億美元，並於 2026 年下半年達成代管 Toorak Capital 規模達 30 億美元的既有貸款組合。",
+      "Technical Moat": "自主研發的自動化核貸與不動產估價風控引擎，累積逾 20 年非標小額商業地產的定價與違約歷史大數據，審貸週期顯著短於傳統商業銀行。具備常態化發行住宅與商業不動產抵押貸款證券（RMBS/CMBS）的成熟資本市場通道，確保充沛且成本可控的非銀行流動性來源。",
+      "Revenue Breakdown": "淨利息收入（Net Interest Income, NII）為主要營收來源，佔整體營收比重約 75%–85%；其餘 15%–25% 來自貸款發起與處分收益（Gain on Sale）、貸款管理服務費（Loan Servicing Fees）以及衍生性金融商品公允價值變動。",
+      "Gross Margin Profile": "作為特種信貸金融機構，毛利以投組淨息差（NIM）衡量，2024 至 2025 年投組淨利差穩健維持在 3.56%–3.61% 水準。受惠於規模效應與穩健利差管理，2025 年全年淨利潤達 1.05 億美元，股東權益報酬率（ROE）維持在 15%–18% 高檔。",
+      "Key Competitors": "在非銀行不動產商業貸款市場主要競爭對手包括 Redwood Trust (RWT)、Arbor Realty Trust (ABR)、Ready Capital (RC) 以及未上市的 Genesis Capital 與 Lima One Capital。",
+      "12M Catalysts": "2026 年第四季完成收購 Toorak Capital 運營平台，預計將帶動年化貸款發起量大幅成長約 76%；聯準會降息週期可望降低倉儲信用額度之利息支出，擴大獲利利差空間；美國傳統區域銀行對商業房地產風險敞口縮減，持續釋出小額商業地產放貸的市場真空份額。",
+      "Key Investment Risks": "總體經濟放緩導致借款人違約率上升及小額商業房產抵押品估值減損風險；資本市場劇烈波動可能造成證券化定價利差擴大與流動性收緊；通路高度仰賴外部獨立房貸經紀人，面臨同行爭取優質經紀人網絡的佣金與價格競爭。",
+      "CEO & Management": "執行長 Christopher D. Farrar 為公司共同創辦人，自 2004 年創立以來領導公司逾 20 年，歷經多次房地產信貸週期與 2020 年 IPO 上市；執行副總裁兼財務長 Mark R. Szczepaniak 具深厚特種金融與公開市場融資經驗，經營團隊長期維持穩健的審慎放款風格。",
+      "Core Patents & IP": "無硬體技術專利，核心資產為專有的小額商業貸款自動化審批工作流系統、抵押物估價算法數據庫以及覆蓋全美的經紀人合作關係管理平台（CRM）。",
+      "3-Year M&A": "2021 年底收購 Century Health & Housing Capital 80% 股權以拓展 FHA/HUD 保障型老年與多戶住宅信貸；2026 年 8 月宣布以約 6,200 萬至 6,300 萬美元現金收購 Toorak Capital 運營平台，並承接其 30 億美元資產管理業務，完成成立以來關鍵戰略擴張。",
+      "CapEx & Expansion": "採輕資產金融平台模式，每年資本支出極低，主要集中於雲端風控架構升級、數據安全及自動化核貸系統維護；擴張主力放在透過整合收購同業營運平台擴大貸款發起規模，並深化機構投資人客製化融資合作。",
+      "Geopolitical Exposure": "業務 100% 聚焦美國本土房地產市場，無直接海外營運或供應鏈地緣政治風險；主要間接風險來自全球宏觀資本流動變動對美國國債殖利率曲線、美元流動性及離岸機構認購其資產證券化債券之胃納量影響。",
+      "M&A Potential": "雙向整併潛力高。對外持續尋求具互補性之利基型房貸平台以擴張放貸市佔率；對內因其在小額商業房貸（SBC）領域具領導地位且股權結構集中，易成為尋求擴張私人信貸（Private Credit）版圖之另類資產管理巨頭（如 Blackstone、Apollo、Ares）的收購標的。"
+    },
+    {
+      "Country": "USA",
+      "Timeframe": "中長期",
+      "Sub-Sector": "金融科技",
+      "Industry": "金融業",
+      "Tier": "潛力股",
+      "Company": "Primis Financial Corp. (FRST)",
+      "Capital/Market Cap": "約 3.9億美元",
+      "Core Business": "Primis Financial Corp. 是一家將傳統社群銀行執照與新一代雲端金融科技深度結合的金融控股公司，旗下全資擁有 Primis Bank。核心業務涵蓋全美數位存款集客、專業利基市場信貸，以及為第三方金融科技公司提供底層合規、支付清算與帳戶託管之銀行即服務（BaaS）。",
+      "Clients & Orders": "客戶群包括美國東岸零售與中小企業、專注全美醫師與牙醫等醫療專業人士的 Panacea 客群，以及對接其 FDIC 銀行執照與 API 基礎設施的金融科技新創。透過數位帳戶開戶技術與高資產專業利基信貸，在 2025 至 2026 年維持強韌的存款流入與專案貸款動能。",
+      "Technical Moat": "具備自主開發且高度模組化的 API 中台架構，能實現毫秒級數位開戶與第三方 Fintech 系統無縫對接。在傳統社群銀行中率先完成雲端核心與開放銀行接口改造，建立了兼具 FDIC 監管牌照合規壁壘與軟體公司敏捷交付能力的雙重護城河。",
+      "Revenue Breakdown": "2026 年淨利息收入（Net Interest Income）佔總營收約 70% 至 75%（單季達約 3,380 萬美元），為主要收入來源；非利息收入（Noninterest Income）佔比約 25% 至 30%，主要來自 BaaS 服務費、房貸業務手續費及專案資產處分收益。",
+      "Gross Margin Profile": "銀行業以淨利差（NIM）衡量實質毛利率表現，受惠於生息資產重定價及數位無息存款結構優化，2026 年第二季淨利差擴張至 3.45%（相較 2025 年同期的 2.86% 大幅改善）。在處分非核心資產與精簡核心處理系統合約後，營業效率比率（Efficiency Ratio）穩定優化至 60% 至 65% 水準（估）。",
+      "Key Competitors": "在金融科技與 BaaS 領域之主要對手包括 The Bancorp (TBBK)、Pathward Financial (CASH)、Coastal Financial (CCB) 與 Green Dot (GDOT)；在維吉尼亞與馬里蘭等區域傳統銀行市場則面臨 Atlantic Union Bankshares 等地方同業之競爭。",
+      "12M Catalysts": "未來 12 個月關鍵催化劑包含聯準會降息循環帶動資金成本下降與淨利差持續走闊；2025 年完成 Panacea Financial 股權解編及部分售股後帶來的資本強化與持續性手續費收益；以及 18 處實體分行售後租回釋放充沛營運資本，進一步拉升 2026 至 2027 年的 ROA 與 ROE。",
+      "Key Investment Risks": "主要風險為聯邦監管機構（Fed、FDIC、OCC）對 BaaS 及第三方金融科技合作夥伴日趨嚴格的合規審查與罰則；商業不動產（CRE）及高集中度專門信貸在經濟波動下的潛在壞帳壓力；以及全美高利數位存款市場同業競爭導致資金成本攀升。",
+      "CEO & Management": "總裁兼執行長 Dennis J. Zember Jr. 擁有豐富的區域銀行併購與數位轉型領導資歷（曾任 Ameris Bancorp 執行長），主導推行「以科技公司思維運作 FDIC 銀行」的差異化策略。管理團隊在 2025 至 2026 年展現高執行力，成功推動資產負債表瘦身與獲利結構升級。",
+      "Core Patents & IP": "擁有專利的行動隨選數位金融服務架構（如 V1BE 專利金融配送平台）與專屬 API 整合中台，並持有 Primis 與 Panacea Financial 相關商標及專有軟體代碼庫。其智財核心在於具備高度合規性驗證的自研金融科技中間件與數位風控評分演算法。",
+      "3-Year M&A": "2025 年完成醫療金融平台 Panacea Financial Holdings 的財務解編並出售部分持股，獲取 2,210 萬美元現金及 750 萬美元稅前收益，同時確立長期獨家銀行服務夥伴協議。同年完成 18 處實體分行之售後租回交易以套現資本，並加速整合早期 Sonabank 併購後的核心系統合約。",
+      "CapEx & Expansion": "資本支出重心全面轉向雲端銀行核心架構升級、BaaS API 接口自動化與合規科技（RegTech）監控系統，實體據點資本投入顯著降級。透過數位平台實施全國性集客以突破地域限制，同時聚焦醫療專業人員信貸與高價值商業客戶擴張。",
+      "Geopolitical Exposure": "業務百分之百立足於美國本土市場，無海外營運或直接地緣政治供應鏈風險。主要外生系統性變數集中於美國總體經濟動向、聯準會貨幣利率政策路徑及聯邦銀行業監管法規變革。",
+      "M&A Potential": "具備潔淨的高效率數位架構、全國性存款吸納能力與穩定的 BaaS 客戶生態，對尋求數位轉型的大型區域銀行而言是極具整合價值的被收購標的。在資本充足率提升後，亦具備伺機併購估值偏低之在地小型社群銀行以低成本獲取實體存款與授信規模的潛力。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 511 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "Baldwin Insurance Group, Inc. (BWIN)",
+      "Velocity Financial, Inc. (VEL)",
+      "Primis Financial Corp. (FRST)"
+    ],
+    "unmatched": [],
+    "rows_exported": 3239
+  }
+}

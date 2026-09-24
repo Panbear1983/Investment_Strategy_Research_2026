@@ -1,0 +1,23 @@
+{
+  "label": "API Batch 421 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "claude"
+  ],
+  "items": [
+    {
+      "Company": "Alpha Group International Plc (ALPH.L)",
+      "Country": "UK",
+      "Industry": "金融科技/新興市場支付",
+      "Tier": ""
+    }
+  ],
+  "records": [],
+  "failed": [],
+  "requeued": [],
+  "excluded": [
+    "Alpha Group International Plc (ALPH.L)"
+  ],
+  "summary": {}
+}

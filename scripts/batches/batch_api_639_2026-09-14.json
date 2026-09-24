@@ -1,0 +1,54 @@
+{
+  "label": "API Batch 639 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "卡梅科 Cameco (CCO.TO)",
+      "Country": "Canada",
+      "Industry": "關鍵金屬",
+      "Tier": ""
+    }
+  ],
+  "requested": [],
+  "records": [
+    {
+      "Country": "Canada",
+      "Timeframe": "中長期",
+      "Sub-Sector": "核能燃料與鈾礦",
+      "Industry": "關鍵金屬",
+      "Tier": "龍頭股",
+      "Company": "卡梅科 (CCO.TO)",
+      "Capital/Market Cap": "約 270億美元",
+      "Core Business": "全球最大的純商業鈾礦開採與核燃料循環服務商之一，業務涵蓋高品位鈾礦勘探與開採、精煉、轉化（UF6/UO2）及核燃料製造。透過與 Brookfield 共同持有之西屋電氣（Westinghouse 49% 股權），進一步將業務延伸至反應堆技術、核電工程與電廠長期維運服務，形成全生命週期垂直整合。",
+      "Clients & Orders": "主要客戶涵蓋北美、歐洲及亞洲之數十家大型商業核電運營商（如 Constellation Energy、Duke Energy、EDF 等）。公司以 5 至 10 年期長約鎖定多數產能，已簽約未交付之 U3O8 超過 2 億磅，並受惠於 AI 資料中心對零碳基載電力需求帶動之核能採購熱潮，長期合約規模持續增長。",
+      "Technical Moat": "坐擁全球最高品位且具備極低開採成本的薩斯喀徹溫省雪茄湖（Cigar Lake）與麥克阿瑟河（McArthur River）旗艦礦山，平均品位高出全球均值數十倍。掌握領先的噴射水流開採系統（Jet Boring System）與低溫地層凍結技術，並結合西屋電氣在 AP1000 反應堆與專利核燃料組件上難以替代的核能工程認證壁壘。",
+      "Revenue Breakdown": "鈾礦開採與銷售佔比約 60% 至 65%；核燃料服務（精煉、轉化及製造）約佔 15% 至 20%；西屋電氣股權投資收益與核電工程服務約佔 15% 至 20%（估）。",
+      "Gross Margin Profile": "整體綜合毛利率約 28% 至 35%（受惠長期合約實現價格隨現貨價重定價而走升）；其中核心高品位鈾礦開採毛利率可達 40% 以上，下游燃料製造與西屋電氣運營服務則提供穩定的雙位數利潤率現金流支撐。",
+      "Key Competitors": "哈薩克國家原子能公司（Kazatomprom）、法國歐安諾集團（Orano）、俄羅斯鈾礦集團（Uranium One / Rosatom），以及澳洲必和必拓（BHP，奧林匹克水壩伴生礦）。",
+      "12M Catalysts": "歐美加速落實禁止進口俄羅斯濃縮鈾法案驅動西方核燃料供應鏈重構；全球科技巨頭為 AI 資料中心鎖定核能購電協議帶動長期燃料補庫需求；McArthur River 與 Key Lake 產能優化放量伴隨新長約重定價提升平均實現價格（ASP）。",
+      "Key Investment Risks": "阿薩巴斯卡盆地超高品位地下礦山面臨地質水浸或凍結壁失效等不可抗力開採風險；西方核能監管政策轉向或俄烏地緣政治演變削弱對俄制裁執行強度；西屋電氣大型工程建造週期延宕或融資成本上升風險。",
+      "CEO & Management": "總裁兼執行長 Tim Gitzel 自 2011 年起領導公司，深耕全球核能與礦業法規數十年，以堅持「按合約開採」嚴守資本紀律著稱。管理團隊具備穿越鈾礦長週期的卓越避險能力，並在財務長 Grant Isaac 協助下成功完成收購西屋電氣的歷史性戰略佈局。",
+      "Core Patents & IP": "擁有高壓噴射水流開採系統（JBS）及深層含水層低溫凍結工藝等多項地下採礦專利技術；並透過西屋電氣掌握 AP1000 / AP300 壓水堆設計、先進事故容忍燃料（ADOPT/Encore Fuel）以及 eVinci 微反應器之核心智慧財產權。",
+      "3-Year M&A": "2023 年底與 Brookfield Renewable 攜手以約 79 億美元企業價值完成對全球核能服務巨頭西屋電氣（Westinghouse）49% 股權收購；此項併購使其從上游礦商成功轉型為橫跨核燃料供應、反應堆設計與核電站維運的全方位核能巨擘。",
+      "CapEx & Expansion": "重點推進 McArthur River / Key Lake 設施產能爬坡至經核准的年產 2,500 萬磅 U3O8，並投入 Cigar Lake 礦區延伸開採與壽命延長工程。同時擴大 Port Hope 轉化廠產能現代化升級，以滿足歐美市場對 UF6 轉化服務的急遽需求。",
+      "Geopolitical Exposure": "作為西方陣營產能最龐大、最可靠的鈾礦與燃料供應商，深度受益於美歐「去俄羅斯化」與關鍵供應鏈友岸外包（Friend-shoring）趨勢；惟其於哈薩克持股之 JV Inkai 合資礦山仍面臨穿越裏海國際運輸走廊（TITR）的後勤物流脆弱性與中俄地緣政治干擾。",
+      "M&A Potential": "短中期內戰略重心為深化整合西屋電氣綜效與去槓桿化，進行大規模併購機率偏低；未來潛在標的預期側重於加拿大阿薩巴斯卡盆地具開採潛力之初級勘探項目，或針對小型模組化反應堆（SMR）相關技術公司進行策略性少數股權投資。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 639 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "卡梅科 (CCO.TO)"
+    ],
+    "unmatched": [],
+    "rows_exported": 3469
+  }
+}

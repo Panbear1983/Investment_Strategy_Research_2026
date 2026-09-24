@@ -364,3 +364,78 @@ class NoLiveWritesTests(unittest.TestCase):
                 rl.STATE_PATH = original
         self.assertEqual(loaded['batch_seq'], 9)
         self.assertEqual(loaded['discovery_slices'], {})
+
+
+class DirectionListTests(NoWritesMixin, unittest.TestCase):
+    """The typed direction list outranks the config rotation: thinnest row first."""
+
+    PLAN = [{'industry': '醫療', 'country': '', 'held': 138, 'enabled': 1},
+            {'industry': '化工', 'country': '', 'held': 6, 'enabled': 1},
+            {'industry': '保險', 'country': '', 'held': 0, 'enabled': 1}]
+
+    def test_the_never_researched_name_goes_first(self):
+        self.assertEqual(rl.discovery_focus(CFG, _state(cursor=1), today=TODAY, plan=self.PLAN),
+                         ('', '保險'))
+
+    def test_then_the_thinnest_remaining_row(self):
+        plan = [dict(r) for r in self.PLAN if r['industry'] != '保險']
+        self.assertEqual(rl.discovery_focus(CFG, _state(1), today=TODAY, plan=plan), ('', '化工'))
+
+    def test_ties_go_to_the_row_typed_earlier(self):
+        plan = [{'industry': 'A', 'country': '', 'held': 3, 'enabled': 1},
+                {'industry': 'B', 'country': '', 'held': 3, 'enabled': 1}]
+        self.assertEqual(rl.discovery_focus(CFG, _state(1), today=TODAY, plan=plan), ('', 'A'))
+
+    def test_a_resting_row_is_skipped_and_a_paused_row_ignored(self):
+        plan = [dict(r) for r in self.PLAN]
+        plan[1]['enabled'] = 0                       # 化工 paused
+        state = _state(1, slices={'|保險': {'cooldown_until': '2099-01-01'}})
+        self.assertEqual(rl.discovery_focus(CFG, state, today=TODAY, plan=plan), ('', '醫療'))
+
+    def test_a_fully_resting_list_falls_back_to_the_config_rotation(self):
+        state = _state(1, slices={f"|{r['industry']}": {'cooldown_until': '2099-01-01'}
+                                  for r in self.PLAN})
+        self.assertEqual(rl.discovery_focus(CFG, state, today=TODAY, plan=self.PLAN),
+                         ('Japan', ''))
+
+    def test_an_empty_list_falls_back_to_the_config_rotation(self):
+        self.assertEqual(rl.discovery_focus(CFG, _state(1), today=TODAY, plan=[]), ('Japan', ''))
+
+    def test_the_pick_is_credited_to_its_own_slice(self):
+        state = _state(1)
+        rl.discovery_focus(CFG, state, today=TODAY, plan=self.PLAN)
+        self.assertEqual(state['discovery_last_slice'], '|保險')
+
+    def test_an_explicit_slot_focus_still_beats_the_list(self):
+        self.assertEqual(rl.discovery_focus(CFG, _state(1), 'Taiwan', '航運', today=TODAY,
+                                            plan=self.PLAN), ('Taiwan', '航運'))
+
+
+class NominationThemeTests(NoWritesMixin, unittest.TestCase):
+    """The nomination prompt's theme sentence follows the plan, not a fixed tech list."""
+
+    def setUp(self):
+        super().setUp()
+        self._llm = rl.llm_call
+        self.prompts = []
+
+        def fake(cfg, key, state, prompt, provider='gemini', use_search=True, **kw):
+            self.prompts.append(prompt)
+            return '[]'
+        rl.llm_call = fake
+
+    def tearDown(self):
+        rl.llm_call = self._llm
+        super().tearDown()
+
+    def test_an_open_attempt_lists_the_curated_vocabulary(self):
+        cfg = {'industry_themes': ['醫療', '能源', '化工']}
+        rl.nominate_new(cfg, None, _state(), 5, [], 'gemini')
+        self.assertIn('醫療、能源、化工', self.prompts[0])
+        self.assertNotIn('AI伺服器、半導體、矽光子', self.prompts[0])
+
+    def test_a_focused_attempt_names_its_industry_alone(self):
+        rl.nominate_new({}, None, _state(), 5, [], 'gemini', '', '醫療')
+        self.assertIn('本批次主題：醫療', self.prompts[0])
+        self.assertIn('產業必須是 醫療', self.prompts[0])
+        self.assertNotIn('AI伺服器、半導體', self.prompts[0])

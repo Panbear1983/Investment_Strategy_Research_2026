@@ -1,0 +1,83 @@
+{
+  "label": "API Batch 522 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "Marex Group plc (MRX)",
+      "Country": "USA",
+      "Industry": "金融科技",
+      "Tier": ""
+    },
+    {
+      "Company": "XPS Pensions Group plc (XPS.L)",
+      "Country": "UK",
+      "Industry": "金融科技",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "USA",
+      "Timeframe": "中長期",
+      "Sub-Sector": "金融科技與經紀清算",
+      "Industry": "金融服務與資本市場",
+      "Tier": "隱形冠軍",
+      "Company": "Marex Group plc (MRX)",
+      "Capital/Market Cap": "約 55億美元",
+      "Core Business": "提供全球多元化金融市場基礎設施服務，業務涵蓋經紀代理與執行（Agency and Execution）、結算清算（Clearing）、做市流動性（Market Making）及避險與投資解決方案（Hedging and Investment Solutions）。公司專注於能源、金屬、農產品等大宗商品及外匯、利率與股票衍生品，透過專屬科技平台無縫連結全球各大交易所與場外市場。",
+      "Clients & Orders": "主要服務全球大宗商品生產商、貿易商、企業對沖客戶、對沖基金、資產管理機構及專業自營交易商。客戶黏著度極高且多簽署長期清算與託管合約，2026年上半年平均客戶資金餘額創下191億美元的歷史新高。",
+      "Technical Moat": "擁有自主研發的「Neon」智慧交易與風險管理生態系統，整合即時全球交易所連線、商品情報與多資產定價風險保證金監控。具備全球主要商品交易所（如LME、CME、ICE）的一級清算會員（Tier 1 Clearing Member）資格，在非銀行體系中築起極高的監管牌照與流動性壁壘。",
+      "Revenue Breakdown": "2025至2026年營收中，經紀代理與執行佔比約 48% 至 52%，結算清算佔比約 22% 至 25%，做市流動性佔比約 15% 至 18%，避險與投資解決方案佔比約 8% 至 12%。區域營收分布以北美（約40%）與英國/歐洲（約35%）為核心，亞太及新興市場佔約25%且增速顯著。",
+      "Gross Margin Profile": "調整後稅前淨利率（Adjusted PBT Margin）長年維持在 20% 至 25% 區間，2026年第二季達 23.8%。利潤率主要受高附加價值結構性避險產品、大宗商品市場波動溢價及龐大客戶保證金之淨利息收入（NII）共同支撐。",
+      "Key Competitors": "StoneX Group (SNEX)、TP ICAP plc (TCAP)、BGC Group (BGC)、Tradeweb Markets (TW)、Interactive Brokers (IBKR) 及華爾街大型一級投行之清算經紀部門。",
+      "12M Catalysts": "近期收購標的（如 Winterflood、Hamilton Court 及 Brainchild Capital 等）之業務整合，預期將釋放跨資產交叉銷售與成本綜效。全球地緣政治動盪推升能源與大宗商品價格波動，刺激經紀交易量與清算規模持續擴張；上市後逐步被納入中大型指數，有望大幅提升機構投資人持股比例。",
+      "Key Investment Risks": "全球主要央行降息週期將壓縮客戶高達近200億美元保證金之浮額利息收入（NII）。極端黑天鵝市場行情可能引發交易對手違約與保證金穿倉之信用與清算風險。歐美監管機構對非銀行金融中介（NBFI）資本適足率與場外衍生品合規要求的進一步收緊。",
+      "CEO & Management": "執行長為 Ian Lowitt（曾任雷曼兄弟財務長及巴克萊高管，自2016年掌舵推動多次關鍵併購與2024年納斯達克IPO）。集團財務長為 Rob Irvin（2023年上任，具深厚全球投資銀行與金融科技財務管理經驗），管理層展現高度紀律的資本配置與併購整合能力。",
+      "Core Patents & IP": "擁有專屬「Neon」全方位交易與數據分析平台架構之商標、軟體著作權及專有數據介面（涵蓋 Neon Trader、Neon Risk 與 Neon Insights）。掌握自主開發之高頻演算法做市系統與大宗商品場外衍生品即時定價引擎。",
+      "3-Year M&A": "近三年採取極具成效的外延式併購：2022-2023年整併 ED&F Man Capital Markets 奠定全球清算領導地位；2023-2024年收購 TD Cowen 主經紀商業務、Webb Traders 及 Dropet；2025-2026年陸續推進收購 Winterflood、Hamilton Court 與 Brainchild Capital，加速跨足證券主經紀與外匯領域。",
+      "CapEx & Expansion": "資本支出聚焦於升級「Neon」技術架構、低延遲交易網絡與雲端清算自動化系統。實體版圖積極拓展中東（杜拜中心）、亞太（新加坡與香港）及北美大宗商品樞紐，並擴大進軍能源轉型碳信用額度清算市場。",
+      "Geopolitical Exposure": "俄烏衝突、中東緊張局勢及全球能源轉型持續推高大宗商品價格波動，顯著提振避險與交易清算需求。同時跨境營運須嚴格因應多國金融制裁、反洗錢規範及資本流動管制，合規與營運成本相對提高。",
+      "M&A Potential": "具備強健資產負債表與穩健現金流，堅持併購投資三年內回本之嚴格紀律，將持續物色歐美固定收益、外匯與專業金融科技標的。作為極具稀缺性的全球非銀行一級清算樞紐，其本身亦具備被跨國交易所集團或大型金融機構戰略入股或整併之長遠潛力。"
+    },
+    {
+      "Country": "UK",
+      "Timeframe": "中長期",
+      "Sub-Sector": "退休金科技",
+      "Industry": "金融科技",
+      "Tier": "隱形冠軍",
+      "Company": "XPS Pensions Group plc (XPS.L)",
+      "Capital/Market Cap": "約 6.3億英鎊 (約 8.2億美元)",
+      "Core Business": "英國唯一專注於退休金諮詢與全方位行政管理的獨立上市金融科技集團。核心業務涵蓋確定給付制（DB）與確定提撥制（DC）計畫之精算與投資顧問、數位退休金行政管理（Pensions Administration），以及自我投資個人退休金（SIP）服務。公司自主研發即時精算模擬平台 Radar 與雲端管理系統 Aurora，將專有科技工具深度整合至各項退休金解決方案中。",
+      "Clients & Orders": "服務超過 1,500 個退休金計畫與企業贊助商，覆蓋英國 FTSE 100 及 FTSE 250 大型企業，行政管理會員規模突破 100 萬人。客戶合約多屬長期委任且受嚴格法令規管，客戶續約率常年維持在 95% 以上的高水準，為集團提供高度穩健且具可預測性的經常性收入。",
+      "Technical Moat": "核心技術護城河立足於自主開發之獲獎精算決策平台「Radar」與雲端原生行政管理平台「Aurora」，支援即時資產負債精算模擬、情境壓力測試與脫鉤（De-risking）路徑推演。高度自動化的法規遵循數據架構與深厚精算邏輯壁壘，大幅拉高既有客戶系統搬遷與轉換供應商的門檻。",
+      "Revenue Breakdown": "2026財年集團營收達 2.63 億英鎊（年增13%）。依業務板塊劃分，精算與投資顧問（Total Advisory）為主要支柱，約佔總營收 48-50%；退休金行政管理（Pensions Administration）受惠於系統現代化需求激增，佔比迅速提升至 40-42%；其餘約 8-10% 則來自 SIP 及新拓展的保險諮詢等多元服務。",
+      "Gross Margin Profile": "2026財年毛利率約為 51.1%，毛利達 1.34 億英鎊；經調整後 EBITDA 利潤率維持在約 28.8%（7,570 萬英鎊）。受惠於雲端管理平台自動化程度提升與行政外包規模經濟發酵，固定營運成本被有效攤提，帶動毛利率與營業槓桿保持健康擴張趨勢。",
+      "Key Competitors": "主要競爭對手包括全球三大跨國人力資源與精算顧問集團 Aon、Mercer、Willis Towers Watson (WTW)，以及英國本土知名私人合夥制精算顧問機構 Lane Clark & Peacock (LCP)、Hymans Robertson 與 Barnett Waddingham。",
+      "12M Catalysts": "英國工黨政府推進《退休金計畫法案》（Pension Schemes Bill）及退休金整合監管，引領龐大合規諮詢與資料治理需求；英國 DB 退休金巨額資金盈餘（Surplus）釋放新規推行，激勵雇主重新評估保險收購（Buyout）或留存營運（Run-on）的精算專案；利率與市場波動常態化驅動機構客戶加速採用 Radar 訂閱服務。",
+      "Key Investment Risks": "英國退休金監管法規變更推遲或政策逆轉，可能抑制短期專案型諮詢營收的增長節奏；精算師與專業金融科技研發人才稀缺導致薪資成本攀升，恐對利潤率形成壓力；退休金行政管理平台承載百萬會員敏感資料，面臨潛在的雲端資安威脅與資料隱私合規風險。",
+      "CEO & Management": "經營層由雙執行長（Co-CEOs）Paul Cuff 與 Ben Bramhall 共同掌舵，兩人皆具備超過 20 年的精算專業與退休金產業營運資歷，分別主管戰略科技併購與大客戶精算運營；財務長 Snehal Shah 具備深厚跨國資本運作背景，整體高層持股與激勵制度高度與長期股東利益綁定。",
+      "Core Patents & IP": "核心智慧財產主要為專有演算法軟體著作權及封閉式精算數據模型，主力包括即時資產負債評估引擎「Radar」、次世代雲端行政管理系統「Aurora」與自研會員端互動平台；公司以嚴密的營業秘密保護架構與專業精算程式庫為屏障，形成難以被外部逆向工程複製的專屬軟體資產壁壘。",
+      "3-Year M&A": "過去三年聚焦於高價值核心業務重組，於 2023 年底以最高 4,250 萬英鎊將主信託業務（National Pensions Trust）售予 SEI 回籠現金；並在 2024 至 2025 年間陸續策略性併購精品顧問機構 Polaris Actuaries 及信託與雇主信用諮詢專門機構 Penfida，精準擴充精算專業與顧問版圖。",
+      "CapEx & Expansion": "營運採資本輕量化（Asset-light）模式，年度資本支出佔營收比例僅約 2-4%，主要資金集中投向 Aurora 雲端架構升級、AI 自動化流程開發與網路安全體系；業務擴展聚焦於保險脫鉤風險移轉（Risk Transfer）諮詢與英國境內區域服務據點的深化拓展。",
+      "Geopolitical Exposure": "地緣政治風險曝險極低，集團逾 95% 營收來自英國本土市場，不受國際貿易關稅、地緣供應鏈中斷或跨國制裁直接衝擊；然而營運高度連結英國本土總體經濟環境，尤其對英國公債（Gilts）殖利率波動、央行貨幣政策及英國監管機構（TPR、FCA）政策走向極度敏感。",
+      "M&A Potential": "身為英國倫敦證交所稀缺的純退休金管理與諮詢上市標的，憑藉超過 90% 的經常性收入與強健自由現金流，極易成為全球大型私募基金或跨國保險經紀集團（如 Arthur J. Gallagher 等）私有化的潛在目標；同時公司資產負債表強健，具備充裕資金持續在英國本土以併購整合同業（Roll-up）擴展規模。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 522 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "Marex Group plc (MRX)",
+      "XPS Pensions Group plc (XPS.L)"
+    ],
+    "unmatched": [],
+    "rows_exported": 3252
+  }
+}

@@ -49,6 +49,9 @@ class TelegramUser:
     enabled: bool = True
     allowed_commands: list[str] = dataclasses.field(default_factory=lambda: list(DEFAULT_COMMANDS))
     note: str = ""
+    # Per-person daily video allowance for 爸菲特. None = the config's video_daily_cap_per_user.
+    # Peter gave four of his five to Dad on 2026-09-03: Dad 9, Peter 1.
+    video_cap: int | None = None
 
     @classmethod
     def from_dict(cls, raw: dict[str, Any]) -> "TelegramUser":
@@ -71,6 +74,10 @@ class TelegramUser:
             raise ValueError(f"{self.label}: profile override must be a lowercase slug (a-z, 0-9, _, -)")
         if self.language not in LANGUAGES:
             raise ValueError(f"{self.label}: language must be one of {', '.join(LANGUAGES)}")
+        if self.video_cap is not None and (
+                isinstance(self.video_cap, bool) or not isinstance(self.video_cap, int)
+                or self.video_cap < 0):
+            raise ValueError(f"{self.label}: video_cap must be a whole number of videos per day")
 
     def route(self) -> dict[str, str]:
         """Hermes gateway route mapping this user's chat_id to their resolved profile."""

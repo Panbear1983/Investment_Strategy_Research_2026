@@ -127,7 +127,7 @@ def _video_ack(chat_id):
     the number that actually decides whether the next link will be processed.
     """
     try:
-        cap = int(botffet.DEFAULT_VIDEO_CAP)
+        cap = botffet._video_cap(chat_id)
         used = botffet.quota_used(botffet._video_quota_key(chat_id))
         remaining = max(0, cap - used)
         tail = f'（今天還可以處理 {remaining} 部影片）'
@@ -153,12 +153,155 @@ async def _speak(message, text, user):
     """
     if not botffet_voice or not user.get('voice', True):
         return
+    # `report` says which engine spoke and how many tries it took (botffet_voice.synthesize
+    # retries Edge and falls back to the offline `say` voice). Every outcome is logged, the
+    # successes too: on 2026-09-16 the log could not answer "did the bubble go out?".
+    report = {}
     try:
-        data = await asyncio.to_thread(botffet_voice.voice_for, text)
-        if data:
-            await message.reply_voice(voice=io.BytesIO(data))
+        data = await asyncio.to_thread(botffet_voice.voice_for, text, None, report)
     except Exception as exc:  # noqa: BLE001
-        log.warning('voice skipped for chat_id=%s: %s', message.chat_id, str(exc)[:200])
+        log.warning('voice skipped for chat_id=%s after %s tr%s: %s', message.chat_id,
+                    report.get('attempts') or '?', 'y' if report.get('attempts') == 1 else 'ies',
+                    '; '.join(report.get('errors') or [str(exc)[:200]])[:400])
+        await _notify_voice_lost(user, message.chat_id, f'語音合成失敗：{str(exc)[:200]}')
+        return
+    if not data:
+        return
+    if report.get('fallback'):
+        log.warning('voice via fallback %s/%s for chat_id=%s after edge failed: %s',
+                    report.get('engine'), report.get('voice'), message.chat_id,
+                    '; '.join(report.get('errors') or [])[:400])
+    # The upload is the fragile half: synthesis had already succeeded every time the log said
+    # "voice skipped ... Timed out". One retry after a pause covers a momentary bad gateway
+    # without turning a dead link into a minute-long stall.
+    started = time.perf_counter()
+    for attempt in (1, 2):
+        try:
+            await message.reply_voice(voice=io.BytesIO(data),
+                                      read_timeout=60, write_timeout=300)
+            log.info('voice sent chat_id=%s engine=%s attempts=%s synth=%.1fs upload=%.1fs '
+                     'bytes=%d', message.chat_id, report.get('engine'),
+                     report.get('attempts'), report.get('seconds') or 0.0,
+                     time.perf_counter() - started, len(data))
+            return
+        except Exception as exc:  # noqa: BLE001
+            log.warning('voice upload attempt %d failed for chat_id=%s (%d bytes): %s',
+                        attempt, message.chat_id, len(data), str(exc)[:200])
+            if attempt == 1:
+                await asyncio.sleep(3)
+    await _notify_voice_lost(user, message.chat_id, '語音檔上傳 Telegram 失敗（連線問題）')
+
+
+# Text delivery retries. On 2026-09-03 22:49 a 70-minute video for Dad — transcribed from audio
+# and summarised over twenty minutes — was lost at the very last step: the one reply_text()
+# call hit a ConnectError and nothing retried it. The notes were stored; the person saw
+# nothing. The link to Telegram is flaky (see the timeouts above), so the reply, the part
+# that matters, gets the same patience the voice upload already has: four tries over ~45 s.
+DELIVER_PAUSES = (3, 10, 30)
+
+
+async def _deliver(message, body, kind=None):
+    """Send `body` in Telegram-sized chunks, retrying each on a network error.
+
+    Returns True when every chunk went out. Only network trouble is retried; any other
+    failure is logged and gives up at once, so a bad request cannot loop, and the handler
+    never dies with "No error handlers are registered" the way it did before.
+    """
+    from telegram.error import NetworkError
+    for chunk in _chunks(body):
+        for attempt, pause in enumerate((*DELIVER_PAUSES, None), 1):
+            try:
+                await message.reply_text(chunk)
+                break
+            except NetworkError as exc:
+                if pause is None:
+                    log.error('reply LOST for chat_id=%s kind=%s after %d attempts: %s',
+                              message.chat_id, kind, attempt, str(exc)[:200])
+                    return False
+                log.warning('reply delivery attempt %d failed for chat_id=%s: %s',
+                            attempt, message.chat_id, str(exc)[:200])
+                await asyncio.sleep(pause)
+            except Exception as exc:  # noqa: BLE001
+                log.error('reply LOST for chat_id=%s kind=%s (not retryable): %s',
+                          message.chat_id, kind, str(exc)[:200])
+                return False
+    return True
+
+
+# A video that did not come back as notes is reported to Peter — not in this chat, where the
+# person who sent the link already sees the failure, but through the Orchestrator bot
+# (@Panbear_Orchestrator_bot), the same channel the research loop uses for its own alerts.
+# Peter asked for this on 2026-09-04 after Dad's first video was lost without anyone knowing.
+VIDEO_FAILURE_KINDS = ('video_error', 'video_no_transcript')
+
+
+def _failure_reason(kind, body, is_video):
+    """Why a video request counts as unsuccessful, or None when it does not."""
+    if not is_video:
+        return None
+    if kind in VIDEO_FAILURE_KINDS:
+        return (body or '').strip().splitlines()[0][:200]
+    return None
+
+
+def _video_failure_report(user, chat_id, text, reason):
+    """The alert text, in Chinese, with everything needed to act on it."""
+    link = ''
+    if video_intel:
+        ids = video_intel.extract_video_ids(text or '')
+        if ids:
+            link = video_intel.watch_url(ids[0])
+    who = (user or {}).get('label') or chat_id
+    return (f'⚠️ 爸菲特影片轉換失敗\n'
+            f'使用者：{who}（{chat_id}）\n'
+            f'連結：{link or "（訊息中沒有可辨識的連結）"}\n'
+            f'原因：{reason}\n'
+            f'時間：{time.strftime("%Y-%m-%d %H:%M")}')
+
+
+def _operator_chat_id():
+    """Peter's own chat, from the Orchestrator target the research loop already uses."""
+    try:
+        import apply_batch
+        return apply_batch.ORCHESTRATOR_TELEGRAM_TARGET.split(':')[-1]
+    except Exception:  # noqa: BLE001
+        return ''
+
+
+async def _notify_operator(chat_id, report, what):
+    """Send `report` to Peter through the Orchestrator bot. Never raises; never blocks the
+    loop. `what` names the event in the log line ("video failure", "voice lost")."""
+    if str(chat_id) == _operator_chat_id():
+        return  # Peter sees his own failures in this chat already
+    try:
+        import apply_batch
+        sent = await asyncio.to_thread(apply_batch.send_telegram, report)
+        log.warning('%s for chat_id=%s reported to operator: %s', what, chat_id,
+                    'sent' if sent else 'SEND FAILED')
+    except Exception as exc:  # noqa: BLE001
+        log.error('%s for chat_id=%s could not be reported: %s', what, chat_id,
+                  str(exc)[:200])
+
+
+async def _notify_video_failure(user, chat_id, text, reason):
+    """A video that did not come back as notes, reported to Peter (see VIDEO_FAILURE_KINDS)."""
+    if str(chat_id) == _operator_chat_id():
+        return
+    await _notify_operator(chat_id, _video_failure_report(user, chat_id, text, reason),
+                           'video failure')
+
+
+async def _notify_voice_lost(user, chat_id, reason):
+    """The text arrived but its voice bubble did not, after every try and the offline
+    fallback. Rare by design, so worth a line to Peter when it is not his own chat."""
+    if str(chat_id) == _operator_chat_id():
+        return
+    who = (user or {}).get('label') or chat_id
+    report = (f'⚠️ 爸菲特語音未送達（文字已送達）\n'
+              f'使用者：{who}（{chat_id}）\n'
+              f'原因：{reason}\n'
+              f'時間：{time.strftime("%Y-%m-%d %H:%M")}')
+    await _notify_operator(chat_id, report, 'voice lost')
 
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -170,17 +313,19 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user = roster.get(chat_id)
     if not user:
         log.info('denied chat_id=%s', chat_id)
-        await update.message.reply_text('⛔ Not on the allowed list.')
+        await update.message.reply_text('⛔ 您不在允許使用的名單中。')
         return
 
     if chat_id in _in_flight:
-        await update.message.reply_text('⏳ Still working on your previous question.')
+        await update.message.reply_text('⏳ 上一個問題還在處理中，請稍候。')
         return
 
     is_command = text.startswith('/')
     is_video = bool(video_intel and (text.lower().startswith('/video')
                                      or video_intel.extract_video_ids(text)))
     _in_flight.add(chat_id)
+    kind = None
+    failure = None
     try:
         if not is_command:
             await update.message.chat.send_action(ChatAction.TYPING)
@@ -189,8 +334,8 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         # two minutes reads as the bot being broken.
         if is_video:
             ack = _video_ack(chat_id)
-            await update.message.reply_text(ack)
-            await _speak(update.message, ack, user)
+            if await _deliver(update.message, ack, 'video_ack'):
+                await _speak(update.message, ack, user)
         started = time.perf_counter()
         # botffet.answer is blocking (subprocess + CSV scan); keep it off the event loop so
         # one person's 12-18s question cannot stall everyone else's.
@@ -198,25 +343,35 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
             asyncio.to_thread(botffet.answer, text, user=chat_id),
             timeout=VIDEO_TIMEOUT if is_video else ANSWER_TIMEOUT)
         elapsed = time.perf_counter() - started
-        log.info('chat_id=%s kind=%s calls=%d %.1fs', chat_id, reply.get('kind'),
+        kind = reply.get('kind')
+        log.info('chat_id=%s kind=%s calls=%d %.1fs', chat_id, kind,
                  reply.get('provider_calls', 0), elapsed)
         body = reply.get('text') or '(empty answer)'
+        failure = _failure_reason(kind, body, is_video)
     except asyncio.TimeoutError:
         limit = VIDEO_TIMEOUT if is_video else ANSWER_TIMEOUT
         log.warning('chat_id=%s timed out after %ss', chat_id, limit)
         body = (f'⚠️ 影片處理超過 {limit // 60} 分鐘仍未完成，已中止。逐字稿可能已經抓下來了，'
                 '稍後再傳一次同一個連結試試。' if is_video
-                else f'⚠️ Timed out after {limit}s. Commands still work — try /screen.')
+                else f'⚠️ 處理超過 {limit} 秒仍未完成，已中止。指令仍可使用，例如 /screen。')
+        if is_video:
+            failure = f'處理超過 {limit // 60} 分鐘仍未完成，已中止'
     except Exception:
         log.exception('chat_id=%s failed', chat_id)
         body = ('⚠️ 處理這部影片時發生問題，已記錄下來。' if is_video
-                else '⚠️ Something broke answering that. Commands still work — try /screen.')
+                else '⚠️ 回答這個問題時發生錯誤，已記錄下來。指令仍可使用，例如 /screen。')
+        if is_video:
+            failure = '處理時發生程式錯誤（詳見 botffet_bot.log）'
     finally:
         _in_flight.discard(chat_id)
 
-    for chunk in _chunks(body):
-        await update.message.reply_text(chunk)
-    await _speak(update.message, body, user)
+    # Text first, voice only once the text is known to have arrived.
+    if await _deliver(update.message, body, kind):
+        await _speak(update.message, body, user)
+    elif is_video and not failure:
+        failure = '結果已整理好，但傳回 Telegram 失敗（連線問題）；再貼一次連結即可取得'
+    if failure:
+        await _notify_video_failure(user, chat_id, text, failure)
 
 
 def preflight():
@@ -255,7 +410,16 @@ def main():
     roster.get('preload')
     log.info('爸菲特 / Wanna Botffet starting — one poller only')
 
-    app = ApplicationBuilder().token(TOKEN).concurrent_updates(4).build()
+    # The library's defaults are 5 s to read a reply and 20 s to upload media. A voice bubble
+    # for a 700-character summary is ~750 KB, and this Mac's link to Telegram is flaky (dozens
+    # of Bad Gateway / timeout entries in the log), so every video summary's voice was being
+    # dropped with "Timed out" on 2026-09-03 while the text went through. Measured that day:
+    # with NordVPN on, uploads from this Mac crawl at ~5 KB/s (download is fine), so a
+    # 500 KB bubble needs ~100 s; straight out the Wi-Fi it is ~190 KB/s. 300 s covers the
+    # VPN case. Text replies are tiny and never hit these limits.
+    app = (ApplicationBuilder().token(TOKEN).concurrent_updates(4)
+           .connect_timeout(15).read_timeout(30).write_timeout(30)
+           .media_write_timeout(300).pool_timeout(5).build())
     # filters.TEXT alone, NOT `& ~filters.COMMAND`: the old handler silently discarded every
     # /screen and /brief before it reached the router.
     app.add_handler(MessageHandler(filters.TEXT, handle_message))

@@ -1,0 +1,152 @@
+{
+  "label": "API Batch 736 (new, codex)",
+  "source": "new",
+  "provider": "codex",
+  "providers_used": [
+    "codex"
+  ],
+  "items": [
+    {
+      "Company": "Lucas Bols N.V. (BOLS.AS)",
+      "Country": "Netherlands",
+      "Industry": "消費與飲料",
+      "Tier": ""
+    },
+    {
+      "Company": "Almunda Professionals N.V. (AMUND.AS)",
+      "Country": "Netherlands",
+      "Industry": "IT顧問與企業服務",
+      "Tier": ""
+    },
+    {
+      "Company": "N.V. Koninklijke Porceleyne Fles (PORF.AS)",
+      "Country": "Netherlands",
+      "Industry": "消費品牌與高端製造",
+      "Tier": ""
+    },
+    {
+      "Company": "DGB Group N.V. (DGB.AS)",
+      "Country": "Netherlands",
+      "Industry": "碳權、能源轉型與自然資本",
+      "Tier": ""
+    },
+    {
+      "Company": "MKB Nedsense N.V. (NEDSE.AS)",
+      "Country": "Netherlands",
+      "Industry": "金融科技與數位資產",
+      "Tier": ""
+    }
+  ],
+  "requested": [],
+  "records": [
+    {
+      "Country": "Netherlands",
+      "Timeframe": "中期",
+      "Sub-Sector": "專業人力媒合與企業顧問",
+      "Industry": "IT顧問、彈性人力與企業服務",
+      "Tier": "潛力股",
+      "Company": "Almunda Professionals N.V. (AMUND)",
+      "Capital/Market Cap": "約2,300萬歐元；2026年9月初股價約1.03歐元，屬Euronext Amsterdam微型股。",
+      "Core Business": "控股PIDZ、ICE、kWh People及Novisource，分別媒合醫療、能源公用事業及金融／公共部門的自由工作者、派遣人員與顧問。2026年PIDZ由純ZZP媒合擴展至派遣與委任服務，降低對自由職業者模式的依賴。",
+      "Clients & Orders": "客戶涵蓋照護機構、荷蘭四大能源市場參與者與新進業者、金融及公共部門；PIDZ約有5,000名註冊醫療專業者，2025年部署約2,200人。ICE與kWh分別部署約70名及127名能源專業者，客戶關係與人力供給是訂單能見度核心。",
+      "Technical Moat": "護城河主要是垂直市場人才池、PIDZ數位媒合平台、客戶組合與法規／能源轉型專業，而非可高度複製的軟體授權模式。新平台於2026年初上線，可縮短配對流程並支援派遣服務，但規模與網路效應仍遠遜大型人力服務商。",
+      "Revenue Breakdown": "2025年營收3,139.5萬歐元：公用事業專業人才1,522.9萬歐元、占48.5%；醫療1,273.9萬歐元、占40.6%；Business & IT 342.7萬歐元、占10.9%。PIDZ營收年減至1,270萬歐元，ICE增至1,170萬歐元，kWh併表三個月貢獻360萬歐元。",
+      "Gross Margin Profile": "公司未單獨披露合併毛利率；以2025年EBITDA 480萬歐元計，EBITDA率約15.3%，但人力媒合的轉包成本使毛利對利用率與人才供給高度敏感。PIDZ EBITDA率約30.7%、ICE約14.5%、kWh約5.6%，Novisource則為負17.5%，顯示盈利集中於PIDZ且組合差異顯著。",
+      "Key Competitors": "荷蘭綜合人力服務競爭者包括Randstad、Adecco、ManpowerGroup及HeadFirst；醫療彈性人力面對Aethon、Driessen等，能源與IT顧問則面對Brunel、House of HR及在地專業招募商。其競爭關鍵是人才取得、合規能力、填補速度與客戶定價，而非單純市場份額。",
+      "12M Catalysts": "PIDZ新平台、派遣服務擴張及約70萬歐元加盟據點收購可改善服務範圍與營運集中度；ICE與kWh於Kalice Group的交叉銷售和採購協同亦有望提升利用率。Novisource若隨利用率改善轉向損益兩平，及荷蘭自僱法規不確定性下降，將是評價修復催化劑。",
+      "Key Investment Risks": "2026年上半年PIDZ需求已明顯低於2025年同期，公司預告全年EBITDA下降；荷蘭DBA／VBAR與新自僱法的執法變化直接影響醫療自由工作者需求。另有微型股流動性低、Value8持有約70%至80%形成治理與少數股東風險、Novisource虧損、收購形成高攤銷及融資成本等風險。",
+      "CEO & Management": "董事會由Remko Herschel與財務主管Marco Mulder組成；Herschel曾任Value8 CFO、現為其Investment Director，Mulder為註冊會計師背景的Finance Director。監事會主席Peter Paul de Vries亦與Value8關係密切，且監事會尚有一席空缺，獨立治理深度有限。",
+      "Core Patents & IP": "公司未披露核心專利；估其主要IP為PIDZ五年期攤銷的媒合平台、客戶組合、子品牌及醫療／能源／法規顧問知識。2025年底無形資產帳面額約1,323萬歐元，顯示收購客戶關係與平台資產對資產負債表重要。",
+      "3-Year M&A": "近三年主要交易為2023年8月收購ICE Interim 70%股權，以及2025年9月30日收購kWh People 70%股權；後者在2025年僅併表三個月。策略是以補強既有垂直市場的add-on併購為主，而非大型跨國整合。",
+      "CapEx & Expansion": "2025年PIDZ新媒合平台投入約150萬歐元，2026年預計再投資約30萬歐元優化，並投入約70萬歐元買回部分加盟據點；一般有形資本支出仍低。成長資本較偏向平台、人才招募、加盟集中化及補強式收購，而非重資產擴張。",
+      "Geopolitical Exposure": "營收與人才供給主要集中荷蘭，能源業務亦服務比利時新進業者，直接地緣政治與匯率曝險低。主要外部風險是歐洲能源自主與轉型政策、荷蘭勞動法和醫療人力短缺，而非跨境供應鏈中斷。",
+      "M&A Potential": "作為Value8控股的微型上市平台，Almunda較可能持續成為醫療、能源與專業人才服務的小型add-on買方；管理層已明示對補強式收購保持開放。反向被整併的可能性亦存在，但在大股東控制、低流動性與現有買建策略下，估短期全面收購催化劑偏低。"
+    },
+    {
+      "Country": "Netherlands",
+      "Timeframe": "中長期",
+      "Sub-Sector": "高端家居與工藝消費品牌",
+      "Industry": "消費品牌、手工陶瓷／玻璃製造、食品工具與投資型不動產",
+      "Tier": "隱形冠軍",
+      "Company": "N.V. Koninklijke Porceleyne Fles (PORF.AS)",
+      "Capital/Market Cap": "約1,500萬歐元（估；2026年8月股價約13.80歐元、流通性極低）。",
+      "Core Business": "Royal Delft Group以1653年創立的Royal Delft手工／轉印代爾夫特藍陶瓷為核心，另經營Royal Leerdam Crystal、博物館與零售／餐飲，以及提供穩定現金流的荷蘭不動產。2026年2月起併入BOSKA食品工具，產品延伸至起司、披薩、巧克力、肉類與蔬食工具。",
+      "Clients & Orders": "B2B客戶包括荷蘭零售、博物館、旅宿與企業禮贈品通路；2025年完成Coca-Cola、GE及Volkswagen等客製專案，並參與大阪世博荷蘭館、Dutch Grand Prix及nijntje 70周年合作。自有電商、兩間Delft實體店與博物館旅客亦是重要直接客源；2025年訪客由14.2萬增至14.6萬人。",
+      "Technical Moat": "護城河主要是品牌與不可完全複製的工藝，而非可擴張的專利技術：Royal Delft為17世紀唯一仍存續的Delftware工廠，結合世代傳承的手繪、燒製、設計師合作與文化遺產地位。每件手繪品自1879年起採年份碼與商標識別，Royal Leerdam水晶作品另有雕刻師／設計師簽名與真品證書。",
+      "Revenue Breakdown": "2025年集團淨營收9.54百萬歐元，其中Royal Delft 7.275百萬、Royal Delft Vastgoed 1.651百萬、Royal Leerdam Crystal 0.062百萬歐元；其餘為自用物業／控股調整。2026年上半年營收13.243百萬歐元，BOSKA自2月6日併入後貢獻8.356百萬、Royal Delft 3.759百萬、不動產0.819百萬，顯示收入結構已由單一工藝品牌轉向食品工具與電商。",
+      "Gross Margin Profile": "公司未單獨揭露標準毛利；2025年若以淨營收扣除原料／商品成本及存貨變動估算，隱含商品層級毛利約85%，但該口徑未含3.497百萬歐元薪資、製造間接費與銷售費，不能等同可分配毛利。2026年上半年BOSKA導入較高的外購商品成本，原料及商品成本為4.768百萬歐元，占淨營收36%，毛利率料因產品組合而下降，但規模與電商滲透可改善費用吸收。",
+      "Key Competitors": "Royal Delft在Delft Blue高端定位面對Heinen Delfts Blauw、Delft Pottery及其他荷蘭紀念品／家居品牌競爭，國際高端餐瓷與家飾則可比Villeroy & Boch、Rosenthal及Wedgwood。BOSKA則面對OXO、KitchenAid及大量電商食品工具品牌，競爭核心轉為設計、供應鏈、Amazon／平台能見度與品牌溢價。",
+      "12M Catalysts": "BOSKA全年併表及收購會計於2026年下半年完成，是最大營收、EBITDA與估值重估催化劑；BOSKA 2025年備考營收約2,200萬歐元、正常化EBITDA約300萬歐元。Royal Delft的新B2B整合電商平台、店面與餐飲更新、BOSKA／Royal Delft交叉銷售，以及Haarlem剩餘公寓出售，均可能改善現金流與營運槓桿。",
+      "Key Investment Risks": "PORF為微型股且大股東持股集中、年度成交量低，估值發現與進出成本風險顯著；2025年底Werkhoven Beleggingen持75.28%，BOSKA交易後亦存在新增股份供給。傳統Royal Delft本業2025 EBITDA仍為負0.304百萬歐元，消費信心、旅遊、原物料與薪資通膨、美元採購／應收帳款、地緣衝突及美國關稅均會壓縮需求或利潤；BOSKA收購增加負債、商譽與整合／減損風險。",
+      "CEO & Management": "CEO兼董事為Hessel Hoekstra，於2024年9月首度獲任命，負責以電商、B2B、觀光與品牌組合擴張重振獲利。治理面由Boron／Werkhoven主導，且BORON同時持有RD Food Tools 49.99%與Royal Delft Vastgoed 5%少數權益，關聯方治理及資本配置值得持續監察。",
+      "Core Patents & IP": "公司未揭露具財務重大性的核心專利組合；主要IP為Royal Delft／De Porceleyne Fles、Royal Leerdam Crystal、BOSKA、Style de Vie及Forged商標、設計、年份碼、真品證書與工藝know-how。其價值來自原產地、皇家稱號、品牌歷史與設計授權，而非專利排他性。",
+      "3-Year M&A": "2026年2月，集團透過持股50.01%的RD Food Tools收購MHB.Heer 100%，間接取得BOSKA 82%權益，交易對該82%權益的價格為1,050萬歐元；BOSKA管理層保留18%。BOSKA於2025年收購刀具供應商Style de Vie，2026年上半年收購價暫估分配8.904百萬歐元至商譽及其他無形資產，最終PPA尚待完成。",
+      "CapEx & Expansion": "2025年集團投資現金流包括有形資產0.644百萬、投資不動產0.099百萬及無形資產0.018百萬歐元，Delft場址投入包含影廳整修及下一期改建規劃。2026年上半年另投入有形資產0.218百萬、無形資產0.140百萬及投資不動產0.069百萬歐元，策略優先順序為電商平台、店面／餐飲升級、BOSKA整合與產品創新。",
+      "Geopolitical Exposure": "收入與資產主要位於荷蘭，但Royal Delft已因國際動盪、匯率與進口關稅看到美國長期合作夥伴銷售下滑；旅客需求亦受歐洲、中東衝突與全球景氣影響。併入BOSKA後，美元採購的存貨與美元／歐元銷售提高匯率風險，管理層亦明列東歐及中東地緣緊張、通膨和購買力下降為2026不確定性。",
+      "M&A Potential": "作為收購者的機率高於被收購：BORON資金與網絡已促成BOSKA交易，並可能支持進一步收購具國際化、電商與耐久消費品特質的荷蘭品牌。作為目標的公開收購可能性偏低但非零，因控制股東地位、約1,500萬歐元級市值與低流通盤使交易技術上可行；不過現階段更合理的觀察點是BOSKA整合、商譽配置與去槓桿，而非短期出售。"
+    },
+    {
+      "Country": "Netherlands",
+      "Timeframe": "中長期",
+      "Sub-Sector": "碳權與自然資本",
+      "Industry": "自願性碳市場（VCM）、自然為本解決方案與環境信用開發",
+      "Tier": "潛力股",
+      "Company": "Green Earth Group N.V. (DGB.AS)",
+      "Capital/Market Cap": "約1,100萬歐元（估；以2026年9月約€0.97股價及約1,140萬已發行普通股估算）。",
+      "Core Business": "前稱DGB Group，開發並銷售經第三方標準驗證的碳權、塑膠移除信用與生物多樣性信用；核心專案為非洲植樹造林、景觀修復及節能爐具。收入在碳權移轉或代客註銷時認列，而非於簽訂預售合約時認列。",
+      "Clients & Orders": "客戶為尋求淨零與自然正向投資的企業及政府；公司披露其肯亞Hongera專案已有約170萬歐元早期銷售、相當於該專案約30%碳權，另於2025年提及肯亞造林專案約250萬歐元購買協議。多數承購協議為碳權核發前合約，訂單可見度高於當期會計營收，但仍取決於驗證、核發與買方履約。",
+      "Technical Moat": "護城河主要是長週期在地專案執行、土地與社群合作、Gold Standard／Verra驗證流程及碳權MRV能力，而非可見的核心專利。Hongera節能爐具已首度核發49,000單位，Hongera與Greenzone造林已取得VCS驗證，降低從開發到可售碳權的關鍵執行風險。",
+      "Revenue Breakdown": "2024年持續營運收入僅8.8萬歐元：顧問5.1萬、其他服務1.4萬及碳權2.3萬歐元；地域上荷蘭5.4萬、其他EU 3.1萬及其他地區0.3萬歐元。2025年收入約26.7萬歐元（估，依公開公司資料彙整），仍屬核發初期且高度集中於碳權與相關服務。",
+      "Gross Margin Profile": "2024年收入8.8萬歐元、銷貨成本15.8萬歐元，毛損7.0萬歐元，反映低收入基數、專案成本前置及尚未大規模核發碳權；因此現階段毛利率不具成熟期代表性。成熟後的碳權銷售理論上具高毛利潛力，但實際毛利將受驗證費、社群分潤、復育維護、信用價格及緩衝池扣留比例左右。",
+      "Key Competitors": "直接競爭者包括Land Life、Chestnut Carbon、South Pole、Climate Impact Partners、Carbon Tanzania及區域性造林／REDD+開發商；在碳權評級與採購決策端則受Sylvera、BeZero等資料業者影響。大型能源、航運與農業企業亦可透過自建或長約專案取得更低成本自然碳權，壓縮獨立開發商的議價能力。",
+      "12M Catalysts": "催化劑包括Hongera節能爐具後續大批量核發與銷售、Hongera及Greenzone造林專案進入首次驗證／核發、烏干達Bulindi專案推進，以及Article 6.2授權若取得後帶來更高價國際轉讓碳權的可能性。2025年完成全面Euronext Amsterdam上市、改名Green Earth Group與建立可審計基礎，也可能改善流動性及融資可得性。",
+      "Key Investment Risks": "主要風險是公司仍處早期商業化：2024年淨損426.6萬歐元、營運現金流出346萬歐元、借款約1,066萬歐元，且審計師對2024財報出具無法表示意見，並指出營收完整性內控證據不足及持續經營依賴未來融資與業績。另有碳價下跌、碳權品質／additionality爭議、驗證延誤、土地權利與社群同意、非洲政治與匯率風險，以及小型股低流動性、持續發債或增資稀釋風險。",
+      "CEO & Management": "CEO為Selwyn A.M. Duijvestijn，主導公司由再生能源轉型為自然修復與碳權開發；財務主管為Niels van Houdt，營運主管為Thomas Donia。治理仍在成熟期，2024年曾為單一法定董事架構，後續擴大董事會與強化非執行監督的落實程度是投資人重要觀察點。",
+      "Core Patents & IP": "未見公司揭露具投資決定性的核心專利（估）；其主要IP是專案設計文件、碳計量／監測資料、在地執行流程、品牌及與驗證標準相連的碳權開發權利。對投資價值更關鍵的是Verra及Gold Standard下可驗證、可核發且可交易的專案權益，而非專利保護。",
+      "3-Year M&A": "近三年未見重大收購；公司2024年出售Corekees持股40%，以聚焦環境信用核心業務。歷史上曾於2021年收購Statix，故近期策略較偏向資產處分、專案內生開發與融資，而非併購擴張。",
+      "CapEx & Expansion": "2024年投資現金流約199.2萬歐元，其中開發支出188.9萬、固定資產採購10.3萬歐元；資本配置集中於長週期碳權專案而非重資產設備。擴張重點是肯亞約6.7百萬棵樹／10,800公頃Hongera造林、喀麥隆Greenzone、烏干達Bulindi及節能爐具部署，均需要持續開發資金與在地營運投入。",
+      "Geopolitical Exposure": "營收及上市／融資在荷蘭與EU監管框架下，但碳權資產與執行風險主要暴露於肯亞、喀麥隆、烏干達等新興市場；土地權屬、社群利益分配、國內碳市場規則與政府對Article 6授權政策均可改變專案經濟性。EU企業揭露與碳市場規範趨嚴有利高完整性信用需求，但亦提高合規與品質證明成本。",
+      "M&A Potential": "作為市值約千萬歐元、具已驗證非洲專案管線的上市開發商，理論上可成為大型碳權交易商、自然資本基金、能源公司或氣候科技平台的資產收購標的；但負現金流、債務、審計保留品質與尚未穩定核發的事實會壓低估值並提高交易複雜度。較可能的近期路徑是專案層級合資、承購融資或資產出售，而非整體公司溢價收購。"
+    },
+    {
+      "Country": "Netherlands",
+      "Timeframe": "中長期",
+      "Sub-Sector": "中小企業私募股權投資",
+      "Industry": "投資控股與私募股權",
+      "Tier": "輔助公司",
+      "Company": "MKB Nedsense N.V. (NEDSE.AS)",
+      "Capital/Market Cap": "約 750萬歐元（估；以2026年9月約€0.075/股及約1億股已發行股本推算）。2025年底股東權益約900萬歐元、每股淨資產價值約€0.090，市場交易流動性偏低。",
+      "Core Business": "公司是荷蘭Bussum上市投資公司，而非營運中的金融科技或數位資產平台；依IFRS 10投資實體模式，投資、融資及提供擔保予荷蘭中小企業。其主要目標為投資企業價值約€100萬至€1,000萬的公司，透過營運改善、再融資或出售持股實現淨資產成長。",
+      "Clients & Orders": "MKB Nedsense不以客戶訂單驅動收入，經濟曝險來自被投資企業的終端客戶與經營表現。2025年主要組合公司GNS Brinkman營收€430萬、Axess營收€280萬，反映其訂單與客戶基礎是投資價值的核心間接指標。",
+      "Technical Moat": "公司沒有可與金融科技平台相比的專屬技術護城河；競爭優勢主要是小型上市殼、荷蘭SME投資及董事會網絡、以及對被投資公司的直接監督。非上市資產多採第三級公允價值估值，估值能力與治理紀律比技術IP更重要。",
+      "Revenue Breakdown": "2025年收益主要由未上市投資與上市投資的公允價值變動、對投資組合及關聯方貸款的利息、以及股息收入構成，並非銷售收入。2025年上半年利息收入約€5.4萬、股息約€10.4萬，但私募股權與上市投資評價下跌使總營運收益轉負；全年淨損約€30萬。",
+      "Gross Margin Profile": "投資控股公司不適用傳統毛利率；應以淨資產價值、投資退出回報、經常性管理費與融資成本衡量。其低固定營運成本可形成營運槓桿，但第三級資產重估及減損足以主導單年盈虧。",
+      "Key Competitors": "直接可比者包括荷蘭小型上市投資公司Value8 N.V.、Morefield Group及其他專注Benelux中小企業的私募股權基金。競爭焦點是優質交易來源、資本成本、投後營運能力及可實現的退出估值，而非產品市占率。",
+      "12M Catalysts": "2026年催化劑包括尋獲並完成新的中小企業投資、GNS Brinkman與Axess的營收及獲利持續改善、TIB-TEC減損停止擴大，以及折價於NAV的收斂。原訂與Treasury B.V.的比特幣金庫反向併購已於2026年2月因監管／交易條件未達成而取消，不能再視為基準情境催化劑。",
+      "Key Investment Risks": "最大風險為高度集中且流動性不足的未上市投資、第三級公允價值模型假設、極低現金餘額與對關聯方Value8貸款的信用曝險。另有小型股成交稀薄、單一管理層依賴、折價持續、潛在增資稀釋，以及任何新數位資產或反向併購方案面對AFM與Euronext監管審查的風險。",
+      "CEO & Management": "CEO兼董事為Peter Paul de Vries；監事會主席為Gerben Hettinga，董事會成員包括Derek van Dam。管理團隊2025年推動Treasury B.V.反向上市並取得股東大比數支持，但交易最終失敗，投資人應持續檢視其新交易篩選、關聯方治理與資本配置紀律。",
+      "Core Patents & IP": "公司目前投資控股模式沒有揭露具重大價值的核心專利、軟體平台或數位資產技術IP；其主要無形資產是投資網絡、上市資格與投資組合的控制／影響力。此欄估為無重大自有專利，投資價值應以可變現資產而非IP估值。",
+      "3-Year M&A": "近三年最重大公司行動是2025年9月宣布以反向上市方式併入Treasury B.V.，計畫轉型為歐洲比特幣金庫控股公司；股東於2025年10月批准，但交易於2026年2月取消。查無2023至2026年已完成、足以改變公司規模的重大收購案，重心仍是既有投資組合及尋找新SME標的。",
+      "CapEx & Expansion": "資本支出需求極低，資金用途主要是股權投資、投資組合貸款及交易成本，而非廠房、設備或研發擴產。2025年中私募股權投資及對組合公司的貸款合計約€400萬，另對Value8的關聯方貸款約€310萬；擴張能力受可動用現金與資產回收速度限制。",
+      "Geopolitical Exposure": "直接地緣政治曝險低，資產與組合公司主要位於荷蘭；主要間接影響來自歐洲利率、景氣、建築與工業需求、融資市場及監管制度。若未來重啟數位資產策略，將新增比特幣價格波動、歐盟加密資產規範及金融監管曝險。",
+      "M&A Potential": "具中等偏高的策略性交易潛力，原因是其Euronext上市地位、約€900萬NAV與小型投資平台可作為反向上市或資產注入載體；但2026年已取消的Treasury交易證明監管可行性是首要門檻。較合理情境是以傳統SME投資或監管可接受的資產注入創造價值，而非將比特幣金庫轉型視為確定路徑。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [
+    "Lucas Bols N.V. (BOLS.AS)"
+  ],
+  "summary": {
+    "batch_label": "API Batch 736 (new, codex)",
+    "updated": [],
+    "claimed": [
+      "Almunda Professionals N.V. (AMUND)",
+      "N.V. Koninklijke Porceleyne Fles (PORF.AS)",
+      "Green Earth Group N.V. (DGB.AS)",
+      "MKB Nedsense N.V. (NEDSE.AS)"
+    ],
+    "unmatched": [],
+    "rows_exported": 3877
+  }
+}

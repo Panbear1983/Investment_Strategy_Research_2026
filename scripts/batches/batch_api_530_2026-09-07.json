@@ -1,0 +1,143 @@
+{
+  "label": "API Batch 530 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "Essent Group Ltd. (ESNT)",
+      "Country": "USA",
+      "Industry": "金融科技",
+      "Tier": ""
+    },
+    {
+      "Company": "Enact Holdings, Inc. (ACT)",
+      "Country": "USA",
+      "Industry": "金融科技",
+      "Tier": ""
+    },
+    {
+      "Company": "MGIC Investment Corporation (MTG)",
+      "Country": "USA",
+      "Industry": "金融科技",
+      "Tier": ""
+    },
+    {
+      "Company": "Geojit Financial Services Limited (GEOJIT.NS)",
+      "Country": "India",
+      "Industry": "金融科技",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "USA",
+      "Timeframe": "中長期",
+      "Sub-Sector": "房貸保險科技",
+      "Industry": "金融保險與房地產金融",
+      "Tier": "龍頭股",
+      "Company": "Essent Group Ltd. (ESNT)",
+      "Capital/Market Cap": "約 62億美元",
+      "Core Business": "核心業務為透過旗下 Essent Guaranty 提供私營房屋抵押貸款保險（Private Mortgage Insurance, MI），協助承造首付低於20%的高LTV住宅貸款機構規避信用違約風險。此外，公司亦透過百慕達子公司 Essent Re 開展第三方再保險業務，並跨足產權保險（Title Insurance）與結算服務以實現多元化收入。",
+      "Clients & Orders": "主要客戶包括全美各大商業銀行、非銀房貸機構（如 Chase、Wells Fargo、Rocket Mortgage）與信用合作社，並向房利美（Fannie Mae）和房地美（Freddie Mac）提供符合合格房貸標準之信用保障。截至2026年中，其有效保單保額（Insurance in Force, IIF）達近2,500億美元的高水位，佔全美私營房貸保險市場份額約15%。",
+      "Technical Moat": "擁有自主開發的雲端動態定價引擎 EssentEDGE®，運用機器學習模型即時評估借款人信用評分、房貸成數及總體經濟變數進行精準差別定價。同時受惠於房利美與房地美嚴格的私人抵押貸款保險資格標準（PMIERs）高資本門檻，構築了極高的寡占進入障礙，並透過百慕達再保險架構優化跨週期資本效率與稅負優勢。",
+      "Revenue Breakdown": "總營收以房貸保險淨賺取保費（Net Premiums Earned）為絕對核心，佔比約75%至80%；投資組合帶來的淨投資收益（Net Investment Income）佔約15%至18%；產權保險、再保險及結算服務等其他費用收入則佔約5%至7%（2025年全年營收約13億美元，2026年上半年營收持續呈雙位數年增）。",
+      "Gross Margin Profile": "作為承保機構，其獲利結構以綜合成本率（Combined Ratio）衡量，2026年第二季綜合成本率低至28.4%，展現出極強的承保利潤率。淨利潤率長期維持在50%至55%的卓越水準，2025年全年淨利達6.9億美元，資產回報率與股東權益報酬率（ROE）表現居同業前列。",
+      "Key Competitors": "主要競爭對手包括全美私營房貸保險寡占市場的 Enact Holdings (ACT)、MGIC Investment (MTG)、Radian Group (RDN) 以及 NMI Holdings (NMIH)；產權業務領域則面對 First American Financial 與 Fidelity National Financial 等巨頭。",
+      "12M Catalysts": "聯準會進入降息週期預期帶動美國房貸新增貸款規模（NIW）與轉貸需求回升，推動新保單簽單動能擴大；存量保單維持率（Persistency Rate）在高房貸利率黏性下維持穩定現金流；持續執行的庫藏股回購計畫與穩健提升的季度現金股利為股東提供堅實資本回報。",
+      "Key Investment Risks": "美國房市若因宏觀經濟走弱出現房價顯著下行或失業率飆升，將推升房貸違約與索賠賠付率（Loss Ratio）；高利率若降幅不如預期，將持續壓抑新屋銷售與新增房貸承保量；此外，聯邦住房金融局（FHFA）或房利美/房地美修改 PMIERs 資本規範亦可能帶來額外合規與提撥壓力。",
+      "CEO & Management": "董事長兼執行長 Mark A. Casale 於2008年創立 Essent，具備超過30年抵押金融與保險業領導經驗，成功帶領公司度過金融海嘯並登陸紐交所。核心管理層長年採取保守審慎的承保哲學與積極的資本管理策略，管理風格在華爾街享有極高信譽。",
+      "Core Patents & IP": "核心資產為註冊商標及專有演算法信用評估定價引擎 EssentEDGE® 與 EssentIQ 技術系統，整合巨量歷史違約數據與即時風險指標，採商業機密與專有軟體架構保護。雖無傳統硬體專利組合，但其專有的計量經濟模型與承保資料庫構成顯著的數據資產壁壘。",
+      "3-Year M&A": "2023年完成對 Agents National Title Holding Company 及 Boston National Holdings LLC 的全面收購，正式打入產權保險及不動產結算服務市場。2024至2026年間聚焦於整合該產權平台與推進保險科技數位化對接，暫無其他大型併購，主要以內生資本配置為主。",
+      "CapEx & Expansion": "資本支出以輕資產模式運作，主要投向雲端架構升級、EssentEDGE 演算法優化及數位化貸款機構 API 對接，年度軟硬體 CapEx 約2,000萬至3,000萬美元（估）。資金主力分配於百慕達子公司 Essent Re 的資本配置、維持 PMIERs 充足資本緩衝，以及執行股份回購。",
+      "Geopolitical Exposure": "底層承保資產與信用風險高達95%以上集中於美國本土住宅房地產市場，幾無直接海外地緣政治衝突或國際制裁風險。跨國層面主要體現在其百慕達註冊之法律控股架構，需持續遵循百慕達金融管理局（BMA）監管法規與國際反避稅政策（如 OECD Pillar Two 稅改）。",
+      "M&A Potential": "由於全美私營房貸保險市場受 FHFA 嚴格審查且屬高度集中的寡占市場，被大型金融機構全面收購面臨反壟斷阻力，被併購機率較低。未來較可能作為發起方，針對小型不動產科技（PropTech）、產權結算代理商或特定專業再保險資產進行補充型收購。"
+    },
+    {
+      "Country": "USA",
+      "Timeframe": "中長期",
+      "Sub-Sector": "房屋抵押保險",
+      "Industry": "金融服務與金融科技",
+      "Tier": "隱形冠軍",
+      "Company": "Enact Holdings, Inc. (ACT)",
+      "Capital/Market Cap": "約 68億美元",
+      "Core Business": "專注於美國私人住宅抵押貸款保險（PMI），透過為首付比例低於20%的高成數房貸提供信用違約保障，協助購屋者降低自備款門檻。公司核心營運模式承保符合房利美與房地美規範的合格抵押貸款，並透過精算定價與信用風險移轉（CRT）架構維持穩健的承保利潤與投資收益。",
+      "Clients & Orders": "服務全美逾 1,800 家房貸發放機構，涵蓋全國性商業銀行、獨立非銀行房貸機構（IMB）、地區性銀行及信用合作社。其承保保單多打包轉售予政府贊助機構（GSEs），2025至2026年有效保險金額（IIF）維持在約 2,600 億美元高檔，客戶續約率與續保黏著度極高。",
+      "Technical Moat": "累積逾四十年跨越多次房地產週期的信用違約數據庫與專有精算定價模型，並透過 Enact Link 數位承保平台與主流貸款生成系統（LOS）無縫介接。此外，公司受惠於房利美與房地美嚴格的私人房貸保險資格標準（PMIERs）資本要求，構築極高的資本與監管壁壘。",
+      "Revenue Breakdown": "2025至2026年度淨保費收入（Net Premiums Earned）佔總營收約 78%至80%，為核心營收支柱；淨投資收益（Net Investment Income）受惠於維持高檔的固定收益資產孳息，佔比約 20%至22%；其餘費用與技術服務收入佔比低於 1%（估）。",
+      "Gross Margin Profile": "房貸保險業以綜合成本率（Combined Ratio）衡量承保獲利能力，2024至2026年間綜合成本率維持在 34%至38% 極優異區間（遠優於100%之損益平衡點）。淨利潤率維持在 54%至55% 的超高水準，反映嚴格核保品質與低違約賠付壓力。",
+      "Key Competitors": "主要競爭對手包括 MGIC Investment Corporation (MTG)、Radian Group (RDN)、Essent Group (ESNT) 與 NMI Holdings (NMIH) 等美國私營房貸保險巨頭，同時亦面臨政府機構聯邦住房管理局（FHA）在低首付房貸市場的政策性替代競爭。",
+      "12M Catalysts": "聯準會進入降息循環預期將改善美國房市流動性並活絡換屋交易，推動新保單簽發量（NIW）回溫。公司持續執行積極的資本返還計畫，包含常態與特別現金股息發放及持續性庫藏股買回，為每股盈餘成長與估值修復提供強大支撐。",
+      "Key Investment Risks": "美國總體經濟若面臨逆風導致失業率大幅攀升，將推升房貸斷供違約率並增加賠付支出；若聯邦住房管理局（FHA）調降保費費率，恐分流部分私營保險市佔；控股母公司 Genworth Financial 持股高達約 81%，存在股權集中度與長期潛在減持懸念。",
+      "CEO & Management": "總裁兼執行長 Rohit Gupta 自 2013 年起執掌公司，具備逾二十年房貸金融與風險管理歷練，成功主導公司獨立上市與穿越利率週期；執行副總裁兼財務長 Hardin Dean Mitchell 自 2012 年起統籌財務運作與資本配置，領導團隊具備卓越的審慎承保紀律。",
+      "Core Patents & IP": "核心資產主要為專有動態風險定價演算法、自動化即時核保引擎、Enact Link API 系統及橫跨數十年的房貸違約精算數據庫。該行業極少依賴傳統硬體外顯專利，核心壁壘深度建構於營業秘密、精算專有模型與監管合規平台架構。",
+      "3-Year M&A": "過去三年（2023-2026年）未進行大型外部企業收購，策略重心專注於有機成長與資本優化。主要透過傳統配額再保險（Quota Share Reinsurance）與保險連結票券（ILNs）進行常態性信用風險轉移（CRT），以極大化 PMIERs 資本效率。",
+      "CapEx & Expansion": "屬於極低資本支出（CapEx）之輕資產金融架構，年度資本支出佔營收比例低於 1.5%（估），資金主要投入雲端核心系統升級、自動化核保 API 串接與資安架構。業務擴張聚焦於加深與非銀行獨立房貸機構及中小型信用合作社之合作網絡。",
+      "Geopolitical Exposure": "營收與承保資產 100% 來自美國本土住宅抵押貸款市場，完全無直接海外供應鏈或國際地緣衝突曝險。其主要外部敏感度來自於美國聯準會貨幣政策、聯邦住房金融局（FHFA）監管規範及美國國內房地產宏觀週期波動。",
+      "M&A Potential": "被併購潛力具備戰略重組想像空間，由於母公司 Genworth Financial 持有約 81% 股份，未來存在被母公司全資私有化、引入大型私募股權基金（如 Apollo、KKR）收購或與其他同業整併以擴大規模經濟的可能，惟現階段公司首要定位為維持高自由現金流釋放以支持母公司資本戰略。"
+    },
+    {
+      "Country": "USA",
+      "Timeframe": "中長期",
+      "Sub-Sector": "房貸信用保險",
+      "Industry": "金融科技與專業保險",
+      "Tier": "龍頭股",
+      "Company": "MGIC Investment Corporation (MTG)",
+      "Capital/Market Cap": "約 63.5億美元",
+      "Core Business": "為美國住宅抵押貸款市場提供私人房貸保險（PMI）與信用風險管理方案，主要協助首付低於20%的購屋者取得融資，並承擔違約第一損失以保障房貸放款機構與政府贊助機構（房利美與房地美）。",
+      "Clients & Orders": "客戶廣泛涵蓋全美商業銀行、信用合作社及非銀行房貸機構（包括 Rocket Mortgage、Pennymac 與富國銀行等），截至2026年第二季有效保險保額（Insurance in Force）穩步增長至3,048億美元，季度新增承保保額（NIW）達178億美元。",
+      "Technical Moat": "擁有領先業界的動態風險定價引擎 MiQ，能無縫整合各主流房貸放貸系統（LOS）實現自動化即時報價與核保；同時維持遠高於 GSE 私人房貸保險資格標準（PMIERs）的充裕監管資本緩衝，並透過 Home Re 房貸保險連結證券（ILS）機制高效向資本市場轉嫁極端違約風險。",
+      "Revenue Breakdown": "2025至2026年淨已賺保費（Net Premiums Earned）佔總營收約79%至80%（年度約9.6億至9.7億美元），在高利率環境支撐下投資淨收益（Net Investment Income）佔約20%至21%（年度約2.4億至2.5億美元），其他手續費收入佔比不足1%。",
+      "Gross Margin Profile": "保險業務衡量採用綜合成本率指標，受惠於房貸借款人優質的信用評分與顯著的早期違約轉好率，2025至2026年損失率維持在4%至14%的歷史極佳水準，承保費用率約20%，推動整體營業利益率維持在65%至70%高檔，年化股東權益報酬率（ROE）達14.5%左右。",
+      "Key Competitors": "主要同業競爭對手為雷迪安集團（Radian Group, RDN）、艾森特集團（Essent Group, ESNT）、Enact Holdings（ACT）及國家抵押保險控股（NMI Holdings, NMIH），在承保費率與放貸通路份額展開良性競逐。",
+      "12M Catalysts": "聯準會降息週期可望帶動美國成屋銷售與房貸轉貸潮復甦，進而顯著推升新增承保業務量；同時公司持續執行大規模庫藏股回購計畫與穩健的現金股利調升，成為每股盈餘（EPS）與股東實質報酬的強勁驅動力。",
+      "Key Investment Risks": "若美國總體經濟陷入衰退導致失業率大幅攀升與房價修正，將引發房貸違約與賠付金額驟增；此外，亦面臨聯邦住房管理局（FHA）調降保費帶來的替代性競爭壓力，以及 GSE 監管架構改革潛在變化的政策風險。",
+      "CEO & Management": "由執行長蒂莫西·馬特克（Timothy J. Mattke）領導，其自2019年執掌至今並於2026年兼任美國房貸保險協會（USMI）董事會主席，經營階層長期專注於嚴格的核保紀律、逆週期資本管理與股東價值回饋。",
+      "Core Patents & IP": "核心資產為專有風險定價架構 MiQ 演算法、多變量房貸信用風險評估模型及自動化 LOS API 串接架構軟體著作權，並累積逾60年跨經濟週期的全美房貸信用歷史違約大數據庫（屬商業機密保護）。",
+      "3-Year M&A": "近三年並無大型企業併購交易，策略聚焦於有機業務增長與輕資本營運，主要透過發行 Home Re 系列保險連結票券與再保險合約進行資產負債表風險出表優化。",
+      "CapEx & Expansion": "資本支出極低（CapEx 佔營收比例長年低於1.5%，主要用於雲端核心基礎設施與 MiQ 演算法算力升級），充沛的營運現金流除充實保險子公司法定監管資本外，主要透過股票回購與股利發放全額回饋市場。",
+      "Geopolitical Exposure": "業務百分之百扎根於美國本土住宅房貸市場，無直接海外營運或地緣政治實體曝險；僅間接承受國際地緣緊張引發的全球利率與美債殖利率波動衝擊。",
+      "M&A Potential": "由於美國私人房貸保險市場受到聯邦住房金融局（FHFA）與各州保險監理機關嚴密監管，同業橫向整併受反壟斷法規高度限制；但因具備極為穩定的自由現金流與關鍵信用防禦通路，對大型金融控股集團或私募基金仍具潛在私有化收購價值。"
+    },
+    {
+      "Country": "India",
+      "Timeframe": "中長期",
+      "Sub-Sector": "數位證券與財富管理",
+      "Industry": "金融服務",
+      "Tier": "潛力股",
+      "Company": "Geojit Financial Services Limited (GEOJIT.NS)",
+      "Capital/Market Cap": "約 231億印度盧比（約 2.8億美元）",
+      "Core Business": "提供涵蓋股票、期貨選擇權、商品與外匯之零售及機構證券經紀服務，並整合共同基金、保險與債券等第三方金融產品分銷。同時營運全權委託資產管理（PMS）、另類投資基金（AIF）、保證金融資（MTF），以及透過旗下 Geojit IFSC 開展國際金融中心（GIFT City）跨境離岸投資業務。",
+      "Clients & Orders": "截至 2025-2026 年底活躍客戶數突破 140 萬戶，旗下客戶託管與管理資產規模（AUM/AUA）超過 1 兆印度盧比。在海灣阿拉伯國家合作委員會（GCC）地區擁有成熟合資機構網絡，深度服務阿聯、阿曼、科威特與巴林之非居住印度人（NRI）高端財富與定額投資（SIP）訂單流。",
+      "Technical Moat": "旗艦數位交易平台「FLIP」全面取代舊代系統，整合 TradingView 圖表、選擇權多腿策略及 Smartfolios 專家客製投資組合，大幅降低獲客與營運成本。依託旗下獲 SEI CMMI Level 5 認證的子公司 Geojit Technologies 自研交易中台與 API 架構，並具備首批入駐 GIFT City 的跨境金融牌照與監管技術壁壘。",
+      "Revenue Breakdown": "2025-2026 財年總營收約 70 億至 75 億印度盧比；其中證券經紀與手續費收入佔比約 50% 至 54%，金融產品分銷佣金（共同基金 SIP、保險及固定收益）佔比約 25% 至 28%，保證金交易融資（MTF）利息收入佔比約 15% 至 18%，金融軟體技術授權與諮詢服務則佔約 2% 至 4%（估）。",
+      "Gross Margin Profile": "作為輕資產金融中介機構，常態營業利益率維持在 25% 至 35% 水準。2025-2026 財年 EBITDA 利潤率約為 24% 至 30%（估），稅後淨利率（PAT Margin）約在 16% 至 22% 區間，獲利高度取決於印度資本市場日均交易量（ADTV）與經營槓桿效益。",
+      "Key Competitors": "Zerodha、Groww、Angel One、ICICI Securities、Motilal Oswal Financial Services。",
+      "12M Catalysts": "旗下 Geojit IFSC 全面放量承接海外居民與 NRI 經由 GIFT City 投資印度及全球資產的雙向資金潮；受惠於印度家庭資產金融化趨勢，共同基金 SIP 規模與 Smartfolios 訂閱戶維持雙位數增長；保證金交易融資（MTF）資產負債表擴張推升淨利息收入成長。",
+      "Key Investment Risks": "印度證券交易委員會（SEBI）針對零售散戶指數期權（F&O）實施更嚴格監管規定，恐顯著壓抑高頻交易成交量與佣金收入；以 Zerodha 和 Groww 為代表的新興折扣經紀商持續發動手續費價格戰；長期外資戰略夥伴法國巴黎銀行（BNP Paribas）近年持續在二級市場調節持股，造成短期籌碼面壓制風險。",
+      "CEO & Management": "創辦人 C. J. George 於 2026 年交棒並轉任執行董事長（Executive Chairman），由具備深厚數位產品背景的 Jones George 出任董事總經理兼執行長（MD & CEO）。高階領導階層多在印度金融界深耕逾二十年，治理結構穩定且正全面推進「線上結合線下（Phygital）」全渠道轉型。",
+      "Core Patents & IP": "不適用硬體專利，核心資產為旗下全資擁有的專有軟體著作權，包含 FLIP 移動與網頁交易系統、Smartfolios 智能投顧引擎、FundsGenie 理財分銷平台，以及 Geojit Technologies 所擁有的 CMMI Level 5 高併發金融微服務架構與演算法系統。",
+      "3-Year M&A": "近三年無外部收購，聚焦內部架構重組：於 2024 年底達成協議並於 2025 年 3 月以約 485.6 億盧比之內部估值，將核心證券經紀與託管業務以業務轉讓（Slump Sale）形式移轉至全資子公司 Geojit Investments Limited（GIL），以符規並優化分部資本效益，並於 2024 年完成 20 億盧比配股增資（Rights Issue）。",
+      "CapEx & Expansion": "資本支出維持輕資產配置，每年約 3 億至 5 億印度盧比（估），主要用於伺服器雲端遷移、AI 投研輔助演算法建置與網絡安全合規升級。實體端持續優化遍佈印度全境逾 400 間實體服務據點，並深化與波斯灣 GCC 當地金融機構之跨境聯合財富管理中心拓展。",
+      "Geopolitical Exposure": "高度關聯海灣阿拉伯國家（GCC）總體經濟環境與石油經濟景氣，中東區域衝突或移民匯款政策調整將直接牽動海外 NRI 資金回流意願；境內營運則全面遵循印度法規，國際制裁與地緣政治斷鏈風險極低。",
+      "M&A Potential": "具備深厚的南印度實體網絡與難以複製的波斯灣 NRI 客戶存款池，具高度戰略併購價值。隨著主要股東法國巴黎銀行（BNP Paribas）股權降至 10% 以下，公司股權結構轉趨分散，未來若整體估值回調，極易成為尋求線下實體渠道與財富管理牌照之本土大型民營銀行、跨國金融集團或頂級私募股權（PE）基金的潛在收購或私有化標的。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 530 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "Essent Group Ltd. (ESNT)",
+      "Enact Holdings, Inc. (ACT)",
+      "MGIC Investment Corporation (MTG)",
+      "Geojit Financial Services Limited (GEOJIT.NS)"
+    ],
+    "unmatched": [],
+    "rows_exported": 3266
+  }
+}

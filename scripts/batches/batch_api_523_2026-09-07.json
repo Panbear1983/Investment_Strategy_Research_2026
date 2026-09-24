@@ -1,0 +1,53 @@
+{
+  "label": "API Batch 523 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "W.A.G payment solutions plc (WPS.L)",
+      "Country": "UK",
+      "Industry": "金融科技",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "UK",
+      "Timeframe": "中長期",
+      "Sub-Sector": "商用車隊金融科技",
+      "Industry": "金融科技",
+      "Tier": "隱形冠軍",
+      "Company": "W.A.G payment solutions plc (EWG.L)",
+      "Capital/Market Cap": "約 7.2億英鎊（約合 9.4億美元）",
+      "Core Business": "專注於歐洲商用道路運輸（CRT）領域的一站式整合支付與數位移動平台，以品牌 Eurowag 營運。核心產品涵蓋傳統與綠色能源支付（加油卡、LNG/電動車充電）、全歐電子收費系統（EETS）通行費代繳、跨國增值稅退稅與供應鏈金融，並深度整合遠端車聯網、車隊管理及法規工時管理等 SaaS 軟體服務。",
+      "Clients & Orders": "客群主力為歐洲中小型商用運輸及物流車隊（SME CRT），截至 2025 年底平台活躍卡車數達 32.15 萬輛（年增 6.4%），每輛車平均使用產品數提升至 2.8 項。旗艦端到端雲端平台 Eurowag Office 於 2025 年底已完成約 35% 客戶遷移，預計於 2026 年底前完成絕大多數存量客戶上線。",
+      "Technical Moat": "建構覆蓋全歐 30 國的能源與通行費結算驗收網絡，並自研專利 EVA 車載單元（OBU），單一設備即可相容泛歐電子收費標準與高頻車聯網遙測。結合 Inelo 與 Sygic 導航的軟體演算法，將卡車司機工時合規、動態路徑規劃與金融扣款高度綁定，具備極高的客戶轉換成本與平台黏著度。",
+      "Revenue Breakdown": "2025 財年淨營收達 3.30 億歐元（年增約 13%）。業務由兩大核心板塊構成：支付解決方案（Payment Solutions，包含燃料與 EETS 通行費支付）營收達 2.00 億歐元，佔比約 60.7%，其中通行費收入大幅年增 52.3%；移動解決方案（Mobility Solutions，包含 Inelo 車隊遙測、工時管理 SaaS 與金融退稅）營收達 1.30 億歐元，佔比約 39.3%。",
+      "Gross Margin Profile": "商業模式依賴高利潤的交易手續費率（Take-rate）與高毛利軟體訂閱，2024 至 2025 年經調整 EBITDA 利潤率維持在 40.0%–41.6% 的健康水準。2025 年調整後 EBITDA 達 1.32 億歐元，淨收入毛利率（Gross Profit on Net Revenue）估達 75%–80%，2026 年指引預期調整後現金 EBITDA 落在 1.05 億至 1.15 億歐元區間。",
+      "Key Competitors": "主要競爭對手包括跨國商業支付巨頭 Corpay（前身 Fleetcor）、法國預付與通行費巨頭 Edenred（旗下 UTA）、泛歐商用車服務巨頭 DKV Mobility，以及英國車隊服務商 Radius Payment Solutions。",
+      "12M Catalysts": "2026 年為 Eurowag Office 數位平台的大規模遷移關鍵年，預計顯著釋放 Inelo 軟體向既有支付客群的交叉銷售潛力；全歐 EETS 電子收費網絡持續接入新收費公路體系，帶動通行費高成長動能；併購後資本支出高峰回落與去槓桿進程加速，現金轉換率可望迎來拐點。",
+      "Key Investment Risks": "歐洲宏觀經濟走緩及製造業物流疲軟，恐壓抑商用道路運輸（CRT）的燃油與通行里程需求；中小型物流車隊在營運壓力下可能增加公司信貸與預付款壞帳風險；高額併購後負債比偏高（淨負債/EBITDA 比率估約 2.5 倍），在相對高利率環境下將增加財務成本負擔。",
+      "CEO & Management": "創辦人暨執行長 Martin Vohánka 自 1995 年創立公司以來長期掌舵，持有具控制影響力的核心股權；財務長 Oskar Zahn 自 2023 年就任，具備豐富的英國上市公司財務重組與跨國資本運作經驗；2025 年 5 月完成董事會改組，由資深企業主管 Steve Dryden 接替 Paul Manduca 出任非執行董事會主席。",
+      "Core Patents & IP": "擁有歐盟 EETS 認證標準的 EVA (Enhanced Vehicle Assistant) 多合一車載硬體專利架構，整合 DSRC 微波與 GNSS 衛星定位技術；掌握旗下 Sygic 專業商用車 3D 離線地圖與卡車導航專利引擎，以及 Inelo 用於嚴格歐盟法規審查之 4Trans 駕駛工時排程分析演算法智慧財產權。",
+      "3-Year M&A": "2023 年初以最高約 3.06 億歐元完成對波蘭車隊軟體龍頭 Inelo 的標誌性併購，顯著強化遙測與工時管理實力；2022 年以 5,590 萬歐元收購中東歐車隊管理系統領導廠商 WebEye；2024 至 2026 年暫停大型槓桿併購，策略轉為既有技術與跨國客群的深度整合消化。",
+      "CapEx & Expansion": "資本支出佔淨營收比重嚴格控制在 10%–12% 水位，資金集中投入 Eurowag Office 雲端平台研發及新一代整合車載裝置；地域與通路擴張則鎖定德、法等西歐主流運輸廊道，並擴大與替代能源（HVO100、生物 LNG）及商用電動車（eCRT）超充營運商的數位支付合作網。",
+      "Geopolitical Exposure": "業務重心深植於中東歐（CEE）向西歐延伸的關鍵跨境物流樞紐，俄烏戰爭引起的東歐供應鏈轉向與跨境貨運航線重組仍持續對局部運力帶來擾動；歐盟 Fit for 55 與 ETS 2 交通碳排放監管新制，對高碳排中小車隊運營帶來轉型合規成本壓力。",
+      "M&A Potential": "身為歐洲少數獨立上市且覆蓋中東歐網絡的商用車聯網與金融支付平台，對欲強化歐洲市場版圖的全球車隊支付巨頭或國際私募股權基金（PE）而言，具備高度私有化併購標的價值；公司本身亦具備在西歐市場對小型利基 SaaS 遙測新創進行補強型收購（Tuck-in）的潛力。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 523 (new, gemini)",
+    "updated": [
+      "W.A.G Payment Solutions plc (EWG.L)"
+    ],
+    "claimed": [],
+    "unmatched": [],
+    "rows_exported": 3252
+  }
+}

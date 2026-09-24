@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.panbear.botffet-bot</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>/Users/peter/GitHub/Investment_Strategy_Research_2026/scripts/run_botffet_bot.sh</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>/Users/peter/GitHub/Investment_Strategy_Research_2026</string>
+  <key>RunAtLoad</key>
+  <true/>
+
+  <!-- A long-poller meant to run forever, so ANY exit is abnormal and should respawn.
+       On 2026-09-17 08:48 a DNS blip made python-telegram-bot stop the application
+       cleanly (exit 0), and the two reboots later that day never brought the hand-started
+       nohup process back: 爸菲特 was silent for two and a half days. -->
+  <key>KeepAlive</key>
+  <true/>
+
+  <!-- If the network is still down at login, preflight getMe raises SystemExit. 30 s
+       between attempts neither hammers Telegram nor leaves a noticeable gap. -->
+  <key>ThrottleInterval</key>
+  <integer>30</integer>
+
+  <!-- The wrapper already appends python's output to botffet_bot.log; these only catch
+       bash-level failures before the exec (e.g. a TCC "Operation not permitted"). -->
+  <key>StandardOutPath</key>
+  <string>/Users/peter/GitHub/Investment_Strategy_Research_2026/scripts/botffet_bot.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/peter/GitHub/Investment_Strategy_Research_2026/scripts/botffet_bot.log</string>
+</dict>
+</plist>

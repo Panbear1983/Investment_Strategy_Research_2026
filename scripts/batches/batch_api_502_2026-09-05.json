@@ -1,0 +1,121 @@
+{
+  "label": "API Batch 502 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "Mr. Cooper Group (COOP)",
+      "Country": "USA",
+      "Industry": "金融科技",
+      "Tier": ""
+    },
+    {
+      "Company": "Radian Group (RDN)",
+      "Country": "USA",
+      "Industry": "金融科技",
+      "Tier": ""
+    },
+    {
+      "Company": "NMI Holdings (NMIH)",
+      "Country": "USA",
+      "Industry": "金融科技",
+      "Tier": ""
+    },
+    {
+      "Company": "Ryan Specialty Holdings (RYAN)",
+      "Country": "USA",
+      "Industry": "金融科技",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "USA",
+      "Timeframe": "中長期",
+      "Sub-Sector": "房貸保險與特種保險",
+      "Industry": "金融科技與保險服務",
+      "Tier": "龍頭股",
+      "Company": "Radian Group (RDN)",
+      "Capital/Market Cap": "約 47.4億美元",
+      "Core Business": "Radian Group (RDN) 為美國領先的私人房貸保險與房地產金融科技服務商，致力於為貸方提供違約風險保障以降低購屋者首付門檻。2026年2月完成對英國勞合社特種保險商 Inigo Limited 的收購後，成功跨足全球特種保險領域（涵蓋財產、責任、海事與航空險），轉型為兼具住宅信貸保障與國際專門保險的多元化金融集團。此外，公司持續藉由數位平台提供房地產估價、數據分析與交易解決方案。",
+      "Clients & Orders": "主要客戶包括全美大型抵押貸款銀行、獨立非銀行放貸機構、信用合作社以及房利美 (Fannie Mae)、房地美 (Freddie Mac) 等政府贊助企業 (GSEs)；透過 Inigo 則拓展至全球跨國企業及倫敦勞合社辛迪加網絡。2026年第二季其主要在保房貸業務規模 (Primary IIF) 創下 2,840 億美元歷史新高，新增承保量保持穩健增長。",
+      "Technical Moat": "核心護城河在於自主研發的動態風險定價引擎 RADAR® Rates，能毫秒級整合全美宏觀房市指標、借款人信用評級與房產微觀數據進行客製化精準定價。搭配 homegenius 房地產科技生態系（如基於機器學習的 geniusprice AVM 估價模型與結合區塊鏈存證技術的 titlegenius 流程平台），建構出覆蓋抵押貸款全生命週期的數據閉環與高客戶轉換成本。",
+      "Revenue Breakdown": "2026年第二季總營收達 5.75 億美元，受納入 Inigo 業務驅動呈現大幅年增：其中淨已賺保費 (Net Premiums Earned) 佔比約 87.7%（達 5.04 億美元，其中特種保險佔已賺保費 53%、房貸保險佔 47%），淨投資收益 (Net Investment Income) 佔比約 12.2%（約 7,000 萬至 7,500 萬美元），其餘為房地產科技與綜合服務收入（佔比小於 1%）。",
+      "Gross Margin Profile": "承保利潤率維持在業界頂尖水準，2026年第二季核心房貸保險綜合成本率 (Combined Ratio) 保持在優異的 35.8%（隱含承保利潤率約 64.2%），展現出色的資產違約控制力；新併入的 Inigo 特種保險板塊綜合成本率為 97.7%，兩者合計維持集團單季經調整稅前營業利潤達 1.96 億美元。",
+      "Key Competitors": "在美國私人房貸保險市場的主要競爭對手為 MGIC Investment (MTG)、Enact Holdings (ACT)、Essent Group (ESNT) 及 NMI Holdings (NMIH)；在倫敦勞合社與全球特種保險/再保險市場，則與 Beazley、Hiscox 及 Lancashire Holdings 等跨國專業保險機構正面競爭。",
+      "12M Catalysts": "美國聯準會降息週期啟動帶動房貸轉貸 (Refinancing) 及成屋交易量回溫，預期加速新增承保業務 (NIW) 擴張；Inigo 的併購協同效益預計於2026下半年進一步釋放（管理層指引下半年特種保險已賺保費將較上半年成長約20%），且持續處置非核心產權 (Title) 業務將優化資本結構並推升 ROE。",
+      "Key Investment Risks": "若美國總體經濟走弱或高利率滯後效應引發失業率顯著攀升，可能推高房貸違約與理賠率；此外，跨國整合 Inigo 面臨全球巨災損失 (Catastrophe Risk) 敞口增加、勞合社監管合規成本上升及美元與英鎊匯率波動風險。",
+      "CEO & Management": "2026年8月由具備豐富金融服務與抵押貸款管理資歷的 Mike Weinbach 正式接任執行長兼董事；掌舵九年的前執行長 Rick Thornberry 轉任戰略顧問至2026年底以確保無縫交接，執行副總裁兼財務長為 J. Christian S. Allen，管理團隊現正全力聚焦於多元化特種保險與資本效益最大化。",
+      "Core Patents & IP": "擁有包括 RADAR® 動態風險定價專利系統、homegenius 房地產智慧數據庫、geniusprice 自動估價模型 (AVM) 及 titlegenius 數位產權交易流程在內的專有演算法與金融科技知識產權，具備深度房產大數據與信用違約建模壁壘。",
+      "3-Year M&A": "2026年2月以約 16.7 億美元現金及股權代價完成收購英國勞合社特種保險商 Inigo Limited，完成公司史上最大規模的跨國業務多元化併購；此前於2023至2025年間持續推動資產輕量化，處置非核心房地產服務業務 (Real Estate Services) 並逐步啟動產權保險業務的戰略剝離。",
+      "CapEx & Expansion": "屬於輕資產金融科技與承保營運模式，資本支出主要投入於雲端核保架構、AI 風險模型迭代及 Inigo 跨大西洋 IT 系統整合；資本擴張主要展現在將母公司與附屬機構的超額資本注資於 Syndicate 1301，以擴大全球特種保險承保容量。",
+      "Geopolitical Exposure": "傳統房貸保險板塊 100% 根植於美國本土房地產市場，受國際地緣政治直接波及有限；但收購總部位於英國倫敦的 Inigo 後，其海事、航空、能源及國際再保險業務暴險於地緣衝突與全球供應鏈中斷風險，並受英國審慎監管局 (PRA) 與勞合社規範監管。",
+      "M&A Potential": "短期內因剛完成 16.7 億美元的大型收購並發行 6 億美元內部票據注資，公司處於資本吸收與槓桿平穩期，進行新一輪大型對外併購機率偏低；然而，其龐大的在保規模、強勁現金流及特種保險新支柱，使其長期具備成為大型跨國金融集團或私募股權基金戰略收購標的的潛力。"
+    },
+    {
+      "Country": "USA",
+      "Timeframe": "中長期",
+      "Sub-Sector": "房貸保險科技",
+      "Industry": "金融科技與抵押保險",
+      "Tier": "潛力股",
+      "Company": "NMI Holdings (NMIH)",
+      "Capital/Market Cap": "約 34億美元",
+      "Core Business": "透過旗下主要營運子公司 National Mortgage Insurance Corporation (National MI)，向全美住宅房貸機構提供私人抵押貸款保險（PMI），承保首付低於20%的高LTV住宅貸款。公司協助合格購屋者取得常規房貸，並為房利美（Fannie Mae）與房地美（Freddie Mac）等政府贊助機構承擔初級信用違約風險，截至2026年第二季其有效承保保額（Primary IIF）已達2,271億美元。",
+      "Clients & Orders": "客戶涵蓋全美大型商業銀行、區域性銀行、非銀行抵押貸款發起商（Non-bank Mortgage Originators）及信用合作社（Credit Unions）。訂單主要來自借款人購屋或轉貸所衍生的新發行承保保額（NIW），並藉由深度嵌入金融機構的貸款發放系統（LOS）與定價引擎實現自動化承保獲客。",
+      "Technical Moat": "具備金融海嘯後（Post-GFC）創立的潔淨資產負債表，無次貸危機遺留壞帳負擔，承保資產信用品質處於同業頂尖水準。核心技術壁壘來自自主研發的動態風險定價引擎「RateGPS®」，該系統運用多維度巨量數據與機器學習精準評估房貸風險並即時報價，與客戶工作流形成高黏著度與轉換障礙。",
+      "Revenue Breakdown": "營收由淨已賺保費（Net Premiums Earned）與淨投資收益（Net Investment Income）構成。2025至2026年間，淨已賺保費佔總營收約84%至85%（單季約1.55億至1.58億美元），高品質固定收益與現金投資組合所帶來的淨投資收益約佔15%至16%（單季約2,800萬至3,000萬美元）。",
+      "Gross Margin Profile": "展現保險科技的高經營槓桿與極低賠付水準，綜合成本率（Combined Ratio）長期維持在28%至33%之優異區間（2026年第二季損失率僅8.3%、費用率19.4%）。換算之承保毛利率高達70%以上，GAAP淨利率常年維持在50%以上的高檔，年化股東權益報酬率（ROE）維持在16%至18%水準。",
+      "Key Competitors": "主要競爭對手為全美獲GSE核准的其餘五大私人房貸保險寡占巨頭，包括 MGIC Investment Corporation (MTG)、Radian Group (RDN)、Essent Group (ESNT)、Enact Holdings (ACT) 以及 Arch Capital Group (ACGL)。",
+      "12M Catalysts": "美國聯準會（Fed）降息循環推進帶動房貸利率下滑，有望活絡全美成屋銷售與轉貸潮，加速新保險發行量（NIW）回溫。此外，公司持續執行的大規模股票回購計畫，以及受益於高利率環境所鎖定之高息固定收益投資組合收益率，將持續驅動每股盈餘（EPS）與每股帳面價值增長。",
+      "Key Investment Risks": "若美國總體經濟硬著陸或就業市場急劇惡化，恐引發房貸違約率攀升並推高賠付損失準備金；全美高房價與房貸利率僵固導致的「鎖定效應」若持續，可能壓抑新承保業務擴張動能；同時需密切關注同業非理性定價價格戰及聯邦政府贊助機構（FHFA/GSEs）承保資本規定的潛在變動。",
+      "CEO & Management": "總裁兼執行長 Adam Pollitzer 自2021年執掌營運以來（此前擔任執行副總裁兼財務長），維持高度紀律的承保標準與積極的資本管理策略；財務長為 Ravi Mallela。核心管理團隊具備深厚的房貸金融、風險精算與資本市場運作經驗，治理結構穩健。",
+      "Core Patents & IP": "核心無形資產為其專屬註冊商標及風險動態定價演算引擎「RateGPS®」，以及整合全美抵押貸款定價系統（PPE）之專有API接口架構。公司透過嚴格的商業秘密（Trade Secrets）、軟體著作權、數據演算法及商標保護維持其風險定價與核保模型的領先優勢。",
+      "3-Year M&A": "過去三年內未進行任何外部企業併購，維持百分之百有機成長（Organic Growth）策略以維持乾淨的資本結構。公司主要專注於利用特設再保險機構「Oaktown Re」系列發行保險連結證券（ILS）進行信用風險轉移與資本優化，並透過註銷庫藏股回饋股東。",
+      "CapEx & Expansion": "採取輕資產（Asset-Light）經營模式，資本支出主要投入於雲端核保架構、RateGPS定價演算法升級及資訊安全技術之資本化軟體開發。業務擴張重點在於深化與全美大型獨立房貸銀行（IMBs）及信貸機構的系統直連合作，並透過前瞻性超額再保險合約（XOL）擴大資本容量。",
+      "Geopolitical Exposure": "地緣政治直接曝險極低，承保標的與營運實體100%集中於美國本土住宅房貸市場，無任何海外營運或直接外匯風險。間接影響主要在於國際地緣局勢牽動全球能源通膨與美債殖利率波動，進而間接作用於美國聯準會貨幣政策與國內房市景氣。",
+      "M&A Potential": "身為美國六大私人房貸保險商中最年輕、且無金融海嘯歷史毒資產包袱的純標的（Pure-play），其高ROE與穩健現金流對有意擴展美國住宅信用保險版圖的跨國大型複合再保險集團或私募基金極具收購吸引力；但鑑於當前充沛的資本自主性與高回購報酬率，短期維持獨立上市公司運作可能性較高。"
+    },
+    {
+      "Country": "USA",
+      "Timeframe": "中長期",
+      "Sub-Sector": "保險科技與特種經紀",
+      "Industry": "金融服務",
+      "Tier": "龍頭股",
+      "Company": "Ryan Specialty Holdings (RYAN)",
+      "Capital/Market Cap": "約 108 億美元",
+      "Core Business": "專注於超額與剩餘保險（E&S）市場，為零售經紀商與代理人提供批發分銷、委任核保管理（MGA/MGU）與專屬核保承保方案。公司採無資產負債表承保風險之輕資產模式，不承擔保單理賠風險，純粹收取分銷佣金與核保服務費。",
+      "Clients & Orders": "服務遍及北美及全球數千家零售保險經紀商（包括 Marsh McLennan、Aon、Arthur J. Gallagher 合作體系），並連結全球數十家頂級特種保險與再保險公司。每年促成超過百億美元之保費流通，客戶委託續約率長年維持在 90% 以上之高水準。",
+      "Technical Moat": "自主開發特種險數位交易平台「RT Connector」，支援多險種即時報價、智慧文件解析與自動分流轉介，大幅縮短投保週轉週期。結合數十個利基險種的獨家承保代理授權（Delegated Authority）與非標準風險定價模型，建立高轉換成本的雙邊網絡壁壘。",
+      "Revenue Breakdown": "2025 年淨佣金與手續費收入約 30.5 億美元：批發經紀業務（Wholesale Brokerage / RT Specialty）佔比約 53.4%（約 16.0 億美元）；委任核保管理業務（Underwriting Management）佔比約 34.2%（約 10.2 億美元）；約束核保授權業務（Binding Authority）佔比約 12.4%（約 3.7 億美元）。",
+      "Gross Margin Profile": "因不涉及傳統商品銷貨成本且不承擔保險理賠負債，廣義毛利率實質為 100%。2025 年全年調整後 EBITDAC 利潤率約為 31.7%（EBITDAC 達 9.67 億美元），目前正推進三年期「Empower」營運優化計畫，預計於 2029 年前達成每年約 8,000 萬美元的結構性營業費用節約。",
+      "Key Competitors": "主要同業競爭對手包含全美最大批發經紀商 Amwins Group、Truist 旗下的 CRC Group、Brown & Riding，以及各大型跨國經紀巨頭內部自營之批發與特殊風險部門。",
+      "12M Catalysts": "氣候災害與極端天災頻發促使標準市場保險公司收緊承保胃納，加速保單外溢至 E&S 特種險市場擴大業務池。「Empower」重組計畫帶來的數位化降本效益逐步在營運利潤率上顯現，且 2024–2025 年密集收購之資產（如 US Assure、Velocity Risk）全面邁入整合綜效放量期。",
+      "Key Investment Risks": "商業財產與巨災險硬市場（Hard Market）定價動能若於 2026 年進一步趨緩，可能壓抑有機佣金增長率。此外，高額併購累積的商譽減損風險、高利率環境對併購融資利息成本之負擔，以及頂尖核保團隊與經紀人生產力流失均為關鍵風險。",
+      "CEO & Management": "公司由保險業傳奇人物 Patrick G. Ryan 於 2010 年創立，其已於 2024 年底轉任執行董事長；現任首席執行官 Tim Turner 擁有數十年批發經紀深厚背景且領導 RT Specialty 多年。管理層持股比例顯著，經營決策與長期股東利益高度綁定。",
+      "Core Patents & IP": "核心智慧資產為專屬特種保險交易市集「RT Connector」數位架構、專有承保評估演算邏輯，以及針對建築、離岸能源、特種醫療等複雜行業累積之數十載歷史損失數據模型與品牌商標權。",
+      "3-Year M&A": "維持積極外延併購策略：2023 年收購全國性批發經紀商 Socius；2024 年斥資完成建築險領導者 US Assure 及 Innovisk 收購；2025 至 2026 年初陸續完成 Velocity Risk、360 Underwriting Solutions、USQ、M Wilson 與 SSRU 等收購，持續擴大委託核保平台版圖。",
+      "CapEx & Expansion": "年度資本支出維持在低強度區間（資本支出佔營收比重常年低於 2%），資金集中於 RT Connector 平台功能迭代與自動化資料系統升級。擴張重點採取外聘資深明星核保人與團隊（Producer Hiring），並持續加碼英國勞合社市場及歐陸特種險業務。",
+      "Geopolitical Exposure": "業務高度集中於美國本土市場（營收佔比逾 85-90%），國際佈局主要為倫敦及西歐再保險市場分銷。受直接地緣軍事衝突衝擊低，但全球性網路攻擊、跨國供應鏈中斷及極端氣候災損等宏觀風險，將間接影響相關特殊責任險與財產險的定價週期。",
+      "M&A Potential": "憑藉充沛的經營現金流與美股上市公司地位，公司在高度分散的特種保險中介市場中具備頂級整併者（Consolidator）優勢。由於創辦人家族與核心管理團隊持股穩固且市值超過百億美元，自身被敵意收購機率極低，未來將持續作為強勢買方進行利基型 Roll-up 併購。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [
+    "Mr. Cooper Group (COOP)"
+  ],
+  "summary": {
+    "batch_label": "API Batch 502 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "Radian Group (RDN)",
+      "NMI Holdings (NMIH)",
+      "Ryan Specialty Holdings (RYAN)"
+    ],
+    "unmatched": [],
+    "rows_exported": 3222
+  }
+}

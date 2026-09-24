@@ -1,0 +1,53 @@
+{
+  "label": "API Batch 457 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "claude"
+  ],
+  "items": [
+    {
+      "Company": "Wealthfront Corporation (WLTH)",
+      "Country": "USA",
+      "Industry": "金融科技/新興市場支付",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "USA",
+      "Timeframe": "中期",
+      "Sub-Sector": "數位理財/機器人顧問",
+      "Industry": "金融科技（財富管理科技／自動化投顧）",
+      "Tier": "潛力股",
+      "Company": "Wealthfront Corporation (WLTH)",
+      "Capital/Market Cap": "約14.1億美元（2026年8月底股價約9.57美元，較2025年12月IPO時20.5億美元市值已下跌逾三成）",
+      "Core Business": "Wealthfront為美國自動化財富管理（機器人顧問）平台，主力產品為Wealthfront Cash Account現金管理帳戶與稅務優化投資組合（含直接指數化、稅損收割），2026年起新增房屋貸款（home lending）業務作為第二成長曲線。",
+      "Clients & Orders": "截至2026年3月，平台資產達932億美元，服務144萬名已入金客戶；惟FY2026第四季出現淨資金流出2.08億美元，較去年同期淨流入8.74億美元大幅反轉，反映升息週期結束後現金帳戶吸引力下滑。",
+      "Technical Moat": "核心技術護城河為專有稅損收割（Tax-Loss Harvesting）與直接指數化演算法、Self-Driving Money自動理財引擎，可提供機構級稅務優化，為其相對Betterment、SoFi等對手的差異化賣點，惟技術可複製性高、護城河非絕對。",
+      "Revenue Breakdown": "FY2026（截至2026年1月31日）總營收3.65億美元，年增18%；現金管理費約占營收74%，投資顧問費約占25%，其餘為新興的房貸相關手續費（估）。",
+      "Gross Margin Profile": "屬輕資產金融科技模式，毛利率估計約70-80%（估），但FY2026因IPO相關費用、股權激勵及業務擴張支出，公司轉虧為盈為淨損4,210萬美元，累計虧損達約1.42億美元。",
+      "Key Competitors": "Betterment（目標導向投資＋真人顧問）、SoFi Invest（零管理費自動投資）、Charles Schwab Intelligent Portfolios、M1 Finance、Vanguard Personal Advisor，以及傳統銀行的財富管理數位化服務。",
+      "12M Catalysts": "2026年新推出房屋貸款業務能否成功分散對利率敏感之現金管理收入為關鍵觀察點；聯準會降息路徑走向、現金帳戶年化收益率（APY）競爭力、與Green Dot銀行合作夥伴關係延續，以及證券詐欺集體訴訟調查（因股價單季重挫17%引發）之進展與和解結果，均為未來12個月主要催化劑或風險事件。",
+      "Key Investment Risks": "營收高度集中於利率敏感的現金管理費（占比近四分之三），聯準會降息週期直接侵蝕獲利；2026年出現首次公開財報即見淨資金流出及股價單日重挫近17%，已引發投資人證券詐欺調查與集體訴訟；另需承擔對第三方銀行（如Green Dot）與清算夥伴的依賴風險、監理合規成本、以及Betterment、SoFi等同業激烈價格競爭。",
+      "CEO & Management": "現任執行長為David Fortunato（原任技術長CTO，2025-2026年間接任CEO）；創辦人Dan Carroll轉任首席策略長（Chief Strategy Officer）；董事會主席為聯合創辦人Andy Rachleff；財務長為Alan Imberman（CFA）；總裁暨營運長為Jamie Coffey；技術長為Julien Wetterwald；法務長暨法遵長為Julius Leiman-Carbia。",
+      "Core Patents & IP": "未見大量正式專利公開揭露，核心智財為專有軟體演算法，包括稅損收割（Tax-Loss Harvesting）、PassivePlus投資組合最佳化系統及Self-Driving Money自動理財邏輯，屬營業秘密與軟體著作權保護為主（估）。",
+      "3-Year M&A": "2022年與UBS達成14億美元收購協議，後於同年9月雙方協議終止收購，UBS轉為認購6,970萬美元可轉換票據；2023-2025年間未有重大併購案，改於2025年12月完成首次公開發行（IPO），並延續與Green Dot自2020年起的現金帳戶銀行合作關係。",
+      "CapEx & Expansion": "屬輕資本支出的軟體與金融服務模式，主要投資在工程研發與新產品線擴張，2026年最大擴張動作為推出房屋貸款業務以分散利率風險，未見大型硬體或實體基礎設施資本支出（估）。",
+      "Geopolitical Exposure": "業務高度集中於美國本土零售投資人，地緣政治風險極低；主要外部風險來自美國SEC、FINRA等金融監理機關之合規要求及聯準會貨幣政策變動，而非國際地緣政治因素。",
+      "M&A Potential": "鑑於IPO後股價已較發行價腰斬、市值僅約14億美元，加上先前已有UBS收購前例，不排除成為傳統券商或大型銀行（如嘉信理財Schwab、Fidelity或SoFi等）於低估值下重新啟動收購洽談的潛在標的；另一方向則為持續尋求銀行業合作夥伴（如Green Dot模式）以支持新房貸業務擴張（估）。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 457 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "Wealthfront Corporation (WLTH)"
+    ],
+    "unmatched": [],
+    "rows_exported": 3075
+  }
+}

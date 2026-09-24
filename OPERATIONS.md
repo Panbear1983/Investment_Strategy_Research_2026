@@ -33,27 +33,22 @@
 
 - Research loop state is owned by `scripts/research_loop.py`; do not start a second `--run` instance.
 - Singleton lock: `scripts/.research_loop.lock`.
-- The loop is **hand-started or Hermes-started**, not launchd-supervised. Restart with
-  `nohup /bin/bash scripts/run_research_loop.sh >/dev/null 2>&1 &` — the wrapper sets
-  `ISR_CONFIG_PATH`, pins the 3.11 interpreter, and appends to `scripts/loop.log`.
+- The loop is **launchd-supervised** as `com.panbear.investment-research-loop` (loaded once the
+  repo moved to `~/GitHub`; see the TCC note below). Restart with
+  `launchctl kickstart -k gui/$(id -u)/com.panbear.investment-research-loop` — never with nohup,
+  which would try to start a second instance. The job runs `scripts/run_research_loop.sh`, which
+  sets `ISR_CONFIG_PATH`, pins the 3.11 interpreter, and appends to `scripts/loop.log`.
 - **`loop.log` is only truthful when started via that wrapper.** When Hermes launches the loop
   directly its stdout is a pipe, so `loop.log` freezes and the loop looks idle while it is in
   fact running — and failing. On 2026-08-13 that hid a config regression for two hours. If
   `loop.log` is stale but a process exists, trust the **database** (`daily_slots`,
   `batch_runs`), not the file.
-- **launchd supervision is BLOCKED by macOS TCC — do not load the staged job.** A LaunchAgent
-  does not inherit Terminal's Desktop grant, so any job whose program lives under `~/Desktop`
-  is denied before it can execute. Proven by `com.panbear.investment-daily-group-digest`, which
-  fired at 20:00 on 2026-07-26 and died with exit 126:
-  `/bin/bash: .../scripts/run_daily_group_digest.sh: Operation not permitted`.
-  The same failure hits `com.panbear.improve` (silently stopped 2026-07-20) and would hit the
-  research loop identically. Jobs outside `~/Desktop` (`cmux-relay`, `daily`) exit 0.
-  The real fix is to move the repo out of `~/Desktop`, or grant the launchd context Full Disk
-  Access — not to retry the bootstrap.
-- Staged but deliberately NOT loaded: `deploy/com.panbear.investment-research-loop.plist` and
-  `scripts/run_research_loop.sh` (plus a copy in `~/Library/LaunchAgents/`). They are validated
-  and correct; they are blocked only by the TCC issue above. Do not `launchctl bootstrap` them
-  until the repo lives outside `~/Desktop`.
+- **launchd supervision was blocked by macOS TCC while the repo lived under `~/Desktop`.** A
+  LaunchAgent does not inherit Terminal's Desktop grant, so any job whose program lived there died
+  with exit 126 (`Operation not permitted`; proven by `com.panbear.investment-daily-group-digest`
+  on 2026-07-26 and `com.panbear.improve` on 2026-07-20). RESOLVED by moving the repo to
+  `~/GitHub`: the research loop, the daily digest and (since 2026-09-19) the 爸菲特 bot all run as
+  LaunchAgents from there. Do not move the repo back under `~/Desktop`.
 - The pid recorded in `.research_loop.lock` is unreliable: a refused second instance truncates the file before it fails `flock`. The flock is authoritative; use `launchctl list` or `pgrep` to identify the live process.
 - The dashboard may halt the loop through its persisted control state; process existence is not proof that work is enabled.
 - Investment Telegram routes are owned by the orchestrator Hermes gateway. **Routes must be
@@ -108,9 +103,20 @@
 
 ## 爸菲特 Telegram bot
 
-- Restart with `nohup /bin/bash scripts/run_botffet_bot.sh >/dev/null 2>&1 &`. The wrapper pins
-  the 3.11 interpreter and exports a PATH containing `claude` and `yt-dlp`; a bot started from a
-  bare shell loses those and only fails when someone asks a real question.
+- **launchd-supervised since 2026-09-19** as `com.panbear.botffet-bot` (`deploy/` holds the plist,
+  the loaded copy is in `~/Library/LaunchAgents/`): RunAtLoad + KeepAlive, ThrottleInterval 30 s,
+  so it comes back after a reboot and respawns half a minute after ANY exit (verified with a
+  SIGKILL on 2026-09-19). Restart with `launchctl kickstart -k gui/$(id -u)/com.panbear.botffet-bot`.
+  Do NOT start it with nohup any more — that makes a second poller (409). The job runs the same
+  `scripts/run_botffet_bot.sh`, which pins the 3.11 interpreter and exports a PATH containing
+  `claude` and `yt-dlp`; a bot started from a bare shell loses those and only fails when someone
+  asks a real question.
+- Why: on 2026-09-17 08:48 a DNS blip made python-telegram-bot stop the application cleanly, and
+  the two reboots later that day never brought the hand-started process back. 爸菲特 was silent
+  until 2026-09-19 20:06 and nobody noticed for two and a half days.
+- SIGTERM does not reliably stop the bot: it logs "Application is stopping" and then hangs.
+  `kickstart -k` and launchd's shutdown path both escalate to SIGKILL after a timeout, which is
+  fine — memory writes are SQLite transactions.
 - Only ONE process may poll bot 8601109385. Stop the old one before starting a new one.
 - The bot picks up no code change until restarted. It ran unrestarted from 2026-08-10 to 08-28.
 - Telegram users can now spend model budget by dropping a YouTube link (5 per person per day,

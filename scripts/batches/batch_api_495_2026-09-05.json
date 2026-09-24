@@ -1,0 +1,122 @@
+{
+  "label": "API Batch 495 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "ATON Inc. (335670.KQ)",
+      "Country": "South Korea",
+      "Industry": "金融科技",
+      "Tier": ""
+    },
+    {
+      "Company": "Nucleus Software Exports Limited (NUCLEUS.NS)",
+      "Country": "India",
+      "Industry": "金融科技",
+      "Tier": ""
+    },
+    {
+      "Company": "Unifiedpost Group SA (UPG.BR)",
+      "Country": "Belgium",
+      "Industry": "金融科技",
+      "Tier": ""
+    },
+    {
+      "Company": "Morrow Bank ASA (MOBA.OL)",
+      "Country": "Norway",
+      "Industry": "金融科技",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "South Korea",
+      "Timeframe": "中長期",
+      "Sub-Sector": "金融資安",
+      "Industry": "金融科技與網路安全軟體",
+      "Tier": "隱形冠軍",
+      "Company": "ATON Inc. (158430.KQ)",
+      "Capital/Market Cap": "約 1,187億韓元（約折合 8,600萬美元）",
+      "Core Business": "南韓頂尖金融科技資安與數位身分認證方案商，主力產品為取代實體硬體的軟體型安全媒介（mSafeBox）、行動OTP（mOTP）及分散式身分憑證（mPKI）。公司並與南韓三大電信商聯合營運「PASS」簡易認證錢包，同時跨足AI反詐騙偵測系統（Defenders）及央行數位貨幣（CBDC）與代幣化資產（STO）安全架構。",
+      "Clients & Orders": "客戶全面滲透南韓五大商業銀行（KB國民、新韓、韓亞、友利、NH農協）與純網銀（KakaoBank、Toss Bank），市占率逾八成。此外深度綁定三星證券、未來資產證券及南韓三大電信商（SKT、KT、LGU+），多採初期建置導入結合長期按年授權與維護費（ARR模式），訂單黏著度極高。",
+      "Technical Moat": "核心技術為南韓首創之白箱加密技術（White-Box Cryptography, WBC），可在無硬體安全晶片（SE/TrustZone）輔助下阻斷反編譯與逆向工程攻擊。相較傳統實體載具具備跨作業系統通用性與零硬體成本優勢，並已完成整合後量子密碼演算法（PQC），構築極高的金融合規與技術轉換壁壘。",
+      "Revenue Breakdown": "以營收板塊劃分，金融資安解決方案（mSafeBox、mOTP等軟體授權與建置）佔約36.4%，智慧金融服務系統約佔19.8%，金融科技平台（PASS認證與相關身分應用分成）約佔16.5%，旗下移動資訊及智能投顧等轉投資子公司合併營收約佔27.3%。",
+      "Gross Margin Profile": "受惠於軟體專利授權與持續性維護服務佔比提升，綜合毛利率長期維持在60%至65%的高水準區間。雖然2024至2025年間因投入AI資安防禦、PQC研發及海外拓點使營業利益率微幅調整至15%至22%區間，但邊際軟體交付成本趨近於零，整體毛利防禦體質十分堅固。",
+      "Key Competitors": "主要競爭對手包含南韓本土身分認證廠商RaonSecure（042510.KQ，主攻FIDO/DID身分驗證）、傳統公鑰認證大廠Dream Security（203650.KQ）以及終端資安巨擘AhnLab（053800.KQ）；同時亦面臨Big Tech陣營（如Kakao、Naver與Viva Republica）自建驗證生態系的競合壓力。",
+      "12M Catalysts": "南韓金融監督院推動金融業強制導入「零信任（Zero Trust）」資安指引與Deepfake防偽生物認證，驅動銀行端大規模升級系統。此外，南韓央行數位貨幣（CBDC）實測專案推進與代幣化證券（STO）法規落地，直接帶動其量子安全模組（Quantum SafeBOX）與Trackchain基礎設施之採購潮。",
+      "Key Investment Risks": "南韓主要一級金融機構市場滲透已趨飽和，國內營運面臨成長天花板且營收高度集中於本土客群。海外市場（東南亞與日本）實質營收貢獻仍需發酵時間，且長期面臨Google及Apple等作業系統原生Passkey生態普及之潛在替代風險。",
+      "CEO & Management": "採雙代表理事架構，創辦人金鍾瑞（Kim Jong-seo）主導海外事業拓展、新創併購與戰略資本運作，禹吉洙（Woo Gil-soo）則統籌國內金融資安本業研發與客戶維運。經營團隊具備逾二十年資安工程實務經驗，股權結構穩定且維持穩健配息政策。",
+      "Core Patents & IP": "持有軟體型安全媒介白箱加密核心專利、動態密鑰產生機制與多重生物識別安全儲存（3分割2組合）等數十項專利組合。近期針對抗量子密碼學取得多項演算法整合專利，並佈局抗釣魚防詐騙AI模型與數位身分憑證專利網。",
+      "3-Year M&A": "近三年透過資本運作整合金融科技生態鏈，包含策略投資取得智能理財公司Quarterback Group約40%股權，並注資白帽資安業者Theori、音樂版權STO業者Music Cow及臉部辨識技術商Mesacure Company。同時成立子公司Trackchain主攻區塊鏈底層與CBDC整合業務。",
+      "CapEx & Expansion": "維持輕資產營運模式，資本支出重點鎖定AI資安預警大數據算力伺服器與PQC抗量子實驗室建設。海外擴張採取輕裝輸出模式，攜手東南亞與日本當地系統整合商及金融機構推展SaaS雲端資安授權。",
+      "Geopolitical Exposure": "業務核心高度集中於南韓市場，直接受惠於南韓因應北韓嚴峻進階持續性威脅（APT）與金融竊密所訂定之自主資安法規保護。雖然半島地緣衝突升溫帶來總體防禦壓力，但同時確立了本土金融密碼技術無法被外商輕易取代的戰略屏障。",
+      "M&A Potential": "作為南韓銀行體系認證與密碼層核心供應商，具備被大型金融控股集團、電信商或南韓雲端巨頭（如SK C&C、Naver Cloud）策略性收購的樞紐價值。管理層財務健全且負債比低，亦具備持續向外整併垂直領域AI資安與Web3安全團隊之買方潛力。"
+    },
+    {
+      "Country": "India",
+      "Timeframe": "中長期",
+      "Sub-Sector": "金融科技",
+      "Industry": "軟體與資訊服務",
+      "Tier": "隱形冠軍",
+      "Company": "Nucleus Software Exports Limited (NUCLEUS.NS)",
+      "Capital/Market Cap": "約 195億印度盧比（約 2.3億美元）",
+      "Core Business": "專注於全球銀行與非銀行金融機構（NBFC）之核心借貸與交易軟體研發，主力產品為端到端全生命週期數位借貸套件「FinnOne Neo®」與交易銀行暨現金管理套件「FinnAxia®」。近年加速推動產品轉向雲端原生（Cloud-Native）與 SaaS 訂閱制架構，並將生成式 AI 深度整合至信用審批與催收工作流。",
+      "Clients & Orders": "產品已在超過 50 個國家、200 多家金融機構上線運行，核心客戶包括 HDFC Bank、State Bank of India、ICICI Bank 及 Tokyo Century 等跨國一級銀行。合約以長期軟體授權、實施服務及年度維護合約（AMC）為主，提供高度穩定且具黏性的經常性現金流。",
+      "Technical Moat": "深耕金融借貸底層架構逾三十年，其 FinnOne 系列產品連續多年榮獲 IBS Intelligence 全球借貸系統銷量第一名。具備高度參數化以因應各國複雜金融監管與合規要求的能力，金融機構替換核心信貸系統的轉換成本與技術壁壘極高。",
+      "Revenue Breakdown": "以產品業務（包含自研軟體授權、實施與維護支援）為核心，營收佔比約 84%，專業諮詢與客製化 IT 服務佔約 16%。依地理市場劃分，印度本土為最大單一市場貢獻約 58%，東南亞與亞太地區佔約 22%，其餘約 20% 來自歐洲、中東及非洲地區。",
+      "Gross Margin Profile": "毛利率長期落於 34% 至 40% 區間，隨專案里程碑認列與研發人力調薪略有起伏；EBITDA 利潤率約 25% 至 30%，淨利率維持在 19% 至 23% 之間，全無長期負債且維持極度穩健的淨現金營運模式。",
+      "Key Competitors": "主要競爭者為全球核心銀行與金融IT巨頭，包括 Temenos、Oracle Financial Services Software (OFSS)、Infosys Finacle、Intellect Design Arena 以及同處印度市場的 Newgen Software。",
+      "12M Catalysts": "主要催化劑包括傳統銀行加速將舊型信貸系統替換至 FinnOne Neo 9.0 雲端原生微服務架構帶來的授權升級潮；加速將 AI 徵信風控模組商業化以拉高單客客單價；以及管理層持續透過穩定高配息與庫藏股回購計畫提升股東權益報酬率。",
+      "Key Investment Risks": "大型金融機構 IT 採購週期漫長，若全球總體經濟波動將延遲新專案簽約與里程碑驗收進度；印度高階軟體研發人才薪資通膨壓力持續擠壓營運利潤空間；以及營收高度集中於印度本土與部分新興市場帶來的匯率與地方法規風險。",
+      "CEO & Management": "執行長兼常務董事 Parag Bhise 服務公司逾三十年，任期已續展至 2028 年，全面掌舵 AI 賦能與雲端轉型；創辦人兼非執行董事長 Vishnu R. Dusad 為印度金融科技拓荒元老，長年維繫嚴謹的財務紀律與無負債經營原則。",
+      "Core Patents & IP": "擁有完全自主掌控的企業級軟體智慧財產權與專利風控評分演算模型，核心智財涵蓋 FinnOne Neo® 數位借貸平台、FinnAxia® 交易銀行套件及普惠金融離線支付技術「PaySe®」。底層源代碼與行業專用規則庫構成公司深厚的數位智財護城河。",
+      "3-Year M&A": "近三年無重大對外併購交易，經營方針堅守以自主內部研發（Organic Growth）為主軸。資本配置優先投入研發中心與技術升級，並將充裕的自由現金流透過現金股利與股票回購（如 2024 年完成 7,235 萬盧比庫藏股）反饋股東。",
+      "CapEx & Expansion": "採取輕資產軟體營運模式，資本支出聚焦於諾伊達（Noida）與浦那（Pune）研發中心軟硬體升級、AI 卓越中心（CoE）建置，以及拓展全球公有雲夥伴（AWS、Azure）之 SaaS 部署基礎設施。",
+      "Geopolitical Exposure": "交付中心高度集中於印度本土，直接受惠於印度金融數位化政策紅利；海外市場偏重中東、東南亞與澳洲，歐美直接曝險相對有限，地緣政治風險主要體現於各國跨國數據主權規範及新興市場外匯管制的潛在摩擦。",
+      "M&A Potential": "自身併購同業意願偏低且創辦人家族持股控制力穩固，主動發起大型併購可能性小；但憑藉其在全球數位借貸領域無可替代的客戶黏性與優異現金流，具備被跨國大型金融科技巨頭或私募股權基金視為核心戰略標的之潛在吸引力（估中等）。"
+    },
+    {
+      "Country": "比利時",
+      "Timeframe": "中長期",
+      "Sub-Sector": "電子發票SaaS",
+      "Industry": "金融科技",
+      "Tier": "潛力股",
+      "Company": "Unifiedpost Group SA (BANQ.BR)",
+      "Capital/Market Cap": "約 7,800萬歐元",
+      "Core Business": "專注於提供中小企業與大型企業端到端雲端金融與行政數位化 SaaS 平台，核心圍繞電子發票（E-invoicing）、數位支付（E-payments）及稅務合規報告。公司於 2025 年 5 月正式更名為 Banqup Group SA 並將布魯塞爾交易所代號變更為 BANQ，全面轉型為純 SaaS 訂閱制架構。",
+      "Clients & Orders": "服務歐洲逾百萬家中小企業與會計事務所，並為跨國大型企業（如 ABB、TotalEnergies、MSC、Dräger）及公部門提供高通量發票交換與 ERP 串接。同時與比利時保險業協會（Assuralia）等行業公會維持深度平台整合合作。",
+      "Technical Moat": "具備泛歐 Peppol 認證存取點（Access Point）資質與跨國多格式（Factur-X、UBL、Peppol BIS）合規轉換引擎，可無縫支援歐盟逾 60 國稅務法規。持有歐盟 PSD2 支付機構牌照，將支付與發票清算直接整合於業務流，形成極高轉換成本與雙邊網路效應。",
+      "Revenue Breakdown": "經非核心業務剝離後，純 SaaS 數位服務（Banqup 平台訂閱費與交易處理費）佔持續營運總營收約 85% 至 90%（2025 年數位 ARR 達 4,770 萬歐元），其餘 10% 至 15% 來自客戶資金利息收入與專業整合服務。",
+      "Gross Margin Profile": "核心數位服務（Digital Services）毛利率約為 60%（2025 年報達 59.8%）。隨著傳統低利潤紙本郵寄與列印業務全數出售，集團整體毛利率結構顯著改善並持續受惠於 SaaS 規模經濟。",
+      "Key Competitors": "主要競爭對手包括歐洲與全球電子發票/稅務合規服務商 Pagero（已被湯森路透收購）、Basware、Sovos、Esker、Avalara，以及 B2B 支付管理平台 Bill.com 與 Melio。",
+      "12M Catalysts": "比利時自 2026 年 1 月 1 日起全面實施 B2B 強制電子發票帶動訂閱爆發；法國 B2B 電子發票法規預計於 2026 年 9 月分階段推行帶來龐大跨境合規需求；2026 年中管理層啟動業務分拆與潛在全資出售的戰略評估，具備高度併購溢價題材。",
+      "Key Investment Risks": "歐洲各國電子發票法規落地時程若再度推遲（如歐盟 ViDA 或法國進度延宕）將壓抑 ARR 成長動能；目前經調整 EBITDA 剛轉正，持續淨獲利與自由現金流轉正仍面臨執行考驗；面臨全球稅務軟體巨頭與在地會計 ERP 大廠自建功能的激烈競爭。",
+      "CEO & Management": "創辦人 Hans Leybaert 於 2024 年底轉任執行董事長；Nicolas de Beco 擔任執行長至 2026 年 5 月底離任，現由財務長 Koen De Brabander 兼任管理委員會臨時主席，協同高管團隊推進純 SaaS 營運與戰略出售選項評估。",
+      "Core Patents & IP": "擁有 Banqup 核心雲端文檔路由架構、自研發票數據解析演算法、PSD2 支付閘道專有協議與跨國 Peppol 傳輸介面，並註冊 Banqup、Unifiedpost、Billtobox 等核心品牌商標與專利技術。",
+      "3-Year M&A": "過去三年由「買入整合」轉為積極「瘦身減債」：2024 年底以 1.08 億至 1.16 億歐元向 Your.World 出售荷蘭批發身分識別業務；2024 年中以 720 萬歐元出售 FitekIN 與 ONEA；2026 年 3 月接連完成波羅的海三國業務及新加坡子公司之剝離，全力回流資金償還高息債務。",
+      "CapEx & Expansion": "資本支出聚焦於 Banqup 平台之研發資本化、歐盟 ViDA 及法國 PDP/PPF 國家級平台介面規格升級，全面朝輕資產雲端架構推進，實體硬體資本支出已大幅降至低點。",
+      "Geopolitical Exposure": "業務超過 90% 集中於歐盟境內（以比利時、法國、荷蘭及 DACH 地區為主），不受美中貿易摩擦影響，主要曝險於歐盟執委會與成員國各自之稅法指令推進節奏與地緣監管差異。",
+      "M&A Potential": "併購潛力極高。公司於 2026 年中正式委聘財務顧問評估包括出售特定分部或尋求集團全面私有化收購在內之戰略方案，其完善的泛歐 Peppol 與中小企業通路對尋求歐洲合規版圖的跨國稅務軟體巨頭（如 Thomson Reuters、Wolters Kluwer）或私募股權基金極具戰略收購吸引力。"
+    }
+  ],
+  "failed": [
+    "Morrow Bank ASA (MOBA.OL)"
+  ],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 495 (new, gemini)",
+    "updated": [
+      "ATON Inc. (158430.KQ)"
+    ],
+    "claimed": [
+      "Nucleus Software Exports Limited (NUCLEUS.NS)",
+      "Unifiedpost Group SA (BANQ.BR)"
+    ],
+    "unmatched": [],
+    "rows_exported": 3213
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "label": "API Batch 449 (new, codex)",
+  "source": "new",
+  "provider": "codex",
+  "providers_used": [
+    "claude"
+  ],
+  "items": [
+    {
+      "Company": "Bullish (BLSH)",
+      "Country": "USA",
+      "Industry": "金融科技/新興市場支付",
+      "Tier": ""
+    },
+    {
+      "Company": "eMudhra (EMUDHRA.NS)",
+      "Country": "India",
+      "Industry": "金融科技/新興市場支付",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "USA",
+      "Timeframe": "中期",
+      "Sub-Sector": "數位資產交易所/代幣化證券基礎設施",
+      "Industry": "金融科技與加密貨幣交易所",
+      "Tier": "潛力股",
+      "Company": "Bullish (BLSH)",
+      "Capital/Market Cap": "約50億美元（2026年9月股價約33.5美元，2025年8月上市首日曾衝上118美元、市值一度突破100億美元，其後隨加密市場交易量走弱回落）。",
+      "Core Business": "Bullish為機構級數位資產現貨與衍生品交易所，獨創將中央限價委託簿（CLOB）與內建自動做市（AMM）流動性引擎結合，提供比傳統交易所更深、更穩定的報價深度；集團亦擁有加密媒體與指數品牌CoinDesk（含CoinDesk Indices基準指數業務）。",
+      "Clients & Orders": "客戶以機構投資人、做市商與專業交易者為主，非零售導向；截至2026年6月資產負債表持有約24,400枚比特幣（價值約16.1億美元）作為公司資本部位，2026年Q2數位資產成交額達326億美元，惟受市場波動度下滑影響，現貨交易量與市占率同季走弱。",
+      "Technical Moat": "核心技術護城河為自研撮合引擎與整合式AMM架構的混合流動性模型，可同時提供機構級隱私、合規與DeFi式深度報價；2026年5月宣布以42億美元收購英國股務代理龍頭Equiniti後，將取得代幣化證券發行、合規、股務登記到次級交易的端到端基礎設施，形成同業（Coinbase、Kraken等）目前缺乏的代幣化全鏈條能力。",
+      "Revenue Breakdown": "2026年Q2訂閱服務及其他營收達6,270萬美元（創紀錄，年增62%），調整後總營收9,260萬美元，調整後EBITDA為2,950萬美元；營收結構正由純交易手續費，轉向訂閱制數據/指數服務與（併購Equiniti後）股務代理年費雙軌並進（估）。",
+      "Gross Margin Profile": "交易所核心業務屬輕資產、高邊際貢獻模式，毛利率估計落在70%~85%區間（估）；Equiniti為傳統股務代理業務，毛利率結構較低但現金流穩定，併入後集團綜合毛利率可能被小幅稀釋但整體營收品質更均衡（估）。",
+      "Key Competitors": "數位資產交易所端主要對手為Coinbase、Kraken、Gemini、Binance及CME集團的加密衍生品業務；代幣化證券/股務代理端則將直接對上Computershare、Broadridge與DTCC等傳統資本市場基礎設施業者。",
+      "12M Catalysts": "42億美元收購Equiniti案預計2027年1月完成交割，須持續觀察反壟斷（已於2026年Q2取得全部批准）與整合進度；比特幣價格與整體加密市場成交量回升將直接帶動交易手續費營收反彈；CoinDesk指數與訂閱數據業務的機構滲透率提升亦為近期關鍵成長動能。",
+      "Key Investment Risks": "加密貨幣市場波動度下降已導致2026年Q2現貨交易量與市占率雙雙走弱，收入高度連動比特幣/加密資產價格與交易熱度；42億美元Equiniti併購涉及18.5億美元承接債務與23.5億美元股票對價，執行與文化整合風險偏高；美國及全球（MiCA等）加密貨幣監管框架仍在演變，政策不確定性可能影響業務範圍與資本要求。",
+      "CEO & Management": "執行長為Tom Farley，前紐約證券交易所（NYSE）總裁，具深厚傳統資本市場與監管關係背景，主導公司從加密原生交易所轉型為機構級代幣化資本市場基礎設施平台的策略布局。",
+      "Core Patents & IP": "公司未大量揭露正式專利組合，核心智財為專屬撮合引擎與整合式AMM混合架構的軟體/系統設計，以及CoinDesk Indices系列加密貨幣基準指數（如XBX）的方法論與品牌智財（估）。",
+      "3-Year M&A": "2025年8月透過SPAC替代路徑於NYSE直接上市（IPO定價37美元/股，募資11億美元）；2025年集團收購媒體與指數業者CoinDesk；2026年5月宣布以42億美元自Siris Capital手中收購英國股務代理巨頭Equiniti，為加密產業史上規模最大併購案之一，預計2027年1月完成交割。",
+      "CapEx & Expansion": "資本支出以技術平台整合（Bullish交易引擎與Equiniti股務登記系統對接）、監管牌照擴張及國際據點建設為主；截至2026年Q2淨流動資產達21億美元，財務彈性支撐後續代幣化基礎設施投資與潛在追加併購（估）。",
+      "Geopolitical Exposure": "公司股權結構具高度國際色彩（早期出資者含Peter Thiel、Alan Howard、Louis Bacon、Mike Novogratz、香港李澤楷及日本野村證券），營運橫跨美國（NYSE上市、SEC/CFTC監管）、歐洲（透過Equiniti深耕英國/歐盟股務登記與MiCA合規）及亞太加密牌照司法管轄區，需同步因應多國加密貨幣與證券監管政策變化。",
+      "M&A Potential": "公司近三年為積極併購方而非潛在標的，透過收購CoinDesk與Equiniti建構代幣化證券全棧能力；長期而言，若代幣化資本市場基礎設施地位確立，不排除吸引Nasdaq、ICE或大型託管機構等策略投資人興趣，但現有大股東（Thiel、Howard等）持股集中度高，短期內遭併購機率偏低（估）。"
+    },
+    {
+      "Country": "印度 (India)",
+      "Timeframe": "中期",
+      "Sub-Sector": "數位信任/PKI資安",
+      "Industry": "數位簽章、公鑰基礎設施(PKI)與網路資安服務",
+      "Tier": "隱形冠軍",
+      "Company": "eMudhra Limited (EMUDHRA.NS)",
+      "Capital/Market Cap": "約印度盧比450億元（約6.4億美元），2026年8月股價約533盧比，52週區間364.55～836.55盧比，屬印度小型股，波動度高。",
+      "Core Business": "eMudhra為印度最大數位信任服務供應商，提供數位簽章憑證(DSC)、電子簽核平台emSigner、PKI基礎設施、時間戳記與身分驗證解決方案，服務範圍涵蓋印度本土及超過30個國家。公司業務分為三大板塊：企業解決方案(Enterprise Solutions)、信任服務(Trust Services)及純服務(Pure Services)，2026財年企業解決方案已成長為營收主力。",
+      "Clients & Orders": "客戶涵蓋500家以上大型企業，包含45家銀行，並已為超過4,000萬印度個人用戶核發數位簽章憑證，指標客戶包括Infosys、肯亞通訊管理局(Communications Authority of Kenya)等。2026財年第一季(截至2026年6月)合併營收達19.4億盧比，年增約28-29%，淨利3.2億盧比，年增約28.9%，反映企業與國際訂單動能延續。",
+      "Technical Moat": "公司為印度受控憑證機構(CCA)認證的核心CA(Certifying Authority)之一，在IDC「數位身分與信任」印度市場調查中排名42家供應商之首；emSigner並獲Gartner電子簽章市場指南列為「企業級全服務」供應商，是唯一入選的印度廠商。管理層深度參與Asia PKI Consortium(副主席)、India PKI Consortium(主席)及UN/CEFACT跨境數位簽章標準制定，形成監理與標準制定層面的護城河。",
+      "Revenue Breakdown": "2026財年(FY26)總營收71.32億盧比，年增35.1%：企業解決方案占約59%(年增55%，其中有機成長23%、併購貢獻32%)，信任服務占約20%(年增32%)，純服務占約21%(持平)。地區別上，海外(境外)企業解決方案已成為單一最大細分項，國際營收占比升至約64%，反映Cryptas(歐洲)與AI Cyber Forge(美國)併購後的地域擴張效果。",
+      "Gross Margin Profile": "2026財年EBITDA約16.54億盧比，年增30%；FY27第一季EBITDA為4.96億盧比，EBITDA利潤率年增248個基點至26.04%。惟部分季度(如Q4 FY26)出現利潤率壓縮，主因投入成本上升、定價競爭及併購整合初期費用，屬需持續觀察的獲利品質風險（估）。",
+      "Key Competitors": "印度DSC市場競爭者包括nCode Solutions、Sify/SafeScrypt、Capricorn、Pantasign與VSign等本土認證機構；全球電子簽章市場主要對手為DocuSign、Adobe Sign與GlobalSign；全球PKI/SSL憑證領域則與DigiCert、Entrust、Sectigo等國際大廠在鄰近市場競爭，但目前業務重疊度較低。",
+      "12M Catalysts": "Cryptas(歐洲DACH地區)51%股權併購與AI Cyber Forge(美國)整合效益於2026年逐季顯現，可望持續拉高國際營收占比與交叉銷售機會。印度政府持續推動數位化(如GST、公司登記、電子化合規)及企業對AI驅動信任服務(AI Trust)需求上升，為近12個月營收成長主要動能來源。",
+      "Key Investment Risks": "公司高度依賴印度CCA監理架構，任何DSC適用範圍或核發規則變動皆可能直接衝擊信任服務板塊營收。2026年6月已有券商將評等由Hold下調至Sell，理由包括本益比達41.33倍、股價淨值比4.1倍估值偏貴，加上過去一年股價下跌逾36%、跑輸大盤及機構投資人持股下滑，顯示市場對其成長能否消化高估值存有疑慮；此外跨國併購整合、網路資安與技術過時風險亦需留意。",
+      "CEO & Management": "公司由創辦人Venkatraman Srinivasan擔任執行主席(Executive Chairman)，自2008年創立以來主導公司策略，此前曾任跨國IT公司(逾萬名員工、服務50餘國)董事總經理暨全球CEO，並曾任職ICICI銀行資深總經理。管理團隊具深厚PKI與監理標準背景，多位高層兼任亞洲及印度PKI協會要職。",
+      "Core Patents & IP": "公司核心智財集中於emSigner電子簽核平台及PKI憑證核發系統的專有軟體架構與流程，並非傳統專利密集型公司，其護城河主要來自CCA/eIDAS等監理認證資格與標準制定話語權，而非專利組合規模（估）。",
+      "3-Year M&A": "2025年7月完成收購美國AI Cyber Forge Inc.，其資安能力已於2026年2月完成合併整合；同期取得奧地利/DACH地區Cryptas Group 51%股權（附業績對賭earn-out及剩餘49%的買賣選擇權），標誌正式進入歐洲市場，補齊公司從美洲、亞太、中東非洲到歐洲的全球佈局版圖。",
+      "CapEx & Expansion": "公司資本支出策略以「併購驅動的地域擴張」為主軸，近期並新拓展哈薩克等中亞市場並建立南亞策略夥伴關係。相較於重資產資本支出，公司更側重雲端信任服務基礎設施與AI信任(AI Trust)相關研發投入以支持企業解決方案成長（估）。",
+      "Geopolitical Exposure": "公司超過六成營收來自印度以外市場，涉及美國、歐盟(DACH地區受eIDAS法規規範)、中東非洲及中亞等多元司法管轄區，需同時因應各地資料主權、加密出口管制與跨境數位簽章互認規則，地緣政治與監理分歧風險相對分散但也提高合規複雜度。作為印度本土企業，亦受惠於印度政府「數位印度」政策紅利與本地供應鏈信任偏好。",
+      "M&A Potential": "鑑於公司近年採取積極併購策略快速擴張海外足跡(美國、歐洲)，未來12-24個月不排除延續此模式於東南亞或中東地區進行中小型收購以補強區域據點；同時，其在印度數位信任市場的龍頭地位與相對偏小的市值，亦使其成為國際資安或身分驗證大廠潛在收購標的（估）。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 449 (new, codex)",
+    "updated": [],
+    "claimed": [
+      "Bullish (BLSH)",
+      "eMudhra Limited (EMUDHRA.NS)"
+    ],
+    "unmatched": [],
+    "rows_exported": 3008
+  }
+}

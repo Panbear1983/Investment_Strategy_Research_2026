@@ -1,0 +1,92 @@
+{
+  "label": "API Batch 501 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "Olo Inc. (OLO)",
+      "Country": "USA",
+      "Industry": "金融科技",
+      "Tier": ""
+    },
+    {
+      "Company": "SBI Global Asset Management Co., Ltd. (4765.T)",
+      "Country": "Japan",
+      "Industry": "金融科技",
+      "Tier": ""
+    },
+    {
+      "Company": "Smartbroker Holding AG (SBH.DE)",
+      "Country": "Germany",
+      "Industry": "金融科技",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "Japan",
+      "Timeframe": "中長期",
+      "Sub-Sector": "數位資產管理",
+      "Industry": "金融科技",
+      "Tier": "潛力股",
+      "Company": "SBI Global Asset Management Co., Ltd. (4765.T)",
+      "Capital/Market Cap": "約 900億日圓（約 6億美元）",
+      "Core Business": "為日本金融巨頭 SBI 集團旗下資產管理事業的核心上市控股平台，業務涵蓋公募及私募投資信託發行、全權委託資產管理以及金融資訊評鑑服務。旗下整合 SBI Asset Management、Rheos Capital Works（常態代表作『Hifumi 基金』）與 SBI 岡三 Asset Management 等旗艦品牌，並透過子公司 Wealth Advisor 提供獨立客觀的金融數據與投顧工具。",
+      "Clients & Orders": "核心客群覆蓋日本龐大的零售個人投資人（特別是綁定 SBI 證券逾 1,300 萬帳戶之新 NISA 投資者）以及區域性銀行、養老金等機構法人。受惠於日本新 NISA 政策紅利與品牌整合效益，受託資產管理規模（AUM）於 2026 年突破 13 兆日圓，正加速向 20 兆日圓短期目標推進。",
+      "Technical Moat": "擁有繼承自前 Morningstar Japan 長達數十年的龐大共同基金歷史資料庫與獨立評鑑分析演算法，並具備直接嫁接 SBI 網路金融生態系的高轉換率分銷壁壘。此外，積極開拓 Web3 次世代技術，與新加坡 DigiFT 等合規機構合作發行日本首檔公募基金鏈上代幣化（Tokenization）產品，樹立數位資產創新先發優勢。",
+      "Revenue Breakdown": "2026 會計年度合併營收達 278.6 億日圓，業務全面聚焦於資產管理單一事業板塊。其中受 AUM 驅動之信託管理報酬（委託者報酬及投資顧問費）佔比逾 85%，具備高黏著度的經常性金流特質；金融資訊數據授權、媒體諮詢與 Wealth Advisor 軟體系統授權等收入約佔 15%（估）。",
+      "Gross Margin Profile": "商業模式無製造業傳統原物料銷售成本，主要營業費用為代銷機構通路分潤、專業研發人力成本及雲端系統折舊。2026 會計年度連結營業利益率約為 18.5%（營業利益達 51.55 億日圓），2027 會計年度第一季進一步提升至 20.8%，隨著規模經濟擴大與跨投信後台系統集約化，邊際獲利率呈現持續擴張趨勢。",
+      "Key Competitors": "在零售低成本指數型基金領域正面迎戰三菱日聯資產管理（MUAM，旗艦產品為 eMAXIS Slim 系列）與野村資產管理；在日本國內主動型股票選股領域面臨大和資產管理與日興資產管理競爭；在財富管理系統與金融資訊評鑑領域則與 QUICK 及新興財富科技（WealthTech）公司競逐。",
+      "12M Catalysts": "日本新 NISA 制度持續帶動全民定期定額買盤，推升低成本旗艦指數基金與 Hifumi 旗艦基金淨申購增長。旗下吸收合併 SBI Rheos Hifumi 與納入 SBI 岡三資產管理後的中後台整合協同綜效顯現，加上攜手 Franklin Templeton 開發之海外主題型 ETF 及政策開放後之加密資產指數商品具備落地放量潛力。",
+      "Key Investment Risks": "全球與日本股市若出現系統性暴跌將直接拖累 AUM 評價與管理報酬抽成收入。指數基金產業面臨極致低費率價格戰（Fee War）壓縮單隻產品獲利率空間，且營運深度依賴母集團 SBI 證券之通路轉化；若金融監管機關對銷售回扣（Kickback）或虛擬資產衍生性金融商品監管收緊亦可能遞延新業務推進。",
+      "CEO & Management": "由代表取締役社長朝倉智也（Tomoya Asakura）全面領導，其具備逾二十年資產管理與投信評鑑權威經驗，曾長期掌舵 Morningstar Japan 並主導品牌拆分獨立與業務轉型。經營團隊深度融貫傳統信託架構與母集團 SBI 網路科技基因，堅定貫徹『投資人主權』與低成本普惠金融戰略。",
+      "Core Patents & IP": "核心無形資產為自主研發之 Wealth Advisor 投資信託巨量資料庫、星級評等演算模型與機構端銷售輔助工具軟體著作權。同時掌握『SBI・V』系列等高知名度品牌授權架構，以及與美國先鋒領航（Vanguard）、Franklin Templeton 等跨國龍頭聯名合作開發之指數基金架構與智慧財產權益。",
+      "3-Year M&A": "2023 年終止與美國 Morningstar 之品牌授權合約並更名為現名；2025 年 9 月透過簡易股票交付將 SBI 岡三 Asset Management 納為連結子公司並收購岡三 Capital Partners；2025 年 12 月正式吸收合併持股 Rheos Capital Works 的控股公司 SBI Rheos Hifumi，完成集團資產管理事業之全面整併。",
+      "CapEx & Expansion": "資本支出主要投入於金融大數據架構升級、AI 自動化投資分析演算法研發及真實世界資產代幣化（RWA）金融基礎設施建置，屬於低資本支出之輕資產運營架構。擴張策略聚焦朝向『2030 年集團 AUM 達 50 兆日圓』目標邁進，積極透過合資與海外跨境發行強化全球投研網絡。",
+      "Geopolitical Exposure": "營收來源與終端客戶逾 90% 集中於日本本土市場，地緣政治的直接營運曝險極低。然而其管理之底層投資組合高度配置美股、印度股及全球多元資產，國際地緣衝突引發之跨國金融震盪或日圓匯率劇烈波動將間接影響海外資產淨值換算與投資人風險偏好。",
+      "M&A Potential": "作為 SBI 集團擴張資產管理業務的核心併購平台，具備高度併購意願與母公司雄厚資本支持，管理層明確指引長期 AUM 增長半數以上將依靠併購達成。潛在併購標的鎖定日本具優質客戶基礎之地方銀行系投信、獨立精品主動選股投信（Boutique Asset Managers）及具備合規鏈上資產發行技術的金融科技新創。"
+    },
+    {
+      "Country": "Germany",
+      "Timeframe": "中長期",
+      "Sub-Sector": "網路券商與財富科技",
+      "Industry": "金融科技",
+      "Tier": "潛力股",
+      "Company": "Smartbroker Holding AG (SB1.DE)",
+      "Capital/Market Cap": "約 1.45億歐元（截至2026年市值約 1.4億至1.5億歐元，發行股數約 1,540萬股）。",
+      "Core Business": "公司經營德國領先的獨立財經數位媒體網絡（含 wallstreet-online.de、boersenNews.de、FinanzNachrichten.de 及 ARIVA.DE）與次世代線上券商平台「Smartbroker+」。其營運核心在於利用龐大的財經門戶社群流量作為天然獲客漏斗，向下導流至提供全市場交易（股票、ETF、衍生品及債券）與零至低佣金之證券經紀業務。",
+      "Clients & Orders": "截至2025年底集團託管資產規模（AuC）突破 147億歐元，證券經紀客戶數（Depots）超過 25.9萬戶，2025全年為 Smartbroker+ 新增約 7.7萬名客戶。旗下財經門戶每月合計創造逾 1.5億次網頁瀏覽量，並規劃於2026年進一步吸納約 10萬名新經紀客戶。",
+      "Technical Moat": "具備「高流量媒體社群＋線上經紀」整合生態系，使其客戶獲取成本（CAC）顯著低於傳統與新創券商對手。技術層面則採用自主研發的 Smartbroker+ 現代化前端 App，底層無縫整合 Baader Bank 全數位化 API 清算與託管體系，兼顧低成本與全德各大交易所的深度執行能力。",
+      "Revenue Breakdown": "2025年集團合併營收達 6,828萬歐元，2026年預估將穩定增長至約 7,000萬歐元。營收主要來自兩大支柱：交易與經紀部門（Transaction）佔比約 55% 至 60%，來源為交易手續費、利息收益與合作夥伴分潤；媒體部門（Media）佔比約 40% 至 45%，主要為數位展示廣告、付費訂閱及贊助內容收入。",
+      "Gross Margin Profile": "毛利率長年維持在 52% 至 58% 水準（歷史均值約 55.7%），體現輕資產數位平台特性。2025年媒體部門展現強勁獲利動能，貢獻 EBITDA 達 670萬歐元（利潤率 23.8%）；集團整體在計入新客獲取成本前之營業利益（EBITDA before CAC）達 950萬歐元。",
+      "Key Competitors": "主要競爭對手包括德國兩大新興券商獨角獸 Trade Republic 與 Scalable Capital（在免手續費與定投市場高度競爭）。同時亦面臨傳統線上經紀商 flatexDEGIRO、德國商業銀行旗下 comdirect 及荷蘭國際集團旗下 ING Deutschland 的直接市佔競爭。",
+      "12M Catalysts": "歐盟於2026年7月全面落實訂單流回扣（PFOF）禁令，因 Smartbroker+ 本身對 PFOF 依賴度極低且未調漲費用，具備定價優勢。此外，公司於2026年8月取得 2,000萬歐元擴展信貸，並全力準備對接德國政府預計於2027年落地的個人養老投資帳戶（Altersvorsorgedepot）政策紅利。",
+      "Key Investment Risks": "主要風險在於散戶投資熱度受總體經濟疲軟或股市波動降溫而走低，影響經紀手續費與利潤率。此外，若同業價格戰升級將拉高客戶流失率與獲客成本，且底層交易結算高度依賴合作夥伴 Baader Bank 之系統穩定度，同時媒體廣告收入亦面臨景氣循環下滑風險。",
+      "CEO & Management": "由創辦人 André Kolbinger 出任執行長（CEO），其透過 AKD Private Equity GmbH 持有公司約 57% 股份，經營權穩固且具強烈利益一致性。管理團隊核心成員亦包含商務長 Michael Bulgrin、技術長 Oliver Haugk 及營收長 Stefan Zmojda，領導層在德語區數位金融領域歷練深厚。",
+      "Core Patents & IP": "持有 Smartbroker+ 交易平台之專有軟體架構、應用程式著作權與用戶介面設計，具備專屬行情分發系統。此外，公司擁有 wallstreet-online、boersenNews 等德國頂級財經商標，以及累積超過二十年、難以複製的德語區零售投資人社群歷史數據與內容資料庫。",
+      "3-Year M&A": "過去三年（2023-2026）未執行外部收購，企業策略聚焦於內部業務與架構重組。公司於2023年完成前身 wallstreet:online AG 與證券子公司之全面合併並更名，同時完成將底層清算從法國巴黎銀行（DAB BNP Paribas）全面轉移至 Baader Bank，轉向以純有機成長為主軸。",
+      "CapEx & Expansion": "資本支出重點投放於 Smartbroker+ 平台的技術迭代，包括擴充加密資產、結構型衍生品與智慧定投等產品矩陣。擴張策略鎖定德語區（DACH）散戶市場滲透，並藉由2026年新取得的 2,000萬歐元信貸額度加大獲客行銷，目標推動經紀帳戶數持續高速擴張。",
+      "Geopolitical Exposure": "營運與客戶群 95% 以上集中於德國及德語系國家，無直接新興市場、供應鏈中斷或地緣政治軍事衝突風險。間接曝險主要源自歐洲央行（ECB）貨幣政策變動對客戶保證金利息收益的影響，以及歐盟資本市場統一監管法規（如 MiFIR/MiFID II）的合規適應成本。",
+      "M&A Potential": "作為擁有逾 147億歐元 AuC 與德國最龐大財經社群流量的垂直整合平台，對尋求擴大德語區版圖的泛歐金融科技機構或大型商業銀行極具潛在戰略併購吸引力。然而因創辦人兼執行長 André Kolbinger 掌握逾 57% 絕對控制權，任何潛在收購、私有化或股權重組皆完全取決於其個人意志。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [
+    "Olo Inc. (OLO)"
+  ],
+  "summary": {
+    "batch_label": "API Batch 501 (new, gemini)",
+    "updated": [
+      "Smartbroker Holding AG (SB1.DE)"
+    ],
+    "claimed": [
+      "SBI Global Asset Management Co., Ltd. (4765.T)"
+    ],
+    "unmatched": [],
+    "rows_exported": 3219
+  }
+}

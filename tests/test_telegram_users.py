@@ -89,6 +89,22 @@ class RosterModelTests(unittest.TestCase):
         self.assertEqual(tele[0]["profile"], "researcher")
         self.assertEqual(len(disc), 1)                 # non-telegram route preserved
 
+    def test_video_cap_is_optional_and_must_be_a_whole_number(self):
+        tu.TelegramUser(label="A", chat_id="111111111").validate()             # None is fine
+        tu.TelegramUser(label="A", chat_id="111111111", video_cap=9).validate()
+        with self.assertRaises(ValueError):
+            tu.TelegramUser(label="A", chat_id="111111111", video_cap=-1).validate()
+        with self.assertRaises(ValueError):
+            tu.TelegramUser(label="A", chat_id="111111111", video_cap="nine").validate()
+
+    def test_video_cap_survives_a_save_and_load(self):
+        r = tu.default_roster()
+        r.users[0].video_cap = 9
+        with tempfile.TemporaryDirectory() as d:
+            p = Path(d) / "telegram_users.json"
+            tu.save_users(r, p)
+            self.assertEqual(tu.load_users(p).users[0].video_cap, 9)
+
     def test_from_dict_ignores_unknown_keys(self):
         u = tu.TelegramUser.from_dict(
             {"label": "Y", "chat_id": "123456789", "bogus": "ignored", "profile": "reader"}

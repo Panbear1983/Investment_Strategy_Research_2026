@@ -1,0 +1,83 @@
+{
+  "label": "API Batch 493 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "CCC Intelligent Solutions Holdings Inc. (CCCS)",
+      "Country": "USA",
+      "Industry": "金融科技",
+      "Tier": ""
+    },
+    {
+      "Company": "Agilysys, Inc. (AGYS)",
+      "Country": "USA",
+      "Industry": "金融科技",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "USA",
+      "Timeframe": "中長期",
+      "Sub-Sector": "保險科技",
+      "Industry": "金融科技",
+      "Tier": "龍頭股",
+      "Company": "CCC Intelligent Solutions Holdings Inc. (CCCS)",
+      "Capital/Market Cap": "約 42.5億美元",
+      "Core Business": "提供專注於財產與意外險（P&C）生態系的雲端 SaaS 平台，旗艦產品 CCC ONE 深度連結保險公司、車體維修廠、OEM 原廠與零件供應商。核心功能涵蓋 AI 輔助影像估價、自動化理賠直通處理（STP）、維修工作流程管理以及數位零組件採購交易網絡。",
+      "Clients & Orders": "服務全美超過 300 家產險公司（涵蓋前 30 大車險業者中的 27 家）與逾 30,000 家車體維修中心，並串接 14 家頂級汽車 OEM 原廠及 6,000 多家零件供應商。每年處理全美約 75% 的車輛碰撞理賠與超過 1,000 億美元的交易額，約 85% 營收來自高續約率的定期訂閱制合約。",
+      "Technical Moat": "具備近 40 年積累的數億筆歷史理賠與維修專有數據庫，並透過雙邊與多邊網路效應深度嵌入保險與維修雙方核心工作流，形成極高轉換成本。其電腦視覺與 AI 直通理賠引擎（Estimate STP）能秒級自動生成精準維修估算，其生態整合度與實務數據壁壘大幅領先一般純視覺演算法新創。",
+      "Revenue Breakdown": "2025 全年營收達 10.57 億美元（年增約 12%），業務採單一整合雲端平台模型，其中軟體訂閱制（Subscription）營收佔比約 85%，其餘約 15% 來自依使用量或交易計費之服務。以 AI 為核心的進階解決方案佔總營收比例已提升至約 10% 至 11%，維持逾 40% 的強勁年成長。",
+      "Gross Margin Profile": "具備標準高黏著度純軟體毛利架構，2024 年 GAAP 毛利率為 76%，2025 年受併購整合與 AI 推理算力投入影響略為調整至 73%，調整後毛利率（Non-GAAP）則長期穩固維持在 75% 至 78% 高水準區間。",
+      "Key Competitors": "核心對手包括 Mitchell International（Enlyte 旗下）與 Solera（旗艦估價系統為 Audatex），三者在北美車體理賠估價市場形成寡占；新興 AI 視覺理賠新創 Tractable 亦在特定演算法領域構成局部競爭。",
+      "12M Catalysts": "估值回檔後吸引激進投資機構 Elliott Investment Management 大額入股並積極推動戰略重組或私有化出售；AI 直通理賠（Estimate STP）與新併購的 EvolutionIQ 傷殘理賠平台跨售滲透加速；車聯網 ADAS 校準普及化推升單車理賠軟體平均客單價（ARPU）。",
+      "Key Investment Risks": "大股東私募股權基金 Advent International 持股減持帶來的二級市場賣壓；北美宏觀高利率環境與車貸壓力導致整體出險維修案件量增速趨緩；以及產險公司 IT 採購決策週期延長可能減緩新功能模組的落地進度。",
+      "CEO & Management": "董事長兼執行長 Githesh Ramamurthy 自 1992 年加入公司、2000 年起擔任 CEO，擁有逾 30 年深厚汽車科技與保險生態運營經驗，主導了公司雲端化與 AI 智慧化轉型；財務長 Brian Herb 具備豐富的軟體上市公司財務策略與資本運作資歷。",
+      "Core Patents & IP": "持有數十項涵蓋深度學習車輛損傷辨識、3D 撞擊拓撲重構、零件替換智能決策演算法及防偽詐欺偵測之核心專利，構築以專有演算法與獨家標註理賠圖庫為核心的智財防護網。",
+      "3-Year M&A": "於 2025 年 1 月正式完成對 AI 工傷與殘疾理賠領導廠商 EvolutionIQ 的指標性收購，使產品線從車輛實體損害成功跨入醫療與複雜人身傷害理賠領域；併購策略聚焦於具備獨特 AI 垂直決策能力的軟體標的。",
+      "CapEx & Expansion": "採輕資產雲端 SaaS 架構，年資本支出（含資本化軟體開發費用）佔總營收比例約 5% 至 7%，主要投入於混合雲基礎架構現代化與 AI 算力調度；擴張重點在於縱向深化醫療理賠市場及提升維修廠端 OEM 認證軟體滲透率。",
+      "Geopolitical Exposure": "超過 95% 業務深耕於北美市場（以美國為主），直接地緣政治衝突與國際制裁風險極低；主要間接風險來自全球汽車零件供應鏈關稅政策波動可能對下游修車廠零組件取得成本與維修週期產生的外溢影響。",
+      "M&A Potential": "2026 年中傳出公司正聘請財務顧問評估包括出售或私有化在內的戰略選項，配合激進股東介入，具備極高被大型私募股權聯盟收購或被汽車後市場數據整合巨頭收購的潛在交易價值。"
+    },
+    {
+      "Country": "USA",
+      "Timeframe": "中長期",
+      "Sub-Sector": "旅宿金融科技SaaS",
+      "Industry": "金融科技與企業應用軟體",
+      "Tier": "隱形冠軍",
+      "Company": "Agilysys, Inc. (AGYS)",
+      "Capital/Market Cap": "約 32億美元",
+      "Core Business": "專注於全球頂級酒店、度假村、大型賭場與郵輪等旅宿餐飲業，提供端到端雲端原生企業軟體與支付解決方案。核心產品涵蓋物業管理系統（PMS）、智慧銷售點系統（POS）、庫存採購及水療會籍管理，協助大型客戶實現全通路營運與數位化轉型。",
+      "Clients & Orders": "深耕高階旅宿與博弈市場，旗艦客戶包括萬豪國際集團（Marriott International，已全面採購其雲端 PMS 與 POS 系統）、希爾頓（Hilton）以及各大一線賭場度假村。近期隨著萬豪北美逾千家物業陸續上線交付，訂閱合約能見度與客單價（ARPU）均呈現顯著成長。",
+      "Technical Moat": "具備業界最完整的雲端原生微服務架構（Agilysys Hospitality Cloud™），整合 PMS、POS 及水療會所單一資料庫，支援複雜的多據點跨系統即時帳務與入帳。平台導入逾 30 項 AI 驅動之預測分析與動態調度功能，並具備嚴格的博弈級合規認證與高併發處理能力，形成極高的客戶置換壁壘。",
+      "Revenue Breakdown": "2026 會計年度總營收達 3.193 億美元。其中訂閱與維護等經常性收入（Recurring Revenue）佔約 64.5%（達 2.059 億美元，純訂閱年增率逾 30%）；專業導入諮詢服務（Professional Services）佔約 22.6%（達 7,220 萬美元）；硬體產品與一次性授權（Products）佔約 12.9%（約 4,120 萬美元）。",
+      "Gross Margin Profile": "2026 會計年度整體毛利率約 62.6%，2027 會計年度第一季進一步攀升至 63.5%。隨著高利潤率的純雲端 SaaS 訂閱佔比突破經常性收入的近七成，毛利結構受軟體授權擴張與專業服務交付效率提升帶動，維持穩健擴張態勢。",
+      "Key Competitors": "大型飯店 PMS 領域主要競爭對手為甲骨文（Oracle OPERA）與 Amadeus；在餐飲零售及支付領域則面臨 Toast 與 Shift4 Payments 等現代化 POS 服務商的競爭。Agilysys 憑藉深度的飯店業務邏輯、賭場博弈系統整合力與專屬定製模組，在高階一體化專案中維持顯著差異化優勢。",
+      "12M Catalysts": "萬豪國際旗下北美物業大規模導入雲端 PMS 與 InfoGenesis POS 之上線交付節奏加速，將大幅拉升訂閱 ARR。此外，整合 Book4Time 水療系統的交叉銷售成效顯現、2027 會計年度營收指引上修至 3.68 億至 3.73 億美元，以及歐洲與亞太等海外市場企業級標案放量，均為未來 12 個月核心催化劑。",
+      "Key Investment Risks": "全球總體經濟疲軟或商務休閒旅遊支出驟降，可能導致酒店業資本支出與 IT 升級預算縮減。萬豪等超大型指標客戶的全球導入驗收時程若出現延遲，可能影響短期服務收入與 ARR 認列速度；同時在二線中小型飯店市場亦面臨低成本雲端 POS/PMS 競品的價格競爭壓力。",
+      "CEO & Management": "總裁兼執行長 Ramesh Srinivasan 自 2017 年掌舵，過去曾領導 Bally Technologies（博弈技術龍頭）與 Ooyala，具備深厚的企業級軟體重組與產品現代化經驗。管理團隊執行力卓越，成功帶領公司徹底由舊有地端硬體分銷商轉型為高增長雲端 SaaS 企業。",
+      "Core Patents & IP": "擁有 Agilysys Hospitality Cloud™ 與 InfoGenesis 系列完整的專利與自主軟體著作權保護，涵蓋跨物業即時支付清算、多維度賓客旅程資料架構與分散式雲端 PMS 狀態同步引擎。所有為客戶客製化開發的業務邏輯智財權均歸公司全資持有，並布建逾 30 項 AI 驅動之營運優化專屬演算法。",
+      "3-Year M&A": "2024 年 8 月以約 1.5 億美元全資收購全球頂級水療與健康休閒 SaaS 領導品牌 Book4Time，將客群延伸至全球高端度假村 SPA 領域並擴大交叉銷售；2021 年底亦完成收購整合型休閒度假村管理軟體 ResortSuite，持續補強其高階純旅宿生態圈。",
+      "CapEx & Expansion": "已全面轉型為輕資產（Asset-Light）SaaS 營運模式，資本支出（CapEx）佔營收比重約 2% 至 4%（估），主要用於公有雲多區域架構維護、資安防護與內部研發工具升級。研發支出（R&D）則維持在營收的 22% 至 25% 高檔，重點推動印度等海外研發中心擴建及次世代生成式 AI 飯店模組開發。",
+      "Geopolitical Exposure": "目前超過 90% 營收來自以美國為主的北美市場，地緣政治與貿易關稅直接衝擊極低。主要潛在風險在於其印度技術研發中心的跨國運營、海外飯店客戶資料跨國傳輸時需符合歐盟 GDPR 與各國個人隱私保護法規的合規成本。",
+      "M&A Potential": "身為美股少數純正且具獲利能力的高階旅宿雲端 SaaS 標的，且手握萬豪、希爾頓等一線頂級連鎖通路，對尋求擴大垂直領域應用軟體版圖的私募股權巨頭（PE）或全球企業軟體巨擘（如 Salesforce、SAP、Shift4）而言，極具策略收購吸引力；公司自身亦有充裕現金流可持續進行百萬至上億美元級別的利基型插件 SaaS 併購。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 493 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "CCC Intelligent Solutions Holdings Inc. (CCCS)",
+      "Agilysys, Inc. (AGYS)"
+    ],
+    "unmatched": [],
+    "rows_exported": 3210
+  }
+}

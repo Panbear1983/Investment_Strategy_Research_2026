@@ -131,7 +131,8 @@ class CommandRoutingTests(unittest.TestCase):
             parse_command('/brief')
 
     def test_command_path_never_calls_the_provider(self):
-        for cmd in ('/help', '/screen japan', '/industries', '/brief Alpha', '/nope'):
+        for cmd in ('/help', '/screen japan', '/industries', '/brief Alpha', '/nope',
+                    '/quota', '/video'):
             reply = answer(cmd, rows=CORPUS, meta=META, provider=boom)
             self.assertEqual(reply['provider_calls'], 0, cmd)
 
@@ -194,7 +195,7 @@ class SynthesisTests(unittest.TestCase):
         reply = answer('Japanese hidden champions', rows=CORPUS, meta=META,
                        provider=boom, quota_db=self.db, user='peter', daily_cap=5)
         self.assertEqual(reply['kind'], 'error')
-        self.assertIn('cap reached', reply['text'])
+        self.assertIn('額度已用完', reply['text'])
 
     def test_no_matches_returns_guidance_without_calling_provider(self):
         reply = answer('zzzz nonexistent qqqq', rows=CORPUS, meta=META,

@@ -1,0 +1,54 @@
+{
+  "label": "API Batch 670 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "Intellian Technologies, Inc. (093240.KQ)",
+      "Country": "South Korea",
+      "Industry": "低軌衛星",
+      "Tier": ""
+    }
+  ],
+  "requested": [],
+  "records": [
+    {
+      "Country": "South Korea",
+      "Timeframe": "中長期",
+      "Sub-Sector": "低軌衛星",
+      "Industry": "衛星通訊設備與終端系統",
+      "Tier": "龍頭股",
+      "Company": "Intellian Technologies, Inc. (189300.KQ)",
+      "Capital/Market Cap": "約 6,500億韓元（約 4.7億美元）",
+      "Core Business": "全球衛星通訊天線系統領先製造商，業務涵蓋海事與陸地 VSAT 天線、低軌道（LEO）及中軌道（MEO）主動電子掃描陣列（AESA）平版天線，以及衛星地面站閘道器（Gateway）天線。公司提供跨 GEO/MEO/LEO 的多軌道混合通訊解決方案，廣泛應用於商用航海、國防安全、航空客機及偏遠地面寬頻市場。",
+      "Clients & Orders": "核心客戶涵蓋 Eutelsat OneWeb、SES、Inmarsat/Viasat、Marlink 及 Speedcast 等全球一線衛星營運商與服務商，為 OneWeb 低軌星座核心終端及閘道器供應商。2025-2026年受惠於 OneWeb 全球商業網成熟與 SES O3b mPOWER 擴建，地面閘道器訂單呈現數倍爆發，並加速切入歐美軍事國防多軌道通訊標案。",
+      "Technical Moat": "擁有自主研發的 AESA 相位陣列天線架構、特製向量放大器射頻晶片組與 AI 驅動動態波束成形演算法，能實現毫秒級跨衛星無縫切換（Handover）與雙頻段接收。深耕嚴苛航海與軍規環境二十年，累積深厚機械三軸穩定演算法與抗震防護專利，構築新進業者難以跨越的可靠性認證壁壘。",
+      "Revenue Breakdown": "營收結構已全面轉向低軌衛星應用，2025-2026年低軌與中軌（LEO/MEO）相關設備營收佔比達 70% 至 76%（其中地面站閘道器天線躍升為主力佔約 35-40%、平版用戶終端佔約 30-35%）；傳統海事 VSAT 與衛星電視天線降至約 20%；國防特種天線及其他專案約佔 5-10%（估）。",
+      "Gross Margin Profile": "毛利率常態維持在 40% 至 48% 的高水準區間（2025-2026年約 41%~47.8%），主要得益於高階射頻設計、軍規認證與大型閘道器產品的高附加價值。營業利益率隨平版天線量產良率提升及前期重度 R&D 投資（常態佔營收約 15%）逐步攤提而顯著由虧轉盈。",
+      "Key Competitors": "海事傳統天線領域主要競爭對手為 Cobham SATCOM 與 KVH Industries；在低軌與平版相位陣列市場則面對垂直整合的 SpaceX Starlink 價格競爭，以及 Kymeta、Gilat Satellite Networks 與 Viasat 的技術競逐。",
+      "12M Catalysts": "Eutelsat OneWeb 全球商用服務全面開展帶動平版天線出貨爬坡；SES O3b mPOWER 與 Telesat Lightspeed 閘道器訂單持續放量交付；美軍及北約防務對抗干擾軍規多軌道天線的採購預算撥發，預期推升 2026 下半年營收與獲利創下歷史新高。",
+      "Key Investment Risks": "SpaceX Starlink 積極以低價與直營模式加速侵蝕海事與陸地商用市場；主要客戶如 OneWeb 或 Telesat 之衛星發射進度若有遞延將影響拉貨動能；以及高階射頻晶片供應鏈短缺與平版天線新製程量產初期良率爬坡風險。",
+      "CEO & Management": "創辦人兼執行長成相燁（Eric Sung）持有核心股權，具備延世大學電子工程背景與全球市場開拓視野，兼任韓國創業投資協會會長，經營風格兼具技術敏銳度與強大執行力。管理階層高度國際化，研發工程人員佔比達公司總人數三分之一。",
+      "Core Patents & IP": "全球佈局數百項衛星專利，核心涵蓋 AESA 平版天線波束成形與電子轉向架構、Ku/Ka 雙頻段即時切換饋源（Feed Horn）技術，以及雙天線中繼仲裁器（Mediator）。並握有動態三軸機械穩定追蹤與射頻校準等專利組合（如美國專利 US12074379）。",
+      "3-Year M&A": "近三年無對外重大併購交易，策略以自主技術研發、國際產能擴建及戰略聯盟（與 OneWeb、SES、Panasonic Avionics 等）為主。執行長於 2024 年表示營收若挑戰兆元韓元將評估海外併購或被併構可能，並於 2026 年成立專屬創投基金佈局深科技新創生態。",
+      "CapEx & Expansion": "完成投資 3,200 萬美元的南韓平澤（Pyeongtaek）第二新廠建設，打造全球產能最大的相位陣列平版天線與地面閘道器自動化產線，產能擴充逾一倍。同時於美國馬里蘭州設立先進技術研發中心與北美據點，強化對北美防務及主要衛星營運商的在地化交付能力。",
+      "Geopolitical Exposure": "海外營收佔比逾 90%，市場高度集中於歐美先進國家，地緣衝突推升北約及印太地區國防衛星通訊升級需求（實質受惠）。作為具備非中國自主供應鏈的南韓廠商，完全符合西方主權通訊防護與美國 NDAA 法規要求，地緣審查風險極低。",
+      "M&A Potential": "作為全球少數具備全軌道量產實力的獨立中立天線巨頭，具備被跨國衛星營運商（如 SES、Viasat、Eutelsat）或防務航太集團（如韓華系統 Hanwha Systems、L3Harris）戰略入股或收購之潛力。但為維持服務跨陣營客戶的中立地位以最大化爭取訂單，公司維持獨立營運之機率較高。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 670 (new, gemini)",
+    "updated": [
+      "Intellian Technologies (189300.KQ)"
+    ],
+    "claimed": [],
+    "unmatched": [],
+    "rows_exported": 3506
+  }
+}

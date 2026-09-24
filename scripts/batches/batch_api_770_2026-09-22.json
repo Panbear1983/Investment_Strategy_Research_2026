@@ -1,0 +1,84 @@
+{
+  "label": "API Batch 770 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "NXP Semiconductors (NXPI) — 已收錄，跳過",
+      "Country": "Netherlands",
+      "Industry": "",
+      "Tier": ""
+    },
+    {
+      "Company": "Wolters Kluwer (WKL.AS) — 已收錄，跳過",
+      "Country": "Netherlands",
+      "Industry": "",
+      "Tier": ""
+    }
+  ],
+  "requested": [],
+  "records": [
+    {
+      "Country": "Netherlands",
+      "Timeframe": "中長期",
+      "Sub-Sector": "電動車",
+      "Industry": "車用與工業微控制器、安全連接晶片及類比半導體",
+      "Tier": "龍頭股",
+      "Company": "NXP Semiconductors (NXPI)",
+      "Capital/Market Cap": "約 580億美元",
+      "Core Business": "全球車用微控制器（MCU）、車載網路、ADAS 雷達晶片與安全邊緣運算處理器的領先供應商。主力產品涵蓋 S32 車輛運算平台、i.MX 邊緣 AI 應用處理器、超寬頻（UWB）通訊與先進電源管理 IC，全面支撐軟體定義汽車（SDV）與工業物聯網核心架構。",
+      "Clients & Orders": "深度滲透全球汽車一級製造商（Tier 1）與 OEM 大廠，包括博世（Bosch）、大陸集團（Continental）、電裝（Denso）以及福特（Ford）、通用（GM）、現代（Hyundai）與中國主流電動車企。在智慧手機與工業端，長期作為蘋果（Apple）與三星（Samsung）的安全元件、NFC 與 UWB 關鍵供應商，訂單動能隨 2025 年下半年產業庫存回歸常態而在 2026 年顯著回升。",
+      "Technical Moat": "在車規高功能安全認證（ISO 26262 ASIL-D）、車載匯流排架構（CAN/LIN/以太網）及高可靠度微控制器領域擁有深厚專利組合與長期車規認證壁壘。其專有 S32 車載核心架構配合近期整合的車用高速 SerDes 傳輸與邊緣神經網路單元（NPU），構築出純數位晶片同業難以跨足替代的高轉換成本軟硬體生態系。",
+      "Revenue Breakdown": "2025 年全年營收達 122.7 億美元，2026 年預期回溫至 142 億美元規模。終端市場營收佔比為車用半導體（Automotive）佔約 56%、工業與物聯網（Industrial & IoT）佔約 19%、通訊基礎設施與其他佔約 13%、行動通訊（Mobile）佔約 12%。",
+      "Gross Margin Profile": "具備高定價韌性與混合製造效益，2025 年 GAAP 毛利率為 54.7%，Non-GAAP 毛利率達 56.8%。受惠於車用系統整合高價值晶片比重提升與 2026 年產能稼動率重回上升軌道，管理層長期 Non-GAAP 毛利率目標穩固維持於 55% 至 58% 區間。",
+      "Key Competitors": "英飛凌（Infineon）、德州儀器（Texas Instruments）、意法半導體（STMicroelectronics）、瑞薩電子（Renesas Electronics）以及類比晶片巨頭亞德諾（Analog Devices）。",
+      "12M Catalysts": "軟體定義汽車加速導入區域控制架構，帶動 S32 CoreRide 旗艦運算平台擴大車型量產；實體人工智慧（Physical AI）與智慧工廠需求復甦推升 i.MX 9 系列及整合邊緣 NPU 晶片出貨；庫存調整週期全面終結，促成 2026 年營收與營業利益率展現強勁雙位數年增復甦。",
+      "Key Investment Risks": "歐美電動車市場滲透率成長趨緩，疊加中國本土車規晶片廠商在低階至中階 MCU 市場加速國產替代壓迫市占；成熟製程區域性擴產恐帶來結構性價格競爭；地緣政治關稅與貿易管制升級增加跨國車鏈重組與合規成本。",
+      "CEO & Management": "Rafael Sotomayor 於 2025 年 10 月正式接替退休的 Kurt Sievers 接任總裁兼執行長，其擁有十餘年安全邊緣連接事業高階管理與產品研發背景；財務長 Bill Betz 延續穩健資本配置原則與嚴格自由現金流管理方針。",
+      "Core Patents & IP": "全球持有逾 9,000 項獲准專利與專利家族，核心範疇覆蓋車用安全微處理器架構、77GHz 毫米波車載雷達 RFCMOS 射頻整合、硬體安全元件（Secure Element）、高頻 NFC/超寬頻（UWB）通訊協定以及車載高速傳輸 SerDes 專有架構。",
+      "3-Year M&A": "2025 年以 3.07 億美元完成收購邊緣 AI 晶片商 Kinara，取得關鍵低功耗神經網路處理架構；同年斥資 2.43 億美元收購車載高速連接晶片業者 Aviva Links，強化 SerDes 布局；並整合收購 TTTech Auto 之 MotionWise 安全中介軟體技術加速 CoreRide 平台商業化。",
+      "CapEx & Expansion": "採取混合輕晶圓廠（hybrid fab-lite）雙軌策略，資本支出佔營收比重長期維持在 6% 至 8% 水準。重大擴建包含與世界先進（VIS）在新加坡合資 78 億美元設立 VSMC 12 吋晶圓廠（預計 2027 年投產），以及參股 10% 台積電德國德勒斯登 ESMC 晶圓廠，強化歐亞車用供應鏈在地韌性。",
+      "Geopolitical Exposure": "總部設於荷蘭，直接受美中高階先進製程禁令限制較小，但大中華區作為終端製造組裝重鎮仍佔其整體營收近三成。公司正積極透過新加坡 VSMC 及德國 ESMC 等區域化合資晶圓廠建置，分散地緣政治斷鏈風險並確保跨國車廠在地供貨需求。",
+      "M&A Potential": "作為全球關鍵車用與安全連接半導體領導者，受制於各國反壟斷監管與關鍵基礎設施國安審查，極難被超大型同業整體併購。未來資本運用將維持以 1 億至 5 億美元規模之戰術型併購為主，持續聚焦收購車用軟體、邊緣 AI 演算法與車載感測專利技術團隊。"
+    },
+    {
+      "Country": "Netherlands",
+      "Timeframe": "中長期",
+      "Sub-Sector": "企業軟體與專業資訊",
+      "Industry": "專業資訊服務與企業軟體",
+      "Tier": "龍頭股",
+      "Company": "Wolters Kluwer (WKL.AS)",
+      "Capital/Market Cap": "約 152億歐元（約 174億美元）",
+      "Core Business": "為全球醫療健康、稅務會計、金融法規遵循、法律及企業績效與ESG等關鍵領域提供專業決策支援軟體、數據分析與工作流程解決方案。旗下核心品牌包括 UpToDate、CCH Axcess、CCH Tagetik、OneSumX 與 Enablon，數位與軟體服務佔比超過90%，以高黏著度訂閱制（SaaS）為核心驅動模式。",
+      "Clients & Orders": "客戶遍及全球180多個國家，覆蓋全美近93%頂尖醫院、全球前100大會計師事務所中多數機構，以及頂級跨國銀行與財星500大企業。經常性收入（Recurring Revenues）佔總營收高達83%，客戶續約率長期維持在90%以上，整體訂單現金流極具高可預測性。",
+      "Technical Moat": "擁有數十年累積且具備高度醫學與法律權威背書之專有領域知識庫（Domain IP），並將其與垂直領域生成式AI深度結合（如 UpToDate Expert AI）。深嵌專業人士日常決策工作流構築了極高的轉換成本，嚴格的法規精準度要求使通用大語言模型難以直接替代。",
+      "Revenue Breakdown": "2025年全年營收達61.25億歐元；依事業部分布，稅務與會計（Tax & Accounting）佔27%（16.6億歐元）、醫療健康（Health）佔26%（15.96億歐元）、金融與合規（Financial & Corporate Compliance）佔20%（12.39億歐元）、法律與法規（Legal & Regulatory）佔16%（10.05億歐元）、企業績效與ESG佔10%（6.25億歐元）。依業務型態劃分，經常性訂閱收入佔比高達83%。",
+      "Gross Margin Profile": "毛利率長期穩定維持在70%至73%之高水準，充分展現數位軟體與資訊服務之規模經濟優勢。2025年經調整營業利益率達27.5%，2026年上半年進一步提升至29.4%，獲利槓桿與經營效益持續擴張。",
+      "Key Competitors": "主要競爭對手包括 Thomson Reuters (TRI)、RELX Group (REL.L)、Bloomberg、FactSet (FDS) 以及在稅務與企業軟體領域競爭的 Intuit (INTU) 與 SAP。",
+      "12M Catalysts": "各旗艦產品線全面推進商用垂直生成式AI模組（如 UpToDate Expert AI 與新世代法律工作流工具），可望顯著拉升每用戶平均收入（ARPU）；歐盟CSRD等跨國ESG強制揭露新規推動企業加速導入 Enablon 與 CCH Tagetik 解決方案；2026年經調整營業利潤率持續向30%大關挑戰帶來的獲利預期上修。",
+      "Key Investment Risks": "歐美宏觀經濟環境疲軟可能抑制非經常性收入（諮詢、交易手續費與單次版權購買）之增長力道；AI新創公司推出垂直利基型工具帶來的長期潛在競爭與定價壓力；公司約64%營收來自北美，美元兌歐元匯率波動將對以歐元計價之合併財務報表產生折算風險。",
+      "CEO & Management": "執行長 Nancy McKinstry 自2003年掌舵至今，成功帶領集團完成由傳統出版業向純數位SaaS與專業決策軟體的戰略轉型，具備卓越的資本配置與營運執行力；財務長 Kevin Entricken 具備豐富跨國併購整合與財務管理經驗，核心高管團隊穩定度極高。",
+      "Core Patents & IP": "擁有無可替代且經臨床試驗、權威法律專家審查之全球專有數據庫與醫學本體知識庫（Ontology），結合自研工作流程專利演算法與企業級檢索增強生成（RAG）架構，形成極強的專利與數據版權壁壘。",
+      "3-Year M&A": "維持聚焦於利基型雲端軟體與垂直AI的補強型收購策略，2025年以約4.25億歐元收購AI法律支出管理平台 Brightflag，並併購註冊代理服務商 RASi；2026年初完成對雲端治理、風險與合規（GRC）軟體商 StandardFusion 之收購；2023年則收購防範藥物濫用AI分析商 Invistics。",
+      "CapEx & Expansion": "每年維持將總營收的12%至13%投入於產品開發與軟體資本化支出，主力投放於雲端原生微服務改進與垂直生成式AI架構研發；擴建北美與歐洲的高安全性數據與合規雲端基礎設施，滿足跨國監管要求。",
+      "Geopolitical Exposure": "營收主要集中於北美（約64%）及歐洲（約28%）等成熟法治市場，新興市場與大中華區曝險極低，受美中地緣摩擦或晶片貿易禁令之直接影響微乎其微；營運核心主要在於遵循歐盟AI法案（EU AI Act）與各國嚴格的跨國數據隱私合規規範。",
+      "M&A Potential": "作為泛歐交易所重要成分股且市值超過150億歐元，自身遭遇敵意併購的機率極低；集團依靠每年超過12億歐元之強勁自由現金流，將持續扮演主動買方角色，針對利基型生成式AI應用、ESG法規監管科技與雲端合規軟體進行戰略性併購。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 770 (new, gemini)",
+    "updated": [
+      "NXP Semiconductors (NXPI)",
+      "Wolters Kluwer (WKL.AS)"
+    ],
+    "claimed": [],
+    "unmatched": [],
+    "rows_exported": 4163
+  }
+}

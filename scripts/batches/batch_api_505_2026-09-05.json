@@ -1,0 +1,143 @@
+{
+  "label": "API Batch 505 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "Marathon Digital Holdings, Inc. (MARA)",
+      "Country": "USA",
+      "Industry": "金融科技",
+      "Tier": ""
+    },
+    {
+      "Company": "CleanSpark, Inc. (CLSK)",
+      "Country": "USA",
+      "Industry": "金融科技",
+      "Tier": ""
+    },
+    {
+      "Company": "Riot Platforms, Inc. (RIOT)",
+      "Country": "USA",
+      "Industry": "金融科技",
+      "Tier": ""
+    },
+    {
+      "Company": "Bit Digital, Inc. (BTBT)",
+      "Country": "USA",
+      "Industry": "金融科技",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "USA",
+      "Timeframe": "中長期",
+      "Sub-Sector": "數位資產基礎設施",
+      "Industry": "金融科技",
+      "Tier": "龍頭股",
+      "Company": "MARA Holdings, Inc. (MARA)",
+      "Capital/Market Cap": "約 45億美元",
+      "Core Business": "公司為全球最大規模的上市比特幣挖礦與數位能源基礎設施巨頭，已自早期的輕資產託管模式全面轉型為垂直整合的自持電廠與數據中心運營商。其核心業務涵蓋高能效比特幣自營挖礦、自主礦池（MaraPool）運作，並於 2025-2026 年積極推動將百萬瓩級電力儲備轉化為支援高負載 AI 與高效能運算（HPC）的次世代算力中心。",
+      "Clients & Orders": "自營挖礦產出直接挹注資產負債表儲備並靈活透過現貨與衍生品市場變現，同時具備「Slipstream」鏈上直接打包服務為機構客戶處理複雜交易。近年拓展高密度算力託管業務，並積極與一線超大規模雲端（Hyperscaler）與 AI 算力企業洽商數百兆瓦級電力容量的長期租賃與合作部署合約。",
+      "Technical Moat": "擁有自主研發的兩相浸沒式液冷散熱技術（2PIC）與專有韌體 MARAFW，能顯著提升 ASIC 晶片超頻效能並壓低每單位算力耗能與維護成本。結合全網領先的自營礦池 MaraPool 交易自審排序能力，並在德州 ERCOT 電網具備微秒級電力需求響應（Demand Response）調度技術，創造極佳的尖峰離峰電價套利邊界。",
+      "Revenue Breakdown": "比特幣自營挖礦與交易確認手續費收入占比約 90% 至 95%，為公司營收絕對主力；其餘 5% 至 10% 來自數據中心代管服務、電網輔助調度套利收益，以及專利冷卻設備與技術授權收入。",
+      "Gross Margin Profile": "2024 年減半事件後雖推高單枚開採邊際成本，但受惠於收購低成本發電案場與能效優化，2025-2026 年綜合毛利率維持在 38% 至 45% 區間（估）。整體利潤率對比特幣現貨市場價格高度連動，並受到加密資產公允價值季度會計認列的顯著干擾。",
+      "Key Competitors": "CleanSpark (CLSK)、Riot Platforms (RIOT)、Core Scientific (CORZ)、Iris Energy (IREN)、TeraWulf (WULF)。",
+      "12M Catalysts": "將既有優質電力資源改建並簽署首份具指標性的 AI/HPC 資料中心大規模長期租約；已激勵算力規模向 70 至 75 EH/s 目標推進所帶來的產能擴張；美國加密資產監管框架鬆綁與戰略儲備法案討論帶動的比特幣持倉重估。",
+      "Key Investment Risks": "全球比特幣全網難度（Difficulty）持續攀升與幣價波動風險，若幣價走弱恐大幅壓縮挖礦現金流與庫存價值；AI/HPC 機房改建工程週期冗長且涉及高電壓變壓器與電力併網延遲問題；為支應巨額電廠併購而頻繁發行可轉換公司債或 ATM 現金增資所導致的股權稀釋風險。",
+      "CEO & Management": "董事長兼執行長 Fred Thiel 具備數十年電信技術與企業併購管理歷練，是主導公司全面從委外代管轉向自持能源基建與 AI 轉型的核心靈魂人物；財務長 Salman Khan 專注於資本市場運作，精準推動零息或低成本可轉債發行並優化資金成本與流動性結構。",
+      "Core Patents & IP": "持有多項涵蓋數據中心節能的核心專利，包括配備戰略性波紋管的浸沒式冷卻系統專利（如 US12446189B2 等）與高密度伺服器浸漬冷卻架構；軟體層則掌握專有微調挖礦韌體 MARAFW 及專為機構客製的 Slipstream 記憶體池無中介交易架構。",
+      "3-Year M&A": "2023-2024 年陸續斥資 1.786 億美元收購 Generate Capital 旗下 390 MW 站點，並以 8,730 萬美元收購 Applied Digital 位於德州的 200 MW 數據中心；2025-2026 年推進對 Long Ridge 燃氣發電資產（具備 505 MW 擴充至 1 GW 潛力）及風電案場的控股整編，全面確立能源自持優勢。",
+      "CapEx & Expansion": "資本支出重心由純粹採購最新世代高能效 ASIC 礦機，轉向大規模變電站興建、高壓電網併網設施升級以及支援高效能 AI 運算的液冷機房改造；目標於 2026 年將旗下自持電力容量推進至 1.5 GW 以上，為多元化算力提供充沛能源底座。",
+      "Geopolitical Exposure": "主要電力資產集中於美國德州（ERCOT）及內布拉斯加等監管環境友善州，但仍須應對美國聯邦層級可能針對數據中心高耗能開展的環保與碳足跡審查；海外足跡則遍及阿聯酋（阿布達比合資案）、巴拉圭水力與肯亞地熱專案，需承擔新興市場跨國合規與當地法規突變之風險。",
+      "M&A Potential": "擁有龐大已併網電力容量與低成本發電樞紐，具備極高吸引力成為亟需即時電力（Power Interconnect）的超大規模 AI 巨頭或基礎設施私募基金收購與合資的優選標的；同時公司具備充裕流動性，亦持續評估逢低收購陷入財務困境之中小型礦場與破產電廠的整合機會。"
+    },
+    {
+      "Country": "USA",
+      "Timeframe": "中長期",
+      "Sub-Sector": "AI算力中心與加密基礎設施",
+      "Industry": "金融科技",
+      "Tier": "龍頭股",
+      "Company": "CleanSpark, Inc. (CLSK)",
+      "Capital/Market Cap": "約 32.5億美元",
+      "Core Business": "北美排名前三大的垂直整合數位基礎設施與比特幣挖礦龍頭，營運算力規模達 50 EH/s。公司正積極將其低成本簽約電力儲備與專屬變電站資產轉型為支援高效能運算（HPC）與生成式 AI 的超大規模（Hyperscale）資料中心。",
+      "Clients & Orders": "核心採礦業務產出數位資產於公開市場變現或作為流動性儲備；2026年7月與全球頂級科技巨頭簽署佐治亞州 Sandersville 園區 20 年期三淨租賃（NNN）合約，鎖定 175 MW 關鍵 IT 負載，總潛在合約價值高達 116 億美元。",
+      "Technical Moat": "在全美控制超過 1.8 GW 簽約電力與土地資產，具備自有變電站及靈活的電網能源平衡管理能力；透過浸沒式液冷專案部署與能源最佳化調度系統，維持行業領先的能效比（J/TH）與低於市場均值的邊際電價成本。",
+      "Revenue Breakdown": "目前 95% 以上營收仍來自比特幣自營開採（TTM 營收約 7.5億美元）；預計自 2027 年第四季起，佐治亞州等大型 HPC/AI 資料中心長期租賃合約陸續交付併網，高毛利基礎設施租金將成為核心增長極。",
+      "Gross Margin Profile": "受比特幣產量減半及全網難度攀升影響，2026會計年度自營挖礦毛利率約落在 38% 至 40%；新簽訂的 20 年期 HPC NNN 租約預計帶來年均約 3.3億美元淨營運收入（NOI），具有接近 100% 的極高 NOI 利潤率。",
+      "Key Competitors": "Marathon Digital Holdings (MARA)、Riot Platforms (RIOT)、Core Scientific (CORZ)、Cipher Mining (CIFR)、IREN (IREN)。",
+      "12M Catalysts": "佐治亞州 175 MW HPC 園區土建及變電站改造進度推進、德州休士頓周邊 300 MW 專案獲取 ERCOT 審批後之動工進展，以及下一批潛在 Hyperscaler 客戶的 AI 託管框架協議簽訂。",
+      "Key Investment Risks": "比特幣價格波動與全網難度激增直接衝擊短期自由現金流；HPC 資料中心每 MW 高達 1,000萬至 1,200萬美元的巨額資本支出可能引發股權稀釋，且大型電力併網工程存在公用事業審批遞延風險。",
+      "CEO & Management": "現任執行長兼董事長 Matt Schultz 於2025年底接棒掌舵，全面主導轉向 AI 算力基礎設施的戰略重塑；管理團隊具備深厚的微電網架構、電力合約談判與大型資料中心模組化營建經驗。",
+      "Core Patents & IP": "持有涵蓋微電網智慧能源管理、分散式電源動態調配與功率預測等早期核心專利群；近年競爭力重點轉向專有的高密閉浸沒式冷卻設計、高壓變電所工程整合技術與能耗即時監控軟體架構。",
+      "3-Year M&A": "2024年10月以約 1.55億美元全股票收購 GRIID Infrastructure 取得田納西河谷管理局（TVA）轄下 400 MW 電力配額；2023至2024年間斥資數千萬美元於佐治亞州、密西西比州與懷俄明州連續收購多座 turnkey 級資料中心廠址。",
+      "CapEx & Expansion": "掌控電力總規模擴增至 1.8 GW 以上，正加速德州與佐治亞州資料中心建設；單計 Sandersville 175 MW 設施資本支出即估計達 17.5億至 21億美元，預備於 2027 年底起陸續完成交付。",
+      "Geopolitical Exposure": "全部資產、電力合約與營運節點百分之百坐落於美國境內（分布於佐治亞、德州、懷俄明、田納西等能源友好州），無涉海外地緣政治與跨國關稅風險，但受美國能源監管、各州公用事業費率變動及加密法規高度制約。",
+      "M&A Potential": "擁有近 2 GW 稀缺電網接入許可、自建高壓變電站與實體土地，在 AI 算力電力高度吃緊的週期下，具備極高的戰略價值，為大型數位基礎設施 REITs、超大規模雲端服務商（Hyperscalers）或私募基建基金潛在的收購或深度合資標的。"
+    },
+    {
+      "Country": "USA",
+      "Timeframe": "中長期",
+      "Sub-Sector": "數位資產與AI算力基礎設施",
+      "Industry": "金融科技",
+      "Tier": "龍頭股",
+      "Company": "Riot Platforms, Inc. (RIOT)",
+      "Capital/Market Cap": "約 80億美元",
+      "Core Business": "專注於超大規模比特幣挖礦與高效能運算（HPC/AI）資料中心基礎設施開發，並透過旗下子公司 ESS Metron 垂直整合關鍵中低壓配電設備製造。公司依托德州 ERCOT 電網進行靈活的能源套利與需求響應，實現極低邊際電力成本的算力運營。",
+      "Clients & Orders": "自營挖礦業務直接接入比特幣去中心化網路獲取區塊獎勵；HPC/AI 轉型方面已與超微（AMD）及前沿 AI 實驗室簽訂長達 20 年、規模達 191 MW 的長期資料中心容量租賃合約。工程部門 ESS Metron 則持續向北美公用事業、商用客戶及第三方超大規模資料中心交付客製化開關設備與配電系統。",
+      "Technical Moat": "具備近 2 GW 的龐大核准電力容量與大規模浸沒式液冷（Immersion Cooling）專有部署經驗，並藉由 ERCOT 需求響應機制鎖定全美最具競爭力的邊際電價。垂直整合 ESS Metron 掌握關鍵配電設備製造，大幅規避全球電氣供應鏈長交期瓶頸，使資料中心擴建週期顯著快於同業。",
+      "Revenue Breakdown": "2025 全年營收達 6.47 億美元，2026 上半年達 3.41 億美元並維持高速增長。收入結構以比特幣自營挖礦為核心（約佔 70-75%），ESS Metron 外部工程製造收入擴大至約 15-20%，其餘來自託管服務與陸續起租放量的 AI/HPC 長期合約。",
+      "Gross Margin Profile": "挖礦毛利率受比特幣價格與減半後算力難度波動影響，但在電力信用折抵下自營電力成本維持在每度電約 3-4 美分的領先水準。工程製造業務受惠於高階配電設備溢價與規模效益，毛利率從 2025 年同期的約 7% 躍升至 2026 年中旬逾 27%，帶動整體調整後 EBITDA 利潤率實質擴張。",
+      "Key Competitors": "主要競爭對手包括北美大型比特幣礦企與向 AI/HPC 基礎設施轉型的算力業者，如 MARA Holdings (MARA)、CleanSpark (CLSK)、Core Scientific (CORZ)、IREN (IREN) 以及 TeraWulf (WULF)。",
+      "12M Catalysts": "德州 Corsicana 旗艦園區後續電力與機房順利併網交付（全公司部署算力推進至 40-50 EH/s）；與 AMD 及前沿 AI 實驗室的 191 MW HPC 租賃合約全面商轉並開始貢獻高可預測性經常性收入；以及減半後週期比特幣價格上行與 ERCOT 夏季電網尖峰電力輔助服務收益結算。",
+      "Key Investment Risks": "比特幣價格劇烈修正或全網算力激增導致挖礦單產經濟效益下滑；德州 ERCOT 與各級政府對大型用電資料中心之電網接入與收費政策趨於嚴格；以及將傳統礦場大規模改建為 Tier 3 規格 AI 資料中心的工程執行延遲與高額資本支出風險。",
+      "CEO & Management": "執行長由 Jason Les 領導（自 2021 年起任職，具深厚加密資產工程與算力營運經驗）；執行董事長 Benjamin Yi 主導資本運作與長期策略擴張。經營團隊高度專注於能源管理、關鍵電氣基建製造與股東資本配置效率。",
+      "Core Patents & IP": "擁有專有的微電網電力即時自動調度演算法、客製化礦機能效韌體及大規模浸沒式散熱系統架構專利；ESS Metron 旗下則持有涵蓋客製化中低壓配電盤、開關設備與整合式配電單元（PDU）的多項電氣工程專有設計與製造專利。",
+      "3-Year M&A": "2024 年 7 月以 9,250 萬美元收購 Block Mining，成功跨足肯塔基州並獲得 60 MW（潛在擴展至 300 MW 以上）非 ERCOT 電網電力；2024 年敵意收購 Bitfarms 並累積持股約 18.9% 後於同年 9 月達成董事會改選和解；前期於 2021 年底收購 ESS Metron 完成關鍵電氣供應鏈垂直整合。",
+      "CapEx & Expansion": "資本支出重心落在德州 Corsicana 756 MW 園區的高壓變電站與機房建置，以及 Rockdale 和肯塔基站點改裝為支援新一代 AI 液冷叢集的 HPC 資料中心。算力設備方面持續採購 MicroBT 與比特大陸最新高能效機型以全面替換舊世代礦機。",
+      "Geopolitical Exposure": "營運設施百分之百位於美國境內（核心在德州與肯塔基州），完全規避海外主權國家的沒收與斷電地緣風險。但營運間接受制於美國聯邦對高階 AI 算力晶片的出口管制規範，以及美國各州對高耗能數位設施之環保與能源法規變動。",
+      "M&A Potential": "憑藉充裕的吉瓦（GW）級核准電力管線與自主電氣設備供應鏈，Riot 具備持續併購陷於流動性困境之同業以低成本取得優質電網協議的能力；長期而言，其擁有的極大規模高壓併網資產，亦使其極具潛力成為急需充沛電力的超大規模雲端商（Hyperscalers）或能源基建基金的戰略併購或合資標的。"
+    },
+    {
+      "Country": "USA",
+      "Timeframe": "中長期",
+      "Sub-Sector": "AI伺服器",
+      "Industry": "金融科技與高效能運算 (HPC)",
+      "Tier": "潛力股",
+      "Company": "Bit Digital, Inc. (BTBT)",
+      "Capital/Market Cap": "約 5.2億美元",
+      "Core Business": "公司已成功從傳統比特幣挖礦轉型為雙核心架構，主力營運高階 GPU 人工智慧與高效能運算（HPC）雲端租賃、Tier 3 綠能資料中心託管服務，並維持以太坊（ETH）質押收益。其核心 AI 算力業務透過持股約 70% 的上市子公司 WhiteFiber (WYFI) 獨立運作，形成數位資產與 AI 算力基建的綜合體。",
+      "Clients & Orders": "主要雲端客戶包含雲端遊戲服務商 Boosteroid（簽訂多年期 GPU 算力託管協議）以及生成式 AI 模型開發商。截至 2026 年中，公司累積積壓履約義務（Contract Backlog）高達約 10 億美元，預計 2026 下半年與 2027 年將分別認列約 5,770 萬美元與 1.37 億美元營收。",
+      "Technical Moat": "護城河建構於垂直整合的綠能資料中心與低成本水電優勢，有效壓低算力營運 PUE 與用電成本。此外，公司具備大規模 Nvidia 高階 GPU 叢集部署與液冷散熱工程能力，並掌握企業級以太坊非託管驗證節點架構與動態負載管理技術。",
+      "Revenue Breakdown": "2026 年第二季單季營收達 3,210 萬美元，AI/HPC 雲端算力服務佔比已達約 74%（營收 2,380 萬美元），資料中心託管服務（Colocation）佔比約 15%（470 萬美元），以太坊質押收益佔約 3%（90 萬美元），數位資產挖礦及其他業務佔比降至個位數。",
+      "Gross Margin Profile": "業務轉型帶動獲利體質顯著優化，2026 年 AI 雲端服務毛利率達約 58%，資料中心託管毛利率高達約 63%。相較於受減半與幣價衝擊的挖礦業務，高毛利且合約穩定的 HPC 基礎設施帶動綜合毛利率持續穩定在 55% 至 60% 區間。",
+      "Key Competitors": "在數位資產轉型 HPC 領域的主要競爭對手為 Core Scientific (CORZ)、Iris Energy (IREN)、TeraWulf (WULF) 與 Applied Digital (APLD)；在專業 GPU 雲端運算市場則面臨 CoreWeave 與 Lambda Labs 的競爭。",
+      "12M Catalysts": "關鍵催化劑包括：旗艦級北卡羅來納州 NC-1 綠能資料中心於 2026 年下半年全面商轉並貢獻規模化營收；子公司 WhiteFiber (WYFI) 獨立估值釋放與 10 億美元算力合約訂單加速交付；以及以太坊 Pectra 升級後的質押收益擴張與新世代 GPU 算力租賃大單簽署。",
+      "Key Investment Risks": "面臨早期雲端算力客戶高度集中所帶來的違約與續約風險；硬體迭代快速（如 Nvidia Blackwell 普及）引發的舊代 GPU 資本折舊與折損壓力；以及北美電網併網容量審批延遲與數位資產質押監管法規變動風險。",
+      "CEO & Management": "執行長由 Samir (Sam) Tabar 領導，其具備美銀美林董事總經理及避險基金高階主管背景，主導了公司轉型 HPC 與 WhiteFiber 分拆上市策略；財務長由 Erke Huang 出任，HPC 與資料中心技術架構則由子公司 Enovum 技術長 David Bayle 主導。",
+      "Core Patents & IP": "技術資產主要由非專利型商業機密、專有軟體及系統架構構成，包括大規模 GPU 叢集編排調度軟體、節點負載平衡演算法，以及加拿大蒙特婁資料中心累積的節能熱管理與冷卻工程專有技術（估無大規模公開發明專利，以專有營運軟體與基礎設施架構為主）。",
+      "3-Year M&A": "2024 年 10 月以約 4,600 萬美元全資收購加拿大 Enovum Data Centers，取得蒙特婁 Tier 3 綠能資料中心與龐大擴建管線；2025 年 8 月成功推動旗下 HPC 與 AI 業務 WhiteFiber (WYFI) 於那斯達克完成 IPO 獨立上市，母公司持續持有約 70% 股權。",
+      "CapEx & Expansion": "資本支出聚焦於北卡羅來納州 NC-1 資料中心建置與蒙特婁 Enovum 園區逾 100MW 電力擴充計畫。擴張資金主要仰賴營運現金流及 2026 年 5 月向 WhiteFiber 提供的 1 億美元定期貸款融資，持續採購並擴充次世代 Nvidia GPU 機櫃陣列。",
+      "Geopolitical Exposure": "營運據點與算力機房 100% 位於美國與加拿大境內，已徹底撤出早期亞洲與中國業務，無直接供應鏈地緣政治斷鏈風險；主要曝險來自美國 SEC 對加密資產質押活動的監管合規要求，以及加拿大跨境輸電與綠能水電補貼政策變動。",
+      "M&A Potential": "併購潛力極高且具雙向價值：對外能以 WhiteFiber 作為載體整合北美具廉價綠電配額之中小型算力中心；對內因其坐擁稀缺的北美 Tier 3 即用電力容量與現成 Nvidia 算力叢集，極易成為大型數位基建基金（如 DigitalBridge、Blackstone）或超大規模雲端運算商（Hyperscalers）的策略收購標的。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 505 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "MARA Holdings, Inc. (MARA)",
+      "CleanSpark, Inc. (CLSK)",
+      "Riot Platforms, Inc. (RIOT)",
+      "Bit Digital, Inc. (BTBT)"
+    ],
+    "unmatched": [],
+    "rows_exported": 3229
+  }
+}

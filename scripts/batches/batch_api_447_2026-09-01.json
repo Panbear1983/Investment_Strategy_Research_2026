@@ -1,0 +1,53 @@
+{
+  "label": "API Batch 447 (new, claude)",
+  "source": "new",
+  "provider": "claude",
+  "providers_used": [
+    "claude"
+  ],
+  "items": [
+    {
+      "Company": "AEON Credit Service (M) Berhad (5139.KL)",
+      "Country": "Malaysia",
+      "Industry": "金融科技/新興市場支付",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "Malaysia",
+      "Timeframe": "中期",
+      "Sub-Sector": "消費金融科技",
+      "Industry": "非銀行消費信貸／金融科技（分期付款、個人融資、信用卡與數位銀行）",
+      "Tier": "龍頭股",
+      "Company": "AEON Credit Service (M) Berhad (5139.KL / AEONCR)",
+      "Capital/Market Cap": "約馬幣28.5億元（約合美元6.1億元，2026年7月數據），流通股數約5.106億股，股價約RM5.5，屬中小型股規模。",
+      "Core Business": "馬來西亞歷史最悠久的非銀行消費信貸公司之一（成立30年），主營分期付款（機車、家電、家具）、個人融資（含符合伊斯蘭教義的Shariah個人融資產品）、Visa/Mastercard信用卡發行與保險經紀業務，並透過持股約45%的AEON Bank切入伊斯蘭數位銀行市場。",
+      "Clients & Orders": "客群以AEON集團零售會員生態圈（AEON百貨、大馬各地購物中心）為核心，截至2026年5月31日淨融資應收款達馬幣152.5億元，較去年同期馬幣138.2億元成長逾10%；FY2026第一季（截至2026年5月31日）交易與融資總量單季達馬幣23.5億元，年增4.6%。",
+      "Technical Moat": "護城河來自與AEON零售集團（母公司AEON Financial Service, Japan）深度綁定的會員生態系與30年在地信貸數據積累，並導入AI信用評分與數位化核保系統強化客戶篩選；相較新進純數位銀行，其線下服務網點與既有客戶關係為主要差異化優勢。",
+      "Revenue Breakdown": "FY2026（截至2026年2月28日）總營收約馬幣19.6億元，年增15.76%；估計分期付款/Easy Payment融資貢獻約4成、個人融資約3成（成長最快區塊）、信用卡利息與手續費約2成、保險經紀及其他約1成（估）。",
+      "Gross Margin Profile": "屬消費金融業，以淨利差（Financing Margin）而非傳統毛利率衡量：不良貸款比率（NPL）截至2026年2月28日為2.61%，2026年5月31日微升至2.6%（受生活成本壓力影響年輕與低收入客群），呆帳覆蓋率仍維持健康的195%（2025年5月為217%），成本收入比估計約40%出頭（估）。",
+      "Key Competitors": "數位銀行陣營：GXBank（Grab/Kuok集團）、Boost Bank（Axiata+RHB）、KAF Digital Bank、Ryt Bank（YTL-SEA）；傳統消費信貸/BNPL陣營：Public Bank、RHB、Hong Leong Bank旗下消費融資部門、MBSB，以及SPayLater、Atome等BNPL新興業者。",
+      "12M Catalysts": "融資應收款維持雙位數成長動能、個人融資組合優化帶動利差；AEON Bank虧損預期於FY2027（2026年3月起）隨兩年建置期結束而收斂；FY2026全年股息合計30.75仙、派息率40.7%（殖利率約5.1%），提供防禦性收益支撐。",
+      "Key Investment Risks": "生活成本壓力導致年輕與低收入客群不良率上升；AEON Bank持續燒錢拖累集團獲利（FY2026認列虧損分攤馬幣8,522萬元，較去年馬幣6,833萬元擴大，並於2026年1月再注資馬幣1.25億元以符合BNM最低資本要求）；五家持牌數位銀行與BNPL業者夾擊市佔率；馬幣兌日圓匯率波動影響與日本母公司相關之資金成本；大馬家庭債務高企下之監管趨嚴風險（責任放貸、BNPL監管）。",
+      "CEO & Management": "Daisuke Maeda自2026年1月1日起出任董事總經理暨執行長，此前於2017-2021年任AEON Credit Service India董事總經理、2015-2017年任AEON Specialized Bank (Cambodia)副主席暨董事總經理，具AEON集團跨亞洲消費金融資歷；Lee Tyan Jen自2021年起兼任執行董事暨營運長，統籌行銷業務發展與IT部門；集團由日本母公司AEON Financial Service Co., Ltd.持有多數股權（估約5成以上）。",
+      "Core Patents & IP": "非專利密集型產業，未見重大專利組合揭露（估）；核心無形資產為AI信用評分/數位核保引擎、AEON集團會員忠誠生態系統整合能力，以及30年在地信貸資料庫所形成的風控知識。",
+      "3-Year M&A": "近三年未見重大併購案，主要資本動作為對45%持股之AEON Bank持續注資（如2026年1月注資馬幣1.25億元以符合BNM最低資本要求並支應業務銀行部門啟動），該數位銀行係2022年由AEON Credit Service Malaysia、日本AEON Financial Service與MoneyLion組成財團取得大馬伊斯蘭數位銀行牌照，並於2024年正式營運。",
+      "CapEx & Expansion": "資本支出集中於AEON Bank之科技、人才與行銷建置（含企業銀行業務啟動），為FY2026虧損擴大主因；同時持續投入AI信用評分、電子KYC與行動應用等數位轉型工程，並依循AEON零售據點擴張服務網絡（估年度IT與數位銀行建置支出約馬幣5,000萬至8,000萬元）。",
+      "Geopolitical Exposure": "業務高度集中於馬來西亞本地消費信貸市場，直接地緣政治風險有限；惟資金來源部分透過日本母公司AEON Financial Service及Sukuk/中期票據計畫籌措，故承受馬幣兌日圓匯率與區域利率差異之間接匯率風險；營運表現主要受大馬家庭負債水準與國家銀行（BNM）政策利率（OPR）走向牽動。",
+      "M&A Potential": "作為日本AEON Financial Service多數持股之子公司，市場持續有母公司私有化/整併大馬子公司之揣測（比照AEON集團在泰國、香港、中國之消費金融布局整合模式）；惟鑑於集團資本現階段優先投入AEON Bank資金需求，AEON Credit本身主動對外併購之可能性偏低（估）。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 447 (new, claude)",
+    "updated": [],
+    "claimed": [
+      "AEON Credit Service (M) Berhad (5139.KL / AEONCR)"
+    ],
+    "unmatched": [],
+    "rows_exported": 2995
+  }
+}

@@ -114,6 +114,56 @@ def rl_config():
     return research_loop.load_config()
 
 
+ROSTER_PATH = os.path.join(SCRIPTS_DIR, 'telegram_users.json')
+
+
+def _roster_video_cap(user):
+    """A per-person allowance from the roster (`video_cap` on the user's entry), or None.
+    Read straight from the file so a change there applies to the next link with no restart;
+    any trouble reading it just means "no override"."""
+    try:
+        with open(ROSTER_PATH, 'r', encoding='utf-8') as f:
+            users = json.load(f).get('users', [])
+        for entry in users:
+            if str(entry.get('chat_id')) == str(user) and entry.get('video_cap') is not None:
+                return int(entry['video_cap'])
+    except Exception:
+        pass
+    return None
+
+
+def _video_cap(user=None):
+    """Roster override for this person first, then the config's per-user value, then the
+    constant when the config is unreadable. One place for it: the acknowledgement in
+    botffet_bot used to hardcode the constant and would have understated the count the
+    moment the value was raised. Peter gave four of his five to Dad on 2026-09-03, which is
+    what the per-person override exists for."""
+    if user is not None:
+        override = _roster_video_cap(user)
+        if override is not None:
+            return override
+    try:
+        return int(rl_config().get('video_daily_cap_per_user', DEFAULT_VIDEO_CAP))
+    except Exception:
+        return DEFAULT_VIDEO_CAP
+
+
+def video_quota_report(user, quota_db=None, cap=None):
+    """How many of today's videos this person has used and has left. Reads the counter only —
+    never claims — so asking costs nothing, and it never reaches the model: the model does not
+    know the allowance and improvised an answer when Dad asked in words on 2026-08-29."""
+    cap = _video_cap(user) if cap is None else int(cap)
+    used = quota_used(_video_quota_key(user), quota_db)
+    left = max(0, cap - used)
+    if left:
+        text = (f'📊 今天的影片整理額度：已處理 {used} 部，還可以處理 {left} 部'
+                f'（每天 {cap} 部，午夜重置）。\n直接貼上 YouTube 連結就會開始處理。')
+    else:
+        text = (f'📊 今天的影片整理額度已用完（{cap}/{cap} 部），午夜重置。\n'
+                f'抓取逐字稿不算額度，明天再傳同一個連結就會直接整理。')
+    return {'kind': 'quota', 'text': text, 'video_used': used, 'video_cap': cap}
+
+
 def _workflow(path=None):
     if _WorkflowState is None:
         return None
@@ -220,7 +270,8 @@ WELCOME = """👋 您好，我是「爸菲特」(Wanna Botffet)
 /screen 台灣 隱形冠軍 液冷
 /brief 2330
 /industries
-/focus 低軌衛星  讓接下來的深度研究批次鎖定某產業
+/focus 醫療, 保險, 化工  設定研究方向清單，探索會優先補公司最少的產業
+/research 台積電 (2330.TW)  把一家公司直接排進下一個深度研究批次
 直接貼上 YouTube 連結  我會把影片轉成文字筆記，接著可以直接討論
 /memory  看看我記得您哪些事
 /reset  清除近期對話（長期記憶保留；/reset all 全部清除）
@@ -235,24 +286,25 @@ WELCOME = """👋 您好，我是「爸菲特」(Wanna Botffet)
 
 HELP = """爸菲特 / Wanna Botffet
 
-Commands (instant, no model call):
-  /brief <name|ticker>     full research record for one company
-  /screen <terms...>       filter the corpus; terms are auto-classified:
-                             a country      -> country filter   (japan, 美國, Taiwan)
-                             a tier          -> tier filter      (隱形冠軍, hidden_champion)
-                             anything else   -> text match       (ASML, 液冷, CoWoS)
-  /industries [minimum]    list industry labels with counts
-  /focus [sector] [n]      aim the scraper at a sector; no args shows it, 'clear' removes it
-  /video <youtube url>     turn a video into notes — or just paste the link on its own
-  /countries | /tiers      list those facets
-  /memory                  what 爸菲特 remembers about you long-term
-  /reset                   forget the recent conversation (long-term memory is kept)
-  /reset all               forget everything, long-term memory included
-  /help                    this message
+指令（立即回覆，不會動用模型額度）：
+  /brief <公司名稱或代號>   查看一家公司的完整研究紀錄
+  /screen <關鍵字...>       篩選資料庫；關鍵字會自動判別：
+                             國家     -> 依國家篩選（japan、美國、Taiwan）
+                             分級     -> 依分級篩選（隱形冠軍、hidden_champion）
+                             其他     -> 文字比對（ASML、液冷、CoWoS）
+  /industries [最少家數]    列出各產業標籤與家數
+  /focus [產業, 產業, …]    設定研究方向清單（優先補最少的產業）；不加參數顯示目前清單，clear 為清除
+  /research <公司 (代號)>   把一家公司排進下一個深度研究批次；已研究過的會改排例行更新
+  /video <YouTube 連結>     把影片整理成筆記——直接貼上連結也可以
+  /quota                    今天還能處理幾部影片（直接用中文問也可以）
+  /countries | /tiers       列出國家或分級
+  /memory                   爸菲特長期記得您的哪些事
+  /reset                    清除近期對話（長期記憶保留）
+  /reset all                清除全部記憶，包括長期記憶
+  /help                     顯示這份說明
 
-Anything not starting with '/' is a question. 爸菲特 searches the database itself while
-answering — follow-up questions work, and it remembers you across conversations: standing
-facts (holdings, preferences, what you follow) plus a searchable archive of every exchange.
+不是以「/」開頭的訊息都會當作問題。爸菲特會自己查資料庫來回答，可以接著追問；
+它也會跨對話記得您：固定的事實（持股、偏好、關注的主題），以及每一次對話的可搜尋存檔。
 """
 
 
@@ -646,6 +698,27 @@ def is_greeting(text):
     return stripped.lower() in GREETINGS
 
 
+# "How many videos can I still do today?" asked in words. Both a video word and an allowance
+# word must be present, the message must be short and carry no link, so an actual question
+# about a video's content (影片講了什麼、影片裡的投資機會) still reaches the model. `yt` is
+# fenced against Latin neighbours (analytics) but not CJK ones: Dad wrote 幾個yt轉換文字的機會.
+_VIDEO_WORD = re.compile(r'影片|video|youtube|(?<![a-z])yt(?![a-z])', re.I)
+# 數量 / 還有幾 / 還有嗎 added 2026-09-08: Peter's 「今天YouTube轉檔的數量還有嗎？」 went to
+# the model and cost a question.
+_ALLOWANCE_WORD = re.compile(
+    r'額度|配額|數量|幾部|幾次|幾個.{0,12}機會|還能處理|還可以處理|還剩|剩下|剩幾|還有(?:幾|多少|嗎)'
+    r'|次數|上限|限制|quota|limit|how many|left', re.I)
+
+
+def is_video_quota_question(text):
+    stripped = (text or '').strip()
+    if not stripped or stripped.startswith('/') or len(stripped) > 40:
+        return False
+    if 'http' in stripped.lower():
+        return False
+    return bool(_VIDEO_WORD.search(stripped) and _ALLOWANCE_WORD.search(stripped))
+
+
 def parse_command(text):
     """'/screen japan ASML' -> ('screen', {...}). Raises ValueError on an unknown command."""
     parts = text.strip().split()
@@ -670,24 +743,28 @@ def parse_command(text):
         return 'facets', {'facet': name, 'min_count': minimum}
     if name in ('brief', 'b'):
         if not args:
-            raise ValueError('usage: /brief <company name or ticker>')
+            raise ValueError('用法：/brief <公司名稱或股票代號>')
         return 'brief', {'query': ' '.join(args)}
+    if name in ('quota', '額度', '影片額度'):
+        return 'quota', {}
     if name == 'video':
+        # A bare /video used to be a "paste a link" nudge; the allowance report ends with
+        # exactly that nudge, and says the number people actually came to ask for.
+        if not args:
+            return 'quota', {}
         return 'video', {'text': ' '.join(args)}
-    if name == 'focus':
+    if name in ('research', 'add', '研究'):
+        if not args:
+            raise ValueError('用法：/research <公司名稱 (股票代號)>，例如 /research 台積電 (2330.TW)')
+        return 'research', {'text': ' '.join(args)}
+    if name in ('focus', 'direction', '方向'):
         if not args:
             return 'focus', {'action': 'show'}
         if args[0].lower() in ('clear', 'off', 'none', 'stop'):
             return 'focus', {'action': 'clear'}
-        batches = None
-        # A trailing bare integer is the batch budget: '/focus 低軌衛星 3'. Sector names do not
-        # end in a standalone number, and the reply always states which reading was taken.
-        if len(args) > 1 and args[-1].isdigit():
-            batches = int(args[-1])
-            args = args[:-1]
-            if batches < 1:
-                raise ValueError('usage: /focus <sector> [how many batches]')
-        return 'focus', {'action': 'set', 'sector': ' '.join(args), 'batches': batches}
+        # The rest is a comma-separated list of industries in priority order; the parsing
+        # (separators, "Country/Sector", "free (Japan)") is shared with the dashboard.
+        return 'focus', {'action': 'set', 'text': ' '.join(args)}
     if name in ('screen', 's', 'find'):
         sel = {'match': []}
         for token in args:
@@ -699,7 +776,7 @@ def parse_command(text):
             else:
                 sel['match'].append(value)
         return 'screen', sel
-    raise ValueError(f'unknown command /{name} — try /help')
+    raise ValueError(f'沒有 /{name} 這個指令，輸入 /help 查看可用指令')
 
 
 def detect_country(question):
@@ -1107,10 +1184,10 @@ def _video_command(text, user, workflow=None, quota_db=None, cap=None):
     cannot be read should never cost one of the day's videos.
     """
     if video_intel is None:
-        return {'text': '⚠️ 影片處理功能目前無法使用。'}
+        return {'kind': 'video_error', 'text': '⚠️ 影片處理功能目前無法使用。'}
     workflow = workflow or _workflow()
     if workflow is None:
-        return {'text': '⚠️ 資料庫目前無法存取，稍後再試。'}
+        return {'kind': 'video_error', 'text': '⚠️ 資料庫目前無法存取，稍後再試。'}
 
     ids = video_intel.extract_video_ids(text)
     if not ids:
@@ -1128,7 +1205,7 @@ def _video_command(text, user, workflow=None, quota_db=None, cap=None):
                          '可以晚點再試，或換一個有字幕的影片。\n'
                          '（這次沒有動用到今天的影片額度。）')}
     except Exception as exc:
-        return {'text': f'⚠️ 取得逐字稿時失敗：{str(exc)[:200]}'}
+        return {'kind': 'video_error', 'text': f'⚠️ 取得逐字稿時失敗：{str(exc)[:200]}'}
 
     if source['status'] == 'summarised':
         notes = workflow.video_notes(source_id=source['id'], limit=1000)
@@ -1136,12 +1213,7 @@ def _video_command(text, user, workflow=None, quota_db=None, cap=None):
                 'text': _format_video_reply(source, notes, 0, True) + extra}
 
     if cap is None:
-        # Config wins so the allowance can change without a code edit; the constant is the
-        # fallback when the config is unreadable, exactly as elsewhere in this repo.
-        try:
-            cap = int(rl_config().get('video_daily_cap_per_user', DEFAULT_VIDEO_CAP))
-        except Exception:
-            cap = DEFAULT_VIDEO_CAP
+        cap = _video_cap(user)
     allowed, used = claim_quota(_video_quota_key(user), cap, quota_db)
     if not allowed:
         return {'kind': 'video_quota',
@@ -1152,7 +1224,7 @@ def _video_command(text, user, workflow=None, quota_db=None, cap=None):
     try:
         notes, dropped = video_intel.summarise_source(workflow, source)
     except Exception as exc:
-        return {'text': f'⚠️ 整理影片內容時失敗：{str(exc)[:200]}'}
+        return {'kind': 'video_error', 'text': f'⚠️ 整理影片內容時失敗：{str(exc)[:200]}'}
     # Re-read only to pick up the status and metadata the summarise step wrote. If the row
     # cannot be read back, the answer is still correct from what we already hold — losing the
     # reply over a failed refresh would be the worse outcome.
@@ -1161,78 +1233,94 @@ def _video_command(text, user, workflow=None, quota_db=None, cap=None):
             'text': _format_video_reply(source, notes, dropped, False) + extra}
 
 
-def _describe_focus(record):
-    where = '/'.join(x for x in (record.get('country'), record.get('industry')) if x)
-    scope = ('until you clear it' if record.get('batches_remaining') is None
-             else f"for the next {record['batches_remaining']} batch(es)")
-    return where, scope
+def _research_command(sel, workflow=None):
+    """One hand-picked company straight into the pipeline (2026-09-09).
 
-
-def _focus_command(sel, workflow=None):
-    """The scraper's standing sector focus, read and written from the chat.
-
-    Runs on the command path: no model call, no quota, and no new capability for the synthesis
-    call. Every reply states what the sector actually matches, because a sector the corpus has
-    never heard of is invisible until a slot silently skips hours later.
+    Command path only: no model call, no quota. The reply says exactly what happened —
+    queued at the front, promoted, sent for refresh, or rejected for want of a ticker.
     """
     workflow = workflow or _workflow()
     if workflow is None:
-        return {'text': '⚠️ The workflow database is unavailable, so the focus cannot be read '
-                        'or changed right now.'}
+        return {'text': '⚠️ 研究資料庫目前無法存取，暫時無法排入公司。'}
+    result = workflow.request_company(sel.get('text', ''), set_by='peter')
+    name = result.get('company') or sel.get('text', '')
+    replies = {
+        'queued': f'✅ 已排入：{name}。下一個深度研究批次會優先處理這家公司。',
+        'promoted': f'⏫ {name} 本來就在等待研究，已移到最前面，下一個批次優先處理。',
+        'refresh': f'🔄 {name} 資料庫已經研究過，已排入下一個例行更新批次重新整理。',
+        'running': f'⏳ {name} 正在研究中，稍後就會有結果。',
+        'invalid': ('⚠️ 看不出股票代號。請用「公司名稱 (代號)」的格式，例如 '
+                    '/research 台積電 (2330.TW)，或直接輸入代號 /research NVDA。'),
+    }
+    return {'research': result, 'text': replies.get(result['action'], f'{name}: {result["action"]}')}
+
+
+def _focus_command(sel, workflow=None, slices=None):
+    """The research direction list, read and written from the chat.
+
+    Runs on the command path: no model call, no quota, and no new capability for the synthesis
+    call. The list is the industries discovery hunts in, thinnest first (fewest researched
+    companies); it steers new-company hunting only. Every reply says how many companies each
+    name already matches, because a name the corpus has never seen simply goes to the front.
+    """
+    workflow = workflow or _workflow()
+    if workflow is None:
+        return {'text': '⚠️ 研究資料庫目前無法存取，暫時無法讀取或更改研究方向。'}
+    if industry_focus is None:
+        return {'text': '⚠️ 研究方向模組目前無法載入，暫時無法讀取或更改研究方向。'}
     action = sel.get('action', 'show')
+    if slices is None:
+        slices = industry_focus.read_slice_ledger()
+
+    def describe(rows):
+        lines = []
+        for i, row in enumerate(rows, 1):
+            label = industry_focus.direction_label(row)
+            state = row.get('state', '')
+            if state == 'next':
+                mark = ' ▶ 下一個'
+            elif state.startswith('resting until '):
+                mark = f'（暫歇至 {state[len("resting until "):][5:]}）'
+            elif state == 'paused':
+                mark = '（已暫停）'
+            else:
+                mark = ''
+            lines.append(f'{i}. {label} — 已研究 {row.get("held", 0)} 家{mark}')
+        return '\n'.join(lines)
 
     if action == 'clear':
-        cleared = workflow.clear_standing_focus()
+        cleared = workflow.clear_direction_list()
         if not cleared:
-            return {'text': 'There was no standing focus. The scraper is already choosing its '
-                            'own direction.'}
-        where, _ = _describe_focus(cleared)
+            return {'text': '目前沒有研究方向清單，探索批次本來就在自行選擇方向。'}
+        names = '、'.join(industry_focus.direction_label(r) for r in cleared)
         return {'focus': None,
-                'text': f'🧹 Cleared the standing focus ({where}). From the next batch on, the '
-                        f'scraper goes back to picking its own direction.'}
+                'text': f'🧹 已清除研究方向清單（{names}）。從下一個批次開始，'
+                        f'探索批次會回到預設輪替。'}
 
     if action == 'show':
-        record = workflow.standing_focus()
-        if not record:
+        rows = industry_focus.direction_rows(workflow, slices=slices)
+        if not rows:
             return {'focus': None,
-                    'text': ('No standing focus. The scraper picks its own direction — a country '
-                             'rotation plus whatever sectors the model favours.\n'
-                             'Set one with:  /focus <sector>   e.g.  /focus 低軌衛星')}
-        where, scope = _describe_focus(record)
-        counts = (industry_focus.focus_match_count(workflow, record.get('industry', ''),
-                                                   record.get('country', ''))
-                  if industry_focus else None)
-        line = f'🎯 Standing focus: {where} — {scope}, set by {record.get("set_by", "peter")}.'
-        if record.get('reason'):
-            line += f'\nReason recorded: {record["reason"]}'
-        if counts:
-            line += (f'\nIt matches {counts["held"]} researched and {counts["pending"]} waiting '
-                     f'companies.')
-        return {'focus': record, 'text': line}
+                    'text': ('目前沒有研究方向清單。探索批次會依預設輪替自行選擇方向。\n'
+                             '要設定請輸入：/focus 醫療, 保險, 化工（用逗號分隔，可列多個；'
+                             '探索會優先補公司最少的產業）')}
+        return {'focus': rows,
+                'text': ('🎯 研究方向清單（探索優先補公司最少的產業）：\n' + describe(rows)
+                         + '\n只影響新公司探索；既有公司的例行更新不受影響。')}
 
-    sector = (sel.get('sector') or '').strip()
-    if not sector:
-        return {'text': 'usage: /focus <sector> [how many batches]'}
-    counts = (industry_focus.focus_match_count(workflow, sector) if industry_focus
-              else {'held': 0, 'pending': 0})
-    try:
-        record = workflow.set_standing_focus(sector, batches=sel.get('batches'),
-                                             set_by='peter', reason='set from chat')
-    except ValueError as exc:
-        return {'text': f'⚠️ {exc}'}
-    where, scope = _describe_focus(record)
-    text = [f'🎯 Standing focus set to {where}, {scope}.']
-    if counts['held'] or counts['pending']:
-        text.append(f'It matches {counts["held"]} researched and {counts["pending"]} waiting '
-                    f'companies, so focused batches have existing work to pull from.')
-    else:
-        # Not an error: aiming at a sector the corpus holds nothing in is the whole point of
-        # steering. Say what will happen so it is not mistaken for a typo taking effect.
-        text.append('Nothing already held matches it. That is fine if you meant to open a new '
-                    'area — discovery will go hunting for companies in it. If you meant an '
-                    'existing sector, check the spelling with /industries.')
-    text.append('It applies from the next batch, to any slot that has no focus of its own.')
-    return {'focus': record, 'text': '\n'.join(text)}
+    entries = industry_focus.parse_direction_text(sel.get('text') or '')
+    if not entries:
+        return {'text': '用法：/focus <產業1>, <產業2>, …（例如 /focus 醫療, 保險, 化工）'}
+    workflow.set_direction_list(entries, set_by='peter')
+    rows = industry_focus.direction_rows(workflow, slices=slices)
+    names = '、'.join(industry_focus.direction_label(r) for r in rows)
+    text = [f'🎯 研究方向清單已設為：{names}。', describe(rows)]
+    unseen = [industry_focus.direction_label(r) for r in rows if not r.get('held')]
+    if unseen:
+        text.append(f'「{"、".join(unseen)}」目前資料庫沒有符合的公司，會排在最前面開拓；'
+                    f'如果您是指既有的產業，請用 /industries 確認名稱寫法。')
+    text.append('從下一個批次起生效；只影響新公司探索，例行更新不受影響。')
+    return {'focus': rows, 'text': '\n'.join(text)}
 
 
 def answer(question, *, user=None, audit=True, quota_db=None, on_event=None, **kw):
@@ -1254,7 +1342,8 @@ def answer(question, *, user=None, audit=True, quota_db=None, on_event=None, **k
     # /brief just shown) enter the chat's history. Errors, help and dry runs do not.
     # 'focus' is here for the same reason: after a video conversation ends in "/focus 低軌衛星",
     # the very next question is usually about what was just set and why.
-    if reply.get('kind') in ('screen', 'brief', 'facets', 'synthesis', 'focus', 'video'):
+    if reply.get('kind') in ('screen', 'brief', 'facets', 'synthesis', 'focus', 'video',
+                             'research'):
         history_append(user, 'user', question, quota_db)
         history_append(user, 'assistant', reply.get('text', ''), quota_db)
     return reply
@@ -1290,6 +1379,11 @@ def _route(question, *, user, rows=None, meta=None, provider=None, dry_run=False
     # model, costs a call, and gets an improvised reply that misstated the corpus size.
     if is_greeting(question) and not history_fetch(user, quota_db, turns=1):
         return {**base, 'kind': 'welcome', 'text': WELCOME.format(rows=meta['rows'])}
+
+    # "還能處理幾部影片" is answered from the counter, before the link check: it carries no
+    # link, so it would otherwise fall through to the model and cost a question.
+    if is_video_quota_question(question):
+        return {**base, **video_quota_report(user, quota_db)}
 
     # ---- video path: a pasted link, no '/' needed ----
     # Checked before the command path because Peter asked to "simply drop in any YouTube link".
@@ -1327,6 +1421,9 @@ def _route(question, *, user, rows=None, meta=None, provider=None, dry_run=False
         if kind == 'memory':
             return {**base, 'kind': 'memory', 'text': _memory_report(user, quota_db)}
 
+        if kind == 'quota':
+            return {**base, **video_quota_report(user, quota_db)}
+
         if kind == 'video':
             reply = _video_command(sel.get('text', ''), user, quota_db=quota_db)
             return {**base, 'kind': reply.pop('kind', 'video'), **reply}
@@ -1334,13 +1431,16 @@ def _route(question, *, user, rows=None, meta=None, provider=None, dry_run=False
         if kind == 'focus':
             return {**base, 'kind': 'focus', **_focus_command(sel)}
 
+        if kind == 'research':
+            return {**base, 'kind': 'research', **_research_command(sel)}
+
         if kind == 'facets':
             col = {'industries': screen.INDUSTRY, 'countries': screen.COUNTRY,
                    'tiers': screen.TIER, 'subsectors': screen.SUBSECTOR}[sel['facet']]
             pairs = [(v, n) for v, n in screen.facet_counts(rows, col) if n >= sel['min_count']]
             body = '\n'.join(f'{n:5d}  {v}' for v, n in pairs)
             return {**base, 'kind': 'facets', 'values': pairs,
-                    'text': f"{COLS[col]} · {len(pairs)} distinct\n{body}"}
+                    'text': f"{COLS[col]} · 共 {len(pairs)} 種\n{body}"}
 
         if kind == 'brief':
             hits = screen.select(rows, company=sel['query'])
@@ -1373,9 +1473,9 @@ def _route(question, *, user, rows=None, meta=None, provider=None, dry_run=False
     allowed, used = claim_quota(user, daily_cap, quota_db)
     if not allowed:
         return {**base, 'kind': 'error', 'quota_used': used,
-                'text': (f"Daily chat cap reached for this account ({used}/{daily_cap}). "
-                         f"It protects the research loop's provider budget from being spent by "
-                         f"chat. Commands still work — try /screen.")}
+                'text': (f"今天這個帳號的提問額度已用完（{used}/{daily_cap} 次）。"
+                         f"這個上限是為了保護研究批次要用的模型額度，明天會重置。"
+                         f"指令仍可使用，例如 /screen。")}
 
     # Fold aged-out turns into the rolling summary before building the prompt, so this turn
     # sends compacted notes plus a short verbatim window rather than the whole transcript.
@@ -1395,9 +1495,9 @@ def _route(question, *, user, rows=None, meta=None, provider=None, dry_run=False
         text, proposal = extract_focus_proposal(text)
         proposal_id = record_focus_proposal(proposal, user)
         if proposal_id:
-            text += (f"\n\n🎯 I've suggested focusing research on {proposal['industry']}. "
-                     f"It changes nothing until you accept it — press i in the dashboard to "
-                     f"look at it, or type /focus {proposal['industry']} to set it now.")
+            text += (f"\n\n🎯 我建議把研究方向聚焦在「{proposal['industry']}」。這只是建議，"
+                     f"您不採納就不會有任何改變——可在儀表板按 i 查看，"
+                     f"或輸入 /focus {proposal['industry']} 把它列為研究方向。")
             if on_event:
                 on_event('proposal', {'industry': proposal['industry'], 'id': proposal_id})
         return {**base, 'kind': 'synthesis', 'mode': 'agentic', 'provider_calls': 1,
@@ -1423,8 +1523,8 @@ def _oneshot(question, user, rows, meta, persona, provider, dry_run, limit,
 
     if not hits:
         return {**base, 'kind': 'synthesis', 'retrieval': how, 'prompt': prompt,
-                'text': ('No rows in the corpus matched that question. Try /screen with '
-                         'narrower terms, or /industries to see the available vocabulary.')}
+                'text': ('資料庫裡沒有符合這個問題的資料。可以試試用 /screen 加上更精確的關鍵字，'
+                         '或用 /industries 查看可用的產業名稱。')}
     if dry_run:
         return {**base, 'kind': 'dry-run', 'retrieval': how, 'prompt': prompt,
                 'shortlist': [r[screen.COMPANY] for r in hits],
@@ -1435,28 +1535,28 @@ def _oneshot(question, user, rows, meta, persona, provider, dry_run, limit,
         allowed, used = claim_quota(user, daily_cap, quota_db)
         if not allowed:
             return {**base, 'kind': 'error', 'retrieval': how, 'quota_used': used,
-                    'text': (f"Daily chat cap reached for this account ({used}/{daily_cap}). "
-                             f"It protects the research loop's provider budget from being spent "
-                             f"by chat. Commands still work — try /screen.")}
+                    'text': (f"今天這個帳號的提問額度已用完（{used}/{daily_cap} 次）。"
+                             f"這個上限是為了保護研究批次要用的模型額度，明天會重置。"
+                             f"指令仍可使用，例如 /screen。")}
 
     try:
         text = (provider or claude_provider)(prompt)
     except ProviderError as exc:
         return {**base, 'kind': 'error', 'retrieval': how, 'quota_used': used,
-                'text': f'Provider unavailable: {exc}\nCommands still work — try /screen.'}
+                'text': f'模型服務目前無法使用：{exc}\n指令仍可使用，例如 /screen。'}
     return {**base, 'kind': 'synthesis', 'retrieval': how, 'provider_calls': 1,
             'quota_used': used, 'shortlist': [r[screen.COMPANY] for r in hits], 'text': text}
 
 
 def _render(items, meta, header, total=None):
-    head = (f"# {header} · {len(items)} shown"
-            + (f" of {total}" if total is not None and total != len(items) else '')
-            + f" · data as of {meta['source_mtime']}")
+    head = (f"# {header} · 顯示 {len(items)} 筆"
+            + (f"（共 {total} 筆）" if total is not None and total != len(items) else '')
+            + f" · 資料日期 {meta['source_mtime']}")
     if not items:
-        return head + '\n(no matches)'
+        return head + '\n（沒有符合的資料）'
     out = [head]
     for i, item in enumerate(items, 1):
-        flag = '' if item.get('_complete', True) else ' · INCOMPLETE'
+        flag = '' if item.get('_complete', True) else ' · 資料不完整'
         out.append(f"\n[{i}] {item.get('Company', '?')}  {item.get('_country', '')} · "
                    f"{TIER_LABELS.get(item.get('_tier'), '')}{flag}")
         for k, v in item.items():

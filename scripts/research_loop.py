@@ -309,6 +309,11 @@ def load_state():
         last = saved.get('discovery_last_slice')
         if isinstance(last, str):
             state['discovery_last_slice'] = last
+        # Date-stamped once-a-day markers. Outside the date guard: each is compared with a
+        # date, so a stale value is simply "not today" and never wrong.
+        for key in ('daily_digest_sent', 'direction_mined_out_notified'):
+            if isinstance(saved.get(key), str):
+                state[key] = saved[key]
         if saved.get('date') == today:
             calls = saved.get('calls', 0)
             if isinstance(calls, dict):
@@ -372,7 +377,7 @@ def slice_cooldown_until(state, country, industry):
     return entry.get('cooldown_until') or ''
 
 
-def discovery_focus(cfg, state, focus_country='', focus_industry='', today=None):
+def discovery_focus(cfg, state, focus_country='', focus_industry='', today=None, plan=None):
     """Pick which slice of the world this discovery attempt should probe.
 
     An explicit slot focus always wins. Otherwise walk the rotation from the cursor, SKIPPING
@@ -385,11 +390,20 @@ def discovery_focus(cfg, state, focus_country='', focus_industry='', today=None)
     """
     if focus_country or focus_industry:
         return focus_country, focus_industry
+    today = today or datetime.date.today().isoformat()
+    # The direction list (typed in the dashboard or the bot, in the workflow DB) outranks the
+    # config rotation: hunt the thinnest listed industry that is not resting. An empty list,
+    # or one whose every row is resting, falls through to the config rotation.
+    if plan:
+        from industry_focus import pick_direction
+        pick = pick_direction(plan, slice_ledger(state), today)
+        if pick is not None:
+            return _take_slice(state, pick.get('country') or '', pick.get('industry') or '',
+                               int(state.get('discovery_cursor', 0)))
     rotation = cfg.get('discovery_focus_rotation') or []
     if not rotation:
         state['discovery_last_slice'] = slice_key('', '')
         return '', ''
-    today = today or datetime.date.today().isoformat()
     # -1 because record_discovery_attempt() has already counted this attempt.
     start = max(0, int(state.get('discovery_cursor', 0)) - 1)
     resting = []
@@ -698,10 +712,18 @@ def nominate_new(cfg, key, state, n, covered, provider='gemini',
         focus_bits.append(f"產業必須是 {focus_industry}")
     focus_text = ("本批次有嚴格篩選條件：" + "，且".join(focus_bits)
                   + "。不得用不符合條件的公司補足數量。\n") if focus_bits else ''
+    # The theme sentence follows the direction plan rather than a fixed tech list: a focused
+    # attempt names its industry alone, an open one lists the whole curated vocabulary so the
+    # model is not nudged back toward the sectors the corpus already holds most of.
+    if focus_industry:
+        theme_text = f"本批次主題：{focus_industry} 領域的全球供應鏈關鍵企業"
+    else:
+        from industry_focus import load_themes
+        theme_text = ("延續資料庫主題（" + "、".join(load_themes(cfg))
+                      + " 等全球供應鏈關鍵企業）")
     prompt = (
         "你是全球產業鏈投資研究員。請提名接下來最值得深度研究的 "
-        f"{n} 家上市公司，延續現有資料庫主題（AI伺服器、半導體、矽光子、先進封裝、低軌衛星、"
-        "電動車、先進機器人、生技新藥、航太、航運、平台經濟等全球供應鏈關鍵企業），"
+        f"{n} 家上市公司，{theme_text}，"
         "台灣與國際公司皆可，但不得與已收錄清單重複。"
         "提名時依國家優先順序：Taiwan → USA → Japan → South Korea → China → Israel → "
         "France → Germany → Netherlands → UK → 其他。\n"
@@ -801,7 +823,7 @@ def llm_call(cfg, key, state, prompt, provider='gemini', use_search=True, json_s
         raise exc
     try:
         if provider == 'claude':
-            text = claude_call(cfg, state, prompt)
+            text = claude_call(cfg, state, prompt, use_search=use_search)
         elif provider == 'codex':
             text = codex_call(cfg, state, prompt)
         elif provider == 'agy_claude':
@@ -894,10 +916,31 @@ def _quota_error(provider, message):
                            cooldown_until=_default_cooldown(kind, message))
 
 
-def claude_call(cfg, state, prompt):
+def _without_tools_arg(args):
+    """claude_args minus any `--tools <list>` pair, so a no-tools run can set its own."""
+    out, skip = [], False
+    for arg in args:
+        if skip:
+            skip = False
+        elif arg == '--tools':
+            skip = True
+        elif not arg.startswith('--tools='):
+            out.append(arg)
+    return out
+
+
+def claude_call(cfg, state, prompt, use_search=True):
     # Claude Code headless on Peter's Claude subscription — a separate quota pool
     # from the Antigravity bank, scheduled into the overnight slots.
-    cmd = [cfg.get('claude_command', 'claude'), '-p', prompt] + cfg.get('claude_args', [])
+    args = list(cfg.get('claude_args', []))
+    if not use_search:
+        # Discovery is a knowledge task (20 names checked against the covered list). With
+        # WebSearch on, sonnet verified every nominee online and hit the 600s timeout on
+        # every Claude slot from 2026-09-05 — 3 × 600s burned before the fallback provider
+        # even ran. With no tools the same prompt answers in seconds.
+        args = _without_tools_arg(args) + ['--tools', '']
+        prompt = CLI_NO_TOOLS_GUARD + prompt
+    cmd = [cfg.get('claude_command', 'claude'), '-p', prompt] + args
     last_err = ''
     for attempt in range(3):
         try:
@@ -978,11 +1021,32 @@ NOMINATION_SCHEMA = {
 
 DEFAULT_AGY_CLAUDE_MODEL = 'claude-sonnet-4-6'
 
+# The 3.7/3.8 Flash models reach for tools that 3.5 never did. On a discovery prompt they write
+# themselves a python one-liner to filter the covered-ticker list (or just "test python
+# availability"); headless print mode cannot show the RunCommand confirmation, auto-denies it,
+# and the run ends status=SUCCESS with an EMPTY response — so every discovery slot on
+# 2026-09-03 fell through to Claude (timing out) and Codex (over quota) and produced nothing.
+# Verified across 3.7 and 3.8, plain and --mode plan; plan mode does not prevent the attempt.
+# Telling the model in the prompt that it has no tools is what stops it: with this preamble
+# 3.8 returned 20 valid nominations on the same prompt. Schema runs get the strict form (no
+# tools at all — the answer must come from knowledge); prose runs only forbid terminal
+# commands and programs, so web lookups stay available to the research prompts.
+CLI_NO_TOOLS_GUARD = (
+    "重要：這是無人值守的批次作業，你沒有任何工具可用。不得執行指令、不得撰寫或執行程式、"
+    "不得搜尋網頁或開啟瀏覽器，也不得撰寫實作計畫；請只憑你既有的知識，直接輸出結構化結果。"
+    "已收錄清單只需憑閱讀比對即可，不需要用程式處理。\n"
+)
+CLI_NO_COMMANDS_GUARD = (
+    "重要：這是無人值守的批次作業。不得執行終端指令、不得撰寫或執行程式、也不得撰寫實作計畫；"
+    "沒有人會核准工具權限請求。請直接輸出要求的結果。\n"
+)
+
 
 def gemini_call_cli(cfg, state, prompt, json_schema=None, *, provider='gemini', model=None):
     """One headless Antigravity CLI run. `provider` names the counter/quota pool it bills to
     ('gemini' or 'agy_claude'); `model` overrides cfg['model'] (used for agy_claude)."""
-    cmd = [cfg.get('cli_command', 'agy'), '-p', prompt]
+    guard = CLI_NO_TOOLS_GUARD if json_schema is not None else CLI_NO_COMMANDS_GUARD
+    cmd = [cfg.get('cli_command', 'agy'), '-p', guard + prompt]
     schema_file = None
     if json_schema is None:
         cmd += cfg.get('cli_extra_args', [])
@@ -1527,10 +1591,9 @@ def run_batch(cfg, key, state, items, source, provider='gemini', mode='research'
     print(f"\n=== {label}: {len(items)} companies ===")
     batch_id = (workflow.create_batch(seq, label, mode, source, provider, items, slot_id)
                 if workflow else None)
-    start_tickers = [t for t in (extract_ticker(i['Company']) for i in items) if t]
-    send_telegram(f"🚀 *{label} started* — {len(items)} companies ({source} queue), {model}:\n"
-                  + ", ".join(i['Company'] for i in items)
-                  + ("\n\nTickers: " + ", ".join(start_tickers) if start_tickers else ""))
+    # No per-batch Telegram message any more (2026-09-08, Peter): the day's batches are
+    # folded into one digest by research_digest / maybe_send_daily_digest. The log keeps
+    # the per-batch record.
 
     records, failed, requeued, excluded_items = [], [], [], []
     providers_used = []
@@ -1708,6 +1771,7 @@ def run_batch(cfg, key, state, items, source, provider='gemini', mode='research'
                    'providers_used': providers_used,
                    'items': [{k: v for k, v in item.items() if not k.startswith('_')}
                              for item in items],
+                   'requested': [item['Company'] for item in items if item.get('_requested')],
                    'records': [entry[2] for entry in records], 'failed': failed,
                    'requeued': requeued, 'excluded': excluded_items,
                    'summary': ({k: v for k, v in summary.items() if k != 'progress'}
@@ -1716,24 +1780,11 @@ def run_batch(cfg, key, state, items, source, provider='gemini', mode='research'
     if workflow:
         workflow.finish_batch(batch_id, 'complete' if not (failed or requeued) else 'partial')
 
-    # Telegram audit in the legacy format Peter watches for
-    lines = [f"⛔ *{label} HALTED* (kill switch)" if halted else f"✅ *{label} Complete!*"]
-    if summary:
-        p = summary['progress']
-        done_names = summary['updated'] + summary['claimed']
-        lines.append(f"Total Progress: {p['real_tickers_harvested']}/100,000 "
-                     f"(fully researched: {p['deep_research_completed']})")
-        lines.append("\n*Companies Researched/Filled in this batch:*\n" + ", ".join(done_names))
-        done_tickers = [t for t in (extract_ticker(n) for n in done_names) if t]
-        if done_tickers:
-            lines.append("\nTickers: " + ", ".join(done_tickers))
-    if failed:
-        lines.append(f"\n⚠ Manual review {len(failed)}: " + ", ".join(failed[:8]))
-    if requeued:
-        lines.append(f"\n↩ Requeued {len(requeued)} for a future batch")
-    if excluded_items:
-        lines.append(f"\n⊘ Excluded {len(excluded_items)}: " + ", ".join(excluded_items[:8]))
-    send_telegram("\n".join(lines))
+    # A halt is still worth an immediate message; a completed batch is not — it goes into the
+    # daily digest (2026-09-08).
+    if halted:
+        send_telegram(f"⛔ *{label} HALTED* (kill switch) — applied {len(records)} of "
+                      f"{len(items)} before stopping.")
     print(f"=== {label} done: applied {len(records)}, review {len(failed)}, "
           f"requeued {len(requeued)}, excluded {len(excluded_items)} ===")
     return len(records)
@@ -1742,7 +1793,8 @@ def run_batch(cfg, key, state, items, source, provider='gemini', mode='research'
 def _workflow_item(row):
     return {'Company': row['company_name'], 'Country': row['country'],
             'Industry': row['industry'], 'Tier': row['tier'],
-            '_company_id': row['id']}
+            '_company_id': row['id'],
+            '_requested': (row['source'] if 'source' in row.keys() else '') == 'manual'}
 
 
 def build_queue(cfg, key, state, batch_size, provider='gemini', mode='research', workflow=None,
@@ -1773,21 +1825,29 @@ def build_queue(cfg, key, state, batch_size, provider='gemini', mode='research',
     workflow.enqueue_items(repair, source='repair')
     retry_cap = cfg.get('retry_slots_per_batch', 10)
     rows = workflow.research_queue(batch_size, retry_cap, focus_country, focus_industry)
-    # Finish known repair/pending work before spending an LLM call to discover more.
-    # When the queue is empty, allow only a small daily number of discovery attempts.
-    if not rows and discovery_budget_available(cfg, state):
+    # Top up rather than wait for empty (2026-09-09): a short queue — a hand-picked company,
+    # a couple of retries — used to swallow the whole slot, one item researched and no hunt.
+    # The hunt now runs whenever the batch has room, still within the daily attempt budget.
+    already = len(rows)
+    if already < batch_size and discovery_budget_available(cfg, state):
         chosen = select_provider(cfg, state, provider)
         if chosen:
             record_discovery_attempt(state)
             # Rotate the slice each attempt. Coverage is heavily skewed (Taiwan 538, USA 424,
             # Japan 182 …), so an undirected nomination keeps re-proposing the same saturated
             # names; steering at an under-covered slice is what makes a new attempt productive.
+            plan = workflow.direction_status()
+            if not isinstance(plan, list):
+                plan = None
+            _warn_if_direction_mined_out(cfg, state, plan)
             slice_country, slice_industry = discovery_focus(cfg, state,
-                                                            focus_country, focus_industry)
+                                                            focus_country, focus_industry,
+                                                            plan=plan)
             where = '/'.join(x for x in (slice_country, slice_industry) if x) or 'global'
-            # Show only the focused country's tickers: a 17k-character global list is
-            # noise once the attempt is steered at one slice.
-            listed = workflow.covered_tickers(slice_country) if slice_country else None
+            # Show only the slice's own tickers: a 30k-character global list is noise once
+            # the attempt is steered at one country or industry.
+            listed = (workflow.covered_tickers(slice_country, slice_industry)
+                      if (slice_country or slice_industry) else None)
             # Fall back across providers exactly as maintenance screening does. Discovery
             # used to give up on the first failure, so one provider returning prose instead
             # of JSON silently cost the whole slot — and looked identical to a saturated
@@ -1826,7 +1886,8 @@ def build_queue(cfg, key, state, batch_size, provider='gemini', mode='research',
                 # honest measure of whether the attempt produced work.
                 rows = workflow.research_queue(batch_size, retry_cap,
                                                focus_country, focus_industry)
-                produced = record_discovery_result(state, nominated, created=len(rows),
+                produced = record_discovery_result(state, nominated,
+                                                   created=max(0, len(rows) - already),
                                                    cfg=cfg)
                 print(f"  discovery [{where}]: nominated {len(nominated or [])}, "
                       f"{produced} new to research")
@@ -1850,6 +1911,58 @@ def build_queue(cfg, key, state, batch_size, provider='gemini', mode='research',
     source = sources.pop() if len(sources) == 1 else ('new' if not sources else 'mixed')
     return items, source, len(workflow.research_queue(
         1000000, retry_cap, focus_country, focus_industry))
+
+
+def maybe_send_daily_digest(cfg, state, now=None, sender=None):
+    """Send yesterday's digest once local time passes cfg['daily_digest_time'] (HH:MM,
+    default 00:05; empty disables). Called from the idle path only, so a batch running
+    across midnight finishes first and lands in the day its file is stamped with.
+
+    First run: the marker is missing, so it is set to the day that is already due WITHOUT
+    sending — otherwise every restart would replay an old day. Returns the day sent, or None.
+    """
+    at = str(cfg.get('daily_digest_time', '00:05') or '').strip()
+    if not at:
+        return None
+    now = now or datetime.datetime.now()
+    passed = now.strftime('%H:%M') >= at
+    due = (now.date() - datetime.timedelta(days=1 if passed else 2)).isoformat()
+    sent = state.get('daily_digest_sent')
+    if not isinstance(sent, str):
+        state['daily_digest_sent'] = due
+        save_state(state)
+        return None
+    if sent >= due:
+        return None
+    from research_digest import send_digest
+    pieces = send_digest(due, sender or send_telegram)
+    state['daily_digest_sent'] = due
+    save_state(state)
+    print(f"📋 daily digest for {due} sent ({len(pieces)} message(s))")
+    return due
+
+
+def _warn_if_direction_mined_out(cfg, state, plan):
+    """Once a day, say when every listed industry is resting: the list needs retyping.
+
+    Without this the fallback to the config rotation is silent, and the log would read like a
+    plan that was never set. The loop keeps working either way.
+    """
+    if not plan or not any(r.get('enabled', 1) for r in plan):
+        return
+    from industry_focus import pick_direction
+    today = datetime.date.today().isoformat()
+    if pick_direction(plan, slice_ledger(state), today) is not None:
+        return
+    if state.get('direction_mined_out_notified') == today:
+        return
+    state['direction_mined_out_notified'] = today
+    save_state(state)
+    print('  ⚠️  direction list mined out — every listed industry is resting; '
+          'falling back to the config rotation until the list is retyped')
+    send_telegram('*Direction list mined out* — every industry on the list came back empty '
+                  'twice and is resting. Discovery is on the config rotation until you type a '
+                  'new list (dashboard, or /focus in the bot).')
 
 
 def effective_focus(workflow, slot):
@@ -1996,6 +2109,10 @@ def main():
         workflow.seed_daily_slots(day, cfg.get('schedule', []))
         slot = workflow.claim_due_slot(now)
         if not slot:
+            try:
+                maybe_send_daily_digest(cfg, load_state(), now)
+            except Exception as exc:
+                print(f"  ⚠️  daily digest failed: {exc}")
             upcoming = workflow.next_daily_slot(day, now.strftime('%H:%M'))
             marker = ((upcoming['slot_time'], upcoming['provider'], upcoming['mode'])
                       if upcoming else None)
@@ -2038,7 +2155,25 @@ def main():
                         detail = (f"Focus {focus} matched none of the {unfocused} pending "
                                   f"companies — the queue is not empty, the focus is too narrow")
 
-                if mode != 'maintenance' and not workflow.research_queue(1):
+                # A focus that matches nothing must not idle the slot. 2026-09-03..08 a fintech
+                # focus with no batch budget skipped research slots ("matched none of the 2
+                # pending") and every maintenance slot ("No matching candidates") while 2,193
+                # companies sat overdue for their routine refresh. Run the slot unfocused
+                # instead and say so; the focus is still consumed after run_batch, so a
+                # budgeted focus that never matches cannot linger forever either.
+                if focus:
+                    print(f"  focus {focus} matched nothing for this slot — running it unfocused.")
+                    focus_country = focus_industry = ''
+                    if mode == 'maintenance':
+                        items, source, remaining = prepare_maintenance_slot(
+                            cfg, key, state, provider, workflow, allow_forced_provider=False)
+                    else:
+                        items, source, remaining = build_queue(
+                            cfg, key, state, cfg['batch_size'], provider, mode, workflow)
+                    if not items:
+                        detail += ' — the unfocused fallback found nothing either'
+
+                if not items and mode != 'maintenance' and not workflow.research_queue(1):
                     print(f"Queue empty ({mode}), auto-falling back to maintenance mode.")
                     # Notify once per day, not once per slot. With 18 research slots against a
                     # drained queue this fired ~16 times a day, which buried real alerts and

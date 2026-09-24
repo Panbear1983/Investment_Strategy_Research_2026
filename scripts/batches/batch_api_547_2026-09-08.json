@@ -1,0 +1,53 @@
+{
+  "label": "API Batch 547 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "Hecto Financial Co., Ltd. (235980.KQ)",
+      "Country": "South Korea",
+      "Industry": "金融科技",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "South Korea",
+      "Timeframe": "中長期",
+      "Sub-Sector": "金融科技",
+      "Industry": "金融科技與數位支付清算服務",
+      "Tier": "隱形冠軍",
+      "Company": "Hecto Financial Co., Ltd. (234340.KQ)",
+      "Capital/Market Cap": "約 3,350億韓元（約合 2.5億美元）",
+      "Core Business": "南韓領先的電子金融交易與支付清算基礎設施商，業務涵蓋虛擬帳號（Virtual Account）、以「內存摺支付」為核心的簡易現金支付、第三方支付閘道（PG）及新興跨境差額結算與小額海外匯款。",
+      "Clients & Orders": "深度綁定南韓各大公共事業機關、大型保險機構與主要電商平台，並成功切入全球巨頭在地結算體系，客戶包含 Google、AliExpress（速賣通）、Temu 及 Steam 等跨國企業。",
+      "Technical Moat": "建構直連全韓各主要商業銀行與金融機構的 Firm Banking 實時清算直連網路，於南韓虛擬帳號市場享有超過 70% 寡占地位，並握有高並發帳戶實名驗證與自動化清算核心專利技術。",
+      "Revenue Breakdown": "2024至2025年間營收以電子支付代理（PG）佔比最高（約 45%–50%），高毛利的簡易現金支付佔約 25%–30%，虛擬帳號清算佔約 10%–15%，其餘為數據服務、海外跨境結算與 010PAY 平台營收。",
+      "Gross Margin Profile": "受惠於簡易現金支付（毛利率逾 70%）與虛擬帳號高定價權，綜合毛利率高達 70%–80%（扣除銀行通道成本後淨額口徑逾 90%）；營業利益率由 2024–2025年的 8.3% 於 2026年上半年顯著擴張至約 12.7%。",
+      "Key Competitors": "南韓境內主要競爭對手包括傳統電子支付巨頭 KG Inicis (035600.KQ)、NHN KCP (060250.KQ)、Danal (064260.KQ) 以及大科技旗下之 Toss Payments、Kakao Pay 與 Naver Pay。",
+      "12M Catalysts": "速賣通與 Temu 等跨境電商在韓結算放量；作為 Circle 支付網路（CPN）在韓唯一結算夥伴推進 USDC 等穩定幣跨境清算商業化；2026年獲批小額海外匯款牌照落地個人跨境匯款；企業價值提升計畫（Value-up）帶動現金股利與自購註銷。",
+      "Key Investment Risks": "南韓電商滲透率趨於飽和使傳統 PG 費率面臨壓縮競爭；2024年電商平台流動性危機引發金融當局對電子金融交易法實施更嚴格的結算週期與託管監管；跨境中資電商進口政策變動風險。",
+      "CEO & Management": "由執行長最終元（Choi Jong-won）掌舵日常營運，母集團 Hecto Innovation 創辦人兼董事會主席李慶民（Lee Kyung-min）統籌資本配置，團隊具備深厚的銀行核心系統整併、法遵合規與跨境金融擴張資歷。",
+      "Core Patents & IP": "持有虛擬帳號實時分派與銷帳演算法、跨行 Firm Banking 批次處理直連技術、多因子帳戶鑑別等核心專利，並整合集團旗下 Wallet One 擁有的 18 條區塊鏈公鏈錢包 API 技術與 ISMS 資安管理認證。",
+      "3-Year M&A": "2025年母集團斥資約 92.9億韓元收購虛擬資產錢包商 Wallet One（前身為 Hexlant）47.15% 股權建立「錢包-支付-平台」閉環，並於2025年7月正式設立「株式會社 Hecto Financial Japan」加速拓展東北亞業務版圖。",
+      "CapEx & Expansion": "資本支出聚焦於高頻金融清算系統之雲端原生架構升級、海外營運樞紐（日本、新加坡、台灣）之資質取得與牌照申請，以及串接全球穩定幣結算 API 的軟硬體基建研發。",
+      "Geopolitical Exposure": "業務成長高度受惠並曝險於中韓跨境電商貿易量與雙邊關稅免稅政策調整；同時須嚴格符合美韓兩國反洗錢（AML/KYC）標準以及南韓金融監督院對外匯與跨境數據傳輸之合規要求。",
+      "M&A Potential": "最大股東 Hecto Innovation 持股約 38.5%，經營權結構穩固且無惡意併購風險；惟因具備南韓全境銀行直連支付網關之稀缺牌照與清算系統，對意圖進軍南韓的全球跨國支付巨頭或國際私募股權基金具極高之合資戰略價值。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 547 (new, gemini)",
+    "updated": [
+      "Hecto Financial Co., Ltd. (234340.KQ)"
+    ],
+    "claimed": [],
+    "unmatched": [],
+    "rows_exported": 3294
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "label": "API Batch 560 (new, claude)",
+  "source": "new",
+  "provider": "claude",
+  "providers_used": [
+    "claude"
+  ],
+  "items": [
+    {
+      "Company": "經緯航太 GEOSAT (2440.TWO)",
+      "Country": "Taiwan",
+      "Industry": "無人機",
+      "Tier": ""
+    },
+    {
+      "Company": "Ondas Holdings (ONDS)",
+      "Country": "USA",
+      "Industry": "無人機",
+      "Tier": ""
+    },
+    {
+      "Company": "Uconsystem (054920.KQ)",
+      "Country": "South Korea",
+      "Industry": "無人機",
+      "Tier": ""
+    },
+    {
+      "Company": "極飛科技 XAG Co (2681.HK)",
+      "Country": "China",
+      "Industry": "無人機",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "USA",
+      "Timeframe": "中期",
+      "Sub-Sector": "無人機／反制系統",
+      "Industry": "自主無人機與邊境安防系統",
+      "Tier": "潛力股",
+      "Company": "Ondas Inc. (ONDS)",
+      "Capital/Market Cap": "美元，約44億美元（2026年9月股價約7.6美元，流通股數約5.71億股，屬小型股）",
+      "Core Business": "公司於2026年1月由Ondas Holdings更名為Ondas Inc.，旗下分兩大事業體：Ondas Networks提供基於IEEE 802.16s／FullMAX標準的關鍵基礎設施私有寬頻無線網路（鐵路、公用事業、油氣管線）；Ondas Autonomous Systems（OAS）整合American Robotics（Optimus System全自動「機庫式」無人機）、Airobotics、Iron Drone Raider攔截型反無人機系統，主攻國防、邊境安防與工業巡檢市場。近兩年公司透過連續併購快速從網路設備商轉型為軍民兩用自主系統整合商。",
+      "Clients & Orders": "旗下Airobotics子公司於2026年3月獲選為某國家級邊境防護計畫主承包商，取得2,000萬美元首批訂單，為期兩年、規劃部署數千架自主無人機提供持續監偵、蜂群式反應與威脅自動化處置；American Robotics Optimus無人機已列入美國國防部DCMA Blue UAS合格清單，加速聯邦採購資格。2026年第二季營收達8,380萬美元創單季新高，年增逾13倍，年度化預估訂單量（backlog）達7.57億美元（估）。",
+      "Technical Moat": "American Robotics Optimus System為少數取得FAA Part 107.29豁免、可在無人監看下自動起降充電的「機庫式」無人機平台之一；Sentrycs的Cyber-over-RF（CoRF）協定操控反制技術可在不干擾民航通訊下接管敵方無人機控制權，與Iron Drone Raider攔截機形成分層式反無人機（C-UAS）防禦；Ondas Networks的FullMAX頻譜效率與長距離低延遲特性則是鐵路、電網等關鍵基礎設施客戶的差異化賣點。",
+      "Revenue Breakdown": "2026年第二季營收8,380萬美元中，Airobotics（含Optimus System與Iron Drone Raider）貢獻約680萬美元，Sentrycs貢獻約2,180萬美元，Omnisys（雷達）貢獻約1,320萬美元，其餘來自Ondas Networks既有電信與鐵路客戶及新併購Cyberhawk之AI無人機巡檢業務；自2025年6月以來完成的併購合計貢獻約7,000萬美元年增營收（估）。",
+      "Gross Margin Profile": "2026年第二季毛利率43.1%，較去年同期53.1%下滑，主因新併購資產之無形資產（智財）攤銷費用增加；隨規模效應與整合綜效顯現，管理層預期毛利率中期可回升至50%以上（估）。",
+      "Key Competitors": "AeroVironment（AVAV，市值規模大逾十倍的老牌軍用無人機龍頭）、Anduril Industries（未上市，國防科技獨角獸）、Skydio、Percepto（工業無人機）；反無人機領域另面對Dedrone、DroneShield等專業廠商競爭；Ondas以「Type Certification」型式認證及垂直整合軟硬體反制方案作區隔。",
+      "12M Catalysts": "邊境防護計畫後續階段訂單放量（原規劃兩年多階段部署）；American Robotics Optimus取得更多聯邦及盟國採購合約；歐洲「無人機牆」（Drone Wall）相關國防預算若通過可望帶來新標案；Ondas Networks在美國鐵路產業（PTC強制升級）與電網現代化需求下之頻譜／設備訂單；後續潛在併購整合完成後之綜效與毛利率回升。",
+      "Key Investment Risks": "近兩年高度依賴股權增發稀釋（流通股數快速膨脹）籌措併購與營運資金；短期內完成六家以上公司併購，整合風險與商譽減損疑慮上升；仍處虧損狀態，第二季每股虧損高於市場預期；營收高度集中於少數政府型大型標案，訂單認列時程與地緣政治不確定性大；面對AeroVironment、Anduril等資本實力遠大於己的競爭者，議價與規模劣勢明顯。",
+      "CEO & Management": "創辦人Eric Brock擔任董事長暨執行長，主導公司自電信設備商轉型為自主系統整合商之策略；財務長Neil Laird自2024年6月上任，此前已提供公司會計財務服務多年；Oshri Lugassy出任Ondas Autonomous Systems（OAS）共同執行長，負責無人機與機器人國防／工業解決方案之部署執行。",
+      "Core Patents & IP": "American Robotics持有無人監看自動化無人機起降、充電及任務排程相關專利組合，並為業界少數取得FAA無人監看飛行豁免資格之廠商；Sentrycs擁有Cyber-over-RF協定操控與訊號情報（SIGINT）反制無人機之核心專利技術；Ondas Networks在IEEE 802.16s標準制定與FullMAX窄頻寬廣域無線傳輸技術上具早期專利佈局。",
+      "3-Year M&A": "2025年6月至2026年間密集併購擴張，主要標的包括Sentrycs（以色列Cyber-over-RF反無人機技術商）、Omnisys（雷達感測系統商）、Cyberhawk（AI驅動無人機基礎設施巡檢）等，2026年內累計完成六筆收購案（估，依公開報導），策略聚焦補強反無人機、雷達感測與AI巡檢能力，加速從網路設備商轉型為自主防禦系統整合平台。",
+      "CapEx & Expansion": "資本支出集中於Optimus System與Iron Drone Raider產線擴充、以色列與美國研發及製造據點整合，以及為滿足邊境防護計畫兩年期部署所需之無人機機庫（drone-in-a-box）站點建置；管理層預估2026年資本支出將隨新訂單放量同步增加，惟具體金額尚未單獨揭露（估）。",
+      "Geopolitical Exposure": "核心成長動能之一的邊境防護大單來自海外政府客戶（公司未完整揭露國別，市場推測涉及以色列或東歐國家），子公司Sentrycs、Airobotics總部位於以色列，中東地緣政治情勢波動可能影響其研發生產及交付排程；同時受惠於美國、歐盟強化邊境安防與反無人機國防預算增長之總體趨勢，但也暴露於美國對外軍售（FMS）審批與出口管制政策變動風險。",
+      "M&A Potential": "公司本身正處於「連續併購者」（roll-up acquirer）階段，短期內被更大型國防承包商（如洛克希德馬丁、Anduril）併購之機率偏低；反向而言，若後續整合出現財務壓力或估值大幅回落，不排除成為大型國防科技公司收購反無人機／邊境安防技術組合的潛在標的（估）。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [
+    "經緯航太 GEOSAT (2440.TWO)",
+    "Uconsystem (054920.KQ)",
+    "極飛科技 XAG Co (2681.HK)"
+  ],
+  "summary": {
+    "batch_label": "API Batch 560 (new, claude)",
+    "updated": [],
+    "claimed": [
+      "Ondas Inc. (ONDS)"
+    ],
+    "unmatched": [],
+    "rows_exported": 3352
+  }
+}

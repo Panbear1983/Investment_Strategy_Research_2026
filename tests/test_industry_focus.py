@@ -158,3 +158,72 @@ class SummaryLineTests(unittest.TestCase):
         line = inf.summary_line(self.COVERAGE, None, {'focused': 0, 'total': 20})
         self.assertIn('slot focus 0/20', line)
         self.assertIn('29% unmapped', line)
+
+
+class DirectionRowsTests(unittest.TestCase):
+    """The direction list annotated for the dashboard: held, new, and which row is next."""
+
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.state = WorkflowState(os.path.join(self.tmp.name, 'workflow.sqlite3'))
+        for name, industry, status in (
+                ('Exact (E1)', '半導體', DEEP_RESEARCHED),
+                ('Suffixed (E2)', '半導體業', DEEP_RESEARCHED),
+                ('Defence (D1)', '航太與國防', DEEP_RESEARCHED),
+                ('Waiting (W1)', '低軌衛星', RESEARCH_PENDING)):
+            self.state.upsert_company(
+                {'Company': name, 'Country': 'Taiwan', 'Industry': industry}, status)
+        self.plan = [
+            {'id': 1, 'industry': '半導體', 'country': '', 'enabled': 1},
+            {'id': 2, 'industry': '', 'country': 'Taiwan', 'enabled': 1},
+            {'id': 3, 'industry': '國防', 'country': '', 'enabled': 0},
+            {'id': 4, 'industry': '保險', 'country': '', 'enabled': 1},
+        ]
+
+    def tearDown(self):
+        self.tmp.cleanup()
+
+    def test_rows_carry_held_new_and_state_with_the_thinnest_marked_next(self):
+        rows = inf.direction_rows(self.state, self.plan,
+                                  slices={'|半導體': {'cooldown_until': '2099-01-01',
+                                                     'last_productive': '2026-09-01'}},
+                                  today='2026-09-08')
+        by_id = {r['id']: r for r in rows}
+        self.assertEqual((by_id[1]['held'], by_id[1]['new']), (2, 2))
+        self.assertEqual(by_id[1]['state'], 'resting until 2099-01-01')
+        self.assertEqual(by_id[1]['last_productive'], '2026-09-01')
+        self.assertEqual((by_id[2]['held'], by_id[2]['state']), (3, 'active'))
+        self.assertEqual(by_id[3]['state'], 'paused')
+        self.assertEqual((by_id[4]['held'], by_id[4]['state']), (0, 'next'))
+
+    def test_a_cooldown_in_the_past_is_not_resting(self):
+        rows = inf.direction_rows(self.state, self.plan[:1],
+                                  slices={'|半導體': {'cooldown_until': '2026-09-01'}},
+                                  today='2026-09-08')
+        self.assertEqual(rows[0]['state'], 'next')
+
+    def test_pick_prefers_fewest_held_then_typed_order(self):
+        rows = [{'industry': 'A', 'held': 5, 'enabled': 1},
+                {'industry': 'B', 'held': 2, 'enabled': 1},
+                {'industry': 'C', 'held': 2, 'enabled': 1}]
+        self.assertEqual(inf.pick_direction(rows, today='2026-09-08')['industry'], 'B')
+        self.assertIsNone(inf.pick_direction([], today='2026-09-08'))
+
+    def test_labels_line_and_typed_text(self):
+        rows = inf.direction_rows(self.state, self.plan,
+                                  slices={'|半導體': {'cooldown_until': '2099-01-01'}},
+                                  today='2026-09-08')
+        self.assertEqual([inf.direction_label(r) for r in rows],
+                         ['半導體', 'free (Taiwan)', '國防', '保險'])
+        self.assertEqual(inf.direction_line(rows),
+                         'Direction: 半導體 2 (resting) · free (Taiwan) 3 · 保險 0 ▶')
+        self.assertEqual(inf.direction_text(rows), '半導體, free (Taiwan), 國防, 保險')
+        self.assertTrue(inf.direction_line([]).startswith('Direction: none set'))
+
+    def test_parse_accepts_every_separator_and_form_and_round_trips(self):
+        parsed = inf.parse_direction_text('保險, 銀行，Japan/醫療、free (Germany); free\n保險')
+        self.assertEqual(parsed, [('保險', ''), ('銀行', ''), ('醫療', 'Japan'),
+                                  ('', 'Germany'), ('', '')])
+        self.assertEqual(inf.parse_direction_text(''), [])
+        rows = [{'industry': i, 'country': c} for i, c in parsed]
+        self.assertEqual(inf.parse_direction_text(inf.direction_text(rows)), parsed)

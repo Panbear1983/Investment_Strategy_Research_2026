@@ -156,3 +156,144 @@ def summary_line(coverage, focus=None, slot_summary=None):
     elif slot_summary:
         bits.append(f"slot focus {slot_summary['focused']}/{slot_summary['total']}")
     return ' · '.join(bits)
+
+
+# ---- direction list ---------------------------------------------------------------------
+# The direction list is the industries Peter typed, in priority order. Discovery hunts the
+# thinnest one (fewest researched companies) that is not resting; a never-researched name
+# counts as zero and therefore goes first. It steers new-company hunting only.
+
+LOOP_STATE_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'loop_state.json')
+
+
+def read_slice_ledger(path=None):
+    """The loop's per-slice discovery memory (resting until / last productive), raw from
+    loop_state.json. Read-only; an unreadable file reads as an empty ledger."""
+    import json
+    try:
+        with open(path or LOOP_STATE_PATH, encoding='utf-8') as f:
+            raw = json.load(f)
+    except (OSError, ValueError):
+        return {}
+    ledger = raw.get('discovery_slices') if isinstance(raw, dict) else None
+    return ledger if isinstance(ledger, dict) else {}
+
+
+def parse_direction_text(text):
+    """'保險, 銀行, Japan/醫療, free (Germany)' -> [(industry, country), ...] in typed order.
+
+    Separators: comma (ASCII or full-width), 、, ; and newlines. "free" is a row with no
+    industry (the model picks), "free (Japan)" the same within one country, "Japan/醫療" an
+    industry within one country. Duplicates collapse, order is kept.
+    """
+    import re
+    items, seen = [], set()
+    for raw in re.split(r'[,，、;\n]+', text or ''):
+        item = raw.strip()
+        if not item:
+            continue
+        low = item.lower()
+        if low == 'free':
+            pair = ('', '')
+        elif low.startswith('free (') and low.endswith(')'):
+            pair = ('', item[6:-1].strip())
+        elif low.startswith('free(') and low.endswith(')'):
+            pair = ('', item[5:-1].strip())
+        elif '/' in item:
+            country, industry = (x.strip() for x in item.split('/', 1))
+            pair = (industry, country)
+        else:
+            pair = (item, '')
+        if pair not in seen:
+            seen.add(pair)
+            items.append(pair)
+    return items
+
+
+def _slice_key(row):
+    return f"{row.get('country') or ''}|{row.get('industry') or ''}"
+
+
+def _resting_until(row, slices, today):
+    until = ((slices or {}).get(_slice_key(row)) or {}).get('cooldown_until') or ''
+    return until if until and until > today else ''
+
+
+def pick_direction(rows, slices=None, today=None):
+    """The row discovery should hunt next: enabled, not resting, fewest held; ties go to the
+    row typed earlier. None when the list is empty or every row is resting."""
+    today = today or datetime.date.today().isoformat()
+    candidates = []
+    for index, row in enumerate(rows or []):
+        if not row.get('enabled', 1) or _resting_until(row, slices, today):
+            continue
+        candidates.append((int(row.get('held') or 0), index, row))
+    if not candidates:
+        return None
+    return min(candidates, key=lambda c: (c[0], c[1]))[2]
+
+
+def direction_rows(workflow, plan=None, slices=None, today=None, window_days=DEFAULT_WINDOW_DAYS):
+    """The direction list annotated for display.
+
+    held: researched companies matching the row; new: companies added under it in the last
+    window_days; state: 'next' (the row the next hunt asks for), 'active', 'resting until
+    <date>' (the loop's slice ledger has it cooling down) or 'paused'. Read-only.
+    """
+    from research_state import focus_filters
+    plan = workflow.direction_plan() if plan is None else plan
+    slices = slices or {}
+    today = today or datetime.date.today().isoformat()
+    cutoff = (datetime.datetime.now(datetime.timezone.utc)
+              - datetime.timedelta(days=window_days)).isoformat()
+    rows = []
+    with workflow.connect() as db:
+        for r in plan:
+            clause, args = focus_filters(r.get('country') or None, r.get('industry') or None)
+            held = db.execute(f'SELECT COUNT(*) n FROM companies WHERE research_status=?{clause}',
+                              (DEEP_RESEARCHED, *args)).fetchone()['n']
+            new = db.execute(f'SELECT COUNT(*) n FROM companies WHERE created_at>=?{clause}',
+                             (cutoff, *args)).fetchone()['n']
+            ledger = slices.get(_slice_key(r)) or {}
+            resting = _resting_until(r, slices, today)
+            enabled = bool(r.get('enabled', 1))
+            state = 'paused' if not enabled else (f'resting until {resting}' if resting
+                                                  else 'active')
+            rows.append({**r, 'held': held, 'new': new, 'state': state,
+                         'last_productive': ledger.get('last_productive') or ''})
+    nxt = pick_direction(rows, slices, today)
+    if nxt is not None:
+        nxt['state'] = 'next'
+    return rows
+
+
+def direction_label(row):
+    """'醫療', 'Japan/醫療', or 'free (Japan)' / 'free' for a row with no industry."""
+    industry = (row.get('industry') or '').strip()
+    country = (row.get('country') or '').strip()
+    if industry:
+        return f'{country}/{industry}' if country else industry
+    return f'free ({country})' if country else 'free'
+
+
+def direction_text(rows):
+    """The list in the form the typing box accepts, so the box can be prefilled and edited."""
+    return ', '.join(direction_label(r) for r in rows)
+
+
+def direction_line(rows):
+    """One line: 'Direction: 化工 6 ▶ · 機械 75 · 金融 745 (resting)'. Held counts show why
+    the marked row is next; paused rows are left out."""
+    active = [r for r in rows if r.get('enabled', 1)]
+    if not active:
+        return 'Direction: none set — discovery follows the config rotation; type a list to steer'
+    bits = []
+    for r in active:
+        bit = f"{direction_label(r)} {r.get('held', 0)}"
+        state = str(r.get('state', ''))
+        if state == 'next':
+            bit += ' ▶'
+        elif state.startswith('resting'):
+            bit += ' (resting)'
+        bits.append(bit)
+    return 'Direction: ' + ' · '.join(bits)

@@ -1,0 +1,54 @@
+{
+  "label": "API Batch 813 (new, claude)",
+  "source": "new",
+  "provider": "claude",
+  "providers_used": [
+    "claude"
+  ],
+  "items": [
+    {
+      "Company": "Accsys Technologies (ACCS.AS)",
+      "Country": "Netherlands",
+      "Industry": "材料",
+      "Tier": ""
+    }
+  ],
+  "requested": [],
+  "records": [
+    {
+      "Country": "Netherlands",
+      "Timeframe": "中期",
+      "Sub-Sector": "永續工程木材（乙醯化木材）",
+      "Industry": "材料",
+      "Tier": "潛力股",
+      "Company": "Accsys Technologies (AXS.AS)",
+      "Capital/Market Cap": "約2.2億歐元（約1.9至2.0億英鎊，估）。指定代號 ACCS.AS 與公司不符，Accsys 的 Euronext Amsterdam 代號為 AXS（AXS.AS），另在倫敦 AIM 以 AXS 掛牌。近期股價約70便士，分析師共識目標價約111便士。",
+      "Core Business": "以專利乙醯化製程把速生針葉木（主要為輻射松）改質成高耐久、尺寸穩定的 Accoya 木材，用於門窗、外牆、地板、戶外平台與造船。同時生產 Tricoya 乙醯化木纖維板元件，用於戶外建材，Tricoya 由 Arnhem 廠供應。生產基地為荷蘭 Arnhem，以及與 Eastman 合資（Accsys 持股60%）的美國 Kingsport 廠。另有威爾斯 Barry 的 Accoya Color 上色設施。",
+      "Clients & Orders": "客戶為歐洲、北美與亞太的木材經銷商、門窗與外牆製造商、建築師指定的高階住宅與商業專案，全球網絡涵蓋逾50國。FY2026（截至2026年3月）銷量創高，達77,237立方米，年增21%；北美銷量年增60%，Accoya Color 銷量年增51%。Tricoya 客戶為板材製造夥伴，如 Medite 系統。無單一大額訂單披露，銷售以經銷商網絡與規格指定為主。",
+      "Technical Moat": "以乙醯酐對木材做乙醯化，把羥基轉成乙酸酯，使木材吸水量大幅降低，尺寸穩定性與耐腐朽等級達 Class 1，並可提供50年地上與25年地下或淡水壽命保證。公司同時掌握化學製程、反應器放大與 Accoya 品牌認證，Kingsport 廠的乙酸酐由 Eastman 供應，形成供應鏈整合。Accoya 是規格指定型產品，有 FSC、Cradle to Cradle 銀級與 EPD 認證，具品牌與認證護城河。",
+      "Revenue Breakdown": "FY2026 集團營收約1.53億歐元，年增12%，同口徑年增20%。其中 Accoya 約1.39億歐元（約91%），Tricoya 與其他約1,400萬歐元（估約9%）。以地區看，歐洲約六成以上（估），北美與亞太合計約三成多（估）。Kingsport 合資廠為權益法認列，不併入營收。",
+      "Gross Margin Profile": "集團調整後 EBITDA 為2,120萬歐元，年增96%，利潤率約13.9%。Accoya 分部 EBITDA 為2,470萬歐元，利潤率16.1%，較前一年的15.0%上升110bp。毛利率估約27至30%。改善來自售價提升、產能利用率提高與 Barry 高附加值上色業務放量。公司第一階段 FOCUS 目標是 FY2027 底達12%調整後 EBITDA 利潤率，且已接近達成。",
+      "Key Competitors": "同類改質木材有 Kebony（挪威，糠醇改質）、Thermory 與 Lunawood（熱處理木材）、Cambia 與 Eastern 系業者，以及 Koppers/Osmose（防腐木）。替代材料有 Trex、Fiberon、Azek 等木塑複合板材，熱帶硬木如 Ipe、Teak，以及鋁與 PVC 窗框。Tricoya 對手為傳統 MDF 與防水板材，如 Medite、Kronospan、Sonae Arauco。",
+      "12M Catalysts": "① Kingsport 廠（Accoya USA）持續爬坡，目標2027年3月底全球年化銷量達約10萬立方米（核心業務約7萬、美國約3萬）。② FY2027 達成或超越第一階段 FOCUS 目標，調整後 EBITDA 利潤率約12%。③ 2026年11月的中期業績（H1 FY2027），驗證利潤率與現金流。④ Arnhem 產能去瓶頸與 Accoya Color 擴產。⑤ 淨負債由4,140萬歐元繼續下降。⑥ 歐美建築與翻修需求隨利率下降回溫。",
+      "Key Investment Risks": "① 需求循環風險：營收綁定歐美住宅新建與翻修景氣，利率與消費信心敏感。② 原料風險：乙酸酐與輻射松價格波動，以及對 Eastman 供應的依賴。③ 執行風險：Kingsport 爬坡不如預期，或 Arnhem 產能瓶頸。④ 財務風險：淨負債4,140萬歐元，相對 EBITDA 仍偏高，利息成本壓力大。⑤ 市值僅約2億歐元，流動性偏低，且雙掛牌（AIM／Amsterdam）造成折價與波動。⑥ Hull 廠關閉遺留減損與收尾成本，Tricoya 商業化拖延。⑦ 匯率風險（歐元、英鎊、美元）。",
+      "CEO & Management": "CEO 為 Jelena Arsic van Os（2023年7月上任，前為 Nouryon 與 AkzoNobel 高階主管，具化學品產業背景）。CFO 為 Sameet Vohra（2024年9月30日起任職）。董事會主席為 Patrick Shanley（估，需再核對）。管理層以化學與工業營運背景為主，重點放在提高產能利用率、改善利潤與去槓桿，並有 Phase I FOCUS 目標的明確路線圖。",
+      "Core Patents & IP": "核心是乙醯化木材製程、反應器設計與 Tricoya 木纖維乙醯化專利族，涵蓋多國，同時持有 Accoya 與 Tricoya 商標。Hull 廠雖關閉，公司保留 Tricoya 智慧財產，可經授權或以 Arnhem 生產運用。部分早期基礎專利已陸續到期，護城河改由 know-how、品牌、認證與生產規模組成（專利到期時程為估）。",
+      "3-Year M&A": "① 2022年：與 Eastman 成立 Accoya USA 合資廠，Accsys 持股60%，Kingsport 廠已通過績效測試並收到最終授權金，取得北美獨家權。② 2024年：買下 Tricoya 專案夥伴剩餘股權而全資持有，隨後宣布終止 Hull 廠，認列約2,000萬歐元非現金減損與約450萬歐元現金成本。③ Barry Accoya Color 上色設施擴充。近三年沒有大型收購，重點是資產整併與去風險。",
+      "CapEx & Expansion": "重點資本支出為 Arnhem 擴產與去瓶頸（新增反應器與產能），Accoya Color 上色設施擴充，以及 Kingsport 廠興建（合資，由合資體與 Eastman 分攤）。目標是2027年3月底全球年化銷量達10萬立方米，第二階段 FOCUS 規劃更進一步的產能與 EBITDA 目標。Hull 廠已終止，不再投入。近期資本支出強度降低，自由現金流轉正是主要看點（金額為估）。",
+      "Geopolitical Exposure": "生產集中在荷蘭與美國，銷售遍及歐洲、北美與亞太。英國脫歐後歐英貿易與 AIM 上市地位帶來監管與稅務摩擦。美國關稅政策對進口木材與出口有影響，而 Kingsport 本地生產反而降低關稅與運輸風險。輻射松主要來自紐西蘭與智利，海運與檢疫是供應鏈風險。歐盟森林砍伐法規（EUDR）與綠建築法規可能對公司有利。俄烏戰爭則透過能源與化學品價格間接影響成本。",
+      "M&A Potential": "作為約2億歐元市值的獨特永續建材資產，Accsys 有中等的被收購可能：潛在買家為化學品與建材巨頭（如 Eastman 加碼、Kingspan、Sika、Kronospan）或木材產品集團。Eastman 已持有合資廠，戰略合作深化。公司在 Kingsport 爬坡後，估值可能進一步重評。主動收購機會有限，因負債水準與擴產重點仍在內生成長，較可能延續授權與合資模式。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 813 (new, claude)",
+    "updated": [
+      "Accsys Technologies PLC (AXS.AS)"
+    ],
+    "claimed": [],
+    "unmatched": [],
+    "rows_exported": 4270
+  }
+}

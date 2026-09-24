@@ -346,7 +346,12 @@ def transcribe_audio(video_id, cfg=None, duration_seconds=0):
             detail = (res.stderr or res.stdout or '').strip()[-200:]
             raise RuntimeError(f'audio download produced no file: {detail}')
 
-        cmd = [WHISPER_BIN, '-m', model, '-f', audio, '-l', language, '-oj',
+        # -mc 0: do not feed each window the previous window's text. With the default the
+        # decoder can lock onto its own output and repeat one sentence for the rest of the
+        # file — a 69-minute Chinese live stream on 2026-09-03 came back correct for 21
+        # minutes and then 48 minutes of "If you have short-term cash flow in the EPS."
+        # Dropping the carried context is whisper.cpp's standard cure for that loop.
+        cmd = [WHISPER_BIN, '-m', model, '-f', audio, '-l', language, '-mc', '0', '-oj',
                '--output-file', os.path.join(tmp, 'out')]
         try:
             res = subprocess.run(cmd, capture_output=True, text=True, timeout=timeout,

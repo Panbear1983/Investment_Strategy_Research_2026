@@ -7,7 +7,7 @@
         "--print-timeout",
         "9m0s"
     ],
-    "model": "Gemini 3.5 Flash (High)",
+    "model": "Gemini 3.8 Flash (High)",
     "claude_command": "claude",
     "claude_args": [
         "--tools",
@@ -25,8 +25,7 @@
     "provider_fallback_order": [
         "gemini",
         "agy_claude",
-        "claude",
-        "codex"
+        "claude"
     ],
     "provider_low_budget_threshold": 0.1,
     "daily_discovery_attempt_budget": 24,
@@ -101,7 +100,8 @@
         ],
         [
             "01:42",
-            "gemini"
+            "gemini",
+            "maintenance"
         ],
         [
             "02:54",
@@ -109,7 +109,8 @@
         ],
         [
             "04:06",
-            "claude"
+            "claude",
+            "maintenance"
         ],
         [
             "05:18",
@@ -117,7 +118,8 @@
         ],
         [
             "06:30",
-            "gemini"
+            "gemini",
+            "maintenance"
         ],
         [
             "07:42",
@@ -155,23 +157,26 @@
         ],
         [
             "17:18",
-            "gemini"
+            "gemini",
+            "maintenance"
         ],
         [
             "18:30",
-            "claude"
+            "claude",
+            "maintenance"
         ],
         [
             "19:42",
-            "gemini"
+            "codex"
         ],
         [
             "20:54",
-            "gemini"
+            "codex"
         ],
         [
             "22:06",
-            "gemini"
+            "gemini",
+            "maintenance"
         ],
         [
             "23:18",
@@ -231,5 +236,6 @@
     "whisper_model_path": "~/.local/share/whisper-models/ggml-large-v3-turbo.bin",
     "whisper_language": "auto",
     "whisper_realtime_factor": 8.0,
-    "video_chunk_chars": 40000
+    "video_chunk_chars": 40000,
+    "daily_digest_time": "00:05"
 }

@@ -1,0 +1,53 @@
+{
+  "label": "API Batch 517 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "泰拉沃夫數位基礎設施 TeraWulf Inc. (WULF)",
+      "Country": "USA",
+      "Industry": "金融科技",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "USA",
+      "Timeframe": "中長期",
+      "Sub-Sector": "AI資料中心",
+      "Industry": "雲端運算與金融科技基礎設施",
+      "Tier": "潛力股",
+      "Company": "泰拉沃夫數位基礎設施 TeraWulf Inc. (WULF)",
+      "Capital/Market Cap": "約 82億美元",
+      "Core Business": "由傳統比特幣挖礦全面轉型為高性能運算（HPC）與人工智慧（AI）算力中心基礎設施營運商。專注於利用超過95%零碳能源（水力與核能），提供大規模高功率密度的伺服器託管、主機代管（Colocation）及能源電力管理服務。",
+      "Clients & Orders": "核心客戶涵蓋 Fluidstack、Anthropic（簽訂 Justified Data 園區20年長約、預期規模達190億美元）與 Core42，並獲 Google 提供數十億美元租賃擔保背書。截至2026年已累計簽署超過128億美元長期具信用增強機制的租賃合約，已簽約關鍵負載超過520 MW。",
+      "Technical Moat": "核心優勢在於掌握紐約州 Lake Mariner 等大型棕地站點的低成本零碳電力直連（NYISO網格與水電），具備業界頂尖的每度電成本優勢（約0.035-0.04美元/kWh）。與 Schneider Electric 及 Motivair 合作部署先進晶片直液冷（Direct-to-chip）與封閉冷卻回路，單機櫃散熱能力達100kW+，可即插即用部署次世代頂級AI叢集。",
+      "Revenue Breakdown": "2026年營收結構迎來結構性反轉，HPC/AI 資料中心長期託管租賃收入占比已突破70%，取代傳統比特幣自營挖礦成為絕對營收主力；比特幣挖礦收入降至約25%至30%並持續縮減。",
+      "Gross Margin Profile": "隨營收重心轉向高附加價值HPC託管合約，整體毛利率顯著擴張，2025-2026年毛利率維持在51%至64%高水準區間。長期租約採固定費率與電力成本轉嫁（Pass-through）機制，營運現金流與利潤率相較過往純加密貨幣挖礦具備極高防禦性與可預測性。",
+      "Key Competitors": "Core Scientific (CORZ)、IREN (Iris Energy)、Cipher Mining (CIFR)、Hut 8 (HUT)、Applied Digital (APLD)。",
+      "12M Catalysts": "紐約 Lake Mariner 新期 HPC 數據中心機房陸續交付併網；肯塔基與馬里蘭約1.5 GW棕地園區通電與初期容量啟用；與超大規模雲端巨頭（Hyperscalers）進一步敲定兆瓦級直接長期代管合約。",
+      "Key Investment Risks": "高壓輸電網路併網審查與大型變壓器交貨週期遞延風險；大客戶集中度較高若租賃履約產生爭議將衝擊現金流；為支應GW級算力基礎設施建置所引發的鉅額資本支出與股權/可轉債稀釋風險。",
+      "CEO & Management": "執行長暨董事長 Paul Prager 擁有逾30年能源基礎設施投資與發電廠營運經驗；營運長 Nazar Khan 與財務長 Patrick Fleury 具備深厚能源專案融資、公用事業及資本市場資本配置專長。",
+      "Core Patents & IP": "核心競爭力在於電力整合工程與廠房模組化建置技術，而非單一冷卻硬體專利；透過與 Schneider Electric 及 Motivair 等龍頭簽約引進專利冷卻技術（如 ChilledDoor 與直液冷 CDU），自行持有高壓變電所整合與超高密度AI廠區佈局專有工藝（估無上市通用硬體發明專利，屬專有工程Know-how）。",
+      "3-Year M&A": "2024年底以9,200萬美元出售 Nautilus Cryptomine 核能挖礦合資案25%股權給 Talen Energy 以集中資本；2026上半年先後收購肯塔基 Hawesville、馬里蘭及東肯塔基 Muskie 等1.5 GW+棕地電力園區；2026年7月以約5.3億美元出售 Abernathy JV 50.1%股權給 Fluidstack 投資集團以回籠資金。",
+      "CapEx & Expansion": "全面推進「2.3 GW HPC 算力版圖」，資本支出主要投向 Lake Mariner 後續廠房改建、肯塔基與馬里蘭站點的變電站升級與高密度液冷設施；2025-2026年年均資本支出預估約4億至6億美元（估），主要由客戶預付款、長約融資與非核心資產處分款支應。",
+      "Geopolitical Exposure": "營運站點全部位於美國本土（紐約州、肯塔基州、馬里蘭州等），無海外直接政治動盪與外匯管制風險；主要受美國聯邦與各州能源監管政策（如FERC併網法規）、清潔能源賦稅優惠（IRA）及高階AI晶片出口管制衍生之全球算力重構趨勢影響。",
+      "M&A Potential": "中偏高。TeraWulf 手握稀缺的 GW 級零碳併網電力容量與現成超高密度AI數據中心，在全美電力緊缺背景下極具戰略價值；極易成為超大規模雲端服務商（AWS/Google/Microsoft）或大型數位基礎設施基金（如 Blackstone、Brookfield）的潛在戰略併購或私有化標的。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 517 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "泰拉沃夫數位基礎設施 TeraWulf Inc. (WULF)"
+    ],
+    "unmatched": [],
+    "rows_exported": 3246
+  }
+}

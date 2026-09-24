@@ -1,0 +1,53 @@
+{
+  "label": "API Batch 538 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "Finance of America Companies Inc. (FOA)",
+      "Country": "USA",
+      "Industry": "金融科技",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "USA",
+      "Timeframe": "中長期",
+      "Sub-Sector": "房屋淨值與反向抵押貸款",
+      "Industry": "非銀行專業金融與房貸服務",
+      "Tier": "龍頭股",
+      "Company": "Finance of America Companies Inc. (FOA)",
+      "Capital/Market Cap": "約 1.55億美元",
+      "Core Business": "專注於為美國 55 歲及以上退休長者提供房屋淨值解鎖解決方案，為全美最大反向抵押貸款發起商。核心業務涵蓋聯邦認證反向抵押貸款（HECM）、自有品牌大額反向貸款（HomeSafe®）與次級房屋淨值信用額度（HELOC）之發起、二級市場證券化打包以及房貸服務（MSR）管理。",
+      "Clients & Orders": "客群主要為美國嬰兒潮世代的高齡自有房屋族群，銷售通路結合直接面向消費者的零售直營管道、全美獨立經紀商（Wholesale）與通訊放款機構（Correspondent）。2025 全年反向房貸發放規模達 23.85 億美元（年增 24%），2026 上半年累計發放量達 13.3 億美元（年增 14%），並於 2026 年 7 月收購 Onity Group 約 2 萬筆 HECM 貸款之服務權。",
+      "Technical Moat": "掌握全美最具標誌性的非機構自營反向貸款產品線（HomeSafe®）與二級留置權融資架構，具備難以複製的長者獲客轉換漏斗與二級市場私募證券化（Securitization）定價能力。整合 AAG 後擁有全美規模最龐大的反向貸款歷史信用與行為精算資料庫，形成高度合規的專業放貸進入壁壘。",
+      "Revenue Breakdown": "營收主要來自貸款發起淨收益與二級市場銷售利得（Net Origination Gains & Sales）、貸款公允價值變動與未實現損益（Fair Value Adjustments）、房貸資產服務費收入（MSR Servicing Fees）及淨利息收益。2025 全年總營收達 4.974 億美元（年增 26.1%），其中資產公允價值評估與貸款發行利得佔絕大部分營收來源。",
+      "Gross Margin Profile": "近十二個月（TTM）毛利率維持在 71% 左右的高水準，但營運淨利潤高度依賴市場利率走向及貸款資產的公允價值重估（Fair Value Marks）。2025 年受惠於經營效率提升與規模經濟，持續經營淨利回升至 1.1 億美元；2026 年季度利潤則隨次級市場折現率變動呈現微幅盈利至數千萬美元區間波動。",
+      "Key Competitors": "在反向抵押貸款領域的主要競爭對手包括 Mutual of Omaha Mortgage、Longbridge Financial（隸屬於 Ellington Financial）以及 Fairway Independent Mortgage；在更廣義的房屋淨值釋放與二級房貸市場，則面臨 Rocket Mortgage 與 Pennymac 等大型非銀金融機構的跨界競爭。",
+      "12M Catalysts": "聯準會（Fed）降息循環預期帶動借貸資金成本下降並擴大長者可貸額度；2026 年 7 月整併 Onity 約 2 萬筆 MSR 服務資產帶來的經常性現金流挹注；以及完成 Blackstone 股權回購後資本結構顯著簡化，消除長期股權懸頂壓力帶來的估值修復催化劑。",
+      "Key Investment Risks": "市場利率與殖利率曲線劇烈波動可能導致房貸服務權（MSR）與自持非機構貸款公允價值面臨大幅減損；美國房價回調將壓縮借款人可提取之淨值空間；此外，公司作為非銀行放款機構，極度仰賴二級市場證券化流動性與循環信用額度支持。",
+      "CEO & Management": "由執行長 Graham Fleming 領導，其於房貸金融領域擁有近 30 年深厚資歷，主導了 AAG 併購整合、2024 年 1 拆 10 反向分割合規以及 2025-2026 年 Blackstone 全面退場等重大資本重組；總裁 Kristen Sieffert 則主掌業務戰略推進與新型退休金融產品創新。",
+      "Core Patents & IP": "持有包括 HomeSafe®、HomeSafe Second 在內的專利型反向抵押融資商標與專屬放款架構，並擁有全美反向貸款領域最具知名度的整合品牌資產；核心競爭優勢依託於自研之長者資產評估演算法、自動化風控審查工作流系統與反向房貸精算定價模型。",
+      "3-Year M&A": "2023 年 3 月底正式完成收購全美最大反向抵押貸款放款機構 American Advisors Group（AAG）之核心資產，鞏固產業霸主地位；2025 年 8 月達成協議並於 2026 年 2 月全面完成大股東 Blackstone 的股權買回案；2026 年 7 月完成向 Onity Group 收購約 2 萬筆 HECM 房貸服務權組合。",
+      "CapEx & Expansion": "營運維持輕資本模式，資本支出主要投入於數位化貸款申請系統、智慧客戶關係管理（CRM）與房貸服務後台技術升級；業務擴張重點在於向全美更多州推廣 HomeSafe 自營大額貸款產品，並積極收購第三方機構的優質反向房貸服務權（MSR）以壯大經常性收入盤體。",
+      "Geopolitical Exposure": "業務 100% 根植於美國本土房地產與養老金融市場，直接受到地緣政治衝突或國際關稅壁壘之影響極低；主要營運暴露集中於美國聯邦政府住宅政策、聯邦住宅管理局（FHA/HUD）法規修訂以及美國總體經濟利率環境變化。",
+      "M&A Potential": "隨著 2026 年初原大股東 Blackstone 全面退出、資本架構大幅簡化且具備穩固的龍頭市場份額，市值僅約 1.5 億美元的 FOA 極具被大型另類資產管理機構、私募信貸基金（Private Credit）、壽險退休基金或大型房貸綜合集團溢價收購或私有化下市的戰略價值。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 538 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "Finance of America Companies Inc. (FOA)"
+    ],
+    "unmatched": [],
+    "rows_exported": 3282
+  }
+}

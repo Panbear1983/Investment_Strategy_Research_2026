@@ -677,7 +677,8 @@ class StandingFocusTests(unittest.TestCase):
         self.state.set_standing_focus('低軌衛星', reason='from a video chat')
         focus = self.state.standing_focus()
         self.assertEqual(focus['industry'], '低軌衛星')
-        self.assertIsNone(focus['batches_remaining'])
+        # No count means the default budget — never "until cleared" (2026-09-08).
+        self.assertEqual(focus['batches_remaining'], WorkflowState.DEFAULT_FOCUS_BATCHES)
         self.assertEqual(focus['reason'], 'from a video chat')
 
     def test_empty_focus_is_rejected(self):
@@ -694,8 +695,11 @@ class StandingFocusTests(unittest.TestCase):
         self.assertIsNone(self.state.consume_standing_focus())
         self.assertIsNone(self.state.standing_focus())
 
-    def test_until_cleared_focus_is_never_consumed(self):
-        self.state.set_standing_focus('低軌衛星')
+    def test_a_legacy_until_cleared_record_is_still_tolerated(self):
+        # Records written before 2026-09-08 carry batches_remaining=None. They can no longer
+        # be created, but one already on disk must keep working until it is cleared.
+        self.state.set_meta(WorkflowState.FOCUS_KEY, json.dumps(
+            {'industry': '低軌衛星', 'country': '', 'batches_remaining': None}))
         for _ in range(5):
             self.state.consume_standing_focus()
         self.assertIsNotNone(self.state.standing_focus())
@@ -724,3 +728,166 @@ class EffectiveFocusTests(unittest.TestCase):
     def test_no_focus_anywhere_is_unfocused(self):
         slot = {'country_focus': '', 'industry_focus': ''}
         self.assertEqual(rl.effective_focus(self.state, slot), ('', '', 'none'))
+
+
+class DirectionPlanTests(unittest.TestCase):
+    """The direction plan: the rotating list of industries discovery hunts in (2026-09-08)."""
+
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.state = WorkflowState(os.path.join(self.tmp.name, 'workflow.sqlite3'))
+
+    def tearDown(self):
+        self.tmp.cleanup()
+
+    def test_rows_are_ordered_by_position_in_insertion_order(self):
+        self.state.add_direction('醫療', share=3)
+        self.state.add_direction('', 'Japan')
+        rows = self.state.direction_plan()
+        self.assertEqual([(r['industry'], r['country'], r['share'], r['position'])
+                          for r in rows], [('醫療', '', 3, 0), ('', 'Japan', 1, 1)])
+
+    def test_adding_the_same_row_twice_re_enables_rather_than_duplicates(self):
+        first = self.state.add_direction('醫療')
+        self.state.set_direction_enabled(first['id'], False)
+        again = self.state.add_direction(' 醫療 ')
+        self.assertEqual(again['id'], first['id'])
+        self.assertEqual(again['enabled'], 1)
+        self.assertEqual(len(self.state.direction_plan()), 1)
+
+    def test_a_free_choice_row_with_no_industry_or_country_is_allowed(self):
+        row = self.state.add_direction()
+        self.assertEqual((row['industry'], row['country']), ('', ''))
+
+    def test_share_never_drops_below_one(self):
+        row = self.state.add_direction('醫療', share=2)
+        self.assertEqual(self.state.set_direction_share(row['id'], 0)['share'], 1)
+        self.assertEqual(self.state.set_direction_share(row['id'], 4)['share'], 4)
+
+    def test_enabled_only_filters_paused_rows(self):
+        a = self.state.add_direction('醫療')
+        self.state.add_direction('能源')
+        self.state.set_direction_enabled(a['id'], False)
+        self.assertEqual([r['industry'] for r in self.state.direction_plan(enabled_only=True)],
+                         ['能源'])
+
+    def test_move_swaps_neighbours_and_stops_at_the_edges(self):
+        a = self.state.add_direction('A')
+        b = self.state.add_direction('B')
+        c = self.state.add_direction('C')
+        self.state.move_direction(c['id'], -1)
+        self.assertEqual([r['industry'] for r in self.state.direction_plan()], ['A', 'C', 'B'])
+        self.state.move_direction(a['id'], -1)  # already first: no change
+        self.assertEqual([r['industry'] for r in self.state.direction_plan()], ['A', 'C', 'B'])
+        self.state.move_direction(b['id'], 5)  # past the end: no change
+        self.assertEqual([r['industry'] for r in self.state.direction_plan()], ['A', 'C', 'B'])
+
+    def test_remove_returns_the_row_and_deletes_it(self):
+        row = self.state.add_direction('醫療')
+        self.assertEqual(self.state.remove_direction(row['id'])['industry'], '醫療')
+        self.assertEqual(self.state.direction_plan(), [])
+        self.assertIsNone(self.state.remove_direction(row['id']))
+
+    def test_seed_fills_only_an_empty_plan(self):
+        self.assertEqual(self.state.seed_direction_plan([('醫療', '', 3), ('', 'Japan', 1)]), 2)
+        self.assertEqual(self.state.seed_direction_plan([('能源', '', 1)]), 0)
+        self.assertEqual([r['industry'] or r['country'] for r in self.state.direction_plan()],
+                         ['醫療', 'Japan'])
+
+    def test_covered_tickers_can_be_narrowed_by_industry(self):
+        self.state.upsert_company({'Company': 'A (A1)', 'Country': 'Japan', 'Industry': '醫療器材'})
+        self.state.upsert_company({'Company': 'B (B1)', 'Country': 'Japan', 'Industry': '半導體'})
+        self.state.upsert_company({'Company': 'C (C1)', 'Country': 'USA', 'Industry': '醫療'})
+        self.assertEqual(self.state.covered_tickers(industry='醫療'), ['A1', 'C1'])
+        self.assertEqual(self.state.covered_tickers('Japan', '醫療'), ['A1'])
+        self.assertEqual(self.state.covered_tickers(), ['A1', 'B1', 'C1'])
+
+
+    def test_set_list_replaces_keeps_ids_and_orders_by_typing(self):
+        a = self.state.add_direction('A')
+        self.state.add_direction('B')
+        rows = self.state.set_direction_list([('C', ''), ('A', ''), ('', 'Japan')])
+        self.assertEqual([(r['industry'], r['country'], r['position']) for r in rows],
+                         [('C', '', 0), ('A', '', 1), ('', 'Japan', 2)])
+        self.assertEqual(rows[1]['id'], a['id'])      # A kept its id (and so its ledger)
+        self.assertEqual(self.state.direction_history()[0]['items'][0], {'industry': 'C', 'country': ''})
+
+    def test_clear_list_returns_what_went_away(self):
+        self.state.set_direction_list([('A', ''), ('B', '')])
+        self.assertEqual([r['industry'] for r in self.state.clear_direction_list()], ['A', 'B'])
+        self.assertEqual(self.state.direction_plan(), [])
+        self.assertEqual(self.state.clear_direction_list(), [])
+
+    def test_status_carries_held_counts(self):
+        self.state.upsert_company({'Company': 'A (A1)', 'Country': 'Japan', 'Industry': '醫療器材'},
+                                  research_status='deep_researched')
+        self.state.upsert_company({'Company': 'B (B1)', 'Country': 'Japan', 'Industry': '醫療'})
+        self.state.set_direction_list([('醫療', ''), ('保險', '')])
+        held = {r['industry']: r['held'] for r in self.state.direction_status()}
+        self.assertEqual(held, {'醫療': 1, '保險': 0})
+
+    def test_history_keeps_newest_first_and_skips_an_identical_resave(self):
+        self.state.set_direction_list([('A', '')])
+        self.state.set_direction_list([('A', '')])
+        self.state.set_direction_list([('B', '')])
+        self.assertEqual([h['items'][0]['industry'] for h in self.state.direction_history()],
+                         ['B', 'A'])
+
+
+class RequestedCompanyTests(unittest.TestCase):
+    """A company Peter names by hand goes to the front of the pipeline (2026-09-09)."""
+
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.state = WorkflowState(os.path.join(self.tmp.name, 'workflow.sqlite3'))
+
+    def tearDown(self):
+        self.tmp.cleanup()
+
+    def test_parsing_accepts_name_with_ticker_or_a_bare_ticker(self):
+        parse = WorkflowState.parse_company_request
+        self.assertEqual(parse('台積電 (2330.TW)'), ('台積電 (2330.TW)', '2330.TW'))
+        self.assertEqual(parse('  @nvda '), ('NVDA (NVDA)', 'NVDA'))
+        self.assertEqual(parse('2330.tw'), ('2330.TW (2330.TW)', '2330.TW'))
+        self.assertEqual(parse('just some words'), (None, ''))
+        self.assertEqual(parse(''), (None, ''))
+
+    def test_a_new_company_is_queued_ahead_of_everything(self):
+        self.state.enqueue_items([{'Company': 'Old (OLD)', 'Country': 'USA'}], source='new')
+        result = self.state.request_company('台積電 (2330.TW)')
+        self.assertEqual(result['action'], 'queued')
+        queue = self.state.research_queue(20)
+        self.assertEqual([r['ticker'] for r in queue], ['2330.TW', 'OLD'])
+        self.assertEqual(queue[0]['source'], 'manual')
+        self.assertEqual([r['ticker'] for r in self.state.requested_companies()], ['2330.TW'])
+
+    def test_manual_rows_outrank_retries_too(self):
+        self.state.enqueue_items([{'Company': 'Retry (RTY)'}], source='new')
+        rid = self.state.research_queue(1)[0]['id']
+        self.state.requeue_research(rid, 'validation', 'bad json')
+        self.state.request_company('NVDA')
+        with self.state.connect() as db:   # make the retry eligible now
+            db.execute('UPDATE companies SET next_attempt_at=NULL WHERE id=?', (rid,))
+        self.assertEqual([r['ticker'] for r in self.state.research_queue(20)], ['NVDA', 'RTY'])
+
+    def test_a_held_company_is_sent_for_refresh_not_researched_twice(self):
+        self.state.upsert_company({'Company': 'Held (HLD)', 'Country': 'USA'},
+                                  research_status='deep_researched')
+        result = self.state.request_company('HLD')
+        self.assertEqual(result['action'], 'refresh')
+        rows = self.state.maintenance_update_queue(10)
+        self.assertEqual([r['ticker'] for r in rows], ['HLD'])
+        self.assertEqual(self.state.research_queue(20), [])
+
+    def test_a_pending_company_is_promoted_and_an_excluded_one_requeued(self):
+        self.state.enqueue_items([{'Company': 'Old (OLD)'}], source='new')
+        self.assertEqual(self.state.request_company('OLD')['action'], 'promoted')
+        self.assertEqual(self.state.research_queue(1)[0]['source'], 'manual')
+        with self.state.connect() as db:
+            db.execute("UPDATE companies SET research_status='excluded' WHERE ticker='OLD'")
+        self.assertEqual(self.state.request_company('OLD')['action'], 'queued')
+        self.assertEqual(self.state.research_queue(1)[0]['ticker'], 'OLD')
+
+    def test_nonsense_is_rejected_without_touching_the_database(self):
+        self.assertEqual(self.state.request_company('some words')['action'], 'invalid')
+        self.assertEqual(self.state.research_queue(20), [])

@@ -1,0 +1,53 @@
+{
+  "label": "API Batch 429 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "agy_claude"
+  ],
+  "items": [
+    {
+      "Company": "stc group (7010.SR)",
+      "Country": "Saudi Arabia",
+      "Industry": "金融科技/新興市場支付",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "沙烏地阿拉伯（Saudi Arabia）",
+      "Timeframe": "中長期",
+      "Sub-Sector": "電信數位轉型／金融科技支付",
+      "Industry": "整合電信服務 / 數位基礎設施",
+      "Tier": "龍頭股",
+      "Company": "stc group (7010.SR)",
+      "Capital/Market Cap": "約 222 億沙幣（約 591 億美元）；截至 2026 年 8 月，為沙烏地阿拉伯市值最大電信集團，股價約 SAR 44.40",
+      "Core Business": "沙烏地阿拉伯最大電信營運商，提供行動、寬頻、企業 ICT 及數位基礎設施服務；業務涵蓋旗下八大子公司——stc Bank（數位銀行）、solutions by stc（系統整合）、center3（資料中心及海底纜線）、TAWAL（塔台基礎設施）、sirar by stc（資安）、specialized by stc（物聯網）、Tali Ventures（創投）。核心定位從傳統電信商轉型為沙烏地 Vision 2030 數位主權基礎設施供應商。",
+      "Clients & Orders": "主要客戶含沙烏地政府各部門、Saudi Aramco（2026 年簽訂 SAR 14 億高效能運算基礎設施合約）、國家水務公司（SAR 5.19 億）、Red Sea Global（2025 年 SAR 12 億數位基礎設施承諾）、NEOM 等 Giga Project；企業級客戶達數千家，stc Bank 個人用戶逾 800 萬。",
+      "Technical Moat": "持有沙烏地全國規模最廣的 5G Standalone 頻譜授權與基站網路；center3 掌控區域關鍵海底纜線節點，形成不可複製之互聯路徑護城河；sirar by stc 提供量子安全加密框架（IBM 合作，2025 年 12 月宣佈），搶佔政府與能源業資安合規市場；與 Oracle Alloy 共建主權雲平台，符合沙烏地數據在地化法規，強化政府客戶黏著度。",
+      "Revenue Breakdown": "2025 全年營收 SAR 778 億（YoY +2.5%）：商業事業部（消費者行動 + 固網）約佔 72%；企業及批發事業部約佔 22%（YoY +10.8%）；數位服務子公司（stc Bank、solutions by stc、sirar 等）約佔 6%（估，集團未單獨公開）。毛利 SAR 377 億，EBITDA SAR 245 億（EBITDA 率約 31.5%），淨利 SAR 148 億（剔除 2024 年 TAWAL 出售一次性收益後，核心淨利 YoY +12.5%）。",
+      "Gross Margin Profile": "2025 年毛利率約 48.4%（SAR 377 億 / SAR 778 億）；EBITDA 利潤率約 31.5%；H1 2026 EBITDA 率維持約 32.3%，顯示成本管控效益穩健。電信主業毛利率高於中東同業均值（約 45%），企業 ICT 業務毛利率估 35-40%，拉低整體但提升成長性。",
+      "Key Competitors": "沙國主要競爭對手：Mobily（Etihad Etisalat，2nd 大電信商，5G 及行動數據市場直接競爭）、Zain KSA（5G 與企業數位服務競爭）、Etihad Atheeb（GO，固網及企業寬頻）；數位銀行層面競爭者：STC Pay 時代積累之先發優勢現面臨 Riyad Bank Digital、Al Rajhi Bank App 及新入場 Neopay 等衝擊；雲端與 ICT 層面：AWS、Microsoft Azure、Huawei Cloud 均在沙烏地設立本地區域，對 stc cloud 形成直接挑戰。",
+      "12M Catalysts": "①center3-HUMAIN 合資 AI 資料中心 250 MW 首期投入商用（2026 年底目標），帶動超大規模雲端合約；②5G Standalone 全覆蓋里程碑與 Ericsson 5 年主框架協議執行（2025 年底簽署），支撐企業 ARPU 提升；③stc Bank 全面銀行牌照落地後擴大 B2B 嵌入式金融服務，用戶突破 1000 萬目標；④Saudi Aramco、NEOM 等 Giga Project 大額 ICT 合約陸續落標；⑤季度股息 SAR 0.55/股政策持續至 2027Q3，提供股東保證收益；⑥Tali Ventures 被投企業（如 Tarmeez Capital）估值重估可能帶動帳面收益。",
+      "Key Investment Risks": "①監管風險：SAMA 對 stc Bank 銀行牌照條件收緊或資本要求提高，將延緩金融科技獲利時程；②地緣政治風險：沙伊關係波動、葉門胡塞武裝攻擊沙烏地基礎設施（電信塔台為潛在目標）影響網路服務穩定性；③競爭壓力：AWS、Azure 本地區域加大補貼搶佔企業雲端市場，壓縮 solutions by stc 利潤空間；④匯率與油價：沙幣與美元掛鉤（無直接匯率風險），但油價下行導致政府 IT 預算削減，影響 B2G 合約；⑤資本支出密度高：AI 資料中心擴建若需求不及預期，將拖累自由現金流並壓縮未來配息空間。",
+      "CEO & Management": "集團 CEO：Olayan bin Mohammed Alwetaid（任期穩定，具豐富電信與數位轉型背景）；董事長：HRH Prince Mohammed K.A. Al-Faisal；副董事長：Yazeed Abd Al-Rahman Al Humied（同為 PIF 代表，確保國家戰略一致性）；CFO：Ameen Fahad Alshiddi；CCO：Faisal Saeed Alsaber；CBO：Riyadh Saeed Muawad。管理層執行「DARE」策略（Digitize, Accelerate, Reinforce, Expand）兼顧成長與股東回報，獲市場整體正面評價。",
+      "Core Patents & IP": "stc 集團透過 2025 年 2 月與沙烏地研發創新局（RDI）共建「stc Group AI Lab」加速智財積累，以將研究成果商業化並提升年度專利申請數量為目標（具體公開專利數量未披露，估逾 200 件活躍專利，涵蓋 5G 網路優化、AI 驅動網路管理、量子安全加密協議）；sirar by stc 掌握 IBM 量子安全框架授權；solutions by stc 在 AI 驅動 ERP 與雲端整合方面持有自研軟體著作權。",
+      "3-Year M&A": "2023 年：stc pay 取得 SAMA 數位銀行執照批准（監管里程碑，非收購）；2024 年：出售 TAWAL 51% 股權予 PIF，套現並保留 49% 少數股份；同年 TAWAL 與 PIF 旗下 GLIC 啟動合併協議；2026 年初：TAWAL-GLIC 合併完成，形成區域最大數位基礎設施公司（逾 30,000 站址，跨沙烏地、保加利亞、克羅埃西亞、斯洛維尼亞、巴基斯坦）；2026 年 8 月：旗下 Tali Ventures 入股沙烏地債務投資平台 Tarmeez Capital（少數股份）。",
+      "CapEx & Expansion": "年度資本支出估 SAR 120-140 億（約 32-37 億美元，佔營收 15-18%）；主要方向：5G SA 網路升級（與 Ericsson 5 年框架協議）、center3-HUMAIN AI 資料中心合資（首期 250 MW，終極目標 1 GW by 2030）、國際海底纜線擴容、Giga Project 數位基礎設施部署（Red Sea Global、NEOM 等）。2026 年預計持續高強度 CapEx，惟集團承諾「紀律性資本管理」以維持自由現金流正值及季度配息。",
+      "Geopolitical Exposure": "正面曝險：深度嵌入沙烏地 Vision 2030 國家數位戰略，PIF 為主要股東，確保政策優先支持；負面曝險：沙伊緊張局勢及胡塞武裝對紅海基礎設施威脅，可能影響海底纜線運營（center3 為關鍵節點）；TAWAL 業務延伸至巴基斯坦等地帶來新興市場政治風險；沙烏地數據在地化監管對外資雲端競爭者形成壁壘，反有利 stc 本土業務；中美科技競爭影響設備採購選擇（Ericsson vs. Huawei），需審慎管理供應鏈依賴。",
+      "M&A Potential": "潛在標的方向：①中東北非（MENA）中型電信商整合，複製 stc 數位轉型模式（如埃及、伊拉克、科威特市場）；②收購或深化 AI/雲端垂直整合能力（GPU 運算廠商、AI SaaS 平台）；③stc Bank 可能透過金融科技 M&A 或與現有數位銀行整合加速擴規模；潛在被併風險極低，PIF 持股逾 64%（政府控股），不存在惡意收購可能性；「資本回收」策略（Capital Recycling）顯示未來仍可能出售非核心資產（如部分 TAWAL 剩餘股份）以資助新投資。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 429 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "stc group (7010.SR)"
+    ],
+    "unmatched": [],
+    "rows_exported": 2829
+  }
+}

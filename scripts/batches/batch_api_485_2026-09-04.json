@@ -1,0 +1,68 @@
+{
+  "label": "API Batch 485 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "CompoSecure, Inc. (CMPO)",
+      "Country": "USA",
+      "Industry": "金融科技",
+      "Tier": ""
+    },
+    {
+      "Company": "Dayforce, Inc. (DAY)",
+      "Country": "USA",
+      "Industry": "金融科技",
+      "Tier": ""
+    },
+    {
+      "Company": "Resurs Holding AB (RESURS.ST)",
+      "Country": "Sweden",
+      "Industry": "金融科技",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "USA",
+      "Timeframe": "中長期",
+      "Sub-Sector": "金融科技支付",
+      "Industry": "金融科技",
+      "Tier": "隱形冠軍",
+      "Company": "CompoSecure, Inc. (GPGI)",
+      "Capital/Market Cap": "約 41.3 億美元",
+      "Core Business": "全球高端金屬支付卡（包含接觸式與非接觸式雙介面金屬卡）的設計與製造龍頭，並拓展 Arculus 數位身分認證與冷錢包安全解決方案。公司於 2026 年 1 月完成與注塑系統大廠 Husky Technologies 合併，重組為多產業複合平台 GPGI, Inc.，CompoSecure 維持獨立品牌與事業部運作。",
+      "Clients & Orders": "客戶涵蓋全球頂級金融機構與金融科技獨角獸，前四大客戶佔營收逾 70%，其中與美國運通（Centurion 與 Platinum 卡）合作逾 20 年、與摩根大通（Sapphire 系列）合作逾 17 年，並持續向 Capital One 等大型發卡行出貨。國際市場亦獲超過百家歐亞與拉美銀行採用，並逐步導入 Arculus 雙因子認證卡片訂單。",
+      "Technical Moat": "首創解決金屬屏蔽效應的雙介面（Dual-Interface）專利架構，將金屬卡體轉化為 RF/NFC 射頻天線以實現非接觸感應支付，技術壁壘極高。具備鎢合金、不鏽鋼與複合材料的多層高溫貼合專有工藝，且通過 Visa、Mastercard、Amex 最嚴格的 EMV 與 PCI 物理安全認證，競爭對手極難在良率與成本上複製。",
+      "Revenue Breakdown": "以產品別區分，高端金屬支付卡佔部門營收約 90% 至 95%，Arculus 數位安全與硬體錢包業務佔約 5% 至 10% 且具備高成長潛力。以市場地域區分，美國本土發卡行貢獻約 80% 至 85% 營收，國際市場（歐洲、亞太及拉丁美洲）約佔 15% 至 20%，為中長期擴張重點。",
+      "Gross Margin Profile": "毛利率長期維持在 50% 至 55% 的高水準（2024 年約 52%、尖峰季度逾 57%），主因金屬卡單卡售價（ASP）達 10 至 20 美元以上，遠高於傳統塑膠卡（不到 1 美元）。雖受新材料（如鎢鋼、玻璃混合卡）初期良率爬坡與通膨人工成本波動影響，但整體獲利結構具強大防禦力。",
+      "Key Competitors": "金屬支付卡領域主要競爭對手包括 Idemia（法國）、Thales Group（法國，前 Gemalto）、Giesecke+Devrient（德國）與 CPI Card Group（美國）；數位硬體冷錢包與認證領域則面對 Ledger、Trezor 及 Tangem 等廠商競爭。",
+      "12M Catalysts": "母公司重組為 GPGI 後由前 Honeywell 傳奇執行長 David Cote 導入精實營運體系以釋放綜效；歐洲與亞太地區大型銀行加速推出金屬聯名卡以爭奪高淨值客戶；以及 Arculus FIDO2 硬體身分認證在企業資安及金融機構加密保護領域的商用落地。",
+      "Key Investment Risks": "客戶集中度極高，前四大發卡機構貢獻逾七成營收，單一重大合約流失將對獲利造成劇烈衝擊；2026 年初針對 Husky Technologies 併購交易估值引發的證券集體訴訟（Securities Class Action）帶來潛在法律與賠償不確定性；長線則面臨智慧型手機數位錢包普及引發實體卡片脫媒的威脅。",
+      "CEO & Management": "執行董事長由前 Honeywell 董事長兼執行長 David Cote 擔任，主導資本配置與策略整合；CompoSecure 部門總裁兼執行長於 2026 年 1 月由具備 30 年工業製造資歷的前 Honeywell 與 Stanley Black & Decker 高層 Graham Robinson 接任，接替離任的 Jon Wilk。",
+      "Core Patents & IP": "持有逾 50 項全球專利與專有工藝配方，核心專利涵蓋 US 10,762,412、US 10,318,859 及 US 11,182,662 等金屬雙介面與射頻訊號穿透結構，並握有 Arculus 專利之安全晶片（Secure Element）加密通訊與三因子身分防偽授權演算法。",
+      "3-Year M&A": "2024 年 9 月獲 David Cote 家族與 Resolute Holdings 注資 3.72 億美元取得控股權；2025 年 2 月將資產管理實體 Resolute Holdings (RHLD) 分拆上市；2026 年 1 月完成與注塑成型系統大廠 Husky Technologies 價值約 74 億美元的業務合併，並更名為 GPGI, Inc.（原代號 CMPO 變更為 GPGI）。",
+      "CapEx & Expansion": "資本支出聚焦於紐澤西州薩默塞特（Somerset）製造基地的自動化精密 CNC 機台、雷射微雕與先進層壓產能升級，以提升高比重鎢卡與環保材料卡良率；並評估於歐洲或亞太地區設立授權個人化/封裝節點，以縮短國際交付週期並降低關稅負擔。",
+      "Geopolitical Exposure": "主要製造基地位於美國本土，地緣政治供應斷鏈風險相對可控，但關鍵特種金屬（如鎢、鈦）及半導體安全晶片仍依賴全球供應鏈採購；國際業務拓展易受各地金融資料主權法規、跨境資安合規標準及潛在貿易關稅政策的干擾。",
+      "M&A Potential": "在 GPGI 與 Resolute Holdings 的永久資本控股架構下，具備高度向外收購（Roll-up）利基製造與身分安全軟體資產的動能；同時其金屬卡龍頭地位與充沛現金流，若面對架構再度分拆，亦可能成為全球國防安全巨頭或跨國支付集團私有化併購的標的。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [
+    "Dayforce, Inc. (DAY)",
+    "Resurs Holding AB (RESURS.ST)"
+  ],
+  "summary": {
+    "batch_label": "API Batch 485 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "CompoSecure, Inc. (GPGI)"
+    ],
+    "unmatched": [],
+    "rows_exported": 3191
+  }
+}

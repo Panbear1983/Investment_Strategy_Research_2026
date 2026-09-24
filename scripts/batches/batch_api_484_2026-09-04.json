@@ -1,0 +1,83 @@
+{
+  "label": "API Batch 484 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "MVB Financial Corp. (MVBF)",
+      "Country": "USA",
+      "Industry": "金融科技",
+      "Tier": ""
+    },
+    {
+      "Company": "Plenti Group Limited (PLT.AX)",
+      "Country": "Australia",
+      "Industry": "金融科技",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "USA",
+      "Timeframe": "中長期",
+      "Sub-Sector": "金融科技",
+      "Industry": "區域商業銀行與金融科技服務",
+      "Tier": "隱形冠軍",
+      "Company": "MVB Financial Corp. (MVBF)",
+      "Capital/Market Cap": "約 4.0億美元",
+      "Core Business": "作為美國利基型商業銀行控股公司，核心業務融合傳統商業金融與金融科技贊助銀行（Sponsor Bank）服務，專注於為線上博弈（iGaming）、體育博彩及金融科技業者提供客製化資金存託、清算結算與銀行即服務（BaaS）。同時透過旗下 MVB Edge Ventures 進行金融科技生態系投資與技術孵化，實現商業銀行與科技服務的雙軌營運架構。",
+      "Clients & Orders": "深度綁定全美主流體育博彩與線上博弈龍頭，客戶包括 DraftKings、FanDuel 與 BetMGM 等超過 40 家合規數位娛樂營運商，並服務眾多新創金融科技業者。受惠於客戶高頻次資金調度與支付結算需求，為該行帶來極具黏性且龐大的低成本乃至無息營運沉澱資金。",
+      "Technical Moat": "具備領先同業的博弈與金融科技專用 API 資金清算網絡，並深度串接 RTP 與 FedNow 即時支付系統。在全美監管機構對第三方 BaaS 合作展開嚴格審查的背景下，該行憑藉高度專業的 BSA/AML 反洗錢與合規風控架構維持穩健合規紀錄，構築極高的監管與牌照護城河。",
+      "Revenue Breakdown": "淨利息收入（Net Interest Income）佔比約 70% 至 75%（估），主要受惠於博弈生態系所帶來的低成本存款放貸與生息資產利差；非利息收入（Noninterest Income）佔比約 25% 至 30%（估），由支付卡交易手續費、帳戶管理服務費以及金融科技股權處分利益等共同驅動。",
+      "Gross Margin Profile": "銀行業無傳統毛利率，其核心獲利指標淨息差（FTE NIM）在 2026 年第二季因生息資產重定價與資金成本優化大幅擴張至 4.16%（Core FTE NIM 達 3.87%）。整體非利息收入佔比提升有效帶動利差收益，核心營運效率比率（Efficiency Ratio）約維持在 60% 至 65%（估）的優異水準。",
+      "Key Competitors": "在金融科技贊助銀行與 BaaS 市場的主要競爭對手包括 The Bancorp (TBBK)、Pathward Financial (CASH)、Coastal Financial (CCB)、Customers Bancorp (CUBI)，以及未上市的專業贊助銀行 Cross River Bank 與 WebBank。",
+      "12M Catalysts": "2025 年第四季將旗下孵化之 BaaS 平台 Victor Technologies 以逾 3,300 萬美元獲利出售給 Jack Henry 後，資本充裕度與資產負債表重組效益全面在 2026 年顯現。未來 12 個月催化劑包括更多美國州份開放合法線上博弈推升沉澱存款、聯準會降息週期促使資金成本進一步下行，以及新一代即時支付系統全面商業化帶動手續費成長。",
+      "Key Investment Risks": "聯邦監管機構（FDIC、美聯儲等）對銀行與金融科技第三方合作夥伴的合規審查日趨嚴苛，監管合規成本面臨上升壓力。此外，存款來源高度集中於線上博弈與特定金融科技少數客戶，且 2026 年初審計委員會主席辭職反映公司治理與高階主管薪酬政策仍受外界審視。",
+      "CEO & Management": "由自 2009 年起長期掌舵的總裁兼執行長 Larry F. Mazza 領導，並於 2025 年下半年重新兼任總裁職務以強化核心業務獲利能力。高管團隊近期經歷重組，由 Michael R. Sumbs 接任財務長，Michael L. Giorgio 升任營運長兼資訊長，並由 Kelly R. Nelson 於 2026 年接掌董事會主席。",
+      "Core Patents & IP": "主要技術壁壘源自內部自主開發的合規風控工作流程、專屬交易中樞 API 架構與博弈支付清算私有演算法。雖然旗下具代表性的雲端原生 BaaS 專利技術公司 Victor Technologies 已於 2025 年作價出售，但公司仍保留高度客製化的專有監管科技與即時清算系統營運軟體資產。",
+      "3-Year M&A": "過去三年進行顯著戰略重組：2023 年 5 月合意終止與 Integrated Financial Holdings (IFH) 的併購協議；2025 年 1 月出脫軟體開發商 Trabian 股權；2025 年 10 月成功將旗下金融科技孵化事業 Victor Technologies 售予 Jack Henry，獲利逾 3,300 萬美元以回充資本；並持續持有 Warp Speed Holdings 約 37.5% 戰略股權。",
+      "CapEx & Expansion": "資本支出以核心資訊科技基礎建設、API 中介軟體升級、即時清算系統串接及自動化法遵安全系統為主，年資本支出預估約 1,000 萬至 1,500 萬美元（估）。業務擴張聚焦於透過全美數位網路拓展體育博彩及特定垂直產業客戶，而非擴建傳統實體分行網絡。",
+      "Geopolitical Exposure": "營運據點與客戶網絡均高度集中於美國本土市場，無實質海外實體曝險，受國際地緣政治或供應鏈斷鏈的直接衝擊微弱。主要外部合規與總體環境風險來自美國各州及聯邦監管機構對數位貨幣、第三方支付及跨國反洗錢政策的法規變動。",
+      "M&A Potential": "身為全美線上博弈與體育博彩金流結算的龍頭贊助銀行，擁有極具戰略價值的低成本資金池與利基牌照，極具被大型區域銀行（尋求高黏性存款）或大型金融科技支付巨頭整併的潛在併購吸引力；該行自身近期則專注於資本精簡與有機成長，短期內大規模對外收購意願偏低。"
+    },
+    {
+      "Country": "Australia",
+      "Timeframe": "中長期",
+      "Sub-Sector": "數位借貸",
+      "Industry": "金融科技",
+      "Tier": "潛力股",
+      "Company": "Plenti Group Limited (PLT.AX)",
+      "Capital/Market Cap": "約 1.45億至1.53億澳元（約合 1億美元）",
+      "Core Business": "專注於透過自研專利技術平台提供消費性與商業借貸解決方案，核心業務涵蓋汽車與電動車融資（Automotive & EV）、再生能源貸款（Renewables，如家用太陽能與電池儲能系統）以及個人無擔保貸款（Personal Loans）。同時與澳洲國民銀行（NAB）策略結盟，深度整合『NAB powered by Plenti』聯名車貸與綠色金融產品分銷。",
+      "Clients & Orders": "服務廣大澳洲終端消費者與購車族群，分銷網絡深度綁定數千家授權汽車經銷商、獨立貸款經紀人（Brokers）以及再生能源安裝商生態系。FY26 全年放款承作額（Originations）達 18.68 億澳元（年增 32%），截至 2026 年中總放款資產規模（Loan Portfolio）突破 33 億澳元。",
+      "Technical Moat": "擁有全自主研發的端到端專有信貸決策與自動化審批引擎，深度整合即時收入與詐欺驗證技術（如 Fortiro），顯著降低獲客與營運成本並加速核貸撥款。專屬 GreenConnect 綠能銷售點（POS）平台整合硬體安裝商、政府綠色補貼（CEFC/HEUF）與虛擬電廠（VPP）費率折扣，構築高黏著度的分散式綠能融資生態壁壘。",
+      "Revenue Breakdown": "FY26 全年營收達 3.12 億澳元（年增約 20.5%）。營收結構以貸款利息收入（Interest Income）為核心支柱（佔比約 85% 以上），其餘來自貸款管理服務費、經紀與平台撮合費（Transaction & Platform Fees），以及與 NAB 等機構夥伴之技術白標與服務管理收入（佔比約 10% 至 15%）。",
+      "Gross Margin Profile": "淨利息收益率（NIM）持續擴張，FY25 為 5.31%，FY26 提升至 5.50%，至 2026 年初更進一步走擴至 5.70%。受惠於數位平台強勁的經營槓桿，營運成本收入比降至約 23.9%，帶動 FY26 全年稅後現金淨利（Cash NPAT）達 2,730 萬澳元（大幅年增 97%）。",
+      "Key Competitors": "主要競爭對手涵蓋澳洲本土非銀行消費金融與車貸科技同業如 Wisr (ASX: WZR)、MoneyMe (ASX: MME)、Solvar (ASX: SVR)、Pepper Money (ASX: PPM) 與 Latitude Financial (ASX: LFS)；以及澳洲四大傳統商業銀行（如 CBA、Westpac、ANZ、Macquarie Bank）旗下之零售與綠色貸款部門。",
+      "12M Catalysts": "1. 與澳洲國民銀行（NAB）深度合作之『NAB powered by Plenti』車貸與綠能貸款分銷加速放量，有望進一步觸發 NAB 執行最高達 15% 的股權認購協議；2. 澳洲聯邦政府家庭能源升級基金（HEUF）補貼政策全面發酵，推動家用儲能與太陽能貸款承作額倍增；3. 澳洲央行若進入降息週期將有效降低倉庫融資與資產證券化（ABS）發行成本，推動利差與淨利再創高峰。",
+      "Key Investment Risks": "1. 宏觀經濟與生活成本壓力若持續高企，可能導致個人信貸與車貸違約率（90天以上逾期）攀升並增加壞帳提撥；2. 批發融資市場（Warehouse Facilities & ABS 資本市場）流動性緊縮或利差走擴導致資金成本反彈；3. 傳統大行與數位借貸同業在優質借款人與車貸經銷通路上發動激烈價格戰削弱毛利。",
+      "CEO & Management": "執行長 Adam Bennett 於 2024 年 7 月接任掌舵（曾任 NAB 資訊長 CIO 及執行委員會成員，深諳大型數位銀行營運）；財務長 Selena Verth 於 2026 年 7 月正式就任（接替任職六年於 2026 年 5 月交棒的原 CFO Miles Drury）；董事會由獨立非執行主席 Mary Ploughman 領導，聯合創辦人 Daniel Foggo 轉任非執行董事。",
+      "Core Patents & IP": "核心資產在於全自研專有信貸決策演算法、端到端自動化核貸工作流系統，以及專為清潔能源打造的『GreenConnect』整合型融資點對點技術架構與商標。無公開發明專利登記，主要以專有軟體原始碼、專屬風險定價模型、商業機密與版權維繫核心壁壘。",
+      "3-Year M&A": "近三年（2023-2026）未進行任何外部企業併購，公司專注於有機擴張（Organic Growth）策略；最關鍵的資本策略合作為 2023 年底與澳洲國民銀行（NAB）簽訂之長期戰略聯盟及附帶最高 15% 股權認購選擇權協議（分階段依業務里程碑落實）。",
+      "CapEx & Expansion": "採輕資產（Asset-light）數位金融運營架構，資本支出主要集中於自研軟體資本化、信用決策模型優化與雲端基礎架構擴容（年均資本支出估約 600萬至800萬澳元）；業務擴張重點聚焦於商業車貸（Commercial Auto Lending）版圖拓寬與全澳分散式能源（VPP與家庭電池）專案融資。",
+      "Geopolitical Exposure": "業務 100% 集中於澳洲本土金融與消費信貸市場，直接地緣政治曝險極低；主要間接風險源於全球清潔能源供應鏈價格波動（如太陽能組件與電池進口關稅及成本影響終端安裝意願），以及國際金融市場流動性波動對澳洲本地證券化融資市場的連鎖效應。",
+      "M&A Potential": "具備高度潛在被併購價值（M&A Target）。其擁有優質的高成長車貸與綠能放款資產包、高效低成本的數位借貸架構與成熟經紀通路，且主要合作夥伴 NAB 已持有入股協議，極易成為欲加速數位轉型或擴大澳洲零售非房貸市佔之國內外大型銀行或大型私募股權基金的理想併購標的。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 484 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "MVB Financial Corp. (MVBF)",
+      "Plenti Group Limited (PLT.AX)"
+    ],
+    "unmatched": [],
+    "rows_exported": 3190
+  }
+}

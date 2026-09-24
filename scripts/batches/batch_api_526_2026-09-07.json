@@ -1,0 +1,84 @@
+{
+  "label": "API Batch 526 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "Cantaloupe, Inc. (CTLV)",
+      "Country": "USA",
+      "Industry": "金融科技",
+      "Tier": ""
+    },
+    {
+      "Company": "HiPay Group (HIPAY.PA)",
+      "Country": "France",
+      "Industry": "金融科技",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "USA",
+      "Timeframe": "中長期",
+      "Sub-Sector": "無人零售與物聯網支付",
+      "Industry": "金融科技",
+      "Tier": "隱形冠軍",
+      "Company": "Cantaloupe, Inc. (CTLP)",
+      "Capital/Market Cap": "約 8.48 億美元（以 2026 年 5 月被 365 Retail Markets 以每股 11.20 美元全現金私有化之交易估值計，收購完成後已自那斯達克下市）。",
+      "Core Business": "專注於無人零售（Unattended Retail）端到端數位支付與物聯網（IoT）解決方案，提供智慧販賣機無現金讀卡機終端、遠端遙測模組（Telemetry）及雲端販賣機管理軟體平台（Seed Platform）。",
+      "Clients & Orders": "服務北美及歐洲逾 3 萬家自動販賣機運營商、微型市場（Micro-markets）、自助洗衣、洗車場及娛樂設施業者，全球聯網活躍設備數超過 130 萬台，商戶黏著度與留存率高。",
+      "Technical Moat": "打造高轉換成本的軟硬一體化生態系，專利物聯網遙測技術與 Seed 雲端物流排程系統深度嵌入客戶日常營運流程；結合 Cantaloupe ONE 整合訂閱制及全方位支付閘道認證，形成顯著的網絡效應與技術壁壘。",
+      "Revenue Breakdown": "2025 財年總營收約 3.03 億美元；其中經常性收入（軟體訂閱費與支付交易處理手續費）佔比達 87% 至 90%，硬體終端設備銷售收入佔比約 10% 至 13%。",
+      "Gross Margin Profile": "2025 財年整體調整後毛利率約 40.9%；其中高毛利的軟體訂閱與支付交易服務毛利率維持在 44% 左右（純軟體 SaaS 毛利率達 85% 以上），硬體銷售毛利率則維持在 10% 至 12% 區間。",
+      "Key Competitors": "Nayax (NYAX)、Crane Payment Innovations (CPI)、Ingenico、Square (Block, Inc.) 及其他自助零售微型市場終端系統供應商。",
+      "12M Catalysts": "完成與 365 Retail Markets 的全面組織與業務整合，實現微型市場與自動販賣機軟硬體方案之交叉銷售；配合 FTC 反壟斷要求完成剝離 Three Square Market 業務後，加速推進智慧商店（Smart Stores）與歐洲市場布局。",
+      "Key Investment Risks": "公司已於 2026 年 5 月完成私有化並從那斯達克下市，失去公開市場交易流動性；合併後續面臨平台技術整合成效、反壟斷資產剝離過渡期之營收流失，以及總體消費降溫引發終端販賣機交易量放緩風險。",
+      "CEO & Management": "原執行長 Ravi Venkatesan 領導公司完成向高利潤 SaaS 與物聯網支付轉型；2026 年 5 月私有化交割後，由母公司 365 Retail Markets 執行長 Joe Hessling 掌舵合併集團，原核心管理團隊整合主導支付與遙測業務。",
+      "Core Patents & IP": "擁有數十項涵蓋多點無線通訊、販賣機物聯網遙測（Telemetry）、無現金支付安全處理及動態動線路徑規劃演算法等關鍵專利，並具備 Seed 雲端管理系統之專有軟體版權與商標保護。",
+      "3-Year M&A": "2026 年 5 月由 365 Retail Markets 以 8.48 億美元全現金完成收購私有化；此前於 2023 年收購英國自動販賣管理軟體商 SB Software 擴張歐洲版圖，2024 年收購體育與娛樂場館行動支付商 CHEQ 以布局多樣化自助結帳場景。",
+      "CapEx & Expansion": "資本支出聚焦於次世代智慧冷藏櫃（Smart Stores）視覺感測終端研發、雲端 Seed 平台微服務架構升級，以及協同母公司進一步深耕英國、歐盟與澳洲等海外無人零售市場。",
+      "Geopolitical Exposure": "逾 85% 業務與營收集中於北美市場，海外地緣衝突直接營運暴險極低；主要間接風險來自終端硬體設備製造及電子晶片對亞洲供應鏈之採購依賴，潛在關稅上升將增加硬體改機與部署成本（估）。",
+      "M&A Potential": "因已於 2026 年完成私有化並成為 365 Retail Markets 全資子公司（背後由 Providence Equity 支持），短期內無獨立上市公司併購標的屬性；中長期動向取決於母公司集團在整合成全球無人零售巨頭後推動重啟 IPO 或轉售予大型金融科技企業。"
+    },
+    {
+      "Country": "France",
+      "Timeframe": "中長期",
+      "Sub-Sector": "數位支付",
+      "Industry": "金融科技",
+      "Tier": "潛力股",
+      "Company": "HiPay Group (ALHYP.PA)",
+      "Capital/Market Cap": "約 3,300 萬歐元",
+      "Core Business": "HiPay 為歐洲全通路支付服務提供商（PSP），專注為中大型品牌、電商平台及實體零售商提供統一商務（Unified Commerce）金流整合方案。業務涵蓋線上支付網關處理、實體 SmartPOS 終端整合、跨境多幣別清算以及全球超過 220 種本地支付方式接入，並結合大數據分析後台 HiPay Console 與即時風險控管系統。",
+      "Clients & Orders": "客戶群深耕歐洲中大型零售、精品、休閒觀光與數位娛樂產業，代表性客戶包含 Club Med、Citroën（Stellantis 集團）、The Kooples、Promod、Fauchon、Alltricks 與 L'Exception 等。2024 至 2025 年年處理交易總額（TPV）突破 95.5 億歐元（年增 4.4%），客戶留存率穩健，並在西歐及南歐實體通路訂單展現穩定增長動能。",
+      "Technical Moat": "核心技術壁壘奠基於自主研發的 HiPay Sentinel 人工智慧動態詐欺防範引擎，運用機器學習模型即時計算交易風險評分，在完全符合歐盟 PSD2/SCA 強制驗證下極大化商戶授權通過率。其平台具備全通路統一 Token 數據架構、跨卡組織智慧路由（Smart Routing）技術，並與 Shopify、Salesforce Commerce Cloud 及 Magento 等主流商務系統深度整合。",
+      "Revenue Breakdown": "2025 年集團營收約為 7,480 萬歐元（2024 年為 7,420 萬歐元），平均手續費率（Take Rate）約在 0.78% 至 0.81% 區間。依地理市場劃分，法國本土貢獻約 56% 營收，其餘 44% 來自義大利、比利時、葡萄牙等泛歐市場；依業務類型則以全通路交易處理及清算佣金收入為主（佔比逾 85%），其餘為加值軟體訂閱與終端維護收入。",
+      "Gross Margin Profile": "營收與獲利受卡組織交換費（Interchange Fees）與特定行業交易結構影響，2024 年 EBITDA 達 1,080 萬歐元（EBITDA 率 14.5%），2025 年受數位娛樂板塊費率承壓與產品線持續投資影響收斂至 820 萬歐元（EBITDA 率 11.0%）。2024 與 2025 年淨利潤維持在 580 萬至 590 萬歐元水準，毛利率結構在高毛利零售全通路滲透下展現穩健經營韌性。",
+      "Key Competitors": "主要競爭對手包括全球全通路金流巨頭 Adyen、Stripe、Checkout.com，以及歐洲本土支付龍頭 Worldline、Nexi 和 Mollie。HiPay 採取差異化競爭策略，主打高度彈性的客製化技術對接、專屬本地客戶成功經理支援，以及針對泛歐特定垂直行業的深度整合能力。",
+      "12M Catalysts": "未來 12 個月催化劑包括：SmartPOS 終端在實體連鎖門市的加速鋪設以拉升統一商務營收佔比；歐盟即時支付（Instant Payments）規範推動下的次世代金流產品商轉；以及在穩健正向自由現金流與低本益比支撐下，兩大核心控股股東推進私有化、策略資本重組或泛歐同業整合之契機。",
+      "Key Investment Risks": "關鍵風險在於歐洲宏觀零售消費景氣疲弱導致整體交易量增速放緩，以及 Adyen、Stripe 等規模化巨頭價格戰擠壓整體 Take Rate。此外，數位博弈及線上娛樂產業面臨歐盟跨國監管與稅制變動風險，且於 Euronext Growth 掛牌之中小市值股票存在次級市場流動性偏低之限制。",
+      "CEO & Management": "執行長由 Pierre Gironce 擔任（自 2022 年掌舵，主導公司精準獲利與全通路產品轉型），董事會主席為最大股東代表 Benjamin Jayet（BJ Invest 創辦人）。副總經理由 Eric Meynard 出任，營運長為 David Cohen，高階管理團隊具備深厚的泛歐金融科技營運、合規及商務拓展經驗。",
+      "Core Patents & IP": "擁有法國審慎監管與處置局（ACPR）核准之正規支付機構執照及國際支付卡產業最高等級 PCI-DSS Level 1 認證。核心智財涵蓋 HiPay Sentinel 動態防欺詐演算法專利架構、交易自動對賬與智慧路由系統專有技術，以及全套自主開發的 OpenAPI 接口模組與軟體著作權。",
+      "3-Year M&A": "過去三年（2023–2025 年）未執行外部收購，經營重心聚焦於自有微服務架構升級與營運轉盈之有機增長。2025 年初完成股本優化調整，目前兩大參考股東 BJ Invest（持股 32.25%）與 Eximium（持股 31.53%）合計掌握逾 63% 股權，股權結構穩定且高度集中。",
+      "CapEx & Expansion": "資本支出以高比率之內部研發費用資本化為主，重點投入於新一代全通路雲端微服務平台架構、智慧 POS 終端適配及防詐演算法強化。市場擴張採取輕資產直營與夥伴生態並進模式，深耕法國核心市場之餘，持續擴張義大利、葡萄牙、西班牙與比荷盧等西歐、南歐商務版圖。",
+      "Geopolitical Exposure": "地緣政治與營運環境高度繫於歐盟整體總體經濟與單一市場監管體系，涵蓋 PSD2/PSD3、PSR 支付服務條例、DORA 數位營運韌性法案及嚴格之 GDPR 數據主權要求。業務主要集中於歐盟境內，無直接美中科技戰或直接地緣衝突之供應鏈暴露，但歐盟內部反洗錢（AML）合規成本上升帶來結構性壓力。",
+      "M&A Potential": "具備高度潛在併購與私有化價值；鑑於公司市值僅約 3,000 多萬歐元、本益比（P/E）顯著低於同行且具備年淨利近 600 萬歐元的穩定獲利能力，對於欲擴張歐洲零售與電商市場份額的全球性 PSP、私募股權基金（PE）或尋求區域整合的歐洲同業而言，皆屬極具性價比的優質併購標的。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 526 (new, gemini)",
+    "updated": [
+      "HiPay Group (ALHYP.PA)"
+    ],
+    "claimed": [
+      "Cantaloupe, Inc. (CTLP)"
+    ],
+    "unmatched": [],
+    "rows_exported": 3256
+  }
+}

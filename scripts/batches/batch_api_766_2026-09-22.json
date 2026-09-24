@@ -1,0 +1,54 @@
+{
+  "label": "API Batch 766 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "Teck Resources (TECK-B.TO)",
+      "Country": "Canada",
+      "Industry": "關鍵金屬",
+      "Tier": ""
+    }
+  ],
+  "requested": [],
+  "records": [
+    {
+      "Country": "Canada",
+      "Timeframe": "中長期",
+      "Sub-Sector": "關鍵金屬",
+      "Industry": "金屬與採礦",
+      "Tier": "龍頭股",
+      "Company": "Teck Resources (TECK-B.TO)",
+      "Capital/Market Cap": "約 450億加幣（約 320億美元）",
+      "Core Business": "專注於全球能源轉型所需之關鍵金屬開發與生產，核心業務為銅礦（佔產量與獲利核心）及鋅精礦與精煉鋅，並營運智利 Quebrada Blanca、秘魯 Antamina、加拿大 Highland Valley Copper 以及美國阿拉斯加 Red Dog 等世界級長壽命礦山。公司於 2024 年完成出售 Elk Valley 鋼鐵冶煉煤業務，徹底轉型為純度極高的能源轉型關鍵金屬生產商。",
+      "Clients & Orders": "產品主要以多年期合約供應全球頂級金屬冶煉廠、國際大宗商品貿易商（如 Glencore、Trafigura）及亞洲與歐洲的工業製造商。旗下阿拉斯加 Red Dog 鋅礦與加拿大 Trail 冶煉綜合體生產的高純度精煉鋅與鍺、銦等關鍵副產物，長期獲半導體、再生能源與國防先進製造供應鏈穩定採購。",
+      "Technical Moat": "手握高品位、低開採成本的世界級斑岩銅礦與鉛鋅礦儲量，並於智利 QB2 建設具備大規模海水淡化輸送與高海拔自動化採選系統，具備顯著的開採規模經濟優勢。此外，公司擁有自主研發的 CESL 專利濕法冶金技術，可高效低碳處理高砷難選銅精礦，並在卑詩省 Trail 運營全球規模最大的綜合多金屬冶煉與伴生關鍵金屬提純設施之一。",
+      "Revenue Breakdown": "隨著鋼鐵煤炭業務剝離完成，2025-2026 年銅業務（含精礦與陰極銅）營收佔比已躍升至約 65%–70%，為公司最主要的獲利支柱。鋅業務（包括 Red Dog 礦山精礦及 Trail 冶煉廠精煉產品）營收佔比約為 30%–35%，其餘為伴生之鉬、銀、鉛及鍺等關鍵金屬副產品收入。",
+      "Gross Margin Profile": "綜合毛利率約維持在 32%–38% 區間，受惠於智利 QB2 產能放量帶來的規模經濟與副產品（銀、鉬）抵扣，使銅每磅淨現金成本維持在 1.85–2.20 美元的低位優勢區間。然而，Trail 冶煉廠面臨全球加工精煉費（TC/RC）波動及能源通膨壓力，對整體鋅業務毛利率構成週期性壓抑。",
+      "Key Competitors": "自由港麥克莫蘭（Freeport-McMoRan）、南方銅業（Southern Copper）、必和必拓（BHP）、力拓（Rio Tinto）以及第一量子礦業（First Quantum Minerals）。",
+      "12M Catalysts": "與英美資源（Anglo American）規模達 500-530 億美元的全股票對等合併案（組建 Anglo Teck）預計於 2026 年底至 2027 年初陸續完成中韓等反壟斷監管審批並正式交割。智利 Quebrada Blanca (QB) 銅礦持續達成全面達產目標，預計將年產能穩定推升至 28.5–31.5 萬噸銅，並推進與鄰近 Collahuasi 礦區之運營協同談判。",
+      "Key Investment Risks": "跨國監管反壟斷審查風險，若主要進口國（如中國監管機構）延遲或附加嚴苛條件，可能阻礙或拖延與英美資源之合併交割進程。此外，智利與秘魯等主要產地之礦業權利金稅制變更、資源民族主義政策，以及全球總體經濟波動對銅、鋅終端需求的壓抑，均會造成營運與現金流波動。",
+      "CEO & Management": "執行長 Jonathan Price（前 BHP 首席轉型官兼首席財務官）具備深厚跨國資本運作與礦業管理經驗，成功主導煤炭業務剝離並促成與英美資源之世紀合併，未來內定出任 Anglo Teck 副執行長兼首席戰略官。管理團隊在執行副總裁兼財務長 Crystal Prystai 等帶領下，資本配置轉向嚴格控管資本支出並優先回饋股東，治理風格穩健果決。",
+      "Core Patents & IP": "持有自主研發的 CESL 專利濕法冶金技術體系，可在中溫中壓環境下對高砷、低品位難選硫化銅礦石實現高回收率與低碳浸出。此外，公司在高海拔長距離海水輸送水力控制、極地凍土採礦工藝以及 Trail 冶煉廠的高純鍺與稀散金屬多階段分離提純上，擁有領先業界的多項核心技術與商業機密。",
+      "3-Year M&A": "2024 年中以約 89 億美元完成向 Glencore 等財團出售 Elk Valley 鋼鐵冶煉煤業務（EVR）之交易，為公司轉型為純能源轉型金屬巨頭奠定雄厚現金儲備。2025 年 9 月正式宣布與英美資源（Anglo American）達成 500-530 億美元對等合併協議組建「Anglo Teck」（Teck 股東持股約 37.6%），此前亦與 Agnico Eagle 合資推進墨西哥 San Nicolás 銅鋅項目。",
+      "CapEx & Expansion": "2025-2026 年年化資本支出約在 18 億至 22 億加幣，主要集中於 QB 項目後續港口與尾礦設施優化、加拿大 Highland Valley Copper 2040 壽命延長工程（HVC 2040）及墨西哥 San Nicolás 前期開發。隨著大型工程接近尾聲，資本密集度逐步下降，營運現金流將更多轉向減債與股東現金回饋。",
+      "Geopolitical Exposure": "生產資產全數坐落於美洲法治與基礎設施相對成熟區域（加拿大、智利、秘魯、美國阿拉斯加），相較於非洲或歐亞礦商面臨較低的地緣政治徵收風險。主要政治與監管曝險來自智利新礦業權利金法案帶來的稅負上升，以及阿拉斯加 Red Dog 與當地原住民土地協議（NANA Agreement）之環境合規監管要求。",
+      "M&A Potential": "現階段資本與管理層精力完全鎖定在推動與 Anglo American 世紀合併之交割與架構整合，短期內不再尋求其他大規模收購標的。合併完成後之 Anglo Teck 將躍居全球前五大銅業巨頭，並具備進一步與 Glencore 協商整合智利 Collahuasi 與 Quebrada Blanca 鄰近礦區以釋放年化估計達 14 億美元 EBITDA 綜效的戰略整合潛力。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 766 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "Teck Resources (TECK-B.TO)"
+    ],
+    "unmatched": [],
+    "rows_exported": 4163
+  }
+}

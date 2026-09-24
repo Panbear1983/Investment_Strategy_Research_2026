@@ -1,0 +1,84 @@
+{
+  "label": "API Batch 576 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "AgEagle Aerial Systems (UAVS)",
+      "Country": "USA",
+      "Industry": "無人機",
+      "Tier": ""
+    },
+    {
+      "Company": "DroneShield (DRO.AX)",
+      "Country": "Australia",
+      "Industry": "無人機",
+      "Tier": ""
+    }
+  ],
+  "requested": [],
+  "records": [
+    {
+      "Country": "USA",
+      "Timeframe": "中長期",
+      "Sub-Sector": "先進無人機",
+      "Industry": "國防航太與無人機系統",
+      "Tier": "潛力股",
+      "Company": "AgEagle Aerial Systems (UAVS)",
+      "Capital/Market Cap": "約 6,800 萬美元",
+      "Core Business": "公司（2025年起以 EagleNXT 品牌營運）專注於全自主定翼無人機（eBee 系列）、多光譜空載感測器（MicaSense 系列）之研發製造，並拓展反無人機（C-UAS）防衛方案。產品廣泛應用於國防情報監視偵察（ISR）、邊境巡邏、公共安全以及精準農業測繪等多元場景。",
+      "Clients & Orders": "主要國防客戶涵蓋美軍陸軍（2026年獲得多筆 eBee VISION 採購合約）、法國陸軍（超過40套 eBee VISION 採購大單）與美國能源部橡樹嶺國家實驗室。商業端則透過全球經銷網絡服務大型測繪公司與農業科技客戶，且其合資公司 ThirdEye USA 已獲選參與美軍中央司令部（USCENTCOM）防禦演習。",
+      "Technical Moat": "核心機種 eBee TAC 與 eBee VISION 通過美國國防部國防創新單元（DIU）嚴苛的「Blue UAS」最高等級資安與合規認證，具備美國德州本土製造與 100% NDAA 供應鏈保障。搭配全球市占領先的專利 MicaSense 多光譜遙測技術與長滯空超視距（BVLOS）民航豁免優勢，在定翼輕量化測繪與戰術偵察領域建立高進入障礙。",
+      "Revenue Breakdown": "無人機載具與客製製造（Drones & Custom Manufacturing）占比約 55% 至 60%，主要由軍用級 eBee VISION 及 eBee TAC 出貨驅動；多光譜感測器（Sensors，以 MicaSense 為主）占比約 40% 至 45%（估）；過往虧損之軟體 SaaS 業務已於近年實質關閉以聚焦硬體獲利。",
+      "Gross Margin Profile": "受惠於產品組合向高毛利軍工無人機與高階感測器傾斜，2024 年毛利率約為 47.0%，2025 年提升至 51.8%，2026 年維持在 50% 至 54% 區間。隨著德州艾倫工廠規模效應發酵與供應鏈成本優化，毛利率展現穩健擴張結構。",
+      "Key Competitors": "包括小型軍用無人機巨頭 AeroVironment（AVAV）、自主無人機獨角獸 Skydio、同屬微型無人機競爭者的 Red Cat Holdings（RCAT），以及歐洲國防定翼機廠商 Quantum-Systems。",
+      "12M Catalysts": "美國聯邦《反對中共無人機法案》推進及各州針對中國製大疆（DJI）無人機禁令落地，驅使公共安全與商業用戶加速轉向 Blue UAS 認證機型。此外，美軍與北約盟友後續追加採購訂單放量，以及德州艾倫工廠全面量產帶動營收季增與營運現金流顯著改善。",
+      "Key Investment Risks": "面臨嚴峻的營運資金與股權稀釋風險，公司於 2024 年底進行 1 比 50 反分割並多次增發普通股與可轉債籌資，長期股本稀釋壓力沉重。另外，政府與軍工訂單採購週期冗長且出貨驗收波動大，加上面對資本更雄厚的國防巨頭競爭，研發規模劣勢仍存。",
+      "CEO & Management": "由具備深厚國防航空背景（曾任職 Textron Systems 與 Martin UAV）的執行長 Bill Irby 於 2024 年 4 月接任掌舵，並於 2025 年推動品牌重塑為 EagleNXT 與國防戰略轉型。高管團隊包括營運長 Brent Pope 及反無人機業務主管 Lindsay Ryan，全面強化軍事與政府合約拓展能力。",
+      "Core Patents & IP": "持有 MicaSense 專利多光譜與高精度熱成像光學同步捕捉專利技術，在植被指數與偽裝目標光譜辨識領域具領先地位。同時擁有 senseFly 超輕量定翼結構、反轉螺旋槳防損降落與 eMotion 導航控制系統專利，並整合 ThirdEye 之邊緣運算 AI 影像追蹤演算法。",
+      "3-Year M&A": "近年（2023-2026年）由積極併購期轉入資產整合與優化：於 2023-2024 年成功以折價方式結清收購 MicaSense 與 senseFly 的尾款債務，並果斷關閉不具效益的 Measure SaaS 軟體業務；2025 年底成立 ThirdEye USA 控股合資公司攻入反無人機市場，並於 2026 年 7 月完成對無人機技術公司 Agilis Air 的策略股權投資。",
+      "CapEx & Expansion": "資本支出聚焦於美國本土製造產能重組，投資擴建德州艾倫（Allen, Texas）新廠以全面滿足國防部 NDAA 本土化裝配與 Blue UAS 驗證標準。同時大幅縮減非核心雲端軟體研發支出，轉向聚焦 eBee VISION 戰術載具自動化調校及多光譜感測模組生產設備升級。",
+      "Geopolitical Exposure": "高度受美中地緣政治博弈與西方防務供應鏈去中化政策影響，直接受益於美國國防部 Blue UAS 清單與美歐對中資無人機的資安禁售令轉單紅利。烏克蘭戰場驗證定翼偵察機重要性亦帶動歐洲與北約客戶採購需求，惟特定航電次模組與光學元件仍須面對西方供應鏈重組之成本上升考驗。",
+      "M&A Potential": "具備較高中小型併購吸引力，因公司擁有稀缺的美軍 Blue UAS 雙認證定翼載具技術與全球頂尖的 MicaSense 多光譜專利資產。在美國國防部 Replicator 專案推升低成本無人自主系統整合浪潮下，極易成為大型軍工承包商（如 L3Harris、General Dynamics）或同業整合者（如 Red Cat、Teledyne FLIR）擴充戰術定翼機版圖的潛在收購目標。"
+    },
+    {
+      "Country": "Australia",
+      "Timeframe": "中長期",
+      "Sub-Sector": "反無人機防禦",
+      "Industry": "國防軍工與國土安全",
+      "Tier": "龍頭股",
+      "Company": "DroneShield (DRO.AX)",
+      "Capital/Market Cap": "約 16.1億澳幣 (約 10.8億美元)",
+      "Core Business": "專注於以人工智慧與射頻（RF）感測技術為核心的反無人機系統（C-UAS）及電子戰裝備研發製造。產品線涵蓋單兵便攜手持式干擾槍（DroneGun）、車載與艦載移動偵測防禦模組（DroneSentry-X），以及整合雷達、光電與 RF 頻譜的多感測器固定式基地防空系統（DroneSentry）。",
+      "Clients & Orders": "客戶遍及全球逾 70 個國家的國防、情報及邊境執法單位，為首家獲納入北約採購局（NSPA）反無人機採購框架協議的供應商。主要客戶包含美國國防部（2026年獲 JIATF-401 專案 2,490 萬美元訂單）、澳洲國防軍及多個歐洲北約成員國；截至 2026 年在手已承諾營收已突破 2.5 億澳幣。",
+      "Technical Moat": "核心護城河在於自主研發的 RFAI 機器學習訊號辨識引擎與 DroneOptID 光學追蹤演算法，能對非標準與改裝威脅無人機進行毫秒級特徵比對與多頻段軟殺干擾。相較於多數單一感測器供應商，公司具備「偵測、分類、指管、軟殺攔截」全鏈路軟硬體垂直整合能力，並基於實戰遙測數據進行高頻 OTA 模型更新。",
+      "Revenue Breakdown": "營收以硬體系統裝備銷售為主力（約佔 80%–85%），涵蓋便攜式設備與車載、固定式多感測防護站。高毛利的專利軟體訂閱（SaaS 模式之 RFAI 威脅特徵庫更新與維護合約）成長迅速，於 2026 年上半年貢獻約 1,150 萬澳幣，其餘來自客製化防務整合與研發服務。",
+      "Gross Margin Profile": "整體毛利率長期維持在 60% 至 70% 高檔水準（2025 年約 60.9%，受短期產能擴建與零組件採購結構波動影響）。隨著專利軟體與 AI 威脅資料庫訂閱營收佔比拉升（SaaS 毛利率逾 85%），加上雪梨新產線規模經濟顯現，中長期毛利率預期穩固於 65%–72% 區間。",
+      "Key Competitors": "主要競爭對手包括美國防務獨角獸 Anduril Industries、Axon 旗下的 Dedrone、以色列 D-Fend Solutions，以及歐洲防務巨頭 Hensoldt 與 Thales。相較大型軍工承包商的高昂傳統防空系統，DroneShield 在戰術級小型無人機與穿越機（FPV）的反制性價比、單兵便攜度及即時部署速度上具備顯著優勢。",
+      "12M Catalysts": "未來 12 個月催化劑包括：歐盟「歐洲再武裝計畫」（ReArm Europe）與烏克蘭前線補充採購訂單持續落地、美軍更大型 C-UAS 項目批量採購決標，以及歐洲與美國在地委外合約製造產能全面釋放。此外，軟體高頻訂閱（ARR）加速增長帶動營運現金流與淨利結構性轉正，為估值重估關鍵。",
+      "Key Investment Risks": "主要投資風險為國防採購標案認列時程漫長且單筆訂單規模大，易造成單季營收與獲利大幅波動。此外，2025 年底前高層減持持股曾引發公司治理疑慮、快速擴張使固定營運支出急升導致短期獲利承壓，以及新型低空威脅（如抗干擾光纖導引無人機）對現有 RF 軟殺技術的潛在反制風險均需審慎評估。",
+      "CEO & Management": "2026 年 4 月完成高階領導層交接，原技術長 Angus Bean 接任執行長與執行董事，全面主導產品技術工程化與全球量產交付；原執行長 Oleg Vornik 於爭議後去職。核心管理團隊兼具澳洲與美國電子工程、國防採購與資本市場運作經驗，正逐步完善合規治理架構。",
+      "Core Patents & IP": "在全球主要防務市場布局涵蓋多頻段 RF 射頻特徵指紋辨識、軟體定義無線電（SDR）分散式干擾、光電/紅外（EO/IR）目標自動偵測辨識演算法等多項核心專利與著作權。核心資產包含累積數億筆實戰與試驗紀錄的非對稱無人機射頻信號資料庫，形成高壁壘之演算法訓練數據護城河。",
+      "3-Year M&A": "過去三年主要採行內生性有機研發與全球產能擴張策略，未發動大型股權併購，擴產資金主要來自澳洲資本市場定向增資。外部布局側重於與全球主要防務系統整合商簽署戰略合作協議，將自身 C-UAS 偵測模組嵌入跨國大型作戰指揮系統。",
+      "CapEx & Expansion": "2025 年底於澳洲雪梨 Alexandria 啟用投資 1,300 萬澳幣之 3,000 平方公尺新產研基地，使本地年製造產能由 5 億澳幣提升至 2026 年中約 9 億澳幣。同時拓展歐洲與美國本土合約製造（Contract Manufacturing）外包網絡，目標於 2026 年底前達成全球合計年產值 24 億澳幣的交付能力。",
+      "Geopolitical Exposure": "地緣政治敏感度極高但結構性受益，俄烏戰場、中東衝突及各國防空缺口使無人機不對稱作戰常態化，驅動全球國防預算持續向低空防禦傾斜。其產品出口嚴格受限於澳洲國防出口管制法規（DECO）與美國 ITAR 規範，營收高度集中於歐美五眼聯盟及北約成員國市場。",
+      "M&A Potential": "具備高度被併購價值，其在戰術級反無人機細分市場的全球品牌領導地位、AI 射頻專利庫以及北約與美軍合格供應商資質，極具戰略吸引力。潛在收購方涵蓋急需補齊無人機反制缺口的傳統軍工巨頭（如 RTX、L3Harris、BAE Systems）或公共安全安防龍頭（如 Axon Enterprise）。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 576 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "AgEagle Aerial Systems (UAVS)",
+      "DroneShield (DRO.AX)"
+    ],
+    "unmatched": [],
+    "rows_exported": 3361
+  }
+}

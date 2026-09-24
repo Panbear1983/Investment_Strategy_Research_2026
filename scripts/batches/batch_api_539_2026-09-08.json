@@ -1,0 +1,53 @@
+{
+  "label": "API Batch 539 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "Korea Information Certificate Authority, Inc. / 한국정보인증 (036460.KQ)",
+      "Country": "South Korea",
+      "Industry": "金融科技",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "South Korea",
+      "Timeframe": "中長期",
+      "Sub-Sector": "資訊安全與數位認證",
+      "Industry": "金融科技",
+      "Tier": "龍頭股",
+      "Company": "Korea Information Certificate Authority, Inc. / 한국정보인증 (053300.KQ)",
+      "Capital/Market Cap": "約 2,020億韓元（約 1.5億美元）",
+      "Core Business": "為韓國第一家獲政府公認之數位憑證認證機構，核心業務涵蓋公同認證書（PKI）、SSL伺服器安全憑證、FIDO生物辨識及OTP雙因子認證解決方案。同時積極拓展SaaS架構之電子合約簽署平台「signOK」（싸인오케이）與自駕車聯網（V2X）安全通訊認證，並透過控股子公司跨足AI廣告行銷技術領域。",
+      "Clients & Orders": "深度滲透韓國金融生態圈，長期向國民銀行、新韓銀行等一線大型商業銀行、證券公司、保險業者以及國稅廳等主要政府公營機構提供認證底層技術。此外在終端環境與三星電子、LG電子及Apple體系均有合作，旗下signOK電子合約亦獲國內眾多跨國集團與中大型企業導入採用。",
+      "Technical Moat": "擁有深厚之公鑰基礎設施（PKI）底層加密與金鑰生命週期管理技術，符合國際IEEE 1609.2與CAMP SCMS標準規範，具備自駕車匿名憑證認證之高技術壁壘。近年領先業界商用化抗量子攻擊之量子隨機數OTP（Quantum OTP），並全面布局後量子密碼學（PQC）混合憑證體系，築構高合規與頂級安全性護城河。",
+      "Revenue Breakdown": "2025年合併營收約達 1,384億韓元；其中核心PKI認證書發行與管理服務佔比約45%至50%，OTP及各類金融資安防護方案約佔15%至18%，signOK電子合約與SSL伺服器憑證等SaaS業務約佔10%，其餘約20%至25%來自控股子公司Wisebirds之數位廣告技術與系統維護收益。",
+      "Gross Margin Profile": "整體毛利率常年維持在 38% 至 44% 之健康區間（估），高度體現其自主憑證軟體與安全授權的高邊際效益特質。受惠於高毛利SaaS電子合約滲透率提升及廣告技術部門成本效益優化，2025年合併營業利益率大幅躍升至約 19.4%，具備顯著之規模化獲利放大特性。",
+      "Key Competitors": "在傳統PKI及企業級公認憑證市場主要對手為韓國電子認證（CrossCert, 041440.KQ）、Koscom（SignKorea）及金融結算院（KFTC）；在個人民營認證與電子簽約市場則面臨Kakao、Naver、PASS、Toss等科技平台巨頭及Modusign（모두의싸인）的激烈競爭。",
+      "12M Catalysts": "主要催化劑包括後量子密碼（PQC）國標驗證落地帶動政府與金融體系安全升級更換潮，以及signOK整合電子證照資產後之企業付費訂閱率攀升。此外，持股約67.4%之子公司Wisebirds在AI廣告自動化平台獲利高速增長，將持續顯著提振合併淨利與市場重估動能。",
+      "Key Investment Risks": "韓國2020年廢除公認認證書獨佔地位後，民營平台（Kakao、Naver等）以極簡身分驗證分流個人終端憑證市場，造成長期市佔流失壓力。此外，V2X車聯網與量子資安等新興防護市場放量進程可能受宏觀法規遞延影響，且子公司廣告業務受宏觀景氣循環干擾程度較大。",
+      "CEO & Management": "現任代表理事趙泰默（Cho Tae-mook）於2024年3月就職，出身大宇吉溫（Daou Kiwoom）集團核心體系，曾歷任大宇數據與大宇技術，並自2015年起長年掌舵公司認證事業本部。其團隊具備深厚之資安法規合規經驗與企業級系統整合洞察，當前戰略重心聚焦於PQC技術遷移與B2B雲端簽約平台之橫向擴展。",
+      "Core Patents & IP": "核心專利涵蓋PKI金鑰保護架構、基於IEEE 1609.2標準之V2X車載通訊匿名憑證發行演算法，以及FIDO跨裝置生物辨識授權技術。近年積極取得結合量子亂數生成（QRNG）之雙因子動態驗證專利，並與學研機構及產業夥伴聯合布局抗量子密碼（PQC）數位簽章防禦專利組合。",
+      "3-Year M&A": "2021年完成吸收合併OTP硬體安全防護龍頭未來科技（Mirae Technology）；2023年8月決議收購Digitalzone旗下電子文件與電子證照事業部門，跨足屬性驗證（Attribute Authentication）領域。目前維持對AI廣告科技上市公司Wisebirds約67.4%之控股權，持續整合認證、電子文書與企業服務鏈。",
+      "CapEx & Expansion": "屬於輕資產（Asset-Light）之軟體資安與雲端營運模式，年度資本支出主要投向硬體安全模組（HSM）週期性汰換、高防禦伺服器集群擴充與容災資料中心建設。2025至2026年研發資源重點傾注於PQC演算法融合升級、V2X雲端憑證發行管理系統（SCMS）及signOK API跨國相容性開發。",
+      "Geopolitical Exposure": "業務營收超過90%源自韓國本土市場，直接受美中科技摩擦或跨國貿易關稅之衝擊極為有限。其地緣與外部敏感度主要體現在全球密碼學防護標準之接軌步調（如美國NIST之PQC演算法標準化），以及韓國國情院與金融監管機構對國家主權資料落地與資安合規之政策變化。",
+      "M&A Potential": "背靠大宇吉溫集團（Daou Kiwoom Group）穩健之集團資本與母公司大宇技術之戰略協同，公司在市場結構中偏向主動收購者而非被併購標的。未來極具潛力透過補強型收購（Bolt-on M&A）整併零信任（Zero Trust）架構、PQC演算法防禦或垂直型SaaS電子簽約新創，進一步擴充B2B企業防護生態圈。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 539 (new, gemini)",
+    "updated": [
+      "韓國情報認證 KICA (053300.KQ)"
+    ],
+    "claimed": [],
+    "unmatched": [],
+    "rows_exported": 3282
+  }
+}

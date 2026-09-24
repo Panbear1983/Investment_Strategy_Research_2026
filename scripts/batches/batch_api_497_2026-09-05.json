@@ -1,0 +1,30 @@
+{
+  "label": "API Batch 497 (new, claude)",
+  "source": "new",
+  "provider": "claude",
+  "providers_used": [
+    "claude"
+  ],
+  "items": [
+    {
+      "Company": "Doma Holdings, Inc. (DOMA)",
+      "Country": "USA",
+      "Industry": "金融科技",
+      "Tier": ""
+    },
+    {
+      "Company": "Computer Services, Inc. (CSVI)",
+      "Country": "USA",
+      "Industry": "金融科技",
+      "Tier": ""
+    }
+  ],
+  "records": [],
+  "failed": [],
+  "requeued": [],
+  "excluded": [
+    "Doma Holdings, Inc. (DOMA)",
+    "Computer Services, Inc. (CSVI)"
+  ],
+  "summary": {}
+}

@@ -1,0 +1,84 @@
+{
+  "label": "API Batch 516 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "Siebert Financial (SIEB)",
+      "Country": "USA",
+      "Industry": "金融科技",
+      "Tier": ""
+    },
+    {
+      "Company": "Coocon (377630.KQ)",
+      "Country": "South Korea",
+      "Industry": "金融科技",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "USA",
+      "Timeframe": "中期",
+      "Sub-Sector": "金融科技經紀",
+      "Industry": "金融科技",
+      "Tier": "潛力股",
+      "Company": "Siebert Financial (SIEB)",
+      "Capital/Market Cap": "約 1.03億美元",
+      "Core Business": "Siebert Financial 成立於 1967 年，現轉型為全方位數位金融與經紀服務商，業務涵蓋零售與機構證券經紀、證券借貸（Stock Borrow/Loan）、造市與自營交易、企業退休金及投資銀行業務。近年公司深化金融科技架構，與 Kakao Pay、FusionIQ 及 tZERO 等戰略夥伴合作，積極切入跨國 24 小時交易、代幣化證券與多資產財富管理平台。",
+      "Clients & Orders": "客戶群涵蓋美國本土高淨值散戶、家族辦公室、註冊投資顧問（RIA），以及對流動性與證券借貸有高度需求的機構投資人與中型企業。公司正透過與韓國 Kakao Pay 合作開發「K-Stock Global Gateway」引入跨國交易訂單流量，並由 2025 年新設立的投資銀行團隊承接中型金融機構與科技企業之資本市場承銷諮詢業務。",
+      "Technical Moat": "核心技術護城河在於整合歷史悠久的全牌照傳統券商清算與借券基礎設施，並疊加現代開放式 API 金融科技架構。透過策略投資結盟 FusionIQ 的雲原生財富科技平台、導入 Next Securities 之 AI 交易技術，以及串接 tZERO 經合規監管的區塊鏈代幣化證券設施，建立兼具監管合規性與跨資產數位交易的混合型架構。",
+      "Revenue Breakdown": "2025 財年總營收約 9,420 萬美元，以證券借貸（Stock Borrow/Loan）與交易佣金手續費為主要核心，分別佔總營收估約 45% 與 25%；自營交易與造市收入約佔 15%，保證金及生息資產利息淨收入約佔 10%，投資銀行顧問、媒體與新興金融科技服務則佔約 5%。",
+      "Gross Margin Profile": "作為證券經紀與金融科技商，扣除執行、清算與融券融資成本後的毛利率水準估維持在 60% 至 65% 區間。2025 年營業利益為 560 萬美元（營業利益率約 5.9%），淨利為 380 萬美元（淨利率約 4.0%），獲利較 2024 年收縮主因管理層積極投入技術平台升級、投行業務擴展及人員編制擴編等前置資本支出。",
+      "Key Competitors": "主要競爭對手包括跨國新興零售券商巨頭 Robinhood (HOOD)、具備強大清算與全球市場連接能力的 Interactive Brokers (IBKR)、Webull，以及涵蓋全方位託管與折扣經紀的 Charles Schwab (SCHW) 與 B. Riley Financial。",
+      "12M Catalysts": "未來 12 個月催化劑包括：與韓國 Kakao Pay 聯手推進之「K-Stock Global Gateway」24 小時韓股跨國交易系統商轉進展；與 Unusual Whales 合作發行新型 ETF 系列之資產規模擴張；以及 FusionIQ 10 年期戰略轉型平台逐步上線所帶動的財富管理 SaaS 與經常性技術手續費放量。",
+      "Key Investment Risks": "投資風險包含：Gebbia 家族持股約 42% 且高度集中於董事會與管理層，少數股東利益可能受制於家族控制權與關聯交易；證券借貸與交易佣金高度依賴整體市場熱度與利率週期，具高波動度；以及新設立之投行部門與科技整合費用持續攀升，恐壓抑短期淨利率表現。",
+      "CEO & Management": "由董事會主席兼執行長 John J. Gebbia 領軍，控股股東 Gloria E. Gebbia 與家族成員（John M.、Richard、David Gebbia）共同掌握董事會與重要子公司主導權；財務長由具備資深券商財務背景的 Andrew Reich 出任，經營團隊近年積極引進外部金融科技與投行專業高管以推動營收多元化。",
+      "Core Patents & IP": "公司以合作整合與品牌商標為核心資產，本身未大量註冊底層發明專利，智財價值主要源於全美首位紐交所女性會員 Muriel Siebert 之悠久品牌商譽；技術端則由子公司 Siebert Technologies 於 2024 年收購 Guild 自主交易行動應用程式的原始碼及演算法，並結合 tZERO 與 FusionIQ 的專有雲端平台架構。",
+      "3-Year M&A": "近三年重要交易包括：2023 年獲韓國 Kakao Pay 注資約 1,740 萬美元取得 19.9% 股權（第二階段 51% 收購協議於 2024 年初雙方合意終止並保留少數股權）；2024 年收購 Gebbia Entertainment 與 Guild 交易 App 技術資產；2025 至 2026 年對雲原生財富管理平台 FusionIQ 進行多輪策略投資並簽署 10 年期商業轉型協議。",
+      "CapEx & Expansion": "資本支出以輕資產的雲端交易架構升級、低延遲 API 連接與合規風控模組建構為主，年均 CapEx 估約 300 萬至 500 萬美元；業務擴展重點落在 2025 年底正式成立的中型企業投資銀行部門，以及 2026 年推動之代幣化數位資產經紀與跨國跨境交易生態圈。",
+      "Geopolitical Exposure": "營運主體與資產託管均位於美國境內，直接受美國 SEC 與 FINRA 管轄，地緣政治直接風險較低；惟公司深耕美韓跨國金融走廊（如 Kakao Pay 合作項目），未來兩國跨國證券監管政策、資金外匯管制與資料隱私合規將成為主要跨國營運變數。",
+      "M&A Potential": "該公司市值僅約 1 億美元，且坐擁歷史悠久的完整美股清算與經紀牌照，對欲切入美國市場的海外券商或亞洲金融科技巨頭極具戰略併購吸引力；然而因 Gebbia 家族持股集中且 Kakao Pay 持有約 19.9% 股權，任何控制權收購案均需家族與策略股東全力支持，短期內更傾向維持獨立運作與少數股權結盟。"
+    },
+    {
+      "Country": "South Korea",
+      "Timeframe": "中長期",
+      "Sub-Sector": "金融數據API平台",
+      "Industry": "金融科技",
+      "Tier": "隱形冠軍",
+      "Company": "Coocon (294570.KQ)",
+      "Capital/Market Cap": "資本額約 50.5億韓元 / 市值約 3,090億韓元",
+      "Core Business": "營運韓國最大的商業數據與支付 API 整合平台「COOCON.net」，為金融機構與企業提供數據中繼與金流基礎設施。業務涵蓋個人信用資訊（MyData）、各類帳戶/稅務數據抓取與標準化服務，以及虛擬帳號、全自動轉帳與簡易支付等 API 解決方案。",
+      "Clients & Orders": "已連接韓國 500 餘家公共與金融機構以及全球 40 多國逾 2,000 家機構，服務超過 2,000 家企業客戶。核心客戶群涵蓋國民銀行（KB）、新韓銀行等一級金融集團，以及 Toss（Viva Republica）、KakaoPay、Naver Financial 與各大電商業者，主要採基於 API 呼叫量的高黏著度 SaaS 訂閱收費模式。",
+      "Technical Moat": "擁有自主研發的智慧數據抓取引擎（Scraping Engine）與數據標準化交換平台（STeP），在多源異質系統介接上具備極高的轉譯技術與時間壁壘。同時取得韓國金融雲最高安全等級認證（ISMS-P 與 CSAP），並獲選為官方指定 MyData 專用中繼節點，客戶系統嵌接後轉換成本極高。",
+      "Revenue Breakdown": "2025至2026年間營收結構由兩大引擎驅動：支付服務（含簡易匯款、虛擬帳號與全自動資金清算）佔比約 51% 至 52%；數據服務（含 MyData 數據中繼、企業/個人信用及公共數據 API）佔比約 48% 至 49%。",
+      "Gross Margin Profile": "因採無硬體製造成本的純軟體架構與數據中繼授權模式，廣義毛利率估逾 70% 至 75%。受惠於削減低毛利專案與高附加價值產品擴張，2025年起營業利益率攀升至 27.2%，其中數據服務部門營業利益率更高達 31.5% 至 32.5%。",
+      "Key Competitors": "在韓國國內數據 API 與支付基礎設施領域的主要競對包含 Hecto Financial（헥토파이낸셜）、FnGuide（에프앤가이드）、Hyphen Corporation，以及各大商業銀行自建之開放銀行系統。",
+      "12M Catalysts": "2026年受惠韓國政府推進醫療 MyData 與跨行業公共數據開放政策，帶動高毛利數據 API 呼叫量激增；同時推出支援 Model Context Protocol（MCP）架構的 AI Agent 專屬數據 API 產品。此外，公司正積極推進設立新加坡海外法人並爭取於 2027 年前取得大型支付機構（MPI）牌照，加速佈局東南亞跨境結算與穩定幣支付業務。",
+      "Key Investment Risks": "面臨金融監管機構對 MyData 數據傳輸收費費率之行政干預與限價風險；大型商業銀行與 BigTech 業者（如 Naver、Kakao）自建直連 API 繞過中繼服務的潛在脫媒隱憂；以及海外新興市場跨境支付牌照審批進度可能落後於預期。",
+      "CEO & Management": "代表理事金鍾賢（Kim Jong-hyun）出身自銀行 IT 與 Webcash 研發主管，創立並掌舵 Coocon 達二十年，具備深厚金融 IT 背景，並於 2026 年初當選第 6 屆韓國金融科技產業協會會長。公司隸屬 Webcash Group，2025年集團創辦人退出董事會後全面深化獨立專業經理人體制，公司治理透明度進一步提升。",
+      "Core Patents & IP": "累計持有超過 60 項國內外核心專利，技術專利聚焦於「基於腳本引擎的跨平台數據抓取技術」、「大數據雲端智慧抓取架構」及「MyData 個人資訊整合中介系統」。此外，其核心數據抓取引擎已在美國與日本取得發明專利，構築堅實的國際智慧財產權壁壘。",
+      "3-Year M&A": "歷史上透過吸收合併 KIBNet 奠定數據與支付雙軌格局，近三年併購策略主要聚焦於垂直領域技術整合，包括小規模吸收合併醫療數據業者 VDP Labs（브이디피랩스）以加速卡位醫療 MyData。資本運作以策略性股權合作（如與 Kona I 聯手）與小額投資為主，維持零大額舉債收購的穩健財務風格。",
+      "CapEx & Expansion": "資本支出聚焦於金融級數據中心擴容、高併發雲端 API 閘道伺服器升級與 AI 數據清洗管線建置。海外擴張以新加坡為樞紐中心，積極串接亞洲金融科技聯盟（AFA）與 Liquid Group 等跨境支付網路，搶攻東南亞 7 億人口市場的 B2B 結算商機。",
+      "Geopolitical Exposure": "目前 95% 以上營收來源於韓國本土市場，直接受大國地緣政治衝突影響較小。未來拓展東南亞跨境清算與穩定幣結算業務時，需面對跨國金融數據合規、反洗錢（AML/CFT）監管審查及東南亞各國本土數據主權法規之差異化挑戰。",
+      "M&A Potential": "身為韓國極少數掌握底層跨機構金融數據中繼特許地位的企業，對亟欲掌控底層金融數據流的 BigTech 或跨國 SaaS 巨頭極具策略收購吸引力。然而大股東 Webcash Group 控股結構穩固，被惡意收購機率極低，未來更可能維持獨立上市主體並扮演主動收購 AI 數據新創的產業整合者角色。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 516 (new, gemini)",
+    "updated": [
+      "COOCON Corporation (294570.KQ)"
+    ],
+    "claimed": [
+      "Siebert Financial (SIEB)"
+    ],
+    "unmatched": [],
+    "rows_exported": 3245
+  }
+}

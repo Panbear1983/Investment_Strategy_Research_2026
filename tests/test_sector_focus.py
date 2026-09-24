@@ -147,28 +147,27 @@ class FocusEchoGuardTests(unittest.TestCase):
 class FocusCommandParsingTests(unittest.TestCase):
     """/focus is parsed and executed in plain Python — the model never sees it."""
 
-    def test_bare_command_shows_the_current_focus(self):
+    def test_bare_command_shows_the_current_list(self):
         self.assertEqual(botffet.parse_command('/focus'), ('focus', {'action': 'show'}))
 
-    def test_a_sector_sets_it_until_cleared(self):
-        kind, sel = botffet.parse_command('/focus 低軌衛星')
-        self.assertEqual((kind, sel['action'], sel['sector'], sel['batches']),
-                         ('focus', 'set', '低軌衛星', None))
+    def test_a_list_is_passed_through_for_shared_parsing(self):
+        kind, sel = botffet.parse_command('/focus 保險, 銀行, Japan/醫療')
+        self.assertEqual((kind, sel['action'], sel['text']),
+                         ('focus', 'set', '保險, 銀行, Japan/醫療'))
 
-    def test_a_trailing_number_is_a_batch_budget(self):
-        _, sel = botffet.parse_command('/focus 低軌衛星 3')
-        self.assertEqual((sel['sector'], sel['batches']), ('低軌衛星', 3))
+    def test_a_single_sector_is_a_one_row_list(self):
+        _, sel = botffet.parse_command('/focus 低軌衛星')
+        self.assertEqual(sel, {'action': 'set', 'text': '低軌衛星'})
 
-    def test_a_multi_word_sector_survives(self):
-        _, sel = botffet.parse_command('/focus Aerospace and Defence')
-        self.assertEqual(sel['sector'], 'Aerospace and Defence')
+    def test_direction_is_an_alias(self):
+        self.assertEqual(botffet.parse_command('/direction 醫療')[1]['text'], '醫療')
 
     def test_clear_words_all_work(self):
-        for word in ('clear', 'off', 'none', 'stop', 'CLEAR'):
-            self.assertEqual(botffet.parse_command(f'/focus {word}')[1]['action'], 'clear')
+        for word in ('clear', 'off', 'none', 'stop'):
+            self.assertEqual(botffet.parse_command(f'/focus {word}')[1], {'action': 'clear'})
 
     def test_telegram_bot_suffix_is_stripped(self):
-        self.assertEqual(botffet.parse_command('/focus@Some_bot')[1]['action'], 'show')
+        self.assertEqual(botffet.parse_command('/focus@Panbear_Show_bot')[1], {'action': 'show'})
 
 
 class FocusCommandBehaviourTests(unittest.TestCase):
@@ -182,33 +181,36 @@ class FocusCommandBehaviourTests(unittest.TestCase):
         self.tmp.cleanup()
 
     def _run(self, text):
-        return botffet._focus_command(botffet.parse_command(text)[1], workflow=self.state)
+        return botffet._focus_command(botffet.parse_command(text)[1], workflow=self.state,
+                                      slices={})
 
     def test_show_with_nothing_set_explains_the_default_behaviour(self):
-        self.assertIn('No standing focus', self._run('/focus')['text'])
+        self.assertIn('目前沒有研究方向清單', self._run('/focus')['text'])
 
-    def test_setting_echoes_what_it_matches(self):
-        reply = self._run('/focus 低軌衛星')
-        self.assertIn('1 researched', reply['text'])
-        self.assertEqual(self.state.standing_focus()['industry'], '低軌衛星')
+    def test_setting_a_list_echoes_holdings_and_which_row_is_next(self):
+        reply = self._run('/focus 低軌衛星, 保險')
+        self.assertIn('已研究 1 家', reply['text'])
+        self.assertIn('保險 — 已研究 0 家 ▶ 下一個', reply['text'])
+        self.assertEqual([r['industry'] for r in self.state.direction_plan()], ['低軌衛星', '保險'])
 
-    def test_a_sector_matching_nothing_is_set_but_flagged(self):
-        # Not an error — opening a brand-new area is the point of steering.
+    def test_a_name_matching_nothing_is_flagged_but_still_listed(self):
         reply = self._run('/focus 不存在的產業')
-        self.assertIn('Nothing already held matches it', reply['text'])
-        self.assertIsNotNone(self.state.standing_focus())
+        self.assertIn('沒有符合的公司', reply['text'])
+        self.assertEqual(self.state.direction_plan()[0]['industry'], '不存在的產業')
 
-    def test_batch_budget_is_stated_back(self):
-        self._run('/focus 低軌衛星 3')
-        self.assertEqual(self.state.standing_focus()['batches_remaining'], 3)
+    def test_show_lists_the_rows(self):
+        self._run('/focus 低軌衛星, 保險')
+        text = self._run('/focus')['text']
+        self.assertIn('1. 低軌衛星', text)
+        self.assertIn('2. 保險', text)
 
     def test_clearing_says_what_went_away(self):
         self._run('/focus 低軌衛星')
         self.assertIn('低軌衛星', self._run('/focus clear')['text'])
-        self.assertIsNone(self.state.standing_focus())
+        self.assertEqual(self.state.direction_plan(), [])
 
     def test_clearing_nothing_is_not_an_error(self):
-        self.assertIn('no standing focus', self._run('/focus clear')['text'].lower())
+        self.assertIn('沒有研究方向清單', self._run('/focus clear')['text'])
 
 
 class ProposalBoundaryTests(unittest.TestCase):
@@ -258,10 +260,13 @@ class ProposalBoundaryTests(unittest.TestCase):
     def test_only_accepting_turns_a_proposal_into_an_instruction(self):
         pid = botffet.record_focus_proposal({'industry': '低軌衛星', 'reason': 'x'},
                                             workflow=self.state)
+        self.assertEqual(self.state.direction_plan(), [])
+        row = self.state.accept_focus_proposal(pid)
+        self.assertEqual(row['industry'], '低軌衛星')
+        # Since 2026-09-08 an accepted suggestion joins the direction plan (a rotation the
+        # loop rests and resumes on its own) — it is no longer a hard filter over every slot.
+        self.assertEqual([r['industry'] for r in self.state.direction_plan()], ['低軌衛星'])
         self.assertIsNone(self.state.standing_focus())
-        focus = self.state.accept_focus_proposal(pid)
-        self.assertEqual(focus['industry'], '低軌衛星')
-        self.assertEqual(self.state.standing_focus()['industry'], '低軌衛星')
         self.assertEqual(self.state.focus_proposals(), [])
 
     def test_dismissing_leaves_the_scraper_alone(self):
@@ -326,7 +331,7 @@ class FooterVisibilityTests(unittest.TestCase):
 
     def test_the_screen_keys_survive_an_eighty_column_terminal(self):
         head = self._footer()[:self.NARROW]
-        for label in ('Videos', 'Sectors'):
+        for label in ('Videos', 'Direction'):
             self.assertIn(label, head, f'{label} falls off an {self.NARROW}-column footer')
 
     def test_chat_and_quit_are_still_first(self):
@@ -341,3 +346,38 @@ class FooterVisibilityTests(unittest.TestCase):
         for lang in ('en', 'zh'):
             for key in ('k_pause', 'k_new', 'k_lang', 'k_providers', 'k_review'):
                 self.assertLessEqual(len(dashboard.tr(lang, key)), 12, (lang, key))
+
+
+class ResearchCommandTests(unittest.TestCase):
+    """/research puts one hand-picked company into the pipeline (2026-09-09)."""
+
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.state = WorkflowState(os.path.join(self.tmp.name, 'workflow.sqlite3'))
+        self.state.upsert_company({'Company': 'Sat (S1)', 'Country': 'Japan',
+                                   'Industry': '低軌衛星與地面站'}, DEEP_RESEARCHED)
+
+    def tearDown(self):
+        self.tmp.cleanup()
+
+    def _run(self, text):
+        return botffet._research_command(botffet.parse_command(text)[1], workflow=self.state)
+
+    def test_parsing_needs_an_argument(self):
+        self.assertEqual(botffet.parse_command('/research 台積電 (2330.TW)'),
+                         ('research', {'text': '台積電 (2330.TW)'}))
+        with self.assertRaises(ValueError):
+            botffet.parse_command('/research')
+
+    def test_a_new_company_is_queued_and_said_so(self):
+        reply = self._run('/research 台積電 (2330.TW)')
+        self.assertIn('已排入：台積電 (2330.TW)', reply['text'])
+        self.assertEqual(self.state.research_queue(5)[0]['ticker'], '2330.TW')
+
+    def test_a_held_company_goes_to_refresh(self):
+        reply = self._run('/research S1')
+        self.assertIn('已經研究過', reply['text'])
+        self.assertEqual([r['ticker'] for r in self.state.maintenance_update_queue(5)], ['S1'])
+
+    def test_nonsense_is_explained(self):
+        self.assertIn('看不出股票代號', self._run('/research 隨便打幾個字')['text'])

@@ -80,6 +80,10 @@ try:
     import industry_focus
 except Exception:            # the dashboard must open even if a helper is broken
     industry_focus = None
+try:
+    import maintenance_capacity
+except Exception:
+    maintenance_capacity = None
 
 try:
     import video_intel
@@ -505,6 +509,10 @@ def parse_log(tail_bytes=60000):
     except OSError:
         return info
     info['skips'] = re.findall(r'^Slot skipped: (.+)$', text, re.M)[-3:]
+    hunts = re.findall(r'^  discovery \[(.+?)\]: nominated (\d+), (\d+) new to research$',
+                       text, re.M)
+    info['discovery'] = ({'where': hunts[-1][0], 'nominated': int(hunts[-1][1]),
+                          'new': int(hunts[-1][2])} if hunts else None)
     info['throttle'] = bool(re.search(r'quota/rate hit|backing off', text.splitlines()[-1] if text else ''))
     m_sleep = re.findall(r'^Next slot (\d\d:\d\d) \((\w+)(?:, \w+)?\); sleeping', text, re.M)
     if m_sleep:
@@ -673,6 +681,96 @@ def suppress_completed_log_batch(log_info, workflow):
     return cleaned
 
 
+# The loop's launchd job reads its config through ISR_CONFIG_PATH; this dashboard is usually
+# started from a shell without it and so reads the repo mirror. A schedule edit must land in
+# both, or the loop and the dashboard disagree (the 2026-09-03 wrong-config-file confusion).
+LIVE_LOOP_CONFIG_PATH = os.path.expanduser('~/.config/investment_research/config.json')
+
+
+def schedule_config_paths():
+    """Every existing config file the schedule is written to, deduplicated."""
+    seen, out = set(), []
+    for path in (LOOP_CONFIG_PATH, LIVE_LOOP_CONFIG_PATH, os.path.join(SCRIPTS_DIR, 'config.json')):
+        path = os.path.abspath(path)
+        if path not in seen and os.path.exists(path):
+            seen.add(path)
+            out.append(path)
+    return out
+
+
+def write_schedule(schedule, paths=None):
+    """Replace the 'schedule' key in each config file, keeping everything else. Atomic per
+    file, so the loop's per-cycle reload never sees a half-written config. Returns the count."""
+    written = 0
+    for path in (paths if paths is not None else schedule_config_paths()):
+        cfg = read_json(path, None)
+        if not isinstance(cfg, dict):
+            continue
+        cfg['schedule'] = schedule
+        tmp = path + '.tmp'
+        with open(tmp, 'w', encoding='utf-8') as f:
+            json.dump(cfg, f, ensure_ascii=False, indent=4)
+        os.replace(tmp, path)
+        written += 1
+    return written
+
+
+def apply_schedule_to_today(workflow, schedule, now=None):
+    """Flip today's still-future slots to the modes in `schedule`, so a change takes effect now
+    rather than after midnight's reseed. Returns (flipped, locked)."""
+    if workflow is None:
+        return 0, 0
+    now = now or datetime.datetime.now()
+    modes = {e[0]: (e[2] if len(e) > 2 else 'research') for e in schedule if len(e) >= 2}
+    flipped = locked = 0
+    for slot in workflow.daily_slots(now.date().isoformat()):
+        want = modes.get(slot['slot_time'])
+        if want is None or slot.get('mode') == want:
+            continue
+        try:
+            workflow.update_daily_slot(slot['id'], mode=want, now=now)
+            flipped += 1
+        except ValueError:
+            locked += 1
+    return flipped, locked
+
+
+def maintenance_plan(workflow, cfg):
+    """Maintenance slots per day in the schedule, and how many the corpus needs. Read-only."""
+    schedule = cfg.get('schedule') or []
+    plan = {'per_day': maintenance_capacity.maintenance_count(schedule)
+            if maintenance_capacity else 0,
+            'total': len(schedule), 'recommended': None, 'daily_need': None}
+    if workflow is not None and maintenance_capacity is not None:
+        try:
+            plan.update(maintenance_capacity.recommend_from_workflow(workflow, cfg))
+        except Exception:
+            pass
+    return plan
+
+
+def read_slice_ledger():
+    """The loop's per-slice discovery memory (resting until / last productive). Read-only."""
+    if industry_focus is None:
+        return {}
+    return industry_focus.read_slice_ledger(STATE_PATH)
+
+
+def direction_snapshot(workflow):
+    """The direction list annotated for display, its one-line form, the typed form that
+    prefills the boxes, and the previous lists. Read-only."""
+    empty = {'rows': [], 'line': 'Direction: unavailable', 'text': '', 'history': []}
+    if workflow is None or industry_focus is None:
+        return empty
+    try:
+        rows = industry_focus.direction_rows(workflow, slices=read_slice_ledger())
+        return {'rows': rows, 'line': industry_focus.direction_line(rows),
+                'text': industry_focus.direction_text(rows),
+                'history': workflow.direction_history()}
+    except Exception as exc:
+        return {**empty, 'line': f'Direction: unavailable ({exc})'}
+
+
 def build_snapshot():
     cfg = read_loop_config()
     sched = parse_schedule(cfg)
@@ -703,6 +801,10 @@ def build_snapshot():
     return {
         'coverage': scan_coverage(),
         'standing_focus': standing,
+        'direction': direction_snapshot(workflow),
+        'maintenance_plan': maintenance_plan(workflow, cfg),
+        'requested': ([r['company_name'] for r in workflow.requested_companies()]
+                      if workflow else []),
         'focus_proposals': workflow.focus_proposals() if workflow else [],
         'now': now,
         'cfg': cfg, 'sched': sched, 'proc': proc, 'log': log_info,
@@ -1054,8 +1156,6 @@ def run_tui(return_app=False):
                 yield Input(str(self.cfg_in['marquee_seconds']), id='in_secs')
                 yield Label(tr(lang, 's_poll'))
                 yield Input(str(self.cfg_in['poll_seconds']), id='in_poll')
-                yield Label(tr(lang, 's_rows'))
-                yield Input(str(self.cfg_in['history_rows']), id='in_rows')
                 yield Label(tr(lang, 's_lang'))
                 yield Input(lang, id='in_lang')
                 with Horizontal(id='buttons'):
@@ -1072,7 +1172,7 @@ def run_tui(return_app=False):
                     'marquee_cells_per_tick': max(1, int(self.query_one('#in_speed', Input).value)),
                     'marquee_seconds': max(2, int(self.query_one('#in_secs', Input).value)),
                     'poll_seconds': max(2, int(self.query_one('#in_poll', Input).value)),
-                    'history_rows': max(3, int(self.query_one('#in_rows', Input).value)),
+                    'history_rows': self.cfg_in.get('history_rows', 10),
                     'language': lang_in if lang_in in STRINGS else self.cfg_in.get('language', 'en'),
                 }
             except ValueError:
@@ -1549,27 +1649,30 @@ def run_tui(return_app=False):
                 pass
 
     class IndustryScreen(ModalScreen):
-        """Which sectors the corpus holds, and the control that aims the scraper at one.
+        """Sector coverage on the left, the direction list on the right.
 
-        Counts are substring matches against a curated theme vocabulary, not distinct values of
-        the industry column — that column holds ~1,690 free-text labels for ~2,400 companies, so
-        a distinct count reports 1,690 and means nothing. A company can match several themes, and
-        ~29% match none, so the Held column deliberately does not sum to the corpus. Both figures
-        are shown rather than quietly dropped.
+        Coverage counts are substring matches against a curated theme vocabulary, not distinct
+        values of the industry column — that column holds ~1,690 free-text labels, so a
+        distinct count means nothing. A company can match several themes and ~29% match none,
+        so Held deliberately does not sum to the corpus. Both figures are shown.
 
-        Setting a focus here writes the STANDING focus, not a slot edit: update_daily_slot only
-        accepts future pending slots of an already-seeded day, so slot edits can never express
-        "keep hunting this until I say stop".
+        The direction list is the industries discovery hunts in, thinnest first
+        (industry_focus.pick_direction). Edits here take effect at the loop's next discovery
+        attempt — it re-reads the list every time. It steers new-company hunting only.
         """
 
         CSS = """
         IndustryScreen { align: center middle; }
-        #indbox { width: 92%; height: 90%; border: round $accent; padding: 1 2;
+        #indbox { width: 96%; height: 92%; border: round $accent; padding: 1 2;
                   background: $surface; }
-        #indtable { height: 1fr; }
-        #indfoot { height: auto; color: $text-muted; }
+        #indpanes { height: 1fr; }
+        #indleft { width: 1fr; }
+        #indright { width: 1fr; margin-left: 2; }
+        #indtable, #plantable { height: 1fr; }
+        #indfoot, #planfoot { height: auto; color: $text-muted; }
         #indmsg { height: auto; }
         .ind-buttons { height: 3; }
+        .ind-buttons Button { min-width: 6; margin-right: 1; }
         #indinput { width: 1fr; }
         """
 
@@ -1583,29 +1686,45 @@ def run_tui(return_app=False):
                                                     industry_focus.DEFAULT_WINDOW_DAYS
                                                     if industry_focus else 7)
             self.selected = None
+            self.selected_plan_id = None
+            self.plan_rows = []
 
         def compose(self) -> ComposeResult:
             with Vertical(id='indbox'):
-                yield Label('Sector coverage — 7/3/9 switch the window to 7, 30 or 90 days · esc closes')
-                yield DataTable(id='indtable', cursor_type='row', zebra_stripes=True)
-                yield Static('', id='indfoot')
+                yield Label('Sector coverage (left) · Direction list (right) — '
+                            '7/3/9 switch the coverage window · esc closes')
+                with Horizontal(id='indpanes'):
+                    with Vertical(id='indleft'):
+                        yield DataTable(id='indtable', cursor_type='row', zebra_stripes=True)
+                        yield Static('', id='indfoot')
+                    with Vertical(id='indright'):
+                        yield DataTable(id='plantable', cursor_type='row', zebra_stripes=True)
+                        with Horizontal(classes='ind-buttons'):
+                            yield Button('Add ←', variant='primary', id='plan-add')
+                            yield Button('Remove', variant='warning', id='plan-remove')
+                            yield Button('Pause/Resume', id='plan-pause')
+                            yield Button('Up', id='plan-up')
+                            yield Button('Down', id='plan-down')
+                        yield Static('', id='planfoot')
                 yield Static('', id='indprop')
                 with Horizontal(classes='ind-buttons', id='indpropbuttons'):
-                    yield Button('Accept suggestion', variant='success', id='ind-accept')
+                    yield Button('Accept → list', variant='success', id='ind-accept')
                     yield Button('Dismiss suggestion', id='ind-dismiss')
                 with Horizontal(classes='ind-buttons'):
-                    yield Input(placeholder='…or type a sector not in the list',
+                    yield Input(placeholder='the whole list, comma-separated: 保險, 銀行, '
+                                            'Japan/醫療, free (Germany) — Enter sets it',
                                 id='indinput')
-                with Horizontal(classes='ind-buttons'):
-                    yield Button('Set standing focus', variant='primary', id='ind-set')
-                    yield Button('Set for next 3 batches', id='ind-set3')
-                    yield Button('Clear standing focus', variant='warning', id='ind-clear')
+                    yield Button('Set list', variant='primary', id='list-set')
+                    yield Button('Clear list', variant='warning', id='list-clear')
                 yield Static('', id='indmsg')
 
         def on_mount(self):
             self.query_one('#indtable', DataTable).add_columns(
                 'Sector', 'Held', f'Worked {self.window_days}d', 'Pending', 'Last touched', '')
+            self.query_one('#plantable', DataTable).add_columns(
+                '#', 'Direction', 'Held', 'New 7d', 'State')
             self.refresh_rows()
+            self.refresh_plan(prefill=True)
             self.refresh_proposals()
 
         def refresh_proposals(self):
@@ -1634,7 +1753,8 @@ def run_tui(return_app=False):
                     text.append(f" — {proposal['reason']}", 'dim')
                 text.append('\n')
             newest = self.proposals[0]
-            self.query_one('#ind-accept', Button).label = f"Accept {newest['industry']}"
+            self.query_one('#ind-accept', Button).label = (
+                f"Add {newest['industry'] or newest['country']} → list")
             widget.update(text)
 
         # -- data ----------------------------------------------------------------
@@ -1680,12 +1800,63 @@ def run_tui(return_app=False):
                 self.selected = self.selected or coverage['themes'][0]['theme']
             self._render_foot()
 
+        def refresh_plan(self, prefill=False):
+            table = self.query_one('#plantable', DataTable)
+            table.clear()
+            foot = self.query_one('#planfoot', Static)
+            workflow = workflow_state()
+            self.plan_rows = []
+            if workflow is None or industry_focus is None:
+                foot.update(Text('Direction list unavailable — the workflow database could '
+                                 'not be read.', 'red'))
+                return
+            try:
+                self.plan_rows = industry_focus.direction_rows(
+                    workflow, slices=read_slice_ledger())
+                history = workflow.direction_history()
+            except Exception as exc:
+                foot.update(Text(f'Direction list unavailable: {exc}', 'red'))
+                return
+            for i, row in enumerate(self.plan_rows, 1):
+                state = row['state']
+                dim = 'dim' if state == 'paused' else ''
+                state_style = ('bold green' if state == 'next' else 'dim' if state == 'paused'
+                               else 'yellow' if state.startswith('resting') else 'green')
+                table.add_row(
+                    Text(str(i), 'dim'),
+                    Text(industry_focus.direction_label(row), dim or 'bold'),
+                    Text(str(row['held']), dim),
+                    Text(str(row['new']), dim if not row['new'] else ''),
+                    Text('▶ next' if state == 'next' else state, state_style),
+                    key=str(row['id']))
+            if self.plan_rows and self.selected_plan_id not in {r['id'] for r in self.plan_rows}:
+                self.selected_plan_id = self.plan_rows[0]['id']
+            if prefill:
+                self.query_one('#indinput', Input).value = industry_focus.direction_text(
+                    self.plan_rows)
+            text = Text()
+            if self.plan_rows:
+                text.append('The next hunt asks for the thinnest row that is not resting; a row '
+                            'that finds nothing twice rests a week. New-company hunting only — '
+                            'refresh and retries are untouched.\n', 'dim')
+            else:
+                text.append('No direction list — discovery follows the config rotation. Type a '
+                            'list below, or highlight a sector on the left and press Add.\n',
+                            'yellow')
+            previous = [h for h in history[1:4]] if self.plan_rows else history[:3]
+            if previous:
+                text.append('previous lists: ', 'dim')
+                text.append('  |  '.join(
+                    f"{(h.get('set_at') or '')[:10]} "
+                    + ', '.join(industry_focus.direction_label(i) for i in h.get('items', []))
+                    for h in previous), 'dim')
+            foot.update(text)
+
         def _render_foot(self):
             coverage = self.coverage or {}
             researched = coverage.get('researched', 0)
             pct = round(100 * coverage.get('unmapped', 0) / researched) if researched else 0
             workflow = workflow_state()
-            focus = workflow.standing_focus() if workflow else None
             slots = (industry_focus.slot_focus_summary(workflow)
                      if workflow and industry_focus else {'focused': 0, 'total': 0})
             text = Text()
@@ -1693,28 +1864,28 @@ def run_tui(return_app=False):
             text.append(f"{coverage.get('unmapped', 0)} ({pct}%) match no theme", 'yellow')
             text.append(f" · {coverage.get('multi', 0)} match more than one, "
                         f"so Held does not sum to the corpus\n", 'dim')
-            if focus:
-                where = '/'.join(x for x in (focus.get('country'), focus.get('industry')) if x)
-                scope = ('until cleared' if focus.get('batches_remaining') is None
-                         else f"{focus['batches_remaining']} batches left")
-                text.append(f"standing focus: {where} ({scope})", 'bold yellow')
-                if focus.get('reason'):
-                    text.append(f" — {focus['reason']}", 'dim')
-            else:
-                text.append('no standing focus — the scraper picks its own direction',
-                            'dim')
+            text.append('orange rows hold fewer than the thin floor — the best candidates for '
+                        'the list', 'dim')
             text.append(f"  ·  slots with their own focus today: "
                         f"{slots['focused']}/{slots['total']}", 'dim')
             self.query_one('#indfoot', Static).update(text)
 
         # -- interaction ---------------------------------------------------------
+        def _track(self, event):
+            if event.row_key is None:
+                return
+            key = str(event.row_key.value)
+            table = getattr(event, 'data_table', None)
+            if getattr(table, 'id', '') == 'plantable':
+                self.selected_plan_id = int(key)
+            else:
+                self.selected = key
+
         def on_data_table_row_highlighted(self, event):
-            if event.row_key is not None:
-                self.selected = str(event.row_key.value)
+            self._track(event)
 
         def on_data_table_row_selected(self, event):
-            if event.row_key is not None:
-                self.selected = str(event.row_key.value)
+            self._track(event)
 
         def on_key(self, event):
             if event.key == 'escape':
@@ -1728,77 +1899,89 @@ def run_tui(return_app=False):
                                   'Pending', 'Last touched', '')
                 self.refresh_rows()
 
-        def _chosen_sector(self):
-            typed = self.query_one('#indinput', Input).value.strip()
-            return typed or self.selected
-
         def _msg(self, text, style=''):
             self.query_one('#indmsg', Static).update(Text(text, style))
 
+        def _set_list(self, workflow):
+            entries = industry_focus.parse_direction_text(
+                self.query_one('#indinput', Input).value)
+            if not entries:
+                self._msg('Type one or more industries, comma-separated.', 'yellow')
+                return
+            rows = workflow.set_direction_list(entries, set_by='peter')
+            self._msg(f'Direction list set: {industry_focus.direction_text(rows)} — thinnest '
+                      f'first, from the next discovery attempt.', 'green')
+            self.refresh_plan(prefill=True)
+
+        def on_input_submitted(self, event):
+            if event.input.id == 'indinput':
+                workflow = workflow_state()
+                if workflow is None or industry_focus is None:
+                    self._msg('Workflow database unavailable.', 'red')
+                    return
+                self._set_list(workflow)
+
+        def _plan_button(self, workflow, button_id):
+            if button_id == 'plan-add':
+                if not self.selected:
+                    self._msg('Highlight a sector on the left first.', 'yellow')
+                    return
+                row = workflow.add_direction(self.selected, '', set_by='peter')
+                self._msg(f"Added {industry_focus.direction_label(row)} to the direction list. "
+                          f"Takes effect at the next discovery attempt.", 'green')
+                self.selected_plan_id = row['id']
+                self.refresh_plan(prefill=True)
+                return
+            row = next((r for r in self.plan_rows if r['id'] == self.selected_plan_id), None)
+            if row is None:
+                self._msg('Highlight a row in the direction list first.', 'yellow')
+                return
+            label = industry_focus.direction_label(row)
+            if button_id == 'plan-remove':
+                workflow.remove_direction(row['id'])
+                self._msg(f'Removed {label} from the direction list.', 'green')
+            elif button_id == 'plan-pause':
+                updated = workflow.set_direction_enabled(row['id'], not row['enabled'])
+                self._msg(f"{'Resumed' if updated['enabled'] else 'Paused'} {label}.", 'green')
+            elif button_id in ('plan-up', 'plan-down'):
+                workflow.move_direction(row['id'], -1 if button_id == 'plan-up' else 1)
+                self._msg(f'Moved {label} — order only matters as the tie-break between rows '
+                          f'holding the same number of companies.', 'green')
+            self.refresh_plan(prefill=True)
+
         def on_button_pressed(self, event):
             workflow = workflow_state()
-            if workflow is None:
+            if workflow is None or industry_focus is None:
                 self._msg('Workflow database unavailable.', 'red')
                 return
-            if event.button.id == 'ind-clear':
-                cleared = workflow.clear_standing_focus()
-                if cleared:
-                    where = '/'.join(x for x in (cleared.get('country'),
-                                                 cleared.get('industry')) if x)
-                    self._msg(f'Cleared standing focus ({where}). The next slot picks its own '
-                              f'direction again.', 'green')
-                else:
-                    self._msg('There was no standing focus to clear.', 'dim')
-                self._render_foot()
+            button_id = event.button.id or ''
+            if button_id.startswith('plan-'):
+                self._plan_button(workflow, button_id)
                 return
-            if event.button.id in ('ind-accept', 'ind-dismiss'):
+            if button_id == 'list-set':
+                self._set_list(workflow)
+                return
+            if button_id == 'list-clear':
+                cleared = workflow.clear_direction_list()
+                self._msg('Direction list cleared — discovery follows the config rotation.'
+                          if cleared else 'There was no direction list to clear.', 'yellow')
+                self.refresh_plan(prefill=True)
+                return
+            if button_id in ('ind-accept', 'ind-dismiss'):
                 if not self.proposals:
                     self._msg('No suggestion waiting.', 'dim')
                     return
                 newest = self.proposals[0]
-                if event.button.id == 'ind-dismiss':
+                if button_id == 'ind-dismiss':
                     workflow.resolve_focus_proposal(newest['id'], 'dismissed')
                     self._msg(f"Dismissed the suggestion for {newest['industry']}. "
                               f"Nothing changed.", 'dim')
                 else:
-                    focus = workflow.accept_focus_proposal(newest['id'])
-                    where = '/'.join(x for x in (focus.get('country'),
-                                                 focus.get('industry')) if x)
-                    self._msg(f'Accepted — standing focus is now {where}, until cleared.',
-                              'green')
+                    row = workflow.accept_focus_proposal(newest['id'])
+                    self._msg(f"Added {industry_focus.direction_label(row)} to the direction "
+                              f"list.", 'green')
+                    self.refresh_plan(prefill=True)
                 self.refresh_proposals()
-                self._render_foot()
-                return
-            if event.button.id not in ('ind-set', 'ind-set3'):
-                return
-            sector = self._chosen_sector()
-            if not sector:
-                self._msg('Pick a sector in the table, or type one.', 'yellow')
-                return
-            # Echo what it will actually match BEFORE committing: a typo or a sector the corpus
-            # has never heard of otherwise shows up much later as a silently skipped slot.
-            match = industry_focus.focus_match_count(workflow, sector) if industry_focus else None
-            if match is not None and not match['held'] and not match['pending']:
-                self._msg(f"'{sector}' matches nothing already held. Setting it anyway — "
-                          f"discovery will go looking for it, but no pending company will "
-                          f"match. Press again to confirm.", 'yellow')
-                if getattr(self, '_confirming', None) != sector:
-                    self._confirming = sector
-                    return
-            self._confirming = None
-            batches = 3 if event.button.id == 'ind-set3' else None
-            try:
-                focus = workflow.set_standing_focus(sector, batches=batches, set_by='peter',
-                                                    reason='set from the sector panel')
-            except ValueError as exc:
-                self._msg(str(exc), 'red')
-                return
-            scope = 'until cleared' if batches is None else f'for the next {batches} batches'
-            held = match['held'] if match else '?'
-            self._msg(f"Standing focus set to {focus['industry']} {scope} — "
-                      f"matches {held} companies already held.", 'green')
-            self.query_one('#indinput', Input).value = ''
-            self._render_foot()
 
     class VideoScreen(ModalScreen):
         """YouTube links in, reading material out — then discuss it with 爸菲特.
@@ -2052,7 +2235,9 @@ def run_tui(return_app=False):
             Binding('q', 'quit', tr(boot_lang, 'k_quit')),
             Binding('c', 'chat', tr(boot_lang, 'k_chat')),
             Binding('y', 'videos', 'Videos'),
-            Binding('i', 'industries', 'Sectors'),
+            Binding('i', 'industries', 'Direction'),
+            Binding('d', 'direction_input', 'Steer'),
+            Binding('a', 'company_input', 'Company'),
             Binding('p', 'providers', tr(boot_lang, 'k_providers')),
             Binding('v', 'review', tr(boot_lang, 'k_review')),
             Binding('r', 'force_refresh', tr(boot_lang, 'k_rescan')),
@@ -2066,21 +2251,28 @@ def run_tui(return_app=False):
         #marquee { height: 2; background: $primary 20%; color: $text; }
         #status, #nowline { height: 1; }
         #meters { height: 3; margin-top: 1; }
-        #focus-summary { height: 2; margin-top: 1; padding: 0 1;
-                         background: $warning 12%; color: $warning; }
+        #bottombox { height: auto; margin-top: 1; }
+        #direction { width: 3fr; height: auto; padding: 0 1; border: round $warning; }
+        #company-box { width: 2fr; height: auto; margin-left: 1; padding: 0 1;
+                       border: round $success; }
+        #dir-line { height: auto; }
+        #dir-info, #co-status, #co-hint { height: 1; }
+        #dir-row, #co-row { height: 3; }
+        #dir-input, #co-input { width: 1fr; }
+        /* Both panes 24 rows: 20 slots + header + border on the left, the control stack
+           on the right — flush, and no idle space below (2026-09-08, Peter). */
         #railbox { height: auto; }
         #rail { width: 3fr; height: 24; border: round $primary; }
-        #slot-controls { width: 2fr; height: auto; margin-left: 1; padding: 0 1;
+        #slot-controls { width: 2fr; height: 24; margin-left: 1; padding: 0 1;
                          border: round $accent; }
-        #slot-info, #slot-msg { height: 2; }
+        #slot-info { height: 2; }
+        #slot-msg { height: 1; }
+        #maint-label { width: 1fr; height: 3; content-align: left middle; padding: 0 1; }
         .slot-buttons { height: 3; width: 1fr; }
         .slot-buttons Button { min-width: 8; margin-right: 1; }
         #kill-switch { width: 1fr; }
         #focus-country, #focus-industry { width: 1fr; }
-        #cols { height: 1fr; margin-top: 1; }
-        #history { width: 3fr; }
-        #side { width: 2fr; margin-left: 2; }
-        #roster { height: auto; margin-top: 1; padding-top: 1; border-top: solid $accent; }
+        #vitals { height: auto; margin-top: 1; padding: 0 1; }
         """
 
         def __init__(self):
@@ -2097,6 +2289,9 @@ def run_tui(return_app=False):
             self.f_hold = 0.0      # pause after an overflowing message finishes scrolling
             self.latest_batch_mtime = None
             self.selected_slot_id = None
+            self._dir_prefilled = None   # last list text written into the strip's box
+            self._dir_note = None        # (Text, shown_at) — a short confirmation in the strip
+            self._co_note = None         # same, for the company box
             wf = workflow_state()
             self.focus_countries, raw_industries = wf.focus_values() if wf else ([], [])
             # focus_values returns every distinct industry label — ~1,690 of them, including
@@ -2129,7 +2324,6 @@ def run_tui(return_app=False):
             yield Static(id='status')
             yield Static(id='nowline')
             yield Static(id='meters')
-            yield Static(id='focus-summary')
             with Horizontal(id='railbox'):
                 yield DataTable(id='rail', cursor_type='row', zebra_stripes=True)
                 with Vertical(id='slot-controls'):
@@ -2158,18 +2352,50 @@ def run_tui(return_app=False):
                     with Horizontal(classes='slot-buttons'):
                         yield Button('Apply Focus', variant='primary', id='slot-focus')
                         yield Button('Clear Focus', id='slot-clear-focus')
+                    # Standing setting, not a per-slot edit (2026-09-08, Peter): how many of
+                    # the day's slots are maintenance. Rewrites the schedule in config and
+                    # flips today's remaining slots; the loop reseeds tomorrow from config.
+                    with Horizontal(classes='slot-buttons'):
+                        yield Button('−', id='maint-less')
+                        yield Static(id='maint-label')
+                        yield Button('+', id='maint-more')
                     yield Static(id='slot-msg')
-            with Horizontal(id='cols'):
-                yield Static(id='history')
-                with Vertical(id='side'):
-                    yield Static(id='todo')
-                    yield Static(id='alerts')
-            yield Static(id='roster')
+            # 2026-09-08 (Peter): the batch-history table, the to-do column and the roster
+            # block are gone — "I mainly focus on the table above". The vitals strip keeps
+            # only the numbers that say whether the loop is healthy; the roster lives in [g].
+            # Bottom row of the 2x2 grid (2026-09-09, Peter): the direction strip under the
+            # slot table, the company box under the control box. Direction = the typed list
+            # of industries discovery hunts in, thinnest first (click for the panel, d types).
+            # Company = one hand-picked company straight into the pipeline (a types).
+            with Horizontal(id='bottombox'):
+                with Vertical(id='direction'):
+                    yield Static(id='dir-line')
+                    yield Static(id='dir-info')
+                    with Horizontal(id='dir-row'):
+                        yield Input(placeholder='industries, comma-separated — 保險, 銀行, '
+                                                'Japan/醫療, free (Germany) — Enter sets',
+                                    id='dir-input')
+                        yield Button('Set list', variant='primary', id='dir-set')
+                        yield Button('Clear', variant='warning', id='dir-clear')
+                with Vertical(id='company-box'):
+                    yield Static(id='co-status')
+                    yield Static(Text('name (TICKER) or a bare ticker · Enter queues it',
+                                      'dim'), id='co-hint')
+                    with Horizontal(id='co-row'):
+                        yield Input(placeholder='台積電 (2330.TW)  or  NVDA', id='co-input')
+                        yield Button('Queue', variant='success', id='co-queue')
+            # Alerts only, and only when there are any (2026-09-09): queue depths and provider
+            # lines are the engine's business (the p panel keeps the provider detail).
+            yield Static(id='vitals')
             yield Footer()
 
         def on_mount(self):
             self.query_one('#rail', DataTable).add_columns(
                 'Time', 'Mode', 'Focus', 'Model', 'Progress')
+            self.query_one('#direction', Vertical).border_title = (
+                'Direction — thinnest listed industry first · click for panel · d types')
+            self.query_one('#company-box', Vertical).border_title = (
+                'Research a company · a types')
             self.factoids = build_factoids()
             self.refresh_data()
             self.set_interval(0.2, self.tick_marquee)
@@ -2209,11 +2435,11 @@ def run_tui(return_app=False):
                 return
             self.render_status()
             self.render_meters()
-            self.render_focus_summary()
+            self.render_direction()
+            self.render_company_box()
+            self.render_maintenance_stepper()
             self.render_rail()
-            self.render_history()
-            self.render_side()
-            self.render_roster()
+            self.render_vitals()
 
         def render_status(self):
             if not self.snap:
@@ -2347,11 +2573,216 @@ def run_tui(return_app=False):
                 table.move_cursor(row=selected_row)
             self.update_slot_controls()
 
-        def render_focus_summary(self):
-            summary = (self.snap or {}).get(
-                'focus_summary', 'Focus: no standing focus, no focused future slots')
-            style = 'bold yellow' if summary.startswith('★') else 'dim'
-            self.query_one('#focus-summary', Static).update(Text(summary, style))
+        def render_direction(self):
+            direction = (self.snap or {}).get('direction') or {}
+            rows = direction.get('rows') or []
+            line = Text()
+            if not rows:
+                line.append(direction.get('line', 'Direction: none set'), 'yellow')
+            else:
+                line.append('Direction  ', 'bold')
+                for i, r in enumerate(rows):
+                    if i:
+                        line.append('  ·  ', 'dim')
+                    label = industry_focus.direction_label(r) if industry_focus else r['industry']
+                    state = str(r.get('state', ''))
+                    if state == 'next':
+                        line.append(f"▶ {label} {r.get('held', 0)}", 'bold green')
+                    elif state.startswith('resting'):
+                        line.append(f"{label} {r.get('held', 0)} resting", 'dim yellow')
+                    elif state == 'paused':
+                        line.append(f"{label} paused", 'dim')
+                    else:
+                        line.append(f"{label} {r.get('held', 0)}")
+            self.query_one('#dir-line', Static).update(line)
+            info = Text()
+            note = self._dir_note
+            if note and (datetime.datetime.now() - note[1]).total_seconds() < 20:
+                info = note[0]
+            else:
+                last = ((self.snap or {}).get('log') or {}).get('discovery')
+                if last:
+                    info.append(f"last hunt: {last['where']} → {last['new']} new of "
+                                f"{last['nominated']} named", 'dim')
+                else:
+                    info.append('last hunt: none in the recent log', 'dim')
+                summary = (self.snap or {}).get('focus_summary', '')
+                if summary.startswith('★'):
+                    info.append('   ·   ', 'dim')
+                    info.append(summary, 'bold yellow')
+            self.query_one('#dir-info', Static).update(info)
+            # Prefill the box with the current list so it can be edited in place — but never
+            # overwrite what Peter is typing.
+            box = self.query_one('#dir-input', Input)
+            text = direction.get('text', '')
+            if not box.has_focus and text != self._dir_prefilled:
+                box.value = text
+                self._dir_prefilled = text
+
+        def render_maintenance_stepper(self):
+            plan = (self.snap or {}).get('maintenance_plan') or {}
+            per_day, rec = plan.get('per_day', 0), plan.get('recommended')
+            today = sum(1 for s in (self.snap or {}).get('rail', [])
+                        if s.get('enabled') and s.get('mode') == 'maintenance')
+            text = Text()
+            text.append(f'Maint/day {per_day}', 'bold')
+            if today != per_day:
+                text.append(f' (today {today})', 'dim')
+            if rec is not None:
+                text.append(f'  rec {rec}', 'green' if per_day >= rec else 'bold yellow')
+                if plan.get('daily_need'):
+                    text.append(f' · {plan["daily_need"]} checks/day', 'dim')
+            self.query_one('#maint-label', Static).update(text)
+
+        def step_maintenance_per_day(self, delta):
+            """Change how many slots a day are maintenance, everywhere it matters at once."""
+            if maintenance_capacity is None:
+                self.notify('maintenance_capacity module unavailable', severity='warning')
+                return
+            cfg = read_loop_config()
+            schedule = cfg.get('schedule') or []
+            current = maintenance_capacity.maintenance_count(schedule)
+            target = max(0, min(len(schedule), current + delta))
+            if target == current:
+                return
+            new_schedule = maintenance_capacity.with_maintenance_count(schedule, target)
+            written = write_schedule(new_schedule)
+            flipped, locked = apply_schedule_to_today(workflow_state(create=True), new_schedule)
+            times = ', '.join(e[0] for e in new_schedule if len(e) > 2 and e[2] == 'maintenance')
+            msg = (f'Maintenance {target}/day at {times or "—"} · {written} config file(s) · '
+                   f"today: {flipped} slot(s) flipped"
+                   + (f', {locked} locked' if locked else ''))
+            self.notify(msg)
+            # Refresh first: the rail re-render rewrites #slot-msg, so the confirmation must
+            # land after it or it is gone before it can be read.
+            self.refresh_data()
+            self.query_one('#slot-msg', Static).update(Text(msg, 'green'))
+
+        def _direction_note(self, text, style=''):
+            self._dir_note = (Text(text, style), datetime.datetime.now())
+            self.render_direction()
+
+        def apply_direction(self, clear=False):
+            """Set or clear the direction list from the strip's box. Effective at the loop's
+            next discovery attempt; nothing here touches slots, roster or research content."""
+            workflow = workflow_state()
+            if workflow is None or industry_focus is None:
+                self._direction_note('Workflow database unavailable.', 'red')
+                return
+            box = self.query_one('#dir-input', Input)
+            if clear:
+                cleared = workflow.clear_direction_list()
+                self._dir_prefilled = None
+                self._direction_note(
+                    'Direction list cleared — discovery follows the config rotation from the '
+                    'next attempt.' if cleared else 'There was no direction list to clear.',
+                    'yellow')
+            else:
+                entries = industry_focus.parse_direction_text(box.value)
+                if not entries:
+                    self._direction_note('Type one or more industries, comma-separated, then '
+                                         'press Enter.', 'yellow')
+                    return
+                rows = workflow.set_direction_list(entries, set_by='peter')
+                self._dir_prefilled = None
+                self._direction_note(f'Direction list set: {industry_focus.direction_text(rows)}'
+                                     f' — thinnest first, from the next attempt.', 'green')
+            self.set_focus(self.query_one('#rail', DataTable))
+            scan_coverage(force=True)
+            self.refresh_data()
+
+        def action_direction_input(self):
+            self.set_focus(self.query_one('#dir-input', Input))
+
+        def action_company_input(self):
+            self.set_focus(self.query_one('#co-input', Input))
+
+        def on_key(self, event):
+            focused = self.focused
+            if event.key == 'escape' and getattr(focused, 'id', None) in ('dir-input', 'co-input'):
+                self.set_focus(self.query_one('#rail', DataTable))
+                event.stop()
+
+        def _next_slot_time(self, mode):
+            now_hhmm = (self.snap or {}).get('now', datetime.datetime.now()).strftime('%H:%M')
+            for slot in (self.snap or {}).get('rail', []):
+                if (slot.get('enabled') and slot.get('mode') == mode
+                        and slot.get('raw_status', slot.get('status')) == 'pending'
+                        and slot.get('slot_time', '') > now_hhmm):
+                    return slot['slot_time']
+            return 'tomorrow'
+
+        def render_company_box(self):
+            status = Text()
+            note = self._co_note
+            if note and (datetime.datetime.now() - note[1]).total_seconds() < 20:
+                status = note[0]
+            else:
+                queued = (self.snap or {}).get('requested') or []
+                if queued:
+                    status.append('queued: ', 'bold green')
+                    status.append(', '.join(queued), 'green')
+                    status.append(f"  → next research slot {self._next_slot_time('research')}",
+                                  'dim')
+                else:
+                    status.append('nothing queued by hand — the hunt fills the batches', 'dim')
+            self.query_one('#co-status', Static).update(status)
+
+        def _company_note(self, text, style=''):
+            self._co_note = (Text(text, style), datetime.datetime.now())
+            self.render_company_box()
+
+        def request_company(self):
+            """One hand-picked company into the pipeline, saying exactly what happened."""
+            workflow = workflow_state(create=True)
+            box = self.query_one('#co-input', Input)
+            text = box.value.strip()
+            if not text:
+                self._company_note('Type a company as "name (TICKER)" or a bare ticker.',
+                                   'yellow')
+                return
+            if workflow is None:
+                self._company_note('Workflow database unavailable.', 'red')
+                return
+            result = workflow.request_company(text, set_by='peter')
+            action, name = result['action'], result.get('company') or text
+            if action == 'invalid':
+                self._company_note(f'No ticker in "{text}" — use "name (TICKER)" or a ticker.',
+                                   'yellow')
+                return
+            messages = {
+                'queued': (f'Queued {name} — first in the {self._next_slot_time("research")} '
+                           f'research slot.', 'green'),
+                'promoted': (f'{name} was already waiting — moved to the front of the '
+                             f'{self._next_slot_time("research")} slot.', 'green'),
+                'refresh': (f'{name} is already researched — marked for refresh in the '
+                            f'{self._next_slot_time("maintenance")} maintenance slot.', 'cyan'),
+                'running': (f'{name} is being researched right now.', 'yellow'),
+            }
+            msg, style = messages.get(action, (f'{name}: {action}', ''))
+            box.value = ''
+            self.set_focus(self.query_one('#rail', DataTable))
+            self._company_note(msg, style)
+            self.notify(msg)
+            self.refresh_data()
+
+        def on_input_submitted(self, event):
+            if event.input.id == 'dir-input':
+                self.apply_direction()
+            elif event.input.id == 'co-input':
+                self.request_company()
+
+        def on_click(self, event):
+            # Anywhere on the strip except its box and buttons opens the full panel.
+            widget = getattr(event, 'widget', None)
+            if widget is None or isinstance(widget, (Input, Button)):
+                return
+            node = widget
+            while node is not None:
+                if getattr(node, 'id', None) == 'direction':
+                    self.action_industries()
+                    return
+                node = getattr(node, 'parent', None)
 
         def selected_slot(self):
             if self.selected_slot_id is None or not self.snap:
@@ -2367,11 +2798,8 @@ def run_tui(return_app=False):
                 self.query_one('#slot-info', Static).update('Select a future slot')
                 for selector in buttons:
                     self.query_one(selector, Button).disabled = True
-                maintenance_count = sum(1 for s in (self.snap or {}).get('rail', [])
-                                        if s.get('enabled') and s.get('mode') == 'maintenance')
                 self.query_one('#slot-msg', Static).update(
-                    f'Enabled maintenance slots: {maintenance_count}/2'
-                    + ('' if maintenance_count == 2 else '  ⚠ recommended: 2'))
+                    Text('Highlight a future slot to edit it', 'dim'))
                 return
             editable = (slot.get('raw_status', slot['status']) == 'pending'
                         and slot['slot_time'] > self.snap['now'].strftime('%H:%M'))
@@ -2395,13 +2823,9 @@ def run_tui(return_app=False):
                 industry = Select.BLANK
             self.query_one('#focus-country', Select).value = country
             self.query_one('#focus-industry', Select).value = industry
-            maintenance_count = sum(1 for s in self.snap['rail']
-                                    if s.get('enabled') and s.get('mode') == 'maintenance')
-            warning = (f'Enabled maintenance slots: {maintenance_count}/2'
-                       + ('' if maintenance_count == 2 else '  ⚠ recommended: 2'))
-            if not editable:
-                warning += '\nThis slot is locked.'
-            self.query_one('#slot-msg', Static).update(warning)
+            self.query_one('#slot-msg', Static).update(
+                Text('This slot is locked — it has run or is running', 'dim')
+                if not editable else Text('Edits apply to this slot today only', 'dim'))
 
         def on_data_table_row_highlighted(self, event):
             if event.data_table.id != 'rail':
@@ -2463,6 +2887,15 @@ def run_tui(return_app=False):
             self.refresh_data()
 
         def on_button_pressed(self, event):
+            if event.button.id in ('dir-set', 'dir-clear'):
+                self.apply_direction(clear=event.button.id == 'dir-clear')
+                return
+            if event.button.id in ('maint-less', 'maint-more'):
+                self.step_maintenance_per_day(1 if event.button.id == 'maint-more' else -1)
+                return
+            if event.button.id == 'co-queue':
+                self.request_company()
+                return
             bid = event.button.id or ''
             if bid in ('kill-switch', 'force-kill', 'relaunch-loop'):
                 self.handle_loop_control(bid)
@@ -2500,101 +2933,28 @@ def run_tui(return_app=False):
                     confirmation=f'✓ {mode} focus active: {focus}',
                     country_focus=country, industry_focus=industry)
 
-        def render_history(self):
-            table = Table(title=self.t('hist_title'), title_justify='left',
-                          box=None, padding=(0, 1), title_style='bold')
-            for col in self.t('hist_cols'):
-                table.add_column(col)
-            for b in self.snap['batches'][:self.dash_cfg['history_rows']]:
-                provider_label = '→'.join(b.get('providers_used') or [b['provider']])
-                table.add_row(
-                    f"{b['when']:%m-%d %H:%M}", str(b['seq']), self.src_label(b['source']),
-                    Text(provider_label, PROVIDER_STYLE.get(b['provider'], '')),
-                    self.t('applied_fmt', a=b['applied'], u=len(b['updated']), c=len(b['claimed'])),
-                    Text(str(len(b['failed'])), 'red' if b['failed'] else 'dim'))
-            self.query_one('#history', Static).update(table)
+        def render_vitals(self):
+            """Alerts only, and only when there are any (2026-09-09, Peter).
 
-        def render_side(self):
-            scan = self.scan_data
-            t = Text(self.t('todo'), 'bold')
-            if scan and 'error' not in scan:
-                if scan['repair']:
-                    t.append(self.t('repair_pending', n=scan['repair']), 'yellow')
-                    if scan['by_country']:
-                        t.append(' ' + ', '.join(f'{c} {n}' for c, n in scan['by_country']) + '\n', 'dim')
-                    snap = self.snap
-                    bsize = snap['cfg'].get('batch_size', 20) if snap else 20
-                    cur = snap['log'].get('current') if snap else None
-                    running = bool(cur and snap['proc']['pid'])
-                    queue = [n for n, _ in scan['next_up'][:bsize]]
-                    if queue:
-                        # While a batch runs, the CSV still lists its companies as
-                        # pending, so the head of the queue IS the running batch.
-                        if running:
-                            t.append(self.t('batch_running', n=cur['seq'], m=len(queue)), 'bold yellow')
-                        else:
-                            seq = snap['state']['batch_seq'] + 1 if snap else '?'
-                            t.append(self.t('coming_queue', n=seq, m=len(queue)), 'bold')
-                        t.append(' ' + ', '.join(queue) + '\n')
-                        upnext = [n for n, _ in scan['next_up'][bsize:bsize + 5]]
-                        if running and upnext:
-                            t.append(self.t('then') + ', '.join(upnext) + '…\n', 'dim')
-                else:
-                    t.append(self.t('queue_clear'), 'green')
-            w = (self.snap or {}).get('workflow', {})
-            if w:
-                t.append('\nWorkflow queues\n', 'bold')
-                t.append(f" pending {w['pending']}  retry {w['retry']}  "
-                         f"maintenance {w['maintenance_due']}\n")
-                t.append(f" review {w['ticker_review']}  excluded {w['excluded']}   "
-                         "[v] inspect\n", 'yellow' if w['ticker_review'] else 'dim')
-            coverage = (self.snap or {}).get('coverage')
-            if coverage:
-                t.append('\nSector coverage  [i] control\n', 'bold')
-                total = len(coverage['themes'])
-                researched = coverage['researched'] or 1
-                pct = round(100 * coverage['unmapped'] / researched)
-                t.append(f" {coverage['worked_themes']}/{total} worked in "
-                         f"{coverage['window_days']}d   "
-                         f"{coverage['thin_themes']} thin   {pct}% unmapped\n",
-                         'yellow' if coverage['thin_themes'] else 'dim')
-                thin = [r['theme'] for r in coverage['themes'] if r['thin']][-4:]
-                if thin:
-                    t.append(' starved: ' + ', '.join(reversed(thin)) + '\n', 'dim')
-                focus = (self.snap or {}).get('standing_focus')
-                if focus:
-                    where = '/'.join(x for x in (focus.get('country'),
-                                                 focus.get('industry')) if x)
-                    scope = ('until cleared' if focus.get('batches_remaining') is None
-                             else f"{focus['batches_remaining']} batches left")
-                    t.append(f" focus: {where} ({scope})\n", 'bold yellow')
-                else:
-                    t.append(' no standing focus\n', 'dim')
-                proposals = (self.snap or {}).get('focus_proposals') or []
-                if proposals:
-                    names = ', '.join(p['industry'] or p['country'] for p in proposals[:3])
-                    t.append(f" 爸菲特 suggests: {names}  [i] to accept\n", 'cyan')
-            providers = (self.snap or {}).get('providers', [])
-            if providers:
-                t.append('\nProviders  [p] control\n', 'bold')
-                calls = (self.snap or {}).get('state', {}).get('calls', {})
-                budgets = (self.snap or {}).get('budgets', {})
-                for ps in providers:
-                    pv = ps['provider']
-                    state_text = 'ON' if ps['enabled'] else 'OFF'
-                    style = PROVIDER_STYLE.get(pv, '') if ps['enabled'] else 'dim red'
-                    t.append(f" {pv:<7} {state_text:<3} {ps['health']:<10} "
-                             f"{calls.get(pv, 0)}/{budgets.get(pv, 0)}\n", style)
-            self.query_one('#todo', Static).update(t)
-            a = Text(self.t('alerts'), 'bold')
-            alerts = build_alerts(self.snap, scan, self.dash_cfg.get('language', 'en'))
-            if not alerts:
-                a.append(self.t('none'), 'dim green')
+            The queue depths and provider lines that used to sit here are the engine's
+            business; the p panel keeps the provider detail. What stays is exactly what
+            would have caught the September fintech stall a day earlier — plus the Telegram
+            roster's "not applied yet" warning, since the roster block moved into [g].
+            """
+            alerts = build_alerts(self.snap, self.scan_data, self.dash_cfg.get('language', 'en'))
+            roster = read_roster()
+            enabled = sum(1 for u in roster if u['enabled'])
+            applied = gateway_status()
+            if roster and applied is not None and applied != enabled:
+                alerts.append(('warning', f'Telegram roster: {enabled} enabled but {applied} '
+                                          f'route(s) applied — press g to apply'))
+            widget = self.query_one('#vitals', Static)
+            widget.display = bool(alerts)
+            t = Text()
             for level, msg in alerts:
-                style = 'bold red' if level == 'critical' else 'yellow'
-                a.append(f' [{level.upper()}] ', style)
-                a.append(msg + '\n')
-            self.query_one('#alerts', Static).update(a)
+                t.append(f'[{level.upper()}] ', 'bold red' if level == 'critical' else 'yellow')
+                t.append(msg + '\n')
+            widget.update(t)
 
         def next_factoid(self, reset=False):
             self.f_offset = 0
@@ -2643,32 +3003,6 @@ def run_tui(return_app=False):
             bar.update(out)
 
         # -- actions --
-        def render_roster(self):
-            roster = read_roster()
-            t = Text()
-            if not roster:
-                t.append('Telegram roster: empty — press g to add users', 'dim')
-                self.query_one('#roster', Static).update(t)
-                return
-            enabled = sum(1 for u in roster if u['enabled'])
-            applied = gateway_status()
-            t.append('Telegram Roster  ', 'bold')
-            t.append(f'{enabled}/{len(roster)} enabled', 'green' if enabled else 'dim')
-            if applied is not None:
-                t.append('  ·  ')
-                t.append(f'{applied} route(s) applied',
-                         'green' if applied == enabled else 'yellow')
-                if applied != enabled:
-                    t.append(' — press g to apply', 'dim yellow')
-            t.append('   [g] edit', 'dim')
-            for i, u in enumerate(roster, 1):
-                t.append(f'\n {i}. ')
-                t.append('●' if u['enabled'] else '○', 'green' if u['enabled'] else 'dim')
-                t.append(f" {u['label']:<12} ", 'bold' if u['enabled'] else 'dim')
-                t.append(f"{u['chat_id']:<13} ", 'dim')
-                t.append(u['profile'])
-            self.query_one('#roster', Static).update(t)
-
         def action_pause_marquee(self):
             self.m_paused = not self.m_paused
 
@@ -2701,7 +3035,7 @@ def run_tui(return_app=False):
         def action_roster(self):
             # In-app modal editor — same process, no second dashboard. Refresh the
             # read-only roster panel when it closes.
-            self.push_screen(RosterScreen(TG_USERS_PATH), lambda _=None: self.render_roster())
+            self.push_screen(RosterScreen(TG_USERS_PATH), lambda _=None: self.render_vitals())
 
         def action_providers(self):
             if not self.snap:

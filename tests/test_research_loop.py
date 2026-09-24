@@ -1110,3 +1110,67 @@ class AgyClaudeSelectionTests(unittest.TestCase):
         self.assertEqual(state['calls']['agy_claude'], 0)
         self.assertEqual(state['calls']['gemini'], 100)
         self.assertEqual(state['batch_seq'], 416)
+
+
+class ClaudeNoToolsDiscoveryTests(unittest.TestCase):
+    """Discovery through Peter's Claude subscription must run without WebSearch.
+
+    With `--tools WebSearch` sonnet verified every nominee online and timed out (600s × 3)
+    on every Claude slot from 2026-09-05; the same prompt with no tools answers in seconds.
+    Research calls keep their tools untouched."""
+
+    def setUp(self):
+        self.cfg = {'claude_command': 'claude',
+                    'claude_args': ['--tools', 'WebSearch', '--permission-mode',
+                                    'bypassPermissions', '--model', 'sonnet']}
+        self.state = {'calls': {'gemini': 0, 'agy_claude': 0, 'claude': 0, 'codex': 0}}
+        self.saved_save = rl.save_state
+        rl.save_state = lambda _s: None
+
+    def tearDown(self):
+        rl.save_state = self.saved_save
+
+    def _run(self, **kw):
+        seen = {}
+
+        def fake_run(cmd, **_kw):
+            seen['cmd'] = cmd
+            return mock.Mock(returncode=0, stdout='[]', stderr='')
+
+        with mock.patch.object(rl.subprocess, 'run', side_effect=fake_run):
+            rl.claude_call(self.cfg, self.state, 'nominate', **kw)
+        return seen['cmd']
+
+    def test_without_tools_arg_drops_the_pair_only(self):
+        self.assertEqual(rl._without_tools_arg(['--tools', 'WebSearch', '--model', 'sonnet']),
+                         ['--model', 'sonnet'])
+        self.assertEqual(rl._without_tools_arg(['--tools=WebSearch', '-x']), ['-x'])
+        self.assertEqual(rl._without_tools_arg(['--model', 'sonnet']), ['--model', 'sonnet'])
+
+    def test_discovery_runs_with_no_tools_and_the_guard(self):
+        cmd = self._run(use_search=False)
+        self.assertEqual(cmd[:2], ['claude', '-p'])
+        self.assertTrue(cmd[2].startswith(rl.CLI_NO_TOOLS_GUARD))
+        self.assertTrue(cmd[2].endswith('nominate'))
+        self.assertNotIn('WebSearch', cmd)
+        self.assertEqual(cmd[cmd.index('--tools') + 1], '')
+        self.assertIn('sonnet', cmd)
+        self.assertEqual(self.state['calls']['claude'], 1)
+
+    def test_research_keeps_web_search(self):
+        cmd = self._run()
+        self.assertEqual(cmd[2], 'nominate')
+        self.assertEqual(cmd[cmd.index('--tools') + 1], 'WebSearch')
+
+    def test_llm_call_passes_use_search_through(self):
+        seen = {}
+
+        def fake_claude(cfg, state, prompt, use_search=True):
+            seen['use_search'] = use_search
+            return 'ok'
+
+        cfg = dict(self.cfg, daily_call_budgets={'claude': 150})
+        with mock.patch.object(rl, 'claude_call', side_effect=fake_claude), \
+                mock.patch.object(rl, 'get_workflow', return_value=mock.Mock()):
+            rl.llm_call(cfg, None, self.state, 'p', provider='claude', use_search=False)
+        self.assertEqual(seen, {'use_search': False})

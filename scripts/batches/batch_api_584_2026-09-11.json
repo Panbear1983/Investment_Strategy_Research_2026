@@ -1,0 +1,54 @@
+{
+  "label": "API Batch 584 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "Soitec (SOIT.PA)",
+      "Country": "France",
+      "Industry": "矽光子",
+      "Tier": ""
+    }
+  ],
+  "requested": [],
+  "records": [
+    {
+      "Country": "France",
+      "Timeframe": "中長期",
+      "Sub-Sector": "矽光子",
+      "Industry": "半導體材料與先進工程基板",
+      "Tier": "隱形冠軍",
+      "Company": "Soitec (SOIT.PA)",
+      "Capital/Market Cap": "約 51.5億歐元（約 56億美元）",
+      "Core Business": "專注於半導體工程基板（Engineered Substrates）的研發與量產，核心產品涵蓋用於光通訊與AI晶片互聯的 Photonics-SOI、射頻前端的 RF-SOI、以及功率與車用半導體的 SmartSiC 與 POI 基板。透過專利原子級剝離與鍵合技術，為全球晶圓代工廠與晶片設計巨頭提供高性能、低功耗之關鍵晶圓材料。",
+      "Clients & Orders": "直接客戶涵蓋台積電（TSMC）、格羅方德（GlobalFoundries）、意法半導體（STMicroelectronics）與聯電等晶圓代工巨頭，終端深入蘋果、高通以及微軟、輝達等 AI 伺服器光模組供應鏈。2025至2026年間受惠 AI 資料中心矽光子需求激增，公司已與全球前十大 Photonics-SOI 客戶中的八家簽署多年期產能保留協議（Capacity Reservation Agreements），訂單能見度直通 2027 財年。",
+      "Technical Moat": "擁有獨步全球的 Smart Cut™ 專利技術，能以原子級精度將極薄單晶層轉移至支撐晶圓上，實現晶圓重複利用並大幅降低材料成本與熱損耗。在光通訊與 AI 矽光子基板（Photonics-SOI）領域構築極高製程壁壘，全球市占率高達約 95%，同時延伸出 SmartSiC 與 POI 等跨材料平台護城河。",
+      "Revenue Breakdown": "依 2025–2026 財年最新數據（全年合併營收約 5.92億歐元），行動通訊（Mobile Communications，主含 RF-SOI/POI）占比約 52%（3.09億歐元）；邊緣與雲端 AI（Edge & Cloud AI，含高速成長的 Photonics-SOI 與 FD-SOI）占比約 36%（2.14億歐元）；車用與工業（Automotive & Industrial）占比約 12%（估約 0.69億歐元）。",
+      "Gross Margin Profile": "2025–2026 財年受智慧型手機射頻與車用供應鏈去庫存影響，產能利用率下滑使毛利率降至約 16.3%（前一財年為 32.1%），全年 EBITDA 利潤率維持在 25.4%。隨著高毛利 Photonics-SOI 快速放量及產能重回爬坡，營運已於 2026 年走出低谷，預期 2027 財年營收恢復強勁增長並帶動毛利回升至 30% 以上水準。",
+      "Key Competitors": "在傳統矽與工程基板領域主要競爭對手包括日本信越半導體（Shin-Etsu Handotai，其亦獲授權生產部分 SOI）、勝高（SUMCO）、德國世創（Siltronic）及台灣環球晶圓（GlobalWafers）；在碳化矽與寬能隙材料領域則面對 Wolfspeed、Coherent 與意法半導體的垂直整合競爭。",
+      "12M Catalysts": "生成式 AI 與超大規模資料中心推升光收發模組向 800G/1.6T 及 CPO（共同封裝光學）架構演進，推動 2027 財年 Photonics-SOI 營收預計成長至前一年的 2.5 至 3 倍；智慧型手機射頻前端去庫存步入尾聲觸發 RF-SOI 補庫存循環，加上新執行長上任後的營運優化與成本結構改善效益顯現。",
+      "Key Investment Risks": "消費電子與智慧型手機終端復甦動能若遲滯將遞延晶圓採購週期；客戶集中度較高（台積電與格羅方德等少數代工廠占出貨大宗）；以及近年擴充 Bernin 與新加坡廠區帶來的折舊壓力在產能利用率未達滿載時易侵蝕短期淨利。",
+      "CEO & Management": "前執行長 Pierre Barnabé 於 2026 年 3 月 31 日任滿卸任，由 Laurent Rémont 自 2026 年 4 月 1 日起接任執行長，帶領公司全力聚焦半導體材料核心技術商業化與 AI 矽光子產能擴張；董事會主席為 Christophe Gégout，經營團隊與法國微電子研究重鎮 CEA-Leti 保持深厚研發合作。",
+      "Core Patents & IP": "以源自 CEA-Leti 合作之 Smart Cut™ 原創專利為基石，在全球擁有超過 3,000 項獲准與申請中專利。智財權完整涵蓋 SOI 薄膜轉移、異質材料鍵合、SmartSiC 晶圓重複剝離再生技術及壓電絕緣體（POI）聲學濾波器架構，構築難以迴避的材料層級專利網。",
+      "3-Year M&A": "2024 年底至 2025 年初完成重要策略重組，將非核心的 Dolphin Design 子公司全數分拆出售（混訊 IP 業務售予 Jolt Capital 並改組為 Dolphin Semiconductor，ASIC 設計業務售予 NanoXplore），徹底剝離下游設計服務以專注工程基板材料本業；2025 至 2026 年則深化與力積電（PSMC）、格羅方德等夥伴的晶圓級技術結盟。",
+      "CapEx & Expansion": "策略性投資法國貝南 Bernin 4 新廠以擴增 SmartSiC 產能，並完成新加坡 Pasir Ris 晶圓廠擴建工程以倍增 300mm RF-SOI 與 Photonics-SOI 產能。隨主力土建與廠房擴張高峰告一段落，2026 財年資本支出回歸紀律控管，成功推動自由現金流重回正向（達 6,300 萬歐元）。",
+      "Geopolitical Exposure": "營運總部與核心研發根植於法國並受《歐洲晶片法案》（EU Chips Act）重點扶植，生產基地雙軌布局於歐洲（Bernin）與亞洲（新加坡 Pasir Ris），具備跨區域供應鏈避險能力。地緣政治潛在風險主要來自美中半導體管制措施對下游晶圓代工與光模組客戶訂單節奏的間接外溢影響。",
+      "M&A Potential": "被外部敵意收購的可能性極低，因法國政府透過法國國家投資銀行（Bpifrance）與替代能源暨原子能委員會（CEA）持有核心關鍵股權，將其視為歐洲半導體自主與國家戰略物資防線；未來併購策略預計以小規模技術收購（如寬能隙材料研磨、鍵合與先進封裝利基 IP）為主。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 584 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "Soitec (SOIT.PA)"
+    ],
+    "unmatched": [],
+    "rows_exported": 3363
+  }
+}

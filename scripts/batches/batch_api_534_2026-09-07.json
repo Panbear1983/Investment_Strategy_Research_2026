@@ -1,0 +1,121 @@
+{
+  "label": "API Batch 534 (new, gemini)",
+  "source": "new",
+  "provider": "gemini",
+  "providers_used": [
+    "gemini"
+  ],
+  "items": [
+    {
+      "Company": "Bitfarms Ltd. (BITF)",
+      "Country": "USA",
+      "Industry": "金融科技",
+      "Tier": ""
+    },
+    {
+      "Company": "HIVE Digital Technologies Ltd. (HIVE)",
+      "Country": "USA",
+      "Industry": "金融科技",
+      "Tier": ""
+    },
+    {
+      "Company": "JTC PLC (JTC.L)",
+      "Country": "UK",
+      "Industry": "金融科技",
+      "Tier": ""
+    },
+    {
+      "Company": "CARE Ratings Limited (CARERATING.NS)",
+      "Country": "India",
+      "Industry": "金融科技",
+      "Tier": ""
+    }
+  ],
+  "records": [
+    {
+      "Country": "USA",
+      "Timeframe": "中長期",
+      "Sub-Sector": "AI資料中心",
+      "Industry": "金融科技與數位基礎設施",
+      "Tier": "潛力股",
+      "Company": "Bitfarms Ltd. (KEEL)",
+      "Capital/Market Cap": "約 21.2億美元",
+      "Core Business": "公司原名為 Bitfarms Ltd.，於 2026 年 4 月完成遷冊美國特拉華州並正式更名為 Keel Infrastructure Corp.，那斯達克與多倫多證券交易所代號同步變更為 KEEL。公司已於 2026 年 6 月全面終止美國境內的比特幣挖礦業務，全速轉型為專注於高功率密度的高效能運算（HPC）與 AI 資料中心基礎設施開發運營商，向超大規模雲端客戶提供電力整備土地（Powered Land）與資料中心託管空間。",
+      "Clients & Orders": "過往營收主要來自 Foundry USA 等比特幣礦池，現階段客戶重心全面轉移至一線超大規模雲端服務商（Hyperscalers）與大型 AI 算力企業。目前旗下位於賓州的旗艦場址 Panther Creek（350-500 MW）及 Sharon（110 MW）已完成分區許可並展開現場前期工程，正積極推進商業化招商與長期租賃協議談判。",
+      "Technical Moat": "手握北美 PJM 區域等高緊缺電力市場的大規模已核准電網併網指標與自發電整合能力，整體儲備高達 2.2 GW 的數位基礎設施開發管線。具備將傳統加密貨幣礦場快速改造為支援高瓦數液冷伺服器集群的棕地（Brownfield）工程轉化技術與關鍵土地權益。",
+      "Revenue Breakdown": "2025 全年營收約 2.293 億美元（年增 72%），幾乎全數來自比特幣自營挖礦；2026 年第二季因停產美區挖礦以騰出電力轉型 AI 資料中心，單季營收降至 3,040 萬美元。目前營收結構處於由高度波動的加密貨幣產出，過渡至 AI 資料中心長期租賃與託管經常性收入的劇烈轉型期。",
+      "Gross Margin Profile": "2025 年受減半後挖礦設備加速折舊影響，GAAP 毛利率約為 -8%；2026 年第二季因提前終止美區挖礦產生設備折舊與轉換初期沉沒成本，毛利率劇烈受壓至 -285%。預期隨著 2027 年後 AI/HPC 長期電力託管與租賃合約陸續交付，毛利率結構可望重塑並回升至 50% 以上之高質量經常性水準（估）。",
+      "Key Competitors": "轉型 HPC/AI 資料中心的同業包括 Core Scientific (CORZ)、IREN、TeraWulf (WULF)、Cipher Mining (CIFR) 與 Riot Platforms (RIOT)；傳統超大規模資料中心巨頭則包括 Equinix (EQIX) 與 Digital Realty (DLR)。",
+      "12M Catalysts": "未來 12 個月關鍵催化劑包括旗艦場址 Panther Creek（350-500 MW）或 Sharon（110 MW）正式與超大規模雲端商簽署首張具約束力之長期 HPC 租賃合約。此外，華盛頓州 Moses Lake 18 MW 試點改建專案通電商轉，以及完成美國遷冊後被納入羅素或標普等美股主要基準指數帶來的被動買盤。",
+      "Key Investment Risks": "主要風險包括業務轉型期缺乏挖礦現金流產生的營收斷崖與持續營運現金消耗，若 HPC 租賃合約簽署進度延遲將加劇流動性壓力。其次為 2.2 GW 資料中心電力改造的龐大資本支出超支、變壓器供應鏈交期延宕，以及 2026 年中發行 4.58 億美元可轉換公司債可能帶來的股權稀釋風險。",
+      "CEO & Management": "執行長 Ben Gagnon 於 2024 年 7 月自首席採礦長升任，具備深厚採礦與電力工程背景，上任後果斷終止美區挖礦並全面推進 AI 基礎設施轉型。財務長 Jeffrey Lucas 擁有豐富跨國資本市場經驗，成功主導 2025 年收購 Stronghold、發行 4.58 億美元可轉債及完成特拉華州遷冊。",
+      "Core Patents & IP": "核心競爭壁壘並非晶片硬體專利，而在於專有的場站電力調度軟體（Energy Curtailment Software）、大型變電站高壓電網互聯協議（Interconnection Rights）以及場地電力分區開發所有權。",
+      "3-Year M&A": "2024 年 9 月與發動敵意併購的 Riot Platforms 達成和解與停戰協定，成功捍衛經營權獨立性。2025 年 3 月以全股票加承擔債務完成收購 Stronghold Digital Mining (SDIG) 以取得賓州發電廠與關鍵電網資產；2026 年 4 月完成處分阿根廷與巴拉圭全部場址（如 Paso Pe 70MW），徹底退出南美洲市場。",
+      "CapEx & Expansion": "資本支出全面轉向北美 2.2 GW 管線之資料中心建築外殼（Powered Shell）與高壓配電工程，重點投入賓州 Panther Creek 及 Sharon 場址。2026 年透過發行約 4.58 億美元可轉換公司債充實資金儲備，截至 2026 年 8 月底保有約 8.19 億美元流動性（含現金與比特幣儲備）以支應改建需求。",
+      "Geopolitical Exposure": "地緣政治曝險已大幅消除，2026 年上半年完全出清巴拉圭及阿根廷資產，徹底脫離南美洲電價政策、外匯管制與法規不確定性。目前資產 100% 集中於北美（美國賓州、華盛頓州及加拿大魁北克省），受成熟透明的北美法規架構監管，營運環境高度穩定。",
+      "M&A Potential": "併購潛力極高，其坐擁的 PJM 等稀缺電網大規模已核准電力容量，是急需電力之超大規模雲端商（Hyperscalers）與大型 AI 算力營運商夢寐以求的戰略資產。隨著 Riot 和解協議保護期於 2026 年屆滿，加上自身已完成純基礎設施資產化，具備吸引 Blackstone、Brookfield 等大型基建私募股權基金整體收購之潛力。"
+    },
+    {
+      "Country": "USA",
+      "Timeframe": "中長期",
+      "Sub-Sector": "AI伺服器",
+      "Industry": "金融科技 / 雲端運算與數位基礎設施",
+      "Tier": "潛力股",
+      "Company": "HIVE Digital Technologies Ltd. (HIVE)",
+      "Capital/Market Cap": "約 8.5億美元",
+      "Core Business": "公司原為全球首家上市的綠能加密貨幣挖礦企業，現正全面轉型為高效能運算（HPC）與AI雲端基礎設施供應商。旗下透過全資子公司BUZZ HPC提供次世代GPU雲端算力租賃服務，同時維持大規模比特幣清潔能源挖礦營運。",
+      "Clients & Orders": "2026年8月與Bell Canada簽訂為期5年、總額約3.5億美元的AI雲端算力服務大單（於卑詩省部署GB300 NVL72叢集）；商業客戶涵蓋企業級生成式AI模型開發商與哥倫比亞大學等學術機構，挖礦業務則主要獲得比特幣網絡區塊獎勵。",
+      "Technical Moat": "具備100%水力與綠能發電的極低成本電力取得能力（巴拉圭電價低於0.03美元/度），並具備由加密貨幣快速切換至液冷高密度算力中心的架構改裝能力；身為NVIDIA雲端合作夥伴（NCP），掌握先進GPU叢集調度與自研資料中心能耗遙測技術。",
+      "Revenue Breakdown": "2026財年全年營收約2.978億美元，其中數位貨幣挖礦業務佔比約93.5%（約2.783億美元），BUZZ HPC雲端算力服務佔比約6.5%（約1,950萬美元）；隨著Blackwell GPU合約全面交付，AI/HPC業務年化營收（ARR）正呈倍數跳升。",
+      "Gross Margin Profile": "2026財年營業毛利率約為36%（毛利達1.079億美元），較2025財年的21.8%顯著擴張；主因巴拉圭水電設施展現低成本規模經濟槓桿，且高利潤率的BUZZ HPC業務毛利率維持在40%至50%區間。",
+      "Key Competitors": "主要競爭對手包括積極轉向AI運算的比特幣礦商Core Scientific (CORZ)、Iris Energy (IREN)、Hut 8 (HUT)、Marathon Digital (MARA)、Riot Platforms (RIOT)及Northern Data。",
+      "12M Catalysts": "1. 執行Bell Canada價值3.5億美元合約，全面上線2,016顆NVIDIA Blackwell Ultra (GB300) GPU推升算力營收爆發。2. 巴拉圭低成本水電園區擴展至近400MW全面併網，進一步壓低全網平均能耗成本。3. 推進多倫多主權AI超級工廠建置，加速實現管理層設定的10億美元年營收目標。",
+      "Key Investment Risks": "1. 比特幣價格高度波動及全網算力難度攀升，恐侵蝕佔營收大宗的挖礦營收與現金流。2. 採購高階NVIDIA晶片與資料中心高壓電網建置之資本支出龐大，面臨股權稀釋或債務融資成本壓力。3. 自純挖礦轉型至企業級AI雲端運營的交付執行力與單一大客戶集中度風險。",
+      "CEO & Management": "由執行董事長Frank Holmes（知名全球投資專家兼美國全球投資者公司CIO）與總裁兼執行長Aydin Kilic（電機工程背景、逾20年資本運作經驗）共同主導；近期已將企業總部正式遷至美國德州聖安東尼奧以深化北美市場布局。",
+      "Core Patents & IP": "公司未持有正式專利（於公開監管申報文件載明無專利），核心技術保護依賴自研專有資料中心硬體選型模型、營運遙測與算力調度軟體、BUZZ註冊商標與商業機密。",
+      "3-Year M&A": "2025年1月向Bitfarms收購巴拉圭200MW水力發電挖礦園區；2025年6月收購加拿大多倫多7.2MW資料中心以擴充BUZZ HPC主權AI算力生態圈；整體策略聚焦於低價綠電容量與現成機房資產之收購。",
+      "CapEx & Expansion": "持續推進巴拉圭水電園區擴產（達近400MW規模），規劃多倫多320MW主權AI超級工廠（AI Gigafactory），並大舉採購部署NVIDIA GB300 NVL72及H200液冷算力叢集，資本支出處於歷史高檔。",
+      "Geopolitical Exposure": "營運據點橫跨美國、加拿大、瑞典及巴拉圭；北美與北歐政治穩定且法規透明，但巴拉圭等新興市場面臨電價合約穩定性與法規變動風險，同時高階AI GPU採購受美國先進半導體出口管制政策之供應鏈間接影響。",
+      "M&A Potential": "具備中高潛在被併購或戰略合資價值；因掌握大量稀缺且低成本的綠電長期合約、近GW級資料中心管線容量及NVIDIA高階算力夥伴資質，對急需電力與算力基礎設施的超大規模雲端商（Hyperscalers）或同業具備顯著整合吸引力。"
+    },
+    {
+      "Country": "India",
+      "Timeframe": "中長期",
+      "Sub-Sector": "信用評等與金融數據",
+      "Industry": "金融科技",
+      "Tier": "潛力股",
+      "Company": "CARE Ratings Limited (CARERATING.NS)",
+      "Capital/Market Cap": "約 520億印度盧比（約 6.1億美元）",
+      "Core Business": "以「CareEdge」品牌為核心營運，專注於提供全方位信用評等、風險諮詢與研究分析服務，涵蓋銀行貸款評等（BLR）、公司債券、商業本票、結構型融資工具及主權評等。近年更積極透過子公司將版圖延伸至 ESG 評等、金融風險管理軟體與跨國評等解決方案。",
+      "Clients & Orders": "客戶基礎廣泛覆蓋印度各大國營及民營商業銀行、非銀行金融公司（NBFCs）、大型工業企業集團與基建投資發行主體，累計評等債務規模達數百兆盧比。在銀行融資評等市場擁有極高滲透率，受益於印度私人企業資本支出復甦與債券市場活絡，評等委託與監控合約具備高度經常性續約特徵。",
+      "Technical Moat": "具備印度證券交易委員會（SEBI）與印度央行（RBI）頒發的嚴格特許評等牌照，具備天然法規護城河與進入壁壘。累積超過 30 年的本土信貸違約大數據資料庫，並建構出貼合新興市場特性的專屬量化風險模型，形成高轉換成本與穩固的金融聲譽資本。",
+      "Revenue Breakdown": "核心信用評等業務約佔合併總營收的 89%，非評等業務（涵蓋研究諮詢、風險分析與 ESG 數據產品）貢獻約 11%。管理層正積極推動非評等業務擴張，中期戰略目標將其營收比重拉升至 20%，以平滑信貸發行週期的波動風險。",
+      "Gross Margin Profile": "身為輕資產且人力智慧密集型機構，營業毛利率估達 70% 至 75%。2025-2026 年合併 EBITDA 利潤率維持在 33% 至 39% 區間，母公司單體（Standalone）EBITDA 利潤率更達 48% 至 54%，展現優異的經營槓桿與高自由現金流轉化率。",
+      "Key Competitors": "主要競爭對手為標普全球控股的印度市場龍頭 CRISIL，以及穆迪控股的第二大業者 ICRA；其他合格競爭者包括惠譽旗下的 India Ratings & Research 以及本土機構 Infomerics 和 Brickwork Ratings。",
+      "12M Catalysts": "印度製造業與綠色基礎建設推動大型公司債發行熱潮，帶動評等業務量加速成長。此外，全資子公司 CareEdge Global IFSC 於 GIFT City 引入印度國家銀行（SBI）與 NSE IFSC 策略入股（各持股至多 9.9%）即將收尾落地，疊加取得 IFSCA 之 ESG 評等許可，將顯著推升跨境與全球評等新動能。",
+      "Key Investment Risks": "業務高度依賴印度本土信貸發行週期與利率走向，若高利率或流動性緊縮抑制企業借貸，將直接衝擊新增發行量評等費收入。同時面臨嚴格的監管法規變動風險（如監管當局針對評等透明度與違約預警的法規趨嚴），以及國際對手在非評等數據領域的激烈競爭。",
+      "CEO & Management": "由董事總經理兼集團執行長 Mehul Pandya 掌舵，其服務該機構超過二十年並於 2022 年接任 CEO，成功主導集團更名為 CareEdge 及全球化轉型戰略。管理團隊在信貸分析與法遵領域歷練深厚，維持零負債之極度穩健資產負債表，並長期落實高股利回饋政策。",
+      "Core Patents & IP": "核心資產為「CareEdge」註冊品牌商標、監管核准之自主信貸與主權信用評估演算法、ESG 評估方法學框架，以及累積數十年的印度企業財務數據與信貸違約特徵庫，具備極高的專有資訊價值。",
+      "3-Year M&A": "過去三年無大型外部併購，主要以內部孵化與股權戰略結盟為主。核心策略為 2024 年成立 CareEdge Global IFSC，並於 2025-2026 年與印度國家銀行（SBI）及印度國家證券交易所旗下 NSE IFSC 推進向兩者各出售至多 9.9% 股權之戰略結盟案。",
+      "CapEx & Expansion": "資本支出極低（占營收比通常低於 3%），主要用於雲端架構、數位化評等平台與 AI 風險模型之升級開發。業務拓展則以設立於 GIFT City 的 CareEdge Global 為支點進軍全球南方主權評等，並持續鞏固模里西斯與尼泊爾等新興海外市場。",
+      "Geopolitical Exposure": "絕大部分營收深植於印度本土，地緣衝突直接曝險極低，反而實質受惠於全球供應鏈分散至印度的「中國+1」外商直接投資與基建融資熱潮。海外業務拓展雖觸及南亞與非洲新興市場，但整體外幣與海外主權政治風險占總營收比例仍低於 5%。",
+      "M&A Potential": "股權結構高度分散且無單一控股股東，主要由機構投資人持股且帳上現金充裕，在印度金融資訊市場被視為具備被國際金融機構或數據巨頭整併的潛力標的。同時，公司亦具備透過小型併購迅速切入金融科技演算法、AI 信貸決策工具或永續數據新創的能力。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [
+    "JTC PLC (JTC.L)"
+  ],
+  "summary": {
+    "batch_label": "API Batch 534 (new, gemini)",
+    "updated": [],
+    "claimed": [
+      "Bitfarms Ltd. (KEEL)",
+      "HIVE Digital Technologies Ltd. (HIVE)",
+      "CARE Ratings Limited (CARERATING.NS)"
+    ],
+    "unmatched": [],
+    "rows_exported": 3272
+  }
+}

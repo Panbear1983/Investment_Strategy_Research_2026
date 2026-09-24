@@ -1,0 +1,23 @@
+{
+  "label": "API Batch 478 (new, claude)",
+  "source": "new",
+  "provider": "claude",
+  "providers_used": [
+    "claude"
+  ],
+  "items": [
+    {
+      "Company": "GHL Systems Berhad (0021.KL)",
+      "Country": "Malaysia",
+      "Industry": "金融科技",
+      "Tier": ""
+    }
+  ],
+  "records": [],
+  "failed": [],
+  "requeued": [],
+  "excluded": [
+    "GHL Systems Berhad (0021.KL)"
+  ],
+  "summary": {}
+}

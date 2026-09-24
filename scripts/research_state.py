@@ -306,6 +306,25 @@ class WorkflowState:
                 CREATE INDEX IF NOT EXISTS focus_proposals_pending
                     ON focus_proposals(status, id DESC);
 
+                -- The direction plan: which industries (optionally within one country) the
+                -- discovery step hunts in, and how much of the effort each gets. The loop
+                -- rotates through enabled rows by share; a row that stops producing rests on
+                -- its own (research_loop.record_discovery_result). It steers DISCOVERY ONLY:
+                -- maintenance and the retry queue are never filtered by it, which is the
+                -- lesson of the 2026-09 fintech focus that starved both for five days.
+                CREATE TABLE IF NOT EXISTS direction_plan (
+                    id INTEGER PRIMARY KEY,
+                    industry TEXT NOT NULL DEFAULT '',
+                    country TEXT NOT NULL DEFAULT '',
+                    share INTEGER NOT NULL DEFAULT 1 CHECK(share >= 1),
+                    enabled INTEGER NOT NULL DEFAULT 1,
+                    position INTEGER NOT NULL DEFAULT 0,
+                    set_by TEXT NOT NULL DEFAULT 'peter',
+                    created_at TEXT NOT NULL,
+                    updated_at TEXT NOT NULL,
+                    UNIQUE(industry, country)
+                );
+
                 -- YouTube links turned into reading material. Deliberately inert: nothing here
                 -- steers the scraper. It exists so a sector decision can come out of a
                 -- CONVERSATION about what was said, with the transcript quotable underneath.
@@ -417,17 +436,24 @@ class WorkflowState:
 
     FOCUS_KEY = 'standing_focus'
 
+    DEFAULT_FOCUS_BATCHES = 3
+
     def set_standing_focus(self, industry='', country='', batches=None,
                            set_by='peter', reason=''):
-        """Set the standing focus. batches=None means 'until cleared'."""
+        """Set the standing focus for a bounded number of batches.
+
+        batches=None means DEFAULT_FOCUS_BATCHES. A focus no longer runs "until cleared":
+        the 2026-09-03 fintech focus was set that way and, once the sector was picked clean,
+        starved discovery, the retry queue and maintenance for five days. Open-ended steering
+        belongs in the direction plan, which rotates and rests on its own.
+        """
         industry = (industry or '').strip()
         country = (country or '').strip()
         if not industry and not country:
             raise ValueError('a standing focus needs an industry, a country, or both')
-        if batches is not None:
-            batches = int(batches)
-            if batches < 1:
-                raise ValueError('batches must be at least 1, or None for until-cleared')
+        batches = int(self.DEFAULT_FOCUS_BATCHES if batches is None else batches)
+        if batches < 1:
+            raise ValueError('batches must be at least 1')
         record = {'industry': industry, 'country': country,
                   'batches_remaining': batches, 'set_by': set_by,
                   'reason': (reason or '').strip()[:500], 'set_at': utc_now()}
@@ -622,18 +648,177 @@ class WorkflowState:
                        (status, utc_now(), proposal_id))
             return dict(row)
 
-    def accept_focus_proposal(self, proposal_id, batches=None):
-        """Accept a proposal AND make it the standing focus, in that order.
+    def accept_focus_proposal(self, proposal_id, share=1):
+        """Accept a proposal AND add it to the direction plan, in that order.
 
         This is the only place a proposal becomes an instruction, and it is only ever reached
-        from a human keypress in the dashboard.
+        from a human keypress in the dashboard. It used to set the standing focus; since
+        2026-09-08 an accepted sector joins the rotation instead of becoming a hard filter
+        over every slot.
         """
         row = self.resolve_focus_proposal(proposal_id, 'accepted')
         if not row:
             return None
-        return self.set_standing_focus(
-            row['industry'], row['country'], batches=batches,
-            set_by=f"accepted from {row['proposed_by']}", reason=row['reason'])
+        return self.add_direction(row['industry'], row['country'], share,
+                                  set_by=f"accepted from {row['proposed_by']}")
+
+    # ---- direction plan -------------------------------------------------------
+    # The rotating list of industries discovery hunts in. Unlike the standing focus this is
+    # not a filter: it only decides what one nomination prompt asks for, one row per attempt,
+    # in proportion to `share`. An empty plan means the config's discovery_focus_rotation.
+
+    def direction_plan(self, enabled_only=False):
+        sql = 'SELECT * FROM direction_plan'
+        if enabled_only:
+            sql += ' WHERE enabled=1'
+        sql += ' ORDER BY position, id'
+        with self.connect() as db:
+            return [dict(r) for r in db.execute(sql).fetchall()]
+
+    @staticmethod
+    def _direction_row(db, plan_id):
+        row = db.execute('SELECT * FROM direction_plan WHERE id=?', (plan_id,)).fetchone()
+        return dict(row) if row else None
+
+    def add_direction(self, industry='', country='', share=1, set_by='peter'):
+        """Add a row, or re-enable an identical one. Both fields empty is allowed: that is
+        a free-choice row where the model picks the industry itself."""
+        industry = (industry or '').strip()
+        country = (country or '').strip()
+        share = max(1, int(share or 1))
+        now = utc_now()
+        with self.connect() as db:
+            row = db.execute('SELECT * FROM direction_plan WHERE industry=? AND country=?',
+                             (industry, country)).fetchone()
+            if row:
+                db.execute('UPDATE direction_plan SET enabled=1, updated_at=? WHERE id=?',
+                           (now, row['id']))
+                return self._direction_row(db, row['id'])
+            position = db.execute('SELECT COALESCE(MAX(position), -1) + 1 p '
+                                  'FROM direction_plan').fetchone()['p']
+            cur = db.execute("""INSERT INTO direction_plan
+                (industry, country, share, enabled, position, set_by, created_at, updated_at)
+                VALUES (?, ?, ?, 1, ?, ?, ?, ?)""",
+                (industry, country, share, position, set_by, now, now))
+            return self._direction_row(db, cur.lastrowid)
+
+    def remove_direction(self, plan_id):
+        with self.connect() as db:
+            row = self._direction_row(db, plan_id)
+            if row:
+                db.execute('DELETE FROM direction_plan WHERE id=?', (plan_id,))
+            return row
+
+    def set_direction_share(self, plan_id, share):
+        share = max(1, int(share))
+        with self.connect() as db:
+            db.execute('UPDATE direction_plan SET share=?, updated_at=? WHERE id=?',
+                       (share, utc_now(), plan_id))
+            return self._direction_row(db, plan_id)
+
+    def set_direction_enabled(self, plan_id, enabled):
+        with self.connect() as db:
+            db.execute('UPDATE direction_plan SET enabled=?, updated_at=? WHERE id=?',
+                       (1 if enabled else 0, utc_now(), plan_id))
+            return self._direction_row(db, plan_id)
+
+    def move_direction(self, plan_id, delta):
+        """Swap places with the neighbour `delta` rows away (-1 = up, +1 = down)."""
+        rows = self.direction_plan()
+        index = next((i for i, r in enumerate(rows) if r['id'] == plan_id), None)
+        if index is None:
+            return None
+        target = index + int(delta)
+        if target < 0 or target >= len(rows):
+            return rows[index]
+        rows[index], rows[target] = rows[target], rows[index]
+        now = utc_now()
+        with self.connect() as db:
+            for position, row in enumerate(rows):
+                db.execute('UPDATE direction_plan SET position=?, updated_at=? WHERE id=?',
+                           (position, now, row['id']))
+            return self._direction_row(db, plan_id)
+
+    HISTORY_KEY = 'direction_history'
+
+    def set_direction_list(self, entries, set_by='peter'):
+        """Replace the plan with `entries`: (industry, country) pairs in priority order.
+
+        This is what the typing box does. Rows already present keep their id and position
+        history; rows not in the new list are deleted; positions follow the typed order, which
+        is the tie-break when two rows hold the same number of companies. Returns the plan.
+        """
+        wanted, seen = [], set()
+        for industry, country in entries:
+            key = ((industry or '').strip(), (country or '').strip())
+            if key in seen:
+                continue
+            seen.add(key)
+            wanted.append(key)
+        now = utc_now()
+        with self.connect() as db:
+            existing = {(r['industry'], r['country']): dict(r)
+                        for r in db.execute('SELECT * FROM direction_plan').fetchall()}
+            for key, row in existing.items():
+                if key not in seen:
+                    db.execute('DELETE FROM direction_plan WHERE id=?', (row['id'],))
+            for position, (industry, country) in enumerate(wanted):
+                row = existing.get((industry, country))
+                if row:
+                    db.execute("""UPDATE direction_plan SET position=?, enabled=1, updated_at=?
+                        WHERE id=?""", (position, now, row['id']))
+                else:
+                    db.execute("""INSERT INTO direction_plan
+                        (industry, country, share, enabled, position, set_by, created_at,
+                         updated_at) VALUES (?, ?, 1, 1, ?, ?, ?, ?)""",
+                        (industry, country, position, set_by, now, now))
+        if wanted:
+            self._remember_direction(wanted, now)
+        return self.direction_plan()
+
+    def clear_direction_list(self):
+        rows = self.direction_plan()
+        with self.connect() as db:
+            db.execute('DELETE FROM direction_plan')
+        return rows
+
+    def _remember_direction(self, wanted, when, keep=8):
+        history = self.direction_history()
+        entry = {'set_at': when, 'items': [{'industry': i, 'country': c} for i, c in wanted]}
+        if history and history[0].get('items') == entry['items']:
+            return
+        self.set_meta(self.HISTORY_KEY, json.dumps([entry] + history[:keep - 1],
+                                                   ensure_ascii=False))
+
+    def direction_history(self):
+        """Previous lists, newest first — so the panel can show what was already mined."""
+        raw = self.get_meta(self.HISTORY_KEY)
+        try:
+            history = json.loads(raw) if raw else []
+        except (ValueError, TypeError):
+            return []
+        return history if isinstance(history, list) else []
+
+    def direction_status(self):
+        """Every plan row with `held` — researched companies matching it — which is what the
+        need-first picker orders by. One query per row; the plan is a handful of rows."""
+        rows = self.direction_plan()
+        with self.connect() as db:
+            for row in rows:
+                clause, args = focus_filters(row['country'] or None, row['industry'] or None)
+                row['held'] = db.execute(
+                    f'SELECT COUNT(*) n FROM companies WHERE research_status=?{clause}',
+                    (DEEP_RESEARCHED, *args)).fetchone()['n']
+        return rows
+
+    def seed_direction_plan(self, entries, set_by='seed'):
+        """Fill an EMPTY plan from (industry, country, share) tuples. A plan with any rows,
+        even disabled ones, is left alone so a seed can never overwrite Peter's edits."""
+        if self.direction_plan():
+            return 0
+        for industry, country, share in entries:
+            self.add_direction(industry, country, share, set_by=set_by)
+        return len(entries)
 
     def upsert_company(self, item, research_status=RESEARCH_PENDING, source='new',
                        maintenance_status=None):
@@ -799,36 +984,100 @@ class WorkflowState:
             return db.execute('SELECT COUNT(*) c FROM company_research').fetchone()['c']
 
     def research_queue(self, limit, retry_cap=10, country=None, industry=None):
+        """Next companies to research: hand-picked ones first (source 'manual' — Peter typed
+        them, 2026-09-09), then retries up to retry_cap, then discovered names by age."""
         now = utc_now()
         focus_sql, filter_args = focus_filters(country, industry)
         with self.connect() as db:
             eligible = """research_status=? AND
                 (next_attempt_at IS NULL OR next_attempt_at<=?)"""
+            manual = db.execute(f"""SELECT * FROM companies WHERE {eligible}{focus_sql}
+                AND source='manual' ORDER BY created_at, id LIMIT ?""",
+                (RESEARCH_PENDING, now, *filter_args, limit)).fetchall()
             retry = db.execute(f"""SELECT * FROM companies WHERE {eligible}{focus_sql}
-                AND (attempt_count>0 OR last_error_class IS NOT NULL)
+                AND source!='manual' AND (attempt_count>0 OR last_error_class IS NOT NULL)
                 ORDER BY next_attempt_at, updated_at, id LIMIT ?""",
-                (RESEARCH_PENDING, now, *filter_args, retry_cap)).fetchall()
-            remaining = max(0, limit - len(retry))
+                (RESEARCH_PENDING, now, *filter_args,
+                 max(0, min(retry_cap, limit - len(manual))))).fetchall()
+            remaining = max(0, limit - len(manual) - len(retry))
             ordinary = db.execute(f"""SELECT * FROM companies WHERE {eligible}{focus_sql}
-                AND attempt_count=0 AND last_error_class IS NULL
+                AND source!='manual' AND attempt_count=0 AND last_error_class IS NULL
                 ORDER BY created_at, id LIMIT ?""",
                 (RESEARCH_PENDING, now, *filter_args, remaining)).fetchall()
-        return [dict(r) for r in retry + ordinary]
+        return [dict(r) for r in manual + retry + ordinary]
 
-    def covered_tickers(self, country=None):
-        """Tickers already in the corpus, optionally restricted to one country.
+    # ---- hand-picked companies ----------------------------------------------------------
 
-        Used to trim the nomination prompt: listing all 2113 covered tickers costs ~17k
+    @staticmethod
+    def parse_company_request(text):
+        """'台積電 (2330.TW)' -> ('台積電 (2330.TW)', '2330.TW'); a bare 'nvda' or '2330.tw'
+        -> ('NVDA (NVDA)', 'NVDA') and the researcher fills in the name. No usable ticker ->
+        (None, '')."""
+        text = (text or '').strip().lstrip('@').strip()
+        if not text:
+            return None, ''
+        ticker = extract_ticker(text)
+        if ticker:
+            return text, ticker.strip()
+        if re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9.\-]{0,11}', text) and ' ' not in text:
+            ticker = text.upper()
+            return f'{ticker} ({ticker})', ticker
+        return None, ''
+
+    def request_company(self, text, set_by='peter'):
+        """Put one company Peter named into the pipeline. Returns what happened:
+        'queued' (new, front of the research queue), 'promoted' (was pending, now first),
+        'refresh' (already researched: marked due for the next maintenance slot),
+        'running' (a batch has it right now), or 'invalid' (no ticker to go on)."""
+        name, ticker = self.parse_company_request(text)
+        if not name:
+            return {'action': 'invalid', 'text': text, 'company': '', 'ticker': ''}
+        now = utc_now()
+        with self.connect() as db:
+            row = db.execute('SELECT * FROM companies WHERE ticker=?', (ticker,)).fetchone()
+            if row is None:
+                cur = db.execute("""INSERT INTO companies
+                    (ticker, company_name, research_status, maintenance_status, source,
+                     created_at, updated_at) VALUES (?, ?, ?, ?, 'manual', ?, ?)""",
+                    (ticker, name, RESEARCH_PENDING, MAINT_NOT_DUE, now, now))
+                return {'action': 'queued', 'id': cur.lastrowid, 'company': name,
+                        'ticker': ticker}
+            result = {'id': row['id'], 'company': row['company_name'], 'ticker': ticker}
+            status = row['research_status']
+            if status == DEEP_RESEARCHED:
+                # Straight to the update queue, ahead of the never-maintained rows it is
+                # ordered with (last_maintained_at NULL sorts first).
+                db.execute("""UPDATE companies SET maintenance_status=?, last_maintained_at=NULL,
+                    next_attempt_at=NULL, updated_at=? WHERE id=?""",
+                    (MAINT_UPDATE_DUE, now, row['id']))
+                return {**result, 'action': 'refresh'}
+            if status == RESEARCHING:
+                return {**result, 'action': 'running'}
+            db.execute("""UPDATE companies SET research_status=?, source='manual',
+                attempt_count=0, next_attempt_at=NULL, last_error_class=NULL, last_error=NULL,
+                updated_at=? WHERE id=?""", (RESEARCH_PENDING, now, row['id']))
+            return {**result, 'action': 'promoted' if status == RESEARCH_PENDING else 'queued'}
+
+    def requested_companies(self):
+        """Hand-picked companies still waiting, oldest first — for the dashboard strip."""
+        with self.connect() as db:
+            rows = db.execute("""SELECT * FROM companies WHERE research_status=? AND
+                source='manual' ORDER BY created_at, id""", (RESEARCH_PENDING,)).fetchall()
+        return [dict(r) for r in rows]
+
+    def covered_tickers(self, country=None, industry=None):
+        """Tickers already in the corpus, optionally restricted to one country and/or one
+        industry (substring, like every other industry match here).
+
+        Used to trim the nomination prompt: listing all covered tickers costs ~30k
         characters of every discovery call, almost all of it irrelevant once the attempt is
         steered at a single slice. Callers must still dedupe against the FULL covered set —
         this only decides what the model is shown.
         """
         sql = ("SELECT ticker FROM companies "
                "WHERE ticker IS NOT NULL AND TRIM(ticker)!=''")
-        args = []
-        if country:
-            sql += ' AND LOWER(TRIM(country))=LOWER(?)'
-            args.append(country.strip())
+        clause, args = focus_filters(country, industry)
+        sql += clause
         with self.connect() as db:
             return sorted({r['ticker'].strip() for r in db.execute(sql, args)
                            if (r['ticker'] or '').strip()})

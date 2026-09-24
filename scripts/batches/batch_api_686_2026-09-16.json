@@ -1,0 +1,84 @@
+{
+  "label": "API Batch 686 (new, codex)",
+  "source": "new",
+  "provider": "codex",
+  "providers_used": [
+    "codex"
+  ],
+  "items": [
+    {
+      "Company": "RPM International (RPM)",
+      "Country": "USA",
+      "Industry": "化工",
+      "Tier": ""
+    },
+    {
+      "Company": "Axalta Coating Systems (AXTA)",
+      "Country": "USA",
+      "Industry": "化工",
+      "Tier": ""
+    }
+  ],
+  "requested": [],
+  "records": [
+    {
+      "Country": "USA",
+      "Timeframe": "中長期",
+      "Sub-Sector": "特用塗料與建築化學品",
+      "Industry": "化工",
+      "Tier": "龍頭股",
+      "Company": "RPM International (RPM)",
+      "Capital/Market Cap": "約127.7億美元（2026年9月15日市值；約1.28億股流通在外）。",
+      "Core Business": "RPM透過Construction Products Group（CPG）、Performance Coatings Group（PCG）及Consumer三大事業群，銷售特種塗料、密封膠、建築防水、屋頂、混凝土修復、工業防腐、地坪與家用清潔產品。其模式是保留被收購企業的創業品牌與營運自主性，再共享採購、製造、通路及技術資源。",
+      "Clients & Orders": "客戶包括建築承包商、基建與工業設施業主、OEM、經銷商、零售商及DIY消費者；高性能建築、修復維護、工業防腐與食品塗層訂單是近年成長重心。公司客戶組合分散，未依賴單一重大客戶，消費品則透過大型零售、電商、雜貨與藥妝通路銷售。",
+      "Technical Moat": "護城河來自Rust-Oleum、Tremco、Euclid、Carboline、Stonhard、DAP、Zinsser等品牌，以及複雜工程規格、現場服務、材料配方、認證與長期承包商關係。CPG將防水、屋頂、外牆、地坪及修復產品打包為系統方案，可提高專案黏著度與每案內容價值。",
+      "Revenue Breakdown": "FY2026營收78.63億美元、年增6.7%；CPG約39%、PCG約27%、Consumer約34%。CPG受高性能建築、屋頂、基建及混凝土外加劑帶動，PCG受地坪、防腐、防火、食品與OEM塗層及印度／中東需求支持，Consumer則受DIY與歐洲疲弱、產品精簡及Color Group需求疲軟壓抑。",
+      "Gross Margin Profile": "FY2026毛利32.58億美元、毛利率約41.4%，較FY2025的41.4%大致持平，但毛利額受銷量、價格與組合成長推升。MAP 2025相較FY2022已累積提升毛利率510個基點；未來關鍵在原料、關稅、產品組合與併購存貨公允價值攤銷。",
+      "Key Competitors": "主要競爭者包括Sherwin-Williams、PPG、Axalta、H.B. Fuller、Sika、Henkel、3M、Masco旗下Behr，以及建築防水與屋頂領域的Carlisle、GAF及Soprema。RPM在利基工程化學品與修復系統競爭，但在大眾塗料、黏著劑及零售通路面臨規模更大的同業壓力。",
+      "12M Catalysts": "FY2027公司指引營收成長3%至7%、調整後EBITDA成長5%至10%，高性能建築修復、基建、再工業化及跨品牌系統銷售是主要驅動。2026年4月併入Kalzip可補強歐洲金屬屋頂與外牆系統，The Pink Stuff則擴大Rust-Oleum在清潔品、電商、雜貨及藥妝通路的成長空間；2026年11月投資人日將公布下一輪營運改善計畫亦是估值催化劑。",
+      "Key Investment Risks": "住宅新建、DIY零售與歐洲需求疲軟可能拖累Consumer，工程專案延宕亦會影響CPG與PCG的銷量與固定成本吸收。樹脂、顏料、溶劑、石油天然氣衍生物、包材、運費、關稅及匯率波動會壓縮利潤；另有併購整合、環保與產品責任、網路資安、利率及淨負債風險。",
+      "CEO & Management": "Frank C. Sullivan自2002年起擔任董事長兼CEO，主導長期併購與MAP效率改善；David C. Dennsteadt於2026年7月升任總裁兼COO，負責營運事業群、策略、企業發展及主要後勤職能。管理層以分權營運、紀律化資本配置、連續52年提高股利及回購為核心股東回報框架。",
+      "Core Patents & IP": "核心IP以專利配方、製程、商標、商業機密、材料規格、施工技術與長期品牌資產共同構成，並非單一專利依賴型公司。Rust-Oleum、Tremco、Carboline、Stonhard、Euclid、DAP與The Pink Stuff等商標及工程規格認可，對定價與客戶轉換成本尤其重要。",
+      "3-Year M&A": "近三年重要交易包括2024年收購TMP Convert以擴充露台與景觀產品、2025年收購Ready Seal及英國Star Brands Group的The Pink Stuff、2026年完成收購德國Kalzip。Kalzip FY2024營收約7,500萬歐元，補足Tremco CPG的金屬屋頂、外牆及建築外殼方案；FY2026企業收購現金支出為2.024億美元。",
+      "CapEx & Expansion": "FY2026資本支出2.235億美元，略低於FY2025的2.299億美元，重點涵蓋產能、製造整合、成長投資與技術能力；此前亦購入馬來西亞新建廠房。公司在約167個國家與地區銷售、約120處製造據點營運，能貼近工程客戶但亦增加營運複雜度。",
+      "Geopolitical Exposure": "約31%銷售來自美國以外市場，歐洲、印度、中東、拉丁美洲及亞太需求、匯率與在地監管均會影響業績。原物料與包材全球供應、跨境關稅、俄烏戰爭相關能源與物流衝擊，以及中國與其他市場的政策變化，均可能影響成本、供貨與需求。",
+      "M&A Potential": "RPM具高可能性持續扮演收購方：過去30年約完成190宗收購、近十年超過60宗，且FY2026末流動性約10.9億美元並已將循環信貸額度延至2031年2月。其最可能鎖定能補強建築外殼、修復、防腐、工業塗層、清潔品及海外通路的中小型特用化學與建材品牌；自身因家族式文化、分權架構及約128億美元市值，被大型同業整體收購的可能性估低。"
+    },
+    {
+      "Country": "USA",
+      "Timeframe": "中長期",
+      "Sub-Sector": "汽車與工業塗料",
+      "Industry": "特用化學／塗料",
+      "Tier": "龍頭股",
+      "Company": "Axalta Coating Systems (AXTA)",
+      "Capital/Market Cap": "約 70億美元市值（估；2026年9月），另與AkzoNobel合併案隱含合併企業價值約250億美元。",
+      "Core Business": "Axalta提供液態、粉體與數位化塗料系統，核心應用為汽車原廠（輕型車與商用車）、汽車修補漆及工業塗裝，產品功能涵蓋外觀、耐候、防蝕、效率與永續合規。其品牌與技術亦延伸至電動車馬達、車身維修廠、商用運輸、建築與一般工業。",
+      "Clients & Orders": "客戶包括全球汽車OEM、零組件供應商、車身修理廠、經銷商及工業製造商，服務逾140國、逾10萬家客戶；長週期OEM認證及修補漆通路關係提高訂單黏著度。2025年北美需求與部分產量走弱壓抑銷量，但新增業務、匯率及價格／組合改善提供支撐。",
+      "Technical Moat": "護城河來自跨基材配方、色彩資料庫、車廠長期認證、在地技術服務及修補廠工作流程整合；Irus Mix自動調漆、Irus Scan光譜儀、Nimbus雲端平台與NextJet數位塗裝提升客戶效率與轉換成本。塗料雖僅占整車或維修費用的小部分，卻直接影響良率、外觀、防蝕與法規合規。",
+      "Revenue Breakdown": "2025年營收51.17億美元，約三分之二來自Performance Coatings（修補漆與工業），約三分之一來自Mobility Coatings（輕型車與商用車）；按終端市場估，修補漆為最大單一來源，其次為輕型車、工業及商用車。地域上北美、EMEA與亞太均具製造及銷售布局，匯率對報表營收具實質影響。",
+      "Gross Margin Profile": "公司未以產品線披露毛利率，但2025年調整後EBITDA為11.28億美元、利潤率22.0%，較2024年擴張80個基點，反映價格／組合、變動成本下降及營運效率。修補漆具有較高服務與品牌附加價值，通常優於OEM塗料；原料、能源、貨運及OEM產能利用率則是主要毛利波動來源。",
+      "Key Competitors": "主要競爭者為PPG Industries、Sherwin-Williams、BASF Coatings、Nippon Paint、Kansai Paint、Jotun及AkzoNobel；在汽車OEM與修補漆市場尤其直接競爭。若合併完成，AkzoNobel將由競爭者轉為互補平台，新增粉體、航空、海事防護與裝飾塗料能力。",
+      "12M Catalysts": "最大催化劑是已獲股東批准、正等待監管程序的AkzoNobel全股票合併，目標於2026年底至2027年初完成；公司預估稅前年度化成本協同約6億美元，約90%於交割後三年內實現。2026年指引為低個位數營收成長、調整後EBITDA 11.4億至11.7億美元、自由現金流逾5億美元；修補漆市占、新車產量復甦及數位化產品滲透是次要上行因子。",
+      "Key Investment Risks": "合併仍面臨競爭主管機關、交割時程、整合執行、資產處分及協同落空風險，且交易後AXTA將轉換為新公司股票與代號。營運面受全球車產量、碰撞維修量、景氣循環、鈦白粉／樹脂／溶劑成本、客戶集中度、外匯及高槓桿利息成本影響；2025年營收已因北美銷量下滑年減3%。",
+      "CEO & Management": "現任CEO兼總裁為Chris Villavarayan，曾任Meritor CEO，具商用車、OEM及工業供應鏈營運背景；CFO為Carl Anderson。若交易完成，AkzoNobel CEO Greg Poux-Guillaume將任合併公司CEO，Villavarayan將任副CEO，Anderson擬任合併公司CFO，管理連續性高但權責整合仍待驗證。",
+      "Core Patents & IP": "IP核心為高性能樹脂／顏料／交聯配方、水性與低VOC塗裝、色彩匹配演算法、塗裝工藝及品牌商標；其競爭價值更體現在OEM認證資料、色彩資料庫與客戶現場應用知識，而非單一專利。擬合併公司預計整合約3,200件已授權及申請中專利、約4億美元年度研發投入與91個研發據點。",
+      "3-Year M&A": "近三年最重要的已完成收購為2024年7月以約2.90億美元收購CoverFlexx Group，取得Transtar、Pro Form及Aftermkt Armor等北美經濟型修補漆與售後市場品牌。2025年11月宣布與AkzoNobel合併對等交易，並非現金收購；交易後Axalta股東預計持有合併公司45%。",
+      "CapEx & Expansion": "2025年資本支出1.96億美元，高於2024年的1.40億美元，主要投入製造據點生產力；2026年規劃1.80億至2.00億美元，偏向維護、效率、自動化及高附加價值產品能力，而非激進新建產能。2025年底淨槓桿降至2.3倍、營運現金流6.49億美元，提供持續投資與去槓桿空間。",
+      "Geopolitical Exposure": "營收與供應鏈跨北美、歐洲及亞太，易受中美與歐中貿易限制、關稅、區域汽車產量、能源價格、匯率與中國競爭加劇影響。合併後公司將在荷蘭稅務居民架構下、以阿姆斯特丹及費城雙總部營運，監管審查與跨境整合是近期最直接地緣政治變數。",
+      "M&A Potential": "短期內被第三方收購的機率低，因Axalta已進入與AkzoNobel具約束力的合併流程，且雙方股東已批准；投資論點應聚焦交易完成與協同兌現。若交割受阻，Axalta憑修補漆通路、全球OEM認證及自由現金流仍可能是大型塗料業者或私募基金的策略標的，但此屬估計。"
+    }
+  ],
+  "failed": [],
+  "requeued": [],
+  "excluded": [],
+  "summary": {
+    "batch_label": "API Batch 686 (new, codex)",
+    "updated": [],
+    "claimed": [
+      "RPM International (RPM)",
+      "Axalta Coating Systems (AXTA)"
+    ],
+    "unmatched": [],
+    "rows_exported": 3522
+  }
+}

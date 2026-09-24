@@ -36,3 +36,4 @@ __pycache__/
 
 # Dataset backups
 datasets/*.bak-*
+scripts/.codex_last_msg.txt
