@@ -1,7 +1,7 @@
 {
     "date": "2026-09-24",
     "calls": {
-        "gemini": 121,
+        "gemini": 130,
         "agy_claude": 0,
         "claude": 19,
         "codex": 0
