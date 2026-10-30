@@ -6,4 +6,4 @@ export PATH="/Users/peter/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/
 # Config path override to avoid macOS quarantine on scripts/config.json
 export ISR_CONFIG_PATH="/Users/peter/.config/investment_research/config.json"
 cd "$REPO_DIR"
-exec /usr/bin/python3 scripts/daily_group_digest.py --send
+exec /Library/Frameworks/Python.framework/Versions/3.11/bin/python3 scripts/daily_group_digest.py --send
