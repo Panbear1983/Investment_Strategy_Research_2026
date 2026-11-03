@@ -64,15 +64,45 @@ class CollectAndFormatTests(unittest.TestCase):
         self.assertEqual(data['providers'], {'gemini': 2, 'claude': 1})
         self.assertEqual(data['progress'], (3296, 100000))
 
-    def test_companies_are_described_by_country_and_sector(self):
+    def test_the_digest_is_a_short_counts_message(self):
+        # 2026-11-03, Peter: "These reports are too long" ... "Yes to all counts".
         text = rd.format_digest(self._data())
-        self.assertIn('📋 *Daily research digest — Tue 2026-09-08*', text)
-        self.assertIn('3 batches (2 Gemini, 1 Claude, 1 maintenance) · 2 new · 1 refreshed '
-                      '· 1 for review · 1 requeued · 0 excluded', text)
-        self.assertIn('Fully researched: 3,296 / 100,000', text)
-        self.assertIn('1. 株式会社トレードワークス (3997.T) · Japan · 金融科技', text)
-        self.assertIn('*Refreshed (1)*\n玉山金控 (2884.TW)', text)
-        self.assertIn('⚠ *Manual review (1)*: 台新金控 (2887.TW)', text)
+        self.assertEqual(text.split('\n'), [
+            '📋 *Daily research digest — Tue 2026-09-08*',
+            '3 batches · 2 new · 1 refreshed · 1 for review · 1 requeued · 0 excluded'
+            ' · Fully researched: 3,296 / 100,000',
+            '⚠ Needs you: 1 for manual review — 台新金控 (2887.TW)',
+        ])
+
+    def test_no_company_lists_for_new_refreshed_requeued_or_excluded(self):
+        data = self._data()
+        data['excluded'] = ['Excluded Co (EXC)']
+        text = rd.format_digest(data)
+        for name in ('株式会社トレードワークス', '國泰金控', '玉山金控', '삼성증권', 'Excluded Co'):
+            self.assertNotIn(name, text)
+        self.assertNotIn('http', text)
+
+    def test_no_review_line_when_nothing_needs_peter(self):
+        data = self._data()
+        data['review'] = []
+        text = rd.format_digest(data)
+        self.assertNotIn('Needs you', text)
+        self.assertEqual(len(text.split('\n')), 2)
+
+    def test_repeated_stall_alerts_collapse_into_one_line(self):
+        data = self._data()
+        data['alerts'] = ['direction list mined out', 'discovery failed for France',
+                          'direction list mined out', 'discovery failed for Singapore',
+                          'discovery failed for France']
+        lines = rd.format_digest(data).split('\n')
+        self.assertEqual(len(lines), 4)
+        self.assertEqual(lines[3], 'Alerts: direction list mined out; '
+                                   'discovery failed for France, Singapore')
+
+    def test_no_alert_line_without_alerts(self):
+        self.assertNotIn('Alerts', rd.format_digest(self._data()))
+        self.assertEqual(rd._alert_line([]), '')
+        self.assertEqual(rd._alert_line(None), '')
 
     def test_an_empty_day_says_so_instead_of_staying_silent(self):
         text = rd.format_digest(rd.collect_day('2026-01-01', self.dir, self.progress))
@@ -156,7 +186,9 @@ class DailyTriggerTests(unittest.TestCase):
 
 
 class RequestedMarkerTests(unittest.TestCase):
-    def test_hand_picked_companies_are_marked_in_the_digest(self):
+    def test_hand_picked_companies_are_still_recorded(self):
+        # The digest no longer lists companies (2026-11-03), but the collected data keeps
+        # the requested marker for anything that reads it.
         with tempfile.TemporaryDirectory() as tmp:
             _write_batch(tmp, 600, '2026-09-09',
                          records=[{'Company': '台積電 (2330.TW)', 'Country': 'Taiwan',
@@ -166,5 +198,6 @@ class RequestedMarkerTests(unittest.TestCase):
             data = rd.collect_day('2026-09-09', tmp, os.path.join(tmp, 'none.json'))
             text = rd.format_digest(data)
         self.assertEqual(data['requested'], ['台積電 (2330.TW)'])
-        self.assertIn('1. 台積電 (2330.TW) · Taiwan · 半導體 ★ requested by you', text)
-        self.assertIn('2. Other (OTH)\n', text + '\n')
+        self.assertEqual([c['requested'] for c in data['new']], [True, False])
+        self.assertIn('1 batches · 2 new', text)
+        self.assertNotIn('Fully researched', text)

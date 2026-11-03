@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""One Telegram message a day listing every company the research loop touched.
+"""One short Telegram message a day counting what the research loop did.
 
 Until 2026-09-08 the loop sent two messages per batch ("started", "Complete!") — with twenty
 slots a day that was a forty-message barrage every couple of minutes (Peter). Now the batch
@@ -106,8 +106,37 @@ def collect_day(day, batches_dir=None, progress_path=None):
     return out
 
 
+def _alert_line(alerts):
+    """Fold stall alerts into one line, each said once.
+
+    Alerts of the form "<what> for <place>" share one phrase and list the places, so ten
+    "discovery failed for X" alerts read as "discovery failed for A, B, C".
+    """
+    order, places = [], {}
+    for alert in alerts or []:
+        alert = str(alert).strip()
+        if not alert:
+            continue
+        m = re.match(r'^(.*\S) for (.+)$', alert)
+        what, where = (m.group(1), m.group(2).strip()) if m else (alert, None)
+        if what not in places:
+            order.append(what)
+            places[what] = []
+        if where and where not in places[what]:
+            places[what].append(where)
+    parts = [f"{what} for {', '.join(places[what])}" if places[what] else what
+             for what in order]
+    return f"Alerts: {'; '.join(parts)}" if parts else ''
+
+
 def format_digest(data):
-    """The digest as Telegram Markdown. Empty day → one honest line, never silence."""
+    """The digest as Telegram Markdown: a header, one line of counts, and only what needs
+    Peter. Empty day → one honest line, never silence.
+
+    Shrunk on 2026-11-03 (Peter: "These reports are too long" ... "Yes to all counts"): no
+    company-by-company lists for new, refreshed, requeued or excluded. The full detail stays
+    in scripts/batches/ and on the dashboard.
+    """
     day = data['day']
     try:
         weekday = datetime.date.fromisoformat(day).strftime('%a')
@@ -116,36 +145,19 @@ def format_digest(data):
     head = f"📋 *Daily research digest — {weekday} {day}*".replace('  ', ' ')
     if not data['batches']:
         return head + "\nNo batches ran. Check the dashboard if that was not expected."
-    providers = ', '.join(f"{n} {PROVIDER_NAMES.get(p, p)}" for p, n in
-                          sorted(data['providers'].items(), key=lambda kv: -kv[1]))
-    maintenance = sum(1 for b in data['batches'] if b['source'] == 'maintenance')
-    lines = [head,
-             f"{len(data['batches'])} batches ({providers}"
-             f"{f', {maintenance} maintenance' if maintenance else ''}) · "
-             f"{len(data['new'])} new · {len(data['refreshed'])} refreshed · "
-             f"{len(data['review'])} for review · {len(data['requeued'])} requeued · "
-             f"{len(data['excluded'])} excluded"]
-    if data['progress']:
+    counts = (f"{len(data['batches'])} batches · {len(data['new'])} new · "
+              f"{len(data['refreshed'])} refreshed · {len(data['review'])} for review · "
+              f"{len(data['requeued'])} requeued · {len(data['excluded'])} excluded")
+    if data.get('progress'):
         done, cap = data['progress']
-        lines.append(f"Fully researched: {done:,} / {cap:,}")
-    if data['new']:
-        lines.append(f"\n*New companies ({len(data['new'])})*")
-        for i, c in enumerate(data['new'], 1):
-            extra = ' · '.join(x for x in (c['country'], c['sector']) if x)
-            lines.append(f"{i}. {c['name']}" + (f" · {extra}" if extra else '')
-                         + (' ★ requested by you' if c.get('requested') else ''))
-    if data['refreshed']:
-        lines.append(f"\n*Refreshed ({len(data['refreshed'])})*")
-        lines.append(', '.join(c['name'] for c in data['refreshed']))
+        counts += f" · Fully researched: {done:,} / {cap:,}"
+    lines = [head, counts]
     if data['review']:
-        lines.append(f"\n⚠ *Manual review ({len(data['review'])})*: "
+        lines.append(f"⚠ Needs you: {len(data['review'])} for manual review — "
                      + ', '.join(data['review']))
-    if data['requeued']:
-        lines.append(f"\n↩ *Requeued ({len(data['requeued'])})*: "
-                     + ', '.join(data['requeued']))
-    if data['excluded']:
-        lines.append(f"\n⊘ *Excluded ({len(data['excluded'])})*: "
-                     + ', '.join(data['excluded']))
+    alert = _alert_line(data.get('alerts'))
+    if alert:
+        lines.append(alert)
     return '\n'.join(lines)
 
 
