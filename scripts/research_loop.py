@@ -1196,8 +1196,56 @@ class BudgetExhausted(Exception):
         self.cooldown_until = cooldown_until
 
 
+# Weekly Claude allowance brake. Headless `claude -p` draws on the weekly Claude plan allowance,
+# so provider `claude` (and only that one) is skipped unless the brake reports green. The brake
+# is a separate script that prints one line and exits 0 green, 1 amber, 2 red, 3 stop. Its answer
+# is cached so the loop does not run it for every company. Anything unexpected (script missing,
+# crash, timeout, unknown exit code) skips claude: fail safe, the other providers carry on.
+CLAUDE_BRAKE_PROVIDER = 'claude'
+CLAUDE_BRAKE_SCRIPT = os.environ.get('CLAUDE_BRAKE_SCRIPT') or os.path.expanduser(
+    '~/GitHub/K2C_Game_Engine/tools/budget/budget.py')
+CLAUDE_BRAKE_TTL = 600  # seconds
+_BRAKE_BANDS = {0: 'green', 1: 'amber', 2: 'red', 3: 'stop'}
+_brake_cache = {'at': None, 'band': None}
+_brake_logged_band = None
+
+
+def claude_weekly_band(now=None):
+    """Weekly band name ('green', 'amber', 'red', 'stop' or 'unavailable'), cached for 10 minutes."""
+    now = time.monotonic() if now is None else now
+    if _brake_cache['at'] is not None and now - _brake_cache['at'] < CLAUDE_BRAKE_TTL:
+        return _brake_cache['band']
+    band = 'unavailable'
+    try:
+        if os.path.isfile(CLAUDE_BRAKE_SCRIPT):
+            result = subprocess.run([sys.executable, '-I', CLAUDE_BRAKE_SCRIPT, 'weekly'],
+                                    capture_output=True, text=True, timeout=60)
+            band = _BRAKE_BANDS.get(result.returncode, 'unavailable')
+    except (OSError, subprocess.SubprocessError):
+        band = 'unavailable'
+    _brake_cache['at'], _brake_cache['band'] = now, band
+    return band
+
+
+def claude_allowed_by_brake():
+    """True only when the weekly band is green. Logs one line each time the skip reason changes."""
+    global _brake_logged_band
+    band = claude_weekly_band()
+    if band == 'green':
+        if _brake_logged_band is not None:
+            print('claude allowed again: weekly band green', flush=True)
+        _brake_logged_band = None
+        return True
+    if band != _brake_logged_band:
+        print(f'claude skipped: weekly band {band}', flush=True)
+        _brake_logged_band = band
+    return False
+
+
 def provider_eligible(cfg, state, provider, excluded=()):
     if provider in excluded:
+        return False
+    if provider == CLAUDE_BRAKE_PROVIDER and not claude_allowed_by_brake():
         return False
     ps = get_workflow().provider_state(provider)
     if not ps or not ps['enabled'] or ps['health'] in ('cooldown', 'auth_error'):

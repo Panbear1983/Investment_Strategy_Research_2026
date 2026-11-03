@@ -35,3 +35,17 @@ def _isolate_live_state(tmp_path, monkeypatch):
     # quota_connect() runs CREATE TABLE IF NOT EXISTS on open, so a fresh path needs no seeding.
     monkeypatch.setattr(botffet, 'QUOTA_DB', str(tmp_path / 'chat.sqlite3'))
     yield
+
+
+@pytest.fixture(autouse=True)
+def _fake_green_claude_brake(tmp_path, monkeypatch):
+    """provider_eligible() asks the weekly Claude brake before allowing provider `claude`. Point it
+    at a fake script that always says green, so no test depends on the real week's reading.
+    Tests of the brake itself (tests/test_claude_brake.py) override the script path."""
+    fake = tmp_path / 'fake_budget_green.py'
+    fake.write_text('import sys\nsys.exit(0)\n')
+    monkeypatch.setattr(rl, 'CLAUDE_BRAKE_SCRIPT', str(fake))
+    monkeypatch.setitem(rl._brake_cache, 'at', None)
+    monkeypatch.setitem(rl._brake_cache, 'band', None)
+    monkeypatch.setattr(rl, '_brake_logged_band', None)
+    yield
