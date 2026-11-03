@@ -125,6 +125,89 @@ class CollectAndFormatTests(unittest.TestCase):
         self.assertEqual(len(sent), 1)
 
 
+# A slice of loop.log as the loop really prints it (lines copied from scripts/loop.log,
+# 2026-11-02/03), with the previous and next day around it.
+_LOG = """\
+  ⚠️  discovery [Japan] produced nothing — every provider failed
+📋 daily digest for 2026-09-07 sent (3 message(s))
+  ⚠️  direction list mined out — every listed industry is resting; falling back to the config rotation until the list is retyped
+Queue empty (research), auto-falling back to maintenance mode.
+=== API Batch 537 (new, gemini): 1 companies ===
+  ⚠️  discovery [France] produced nothing — every provider failed
+  discovery [Singapore]: nominated 0, 0 new to research
+  ⚠️  discovery unproductive [Singapore] — 2 nominations returned, none usable (2 already covered) — resting until 2026-11-10
+Queue empty (research), auto-falling back to maintenance mode.
+  ⚠️  discovery [France] produced nothing — every provider failed
+  ⚠️  discovery [Sweden] produced nothing — every provider failed
+  ⚠️  discovery unproductive [France] — 2 nominations returned, none usable (2 already covered) — resting until 2026-11-10
+Queue empty (maintenance) — No matching candidates.
+  ⚠️  direction list mined out — every listed industry is resting; falling back to the config rotation until the list is retyped
+📋 daily digest for 2026-09-08 sent (1 message(s))
+  ⚠️  discovery [Brazil] produced nothing — every provider failed
+"""
+
+
+class AlertsFromLoopLogTests(unittest.TestCase):
+    """2026-11-03, Peter: "Yes 2" — the Alerts line must appear in real digests, fed by the
+    stall markers the loop already prints to loop.log."""
+
+    DAY = CollectAndFormatTests.DAY
+
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.dir = self.tmp.name
+        self.log = os.path.join(self.dir, 'loop.log')
+        with open(self.log, 'w', encoding='utf-8') as f:
+            f.write(_LOG)
+        _write_batch(self.dir, 537, self.DAY,
+                     summary={'updated': [], 'claimed': ['Co (C1)']})
+
+    def tearDown(self):
+        self.tmp.cleanup()
+
+    def _data(self, log=None):
+        return rd.collect_day(self.DAY, self.dir, os.path.join(self.dir, 'none.json'),
+                              log or self.log)
+
+    def test_the_days_stall_markers_become_one_merged_alerts_line(self):
+        lines = rd.format_digest(self._data()).split('\n')
+        self.assertEqual(lines[-1],
+                         'Alerts: direction list mined out; discovery failed for France, '
+                         'Sweden; discovery unproductive for Singapore, France; '
+                         'deep research queue empty; research loop idle')
+        self.assertEqual(sum(line.startswith('Alerts') for line in lines), 1)
+
+    def test_neighbouring_days_do_not_leak_in(self):
+        text = rd.format_digest(self._data())
+        self.assertNotIn('Japan', text)
+        self.assertNotIn('Brazil', text)
+
+    def test_before_the_days_digest_is_sent_the_slice_runs_to_the_end(self):
+        # The loop calls send_digest just before it prints this day's "digest sent" marker.
+        with open(self.log, 'w', encoding='utf-8') as f:
+            f.write(_LOG.split('📋 daily digest for 2026-09-08')[0])
+        self.assertIn('discovery failed for France, Sweden',
+                      rd.format_digest(self._data()))
+
+    def test_without_the_previous_marker_the_slice_starts_at_the_first_batch(self):
+        # The loop was down at midnight: no "digest for 09-07 sent" line. Start at batch 537.
+        with open(self.log, 'w', encoding='utf-8') as f:
+            f.write(_LOG.replace('📋 daily digest for 2026-09-07 sent', 'restarted'))
+        alerts = self._data()['alerts']
+        self.assertIn('discovery failed for France', alerts)
+        self.assertNotIn('discovery failed for Japan', alerts)
+
+    def test_a_calm_day_or_missing_log_has_no_alerts_line(self):
+        with open(self.log, 'w', encoding='utf-8') as f:
+            f.write('📋 daily digest for 2026-09-07 sent (1 message(s))\n'
+                    '=== API Batch 537 (new, gemini): 1 companies ===\n'
+                    '  discovery [Sweden]: nominated 2, 2 new to research\n')
+        self.assertNotIn('Alerts', rd.format_digest(self._data()))
+        missing = self._data(os.path.join(self.dir, 'no-such.log'))
+        self.assertEqual(missing['alerts'], [])
+        self.assertNotIn('Alerts', rd.format_digest(missing))
+
+
 class DailyTriggerTests(unittest.TestCase):
     """The loop sends yesterday's digest once local time passes daily_digest_time."""
 

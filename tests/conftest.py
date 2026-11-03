@@ -26,6 +26,7 @@ import pytest
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'scripts'))
 
 import botffet
+import research_digest
 import research_loop as rl
 
 
@@ -34,6 +35,8 @@ def _isolate_live_state(tmp_path, monkeypatch):
     monkeypatch.setattr(rl, 'STATE_PATH', str(tmp_path / 'loop_state.json'))
     # quota_connect() runs CREATE TABLE IF NOT EXISTS on open, so a fresh path needs no seeding.
     monkeypatch.setattr(botffet, 'QUOTA_DB', str(tmp_path / 'chat.sqlite3'))
+    # Read-only, but a digest test must not pick up the live loop's real alerts.
+    monkeypatch.setattr(research_digest, 'LOOP_LOG_PATH', str(tmp_path / 'loop.log'))
     yield
 
 

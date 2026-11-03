@@ -21,6 +21,9 @@ import sys
 SCRIPTS_DIR = os.path.dirname(os.path.abspath(__file__))
 BATCHES_DIR = os.path.join(SCRIPTS_DIR, 'batches')
 PROGRESS_PATH = os.path.join(SCRIPTS_DIR, 'build_progress.json')
+# The loop's own stdout (run_research_loop.sh / the launchd plist append to it). Read-only here:
+# its stall markers are the only record of the day's alerts.
+LOOP_LOG_PATH = os.path.join(SCRIPTS_DIR, 'loop.log')
 
 # Telegram caps a message at 4096 characters; leave room for the "(2/3)" marker and for the
 # transport's own framing.
@@ -41,17 +44,19 @@ def batch_files(day, batches_dir=None):
     return sorted(glob.glob(pattern))
 
 
-def collect_day(day, batches_dir=None, progress_path=None):
+def collect_day(day, batches_dir=None, progress_path=None, log_path=None):
     """Fold one day's batch files into counts and company lists.
 
     A company is `new` when the batch claimed it (first deep research) and `refreshed` when
     it updated a row that already existed — maintenance batches, and discoveries that turned
     out to be duplicates of a company already held. Country and sector come from the batch
     record so the digest reads as a list of businesses, not tickers.
+
+    `alerts` holds the day's stall markers from loop.log (see `day_alerts`).
     """
     out = {'day': day, 'batches': [], 'new': [], 'refreshed': [], 'review': [],
            'requeued': [], 'excluded': [], 'providers': {}, 'progress': None,
-           'requested': []}
+           'requested': [], 'alerts': []}
     seen = set()
     for path in batch_files(day, batches_dir):
         try:
@@ -103,7 +108,82 @@ def collect_day(day, batches_dir=None, progress_path=None):
                            int(progress.get('total_capacity', 100000)))
     except (OSError, ValueError, TypeError):
         pass
+    first_label = out['batches'][0]['label'] if out['batches'] else None
+    out['alerts'] = day_alerts(day, LOOP_LOG_PATH if log_path is None else log_path,
+                               first_label)
     return out
+
+
+# The loop's stall markers in loop.log, mapped to the short phrase the Alerts line uses. Each is
+# the print() that sits beside one of the loop's own Telegram stall messages in research_loop.py;
+# the loop itself is unchanged, the digest only reads what it already prints.
+_ALERT_ORDER = ('direction list mined out', 'discovery failed', 'discovery unproductive',
+                'deep research queue empty', 'research loop idle')
+_ALERT_MARKERS = (
+    (re.compile(r'direction list mined out'), 'direction list mined out'),
+    (re.compile(r'discovery \[(.+?)\] produced nothing — every provider failed'),
+     'discovery failed'),
+    (re.compile(r'discovery unproductive \[(.+?)\]'), 'discovery unproductive'),
+    (re.compile(r'^Queue empty \(\w+\), auto-falling back to maintenance'),
+     'deep research queue empty'),
+    (re.compile(r'^Queue empty \(\w+\) — '), 'research loop idle'),
+)
+
+
+def _day_lines(lines, day, first_label=None):
+    """The slice of loop.log that belongs to `day`.
+
+    loop.log has no timestamps, but the loop prints "📋 daily digest for <day> sent" at its
+    first idle tick after 00:05 the next morning, so the lines between the previous day's
+    digest marker and this day's are this day. Before this day's digest has gone out (the
+    loop calls send_digest just before printing the marker) the slice runs to the end of the
+    log. Without the previous day's marker — the loop was down at midnight — the slice starts
+    at this day's first batch header, missing at most the alerts printed before it.
+    """
+    def marker(d):
+        text = f'📋 daily digest for {d} sent'
+        for i, line in enumerate(lines):
+            if line.startswith(text):
+                return i
+        return None
+
+    try:
+        prev = (datetime.date.fromisoformat(day) - datetime.timedelta(days=1)).isoformat()
+    except ValueError:
+        return []
+    start = marker(prev)
+    if start is None and first_label:
+        header = f'=== {first_label}:'
+        start = next((i for i, line in enumerate(lines) if line.startswith(header)), None)
+    if start is None:
+        return []
+    end = marker(day)
+    if end is None or end < start:
+        end = len(lines)
+    return lines[start:end]
+
+
+def day_alerts(day, log_path, first_label=None):
+    """The day's stall alerts from loop.log, as "<what>" or "<what> for <place>" phrases in a
+    fixed order (worst first); `_alert_line` folds repeats. A missing log means no alerts."""
+    try:
+        with open(log_path, encoding='utf-8', errors='replace') as f:
+            lines = f.read().split('\n')
+    except OSError:
+        return []
+    found = []
+    for line in _day_lines(lines, day, first_label):
+        line = line.strip().lstrip('⚠️').strip()
+        for pattern, what in _ALERT_MARKERS:
+            m = pattern.search(line)
+            if m:
+                where = m.group(1).strip() if m.groups() else ''
+                alert = f'{what} for {where}' if where else what
+                if alert not in found:
+                    found.append(alert)
+                break
+    return sorted(found, key=lambda a: next(i for i, w in enumerate(_ALERT_ORDER)
+                                            if a.startswith(w)))
 
 
 def _alert_line(alerts):
