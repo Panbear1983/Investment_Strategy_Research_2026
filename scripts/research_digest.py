@@ -53,11 +53,17 @@ def collect_day(day, batches_dir=None, progress_path=None, log_path=None):
     record so the digest reads as a list of businesses, not tickers.
 
     `alerts` holds the day's stall markers from loop.log (see `day_alerts`).
+
+    `requeued` holds each company once, in first-seen order; `requeued_times` counts every
+    requeue. When no provider can work, the loop requeues the same front-of-queue companies
+    on every slot (2026-11-05: 46 companies requeued 274 times), and counting those repeats
+    made the digest read as hundreds of companies.
     """
     out = {'day': day, 'batches': [], 'new': [], 'refreshed': [], 'review': [],
-           'requeued': [], 'excluded': [], 'providers': {}, 'progress': None,
-           'requested': [], 'alerts': []}
+           'requeued': [], 'requeued_times': 0, 'excluded': [], 'providers': {},
+           'progress': None, 'requested': [], 'alerts': []}
     seen = set()
+    requeued_seen = set()
     for path in batch_files(day, batches_dir):
         try:
             with open(path, encoding='utf-8') as f:
@@ -99,7 +105,12 @@ def collect_day(day, batches_dir=None, progress_path=None, log_path=None):
                 seen.add(key)
                 out['refreshed'].append(describe(name))
         out['review'].extend(batch.get('failed') or [])
-        out['requeued'].extend(batch.get('requeued') or [])
+        for name in batch.get('requeued') or []:
+            out['requeued_times'] += 1
+            key = _ticker(name) or name
+            if key not in requeued_seen:
+                requeued_seen.add(key)
+                out['requeued'].append(name)
         out['excluded'].extend(batch.get('excluded') or [])
     try:
         with open(progress_path or PROGRESS_PATH, encoding='utf-8') as f:
@@ -225,9 +236,13 @@ def format_digest(data):
     head = f"📋 *Daily research digest — {weekday} {day}*".replace('  ', ' ')
     if not data['batches']:
         return head + "\nNo batches ran. Check the dashboard if that was not expected."
+    requeued = f"{len(data['requeued'])} requeued"
+    times = data.get('requeued_times', 0)
+    if times > len(data['requeued']):
+        requeued += f" ({times} times)"
     counts = (f"{len(data['batches'])} batches · {len(data['new'])} new · "
               f"{len(data['refreshed'])} refreshed · {len(data['review'])} for review · "
-              f"{len(data['requeued'])} requeued · {len(data['excluded'])} excluded")
+              f"{requeued} · {len(data['excluded'])} excluded")
     if data.get('progress'):
         done, cap = data['progress']
         counts += f" · Fully researched: {done:,} / {cap:,}"

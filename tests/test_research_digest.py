@@ -82,6 +82,26 @@ class CollectAndFormatTests(unittest.TestCase):
             self.assertNotIn(name, text)
         self.assertNotIn('http', text)
 
+    def test_a_company_requeued_or_refreshed_in_many_batches_counts_once(self):
+        # 2026-11-05: with no working provider the loop requeued the same companies on
+        # every slot (Montage Gold 11 times), and the digest counted 274 "requeued".
+        stuck = ['Montage Gold (MAU.TO)', 'Incyte (INCY)']
+        for seq in (544, 545, 546):
+            _write_batch(self.dir, seq, self.DAY, source='maintenance', requeued=stuck,
+                         summary={'updated': ['玉山金控 (2884.TW)'], 'claimed': []})
+        data = self._data()
+        self.assertEqual(data['requeued'],
+                         ['삼성증권 (016360.KS)', 'Montage Gold (MAU.TO)', 'Incyte (INCY)'])
+        self.assertEqual(data['requeued_times'], 7)
+        self.assertEqual([c['name'] for c in data['refreshed']], ['玉山金控 (2884.TW)'])
+        counts = rd.format_digest(data).split('\n')[1]
+        self.assertIn('1 refreshed', counts)
+        self.assertIn('3 requeued (7 times)', counts)
+        self.assertNotIn('Montage', rd.format_digest(data))
+
+    def test_requeued_without_repeats_shows_no_times_note(self):
+        self.assertNotIn('times', rd.format_digest(self._data()))
+
     def test_no_review_line_when_nothing_needs_peter(self):
         data = self._data()
         data['review'] = []
